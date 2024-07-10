@@ -207,63 +207,63 @@ export default async ({ req, res, log, error }) => {
   },{name: "26-44",title:"Girişim",value:`Hedeflediğin kişilere, bir şeyi ikna edici bir şekilde anlatma ve kabul ettirme ya da satma yeteneğine sahipsin. Başkalarını içgüdüsel olarak değerlendirmek ve onları "ihtiyaç duydukları" ürünler, işler ve hatta ideolojilerle eşleştirmek için bir yeteneğin var. İçgüdülerine güven - bir şey doğru 'kokmuyorsa', ondan uzaklaş.`
   }]
   var holland = [
-      {name:"Araştırıcı",value:{
+      {name:"Araştırıcı",nameBig:"ARAŞTIRICI",value:{
       description:`Harekete geçmek yerine düşünmeyi ve gözlemlemeyi seçmek\nİkna etmek yerine bilgiyi düzenlemeyi ve anlamayı seçmek\nİnsanlarla çalışmak yerine verilerle çalışmak`,
       feature:`Entelektüel, analitik düşünce yapısına sahip, rasyonel, eleştirel, titiz, sabırlı, yöntemci, bağımsız, popüler olmaktan hoşlanmayan`,
       value:0
     },},
-    {name:"Sosyal", value:{
+    {name:"Sosyal",nameBig:"SOSYAL", value:{
       description:`Diğer insanlarla yakın ilişkiler kurmak için daha fazla çekilirler.\nEntellektüel veya fiziksel olmak istemeye daha az eğilimlidirler.\nÖğretme veya yardım durumlarında, ihtiyaçlarını karşılıyor gibi görünen insanlarla çalışmayı severler`,
       feature:`Yardımsever, sorumluluk sahibi, sosyal işbirliğine yatkın, empatik, arkadaş canlısı, içten, sabırlı, nazik, anlayışlı`,
       value:0
     }},
-    {name:"Gerçekçi",value:{
+    {name:"Gerçekçi",nameBig:"GERÇEKÇİ",value:{
       description:`Nesnelerle çalışmayı seven, “iddialı ve rekabetçi” dirler.\nMotor koordinasyon, beceri ve güç gerektiren faaliyetlere odaklanırlar.\nKonuşmak ya da oturup düşünmek yerine bir problem üzerinde çalışmayı tercih eder.\nSoyut olandan ziyade somuta odaklanırlar.\nEstetikten ziyade bilimsel ve mekanik olanı seçerler.`,
       feature:`Sabırlı ve hoşgörülü, pratik, maddeci, eril, antisosyal, uyumlu, içten, doğal, sabırlı, iç görüleri ve başarma güdüleri fazla`,
       value:0
     }},
-    {name:"Girişimci",value:{
+    {name:"Girişimci",nameBig:"GİRİŞİMCİ",value:{
       description:`İnsanlar ve veriler ile çalışmayı severler.\nOnlar iyi konuşmacılardır ve bu beceriyi başkalarına liderlik etmek veya ikna etmek için kullanırlar.\nAyrıca "güce, paraya ve statüye" değer vererek yüksek güçlü durumlara çekilirler`,
       feature:`Dışa dönük, enerjik, kendine güvenli, atılgan, fevri, ikna yeteneği yüksek, sabırsız, meraklı, maceracı, iyimser, sosyal, konuşkan`,
       value:0
     }},
-    {name:"Artistik Sanatsal",value:{
+    {name:"Artistik Sanatsal",nameBig:"ARTİSTİK SANATSAL",value:{
       description:`Estetik faaliyetler yaparlar\nTutkulu, bağımsız, sistematik olmayan aktiviteleri severler\nSanatsal etkinlik ve ürünler yaratmayı tercih ederler\nBağımsız, yaratıcı çalışmalar içindedirler`,
       feature:`Heyecan ve coşkuları dengesiz, hayalci, fevri, karmaşık, sezgileri güçlü, bağımsız, duygusal, uyumlu olmayan, duyarlı ve etkileyici`,
       value:0
     }},
-    {name:"Geleneksel",value:{
+    {name:"Geleneksel",nameBig:"GELENEKSEL",value:{
       description:`Sistemli kurallara bağlı aktiviteler\nNesnelerle ilgili sistematik çalışmalar\nKayıt tutma, hesaplama, kontrol işlemleri, veri`,
       feature:`Dikkatli, titiz, itaatkar, tutarlı, esnek olmayan, düzenli, sabırlı, vicdanlı, özdenetimli, hayal gücünden yoksun, dengeli`,
       value:0
     }}
   ]
   var big5 =[
-    {name:"Deneyime Açıklık",value:{
+    {name:"Deneyime Açıklık",nameBig:"DENEYİME AÇIKLIK",value:{
       karakter:`Deneyime açıklık, kişinin yeni fikirleri ve deneyimleri ne kadar istekli bir şekilde kabul ettigini yansıtır.`,
       arti:`Deneyime açıklık, yaratıcılığı, esnekliği ve yeni fikirleri benimseme yeteneğini yansıtır. Bu özellik, sanat ve inovasyon alanlarında başarı getirebilir.`,
       eksi:`Deneyime aşırı açık olmak, bazen odak kaybına veya sabit bir kariyer hedefine sahip olmama sorunlarına neden olabilir.`,
       value:0,
     }},
-    {name:"Uyumluluk",value:{
+    {name:"Uyumluluk",nameBig:"UYUMLULUK",value:{
       karakter:`Uyumluluk, kişinin diğer insanlarla nasıl etkileşimde bulunduğunu, empati yeteneğini ve işbirliği yapma istegini yansıtır.`,
       arti:`Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.`,
       eksi:`Aşırı uyumlu olmak, sınırların belirsizleşmesine ve iş yerinde zor kararlar almada güçlük yaşanmasına neden olabilir.`,
       value:0
     }},
-    {name:"Öz Disiplin",value:{
+    {name:"Öz Disiplin",nameBig:"ÖZ DİSİPLİN",value:{
       karakter:`Öz Disiplinli olma, kişinin disiplini, organizasyon yeteneği ve hedeflerine nasıl sadık kaldığını yansıtır.`,
       arti:`Öz Disiplinli olma, disiplini, organizasyon becerilerini ve sorumluluk hissini yansıtır. Bu, zaman yönetimi ve verimlilik açısından avantaj sağlayabilir.`,
       eksi:`Aşırı öz disiplinli olmak, esneklik eksikliğine yol açabilir ve iş yerinde aşırı mükemmeliyetçiliğe neden olabilir.`,
       value:0
     }},
-    {name:"Dışa Dönüklük",value:{
+    {name:"Dışa Dönüklük",nameBig:"DIŞA DÖNÜKLÜK",value:{
       karakter:`Dışa Dönükler, sosyal ilişkileri geliştirmeye ve yeni arkadaşlar edinmeye açık olabilirler. Kişinin sosyal çevresiyle daha fazla etkileşimde bulunma eğilimini yansıtabilir.`,
       arti:`Sosyal etkileşimlere yatkınlık, liderlik pozisyonlarına uygunluk ve ekip çalışması yeteneği gibi dışa dönüklük özellikleri, iş yerinde iş birligi ve iletişim becerilerini geliştirebilir.`,
       eksi:`İş yerinde fazla dışa dönük olmak, odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.`,
       value:0
     }},
-    {name:"Duygusal Dayanıklılık",value:{
+    {name:"Duygusal Dayanıklılık",nameBig:"DUYGUSAL DAYANIKLILIK",value:{
       karakter:`Duygusal kararlılık, kişinin stresle nasıl başa çıktığını, duygusal dengeyi koruma yeteneğini ve özsaygısını yansıtabilir.`,
       arti:`Duygusal istikrar, stresle başa çıkma yeteneği ve iş yerinde olumsuz durumları tolere etme yeteneğini yansıtır. Bu, kriz anlarında sakin kalma ve etkili kararlar alabilme yeteneğini artırabilir.`,
       eksi:`Aşırı Duygusal istikrar, stresli işlerde veya kriz durumlarında zorluk yaratabilir ve ilişkileri etkileyebilir.`,
@@ -460,10 +460,10 @@ export default async ({ req, res, log, error }) => {
     p1a4:rawData.find(x=>x.name=="kisiselbilgi / isim").string + " "+rawData.find(x=>x.name=="kisiselbilgi / soyisim").string,
     p2a3:rawData.find(x=>x.name=="kisiselbilgi / isim").string,
     p3a3:hollandData[0].name+" ve "+hollandData[1].name+" kişilik özelliklerinin baskın, "+hollandData[5].name + " özelliğinin daha geri planda olduğu bir yapın var.",
-    p3a5:String(hollandData[0].name).toUpperCase(),
+    p3a5:String(hollandData[0].nameBig),
     p3a7:holland.find(x =>x.name==hollandData[0].name).value.description,
     p3a9:holland.find(x =>x.name==hollandData[0].name).value.feature,
-    p3a6:String(hollandData[1].name).toUpperCase(),
+    p3a6:String(hollandData[1].nameBig),
     p3a8:holland.find(x =>x.name==hollandData[1].name).value.description,
     p3a10:holland.find(x =>x.name==hollandData[1].name).value.feature,
     p4a2:big5.find(x=> x.name==big5Data[0].name).value.karakter +"\n"+big5.find(x=> x.name==big5Data[1].name).value.karakter +"\n"+big5.find(x=> x.name==big5Data[2].name).value.karakter,//"des",
