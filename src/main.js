@@ -3,6 +3,16 @@ import { Client, Databases } from 'node-appwrite';
 // This is your Appwrite function
 // It's executed each time we get a request
 export default async ({ req, res, log, error }) => {
+
+    fetch('files/dosya.txt')
+    .then(response => response.text())
+    .then(data => {
+      const satirlar = data.split('\n'); // Satırları ayır
+      console.log(satirlar[0]); // İlk satırı yazdır
+      // Burada istediğiniz satırı `satirlar[index]` ile alabilirsiniz
+    })
+    .catch(error => console.error('Dosya okunamadı:', error));
+
     function getAllGates(jsonData) {
         let gates = [];
 
@@ -147,13 +157,6 @@ export default async ({ req, res, log, error }) => {
             image: "https://appwrite.indata.com.tr/v1/storage/buckets/images/files/6-3/view?project=65dc554eb069bed83c59"
         }
     ]
-    // var strategy=[
-    //   {name:'Every One',value:''},
-    //   {
-
-    //   }
-    // ]
-    // var strategyText=strategy.find(x=>x.name.toLowerCase().includes(data.toLowerCase())).value;
     var strategyevery = { name: "herkes", value: `Aldığın kararlar yolunu şekillendirmede kilit rol oynar, sadece profesyonel gidişatını değil, güvenini, iç huzurunu ve genel başarını da etkiler. Karar Alma Stratejini iş yaşamın boyunca sana yön ve güven sunan bir pusula gibi düşünebilirsin.` }
     var strategy = [
         {
@@ -491,10 +494,7 @@ export default async ({ req, res, log, error }) => {
         }
 
     });
-
-
-
-    var careerSelectionLastResult = [{ id: 0, name: "Analitik", value: 0 }, { id: 1, name: "Yaratıcı ve Sanatsal", value: 0 }, { id: 2, name: "Liderlik ve Yönetim", value: 0 }, { id: 3, name: "Sosyal", value: 0 }, { id: 4, name: "Teknik ve Mühendislik", value: 0 }, { id: 5, name: "Satış ve İlişkisel", value: 0 }, { id: 6, name: "Organizasyonel", value: 0 }, { id: 7, name: "Girişimci", value: 0 }, { id: 8, name: "Öğretici ve Mentor", value: 0 }];
+var careerSelectionLastResult = [{ id: 0, name: "Analitik", value: 0 }, { id: 1, name: "Yaratıcı ve Sanatsal", value: 0 }, { id: 2, name: "Liderlik ve Yönetim", value: 0 }, { id: 3, name: "Sosyal", value: 0 }, { id: 4, name: "Teknik ve Mühendislik", value: 0 }, { id: 5, name: "Satış ve İlişkisel", value: 0 }, { id: 6, name: "Organizasyonel", value: 0 }, { id: 7, name: "Girişimci", value: 0 }, { id: 8, name: "Öğretici ve Mentor", value: 0 }];
     for (let index = 0; index < 9; index++) {
         careerSelectionLastResult[index].value += Math.round((careerSelectionResult[0].value[index] * 40) / 100);
         careerSelectionLastResult[index].value += Math.round((careerSelectionResult[1].value[index] * 30) / 100);
@@ -672,7 +672,103 @@ export default async ({ req, res, log, error }) => {
 
 
     // İletişim 
-    var ai_iletişim_ve_işbirliği_0 = 'İletişim ve İşbirliği'
+    //12-25
+    var ai_iletisim_ve_etkilesim_0 = 'İLETİŞİM VE ETKİLEŞİM TARZIN'
+    var ai_iletisim_ve_etkilesim_1 = 'Kariyerinde ve işinde başarılı olmak için, başkalarıyla etkileşim kurma sanatını öğrenmen çok önemli. Çevrendeki insanları nasıl etkilediğini anlamak ve kişiler arası dinamikleri yönetmeyi öğrenmek, başarını büyük ölçüde etkileyebilir. Etkileşim ve İletişim Dinamiğininin farkına vardığında, başkalarıyla kolayca iletişim kurma yeteneği kazanır, dirençleri ortadan kaldırır ve daha akıcı bir iletişim ortamı yaratabilirsin. '
+    var ai_iletisim_ve_etkilesim_2 = 'ENERJİK'
+    var ai_iletisim_ve_etkilesim_3 = 'Etkili iletişimin merkezinde, sessiz bir iletişimci olarak hareket eden, başkalarını ve fırsatları sana çeken sözsüz varlığın var. Açık ve saran varlığın bir mıknatıs gibi davranır, doğal olarak insanları kendine çeker ve verimli etkileşimlerin yolunu açar. '
+    var ai_iletisim_ve_etkilesim_4 = 'Başkalarıyla Başarılı Etkileşimlerin Anahtarı... '
+    var ai_iletisim_ve_etkilesim_5 = 'Etkileşimde bulunmadan önce yanıt vermek için bekle:'
+    var ai_iletisim_ve_etkilesim_6 = 'Etkileşimleri başlatmaktan kaçınarak ve bunun yerine yanıt vermeyi bekleyerek iletişim kanallarını açar ve direnci ortadan kaldırabilirsin. Farkındalığını açmak, fırsatları ortaya çıktıkça gözlemlemek ve başkalarıyla etkileşime girmeden önce sezgilerini dinlemek için pratik yapabilirsin. '
+    var ai_iletisim_ve_etkilesim_7 = 'Doğru Hissettiren Şeylere Yanıt Ver: '
+    var ai_iletisim_ve_etkilesim_8 = 'İç güdülerine güven ve seninle rezonansa giren şeylere olanak tanıyan durumlara yanıt vermeye çalış. Seni neyin heyecanlandırdığına ve değerlerinle uyumlu olduğuna dikkat et, gerçek coşkunun etkileşimlerine rehberlik etmesine izin ver. '
+    var ai_iletisim_ve_etkilesim_9 = 'Başlatma - yalnızca önce yanıt verdikten sonra etkileşime geç:'
+    var ai_iletisim_ve_etkilesim_10 = 'Etkileşim başlatmak yerine, kişisel tercihlerin ve hedeflerinle uyumlu davetlere ve fırsatlara yanıt vermeye odaklan. Etkileşimlerin organik olarak ortaya çıkmasına izin vererek, karşılıklı anlayış ve saygıya dayanan özgün bağlantılar oluştururabilirsin. '
+    var ai_iletisim_ve_etkilesim_11= 'İş yerinde etkili iletişim ve katılım '
+    var ai_iletisim_ve_etkilesim_12 = 'Doğal Manyetizmandan Yararlan: İnsanları varlığınla içine çekme konusundaki doğuştan gelen yeteneğin büyük bir varlık. İşyerinde, sürekli olarak ulaşılabilir olarak bu manyetizmanın senin için çalışmasına izin ver. İş arkadaşların doğal olarak sana yönelecek, projelerde girdilerini ve desteğini arayacak ve girişimleri ileriye taşıyan enerjiyi sağlama yeteneğini kabul edeceklerdir. '
+    var ai_iletisim_ve_etkilesim_13 = 'Niyetle Yanıt Ver: Harekete geçmek cazip gelse de, gücünün yanıt olarak yattığını unutma. Aktif dinleme pratiği yapabilir ve seni gerçekten heyecanlandıran ve değerlerinle uyumlu projelerle meşgul olabilirsin. Başlatmak yerine yanıt verdiğinde, çabalarının daha etkili olduğu ve temel katkılar olarak kabul edildiği bir dinamik yaratma olasılığın çok daha fazla. '
+    var ai_iletisim_ve_etkilesim_14 = 'Net Sınırlar Oluştur: Görevleri üstlenme kapasiten ve istekliliğin konusunda net ol. Bu, aşırı taahhütte bulunmamanı sağlar ve enerjini en üretken olabileceğin görevlere yönlendirmene olanak tanır. Kapasiten dahilinde çalıştığında, işteki memnuniyetin artar ve bu doğal olarak senin mutluluğunu ve başarını etkiler. '
+    var ai_iletisim_ve_etkilesim_15 = 'Katılımda Coşku Göster: Katılmayı seçtiğinde, bunu belirgin bir coşkuyla göster. Enerjin bulaşıcıdır ve ekibine ilham verebilir ve onları motive edebilir. İş için gerçek heyecanının etkileşimlerine rehberlik etmesine izin ver, bunun ekip dinamiklerin içinde daha da önemli hale geldiğinizi göreceksiniz. '
+    var ai_iletisim_ve_etkilesim_16 = 'Kendini Değerlendirme'
+    var ai_iletisim_ve_etkilesim_17 = 'Enerjik'
+    var ai_iletisim_ve_etkilesim_18 = 'Etkileşimlerde bulunmadan önce yanıt vermek için bekliyor musun? Sezgilerini dinleyip, doğru zamanın gelmesini nasıl fark edebilirsin? '
+    var ai_iletisim_ve_etkilesim_19 = 'Seni gerçekten heyecanlandıran şeylere yanıt veriyor musun? İçgüdülerine güvenip, sadece seninle uyumlu olan fırsatları seçmek için neler yapabilirsin? '
+    var ai_iletisim_ve_etkilesim_20 = 'Etkileşim başlatmadan önce gerçekten yanıt verdiğinden emin oluyor musun? Bu yaklaşımı iş ve sosyal hayatında nasıl daha fazla uygulayabilirsin? '
+    var ai_iletisim_ve_etkilesim_21 = 'İnsanların doğal olarak sana yöneldiğini fark ediyor musun? Doğal manyetizman sayesinde iş yerinde daha verimli etkileşimler yaratmak için hangi yolları izleyebilirsin? '
+    var ai_iletisim_ve_etkilesim_22 = 'İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin? '
+    var ai_iletisim_ve_etkilesim_23 = 'Rehber'
+    var ai_iletisim_ve_etkilesim_24 = 'Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir. '
+    var ai_iletisim_ve_etkilesim_25 = 'Başkalarıyla Başarılı Etkileşimlerin Anahtarı... '
+    var ai_iletisim_ve_etkilesim_26 = 'Katılmadan Önce Tanınma ve Davet Bekle: Tanınma konusunda başarılı olursun. Katılmadan önce, becerilerin, yeteneklerin ve rehberlik etme ve liderlik etme kapasiten için fark edildiğinden ve kabul edildiğinden emin ol. Bu, etkileşimlerinin özgün ve tanınmış bir temele dayanmasını sağlar. '
+    var ai_iletisim_ve_etkilesim_27 = 'Tanınma ve Davet: Çevrene uyum sağla ve yoluna çıkan fırsatlara açık ol. Aldığın tanınma ve davetle bir rezonans hissettiğinde bu fırsatların doğru olduğunu bileceksin. Birisi büyük resmi görme yeteneklerini tanıyacak ve seni rehber niteliklerinle uyumlu bir role, projeye veya ortaklığa davet edecektir. '
+    var ai_iletisim_ve_etkilesim_28 = 'Tanındığında ve Davet Edildiğinde Etkileşim Kur: Katkıların tanınma ve ardından bir davet yoluyla istendiğinde, bu, etkileşim kurman için ipucudur. İç görülerine ve rehberliğine değer veren birinin takdiri, beklediğin sinyaldir. Bu sadece karar verme stratejininin ilk kısmı değil, aynı zamanda önündeki fırsatın doğru olmasını sağlamanın anahtarıdır. '
+    var ai_iletisim_ve_etkilesim_29 = 'Sabırlı Yanını Güçlendir: Yönlendirme ve organize etme konusunda istekli olsan da, devreye girmek için sabırlı olman önemlidir. Dikkatle dinlemeyi alışkanlık haline getirmen  ve fikirlerini yalnızca davet edildiğini hissettiğinde paylaşman önemli—bu bir baş selamı, meraklı bir bakış, konuşmada bir duraklama ya da doğrudan görüşünü paylaşman için yapılan bir davet olabilir. Genellikle bu tür anlarda, diğerlerinden gelen onayla devreye girmen gerektiğini anlarsın. '
+    var ai_iletisim_ve_etkilesim_30 = 'Davetlerde Ayırt Etme Gücüyle Gezin: Projelere liderlik etme, yeni roller üstlenme veya ekiplere katılma davetleri ortaya çıktığında, onlara ayırt edici bir şekilde yaklaşman lazım. Uzmanlığın ve içsel bilgeliğinle gerçekten rezonansa girenleri kabul etmeli ve uymayanları red etmelisin. Enerjinim çabaları yerine getirmeye yatırıldığından emin olun. '
+    var ai_iletisim_ve_etkilesim_31 = 'Bire Bir Etkileşimlerden Yararlan: Rehberler bire bir ortamlarda parlar. İlişkileri derinleştirmek ve iş arkadaşlarının ihtiyaçlarını anlamak için bireysel etkileşimleri kullanman daha doğru olur. Bu bağlantılar sayesinde, sana rehberlik etmek için doğru zamanı işaret eden tanınma ve davetleri sık sık bulacaksın. '
+    var ai_iletisim_ve_etkilesim_32 = 'Tanınmaya Açık Olduğunuzu Göster: Katkıda bulunma fırsatlarını memnuniyetle karşıladığını incelikle bil. Bu, projelere ilgi göstererek veya ulaşılabilir olarak yapılabilir. Açık tavrın, danışman rolünün en etkili olabileceği iş birliklerine davet edilmeye hazır ve istekli olduğunu başkalarına gösterecektir. '
+    var ai_iletisim_ve_etkilesim_33 = 'Kendini Değerlendirme'
+    var ai_iletisim_ve_etkilesim_34 = 'Tanınma ve davet beklerken ne kadar sabırlı olabiliyorsun? '
+    var ai_iletisim_ve_etkilesim_35 = 'Hangi durumlarda aceleyle harekete geçmek yerine, doğru fırsatların sana gelmesini bekleyebilirsin? '
+    var ai_iletisim_ve_etkilesim_36 = 'Sana sunulan davetler ve tanınma fırsatlarıyla ne kadar uyum içindesin?'
+    var ai_iletisim_ve_etkilesim_37 = 'Bu fırsatların gerçekten seni en iyi yansıttığını nasıl fark edebilirsin? '
+    var ai_iletisim_ve_etkilesim_38 = 'Fikirlerini paylaşmadan önce davet edildiğini hissettiğinden emin oluyor musun?'
+    var ai_iletisim_ve_etkilesim_39 = 'İlişkilerinde bu ince işaretleri nasıl daha iyi gözlemleyebilirsin? '
+    var ai_iletisim_ve_etkilesim_40 = 'Bire bir ilişkilerde nasıl parladığını fark ediyor musun? '
+    var ai_iletisim_ve_etkilesim_41 = 'İş arkadaşlarınla daha derin bağlantılar kurmak için hangi yolları izleyebilirsin? '
+    var ai_iletisim_ve_etkilesim_42 = 'Projelerde veya rollerde tanınmaya açık olduğunu başkalarına nasıl hissettiriyorsun?'
+    var ai_iletisim_ve_etkilesim_43 = 'Ulaşılabilir ve açık tavrını iş yerinde daha etkili bir şekilde nasıl gösterebilirsin? '
+    var ai_iletisim_ve_etkilesim_44 = 'Başlatıcı '
+    var ai_iletisim_ve_etkilesim_45 = 'Senin varlığın kapalı ve koruyucu, bir kalkan ve mızrak gibi işlev görüyor. İçsel bir güce sahip olup, dışa doğru bir itişle harekete geçiyor ve başkalarını doğrudan etkiliyorsun. Enerjin bazen baskın olarak yanlış anlaşılabilir, ancak bu sadece senin doğal olarak proaktif ve kararlı olma halindir. '
+    var ai_iletisim_ve_etkilesim_46 = 'Başkalarıyla Başarılı Etkileşimlerin Anahtarı... '
+    var ai_iletisim_ve_etkilesim_47 = 'Bilgilendirme ve Harekete Geçme: İçsel başlatma gücünü başkalarının ihtiyaçları ve sınırlarıyla uyumlu hale getirmek için, harekete geçmeden önce bilgilendirmek çok önemlidir. Bu uygulama sadece direnci azaltmakla kalmaz, aynı zamanda vizyonunu etkili bir şekilde tezahür ettirmek için ihtiyaç duyduğun özgürlüğün yolunu açar. '
+    var ai_iletisim_ve_etkilesim_48 = 'Başlatıcı Varlığını Yönet: Başlatıcı enerjinin bazen başkalarını savunmaya geçirebileceğini anlamalısın. İş birliği içinde bir ortam yaratmak için, çevrendekilere niyetlerin ve eylemlerin hakkında önceden bilgi vermeyi öğren. Bu açıklık, insanların motivasyonlarını daha iyi anlamalarına yardımcı olacak ve yanlış anlaşılmaların önüne geçecektir. '
+    var ai_iletisim_ve_etkilesim_49 = 'Eşsiz Rolünü Kucakla: Başka hiçbir türün yapamayacağı şekilde "Dışarı Çık ve Gerçekleşmesini Sağla" için benzersiz bir şekilde tasarlandın. Bunu benimse ve başlatma kapasitenin, farkındalıkla ve karar verme stratejinizle uzun süre kullanıldığında en büyük gücün olduğunu unutma. '
+    var ai_iletisim_ve_etkilesim_50 = 'İş yerinde etkili iletişim ve katılım '
+    var ai_iletisim_ve_etkilesim_51 = 'Bilgilendirmeyi Bir Alışkanlık Olarak Geliştir: İş yerinde, ekibini ve üstlerini planların ve eylemlerin hakkında bilgilendirme alışkanlığını uygulamayı unutma. Bu şeffaflık güven yaratır ve başkalarının girişimlerini daha etkili bir şekilde desteklemesine olanak tanır. '
+    var ai_iletisim_ve_etkilesim_52 = 'Başlatma Gücünü Akıllıca Kullan: Başlatma gücünün değişim ve ilerleme için bir katalizör olduğunu kabul et. Projelere liderlik etmek ve harekete geçmek için bu yeteneği kullan, ancak her zaman ekibinin girdilerini ve katkılarını dikkate alan dikkatli bir yaklaşımla. '
+    var ai_iletisim_ve_etkilesim_53 = 'Kontrol Edilme Korkusunun Üstesinden Gelmeye Çalış: Bir özerklik ortamı yaratarak altta yatan kontrol edilme korkunu gidermeye çalış. Hareket etme özgürlüğüne sahip olduğunda ve diğerleri bilgilendirildiğinde, direncin azaldığını ve üretkenliğin arttığını göreceksin. '
+    var ai_iletisim_ve_etkilesim_54 = 'Direnci İşbirliğine Dönüştür: Direnç fark ettiğinde, bunu bilgilendirme sürecini iyileştirmek için bir fırsat olarak kullanmaya çalış. Açık iletişim, muhalefeti işbirliğine dönüştürebilir, vizyonunu ve yönünün gelişebileceği bir işyerini teşvik edebilir. '
+    var ai_iletisim_ve_etkilesim_55 = 'Pratik Yap, Pratik Yap, Pratik Yap: Bilgilendirme sana doğal olarak gelmez, bu yüzden kendini bu beceride ustalaşmaya adaman lazım. Sürtünme olmadan liderlik etme yeteneğinin kilidini açacak ve çevrendekilerin desteği ve iş birliği ile hedeflerini ortaya koyacak olan kilit noktadır. '
+    var ai_iletisim_ve_etkilesim_56 = 'Kendini Değerlendirme '
+    var ai_iletisim_ve_etkilesim_57 = 'Harekete geçmeden önce çevrendekileri bilgilendiriyor musun? '
+    var ai_iletisim_ve_etkilesim_58 = 'Bu bilgilendirme süreci, iş yerinde ve sosyal çevrende direnci azaltmak için nasıl etkili olabilir? '
+    var ai_iletisim_ve_etkilesim_59 = 'Başlatıcı enerjinin başkalarını nasıl etkilediğini fark ediyor musun? '
+    var ai_iletisim_ve_etkilesim_60 = 'Proaktif yapını daha işbirlikçi bir ortam yaratmak için nasıl kullanabilirsin? '
+    var ai_iletisim_ve_etkilesim_61 = 'Kontrol edilme korkunu yenmek için hangi adımları atıyorsun?'
+    var ai_iletisim_ve_etkilesim_62 = 'Özerkliğini koruyarak direnci nasıl işbirliğine dönüştürebilirsin? '
+    var ai_iletisim_ve_etkilesim_63 = 'Bilgilendirmeyi bir alışkanlık haline getirip, ekip arkadaşlarınla güven oluşturmaya nasıl katkıda bulunabilirsin? '
+    var ai_iletisim_ve_etkilesim_64 = 'Bu yaklaşım projelerini ileriye taşımada ne kadar etkili olabilir? '
+    var ai_iletisim_ve_etkilesim_65 = 'Başlatıcı gücünü dikkatli bir şekilde kullanarak, ekip arkadaşlarının katkılarını nasıl daha fazla dikkate alabilirsin?'
+    var ai_iletisim_ve_etkilesim_66 = 'Bu sayede iş yerinde daha etkili bir lider olabilir misin? '
+    var ai_iletisim_ve_etkilesim_67 = 'Yansıtıcı '
+    var ai_iletisim_ve_etkilesim_68 = 'Dirençli, ancak çevreyi emmeden örnekleme ve yansıtma yeteneğine sahip bir varlığın var. Sözsüz varlığın sessiz, nazik ve müdahaleci değildir, çevreye ve içindeki insanlara bir ayna görevi görür. '
+    var ai_iletisim_ve_etkilesim_69 = 'Başkalarıyla Başarılı Etkileşimlerin Anahtarı... '
+    var ai_iletisim_ve_etkilesim_70 = 'Ne Kadar Eşsiz Olduğunu Fark Etmek ve Etkileşime Girmeden Önce Beklemek, Yansıtmak ve Tartışmak: Benzersizliğin, seni olağanüstü derecede nadir ve değerli kılan çevreyi yansıtmak ve örneklemektir. Nüfusun sadece %1ini temsil ettiğini ve dünyayı diğerlerinden farklı gördüğünü kabul etmen gerekiyor. Benzersizliğini kucaklayarak, başkalarıyla güç ve bilgelik dolu bir yerden etkileşime girebilirsin. '
+    var ai_iletisim_ve_etkilesim_71 = 'Yansıtıcı Doğanı Anla: Etrafındakileri yansıtma ve büyütme yeteneğin, çevrenin sağlığını objektif olarak gözlemlemene ve değerlendirmene olanak tanır. Etkileşime girmeden önce bekleyip düşündüğünde, direnci ortadan kaldırır ve iç görülerinin alınması ve değerlendirilmesi için alan açarsın. '
+    var ai_iletisim_ve_etkilesim_72 = 'Yansıtıcı İç görülerinden Yararlan: Bir Değerlendirici olarak, sana stratejik bir bakış açısı sağlayan kalıpları ve döngüleri gözlemleme konusunda doğuştan gelen bir yeteneğe sahipsin. Çeşitli durumlar üzerinde düşünmek ve düşünceli tartışmalara katılmak için gereken zamanı ayır. İyi düşünülmüş iç görülerinin ekibine ve projelerine katkılarını bilgilendirmesine izin ver. '
+    var ai_iletisim_ve_etkilesim_73 = 'İş yerinde etkili iletişim ve katılım  '
+    var ai_iletisim_ve_etkilesim_74 = 'İletişimde Sabır ve Derinlik Geliştir: İş yerinde, çevrendeki etkileşimler ve dinamikler üzerinde düşünmek için zaman ayır. Dikkatli değerlendirmen ve benzersiz bakış açın, ekibine ve projelerine fayda sağlayabilecek derin iç görülere yol açabilir. '
+    var ai_iletisim_ve_etkilesim_75 = 'İç görülerin İçin Alan Yarat: Başkalarının kendilerini rahatça açabilecekleri bir alan yaratmak için nazik varlığını kullan. Gösterişsiz doğan dürüst diyaloğu teşvik eder, görüşleri örneklemene ve tartışmaların özünü geri yansıtmana olanak tanır, bu da ekibi netlik ve fikir birliğine yönlendirebilir. '
+    var ai_iletisim_ve_etkilesim_76 = 'Harekete Geçmeden Önce Bekle, Düşün ve Tartış: Önemli kararlar vermeden önce düşünceli tartışmalara katılmayı alışkanlık haline getirmen gerekir. Düşüncelerin hemen ortaya çıkmaz ve en iyi katkıların, resmin tamamını işlemek ve anlamak için zamanın olduğunda gelir. '
+    var ai_iletisim_ve_etkilesim_77 = 'Doğuştan Gelen Bilgeliğinden Yararlan: İç görülerinin ve içsel bilgeliğinin işteki katkılarına rehberlik etmesine izin ver. Bu derin anlayış yerinden konuştuğunuzda, sözlerin ağırlık taşır ve genellikle ekibinin ve kuruluşun için dönüştürücü sonuçlara yol açabilir. '
+    var ai_iletisim_ve_etkilesim_78 = 'Kendini Değerlendirme '
+    var ai_iletisim_ve_etkilesim_79 = 'Etrafındaki insanları ve ortamları objektif bir şekilde yansıttığını fark ediyor musun?'
+    var ai_iletisim_ve_etkilesim_80 = 'Bu yansıtma gücünü iş yerinde veya sosyal çevrende nasıl daha etkili kullanabilirsin? '
+    var ai_iletisim_ve_etkilesim_81 = 'Etkileşime girmeden önce bekleyip düşünmek sana nasıl bir içgörü sağlıyor? '
+    var ai_iletisim_ve_etkilesim_82 = 'Bu bekleme sürecini hangi durumlarda daha iyi uygulayabilirsin? '
+    var ai_iletisim_ve_etkilesim_83 = 'Nazik ve sessiz varlığın, başkalarının kendilerini rahatça ifade etmelerine nasıl yardımcı oluyor?'
+    var ai_iletisim_ve_etkilesim_84 = 'Bu özelliğini ekip çalışmalarında daha fazla nasıl kullanabilirsin? '
+    var ai_iletisim_ve_etkilesim_85 = 'Yansıtıcı içgörülerini başkalarıyla paylaşmadan önce değerlendirme yapmak için yeterince zaman ayırıyor musun?'
+    var ai_iletisim_ve_etkilesim_86 = 'Stratejik bakış açını daha derinleştirmek için ne tür tartışmalar sana faydalı olabilir? '
+    var ai_iletisim_ve_etkilesim_87 = 'Çevrenin sağlığını gözlemleme yeteneğin, ekip arkadaşlarına ve projelerine nasıl katkıda bulunuyor?'
+    var ai_iletisim_ve_etkilesim_88 = 'Bu içsel bilgeliği iş yerinde daha etkili bir şekilde nasıl ortaya koyabilirsin? '
+
+
+
+
+
+    //25+
+
 
 
     // AI
@@ -881,8 +977,5 @@ export default async ({ req, res, log, error }) => {
         graphholland: hollanddataPercent,
         graphcareer: careerSelectionLastResult
     }
-
-
-
     return res.json(inputs);
 };
