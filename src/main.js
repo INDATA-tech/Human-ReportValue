@@ -589,6 +589,190 @@ var careerSelectionLastResult = [{ id: 0, name: "Analitik", value: 0 }, { id: 1,
     var subjective_title = "Öznel"
     var subjective = "Senin Öznel Çalışma ve Öğrenme tarzın, bilgiyi işleme konusunda oldukça özel ve sabit bir yaklaşıma sahip olmanı sağlar. Bu, tamamen kişisel deneyimlerine dayanan, derinlemesine ve öznel bir yöntemdir. Diğerleri sana daha az esnek görünebilir, ancak bu, bilgiyi kendine özgü bir şekilde özümseme sürecinden kaynaklanıyor. Bilgileri doğal olarak kendi bakış açınla yorumlayarak, çevrendeki dünyayı benzersiz bir biçimde anlamlandırıyorsun. \n Yaklaşımın seçici gibi görünebilir ve bu, sınırların önemini ve derin bağlantıların değerini bildiğin içindir. Doğal olarak belirli insanlara yakınlık duyarak, güvenilir ve samimi bir çevre oluşturma eğilimindesin. Bu, bazen 'taraf tutuyormuşsun' gibi görünebilir ama aslında, gerçek ve derin ilişkiler kurma ihtiyacının bir yansımasıdır. \n Küçük gruplarda sık sık uyum sağlamanı gerektiren durumlar sana zor gelebilir, çünkü en iyi işlerini, farklı insanlarla ve farklı ortamlarda etkileşim kurma özgürlüğüne sahip olduğunda ortaya koyarsın. Bu çeşitlilik ihtiyacı, nicelikten çok nitelik arayışından kaynaklanıyor; seni zenginleştiren farklı bakış açıları, öznel analizini derinleştiriyor. \n Hızlı kararlar vermek sana göre değildir çünkü bilgiyi kendi ritmine uygun şekilde işlemen için zamana ihtiyacın var. Bu zaman, yeni bilgileri mevcut bilgi birikimine tam anlamıyla dahil etmene olanak tanır, böylece verdiğin kararlar kişisel anlayışına dayalı sağlam temellere oturur. \n Kendi hızında hareket etmek senin için çok önemli. Başkalarının beklentilerine veya zaman çizelgelerine uymaya zorlanmak, zihinsel, fiziksel ve duygusal sağlığını olumsuz etkileyebilir. Kendi ritmini benimsemek, sürecine sadık kalmanı ve işte de, hayatta da etkili ve tatmin edici sonuçlar elde etmeni sağlar. \n İş dünyasında, Öznel çalışma ve öğrenme tarzın büyük bir avantajdır. Derinlemesine düşünülmüş ve yenilikçi çözümler ortaya koymana yardımcı olur. Kişisel işleme tarzına sadık kalarak, her profesyonel ortamda tartışmalara ve projelere önemli bir değer katabilir ve daha çeşitli, zengin bir bakış açısına katkıda bulunabilirsin."
 
+    var kariyer_secim_12_25_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+    var kariyer_secim_12_25_s2_1_2 = "Görünen o ki geniş bir hayal gücün var ve kendini ifade etmeyi seviyorsun. Bu kariyerler tam sana göre olabilir. Tasarım, moda, müzik, resim ya da yazarlık gibi alanlarda yaratıcılığını kullanarak özgün projeler geliştirebilirsin. Örneğin, bir grafik tasarımcı olup yeni bir marka için logo tasarlayabilir ya da müzikle uğraşıp kendi bestelerini yapabilirsin. Bu tür kariyerlerde fikirlerini hayata geçirerek fark yaratma şansın çok yüksek.";
+    var kariyer_secim_12_25_s2_2_1 = "Liderlik ve Yönetim Kariyerleri ";
+    var kariyer_secim_12_25_s2_3_1 = "Yardım ve Sosyal Kariyerler";
+    var kariyer_secim_12_25_s2_3_2 = "Başkalarına yardım etmek seni mutlu ediyor gibi, sosyal hizmetler veya sağlık sektöründe kendine uygun bir yol bulmaya ne dersin. Örneğin, bir hemşire veya sosyal hizmet uzmanı olarak insanlara destek olabilir ya da bir kar amacı gütmeyen kuruluşta çalışarak topluma katkı sağlayabilirsin. Bu kariyerler, hem başkalarına yardım etme hem de anlamlı bir iş yapma fırsatı sunar.";
+    var kariyer_secim_12_25_s2_4_1 = "Teknik ve Mühendislik Kariyerleri";
+    var kariyer_secim_12_25_s2_4_2 = "Analitik düşünme ve teknik beceriler senin güçlü yanların, mühendislik ya da teknoloji alanlarında bir kariyer tam sana göre olabilir. Bilgisayar mühendisliği, yazılım geliştirme ya da elektrik mühendisliği gibi mesleklerde karmaşık problemleri çözme ve yeni teknolojiler geliştirme şansına sahip olursun. Mesela, bir bilgisayar programcısı olarak yeni bir mobil uygulama geliştirebilirsin. ";
+    var kariyer_secim_12_25_s2_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+    var kariyer_secim_12_25_s2_5_2 = "İletişim becerilerin kuvvetli ve insanlarla kolayca bağlantı kurabiliyorsun, satış ve müşteri ilişkileri alanlarında başarılı olabilirsin.  Pazarlama, satış veya müşteri temsilciliği gibi alanlarda çalışarak, ürün ya da hizmetleri doğru kişilere ulaştırmayı sağlayabilirsin. Örneğin, bir mağazada satış danışmanı olarak müşterilere yardımcı olabilir ya da bir şirkette satış temsilcisi olarak çalışabilirsin. ";
+
+    var kariyer_secim_12_25_s2_6_1 = "Organizasyonel ve İdari Kariyerler";
+    var kariyer_secim_12_25_s2_6_2 = "Düzenli olmayı ve işleri planlamayı seviyorsun, idari ve organizasyonel kariyerlerde kendine yer bulabilirsin. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi alanlarda çalışarak, bir kurumun işleyişini daha verimli hale getirme fırsatın olur. Mesela, bir proje yöneticisi olarak ekipleri organize edip işlerin sorunsuz ilerlemesini sağlayabilirsin.";
+    var kariyer_secim_12_25_s2_7_1 = "Yenilikçi ve Girişimci Kariyerler ";
+    var kariyer_secim_12_25_s2_7_2 = "Yenilikçi ve yaratıcı düşüncelerin var, kendi işini kurmak ya da bir startup’ta çalışmak senin için uygun olabilir.  Girişimcilik, risk almayı ve yeni fikirlerle bir şeyler başarmayı gerektirir. Örneğin, kendi online mağazanı açarak ürünlerini satabilir ya da bir teknoloji girişiminde yeni bir uygulama geliştirebilirsin. ";
+    var kariyer_secim_12_25_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+    var kariyer_secim_12_25_s2_8_2 = "Bilgini başkalarıyla paylaşmaktan hoşlanıyorsun, öğretim ve mentorluk kariyerleri tam sana göre.  Öğretmenlik, eğitmenlik ya da koçluk yaparak, başkalarına rehberlik edebilir ve onların gelişimine katkıda bulunabilirsin. Mesela, bir öğretmen olarak öğrencilere ders verebilir ya da bir koç olarak kişisel gelişimlerine destek olabilirsin. ";
+    var kariyer_secim_12_25_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+    var kariyer_secim_12_25_s2_9_2 = "Sayılarla ve analizlerle aranın iyi olduğunu görüyoruz, veri bilimi ya da iş analitiği gibi kariyerlerde başarılı olabilirsin. Bu tür kariyerler, büyük miktarda veriyi analiz edip kararlar almaya yardımcı olmayı içerir. Örneğin, bir veri bilimcisi olarak bir şirketin satış verilerini analiz edebilir ve gelecekte nasıl daha iyi performans gösterebileceklerini belirleyebilirsin.";
+    var kariyer_secim_25_40_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+    var kariyer_secim_25_40_s2_1_2 = "Eğer yaratıcı yönünüzü iş hayatında kullanmak istiyorsanız, bu alanlar size uygun olabilir. Reklamcılık, grafik tasarım, moda, müzik, sinema ya da yazarlık gibi alanlarda kariyer yapmak, estetik anlayışınızı ve özgün fikirlerinizi profesyonel projelere yansıtmanızı sağlar. Örneğin, bir marka için yenilikçi reklam kampanyaları tasarlayabilir ya da bir içerik yazarı olarak yaratıcı projelere imza atabilirsiniz. Sanatın her dalında kariyer fırsatları geniş ve esnektir, freelance çalışabilir ya da bir ajansla iş birliği yapabilirsiniz. ";
+    var kariyer_secim_25_40_s2_2_1 = "Liderlik ve Yönetim Kariyerleri";
+    var kariyer_secim_25_40_s2_2_2 = "Doğal bir liderlik yeteneğiniz var, ekip yönetimi ve stratejik karar alma konularında başarılı olabilirsiniz.  Proje yönetimi, takım liderliği, operasyon yönetimi veya üst düzey yöneticilik pozisyonları, sorumluluk alarak hedeflere ulaşmanızı gerektirir. Örneğin, bir işletme müdürü olarak organizasyonun tüm süreçlerini yönetebilir, yeni stratejiler geliştirerek büyümeye katkı sağlayabilirsiniz. Bu kariyerler, uzun vadeli başarı ve kariyer ilerlemesi için güçlü liderlik becerileri gerektirir.";
+    var kariyer_secim_25_40_s2_3_1 = "Yardım ve Sosyal Kariyerler";
+    var kariyer_secim_25_40_s2_4_1 = "İnsanlara yardım etme tutkunuzu görebiliyoruz. Sağlık, sosyal hizmetler ya da kar amacı gütmeyen organizasyonlarda tatmin edici bir kariyer bulabilirsiniz.  Sosyal sorumluluk projelerinde yer almak, bir terapist ya da sağlık çalışanı olarak insanların hayatlarını iyileştirmek gibi meslekler bu alanda öne çıkar. Örneğin, bir sosyal hizmet uzmanı olarak dezavantajlı gruplara yardım edebilir ya da bir sağlık yöneticisi olarak sağlık hizmetlerinin daha verimli işlemesini sağlayabilirsiniz.";
+    var kariyer_secim_25_40_s2_5_1 = "Teknik ve Mühendislik Kariyerleri";
+    var kariyer_secim_25_40_s2_5_2 = "Teknik becerileriniz ve analitik düşünce yapınızla, mühendislik ya da teknoloji alanlarında uzmanlaşabilirsiniz.  Yazılım geliştirme, makine mühendisliği ya da siber güvenlik gibi alanlarda çalışarak iş dünyasının sürekli değişen taleplerine yanıt verebilirsiniz. Örneğin, bir yazılım mühendisi olarak yeni uygulamalar geliştirebilir ya da bir ağ güvenliği uzmanı olarak şirketlerin dijital altyapılarını koruyabilirsiniz. Bu alanlar, hızla gelişen teknolojilere ayak uydurma ve sürekli öğrenmeyi gerektirir.";
+    var kariyer_secim_25_40_s2_6_1 = "Satış ve İlişki Kurma Kariyerleri";
+    var kariyer_secim_25_40_s2_6_2 = "İletişim becerileriniz ve insan ilişkilerini yönetme yeteneğiniz sayesinde satış ve müşteri ilişkileri alanlarında başarılı olabilirsiniz. Satış yönetimi, iş geliştirme ya da müşteri hizmetleri gibi alanlarda çalışarak, şirketin büyümesine doğrudan katkı sağlayabilirsiniz. Örneğin, bir satış yöneticisi olarak ekiplerinizi hedeflere yönlendirebilir ya da bir iş geliştirme uzmanı olarak yeni müşteriler kazanabilirsiniz. Bu kariyerler, ikna kabiliyetinizi ve ilişki yönetimi yetkinliklerinizi ön plana çıkarır. ";
+    var kariyer_secim_25_40_s2_7_1 = "Organizasyonel ve İdari Kariyerler";
+    var kariyer_secim_25_40_s2_7_2 = "Düzen, planlama ve organizasyon becerileriniz güçlü, idari yönetim ve organizasyon alanlarında kariyer yapabilirsiniz. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi roller, iş süreçlerinin düzenli ve etkili şekilde yürümesini sağlar. Örneğin, bir insan kaynakları yöneticisi olarak işe alım süreçlerini yönetebilir ya da bir proje yöneticisi olarak farklı ekiplerin aynı hedefe ulaşması için çalışabilirsiniz. Bu alanlarda detaylara hakimiyet ve çok yönlü düşünme önemlidir.";
+    var kariyer_secim_25_40_s2_8_1 = "Yenilikçi ve Girişimci Kariyerler";
+    var kariyer_secim_25_40_s2_8_2 = "Girişimci bir ruha sahipsiniz, yenilikçi fikirlerinizi hayata geçirme fırsatını bulabileceğiniz alanlar mevcuttur. Kendi işinizi kurabilir, bir start-up'ı yönlendirebilir ya da yeni ürün ve hizmetler geliştirerek piyasada fark yaratabilirsiniz. Örneğin, teknoloji alanında bir start-up kurarak yeni bir mobil uygulama geliştirebilir ya da e-ticaret sektöründe yenilikçi bir iş modeli hayata geçirebilirsiniz. Bu kariyerler risk almayı ve yaratıcılığı birleştirir. ";
+    var kariyer_secim_25_40_s2_9_1 = "Öğretim ve Mentorluk Kariyerleri";
+    var kariyer_secim_25_40_s2_9_2 = "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
+    var kariyer_secim_25_40_s2_10_1 = "Analitik ve Veri Odaklı Kariyerler ";
+    var kariyer_secim_25_40_s2_10_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
+    var kariyer_secim_12_25_s5_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+    var kariyer_secim_12_25_s5_1_2= "Grafik Tasarımı";
+    var kariyer_secim_12_25_s5_1_3 = "Güzel Sanatlar";
+    var kariyer_secim_12_25_s5_1_4 = "İç Mimarlık";
+    var kariyer_secim_12_25_s5_1_5 = "Moda Tasarımı";
+    var kariyer_secim_12_25_s5_1_5 = "Reklamcılık";
+    var kariyer_secim_12_25_s5_1_5 = "Sinema ve Televizyon";
+    var kariyer_secim_12_25_s5_1_6 = "Müzik";
+    var kariyer_secim_12_25_s5_1_6 = "Yaratıcı Yazarlık";
+    var kariyer_secim_12_25_s5_1_7 = "Sahne Sanatları";
+
+    var kariyer_secim_12_25_s5_2_1 = "Liderlik ve Yönetim Kariyerleri ";
+    var kariyer_secim_12_25_s5_2_1 = "İşletme";
+    var kariyer_secim_12_25_s5_2_3 = "Yönetim ve Organizasyon";
+    var kariyer_secim_12_25_s5_2_4 = "İnsan Kaynakları Yönetimi";
+    var kariyer_secim_12_25_s5_2_5 = "Endüstri Mühendisliği";
+    var kariyer_secim_12_25_s5_2_6 = "Kamu Yönetimi";
+    var kariyer_secim_12_25_s5_2_7 = "Lojistik Yönetimi"; 
+    var kariyer_secim_12_25_s5_2_8 = "Proje Yönetimi (Yüksek Lisans)";
+    var kariyer_secim_12_25_s5_2_9 = "Uluslararası İlişkiler";
+    var kariyer_secim_12_25_s5_3_1 = "Yardım ve Sosyal Kariyerler";
+    var kariyer_secim_12_25_s5_3_2 = "Sosyal Hizmet";
+    var kariyer_secim_12_25_s5_3_3 = "Psikoloji";
+    var kariyer_secim_12_25_s5_3_4 = "Rehberlik ve Psikolojik Danışmanlık";
+    var kariyer_secim_12_25_s5_3_5 = "Hemşirelik";
+    var kariyer_secim_12_25_s5_3_6 = "Fizyoterapi ve Rehabilitasyon";
+    var kariyer_secim_12_25_s5_3_7 = "Sağlık Yönetimi";
+    var kariyer_secim_12_25_s5_3_8 = "Sosyoloji";
+    var kariyer_secim_12_25_s5_3_9 = "Çocuk Gelişimi";
+    var kariyer_secim_12_25_s5_4_1 = "Teknik ve Mühendislik Kariyerleri";
+    var kariyer_secim_12_25_s5_4_2 = "Bilgisayar Mühendisliği";
+    var kariyer_secim_12_25_s5_4_3 = "Elektrik-Elektronik Mühendisliği";
+    var kariyer_secim_12_25_s5_4_4 = "Makine Mühendisliği";
+    var kariyer_secim_12_25_s5_4_5 = "İnşaat Mühendisliği";
+    var kariyer_secim_12_25_s5_4_6 = "Yazılım Mühendisliği";
+    var kariyer_secim_12_25_s5_4_7 = "Endüstri Mühendisliği";
+    var kariyer_secim_12_25_s5_4_8 = "Mekatronik Mühendisliği";
+    var kariyer_secim_12_25_s5_4_9 = "Matematik Mühendisliği";
+
+    var kariyer_secim_12_25_s5_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+    var kariyer_secim_12_25_s5_5_2 = "İşletme";
+    var kariyer_secim_12_25_s5_5_3 = "Pazarlama";
+    var kariyer_secim_12_25_s5_5_4 = "Halkla İlişkiler ve Reklamcılık";
+    var kariyer_secim_12_25_s5_5_5 = "İletişim";
+    var kariyer_secim_12_25_s5_5_6 = "Uluslararası Ticaret";
+    var kariyer_secim_12_25_s5_5_7 = "İktisat";
+    var kariyer_secim_12_25_s5_5_8 = "Ticaret Hukuku (Yüksek Lisans)";
+    var kariyer_secim_12_25_s5_5_9 = "Satış Yönetimi (Sertifika ve Lisansüstü Programlar)"
+    var kariyer_secim_12_25_s5_5_1 = "Organizasyonel ve İdari Kariyerler";
+    var kariyer_secim_12_25_s5_6_1 = "İnsan Kaynakları Yönetimi";
+    var kariyer_secim_12_25_s5_6_2 = "İşletme";
+    var kariyer_secim_12_25_s5_6_3 = "Büro Yönetimi";
+    var kariyer_secim_12_25_s5_6_4 = "Kamu Yönetimi";
+    var kariyer_secim_12_25_s5_6_5 = "Yönetim Bilişim Sistemleri";
+    var kariyer_secim_12_25_s5_6_6 = "Endüstri Mühendisliği";
+    var kariyer_secim_12_25_s5_6_7 = "İşletme Mühendisliği";
+    var kariyer_secim_12_25_s5_6_8 = "Proje Yönetimi (Yüksek Lisans)";
+    
+    var kariyer_secim_12_25_s5_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+    var kariyer_secim_12_25_s5_7_2 = "İşletme";
+    var kariyer_secim_12_25_s5_7_3 = "Girişimcilik";
+    var kariyer_secim_12_25_s5_7_4 = "E-Ticaret ve Dijital Pazarlama";
+    var kariyer_secim_12_25_s5_7_5 = "Endüstri Mühendisliği";
+    var kariyer_secim_12_25_s5_7_6 = "Bilgisayar Bilimleri";
+    var kariyer_secim_12_25_s5_7_7 = "İnovasyon Yönetimi (Yüksek Lisans)";
+    var kariyer_secim_12_25_s5_7_8 = "Ürün Geliştirme ve Tasarım";
+
+    var kariyer_secim_12_25_s5_8_1 = "Eğitim Fakülteleri (Fizik, Kimya, Matematik, Türk Dili ve Edebiyatı gibi alanlarda öğretmenlik)";
+    var kariyer_secim_12_25_s5_8_2 = "Psikoloji";
+    var kariyer_secim_12_25_s5_8_3 = "Rehberlik ve Psikolojik Danışmanlık";
+    var kariyer_secim_12_25_s5_8_4 = "Pedagojik Formasyon Eğitimi";
+    var kariyer_secim_12_25_s5_8_4 = "Eğitim Yönetimi ve Denetimi (Yüksek Lisans)"
+    var kariyer_secim_12_25_s5_8_4 = "Yaşam Koçluğu (Sertifika Programları)";
+
+    var kariyer_secim_12_25_s5_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+    var kariyer_secim_12_25_s5_9_2 = "Veri Bilimi ve İş Analitiği";
+    var kariyer_secim_12_25_s5_9_3 = "İstatistik";
+    var kariyer_secim_12_25_s5_9_4 = "Matematik";
+    var kariyer_secim_12_25_s5_9_5 = "Ekonomi";
+    var kariyer_secim_12_25_s5_9_6 = "Finans";
+    var kariyer_secim_12_25_s5_9_7 = "Bilgisayar Mühendisliği";
+    var kariyer_secim_12_25_s5_9_8 = "Yapay Zeka ve Veri Mühendisliği (Yüksek Lisans)";
+    var kariyer_secim_12_25_s5_9_9 = "Endüstri Mühendisliği";
+
+    var kariyer_secim_12_25_s6_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+    var kariyer_secim_12_25_s6_1_2 = "Üniversite diploması olmadan da yaratıcı ve sanatsal alanlarda başarılı olabilirsiniz. Özellikle meslek liselerinde tasarım, grafik, moda, görsel sanatlar gibi bölümlerden mezun olduktan sonra şu yolları izleyebilirsiniz: ";
+    var kariyer_secim_12_25_s6_1_3 = "Freelance Tasarımcı: Grafik tasarım, web tasarımı, illüstrasyon gibi alanlarda kendi portföyünüzü oluşturarak freelance çalışabilirsiniz.";
+    var kariyer_secim_12_25_s6_1_4 = "Moda Tasarımcısı: Moda atölyelerinde çalışarak, sektörde deneyim kazanabilir, kendi markanızı oluşturabilirsiniz.";
+    var kariyer_secim_12_25_s6_1_5 = "Fotoğrafçılık: Bir fotoğraf stüdyosunda çalışarak ya da kendi ekipmanlarınızı edinerek, düğün, etkinlik veya moda fotoğrafçısı olabilirsiniz.";
+    var kariyer_secim_12_25_s6_1_6 = "Müzisyen veya Sanatçı: Kendinizi müzik veya sanat alanında geliştirebilir, sosyal medya ve dijital platformlar üzerinden eserlerinizi paylaşarak tanınabilirsiniz. ";
+
+    var kariyer_secim_12_25_s6_2_1 = "Liderlik ve Yönetim Kariyerleri";
+    var kariyer_secim_12_25_s6_2_2 = "Meslek lisesi ya da lise mezuniyeti ile liderlik ve yönetim kariyerlerinde ilerlemek de mümkündür:";
+    var kariyer_secim_12_25_s6_2_3 = "Süpervizör veya Takım Lideri: Perakende, lojistik veya üretim sektörlerinde çalışarak takım liderliği ya da süpervizör pozisyonuna yükselebilirsiniz.";
+    var kariyer_secim_12_25_s6_2_4 = "İşletme Yönetimi: Kendi küçük işletmenizi kurabilir ya da bir aile işletmesinde yönetici olarak deneyim kazanabilirsiniz. ";
+    var kariyer_secim_12_25_s6_2_5 = "Satış Ekipleri Yönetimi: Satış alanında deneyim kazandıktan sonra bir satış ekibini yönetebilir, liderlik becerilerinizi geliştirebilirsiniz. ";
+    var kariyer_secim_12_25_s6_2_6 = "Mağaza Müdürü: Perakende sektöründe satış temsilcisi olarak başlayıp, mağaza müdürlüğü seviyesine çıkabilirsiniz.";
+
+    var kariyer_secim_12_25_s6_3_1 = "Yardım ve Sosyal Kariyerler";
+    var kariyer_secim_12_25_s6_3_2 = "Üniversite okumadan da yardım ve sosyal kariyerlerde çalışabilirsiniz:";
+    var kariyer_secim_12_25_s6_3_3 = "Hasta Bakıcı: Sağlık meslek liselerinde hasta bakım eğitimi aldıktan sonra sağlık sektöründe çalışabilirsiniz.";
+    var kariyer_secim_12_25_s6_3_4 = "Sosyal Yardım Çalışanı: Sosyal yardım kurumlarında gönüllü çalışarak, deneyim kazandıktan sonra profesyonel olarak bu alanda çalışabilirsiniz.";
+    var kariyer_secim_12_25_s6_3_5 = "Rehabilitasyon ve Huzurevi Çalışanı: Yaşlı bakımı ya da engelli bireylerle ilgili kurumlarda iş bulabilir, topluma katkı sağlayabilirsiniz. ";
+    var kariyer_secim_12_25_s6_3_6 = "Özel Eğitim Yardımcısı: Özel eğitim alanında eğitim yardımcısı olarak, bireylere destek sağlayabilirsiniz. ";
+
+    var kariyer_secim_12_25_s6_4_1 = "Teknik ve Mühendislik Kariyerleri";
+    var kariyer_secim_12_25_s6_4_2 = "Teknik ve mühendislik kariyerlerinde, meslek lisesi ya da doğrudan iş deneyimiyle başarılı olabilirsiniz:";
+    var kariyer_secim_12_25_s6_4_3 = "Tekniker/Teknisyen: Meslek liselerinden mezun olup elektrik, elektronik, makine, bilgisayar gibi alanlarda tekniker veya teknisyen olarak çalışabilirsiniz.";
+    var kariyer_secim_12_25_s6_4_4 = "Bilgisayar Destek Uzmanı: Bilgisayar donanımı ve yazılımı konularında bilgi edinerek, bilgisayar desteği sağlayabilirsiniz.";
+    var kariyer_secim_12_25_s6_4_5 = "Ustalık ve Çıraklık: Elektrik ustası, makine tamircisi, otomotiv teknisyeni gibi alanlarda usta-çırak ilişkisi ile kariyer yapabilirsiniz.";
+    var kariyer_secim_12_25_s6_4_6 = "Yazılım Geliştirici: Kendinizi yazılım ve kodlama konusunda online kurslar ve sertifika programlarıyla geliştirebilir, freelance yazılım projelerinde yer alabilirsiniz. ";
+    
+    var kariyer_secim_12_25_s6_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+    var kariyer_secim_12_25_s6_5_2 = "Satış ve ilişki yönetimi kariyerlerinde, üniversite eğitimi olmadan da başarılı olabilirsiniz: ";
+    var kariyer_secim_12_25_s6_5_3 = "Satış Temsilcisi: Doğrudan satış veya perakende sektöründe çalışarak deneyim kazanabilir, satış ekiplerinde liderliğe yükselebilirsiniz. ";
+    var kariyer_secim_12_25_s6_5_4 = "Müşteri Temsilcisi: Müşteri hizmetleri alanında çalışarak, iletişim becerilerinizi geliştirip kariyerinizi bu yönde ilerletebilirsiniz.";
+    var kariyer_secim_12_25_s6_5_5 = "Kendi İşinizi Kurma: Küçük ölçekli ticaret yaparak veya pazarlama becerilerinizi geliştirerek, kendi satış odaklı işinizi kurabilirsiniz.";
+    var kariyer_secim_12_25_s6_5_5 = "E-Ticaret Satıcı: Online platformlarda (Trendyol, Etsy, Amazon gibi) ürün satarak dijital ticaret yapabilirsiniz. ";
+    
+    var kariyer_secim_12_25_s6_6_1 = "Organizasyonel ve İdari Kariyerler";
+    var kariyer_secim_12_25_s6_6_2 = "Düzen ve organizasyon becerilerinizi iş hayatında kullanarak, bu alanlarda ilerleyebilirsiniz: ";
+    var kariyer_secim_12_25_s6_6_3 = "Ofis Asistanı: Bir ofiste sekreterlik veya idari asistanlık yaparak organizasyonel becerilerinizi geliştirebilirsiniz. ";
+    var kariyer_secim_12_25_s6_6_4 = "Proje Asistanı: Proje yönetim ekiplerinde asistan olarak başlayıp, deneyim kazandıkça daha sorumlu pozisyonlara geçebilirsiniz. ";
+    var kariyer_secim_12_25_s6_6_5 = "İnsan Kaynakları Asistanı: İnsan kaynakları departmanlarında yardımcı pozisyonlarda çalışarak deneyim kazanabilirsiniz.";
+    var kariyer_secim_12_25_s6_6_6  = "Lojistik veya Stok Yönetimi: Lojistik sektöründe ya da depo yönetiminde çalışarak, organizasyonel süreçleri öğrenebilirsiniz. ";
+    
+    var kariyer_secim_12_25_s6_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+    var kariyer_secim_12_25_s6_7_2 = "Girişimcilik ve yenilikçilik için üniversite diplomasına ihtiyaç duymadan da birçok adım atabilirsiniz: ";
+    var kariyer_secim_12_25_s6_7_3 = "Kendi İşini Kurma: Yeteneklerinize ve ilgi alanlarınıza dayalı olarak bir iş kurabilir, örneğin küçük çaplı bir atölye ya da e-ticaret platformu açabilirsiniz. ";
+    var kariyer_secim_12_25_s6_7_4 = "Start-up Kurucusu: Teknoloji odaklı ya da yaratıcı bir girişim fikri ile yatırım alarak start-up projeleri geliştirebilirsiniz. ";
+    var kariyer_secim_12_25_s6_7_5 = "Sosyal Medya Girişimciliği: Sosyal medya platformları üzerinden içerik üreticiliği yapabilir, markalarla iş birliği içinde gelir elde edebilirsiniz. ";
+    var kariyer_secim_12_25_s6_7_6 = "Ürün Geliştirme: Atölyelerde veya fabrikalarda çalışarak ürün geliştirme sürecinde yer alabilir, yenilikçi fikirler üretebilirsiniz. ";
+    var kariyer_secim_12_25_s6_7_7 = "Öğretim ve Mentorluk Kariyerleri"
+    var kariyer_secim_12_25_s6_8_1 = "Öğretim ve mentorluk alanında deneyim kazanarak da üniversite eğitimi olmadan kariyer yapabilirsiniz: ";
+    var kariyer_secim_12_25_s6_8_2 = "Özel Ders: Belirli bir konuda (matematik, yabancı dil, müzik gibi) uzmanlaşıp öğrencilere özel ders verebilirsiniz. ";
+    var kariyer_secim_12_25_s6_8_3 = "Koçluk ve Mentorluk: Yaşam koçluğu, kariyer koçluğu gibi alanlarda sertifika programlarına katılarak insanlara rehberlik edebilirsiniz. ";
+    var kariyer_secim_12_25_s6_8_4 = "Eğitim Asistanı: Okullarda veya eğitim kurumlarında asistan olarak çalışarak deneyim kazanabilirsiniz. ";
+    var kariyer_secim_12_25_s6_8_5 = "Gelişim Atölyeleri: Çocuklar ve gençler için yaratıcı atölyeler düzenleyebilir, kendi eğitim programlarınızı geliştirebilirsiniz. ";
+
+    var kariyer_secim_12_25_s6_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+    var kariyer_secim_12_25_s6_9_2 = "Analitik ve veri odaklı kariyerlerde, üniversite eğitimi olmadan da pratik yollarla ilerleyebilirsiniz: ";
+    var kariyer_secim_12_25_s6_9_3 = "Veri Analiz Kursları: Online veri analitiği, SQL, Python gibi araçları öğrenerek veri analiz projelerinde çalışabilirsiniz.";
+    var kariyer_secim_12_25_s6_9_4 = "Finansal Danışmanlık: Finansal analiz ve muhasebe alanlarında iş deneyimi kazanarak, küçük işletmelere danışmanlık yapabilirsiniz. ";
+    var kariyer_secim_12_25_s6_9_5 = "Pazarlama Analitiği: Dijital pazarlama araçlarını öğrenip, sosyal medya veya SEO analizleri yaparak şirketlere danışmanlık verebilirsiniz. ";
+    var kariyer_secim_12_25_s6_9_6  = "Staj ve Sertifikalar: Veri analitiği alanında staj yaparak ya da online sertifika programlarıyla uzmanlık kazanabilirsiniz.";
+    var kariyer_secim_12_25_s6_9_7 = "Bu yollar, üniversite diploması olmadan da farklı kariyer alanlarında deneyim kazanmanızı ve yeteneklerinizi geliştirmenizi sağlar. ";
+
+    var kariyer_secim_12_25_s7_9_7
 
     // İş Yaşamında Rolün
     var age_12_25_title = "12-25 Yaş"
