@@ -64,6 +64,7 @@ export default async ({ req, res, log, error }) => {
     var hollandData = processedData.holland;
     //log(hollandData);
     var big5Data = processedData.big5;
+    var aiData = processedData.ai;
     //log(big5Data);
     hollandData.sort((a, b) => b.value - a.value);
     big5Data.sort((a, b) => b.value - a.value);
@@ -2427,7 +2428,7 @@ export default async ({ req, res, log, error }) => {
     //     graphcareer: careerSelectionLastResult
     // }
 
-    krktr_ozl = (big5Name, age, type) => {
+    let krktr_ozl = (big5Name, age, type) => {
         if (type == "name") {
             if (big5Name == "self_discipline") {
                 return krktr_ozl_self_discipline;
@@ -2528,7 +2529,7 @@ export default async ({ req, res, log, error }) => {
 
     }
 
-    kslk_ozl = (hollandName, age, type) => {
+    let kslk_ozl = (hollandName, age, type) => {
         if (type == "name") {
             if (hollandName == "Gerçekçi") {
                 return kslk_ozl_realistic_your_profile;
@@ -2632,6 +2633,67 @@ export default async ({ req, res, log, error }) => {
         return null;
     }
 
+    let ai = (aiName, age, type) => {
+        if (type == "name") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s4u1_1_1;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s4u1_2_1;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_1;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_1;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_1;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_1;
+            }
+        } else if (type == "s3_x_1") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_1;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_1;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_1;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_1;
+            }
+        } else if (type == "s3_x_2") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_1;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_1;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_1;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_1;
+            }
+        } else if (type == "s3_x_3") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s3_1_2;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_1;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_1;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_1;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_1;
+            }
+        }
+
+    }
+
     var inputs_25_plus = {
         P1A1: rawData.find(x => x.name == "kisiselbilgi / isim").string + " " + rawData.find(x => x.name == "kisiselbilgi / soyisim").string,
         P2A1: "Sevgili " + rawData.find(x => x.name == "kisiselbilgi / isim"),
@@ -2660,21 +2722,31 @@ export default async ({ req, res, log, error }) => {
         P7A1: "chart", // Karakter Özelliklerin
         P7A2: krktr_ozl(big5Data[0].name, 25, "name"),
         P7A3: krktr_ozl(big5Data[1].name, 25, "name"), ,
-        P7A4: "",
-        P7A5: "",
-        P8A1: "",
-        P8A2: "",
-        P9A1: "", // Karakter Özelliklerin üzerine kendini değerlendirme.
-        P9A2: "",
-        P9A3: "",
-        P9A4: "",
+        P7A4: krktr_ozl(big5Data[0].name, 25, "character_elements"),
+        P7A5: krktr_ozl(big5Data[1].name, 25, "character_elements"),
+        P8A1: krktr_ozl(big5Data[0].name, 25, "strength"),
+        P8A2: krktr_ozl(big5Data[0].name, 25, "weakness"),
+        P8A2: krktr_ozl(big5Data[1].name, 25, "strength"),
+        P8A2: krktr_ozl(big5Data[1].name, 25, "weakness"),
+        P8A2: krktr_ozl(big5Data[2].name, 25, "strength"),
+        P8A2: krktr_ozl(big5Data[2].name, 25, "weakness"),
+        P8A2: krktr_ozl(big5Data[0].name, 25, "other_attributes") + "," + krktr_ozl(big5Data[1].name, 25, "other_attributes") + "," + krktr_ozl(big5Data[2].name, 25, "other_attributes"),
+        P9A1: krktr_ozl(big5Data[0].name, 25, "name"),  // Karakter Özelliklerin üzerine kendini değerlendirme.
+        P9A2: krktr_ozl(big5Data[0].name, 25, "question1") ,
+        P9A3: krktr_ozl(big5Data[0].name, 25, "question1"),
+        P9A4: krktr_ozl(big5Data[0].name, 25, "question1"),
+        P9A5: krktr_ozl(big5Data[1].name, 25, "name"),
+        P9A6: krktr_ozl(big5Data[1].name, 25, "question1"),
+        P9A7: krktr_ozl(big5Data[1].name, 25, "question2"),
+        P9A8: krktr_ozl(big5Data[1].name, 25, "question3"),
+
         P11A1: "chart", // Yapay zeka çağı yetkinliklerin
-        P12A1: "",
-        P12A3: "",
-        P12A4: "",
-        P12A5: "",
-        P12A6: "",
-        P12A7: "",
+        P12A1: ai(ai[0].name, 25, "name"),
+        P12A3: ai(ai[0].name, 25, "name"),
+        P12A4: ai(ai[0].name, 25, "s4u1"),
+        P12A5: ai(ai[0].name, 25, "s4u1"),
+        P12A6: ai(ai[0].name, 25, "s5u2"),
+        P12A7: ai(ai[0].name, 25,,
         P12A8: "",
         P13A1: "",
         P13A2: "",
