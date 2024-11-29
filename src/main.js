@@ -65,6 +65,7 @@ export default async ({ req, res, log, error }) => {
     //log(hollandData);
     var big5Data = processedData.big5;
     var aiData = processedData.ai;
+    var teamworkData = processedData.teamwork;
     //log(big5Data);
     hollandData.sort((a, b) => b.value - a.value);
     big5Data.sort((a, b) => b.value - a.value);
@@ -581,18 +582,50 @@ export default async ({ req, res, log, error }) => {
 
     var objective_title = "Objektif"
     var objective = "Senin Objektif çalışma ve öğrenme tarzın, bilgiyi önyargısız bir şekilde alma yeteneğine sahip olmanı sağlar ve bu da bulgularını gerçekten tarafsız bir şekilde paylaşmanı mümkün kılar. Bilgiye yaklaşımın, çevreyi örnekleme, karşılaştığın şeyleri yansıtma ve algıladıklarını net ve tarafsız bir bakış açısıyla değerlendirme üzerine kuruludur. Çevrendeki ortamın genel sağlığını, ister ofisinin fiziksel alanı ister ekibinin duygusal durumu olsun, sezme yeteneğin çok değerlidir. İnce ipuçlarını doğal olarak yakalayarak, bir durumun iyi mi yoksa altında çözülmesi gereken sorunlar mı barındırdığını objektif bir şekilde algılayabilirsin. Samimiyete olan keskin duyarlılığın sayesinde, çevrendeki insanların ne zaman kendilerine sadık olduğunu ya da olmadığını sezebilirsin. Bu yetenek, iş dünyasında kime güvenebileceğini anlamana ve kimlerin kendini açması için cesaretlendirilmesi gerektiğini belirlemene yardımcı olur. Açık yaklaşımın, adeta bir ayna gibi, insanlara ve gruplara, eylemlerinin ve tercihlerinin gerçekliğini yansıtmanı sağlar, özellikle de zarar verici ya da adaletsiz durumlarla karşılaştıklarında. Bu, seni güçlü bir değişim temsilcisi yapar, çünkü etrafındakilerin daha net görmelerine ve herkesin yararına olacak ayarlamalar yapmalarına yardımcı olabilirsin. Değerlendirici olarak, Objektif çalışma ve öğrenme ile her şeyi kişisel filtrelerden geçirmeden, anlamak ve değerlendirmek amacıyla işlersin. Bu geniş ve açık yaklaşım, her şeyden etkilenmek anlamına gelmez; aksine, bilgilerin senden geçmesine izin verir ve böylece diğerlerinin kaçırabileceği bir netlik sağlar. İş Dünyasında Objektif Çalışma ve Öğrenme Tarzınla Çalışmak Profesyonel alanda, objektif değerlendirme yeteneğin sayesinde tarafsız içgörüler ve rehberlik sunabilirsin. İster yeni bir projenin uygulanabilirliğini değerlendiriyor, ister potansiyel bir ortaklığın havasını ölçüyor ol, değerlendirmelerin net ve bulandırılmamış gözlemlere dayanır. İş dünyasında, işletmelerin misyonlarına sadık kalmalarına ve sağlıklı, samimi bir şekilde faaliyet göstermelerine yardımcı olmak için önemli bir rol oynarsın. Objektif çalışma ve öğrenme tarzını kullanarak iş dünyasında çok gerekli bir perspektif sunar, kararların mevcut bilgilerin doğru ve adil bir değerlendirmesine dayalı olarak verilmesini sağlarsın."
+    var objective_s3_1 = "Çevrende olup bitenleri tarafsız bir şekilde değerlendirirken bu içgörülerini iş hayatına nasıl yansıtıyorsun? "
+    var objective_s3_2 = "İnsanların samimiyetini veya uyumsuzluklarını sezdiğinde nasıl tepki veriyorsun ve bu bilgiyi nasıl kullanıyorsun? "
+    var objective_s3_3 = "Ortamın duygusal ve fiziksel sağlığını sezme yeteneğinle iş süreçlerini nasıl daha verimli hale getirebilirsin? "
+    var objective_s3_4 = "İş yerinde bir ayna gibi davranarak başkalarına hangi farkındalıkları kazandırıyorsun ve bu süreçte nasıl bir değişim yarattığını düşünüyorsun? "
+
     var indivudal_title = "Bağımsız"
     var individual = "Bağımsız çalışma ve öğrenme tarzın sayesinde bilgileri işleme ve kendi başına çalışma konusunda benzersiz bir yeteneğe sahipsin. Profesyonel duruşun, dışarıdan onay almadan da kendini güvende hissetmeni sağlayan doğal bir tamlık duygusuyla karakterizedir. Bu odaklanma, bilgiyi hızlıca sindirip uyum sağlamana olanak tanır ve hızla değişen iş dünyasında sana bir avantaj kazandırır. Bu hızlı düşünme tarzın, özellikle zamanın kritik olduğu ortamlarda seni değerli bir hale getirir. \n Bağımsız ve tutarlı bir şekilde bilgi işleyebildiğin için genellikle hızlı hareket edebilirsin. Hızlı işlem yeteneğin büyük bir güç olsa da, sabırlı olmayı unutmaman gerekir. İş dünyası ve sosyal hayat genellikle kolektif bir ritimde ilerler ve senin de bu ritme uyum sağlaman gerekebilir. Biraz yavaşlamak, diğerlerinin senin hızına yetişmesini sağlar ve içgörülerine dayalı olarak harekete geçtiğinde, zamanlamanın hem bireysel hem de organizasyonel olarak doğru olmasına yardımcı olur. \n İş birliği ve Takdir \n Bilgiyi işlemekte başkalarına ihtiyaç duymasan da, iş birliği çalışmalarının derinliğini artırabilir. Diğerlerine, kendi bakış açılarını sunmaları için zaman tanımak önemlidir. Çoğu zaman, çalışma arkadaşların meseleleri birçok farklı açıdan incelemek ve daha fazla düşünmek isteyebilirler. Onların bu süreçlerine katılman, hem kendi içgörülerini zenginleştirecek hem de iş birliği ve liderlik çalışmalarını güçlendirecektir. \n Doğal, bağımsız çalışma ve öğrenme tarzını onurlandırırken, ekibindeki farklı yaklaşımlara da saygı göstererek, hem kendinden emin hem de empati dolu bir lider olarak iş dünyasında başarıya katkı sağlayabilirsin. Bu da hem kişisel olarak tatmin edici hem de geniş çapta etkili sonuçlar yaratır."
+    var individual_s3_1 = "Kararlarını verirken kendine ne kadar güveniyorsun ve dış onaya ne kadar ihtiyaç duyuyorsun?"
+    var individual_s3_2 = "Hızlı kararlar alırken başkalarının senin tempoya ayak uydurabilmesi için nasıl sabırlı olabilirsin?"
+    var individual_s3_3 = "Bilgiyi hızlı bir şekilde işlemek doğal yeteneğin, ama hangi durumlarda daha yavaş ve derinlemesine düşünmek gerektiğini fark ediyorsun? "
+    var individual_s3_4 = "Ekibinle iş birliği yaparken farklı bakış açılarına nasıl daha fazla yer açabilirsin? "
+    var individual_s3_5 = "Kendi başına çalıştığında, başkalarından gelebilecek potansiyel katkıları göz ardı etmeden nasıl dengeli hareket edebilirsin? "
+
+
     var collaborative_titie = "İş Birlikçi"
     var collaborative = "Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor. \n Yalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor. \n İş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler. \n Senin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun. \n Karar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek. \n Canlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir. \n İşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin."
+    var collaborative_s3_1 = "Birden fazla kaynaktan bilgi toplarken, bu bilgileri nasıl daha sabırlı bir şekilde sindirebilirsin? "
+    var collaborative_s3_2 = "Farklı insanlarla etkileşim içinde olduğunda enerjin nasıl artıyor? Bu enerjiyi iş hayatında daha etkin kullanmak için neler yapabilirsin? "
+    var collaborative_s3_3 = "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? "
+    var collaborative_s3_4 = "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? "
+    var collaborative_s3_5 = "Çeşitliliğin iş süreçlerine katkısını daha iyi anlamak ve kullanmak için kendini nasıl geliştirebilirsin? "
+
     var synthesizing_title = "Sentezleyen"
     var synthesizing = "Senin sentezleyici çalışma ve öğrenme tarzın, farklı bilgi kaynaklarını bir araya getirip anlamlandırma konusunda benzersiz bir yetenek sağlıyor. En iyi performansı, özgürce hareket edip çeşitli insanlarla etkileşime girebildiğinde gösterirsin. Farklı perspektiflerden bilgi toplamak ve bu bilgileri bir yapboz gibi birleştirmek senin doğal yeteneğin. \n Değişim ve çeşitlilikten beslenirsin.Gün içinde farklı ortamlarda, çeşitli insanlarla etkileşim kurduğunda kendini daha enerjik ve sağlıklı hissedersin.Aynı ortamda veya aynı grupla sınırlı kalmak seni kısıtlanmış hissettirebilir, bu yüzden seni meşgul eden ve zihinsel olarak uyarıcı çeşitli iş deneyimlerini aramalısın. \n Doğal eğilimin hızla hareket etmek ve kararlarını anlık olarak vermek olabilir, çünkü bu senin hırsın ve itici gücünle bağlantılıdır.Ancak, asıl gücün, elindeki bilgileri sentezleyebilme yeteneğinden gelir ve bu da sabır gerektirir.Farklı girdileri tam anlamıyla bütünleştirip anlamadan harekete geçmeden önce kendine zaman tanıdığında, daha dengeli ve etkili sonuçlar elde edersin. \n Çoğu zaman sanki aynı anda üç rolü birden üstleniyormuş gibi hissedebilirsin, her biri kendi istekleri ve bakış açılarıyla.Bu bir bölünme değil, üç güçlü yönün bir araya gelmesiyle oluşan bir bütünlüktür.Bu üç yönü bir arada kullanmayı başardığında, durumlara, zorluklara ve çözümlere üç boyutlu bir bakış açısıyla yaklaşabilirsin. \n İş birliği, farklı bakış açılarını sentezlemek için faydalı olsa da, yalnız çalışmakta da oldukça iyisin.Kendi başına işleri halledebilme yeteneğin, farklı ortamlarda esnek bir şekilde çalışma özgürlüğü sağlar—ister hareketli bir ofiste ister sessiz bir özel alanda.Unutma, sentezleyici çalışma ve öğrenme tarzın, kendi kendine yetebilme ve farklı kaynaklardan gelen içgörüleri birleştirebilme yeteneğinin güçlü bir birleşimidir.Bu da seni iş dünyasında dinamik ve çok yönlü bir değer haline getirir."
+    var synthesizing_s3_1 = "Başkalarıyla çalışırken enerjinin yükseldiğini ne kadar fark ediyorsun ve bunu projelerine nasıl yansıtabilirsin? "
+    var synthesizing_s3_2 = "Tek başına çalışırken hangi zorlukları yaşıyorsun ve bu durumlarda kendini nasıl daha iyi motive edebilirsin? "
+    var synthesizing_s3_3 = "İş birliği ortamlarında diğer kişilerin bakış açılarına nasıl yer veriyorsun ve bu sürecin sonucunda nasıl daha zengin içgörüler elde edebilirsin?"
+    var synthesizing_s3_4 = "Bilgiyi sindirirken, karşındaki insanlarla etkileşime girmenin senin düşünme sürecini nasıl hızlandırdığını fark ediyor musun? "
+    var synthesizing_s3_5 = "Karar alma sürecinde başkalarının enerjisini ve fikirlerini nasıl daha etkin bir şekilde kullanabilirsin? "
+
+
     var subjective_title = "Öznel"
     var subjective = "Senin Öznel Çalışma ve Öğrenme tarzın, bilgiyi işleme konusunda oldukça özel ve sabit bir yaklaşıma sahip olmanı sağlar. Bu, tamamen kişisel deneyimlerine dayanan, derinlemesine ve öznel bir yöntemdir. Diğerleri sana daha az esnek görünebilir, ancak bu, bilgiyi kendine özgü bir şekilde özümseme sürecinden kaynaklanıyor. Bilgileri doğal olarak kendi bakış açınla yorumlayarak, çevrendeki dünyayı benzersiz bir biçimde anlamlandırıyorsun. \n Yaklaşımın seçici gibi görünebilir ve bu, sınırların önemini ve derin bağlantıların değerini bildiğin içindir. Doğal olarak belirli insanlara yakınlık duyarak, güvenilir ve samimi bir çevre oluşturma eğilimindesin. Bu, bazen 'taraf tutuyormuşsun' gibi görünebilir ama aslında, gerçek ve derin ilişkiler kurma ihtiyacının bir yansımasıdır. \n Küçük gruplarda sık sık uyum sağlamanı gerektiren durumlar sana zor gelebilir, çünkü en iyi işlerini, farklı insanlarla ve farklı ortamlarda etkileşim kurma özgürlüğüne sahip olduğunda ortaya koyarsın. Bu çeşitlilik ihtiyacı, nicelikten çok nitelik arayışından kaynaklanıyor; seni zenginleştiren farklı bakış açıları, öznel analizini derinleştiriyor. \n Hızlı kararlar vermek sana göre değildir çünkü bilgiyi kendi ritmine uygun şekilde işlemen için zamana ihtiyacın var. Bu zaman, yeni bilgileri mevcut bilgi birikimine tam anlamıyla dahil etmene olanak tanır, böylece verdiğin kararlar kişisel anlayışına dayalı sağlam temellere oturur. \n Kendi hızında hareket etmek senin için çok önemli. Başkalarının beklentilerine veya zaman çizelgelerine uymaya zorlanmak, zihinsel, fiziksel ve duygusal sağlığını olumsuz etkileyebilir. Kendi ritmini benimsemek, sürecine sadık kalmanı ve işte de, hayatta da etkili ve tatmin edici sonuçlar elde etmeni sağlar. \n İş dünyasında, Öznel çalışma ve öğrenme tarzın büyük bir avantajdır. Derinlemesine düşünülmüş ve yenilikçi çözümler ortaya koymana yardımcı olur. Kişisel işleme tarzına sadık kalarak, her profesyonel ortamda tartışmalara ve projelere önemli bir değer katabilir ve daha çeşitli, zengin bir bakış açısına katkıda bulunabilirsin."
+    var subjective_s3_1 = "Kararlarını kendi kişisel deneyimlerine dayandırırken, farklı bakış açılarını nasıl dahil edebilirsin? "
+    var subjective_s3_2 = "Derin ve samimi ilişkiler kurma eğilimin iş hayatında sana nasıl fayda sağlıyor? "
+    var subjective_s3_3 = "Kendine zaman ayırarak bilgiyi özümsemek için hangi stratejileri kullanıyorsun? "
+    var subjective_s3_4 = "Farklı insanlardan gelen bilgilerle kendi deneyimlerini nasıl birleştiriyorsun ve bu birleşimden nasıl yararlanıyorsun? "
+    var subjective_s3_5 = "Dış baskılar altında çalışırken, kendi doğal ritmine sadık kalmayı nasıl başarabilirsin? "
 
     var kariyer_secim_12_25_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
     var kariyer_secim_12_25_s2_1_2 = "Görünen o ki geniş bir hayal gücün var ve kendini ifade etmeyi seviyorsun. Bu kariyerler tam sana göre olabilir. Tasarım, moda, müzik, resim ya da yazarlık gibi alanlarda yaratıcılığını kullanarak özgün projeler geliştirebilirsin. Örneğin, bir grafik tasarımcı olup yeni bir marka için logo tasarlayabilir ya da müzikle uğraşıp kendi bestelerini yapabilirsin. Bu tür kariyerlerde fikirlerini hayata geçirerek fark yaratma şansın çok yüksek.";
     var kariyer_secim_12_25_s2_2_1 = "Liderlik ve Yönetim Kariyerleri ";
+    var kariyer_secim_12_25_s2_2_2 = "İnsanları yönlendirme ve organizasyonları yönetme konularında doğal bir yeteneğin var, bu alanlarda başarılı olabilirsin.  Proje liderliği, organizasyon yönetimi veya insan kaynakları gibi alanlarda çalışmak, büyük bir ekip içinde insanları bir araya getirerek hedeflere ulaşmayı sağlar. Mesela bir okul projesinde takım liderliği yaptığını düşün, bu becerilerini iş hayatında da kullanarak kariyerinde yükselebilirsin.";
+
     var kariyer_secim_12_25_s2_3_1 = "Yardım ve Sosyal Kariyerler";
     var kariyer_secim_12_25_s2_3_2 = "Başkalarına yardım etmek seni mutlu ediyor gibi, sosyal hizmetler veya sağlık sektöründe kendine uygun bir yol bulmaya ne dersin. Örneğin, bir hemşire veya sosyal hizmet uzmanı olarak insanlara destek olabilir ya da bir kar amacı gütmeyen kuruluşta çalışarak topluma katkı sağlayabilirsin. Bu kariyerler, hem başkalarına yardım etme hem de anlamlı bir iş yapma fırsatı sunar.";
     var kariyer_secim_12_25_s2_4_1 = "Teknik ve Mühendislik Kariyerleri";
@@ -626,6 +659,45 @@ export default async ({ req, res, log, error }) => {
     var kariyer_secim_25_40_s2_9_2 = "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
     var kariyer_secim_25_40_s2_10_1 = "Analitik ve Veri Odaklı Kariyerler ";
     var kariyer_secim_25_40_s2_10_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
+
+    var kariyer_secim_s3_0_0 = "Analitik ve Veriye Dayalı Kariyerler"
+    var kariyer_secim_s3_0_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti"
+    var kariyer_secim_s3_1_0 = "Yaratıcı ve Sanatsal Kariyerler"
+    var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\nIllustrator\nMüzisyen\nYönetmen\Sanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç Mimar\Moda Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör"
+    var kariyer_secim_s3_2_0 = "Liderlik ve Yönetim Kariyerleri"
+    var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra Direktörü\Kalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı"
+    var kariyer_secim_s3_3_0 = "Yardım ve Sosyal Kariyerler"
+    var kariyer_secim_s3_3_1 = "Sosyal Hizmet Uzmanı\Danışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı"
+    var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler"
+    var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi"
+    var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler"
+    var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü (Account manager)\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü"
+    var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler"
+    var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nYönetici Asistanı\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı"
+    var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler"
+    var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı"
+    var kariyer_secim_s3_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri"
+    var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru"
+
+    var kariyer_secim_s4_0_0 = "Analitik ve Veriye Dayalı Kariyerler"
+    var kariyer_secim_s4_0_1 = "Veri Bilimcisi, Makine Öğrenimi Mühendisi, Yapay Zeka (AI) Etikçisi, Veri Gizliliği Görevlisi, Blockchain Veri Analisti, Baş Veri Sorumlusu, Tahmine Dayalı Analitik Modelleyici, Artırılmış Analitik Uzmanı, Siber Güvenlik Veri Analisti, Kuantum Veri Analisti, Sağlık Bilişiminde Veri Bilimcisi, Veriye Dayalı Pazarlama Uzmanı, Sürdürülebilirlik Veri Analisti, İnsan Kaynakları Analisti için Yapay Zeka, IoT (Nesnelerin İnterneti) Veri Analisti"
+    var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler"
+    var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı (Genişletilmiş Gerçeklik)\nYapay Zeka Tarafından Oluşturulan Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı (Biyoteknoloji Sanatı)\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Geliştirilmiş Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka Tarafından Oluşturulan Hikaye Anlatıcısı\nMetaverse Mimarı\Yapay Zeka Destekli Film Yapımcısı"
+    var kariyer_secim_s4_2_0 = "Liderlik ve Yönetim Kariyerleri"
+    var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nBaş İnovasyon Sorumlusu\nESG (Çevresel, Sosyal ve Yönetişim) Yöneticisi\Veri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü"
+    var kariyer_secim_s4_3_0 = "Yardım ve Sosyal Kariyerler"
+    var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYapay Zeka Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı Yapay Zeka Koçu\nGerontolog (yaşlı bakımında uzmanlaşmış)\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYapay Zeka Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYapay Zeka ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu"
+    var kariyer_secim_s4_4_0 = "Teknik ve Mühendislik Kariyerler"
+    var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYapay Zeka (AI) Etik Uzmanı\nRobotik Proses Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nSağlık Mühendisi için Yapay Zeka\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi (Sürdürülebilir Altyapı)\nUzaktan Drone Teknisyeni"
+    var kariyer_secim_s4_5_0 = "Satış ve İlişkisel Kariyerler"
+    var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYapay Zeka Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nE-ticaret Müdürü\nSosyal Ticaret Uzmanı\nYapay Zeka Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi Yapay Zeka Tasarımcısı"
+    var kariyer_secim_s4_6_0 = "Organizasyonel ve İdari Kariyerler"
+    var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Süreç Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi"
+    var kariyer_secim_s4_7_0 = "Yenilikçi ve Girişimci Kariyerler"
+    var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Arcade Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Turizm Operatörü\nYeşil Teknoloji Yenilikçisi\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı"
+    var kariyer_secim_s4_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri"
+    var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYapay Zeka Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\nÇevrimiçi Öğrenme Deneyimi Tasarımcısı\nArtırılmış Gerçeklik Eğitmeni\nHayat Boyu Öğrenme Kolaylaştırıcısı\nSanal Dünyalarda Gençlik Mentoru\nYapay Zeka Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYapay Zeka Destekli Dil Eğitmeni"
+
     var kariyer_secim_12_25_s5_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
     var kariyer_secim_12_25_s5_1_2 = "Grafik Tasarımı";
     var kariyer_secim_12_25_s5_1_3 = "Güzel Sanatlar";
@@ -675,6 +747,7 @@ export default async ({ req, res, log, error }) => {
     var kariyer_secim_12_25_s5_5_8 = "Ticaret Hukuku (Yüksek Lisans)";
     var kariyer_secim_12_25_s5_5_9 = "Satış Yönetimi (Sertifika ve Lisansüstü Programlar)"
     var kariyer_secim_12_25_s5_5_1 = "Organizasyonel ve İdari Kariyerler";
+
     var kariyer_secim_12_25_s5_6_1 = "İnsan Kaynakları Yönetimi";
     var kariyer_secim_12_25_s5_6_2 = "İşletme";
     var kariyer_secim_12_25_s5_6_3 = "Büro Yönetimi";
@@ -773,447 +846,446 @@ export default async ({ req, res, log, error }) => {
     var kariyer_secim_12_25_s6_9_6 = "Staj ve Sertifikalar: Veri analitiği alanında staj yaparak ya da online sertifika programlarıyla uzmanlık kazanabilirsiniz.";
     var kariyer_secim_12_25_s6_9_7 = "Bu yollar, üniversite diploması olmadan da farklı kariyer alanlarında deneyim kazanmanızı ve yeteneklerinizi geliştirmenizi sağlar. ";
 
-    var kariyer_secim_12_25_s7_1_1 = "Yaratıcı ve Sanatsal Kariyerler"
-    var kariyer_secim_12_25_s7_1_2 = "Perakende sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_1_3 = "Perakende sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_1_4 = "Vitrin Tasarımcısı: Mağazaların dış görünüşlerini ve vitrinlerini tasarlayarak yaratıcı vizyonunuzu sergileyebilirsiniz. "
-    var kariyer_secim_12_25_s7_1_5 = "Görsel Düzenleme Uzmanı (Visual Merchandiser): Ürünlerin mağazada nasıl sunulacağını planlayarak, müşteri çekmek için estetik düzenlemeler yapabilirsiniz. ";
-    var kariyer_secim_12_25_s7_1_6 = "Grafik Tasarımcı: Perakende firmalarının tanıtım materyallerini (afiş, broşür, sosyal medya görselleri) tasarlayabilirsiniz. ";
-    var kariyer_secim_12_25_s7_1_7 = "Moda Danışmanı: Giyim mağazalarında stil danışmanlığı yaparak müşterilere yaratıcı giyim önerilerinde bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_1_8 = "İç Mekan Dekoratörü: Mağaza içi düzenlemeleri ve dekorasyonları yaparak perakende alanında yaratıcılığınızı kullanabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_1_1 = "Yaratıcı ve Sanatsal Kariyerler"
+    var kariyer_secim_12_25_s7_retail_1_2 = "Perakende sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_retail_1_3 = "Perakende sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_retail_1_4 = "Vitrin Tasarımcısı: Mağazaların dış görünüşlerini ve vitrinlerini tasarlayarak yaratıcı vizyonunuzu sergileyebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_1_5 = "Görsel Düzenleme Uzmanı (Visual Merchandiser): Ürünlerin mağazada nasıl sunulacağını planlayarak, müşteri çekmek için estetik düzenlemeler yapabilirsiniz. ";
+    var kariyer_secim_12_25_s7_retail_1_6 = "Grafik Tasarımcı: Perakende firmalarının tanıtım materyallerini (afiş, broşür, sosyal medya görselleri) tasarlayabilirsiniz. ";
+    var kariyer_secim_12_25_s7_retail_1_7 = "Moda Danışmanı: Giyim mağazalarında stil danışmanlığı yaparak müşterilere yaratıcı giyim önerilerinde bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_1_8 = "İç Mekan Dekoratörü: Mağaza içi düzenlemeleri ve dekorasyonları yaparak perakende alanında yaratıcılığınızı kullanabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_2_1 = "Liderlik ve Yönetim Kariyerleri";
-    var kariyer_secim_12_25_s7_2_2 = "Perakende sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir:"
-    var kariyer_secim_12_25_s7_2_3 = "Mağaza Müdürü: Bir mağazanın operasyonel süreçlerini yöneterek, çalışanları ve müşteri ilişkilerini koordine edebilirsiniz. "
-    var kariyer_secim_12_25_s7_2_4 = "Bölge Müdürü: Birden fazla mağazayı denetleyerek, satış ve performans hedeflerine ulaşmalarını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_2_5 = "Proje Yöneticisi: Yeni mağaza açılışları, kampanya yönetimleri ve lojistik projelerinde liderlik edebilirsiniz. "
-    var kariyer_secim_12_25_s7_2_6 = "Ekip Lideri: Satış ekibinin verimli çalışmasını sağlamak için ekibi yönlendirebilir ve hedeflere ulaşmaları için destek olabilirsiniz. "
-    var kariyer_secim_12_25_s7_2_7 = "Müşteri Deneyimi Yöneticisi: Müşterilere daha iyi bir alışveriş deneyimi sunmak için stratejiler geliştirebilir ve ekibi buna göre yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_2_1 = "Liderlik ve Yönetim Kariyerleri";
+    var kariyer_secim_12_25_s7_retail_2_2 = "Perakende sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir:"
+    var kariyer_secim_12_25_s7_retail_2_3 = "Mağaza Müdürü: Bir mağazanın operasyonel süreçlerini yöneterek, çalışanları ve müşteri ilişkilerini koordine edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_2_4 = "Bölge Müdürü: Birden fazla mağazayı denetleyerek, satış ve performans hedeflerine ulaşmalarını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_2_5 = "Proje Yöneticisi: Yeni mağaza açılışları, kampanya yönetimleri ve lojistik projelerinde liderlik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_2_6 = "Ekip Lideri: Satış ekibinin verimli çalışmasını sağlamak için ekibi yönlendirebilir ve hedeflere ulaşmaları için destek olabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_2_7 = "Müşteri Deneyimi Yöneticisi: Müşterilere daha iyi bir alışveriş deneyimi sunmak için stratejiler geliştirebilir ve ekibi buna göre yönlendirebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_3_1 = "Yardım ve Sosyal Kariyerler";
-    var kariyer_secim_12_25_s7_3_2 = "Perakende sektöründe insanlarla etkileşim içinde olup sosyal yardım ya da destek sağlayabileceğiniz işler: ";
-    var kariyer_secim_12_25_s7_3_3 = "Müşteri Hizmetleri Temsilcisi: Mağazada ya da çağrı merkezinde müşterilere ürünler, hizmetler ve iade süreçleri hakkında yardım edebilirsiniz. "
-    var kariyer_secim_12_25_s7_3_4 = "Satış Danışmanı: Müşterilere ihtiyaçlarına yönelik ürün önerilerinde bulunarak onlara yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_3_5 = "Kasa Sorumlusu: Müşteri ödeme işlemlerinde sorunsuz bir deneyim yaşatabilir, onların sorularını yanıtlayabilirsiniz. ";
-    var kariyer_secim_12_25_s7_3_6 = "Mağaza Asistanı: Müşterilere alışveriş sürecinde rehberlik edebilir, onların ihtiyaçlarına yönelik kişisel yardım sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_3_7 = "İade ve Değişim Sorumlusu: İade ve değişim işlemlerini yürütüp, müşteri memnuniyeti sağlamak için etkili çözümler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_3_1 = "Yardım ve Sosyal Kariyerler";
+    var kariyer_secim_12_25_s7_retail_3_2 = "Perakende sektöründe insanlarla etkileşim içinde olup sosyal yardım ya da destek sağlayabileceğiniz işler: ";
+    var kariyer_secim_12_25_s7_retail_3_3 = "Müşteri Hizmetleri Temsilcisi: Mağazada ya da çağrı merkezinde müşterilere ürünler, hizmetler ve iade süreçleri hakkında yardım edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_3_4 = "Satış Danışmanı: Müşterilere ihtiyaçlarına yönelik ürün önerilerinde bulunarak onlara yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_3_5 = "Kasa Sorumlusu: Müşteri ödeme işlemlerinde sorunsuz bir deneyim yaşatabilir, onların sorularını yanıtlayabilirsiniz. ";
+    var kariyer_secim_12_25_s7_retail_3_6 = "Mağaza Asistanı: Müşterilere alışveriş sürecinde rehberlik edebilir, onların ihtiyaçlarına yönelik kişisel yardım sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_3_7 = "İade ve Değişim Sorumlusu: İade ve değişim işlemlerini yürütüp, müşteri memnuniyeti sağlamak için etkili çözümler sunabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_4_1 = "Teknik ve Mühendislik Kariyerleri"
-    var kariyer_secim_12_25_s7_4_2 = "Perakende sektöründe teknik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_4_3 = "Mağaza Teknoloji Uzmanı: Mağaza içindeki teknolojik sistemlerin (POS cihazları, güvenlik sistemleri, yazılımlar) sorunsuz çalışmasını sağlayabilirsiniz. ";
-    var kariyer_secim_12_25_s7_4_4 = "Bakım ve Onarım Teknisyeni: Perakende mağazalarında kullanılan elektronik cihazların bakım ve onarımlarını gerçekleştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_4_5 = "IT Destek Uzmanı: Perakende şirketlerinin teknik altyapılarını destekleyebilir, bilgisayar sistemleri ve ağ sorunlarına çözüm üretebilirsiniz. "
-    var kariyer_secim_12_25_s7_4_6 = "E-Ticaret Uzmanı: Online satış platformlarının teknik altyapısını yönetebilir, web site geliştirme ve bakımını yapabilirsiniz. ";
-    var kariyer_secim_12_25_s7_4_7 = "Envanter ve Lojistik Uzmanı: Stok yönetimi ve lojistik süreçlerinin verimli işlemesini sağlamak için teknik analizler yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_4_1 = "Teknik ve Mühendislik Kariyerleri"
+    var kariyer_secim_12_25_s7_retail_4_2 = "Perakende sektöründe teknik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_retail_4_3 = "Mağaza Teknoloji Uzmanı: Mağaza içindeki teknolojik sistemlerin (POS cihazları, güvenlik sistemleri, yazılımlar) sorunsuz çalışmasını sağlayabilirsiniz. ";
+    var kariyer_secim_12_25_s7_retail_4_4 = "Bakım ve Onarım Teknisyeni: Perakende mağazalarında kullanılan elektronik cihazların bakım ve onarımlarını gerçekleştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_4_5 = "IT Destek Uzmanı: Perakende şirketlerinin teknik altyapılarını destekleyebilir, bilgisayar sistemleri ve ağ sorunlarına çözüm üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_4_6 = "E-Ticaret Uzmanı: Online satış platformlarının teknik altyapısını yönetebilir, web site geliştirme ve bakımını yapabilirsiniz. ";
+    var kariyer_secim_12_25_s7_retail_4_7 = "Envanter ve Lojistik Uzmanı: Stok yönetimi ve lojistik süreçlerinin verimli işlemesini sağlamak için teknik analizler yapabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_5_1 = "Satış ve İlişki Kurma Kariyerleri "
-    var kariyer_secim_12_25_s7_5_2 = "Perakende sektöründe satış becerilerinizi ve müşteri ilişkilerinizi geliştirebileceğiniz işler: "
-    var kariyer_secim_12_25_s7_5_3 = "Satış Temsilcisi: Mağaza içerisinde ürünlerin satışını gerçekleştirerek, müşteri ilişkileri ve satış performansını geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_5_4 = "Müşteri İlişkileri Yöneticisi: Büyük müşterilerle uzun vadeli ilişkiler kurabilir, onların taleplerine uygun çözümler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_5_5 = "Satış Müdürü: Mağaza satış ekibini yönetebilir, hedeflere ulaşmak için stratejik satış planları oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_5_6 = "Promosyon ve Tanıtım Uzmanı: Yeni ürün tanıtımları ve satış kampanyalarını organize ederek müşteri ilgisini çekebilirsiniz. "
-    var kariyer_secim_12_25_s7_5_7 = "Satış Analisti: Satış verilerini analiz edip, müşteri davranışlarını inceleyerek stratejik kararlar alabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_5_1 = "Satış ve İlişki Kurma Kariyerleri "
+    var kariyer_secim_12_25_s7_retail_5_2 = "Perakende sektöründe satış becerilerinizi ve müşteri ilişkilerinizi geliştirebileceğiniz işler: "
+    var kariyer_secim_12_25_s7_retail_5_3 = "Satış Temsilcisi: Mağaza içerisinde ürünlerin satışını gerçekleştirerek, müşteri ilişkileri ve satış performansını geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_5_4 = "Müşteri İlişkileri Yöneticisi: Büyük müşterilerle uzun vadeli ilişkiler kurabilir, onların taleplerine uygun çözümler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_5_5 = "Satış Müdürü: Mağaza satış ekibini yönetebilir, hedeflere ulaşmak için stratejik satış planları oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_5_6 = "Promosyon ve Tanıtım Uzmanı: Yeni ürün tanıtımları ve satış kampanyalarını organize ederek müşteri ilgisini çekebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_5_7 = "Satış Analisti: Satış verilerini analiz edip, müşteri davranışlarını inceleyerek stratejik kararlar alabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_6_1 = "Organizasyonel ve İdari Kariyerler"
-    var kariyer_secim_12_25_s7_6_2 = "Perakende sektöründe organizasyon ve idari süreçlerde çalışabileceğiniz işler: "
-    var kariyer_secim_12_25_s7_6_3 = "Ofis Yöneticisi: Mağazanın idari süreçlerini, personel takvimlerini ve genel operasyonları koordine edebilirsiniz. "
-    var kariyer_secim_12_25_s7_6_4 = "Stok Yöneticisi: Mağaza stoklarını takip edebilir, envanter kontrolü yaparak stok seviyelerinin optimum düzeyde olmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_6_5 = "Personel Yönetimi Uzmanı: Mağaza çalışanlarının işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_6_6 = "Lojistik Koordinatörü: Mağazanın ürün teslimatlarını, tedarik zincirini ve lojistik süreçlerini organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_6_7 = "Proje Koordinatörü: Mağaza yenileme projeleri veya satış kampanyalarının uygulanmasını yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_6_1 = "Organizasyonel ve İdari Kariyerler"
+    var kariyer_secim_12_25_s7_retail_6_2 = "Perakende sektöründe organizasyon ve idari süreçlerde çalışabileceğiniz işler: "
+    var kariyer_secim_12_25_s7_retail_6_3 = "Ofis Yöneticisi: Mağazanın idari süreçlerini, personel takvimlerini ve genel operasyonları koordine edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_6_4 = "Stok Yöneticisi: Mağaza stoklarını takip edebilir, envanter kontrolü yaparak stok seviyelerinin optimum düzeyde olmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_reatail_6_5 = "Personel Yönetimi Uzmanı: Mağaza çalışanlarının işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_6_6 = "Lojistik Koordinatörü: Mağazanın ürün teslimatlarını, tedarik zincirini ve lojistik süreçlerini organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_6_7 = "Proje Koordinatörü: Mağaza yenileme projeleri veya satış kampanyalarının uygulanmasını yönetebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_7_1 = "Yenilikçi ve Girişimci Kariyerler"
-    var kariyer_secim_12_25_s7_7_2 = "Perakende sektöründe yenilikçi fikirler ve girişimcilik ruhuyla çalışabileceğiniz işler: "
-    var kariyer_secim_12_25_s7_7_3 = "E-Ticaret Girişimcisi: Kendi online mağazanızı kurabilir, ürünlerinizi dijital platformlar üzerinden satabilirsiniz. "
-    var kariyer_secim_12_25_s7_7_4 = "Mağaza Sahibi: Kendi perakende mağazanızı açabilir, iş fikirlerinizi hayata geçirerek girişimcilik kariyerinize adım atabilirsiniz. "
-    var kariyer_secim_12_25_s7_7_5 = "Ürün Geliştirme Uzmanı: Perakende sektöründe yeni ürünler geliştirebilir veya mevcut ürünleri yenilikçi yaklaşımlarla pazarlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_7_6 = "Dijital Pazarlama Uzmanı: Sosyal medya ve dijital platformlar üzerinden mağaza veya ürünlerin tanıtımını yaparak yenilikçi pazarlama stratejileri geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_7_7 = "Franchise Sahibi: Bir markanın franchise hakkını alarak, yenilikçi yönetim yöntemleriyle işletmenizi büyütebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_7_1 = "Yenilikçi ve Girişimci Kariyerler"
+    var kariyer_secim_12_25_s7_retail_7_2 = "Perakende sektöründe yenilikçi fikirler ve girişimcilik ruhuyla çalışabileceğiniz işler: "
+    var kariyer_secim_12_25_s7_retail_7_3 = "E-Ticaret Girişimcisi: Kendi online mağazanızı kurabilir, ürünlerinizi dijital platformlar üzerinden satabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_7_4 = "Mağaza Sahibi: Kendi perakende mağazanızı açabilir, iş fikirlerinizi hayata geçirerek girişimcilik kariyerinize adım atabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_7_5 = "Ürün Geliştirme Uzmanı: Perakende sektöründe yeni ürünler geliştirebilir veya mevcut ürünleri yenilikçi yaklaşımlarla pazarlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_7_6 = "Dijital Pazarlama Uzmanı: Sosyal medya ve dijital platformlar üzerinden mağaza veya ürünlerin tanıtımını yaparak yenilikçi pazarlama stratejileri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_7_7 = "Franchise Sahibi: Bir markanın franchise hakkını alarak, yenilikçi yönetim yöntemleriyle işletmenizi büyütebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_8_1 = "Öğretim ve Mentorluk Kariyerleri "
-    var kariyer_secim_12_25_s7_8_2 = "Perakende sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler: "
-    var kariyer_secim_12_25_s7_8_3 = "Satış Eğitmeni: Yeni satış personeline eğitim vererek, onların becerilerini geliştirebilir ve mentorluk yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_8_4 = "Mağaza İçi Eğitmen: Mağaza personelinin gelişimi için düzenli eğitimler vererek mağaza içi bilgi akışını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_8_5 = "Mağaza Yöneticisi Mentor: Mağaza yöneticilerini yetiştirerek, onların liderlik becerilerini geliştirmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_8_6 = "Müşteri Deneyimi Koçu: Müşteri hizmetleri ekibine koçluk yaparak, onların müşteri memnuniyetini artırmalarına rehberlik edebilirsiniz. "
-    var kariyer_secim_12_25_s7_8_7 = "Satış Koçu: Satış ekibine hedeflerine ulaşmaları için stratejik koçluk yaparak, performanslarını artırabilirsiniz."
+    var kariyer_secim_12_25_s7_retail_8_1 = "Öğretim ve Mentorluk Kariyerleri "
+    var kariyer_secim_12_25_s7_retail_8_2 = "Perakende sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler: "
+    var kariyer_secim_12_25_s7_retail_8_3 = "Satış Eğitmeni: Yeni satış personeline eğitim vererek, onların becerilerini geliştirebilir ve mentorluk yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_8_4 = "Mağaza İçi Eğitmen: Mağaza personelinin gelişimi için düzenli eğitimler vererek mağaza içi bilgi akışını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_8_5 = "Mağaza Yöneticisi Mentor: Mağaza yöneticilerini yetiştirerek, onların liderlik becerilerini geliştirmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_8_6 = "Müşteri Deneyimi Koçu: Müşteri hizmetleri ekibine koçluk yaparak, onların müşteri memnuniyetini artırmalarına rehberlik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_8_7 = "Satış Koçu: Satış ekibine hedeflerine ulaşmaları için stratejik koçluk yaparak, performanslarını artırabilirsiniz."
 
-    var kariyer_secim_12_25_s7_9_1 = "Analitik ve Veri Odaklı Kariyerler "
-    var kariyer_secim_12_25_s7_9_2 = "Perakende sektöründe analitik düşünce ve veri odaklı çalışabileceğiniz işler: "
-    var kariyer_secim_12_25_s7_9_3 = "Stok ve Envanter Analisti: Mağazanın stok hareketlerini analiz ederek, envanter yönetimini optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_4 = "Satış Veri Analisti: Satış verilerini analiz edip, mağaza performansını artırmak için stratejik kararlar verebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_5 = "Pazarlama Analitiği Uzmanı: Pazarlama kampanyalarının etkisini ölçüp, veri odaklı pazarlama stratejileri geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_6 = "E-Ticaret Analitiği Uzmanı: Online mağaza verilerini analiz ederek müşteri davranışlarını anlamaya yönelik çözümler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_7 = "Müşteri Analitiği Uzmanı: Müşteri verilerini analiz ederek müşteri segmentasyonları ve hedeflemeleri yapabilirsiniz."
-    var kariyer_secim_12_25_s7_9_8 = "Perakende sektöründe geniş bir yelpazede kariyer seçenekleri bulunuyor ve her kariyer tipi için uygun fırsatlar mevcut. "
+    var kariyer_secim_12_25_s7_retail_9_1 = "Analitik ve Veri Odaklı Kariyerler "
+    var kariyer_secim_12_25_s7_retail_9_2 = "Perakende sektöründe analitik düşünce ve veri odaklı çalışabileceğiniz işler: "
+    var kariyer_secim_12_25_s7_retail_9_3 = "Stok ve Envanter Analisti: Mağazanın stok hareketlerini analiz ederek, envanter yönetimini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_9_4 = "Satış Veri Analisti: Satış verilerini analiz edip, mağaza performansını artırmak için stratejik kararlar verebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_9_5 = "Pazarlama Analitiği Uzmanı: Pazarlama kampanyalarının etkisini ölçüp, veri odaklı pazarlama stratejileri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_9_6 = "E-Ticaret Analitiği Uzmanı: Online mağaza verilerini analiz ederek müşteri davranışlarını anlamaya yönelik çözümler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_retail_9_7 = "Müşteri Analitiği Uzmanı: Müşteri verilerini analiz ederek müşteri segmentasyonları ve hedeflemeleri yapabilirsiniz."
+    var kariyer_secim_12_25_s7_retail_9_8 = "Perakende sektöründe geniş bir yelpazede kariyer seçenekleri bulunuyor ve her kariyer tipi için uygun fırsatlar mevcut. "
 
     // var kariyer_secim_12_25_s7_9_9 = "sağlık ve ilaç sektöründe yapılabilecek işler: "
-    var kariyer_secim_12_25_s7_9_9 = "Yaratıcı ve Sanatsal Kariyerler "
-    var kariyer_secim_12_25_s7_9_10 = "Sağlık ve ilaç sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_9_11 = "Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_12 = "Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_9_12 = "Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_9_12 = "Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_9_12 = "İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_1_1 = "Yaratıcı ve Sanatsal Kariyerler "
+    var kariyer_secim_12_25_s7_health_1_2 = "Sağlık ve ilaç sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_1_3 = "Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_1_4 = "Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_1_5 = "Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_1_6 = "Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_1_7 = "İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_10_1 = "Liderlik ve Yönetim Kariyerleri "
-    var kariyer_secim_12_25_s7_10_2 = "Sağlık ve ilaç sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_10_3 = "Hastane Yöneticisi: Bir hastanenin operasyonel süreçlerini yönetebilir, personel ve kaynak yönetiminden sorumlu olabilirsiniz. "
-    var kariyer_secim_12_25_s7_11_4 = "İlaç Firması Yöneticisi: İlaç üretim ve pazarlama süreçlerini yöneterek firmanın stratejik hedeflerine ulaşmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_11_5 = "Sağlık Projesi Yöneticisi: Sağlık projeleri (hastane açılışları, tıbbi cihaz geliştirme) veya araştırmalarının başında bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_11_6 = "Klinik Araştırma Müdürü: Yeni ilaçların klinik araştırma süreçlerini yöneterek, ilaç güvenliği ve etkinliğinin değerlendirilmesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_11_7 = "İnsan Kaynakları Yöneticisi (Sağlık): Sağlık çalışanlarının işe alım, eğitim ve performans yönetiminden sorumlu olabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_2_1 = "Liderlik ve Yönetim Kariyerleri "
+    var kariyer_secim_12_25_s7_health_2_2 = "Sağlık ve ilaç sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_2_3 = "Hastane Yöneticisi: Bir hastanenin operasyonel süreçlerini yönetebilir, personel ve kaynak yönetiminden sorumlu olabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_2_4 = "İlaç Firması Yöneticisi: İlaç üretim ve pazarlama süreçlerini yöneterek firmanın stratejik hedeflerine ulaşmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_2_5 = "Sağlık Projesi Yöneticisi: Sağlık projeleri (hastane açılışları, tıbbi cihaz geliştirme) veya araştırmalarının başında bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_2_6 = "Klinik Araştırma Müdürü: Yeni ilaçların klinik araştırma süreçlerini yöneterek, ilaç güvenliği ve etkinliğinin değerlendirilmesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_2_7 = "İnsan Kaynakları Yöneticisi (Sağlık): Sağlık çalışanlarının işe alım, eğitim ve performans yönetiminden sorumlu olabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_12_1 = "Yardım ve Sosyal Kariyerler"
-    var kariyer_secim_12_25_s7_12_2 = "Sağlık ve ilaç sektöründe insanlara yardım edebileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_12_3 = "Hemşire: Hastaların bakımını üstlenebilir, tedavi süreçlerinde doktorlara yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_12_4 = "Sosyal Hizmet Uzmanı: Hastalar ve aileleri için rehberlik sağlayabilir, sosyal destek hizmetleri sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_12_5 = "Hasta Danışmanı: Hastaların tedavi süreçlerinde rehberlik ederek, onların sorularını yanıtlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_12_6 = "Terapist: Psikolojik ya da fiziksel tedavi sağlayarak hastaların sağlığına katkıda bulunabilirsiniz (fizyoterapist, psikolog, ergoterapist vb.). "
-    var kariyer_secim_12_25_s7_12_7 = "Eczane Teknisyeni: İlaçların dağıtımı ve hastalara ilaç kullanımı konusunda danışmanlık hizmeti verebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_3_1 = "Yardım ve Sosyal Kariyerler"
+    var kariyer_secim_12_25_s7_health_3_2 = "Sağlık ve ilaç sektöründe insanlara yardım edebileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_3_3 = "Hemşire: Hastaların bakımını üstlenebilir, tedavi süreçlerinde doktorlara yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_3_4 = "Sosyal Hizmet Uzmanı: Hastalar ve aileleri için rehberlik sağlayabilir, sosyal destek hizmetleri sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_3_5 = "Hasta Danışmanı: Hastaların tedavi süreçlerinde rehberlik ederek, onların sorularını yanıtlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_3_6 = "Terapist: Psikolojik ya da fiziksel tedavi sağlayarak hastaların sağlığına katkıda bulunabilirsiniz (fizyoterapist, psikolog, ergoterapist vb.). "
+    var kariyer_secim_12_25_s7_health_3_7 = "Eczane Teknisyeni: İlaçların dağıtımı ve hastalara ilaç kullanımı konusunda danışmanlık hizmeti verebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_13_1 = "Teknik ve Mühendislik Kariyerleri"
-    var kariyer_secim_12_25_s7_13_2 = "Sağlık ve ilaç sektöründe teknik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_13_3 = "Biyomedikal Mühendisi: Tıbbi cihazlar geliştirerek hastaların tedavi süreçlerine katkı sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_13_4 = "Tıbbi Teknolog: Laboratuvarlarda tıbbi testler yapabilir, kan ve doku örnekleri analiz edebilirsiniz. "
-    var kariyer_secim_12_25_s7_13_5 = "Sağlık IT Uzmanı: Sağlık sistemleri ve veri tabanları üzerinde çalışarak sağlık hizmetlerinin teknolojik altyapısını sağlayabilirsiniz."
-    var kariyer_secim_12_25_s7_13_6 = "Tıbbi Cihaz Teknisyeni: Tıbbi cihazların bakım ve onarımını gerçekleştirerek hastanelerin teknik altyapısını destekleyebilirsiniz. "
-    var kariyer_secim_12_25_s7_13_7 = "Eczacılık Mühendisi: İlaç üretim süreçlerini denetleyebilir ve iyileştirme projeleri üzerinde çalışabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_4_1 = "Teknik ve Mühendislik Kariyerleri"
+    var kariyer_secim_12_25_s7_health_4_2 = "Sağlık ve ilaç sektöründe teknik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_4_3 = "Biyomedikal Mühendisi: Tıbbi cihazlar geliştirerek hastaların tedavi süreçlerine katkı sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_4_4 = "Tıbbi Teknolog: Laboratuvarlarda tıbbi testler yapabilir, kan ve doku örnekleri analiz edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_4_5 = "Sağlık IT Uzmanı: Sağlık sistemleri ve veri tabanları üzerinde çalışarak sağlık hizmetlerinin teknolojik altyapısını sağlayabilirsiniz."
+    var kariyer_secim_12_25_s7_health_4_6 = "Tıbbi Cihaz Teknisyeni: Tıbbi cihazların bakım ve onarımını gerçekleştirerek hastanelerin teknik altyapısını destekleyebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_4_7 = "Eczacılık Mühendisi: İlaç üretim süreçlerini denetleyebilir ve iyileştirme projeleri üzerinde çalışabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_14_1 = "Satış ve İlişki Kurma Kariyerleri"
-    var kariyer_secim_12_25_s7_14_2 = "Sağlık ve ilaç sektöründe satış becerilerinizi ve müşteri ilişkilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_14_3 = "Tıbbi Satış Temsilcisi: Doktorlara, hastanelere veya eczanelere yeni ilaçlar ve tıbbi ürünler hakkında bilgi verip satış yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_14_4 = "Eczane Satış Danışmanı: Eczanelerde çalışarak müşterilere ilaçlar ve sağlık ürünleri hakkında bilgi verebilir, satış yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_14_5 = "İlaç Satış Müdürü: İlaç firmalarının satış ekiplerini yönetebilir, stratejik satış hedeflerine ulaşmak için ekibinizi yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_14_6 = "Tıbbi Ürün Pazarlama Uzmanı: İlaçların ve medikal ürünlerin pazarlama stratejilerini yöneterek, sağlık sektöründe marka bilinirliği yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_14_7 = "Müşteri İlişkileri Yöneticisi (Sağlık): Sağlık hizmeti sağlayıcıları ve hastalarla uzun vadeli ilişkiler kurarak ihtiyaçlarına uygun çözümler sunabilirsiniz."
+    var kariyer_secim_12_25_s7_health_5_1 = "Satış ve İlişki Kurma Kariyerleri"
+    var kariyer_secim_12_25_s7_health_5_2 = "Sağlık ve ilaç sektöründe satış becerilerinizi ve müşteri ilişkilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_5_3 = "Tıbbi Satış Temsilcisi: Doktorlara, hastanelere veya eczanelere yeni ilaçlar ve tıbbi ürünler hakkında bilgi verip satış yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_5_4 = "Eczane Satış Danışmanı: Eczanelerde çalışarak müşterilere ilaçlar ve sağlık ürünleri hakkında bilgi verebilir, satış yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_5_5 = "İlaç Satış Müdürü: İlaç firmalarının satış ekiplerini yönetebilir, stratejik satış hedeflerine ulaşmak için ekibinizi yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_5_6 = "Tıbbi Ürün Pazarlama Uzmanı: İlaçların ve medikal ürünlerin pazarlama stratejilerini yöneterek, sağlık sektöründe marka bilinirliği yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_5_7 = "Müşteri İlişkileri Yöneticisi (Sağlık): Sağlık hizmeti sağlayıcıları ve hastalarla uzun vadeli ilişkiler kurarak ihtiyaçlarına uygun çözümler sunabilirsiniz."
 
-    var kariyer_secim_12_25_s7_15_1 = "Organizasyonel ve İdari Kariyerler"
-    var kariyer_secim_12_25_s7_15_2 = "Sağlık ve ilaç sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_15_3 = "Hastane Yönetim Asistanı: Hastane içi organizasyonel süreçleri, personel ve hasta kayıt işlemlerini koordine edebilirsiniz. "
-    var kariyer_secim_12_25_s7_15_4 = "Tedarik Zinciri Uzmanı: İlaçların ve tıbbi malzemelerin tedarik süreçlerini yöneterek, stok ve dağıtım zincirini optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_15_5 = "Sağlık Proje Koordinatörü: Sağlık hizmeti sunan kuruluşların projelerini yönetebilir, ekipleri organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_15_6 = "Tıbbi Sekreter: Hastaların randevu süreçlerini yönetebilir, doktorlar ve hastalar arasında iletişimi sağlayabilirsiniz."
-    var kariyer_secim_12_25_s7_15_7 = "İnsan Kaynakları Uzmanı: Sağlık sektöründeki personel alımlarını ve çalışan eğitimlerini organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_6_1 = "Organizasyonel ve İdari Kariyerler"
+    var kariyer_secim_12_25_s7_health_6_2 = "Sağlık ve ilaç sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_6_3 = "Hastane Yönetim Asistanı: Hastane içi organizasyonel süreçleri, personel ve hasta kayıt işlemlerini koordine edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_6_4 = "Tedarik Zinciri Uzmanı: İlaçların ve tıbbi malzemelerin tedarik süreçlerini yöneterek, stok ve dağıtım zincirini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_6_5 = "Sağlık Proje Koordinatörü: Sağlık hizmeti sunan kuruluşların projelerini yönetebilir, ekipleri organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_6_5 = "Tıbbi Sekreter: Hastaların randevu süreçlerini yönetebilir, doktorlar ve hastalar arasında iletişimi sağlayabilirsiniz."
+    var kariyer_secim_12_25_s7_health_6_6 = "İnsan Kaynakları Uzmanı: Sağlık sektöründeki personel alımlarını ve çalışan eğitimlerini organize edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_16_1 = "Yenilikçi ve Girişimci Kariyerler "
-    var kariyer_secim_12_25_s7_16_2 = "Sağlık ve ilaç sektöründe yenilikçi fikirler ve girişimcilik ruhuyla çalışabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_16_3 = "Sağlık Teknolojisi Girişimcisi: Yeni sağlık teknolojileri (mobil uygulamalar, tıbbi cihazlar) geliştiren bir girişim başlatabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_4 = "Biyoteknoloji Girişimcisi: Yeni biyoteknolojik çözümler veya ilaçlar geliştirmek üzere kendi girişiminizi kurabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_5 = "Dijital Sağlık Girişimcisi: Dijital sağlık hizmetleri sunan bir platform veya uygulama geliştirerek sektörde fark yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_15_6 = "Medikal Ürün Girişimcisi: Yenilikçi tıbbi ürünler geliştirip pazarlayarak sağlık sektöründe girişimcilik yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_15_7 = "İlaç Ar-Ge Yöneticisi: İlaç firmalarında araştırma ve geliştirme süreçlerini yönetebilir, yeni ilaçlar ve tedaviler üzerine çalışmalar yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_7_1 = "Yenilikçi ve Girişimci Kariyerler "
+    var kariyer_secim_12_25_s7_health_7_2 = "Sağlık ve ilaç sektöründe yenilikçi fikirler ve girişimcilik ruhuyla çalışabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_7_3 = "Sağlık Teknolojisi Girişimcisi: Yeni sağlık teknolojileri (mobil uygulamalar, tıbbi cihazlar) geliştiren bir girişim başlatabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_7_4 = "Biyoteknoloji Girişimcisi: Yeni biyoteknolojik çözümler veya ilaçlar geliştirmek üzere kendi girişiminizi kurabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_7_5 = "Dijital Sağlık Girişimcisi: Dijital sağlık hizmetleri sunan bir platform veya uygulama geliştirerek sektörde fark yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_7_6 = "Medikal Ürün Girişimcisi: Yenilikçi tıbbi ürünler geliştirip pazarlayarak sağlık sektöründe girişimcilik yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_7_7 = "İlaç Ar-Ge Yöneticisi: İlaç firmalarında araştırma ve geliştirme süreçlerini yönetebilir, yeni ilaçlar ve tedaviler üzerine çalışmalar yapabilirsiniz. "
 
 
-    var kariyer_secim_12_25_s7_16_1 = "Öğretim ve Mentorluk Kariyerleri "
-    var kariyer_secim_12_25_s7_16_2 = "Sağlık ve ilaç sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_16_3 = "Sağlık Eğitmeni: Hemşirelere, sağlık teknisyenlerine ya da doktorlara yönelik eğitimler vererek onların mesleki gelişimlerine katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_4 = "Tıp Fakültesi Öğretim Görevlisi: Tıp öğrencilerine ders vererek, yeni nesil doktorların yetişmesine katkı sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_5 = "Eczacılık Eğitmeni: Eczacılık öğrencilerine veya teknisyenlerine yönelik eğitimler vererek ilaç bilimi konusunda bilgi aktarabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_8_1 = "Öğretim ve Mentorluk Kariyerleri "
+    var kariyer_secim_12_25_s7_health_8_2 = "Sağlık ve ilaç sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_8_3 = "Sağlık Eğitmeni: Hemşirelere, sağlık teknisyenlerine ya da doktorlara yönelik eğitimler vererek onların mesleki gelişimlerine katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_8_4 = "Tıp Fakültesi Öğretim Görevlisi: Tıp öğrencilerine ders vererek, yeni nesil doktorların yetişmesine katkı sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_8_5 = "Eczacılık Eğitmeni: Eczacılık öğrencilerine veya teknisyenlerine yönelik eğitimler vererek ilaç bilimi konusunda bilgi aktarabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_16_6 = "Sağlık ve Güvenlik Eğitmeni: Sağlık kurumlarında çalışanlara iş güvenliği ve hasta güvenliği eğitimleri sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_7 = "Mentor (Sağlık Profesyonelleri): Deneyimli bir sağlık profesyoneli olarak, yeni mezunlara ya da genç çalışanlara rehberlik edebilirsiniz."
+    var kariyer_secim_12_25_s7_health_9_1 = "Sağlık ve Güvenlik Eğitmeni: Sağlık kurumlarında çalışanlara iş güvenliği ve hasta güvenliği eğitimleri sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_9_2 = "Mentor (Sağlık Profesyonelleri): Deneyimli bir sağlık profesyoneli olarak, yeni mezunlara ya da genç çalışanlara rehberlik edebilirsiniz."
 
-    var kariyer_secim_12_25_s7_17_1 = "Analitik ve Veri Odaklı Kariyerler "
-    var kariyer_secim_12_25_s7_17_2 = "Sağlık ve ilaç sektöründe analitik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_17_3 = "Sağlık Veri Analisti: Hastaların tedavi süreçlerini ve sağlık hizmetlerinin performansını analiz ederek veri odaklı çözümler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_17_4 = "Klinik Veri Yöneticisi: İlaç firmaları veya hastanelerde klinik araştırmalardan elde edilen verileri yönetebilir, analiz edebilirsiniz. "
-    var kariyer_secim_12_25_s7_17_5 = "Sağlık Ekonomisi Analisti: Sağlık hizmetlerinin maliyetlerini analiz edip, ekonomik çözümler sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_6 = "Biyoinformatik Uzmanı: Genom ve biyomedikal verileri analiz ederek ilaç geliştirme süreçlerine katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_7 = "Kalite Kontrol Analisti: İlaç üretim süreçlerinin kalitesini analiz ederek, güvenli ve etkili ürünler üretilmesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_10_1 = "Analitik ve Veri Odaklı Kariyerler "
+    var kariyer_secim_12_25_s7_health_10_2 = "Sağlık ve ilaç sektöründe analitik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_health_10_3 = "Sağlık Veri Analisti: Hastaların tedavi süreçlerini ve sağlık hizmetlerinin performansını analiz ederek veri odaklı çözümler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_10_4 = "Klinik Veri Yöneticisi: İlaç firmaları veya hastanelerde klinik araştırmalardan elde edilen verileri yönetebilir, analiz edebilirsiniz. "
+    var kariyer_secim_12_25_s7_health_10_5 = "Sağlık Ekonomisi Analisti: Sağlık hizmetlerinin maliyetlerini analiz edip, ekonomik çözümler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_10_6 = "Biyoinformatik Uzmanı: Genom ve biyomedikal verileri analiz ederek ilaç geliştirme süreçlerine katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_health_10_7 = "Kalite Kontrol Analisti: İlaç üretim süreçlerinin kalitesini analiz ederek, güvenli ve etkili ürünler üretilmesini sağlayabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_18_1 = "Yaratıcı ve Sanatsal Kariyerler"
-    var kariyer_secim_12_25_s7_18_2 = "Teknoloji sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_18_3 = "UX/UI Tasarımcısı: Web siteleri ve mobil uygulamaların kullanıcı deneyimini ve arayüzünü tasarlayarak kullanıcı dostu çözümler üretebilirsiniz. "
-    var kariyer_secim_12_25_s7_16_4 = "Oyun Tasarımcısı: Video oyunlarının konseptini ve görsellerini geliştirerek yaratıcı dünyalar ve karakterler oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_5 = "Grafik Tasarımcı (Dijital): Teknoloji firmalarının dijital pazarlama materyalleri ve web grafikleri için görseller tasarlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_16_6 = "Web Tasarımcısı: Web sitelerinin estetik görünümünü ve işlevselliğini oluşturabilir, yaratıcı çözümler sunabilirsiniz."
-    var kariyer_secim_12_25_s7_16_7 = "Animasyon Uzmanı: 3D modelleme, animasyon ve dijital efektler oluşturarak reklamlar, oyunlar ya da filmler için görsel içerik üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_1_1 = "Yaratıcı ve Sanatsal Kariyerler"
+    var kariyer_secim_12_25_s7_tech_1_2 = "Teknoloji sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_1_3 = "UX/UI Tasarımcısı: Web siteleri ve mobil uygulamaların kullanıcı deneyimini ve arayüzünü tasarlayarak kullanıcı dostu çözümler üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_1_4 = "Oyun Tasarımcısı: Video oyunlarının konseptini ve görsellerini geliştirerek yaratıcı dünyalar ve karakterler oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_1_5 = "Grafik Tasarımcı (Dijital): Teknoloji firmalarının dijital pazarlama materyalleri ve web grafikleri için görseller tasarlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_1_6 = "Web Tasarımcısı: Web sitelerinin estetik görünümünü ve işlevselliğini oluşturabilir, yaratıcı çözümler sunabilirsiniz."
+    var kariyer_secim_12_25_s7_tech_1_7 = "Animasyon Uzmanı: 3D modelleme, animasyon ve dijital efektler oluşturarak reklamlar, oyunlar ya da filmler için görsel içerik üretebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_17_1 = "Liderlik ve Yönetim Kariyerleri "
-    var kariyer_secim_12_25_s7_17_2 = "Teknoloji sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_17_3 = "Proje Yöneticisi (Teknoloji): Yazılım geliştirme veya teknoloji projelerini yönetebilir, takımları organize ederek projeleri zamanında tamamlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_3 = "IT Yöneticisi: Şirketin bilgi teknolojileri altyapısını yönetebilir, yazılım ve donanım çözümleri geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_17_4 = "Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_5 = "Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_6 = "Teknoloji Danışmanı: Firmalara teknoloji stratejileri geliştirerek iş süreçlerini optimize etmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_17_7 = "CTO (Chief Technology Officer): Bir şirketin teknoloji vizyonunu belirleyebilir, teknolojik yatırımları ve inovasyonu yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_1 = "Liderlik ve Yönetim Kariyerleri "
+    var kariyer_secim_12_25_s7_tech_2_2 = "Teknoloji sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_2_3 = "Proje Yöneticisi (Teknoloji): Yazılım geliştirme veya teknoloji projelerini yönetebilir, takımları organize ederek projeleri zamanında tamamlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_3 = "IT Yöneticisi: Şirketin bilgi teknolojileri altyapısını yönetebilir, yazılım ve donanım çözümleri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_4 = "Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_5 = "Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_6 = "Teknoloji Danışmanı: Firmalara teknoloji stratejileri geliştirerek iş süreçlerini optimize etmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_2_7 = "CTO (Chief Technology Officer): Bir şirketin teknoloji vizyonunu belirleyebilir, teknolojik yatırımları ve inovasyonu yönetebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_18_1 = "Yardım ve Sosyal Kariyerler "
-    var kariyer_secim_12_25_s7_18_2 = "Teknoloji sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_18_3 = "IT Destek Uzmanı: Kullanıcılara teknik destek sağlayarak bilgisayar, yazılım ve ağ sorunlarını çözebilirsiniz. "
-    var kariyer_secim_12_25_s7_18_4 = "Teknoloji Eğitmeni: Çalışanlara veya öğrencilere teknoloji ve yazılım eğitimleri vererek dijital becerilerini geliştirmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_18_5 = "Kullanıcı Destek Uzmanı: Yazılım ya da teknoloji ürünleri hakkında kullanıcıların sorularını yanıtlayabilir, teknik problemlerini çözmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_18_6 = "Sosyal Girişimci (Teknoloji): Teknoloji yoluyla sosyal problemlere çözüm üreten projeler geliştirerek toplum yararına işler yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_18_7 = "Dijital Erişilebilirlik Uzmanı: Engelli bireylerin teknolojiyi daha rahat kullanabilmesi için yazılım ve donanım çözümleri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_3_1 = "Yardım ve Sosyal Kariyerler "
+    var kariyer_secim_12_25_s7_tech_3_2 = "Teknoloji sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_3_3 = "IT Destek Uzmanı: Kullanıcılara teknik destek sağlayarak bilgisayar, yazılım ve ağ sorunlarını çözebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_3_4 = "Teknoloji Eğitmeni: Çalışanlara veya öğrencilere teknoloji ve yazılım eğitimleri vererek dijital becerilerini geliştirmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_3_5 = "Kullanıcı Destek Uzmanı: Yazılım ya da teknoloji ürünleri hakkında kullanıcıların sorularını yanıtlayabilir, teknik problemlerini çözmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_3_6 = "Sosyal Girişimci (Teknoloji): Teknoloji yoluyla sosyal problemlere çözüm üreten projeler geliştirerek toplum yararına işler yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_3_7 = "Dijital Erişilebilirlik Uzmanı: Engelli bireylerin teknolojiyi daha rahat kullanabilmesi için yazılım ve donanım çözümleri geliştirebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_18_1 = "Teknik ve Mühendislik Kariyerleri "
-    var kariyer_secim_12_25_s7_18_2 = "Teknoloji sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_18_3 = "Yazılım Geliştirici: Web, mobil uygulama ya da oyun yazılımları geliştirebilir, kodlama becerilerinizi kullanarak çözümler üretebilirsiniz. "
-    var kariyer_secim_12_25_s7_18_4 = "Veri Mühendisi: Büyük veri setlerini işleyerek, şirketlerin veri yönetim süreçlerini optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_18_5 = "Ağ Mühendisi: Şirketlerin bilgi ağlarını kurabilir, güvenli ve verimli ağ çözümleri sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_18_6 = "Siber Güvenlik Uzmanı: Sistemlerin güvenliğini sağlamak için siber saldırılara karşı güvenlik önlemleri alabilirsiniz. "
-    var kariyer_secim_12_25_s7_18_7 = "Yapay Zeka Mühendisi: Yapay zeka algoritmaları geliştirerek makine öğrenmesi, robotik ve otomasyon gibi alanlarda projeler üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_4_1 = "Teknik ve Mühendislik Kariyerleri "
+    var kariyer_secim_12_25_s7_tech_4_2 = "Teknoloji sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_4_3 = "Yazılım Geliştirici: Web, mobil uygulama ya da oyun yazılımları geliştirebilir, kodlama becerilerinizi kullanarak çözümler üretebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_4_4 = "Veri Mühendisi: Büyük veri setlerini işleyerek, şirketlerin veri yönetim süreçlerini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_4_5 = "Ağ Mühendisi: Şirketlerin bilgi ağlarını kurabilir, güvenli ve verimli ağ çözümleri sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_4_6 = "Siber Güvenlik Uzmanı: Sistemlerin güvenliğini sağlamak için siber saldırılara karşı güvenlik önlemleri alabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_4_7 = "Yapay Zeka Mühendisi: Yapay zeka algoritmaları geliştirerek makine öğrenmesi, robotik ve otomasyon gibi alanlarda projeler üretebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_19_1 = "Satış ve İlişki Kurma Kariyerleri "
-    var kariyer_secim_12_25_s7_19_2 = "Teknoloji sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_19_3 = "Müşteri Başarı Yöneticisi: Teknoloji ürünlerini kullanan müşterilere destek sağlayarak, ürünlerin verimli kullanımlarını sağlamalarına yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_19_3 = "Teknoloji Ürünleri Satış Müdürü: Satış ekiplerini yönetebilir, teknoloji ürünlerinin pazar stratejilerini geliştirip uygulayabilirsiniz. "
-    var kariyer_secim_12_25_s7_19_3 = "Dijital Pazarlama Uzmanı: Teknoloji firmalarının ürünlerini dijital platformlarda tanıtarak satış stratejileri oluşturabilirsiniz."
-    var kariyer_secim_12_25_s7_19_3 = "İş Geliştirme Uzmanı (Teknoloji): Yeni müşteri ve iş fırsatları geliştirerek teknoloji firmalarının büyümesine katkı sağlayabilirsiniz."
+    var kariyer_secim_12_25_s7_tech_5_1 = "Satış ve İlişki Kurma Kariyerleri "
+    var kariyer_secim_12_25_s7_tech_5_2 = "Teknoloji sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_5_3 = "Müşteri Başarı Yöneticisi: Teknoloji ürünlerini kullanan müşterilere destek sağlayarak, ürünlerin verimli kullanımlarını sağlamalarına yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_5_3 = "Teknoloji Ürünleri Satış Müdürü: Satış ekiplerini yönetebilir, teknoloji ürünlerinin pazar stratejilerini geliştirip uygulayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_5_3 = "Dijital Pazarlama Uzmanı: Teknoloji firmalarının ürünlerini dijital platformlarda tanıtarak satış stratejileri oluşturabilirsiniz."
+    var kariyer_secim_12_25_s7_tech_5_3 = "İş Geliştirme Uzmanı (Teknoloji): Yeni müşteri ve iş fırsatları geliştirerek teknoloji firmalarının büyümesine katkı sağlayabilirsiniz."
 
-    var kariyer_secim_12_25_s7_20_1 = "Organizasyonel ve İdari Kariyerler "
-    var kariyer_secim_12_25_s7_20_1 = "Teknoloji sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_20_1 = "Ofis Yöneticisi (Teknoloji): Bir teknoloji firmasının günlük operasyonlarını ve idari süreçlerini yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_20_1 = "Proje Koordinatörü: Teknoloji projelerinde ekipler arasında koordinasyon sağlayarak işlerin zamanında ve düzenli bir şekilde ilerlemesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_20_1 = "Bilgi Teknolojileri Yönetici Asistanı: IT yöneticilerinin programlarını düzenleyebilir, toplantıları ve proje süreçlerini takip edebilirsiniz. "
-    var kariyer_secim_12_25_s7_20_1 = "İnsan Kaynakları Uzmanı (Teknoloji): Teknoloji firmalarında personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_20_1 = "Dijital İşlem Uzmanı: Teknoloji firmalarının dijital operasyonlarını yöneterek veri işleme, dosya yönetimi ve dijital süreçleri optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Organizasyonel ve İdari Kariyerler "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Teknoloji sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Ofis Yöneticisi (Teknoloji): Bir teknoloji firmasının günlük operasyonlarını ve idari süreçlerini yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Proje Koordinatörü: Teknoloji projelerinde ekipler arasında koordinasyon sağlayarak işlerin zamanında ve düzenli bir şekilde ilerlemesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Bilgi Teknolojileri Yönetici Asistanı: IT yöneticilerinin programlarını düzenleyebilir, toplantıları ve proje süreçlerini takip edebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_6_1 = "İnsan Kaynakları Uzmanı (Teknoloji): Teknoloji firmalarında personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_6_1 = "Dijital İşlem Uzmanı: Teknoloji firmalarının dijital operasyonlarını yöneterek veri işleme, dosya yönetimi ve dijital süreçleri optimize edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_21_1 = "Yenilikçi ve Girişimci Kariyerler"
-    var kariyer_secim_12_25_s7_21_2 = "Teknoloji sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_21_3 = "Start-Up Kurucusu (Teknoloji): Yeni teknoloji girişimleri kurarak inovatif ürünler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_21_4 = "Yazılım Girişimcisi: Kendi yazılım projelerinizi geliştirerek piyasaya yeni dijital çözümler sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_21_5 = "Teknoloji İnovasyon Danışmanı: Şirketlere yenilikçi teknolojik çözümler sunarak iş süreçlerini dijitalleştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_21_6 = "Dijital Ürün Geliştirici: Yeni dijital ürünler, uygulamalar ya da platformlar oluşturarak teknoloji dünyasında fark yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_21_7 = "Blockchain Girişimcisi: Blockchain teknolojisi üzerine projeler geliştirerek finans, güvenlik ya da lojistik gibi sektörlere yenilikçi çözümler sunabilirsiniz."
+    var kariyer_secim_12_25_s7_tech_7_1 = "Yenilikçi ve Girişimci Kariyerler"
+    var kariyer_secim_12_25_s7_tech_7_2 = "Teknoloji sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_7_3 = "Start-Up Kurucusu (Teknoloji): Yeni teknoloji girişimleri kurarak inovatif ürünler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_7_4 = "Yazılım Girişimcisi: Kendi yazılım projelerinizi geliştirerek piyasaya yeni dijital çözümler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_7_5 = "Teknoloji İnovasyon Danışmanı: Şirketlere yenilikçi teknolojik çözümler sunarak iş süreçlerini dijitalleştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_7_6 = "Dijital Ürün Geliştirici: Yeni dijital ürünler, uygulamalar ya da platformlar oluşturarak teknoloji dünyasında fark yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_7_7 = "Blockchain Girişimcisi: Blockchain teknolojisi üzerine projeler geliştirerek finans, güvenlik ya da lojistik gibi sektörlere yenilikçi çözümler sunabilirsiniz."
 
-    var kariyer_secim_12_25_s7_22_1 = "Öğretim ve Mentorluk Kariyerleri "
-    var kariyer_secim_12_25_s7_22_2 = "Teknoloji sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_22_3 = "Yazılım Eğitmeni: Genç yazılımcılara ya da profesyonellere yazılım dilleri ve teknolojik çözümler konusunda eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_22_4 = "Teknoloji Koçu: Teknoloji alanında yeni başlayanlara ya da genç profesyonellere rehberlik ederek kariyer gelişimlerine katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_22_5 = "Dijital Eğitim Uzmanı: Online eğitim platformlarında ya da eğitim kurumlarında teknoloji odaklı dersler ve eğitim materyalleri oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_22_6 = "STEM Eğitmeni: Okullarda ya da özel kurslarda fen, teknoloji, mühendislik ve matematik (STEM) eğitimleri vererek gençleri bu alanlara yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_22_7 = "Mentor (Teknoloji): Start-up kurucuları ya da teknoloji profesyonellerine iş geliştirme, ürün yönetimi ya da yazılım geliştirme konularında rehberlik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_8_1 = "Öğretim ve Mentorluk Kariyerleri "
+    var kariyer_secim_12_25_s7_tech_8_2 = "Teknoloji sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_8_3 = "Yazılım Eğitmeni: Genç yazılımcılara ya da profesyonellere yazılım dilleri ve teknolojik çözümler konusunda eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_8_4 = "Teknoloji Koçu: Teknoloji alanında yeni başlayanlara ya da genç profesyonellere rehberlik ederek kariyer gelişimlerine katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_8_5 = "Dijital Eğitim Uzmanı: Online eğitim platformlarında ya da eğitim kurumlarında teknoloji odaklı dersler ve eğitim materyalleri oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_8_6 = "STEM Eğitmeni: Okullarda ya da özel kurslarda fen, teknoloji, mühendislik ve matematik (STEM) eğitimleri vererek gençleri bu alanlara yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_8_7 = "Mentor (Teknoloji): Start-up kurucuları ya da teknoloji profesyonellerine iş geliştirme, ürün yönetimi ya da yazılım geliştirme konularında rehberlik edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_23_1 = "Analitik ve Veri Odaklı Kariyerler"
-    var kariyer_secim_12_25_s7_23_2 = "Teknoloji sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_23_3 = "Veri Bilimcisi: Büyük veri setlerini analiz ederek, şirketlerin iş süreçlerini optimize edecek içgörüler üretebilirsiniz."
-    var kariyer_secim_12_25_s7_23_4 = "İş Zekası Analisti: Şirketlerin stratejik kararlarını desteklemek için veri analizi yaparak raporlar ve çözümler sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_23_5 = "Yapay Zeka Analisti: Yapay zeka algoritmaları ve makine öğrenmesi üzerine çalışmalar yaparak veri odaklı projeler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_23_6 = "SEO Uzmanı: Web sitelerinin arama motorlarında daha iyi performans göstermesi için analizler yapabilir ve stratejiler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_23_7 = "Blockchain Analisti: Blockchain teknolojisi ile ilgili verileri analiz ederek, güvenli ve şeffaf dijital çözümler üretebilirsiniz."
+    var kariyer_secim_12_25_s7_tech_9_1 = "Analitik ve Veri Odaklı Kariyerler"
+    var kariyer_secim_12_25_s7_tech_9_2 = "Teknoloji sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_tech_9_3 = "Veri Bilimcisi: Büyük veri setlerini analiz ederek, şirketlerin iş süreçlerini optimize edecek içgörüler üretebilirsiniz."
+    var kariyer_secim_12_25_s7_tech_9_4 = "İş Zekası Analisti: Şirketlerin stratejik kararlarını desteklemek için veri analizi yaparak raporlar ve çözümler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_9_5 = "Yapay Zeka Analisti: Yapay zeka algoritmaları ve makine öğrenmesi üzerine çalışmalar yaparak veri odaklı projeler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_9_6 = "SEO Uzmanı: Web sitelerinin arama motorlarında daha iyi performans göstermesi için analizler yapabilir ve stratejiler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_tech_9_7 = "Blockchain Analisti: Blockchain teknolojisi ile ilgili verileri analiz ederek, güvenli ve şeffaf dijital çözümler üretebilirsiniz."
+    var kariyer_secim_12_25_s7_tech_9_8 = "Teknoloji sektörü, her kariyer tipine uygun geniş bir yelpazede iş fırsatları sunuyor. Bu sektör, yenilikçi, teknik, yaratıcı ve organizasyonel becerilere sahip kişiler için oldukça uygun kariyer seçenekleri barındırıyor. "
 
-    var kariyer_secim_12_25_s7_23_8 = "Teknoloji sektörü, her kariyer tipine uygun geniş bir yelpazede iş fırsatları sunuyor. Bu sektör, yenilikçi, teknik, yaratıcı ve organizasyonel becerilere sahip kişiler için oldukça uygun kariyer seçenekleri barındırıyor. "
+    var kariyer_secim_12_25_s7_dress_1_1 = "Yaratıcı ve Sanatsal Kariyerler "
+    var kariyer_secim_12_25_s7_dress_1_2 = "Hazır giyim sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:  "
+    var kariyer_secim_12_25_s7_dress_1_3 = "Moda Tasarımcısı: Kendi kıyafet koleksiyonlarınızı tasarlayarak veya bir moda markası için özgün tasarımlar geliştirerek yaratıcı yönünüzü ortaya koyabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_1_4 = "Stylist (Stilist): Ünlüler, markalar veya moda çekimleri için kıyafet seçimleri yapabilir, kombin önerileri sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_1_5 = "Görsel Düzenleme Uzmanı (Visual Merchandiser): Mağaza vitrinlerini ve iç tasarımlarını yaparak ürünlerin daha çekici görünmesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_1_6 = "Moda İllüstratörü: Moda koleksiyonlarının çizimlerini yaparak tasarımları görsel olarak ifade edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_1_7 = "Kostüm Tasarımcısı: Tiyatro, film veya dizi prodüksiyonları için karakterlerin kostümlerini tasarlayarak giyim alanındaki yaratıcılığınızı kullanabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_24_1 = "Yaratıcı ve Sanatsal Kariyerler "
-    var kariyer_secim_12_25_s7_24_2 = "Hazır giyim sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:  "
-    var kariyer_secim_12_25_s7_24_3 = "Moda Tasarımcısı: Kendi kıyafet koleksiyonlarınızı tasarlayarak veya bir moda markası için özgün tasarımlar geliştirerek yaratıcı yönünüzü ortaya koyabilirsiniz. "
-    var kariyer_secim_12_25_s7_24_4 = "Stylist (Stilist): Ünlüler, markalar veya moda çekimleri için kıyafet seçimleri yapabilir, kombin önerileri sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_24_5 = "Görsel Düzenleme Uzmanı (Visual Merchandiser): Mağaza vitrinlerini ve iç tasarımlarını yaparak ürünlerin daha çekici görünmesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_24_6 = "Moda İllüstratörü: Moda koleksiyonlarının çizimlerini yaparak tasarımları görsel olarak ifade edebilirsiniz. "
-    var kariyer_secim_12_25_s7_24_7 = "Kostüm Tasarımcısı: Tiyatro, film veya dizi prodüksiyonları için karakterlerin kostümlerini tasarlayarak giyim alanındaki yaratıcılığınızı kullanabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_2_1 = "Liderlik ve Yönetim Kariyerleri "
+    var kariyer_secim_12_25_s7_dress_2_2 = "Hazır giyim sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_2_3 = "Mağaza Müdürü: Büyük bir moda perakende mağazasını yönetebilir, satış stratejileri geliştirebilir ve personeli yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_2_4 = "Üretim Müdürü: Giyim üretim süreçlerini yönetebilir, kalite kontrol ve verimlilik konularında sorumluluk alabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_2_5 = "Satış Müdürü: Hazır giyim ürünlerinin satış stratejilerini belirleyebilir ve satış ekibini yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_2_6 = "Tedarik Zinciri Yöneticisi: Giyim markalarının üretimden mağazalara kadar olan tedarik zincirini yöneterek, ürünlerin doğru zamanda doğru yerlere ulaşmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_2_7 = "Bölge Müdürü: Birden fazla mağazanın performansını denetleyerek, satış ve operasyon süreçlerini koordine edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_25_1 = "Liderlik ve Yönetim Kariyerleri "
-    var kariyer_secim_12_25_s7_25_2 = "Hazır giyim sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_25_3 = "Mağaza Müdürü: Büyük bir moda perakende mağazasını yönetebilir, satış stratejileri geliştirebilir ve personeli yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_25_4 = "Üretim Müdürü: Giyim üretim süreçlerini yönetebilir, kalite kontrol ve verimlilik konularında sorumluluk alabilirsiniz. "
-    var kariyer_secim_12_25_s7_25_5 = "Satış Müdürü: Hazır giyim ürünlerinin satış stratejilerini belirleyebilir ve satış ekibini yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_25_6 = "Tedarik Zinciri Yöneticisi: Giyim markalarının üretimden mağazalara kadar olan tedarik zincirini yöneterek, ürünlerin doğru zamanda doğru yerlere ulaşmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_25_7 = "Bölge Müdürü: Birden fazla mağazanın performansını denetleyerek, satış ve operasyon süreçlerini koordine edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_3_1 = "Yardım ve Sosyal Kariyerler "
+    var kariyer_secim_12_25_s7_dress_3_2 = "Hazır giyim sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_3_3 = "Moda Danışmanı (Mağaza): Müşterilere kıyafet seçimlerinde yardımcı olabilir, onların tarzlarına uygun kombinler önererek sosyal becerilerinizi kullanabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_3_4 = "Sürdürülebilir Moda Uzmanı: Çevre dostu ve etik giyim üretimi üzerine çalışmalar yaparak topluma ve çevreye katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_3_5 = "Müşteri Hizmetleri Uzmanı: Giyim mağazalarında ya da moda markalarında müşterilere yardımcı olabilir, ürünler hakkında destek sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_3_6 = "Moda Bağış Organizasyonları Koordinatörü: İhtiyaç sahiplerine giyim bağışı yapmak üzere organizasyonlar düzenleyebilir, sosyal sorumluluk projelerinde yer alabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_3_7 = "Kariyer Danışmanı (Moda): Gençlere ve öğrencilere moda sektöründe kariyer olanakları hakkında rehberlik yapabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_26_1 = "Yardım ve Sosyal Kariyerler "
-    var kariyer_secim_12_25_s7_26_2 = "Hazır giyim sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_26_3 = "Moda Danışmanı (Mağaza): Müşterilere kıyafet seçimlerinde yardımcı olabilir, onların tarzlarına uygun kombinler önererek sosyal becerilerinizi kullanabilirsiniz. "
-    var kariyer_secim_12_25_s7_26_4 = "Sürdürülebilir Moda Uzmanı: Çevre dostu ve etik giyim üretimi üzerine çalışmalar yaparak topluma ve çevreye katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_26_5 = "Müşteri Hizmetleri Uzmanı: Giyim mağazalarında ya da moda markalarında müşterilere yardımcı olabilir, ürünler hakkında destek sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_26_6 = "Moda Bağış Organizasyonları Koordinatörü: İhtiyaç sahiplerine giyim bağışı yapmak üzere organizasyonlar düzenleyebilir, sosyal sorumluluk projelerinde yer alabilirsiniz. "
-    var kariyer_secim_12_25_s7_26_7 = "Kariyer Danışmanı (Moda): Gençlere ve öğrencilere moda sektöründe kariyer olanakları hakkında rehberlik yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_4_1 = "Teknik ve Mühendislik Kariyerleri "
+    var kariyer_secim_12_25_s7_dress_4_2 = "Hazır giyim sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_4_3 = "Tekstil Mühendisi: Giyim üretiminde kullanılan kumaş ve malzemelerin kalitesini denetleyebilir, üretim süreçlerini iyileştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_4_4 = "Üretim Teknolojileri Uzmanı: Giyim üretiminde kullanılan makinelerin ve üretim teknolojilerinin verimli çalışmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_4_5 = "Kalıp Tasarımcısı: Kıyafetlerin kalıplarını teknik çizimlerle oluşturabilir, üretim aşamasında doğru kesimlerin yapılmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_4_6 = "Kumaş Teknoloğu: Kumaşların üretimi, geliştirilmesi ve performans testlerini yaparak teknik bilgi birikiminizi kullanabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_4_7 = "Üretim Otomasyonu Uzmanı: Giyim üretim hatlarının otomatikleşmesini sağlayacak çözümler geliştirerek üretim süreçlerini optimize edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_27_1 = "Teknik ve Mühendislik Kariyerleri "
-    var kariyer_secim_12_25_s7_27_2 = "Hazır giyim sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_27_3 = "Tekstil Mühendisi: Giyim üretiminde kullanılan kumaş ve malzemelerin kalitesini denetleyebilir, üretim süreçlerini iyileştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_27_4 = "Üretim Teknolojileri Uzmanı: Giyim üretiminde kullanılan makinelerin ve üretim teknolojilerinin verimli çalışmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_5 = "Kalıp Tasarımcısı: Kıyafetlerin kalıplarını teknik çizimlerle oluşturabilir, üretim aşamasında doğru kesimlerin yapılmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_6 = "Kumaş Teknoloğu: Kumaşların üretimi, geliştirilmesi ve performans testlerini yaparak teknik bilgi birikiminizi kullanabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_7 = "Üretim Otomasyonu Uzmanı: Giyim üretim hatlarının otomatikleşmesini sağlayacak çözümler geliştirerek üretim süreçlerini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_5_1 = "Satış ve İlişki Kurma Kariyerleri "
+    var kariyer_secim_12_25_s7_dress_5_2 = "Hazır giyim sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_5_3 = "Perakende Satış Danışmanı: Mağazalarda müşteri ilişkilerini yöneterek giyim ürünlerinin satışını yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_5_4 = "Bayi Yöneticisi: Giyim markalarının bayilikleriyle ilişkileri yönetebilir, satış süreçlerini takip edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_5_5 = "Moda Pazarlama Uzmanı: Giyim markalarının reklam kampanyalarını ve dijital pazarlama stratejilerini oluşturarak ürünlerin tanıtımını yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_5_6 = "Müşteri İlişkileri Yöneticisi: Büyük moda markaları için müşteri deneyimini yönetebilir, müşteri memnuniyetini artırmak için stratejiler geliştirebilirsiniz."
+    var kariyer_secim_12_25_s7_dress_5_7 = "İş Geliştirme Uzmanı (Moda): Giyim markalarının yeni iş fırsatlarını değerlendirmelerine ve müşteri portföylerini genişletmelerine yardımcı olabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_27_1 = "Satış ve İlişki Kurma Kariyerleri "
-    var kariyer_secim_12_25_s7_27_2 = "Hazır giyim sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_27_3 = "Perakende Satış Danışmanı: Mağazalarda müşteri ilişkilerini yöneterek giyim ürünlerinin satışını yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_4 = "Bayi Yöneticisi: Giyim markalarının bayilikleriyle ilişkileri yönetebilir, satış süreçlerini takip edebilirsiniz. "
-    var kariyer_secim_12_25_s7_27_5 = "Moda Pazarlama Uzmanı: Giyim markalarının reklam kampanyalarını ve dijital pazarlama stratejilerini oluşturarak ürünlerin tanıtımını yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_6 = "Müşteri İlişkileri Yöneticisi: Büyük moda markaları için müşteri deneyimini yönetebilir, müşteri memnuniyetini artırmak için stratejiler geliştirebilirsiniz."
-    var kariyer_secim_12_25_s7_27_7 = "İş Geliştirme Uzmanı (Moda): Giyim markalarının yeni iş fırsatlarını değerlendirmelerine ve müşteri portföylerini genişletmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_6_1 = "Organizasyonel ve İdari Kariyerler "
+    var kariyer_secim_12_25_s7_dress_6_2 = "Hazır giyim sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_6_3 = "Mağaza Yönetici Asistanı: Mağazanın idari işlerini ve personel yönetimini destekleyerek, mağaza operasyonlarının sorunsuz ilerlemesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_6_4 = "Stok Kontrol Uzmanı: Mağazaların stok yönetimini yapabilir, ürünlerin tedarik ve satış süreçlerini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_6_5 = "İnsan Kaynakları Uzmanı (Moda): Giyim firmalarında personel alımı, eğitim ve performans yönetimi gibi idari süreçleri organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_6_6 = "Proje Koordinatörü (Moda Etkinlikleri): Moda markalarının düzenlediği etkinlikleri ve lansmanları organize edebilir, etkinlik süreçlerini yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_6_7 = "Lojistik Uzmanı: Giyim ürünlerinin depolanması ve dağıtılması süreçlerini organize ederek tedarik zinciri yönetimine katkı sağlayabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_27_1 = "Organizasyonel ve İdari Kariyerler "
-    var kariyer_secim_12_25_s7_27_2 = "Hazır giyim sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_27_3 = "Mağaza Yönetici Asistanı: Mağazanın idari işlerini ve personel yönetimini destekleyerek, mağaza operasyonlarının sorunsuz ilerlemesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_27_4 = "Stok Kontrol Uzmanı: Mağazaların stok yönetimini yapabilir, ürünlerin tedarik ve satış süreçlerini optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_27_5 = "İnsan Kaynakları Uzmanı (Moda): Giyim firmalarında personel alımı, eğitim ve performans yönetimi gibi idari süreçleri organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_27_6 = "Proje Koordinatörü (Moda Etkinlikleri): Moda markalarının düzenlediği etkinlikleri ve lansmanları organize edebilir, etkinlik süreçlerini yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_27_7 = "Lojistik Uzmanı: Giyim ürünlerinin depolanması ve dağıtılması süreçlerini organize ederek tedarik zinciri yönetimine katkı sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_7_1 = "Yenilikçi ve Girişimci Kariyerler "
+    var kariyer_secim_12_25_s7_dress_7_2 = "Hazır giyim sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_7_3 = "Moda Girişimcisi: Kendi moda markanızı kurarak yenilikçi tasarımlarınızı piyasaya sürebilir ve kendi işinizi yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_7_4 = "E-Ticaret Girişimcisi: Kendi online giyim mağazanızı kurarak dijital ortamda moda ürünleri satabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_7_5 = "Sürdürülebilir Moda Girişimcisi: Çevre dostu ve geri dönüştürülebilir materyallerle giyim ürünleri üreterek bu alanda bir girişim başlatabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_7_6 = "Moda Teknoloji Girişimcisi: Giyim teknolojisi, akıllı kumaşlar veya inovatif üretim yöntemleri üzerine çalışmalar yaparak sektörde fark yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_7_6 = "Tasarım Danışmanlığı: Moda tasarım danışmanlığı yaparak diğer markalara yenilikçi tasarımlar geliştirme konusunda rehberlik edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_28_1 = "Yenilikçi ve Girişimci Kariyerler "
-    var kariyer_secim_12_25_s7_28_2 = "Hazır giyim sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_28_3 = "Moda Girişimcisi: Kendi moda markanızı kurarak yenilikçi tasarımlarınızı piyasaya sürebilir ve kendi işinizi yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_28_4 = "E-Ticaret Girişimcisi: Kendi online giyim mağazanızı kurarak dijital ortamda moda ürünleri satabilirsiniz. "
-    var kariyer_secim_12_25_s7_28_5 = "Sürdürülebilir Moda Girişimcisi: Çevre dostu ve geri dönüştürülebilir materyallerle giyim ürünleri üreterek bu alanda bir girişim başlatabilirsiniz. "
-    var kariyer_secim_12_25_s7_28_6 = "Moda Teknoloji Girişimcisi: Giyim teknolojisi, akıllı kumaşlar veya inovatif üretim yöntemleri üzerine çalışmalar yaparak sektörde fark yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_28_6 = "Tasarım Danışmanlığı: Moda tasarım danışmanlığı yaparak diğer markalara yenilikçi tasarımlar geliştirme konusunda rehberlik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_8_1 = "Öğretim ve Mentorluk Kariyerleri "
+    var kariyer_secim_12_25_s7_dress_8_2 = "Hazır giyim sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_dress_8_3 = "Moda Eğitmeni: Moda tasarımı, stil danışmanlığı veya tekstil üretimi üzerine öğrencilere ya da çalışanlara eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_8_4 = "Stilist Danışmanı: Yeni başlayan stilistlere rehberlik ederek kariyerlerinde gelişmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_8_5 = "Moda Koçu: Moda dünyasında kariyer yapmak isteyen bireylere profesyonel koçluk yaparak onların gelişim süreçlerini yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_8_6 = "Kariyer Mentoru (Moda): Moda sektöründe kariyer yapan profesyonellere rehberlik ederek, iş dünyasında karşılaştıkları zorluklarla başa çıkmalarına yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_8_7 = "Moda Okulu Yöneticisi: Bir moda okulunda yönetici olarak, eğitim programlarını yönetebilir ve öğrencilere kaliteli bir eğitim sunulmasını sağlayabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_29_1 = "Öğretim ve Mentorluk Kariyerleri "
-    var kariyer_secim_12_25_s7_29_2 = "Hazır giyim sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_29_3 = "Moda Eğitmeni: Moda tasarımı, stil danışmanlığı veya tekstil üretimi üzerine öğrencilere ya da çalışanlara eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_29_4 = "Stilist Danışmanı: Yeni başlayan stilistlere rehberlik ederek kariyerlerinde gelişmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_29_5 = "Moda Koçu: Moda dünyasında kariyer yapmak isteyen bireylere profesyonel koçluk yaparak onların gelişim süreçlerini yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_29_6 = "Kariyer Mentoru (Moda): Moda sektöründe kariyer yapan profesyonellere rehberlik ederek, iş dünyasında karşılaştıkları zorluklarla başa çıkmalarına yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_29_7 = "Moda Okulu Yöneticisi: Bir moda okulunda yönetici olarak, eğitim programlarını yönetebilir ve öğrencilere kaliteli bir eğitim sunulmasını sağlayabilirsiniz. "
-
-    var kariyer_secim_12_25_s7_30_1 = "Analitik ve Veri Odaklı Kariyerler "
-    var kariyer_secim_12_25_s7_30_2 = "Hazır giyim sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:"
-    var kariyer_secim_12_25_s7_30_3 = "Moda Trend Analisti: Pazar araştırmaları yaparak moda trendlerini ve tüketici tercihlerini analiz edebilir, markalara gelecekteki stratejileri hakkında önerilerde bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_30_4 = "E-Ticaret Veri Analisti: Online giyim mağazalarının satış verilerini analiz ederek müşteri davranışlarını ve satış performansını değerlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_30_5 = "Stok Analisti: Giyim ürünlerinin satış ve stok hareketlerini analiz ederek tedarik zincirinin daha verimli işlemesine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_30_6 = "Fiyatlandırma Uzmanı: Moda ürünlerinin fiyatlandırılmasında veri odaklı analizler yaparak şirketin kar marjını optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_30_7 = "Müşteri Analitiği Uzmanı: Müşteri alışkanlıklarını ve geri bildirimlerini analiz ederek, markaların müşteri deneyimini geliştirmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_9_1 = "Analitik ve Veri Odaklı Kariyerler "
+    var kariyer_secim_12_25_s7_dress_9_2 = "Hazır giyim sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:"
+    var kariyer_secim_12_25_s7_dress_9_3 = "Moda Trend Analisti: Pazar araştırmaları yaparak moda trendlerini ve tüketici tercihlerini analiz edebilir, markalara gelecekteki stratejileri hakkında önerilerde bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_9_4 = "E-Ticaret Veri Analisti: Online giyim mağazalarının satış verilerini analiz ederek müşteri davranışlarını ve satış performansını değerlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_9_5 = "Stok Analisti: Giyim ürünlerinin satış ve stok hareketlerini analiz ederek tedarik zincirinin daha verimli işlemesine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_9_6 = "Fiyatlandırma Uzmanı: Moda ürünlerinin fiyatlandırılmasında veri odaklı analizler yaparak şirketin kar marjını optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_dress_9_7 = "Müşteri Analitiği Uzmanı: Müşteri alışkanlıklarını ve geri bildirimlerini analiz ederek, markaların müşteri deneyimini geliştirmelerine yardımcı olabilirsiniz. "
 
     // otomotiv
-    var kariyer_secim_12_25_s7_31_1 = "Yaratıcı ve Sanatsal Kariyerler "
-    var kariyer_secim_12_25_s7_31_2 = "Otomotiv sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_31_3 = "Otomotiv Tasarımcısı: Araçların dış tasarımlarını veya iç mekan düzenlemelerini yaparak otomotiv dünyasına estetik katabilirsiniz. "
-    var kariyer_secim_12_25_s7_31_4 = "Endüstriyel Tasarımcı: Araçların kullanıcı dostu ve estetik açıdan çekici olmasını sağlayacak tasarımlar geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_31_5 = "Grafik Tasarımcı: Otomotiv markaları için reklam, logo veya ürün tanıtımı gibi grafik çalışmalar yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_31_6 = "Renk ve Malzeme Tasarımcısı: Araçlarda kullanılacak renk paletlerini ve malzemeleri belirleyerek, araçların estetik görünümüne katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_31_7 = "Görsel Sunum Uzmanı: Otomobil fuarları, reklam kampanyaları ve lansmanlar için görsel sunumlar ve konsept tasarımlar hazırlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_1_1 = "Yaratıcı ve Sanatsal Kariyerler "
+    var kariyer_secim_12_25_s7_auto_1_2 = "Otomotiv sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_1_3 = "Otomotiv Tasarımcısı: Araçların dış tasarımlarını veya iç mekan düzenlemelerini yaparak otomotiv dünyasına estetik katabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_1_4 = "Endüstriyel Tasarımcı: Araçların kullanıcı dostu ve estetik açıdan çekici olmasını sağlayacak tasarımlar geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_1_5 = "Grafik Tasarımcı: Otomotiv markaları için reklam, logo veya ürün tanıtımı gibi grafik çalışmalar yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_1_6 = "Renk ve Malzeme Tasarımcısı: Araçlarda kullanılacak renk paletlerini ve malzemeleri belirleyerek, araçların estetik görünümüne katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_1_7 = "Görsel Sunum Uzmanı: Otomobil fuarları, reklam kampanyaları ve lansmanlar için görsel sunumlar ve konsept tasarımlar hazırlayabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_32_1 = "Liderlik ve Yönetim Kariyerleri"
-    var kariyer_secim_12_25_s7_32_2 = "Otomotiv sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_32_3 = "Fabrika Müdürü: Otomobil üretim fabrikasında üretim süreçlerini yönetebilir, kalite kontrol ve üretim hedeflerinin yerine getirilmesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_32_4 = "Satış Müdürü: Otomobil bayileri veya distribütörler için satış stratejileri geliştirip, satış ekibini yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_32_5 = "Proje Yöneticisi: Yeni araç modelleri geliştirme süreçlerini yönetebilir, farklı departmanları bir araya getirerek projelerin zamanında tamamlanmasını sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_32_6 = "Servis Müdürü: Otomobil servislerinin operasyonlarını yönetebilir, müşteri memnuniyetini artırmak için ekipleri yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_32_7 = "Lojistik Müdürü: Üretimden dağıtıma kadar olan tedarik zinciri süreçlerini yönetebilir, araçların zamanında bayilere ulaşmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_2_1 = "Liderlik ve Yönetim Kariyerleri"
+    var kariyer_secim_12_25_s7_auto_2_2 = "Otomotiv sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_2_3 = "Fabrika Müdürü: Otomobil üretim fabrikasında üretim süreçlerini yönetebilir, kalite kontrol ve üretim hedeflerinin yerine getirilmesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_2_4 = "Satış Müdürü: Otomobil bayileri veya distribütörler için satış stratejileri geliştirip, satış ekibini yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_2_5 = "Proje Yöneticisi: Yeni araç modelleri geliştirme süreçlerini yönetebilir, farklı departmanları bir araya getirerek projelerin zamanında tamamlanmasını sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_2_6 = "Servis Müdürü: Otomobil servislerinin operasyonlarını yönetebilir, müşteri memnuniyetini artırmak için ekipleri yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_2_7 = "Lojistik Müdürü: Üretimden dağıtıma kadar olan tedarik zinciri süreçlerini yönetebilir, araçların zamanında bayilere ulaşmasını sağlayabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_33_1 = "Yardım ve Sosyal Kariyerler "
-    var kariyer_secim_12_25_s7_33_2 = "Otomotiv sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_33_3 = "Müşteri Hizmetleri Uzmanı: Otomobil sahiplerine servis ve bakım konusunda rehberlik edebilir, müşteri şikayetlerini çözüme kavuşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_33_4 = "Garanti Danışmanı: Otomobil garantileri hakkında müşterilere bilgi verip, garanti kapsamındaki işlemleri organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_33_5 = "Sürdürülebilirlik Uzmanı: Çevre dostu otomobil üretimi ve sürdürülebilir enerji kaynaklarının kullanımı üzerine çalışarak sektörde çevresel farkındalık yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_33_6 = "Eğitim ve Gelişim Uzmanı: Otomotiv çalışanlarına servis, satış veya teknik eğitimler vererek sektörde bilgi paylaşımına katkı sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_33_7 = "Topluluk İlişkileri Uzmanı: Otomotiv firmalarının sosyal sorumluluk projelerini yönetebilir, topluma fayda sağlayacak projeler oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_3_1 = "Yardım ve Sosyal Kariyerler "
+    var kariyer_secim_12_25_s7_auto_3_2 = "Otomotiv sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_3_3 = "Müşteri Hizmetleri Uzmanı: Otomobil sahiplerine servis ve bakım konusunda rehberlik edebilir, müşteri şikayetlerini çözüme kavuşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_3_4 = "Garanti Danışmanı: Otomobil garantileri hakkında müşterilere bilgi verip, garanti kapsamındaki işlemleri organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_3_5 = "Sürdürülebilirlik Uzmanı: Çevre dostu otomobil üretimi ve sürdürülebilir enerji kaynaklarının kullanımı üzerine çalışarak sektörde çevresel farkındalık yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_3_6 = "Eğitim ve Gelişim Uzmanı: Otomotiv çalışanlarına servis, satış veya teknik eğitimler vererek sektörde bilgi paylaşımına katkı sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_3_7 = "Topluluk İlişkileri Uzmanı: Otomotiv firmalarının sosyal sorumluluk projelerini yönetebilir, topluma fayda sağlayacak projeler oluşturabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_34_1 = "Teknik ve Mühendislik Kariyerleri "
-    var kariyer_secim_12_25_s7_34_2 = "Otomotiv sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_34_3 = "Makine Mühendisi: Araçların motor, şasi ve diğer mekanik parçalarını tasarlayabilir ve geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_34_4 = "Otomotiv Mühendisi: Araçların performansını artırmak, güvenliğini sağlamak ve enerji verimliliğini optimize etmek için çalışabilirsiniz. "
-    var kariyer_secim_12_25_s7_34_5 = "Elektrik-Elektronik Mühendisi: Araçların elektronik sistemleri, sensörleri ve otonom sürüş teknolojilerini geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_34_6 = "Üretim Mühendisi: Araçların üretim süreçlerini planlayarak, verimliliği artırmak ve maliyetleri azaltmak üzerine çalışmalar yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_34_7 = "Kalite Kontrol Uzmanı: Üretilen araçların kalite standartlarına uygun olup olmadığını denetleyerek, üretim süreçlerini iyileştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_4_1 = "Teknik ve Mühendislik Kariyerleri "
+    var kariyer_secim_12_25_s7_auto_4_2 = "Otomotiv sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_4_3 = "Makine Mühendisi: Araçların motor, şasi ve diğer mekanik parçalarını tasarlayabilir ve geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_4_4 = "Otomotiv Mühendisi: Araçların performansını artırmak, güvenliğini sağlamak ve enerji verimliliğini optimize etmek için çalışabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_4_5 = "Elektrik-Elektronik Mühendisi: Araçların elektronik sistemleri, sensörleri ve otonom sürüş teknolojilerini geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_4_6 = "Üretim Mühendisi: Araçların üretim süreçlerini planlayarak, verimliliği artırmak ve maliyetleri azaltmak üzerine çalışmalar yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_4_7 = "Kalite Kontrol Uzmanı: Üretilen araçların kalite standartlarına uygun olup olmadığını denetleyerek, üretim süreçlerini iyileştirebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_35_1 = "Satış ve İlişki Kurma Kariyerleri "
-    var kariyer_secim_12_25_s7_35_2 = "Otomotiv sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_35_3 = "Otomobil Satış Danışmanı: Bayilerde müşteri ilişkilerini yöneterek, araç satışını gerçekleştirebilir ve müşteri taleplerini karşılayabilirsiniz. "
-    var kariyer_secim_12_25_s7_35_4 = "Filo Satış Yöneticisi: Büyük firmalar veya filo alıcıları için araç satış stratejileri geliştirebilir, kurumsal müşterilerle ilişkiler kurabilirsiniz. "
-    var kariyer_secim_12_25_s7_35_5 = "Satış Sonrası Hizmetler Uzmanı: Müşterilerin araç servisi, bakım ve yedek parça ihtiyaçları için destek sağlayabilir, satış sonrası hizmet kalitesini artırabilirsiniz. "
-    var kariyer_secim_12_25_s7_35_6 = "Pazarlama Uzmanı: Otomobil markalarının pazarlama kampanyalarını yönetebilir, reklam ve tanıtım stratejileri geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_35_7 = "Müşteri Deneyimi Yöneticisi: Müşterilerin satın alma sürecinde ve sonrasında yaşadıkları deneyimleri analiz ederek, müşteri memnuniyetini artıracak stratejiler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_5_1 = "Satış ve İlişki Kurma Kariyerleri "
+    var kariyer_secim_12_25_s7_auto_5_2 = "Otomotiv sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_5_3 = "Otomobil Satış Danışmanı: Bayilerde müşteri ilişkilerini yöneterek, araç satışını gerçekleştirebilir ve müşteri taleplerini karşılayabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_5_4 = "Filo Satış Yöneticisi: Büyük firmalar veya filo alıcıları için araç satış stratejileri geliştirebilir, kurumsal müşterilerle ilişkiler kurabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_5_5 = "Satış Sonrası Hizmetler Uzmanı: Müşterilerin araç servisi, bakım ve yedek parça ihtiyaçları için destek sağlayabilir, satış sonrası hizmet kalitesini artırabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_5_6 = "Pazarlama Uzmanı: Otomobil markalarının pazarlama kampanyalarını yönetebilir, reklam ve tanıtım stratejileri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_5_7 = "Müşteri Deneyimi Yöneticisi: Müşterilerin satın alma sürecinde ve sonrasında yaşadıkları deneyimleri analiz ederek, müşteri memnuniyetini artıracak stratejiler geliştirebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_36_1 = "Organizasyonel ve İdari Kariyerler"
-    var kariyer_secim_12_25_s7_36_2 = "Otomotiv sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_36_3 = "Ofis Yöneticisi: Otomobil firmalarında idari süreçleri yönetebilir, personel ve günlük operasyonları organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_36_4 = "İnsan Kaynakları Uzmanı: Otomotiv sektöründe çalışan personelin alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_36_5 = "Stok Yönetimi Uzmanı: Bayilerde ya da üretim tesislerinde araç ve parça stoklarını yönetebilir, taleplere göre stok seviyelerini optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_36_6 = "Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsiniz. "
-    var kariyer_secim_12_25_s7_36_7 = "Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_6_1 = "Organizasyonel ve İdari Kariyerler"
+    var kariyer_secim_12_25_s7_auto_6_2 = "Otomotiv sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_6_3 = "Ofis Yöneticisi: Otomobil firmalarında idari süreçleri yönetebilir, personel ve günlük operasyonları organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_6_4 = "İnsan Kaynakları Uzmanı: Otomotiv sektöründe çalışan personelin alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_6_5 = "Stok Yönetimi Uzmanı: Bayilerde ya da üretim tesislerinde araç ve parça stoklarını yönetebilir, taleplere göre stok seviyelerini optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_6_6 = "Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_6_7 = "Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_37_1 = "Yenilikçi ve Girişimci Kariyerler "
-    var kariyer_secim_12_25_s7_37_2 = "Otomotiv sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_37_2 = "Elektrikli Araç Girişimcisi: Elektrikli otomobil üretimi veya şarj altyapısı geliştirme üzerine bir girişim başlatabilirsiniz. "
-    var kariyer_secim_12_25_s7_37_3 = "Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsiniz. "
-    var kariyer_secim_12_25_s7_37_4 = "Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_37_5 = "İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_37_5 = "Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_7_1 = "Yenilikçi ve Girişimci Kariyerler "
+    var kariyer_secim_12_25_s7_auto_7_2 = "Otomotiv sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_7_2 = "Elektrikli Araç Girişimcisi: Elektrikli otomobil üretimi veya şarj altyapısı geliştirme üzerine bir girişim başlatabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_7_3 = "Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_7_4 = "Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_7_5 = "İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_7_5 = "Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_38_1 = "Öğretim ve Mentorluk Kariyerleri"
-    var kariyer_secim_12_25_s7_38_2 = "Otomotiv sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_38_3 = "Otomotiv Eğitmeni: Teknik liselerde veya üniversitelerde otomotiv teknolojisi, mühendislik veya üretim süreçleri üzerine eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_38_4 = "Sürücü Eğitmeni: Araç kullanımı konusunda sürücü adaylarına eğitim vererek onların güvenli sürüş becerilerini geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_38_5 = "Teknik Servis Eğitmeni: Servis teknisyenlerine otomobil tamiri, bakım ve onarım konusunda eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_38_6 = "Kariyer Koçu (Otomotiv): Otomotiv sektöründe kariyer yapmayı planlayan bireylere mentorluk yaparak onların kariyer yollarını çizmelerine yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_38_7 = "Mentor (Ar-Ge ve Yenilik): Genç mühendis ve girişimcilere Ar-Ge ve inovasyon projelerinde rehberlik edebilir, yeni nesil otomotiv çözümleri geliştirmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_8_1 = "Öğretim ve Mentorluk Kariyerleri"
+    var kariyer_secim_12_25_s7_auto_8_2 = "Otomotiv sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_8_3 = "Otomotiv Eğitmeni: Teknik liselerde veya üniversitelerde otomotiv teknolojisi, mühendislik veya üretim süreçleri üzerine eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_8_4 = "Sürücü Eğitmeni: Araç kullanımı konusunda sürücü adaylarına eğitim vererek onların güvenli sürüş becerilerini geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_8_5 = "Teknik Servis Eğitmeni: Servis teknisyenlerine otomobil tamiri, bakım ve onarım konusunda eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_8_6 = "Kariyer Koçu (Otomotiv): Otomotiv sektöründe kariyer yapmayı planlayan bireylere mentorluk yaparak onların kariyer yollarını çizmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_8_7 = "Mentor (Ar-Ge ve Yenilik): Genç mühendis ve girişimcilere Ar-Ge ve inovasyon projelerinde rehberlik edebilir, yeni nesil otomotiv çözümleri geliştirmelerine yardımcı olabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_39_1 = "Analitik ve Veri Odaklı Kariyerler "
-    var kariyer_secim_12_25_s7_39_2 = "Otomotiv sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_39_3 = "Veri Analisti (Otonom Sürüş): Otonom sürüş sistemlerinin topladığı verileri analiz ederek araç güvenliğini artırmaya yönelik çözümler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_39_4 = "Satış ve Pazar Analisti: Araç satış verilerini ve pazar trendlerini analiz ederek, satış stratejilerine yön verebilirsiniz. "
-    var kariyer_secim_12_25_s7_39_5 = "Veri Bilimci (Telemetri): Araçların sürüş performansını izleyen telemetri verilerini analiz ederek, araç performansını ve güvenliğini iyileştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_39_6 = "Müşteri Analitiği Uzmanı: Otomotiv müşterilerinin tercih ve satın alma davranışlarını analiz ederek, kişiselleştirilmiş müşteri deneyimi stratejileri oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_39_7 = "Üretim Analisti: Araç üretim süreçlerindeki verileri analiz ederek, üretim verimliliğini ve kaliteyi artıracak iyileştirmeler yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_9_1 = "Analitik ve Veri Odaklı Kariyerler "
+    var kariyer_secim_12_25_s7_auto_9_2 = "Otomotiv sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_auto_9_3 = "Veri Analisti (Otonom Sürüş): Otonom sürüş sistemlerinin topladığı verileri analiz ederek araç güvenliğini artırmaya yönelik çözümler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_9_4 = "Satış ve Pazar Analisti: Araç satış verilerini ve pazar trendlerini analiz ederek, satış stratejilerine yön verebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_9_5 = "Veri Bilimci (Telemetri): Araçların sürüş performansını izleyen telemetri verilerini analiz ederek, araç performansını ve güvenliğini iyileştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_9_6 = "Müşteri Analitiği Uzmanı: Otomotiv müşterilerinin tercih ve satın alma davranışlarını analiz ederek, kişiselleştirilmiş müşteri deneyimi stratejileri oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_auto_9_7 = "Üretim Analisti: Araç üretim süreçlerindeki verileri analiz ederek, üretim verimliliğini ve kaliteyi artıracak iyileştirmeler yapabilirsiniz. "
 
     // mutfak sanatları
-    var kariyer_secim_12_25_s7_40_1 = "Yaratıcı ve Sanatsal Kariyerler "
-    var kariyer_secim_12_25_s7_40_2 = "Mutfak sanatları sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_40_3 = "Şef (Chef): Restoranlarda veya otellerde menüleri tasarlayarak, yaratıcı yemekler hazırlayabilir ve mutfak sanatlarını yüksek seviyede icra edebilirsiniz. "
-    var kariyer_secim_12_25_s7_40_4 = "Pasta Şefi: Özel pastalar, tatlılar ve şekerlemeler hazırlayarak tatlı dünyasında yaratıcı dokunuşlar yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_40_5 = "Gıda Tasarımcısı: Yemeklerin görsel sunumunu tasarlayarak, şık ve estetik tabaklar hazırlayabilir, yemeklerin görsel estetiğini artırabilirsiniz. "
-    var kariyer_secim_12_25_s7_40_6 = "Gıda Fotoğrafçısı: Yiyeceklerin etkileyici fotoğraflarını çekerek, yemeklerin tanıtımı için görsel içerikler oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_40_7 = "Yemek Stilisisti: Yemeklerin sunumu, tabak düzeni ve fotoğraf çekimleri için profesyonel stil düzenlemeleri yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_1_1 = "Yaratıcı ve Sanatsal Kariyerler "
+    var kariyer_secim_12_25_s7_meal_1_2 = "Mutfak sanatları sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_1_3 = "Şef (Chef): Restoranlarda veya otellerde menüleri tasarlayarak, yaratıcı yemekler hazırlayabilir ve mutfak sanatlarını yüksek seviyede icra edebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_1_4 = "Pasta Şefi: Özel pastalar, tatlılar ve şekerlemeler hazırlayarak tatlı dünyasında yaratıcı dokunuşlar yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_1_5 = "Gıda Tasarımcısı: Yemeklerin görsel sunumunu tasarlayarak, şık ve estetik tabaklar hazırlayabilir, yemeklerin görsel estetiğini artırabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_1_6 = "Gıda Fotoğrafçısı: Yiyeceklerin etkileyici fotoğraflarını çekerek, yemeklerin tanıtımı için görsel içerikler oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_1_7 = "Yemek Stilisisti: Yemeklerin sunumu, tabak düzeni ve fotoğraf çekimleri için profesyonel stil düzenlemeleri yapabilirsiniz. "
 
 
-    var kariyer_secim_12_25_s7_40_1 = "Liderlik ve Yönetim Kariyerleri "
-    var kariyer_secim_12_25_s7_40_2 = "Mutfak sanatları sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_40_3 = "Mutfak Şefi: Bir mutfağı yönetebilir, menüleri oluşturabilir ve mutfak personelini yönlendirebilirsiniz. "
-    var kariyer_secim_12_25_s7_40_4 = "Restoran Müdürü: Restoran operasyonlarını yönetebilir, müşteri ilişkilerini düzenleyebilir ve işletme stratejilerini belirleyebilirsiniz. "
-    var kariyer_secim_12_25_s7_40_5 = "Catering Müdürü: Büyük etkinlikler için yemek hizmetlerini organize edebilir, ekibi yönetebilir ve etkinliklerin başarılı bir şekilde gerçekleşmesini sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_40_6 = "Mutfak Koordinatörü: Mutfak içindeki günlük operasyonları, malzeme yönetimini ve personel koordinasyonunu sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_40_7 = "Gıda ve İçecek Müdürü: Restoran veya otel içindeki yiyecek ve içecek hizmetlerini yönetebilir, kalite kontrol ve müşteri memnuniyetini artırabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_2_1 = "Liderlik ve Yönetim Kariyerleri "
+    var kariyer_secim_12_25_s7_meal_2_2 = "Mutfak sanatları sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_2_3 = "Mutfak Şefi: Bir mutfağı yönetebilir, menüleri oluşturabilir ve mutfak personelini yönlendirebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_2_4 = "Restoran Müdürü: Restoran operasyonlarını yönetebilir, müşteri ilişkilerini düzenleyebilir ve işletme stratejilerini belirleyebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_2_5 = "Catering Müdürü: Büyük etkinlikler için yemek hizmetlerini organize edebilir, ekibi yönetebilir ve etkinliklerin başarılı bir şekilde gerçekleşmesini sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_2_6 = "Mutfak Koordinatörü: Mutfak içindeki günlük operasyonları, malzeme yönetimini ve personel koordinasyonunu sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_2_7 = "Gıda ve İçecek Müdürü: Restoran veya otel içindeki yiyecek ve içecek hizmetlerini yönetebilir, kalite kontrol ve müşteri memnuniyetini artırabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_41_1 = "Yardım ve Sosyal Kariyerler "
-    var kariyer_secim_12_25_s7_41_2 = "Mutfak sanatları sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_41_3 = "Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_41_4 = "Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsiniz. "
-    var kariyer_secim_12_25_s7_41_5 = "Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_41_6 = "Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsiniz. "
-    var kariyer_secim_12_25_s7_41_7 = "Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_3_1 = "Yardım ve Sosyal Kariyerler "
+    var kariyer_secim_12_25_s7_meal_3_2 = "Mutfak sanatları sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_3_3 = "Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_3_4 = "Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_3_5 = "Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_3_6 = "Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_3_7 = "Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_42_1 = "Teknik ve Mühendislik Kariyerleri "
-    var kariyer_secim_12_25_s7_42_2 = "Mutfak sanatları sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_42_3 = "Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_42_4 = "Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsiniz. "
-    var kariyer_secim_12_25_s7_42_5 = "Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_42_6 = "Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_42_7 = "Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_4_1 = "Teknik ve Mühendislik Kariyerleri "
+    var kariyer_secim_12_25_s7_meal_4_2 = "Mutfak sanatları sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_4_3 = "Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_4_4 = "Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_4_5 = "Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_4_6 = "Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_4_7 = "Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_43_1 = "Satış ve İlişki Kurma Kariyerleri "
-    var kariyer_secim_12_25_s7_43_2 = "Mutfak sanatları sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_43_3 = "Restoran Satış Temsilcisi: Restoranların veya catering hizmetlerinin satışını yapabilir, müşteri ilişkilerini yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_43_4 = "Yiyecek ve İçecek Satış Müdürü: Gıda ürünleri ve içeceklerin satışını artırmak için stratejiler geliştirebilir, müşterilerle ilişkileri yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_43_5 = "Gıda Ürünleri Satış Danışmanı: Yeni gıda ürünlerini tanıtarak, marketler veya restoranlar için satış stratejileri geliştirebilirsiniz. "
-    var kariyer_secim_12_25_s7_43_6 = "Restoran Pazarlama Uzmanı: Restoranların tanıtımını yaparak, pazarlama kampanyalarını yönetebilir ve müşteri çekme stratejileri oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_43_7 = "Müşteri İlişkileri Yöneticisi: Restoran veya catering hizmetlerinde müşteri deneyimini yönetebilir, geri bildirimleri değerlendirip iyileştirme yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_5_1 = "Satış ve İlişki Kurma Kariyerleri "
+    var kariyer_secim_12_25_s7_meal_5_2 = "Mutfak sanatları sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_5_3 = "Restoran Satış Temsilcisi: Restoranların veya catering hizmetlerinin satışını yapabilir, müşteri ilişkilerini yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_5_4 = "Yiyecek ve İçecek Satış Müdürü: Gıda ürünleri ve içeceklerin satışını artırmak için stratejiler geliştirebilir, müşterilerle ilişkileri yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_5_5 = "Gıda Ürünleri Satış Danışmanı: Yeni gıda ürünlerini tanıtarak, marketler veya restoranlar için satış stratejileri geliştirebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_5_6 = "Restoran Pazarlama Uzmanı: Restoranların tanıtımını yaparak, pazarlama kampanyalarını yönetebilir ve müşteri çekme stratejileri oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_5_7 = "Müşteri İlişkileri Yöneticisi: Restoran veya catering hizmetlerinde müşteri deneyimini yönetebilir, geri bildirimleri değerlendirip iyileştirme yapabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_44_1 = "Organizasyonel ve İdari Kariyerler "
-    var kariyer_secim_12_25_s7_44_2 = "Mutfak sanatları sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_44_3 = "Mutfak Yönetici Asistanı: Mutfak yöneticisinin günlük işlerini destekleyebilir, organizasyon ve idari süreçlerde yardımcı olabilirsiniz. "
-    var kariyer_secim_12_25_s7_44_4 = "Gıda Stok Kontrol Uzmanı: Yiyecek ve içecek stoklarının yönetimini yapabilir, malzeme taleplerini organize edebilirsiniz. "
-    var kariyer_secim_12_25_s7_44_5 = "Yemek Servis Koordinatörü: Restoran veya catering hizmetlerinde yemek servislerinin düzenlenmesini ve koordinasyonunu sağlayabilirsiniz. "
-    var kariyer_secim_12_25_s7_44_6 = "İnsan Kaynakları Uzmanı: Mutfak personelinin işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yönetebilirsiniz. "
-    var kariyer_secim_12_25_s7_44_7 = "Restoran Operasyon Yöneticisi: Restoran operasyonlarının idaresini yaparak, müşteri hizmetlerini ve günlük iş akışını yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_6_1 = "Organizasyonel ve İdari Kariyerler "
+    var kariyer_secim_12_25_s7_meal_6_2 = "Mutfak sanatları sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_6_3 = "Mutfak Yönetici Asistanı: Mutfak yöneticisinin günlük işlerini destekleyebilir, organizasyon ve idari süreçlerde yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_6_4 = "Gıda Stok Kontrol Uzmanı: Yiyecek ve içecek stoklarının yönetimini yapabilir, malzeme taleplerini organize edebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_6_5 = "Yemek Servis Koordinatörü: Restoran veya catering hizmetlerinde yemek servislerinin düzenlenmesini ve koordinasyonunu sağlayabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_6_6 = "İnsan Kaynakları Uzmanı: Mutfak personelinin işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yönetebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_6_7 = "Restoran Operasyon Yöneticisi: Restoran operasyonlarının idaresini yaparak, müşteri hizmetlerini ve günlük iş akışını yönetebilirsiniz. "
 
-    var kariyer_secim_12_25_s7_45_1 = "Yenilikçi ve Girişimci Kariyerler "
-    var kariyer_secim_12_25_s7_45_2 = "Mutfak sanatları sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_45_3 = "Gıda Start-up Kurucusu: Kendi gıda markanızı veya restoranınızı kurarak yenilikçi menüler ve hizmetler sunabilirsiniz. "
-    var kariyer_secim_12_25_s7_45_4 = "Gastronomi Girişimcisi: Yeni yemek trendleri ve gastronomi deneyimleri üzerine girişim başlatarak sektörde farklılık yaratabilirsiniz. "
-    var kariyer_secim_12_25_s7_45_6 = "Yemek Tarifleri Geliştiricisi: Kendi tariflerinizi oluşturarak, yemek kitapları yazabilir veya dijital platformlarda tariflerinizi paylaşabilirsiniz. "
-    var kariyer_secim_12_25_s7_45_7 = "Sağlıklı Gıda Girişimcisi: Sağlıklı ve doğal gıda ürünleri üretimi üzerine bir girişim kurarak, sağlıklı yaşamı teşvik edebilirsiniz. "
-    var kariyer_secim_12_25_s7_45_8 = "Gıda İnovasyon Danışmanı: Restoranlar ve gıda firmalarına yenilikçi yemek çözümleri ve menü geliştirme konularında danışmanlık yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_7_1 = "Yenilikçi ve Girişimci Kariyerler "
+    var kariyer_secim_12_25_s7_meal_7_2 = "Mutfak sanatları sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_7_3 = "Gıda Start-up Kurucusu: Kendi gıda markanızı veya restoranınızı kurarak yenilikçi menüler ve hizmetler sunabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_7_4 = "Gastronomi Girişimcisi: Yeni yemek trendleri ve gastronomi deneyimleri üzerine girişim başlatarak sektörde farklılık yaratabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_7_6 = "Yemek Tarifleri Geliştiricisi: Kendi tariflerinizi oluşturarak, yemek kitapları yazabilir veya dijital platformlarda tariflerinizi paylaşabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_7_7 = "Sağlıklı Gıda Girişimcisi: Sağlıklı ve doğal gıda ürünleri üretimi üzerine bir girişim kurarak, sağlıklı yaşamı teşvik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_7_8 = "Gıda İnovasyon Danışmanı: Restoranlar ve gıda firmalarına yenilikçi yemek çözümleri ve menü geliştirme konularında danışmanlık yapabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_46_1 = "Öğretim ve Mentorluk Kariyerleri "
-    var kariyer_secim_12_25_s7_46_2 = "Mutfak sanatları sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_46_3 = "Aşçılık Eğitmeni: Mutfak sanatları okulunda veya kurslarda aşçılık ve mutfak teknikleri üzerine eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_46_4 = "Gıda Güvenliği Eğitmeni: Gıda güvenliği ve hijyen konularında eğitimler vererek profesyonellere rehberlik edebilirsiniz. "
-    var kariyer_secim_12_25_s7_46_5 = "Mutfak Mentoru: Genç aşçılara ve mutfak çalışanlarına rehberlik yaparak, kariyer gelişimlerini destekleyebilirsiniz. "
-    var kariyer_secim_12_25_s7_46_6 = "Yemek Tarifi Danışmanı: Yemek tarifleri oluşturma ve yemek pişirme teknikleri üzerine bireylere veya gruplara eğitim verebilirsiniz. "
-    var kariyer_secim_12_25_s7_46_7 = "Gastronomi Koçu: Mutfak sanatları alanında kariyer yapmak isteyen bireylere koçluk yaparak, onların yeteneklerini geliştirmelerine yardımcı olabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_8_1 = "Öğretim ve Mentorluk Kariyerleri "
+    var kariyer_secim_12_25_s7_meal_8_2 = "Mutfak sanatları sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_8_3 = "Aşçılık Eğitmeni: Mutfak sanatları okulunda veya kurslarda aşçılık ve mutfak teknikleri üzerine eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_8_4 = "Gıda Güvenliği Eğitmeni: Gıda güvenliği ve hijyen konularında eğitimler vererek profesyonellere rehberlik edebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_8_5 = "Mutfak Mentoru: Genç aşçılara ve mutfak çalışanlarına rehberlik yaparak, kariyer gelişimlerini destekleyebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_8_6 = "Yemek Tarifi Danışmanı: Yemek tarifleri oluşturma ve yemek pişirme teknikleri üzerine bireylere veya gruplara eğitim verebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_8_7 = "Gastronomi Koçu: Mutfak sanatları alanında kariyer yapmak isteyen bireylere koçluk yaparak, onların yeteneklerini geliştirmelerine yardımcı olabilirsiniz. "
 
-    var kariyer_secim_12_25_s7_47_1 = "Analitik ve Veri Odaklı Kariyerler "
-    var kariyer_secim_12_25_s7_47_2 = "Mutfak sanatları sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
-    var kariyer_secim_12_25_s7_47_3 = "Menü Analisti: Menü performansını analiz ederek, müşteri geri bildirimlerine göre menü iyileştirmeleri yapabilirsiniz. "
-    var kariyer_secim_12_25_s7_47_4 = "Gıda Ürünleri Veri Analisti: Gıda ürünlerinin pazar trendlerini ve müşteri tercihlerine dair verileri analiz ederek, ürün geliştirme stratejileri oluşturabilirsiniz. "
-    var kariyer_secim_12_25_s7_47_5 = "Müşteri Deneyimi Analisti: Restoran veya mutfak hizmetlerindeki müşteri deneyimlerini analiz ederek, hizmet kalitesini artıracak önerilerde bulunabilirsiniz. "
-    var kariyer_secim_12_25_s7_47_6 = "Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsiniz. "
-    var kariyer_secim_12_25_s7_47_7 = "Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_9_1 = "Analitik ve Veri Odaklı Kariyerler "
+    var kariyer_secim_12_25_s7_meal_9_2 = "Mutfak sanatları sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir: "
+    var kariyer_secim_12_25_s7_meal_9_3 = "Menü Analisti: Menü performansını analiz ederek, müşteri geri bildirimlerine göre menü iyileştirmeleri yapabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_9_4 = "Gıda Ürünleri Veri Analisti: Gıda ürünlerinin pazar trendlerini ve müşteri tercihlerine dair verileri analiz ederek, ürün geliştirme stratejileri oluşturabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_9_5 = "Müşteri Deneyimi Analisti: Restoran veya mutfak hizmetlerindeki müşteri deneyimlerini analiz ederek, hizmet kalitesini artıracak önerilerde bulunabilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_9_6 = "Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsiniz. "
+    var kariyer_secim_12_25_s7_meal_9_7 = "Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsiniz. "
 
 
 
@@ -1880,149 +1952,149 @@ export default async ({ req, res, log, error }) => {
     var age_25_plus_title = "25+ Yaş"
     var age_25_plus = "Rolün dünyayla nasıl etkileşim kurduğunu, nasıl katkıda bulunduğunu ve nasıl göründüğünü temsil eder. Bir aktörün karakterine bürünmesine yardımcı olan bir kostüm giymesi gibi, Rolünü de hayatındaki amacını yerine getirmek için giydiğin “kıyafet” gibi düşünebilirsin. Güçlü yanlarının ve olası zorlukların altını çizer ve rolünü anlayarak en iyi versiyonunu ortaya koyabilirsin. Rolünle uyum içinde olduğunda, doğal olarak sana en uygun fırsatlara adım atabilir, başarı ve tatmini deneyimleyebilirsin. \n İş dünyasında Rolünü anlamak yapman gereken işe uyum sağlamana da yardımcı olur. Doğal güçlü yönlerinin nerede olduğunu ve başarı fırsatlarının nereden geleceğini gösterir. Başkalarıyla nasıl etkileşim kurabileceğin, onların seni nasıl algıladığı ve en değerli katkılarını nerede sunabileceğin konusunda netlik kazanabilirsin. Rolünle uyum içinde olduğunda, üzerindeki tam oturmuş bir elbise giymiş gibi hissedersin—kendini rahat, güçlü ve amacını gerçekleştirebilir halde bulursun. Rolünle uyumlu bir yaşam sürmediğinde, üzerindeki kostümün sana uymadığını hissedersin. Ya çok sıkı ya da çok bol gelir ve olmadığın biri gibi davranmaya çalışarak enerji harcayabilirsin. Bu, işinde hayal kırıklığı, kaçırılmış fırsatlar veya kariyerinde ve iş hayatında uyumsuzluk hissi olarak ortaya çıkabilir. \n Rolün, profesyonel hayatında bir pusula görevi görebilir. İnsanlarla iş dünyasında doğal olarak nasıl etkileşim kurduğunu, kariyer fırsatlarının nereden geleceğini ve güçlü yönlerini nasıl kullanarak ilerleyeceğini, lider veya alanında uzman biri haline geleceğini anlamana yardımcı olur. \n Rolün, hayat amacını nasıl yerine getirdiğinin de önemli bir parçasıdır. Onunla uyum içinde yaşadığında, tatmin, başarı, huzur ve bazen de sürprizlerle karşılaşırsın. Seni doğal ve doyurucu iş ve yaşam seçimlerine yönlendirir. Kişisel ya da profesyonel hayatında, Rolünü anlamak ve benimsemek, kendi gücüne adım atmana, otantik bir şekilde etkileşim kurmana ve potansiyelini gerçekleştirmeni sağlar."
 
-    var is_y_r_s2_0 = "Otorite/Öncü" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = 'Keşfeden Uzman'
-    var is_y_r_s2_1_1 = "Hayatın, seni ilgilendiren konularda derinlemesine keşifler yaparak ve deneyimlerden sürekli öğrenerek ilerlediğin bir yolculuk. Deneme yanılma yöntemiyle neyin işe yarayıp yaramadığını keşfederek doğal bir şekilde uzmanlık geliştirirsin. Bu pratik yaklaşım, seni seçtiğin alanda otorite olma yolunda nitelikli kılar. İster kariyerine yeni başlıyor ol, ister halihazırda köklü bir işe sahip ol, ayrıntıları anlamaya, sağlam bir temel oluşturmaya ve gerçek dünyadaki deneyimlerle ustalık kazanmaya yönelik bir arzu seni yönlendirir."
-    var is_y_r_s2_2 = "İş Hayatında Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "En büyük gücün, çözüm bulana kadar araştırma ve deneme yeteneğinde yatar. Herhangi bir işte, sorunlara merakla ve kararlılıkla yaklaşır, her zaman daha derinlere inmeye ve en iyi yolu keşfetmeye istekli olursun. Zorlukların üstesinden gelme ve hatalardan öğrenme yeteneğin seni farklı kılar, başkalarının tavsiye ve içgörü almak için başvurduğu biri yapar. Zamanla, alanında derin bir anlayış geliştirirsin ve bu da seni yaşın veya deneyim seviyen ne olursa olsun bir otorite yapar."
-    var is_y_r_s2_3 = "Otorite / Öncü Olmak"
-    var is_y_r_s2_3_1 = "İlgini gerçekten çeken konularda uzmanlık geliştirerek bir otorite olabilirsin. Bu pratik öğrenimlerin ile ustalaşmak ve bilgini başkalarıyla paylaşmakla ilgilidir. İnsanlar, derin anlayışın ve çözümler bulma yeteneğinden dolayı sana başvurur. İster bir ekiple çalış ister kendi projelerini yürüt ister daha büyük bir organizasyona katkıda bulun, gücün, başkalarının güvenebileceği sağlam, deneyime dayalı içgörüler sunmada yatar."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların, zorluklarla doğrudan yüzleşme isteğinden doğabilir. Yeni fikirleri veya süreçleri keşfetme, test etme ve geliştirme fırsatın olduğu durumlarda gelişir, ilerlersin. Henüz sağlam bir temel oluşturmadığında kendini güvensiz hissettiğin zamanlar olabilir. Bu hissiyat kendini geliştirme sürecinin bir parçasıdır—rolün, bu temeli deneyimlerinle inşa etmektir. Zamanla, bu zorluklar uzmanlık yolundaki basamak taşların haline gelecektir."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, deneyimlerini kullanarak güçlü yönlerinle uyumlu bir hayat ve kariyer inşa etmekle ilgilidir. Yolculuğun boyunca karşılaştığın iniş ve çıkışlar sayesinde, alanında ustalık kazanmaya devam edeceksin. Öğrendiklerini paylaşarak ve anlayışına sıkı sıkıya tutunarak, başkalarına değerli içgörüler sunarak hayat amacını doğal olarak yerine getireceksin. İster kariyerine yeni başlıyor ol, ister yolunda çok ilerlemiş ol, rolünü benimsemek daha fazla özgüven, tatmin ve başarıya ulaşmanı sağlayacaktır."
+    var is_y_r_1_s2_0 = "Otorite/Öncü" //burası sanırım basılmayacak
+    var is_y_r_1_s2_1 = 'Keşfeden Uzman'
+    var is_y_r_1_s2_1_1 = "Hayatın, seni ilgilendiren konularda derinlemesine keşifler yaparak ve deneyimlerden sürekli öğrenerek ilerlediğin bir yolculuk. Deneme yanılma yöntemiyle neyin işe yarayıp yaramadığını keşfederek doğal bir şekilde uzmanlık geliştirirsin. Bu pratik yaklaşım, seni seçtiğin alanda otorite olma yolunda nitelikli kılar. İster kariyerine yeni başlıyor ol, ister halihazırda köklü bir işe sahip ol, ayrıntıları anlamaya, sağlam bir temel oluşturmaya ve gerçek dünyadaki deneyimlerle ustalık kazanmaya yönelik bir arzu seni yönlendirir."
+    var is_y_r_1_s2_2 = "İş Hayatında Güçlü Yönlerin"
+    var is_y_r_1_s2_2_1 = "En büyük gücün, çözüm bulana kadar araştırma ve deneme yeteneğinde yatar. Herhangi bir işte, sorunlara merakla ve kararlılıkla yaklaşır, her zaman daha derinlere inmeye ve en iyi yolu keşfetmeye istekli olursun. Zorlukların üstesinden gelme ve hatalardan öğrenme yeteneğin seni farklı kılar, başkalarının tavsiye ve içgörü almak için başvurduğu biri yapar. Zamanla, alanında derin bir anlayış geliştirirsin ve bu da seni yaşın veya deneyim seviyen ne olursa olsun bir otorite yapar."
+    var is_y_r_1_s2_3 = "Otorite / Öncü Olmak"
+    var is_y_r_1_s2_3_1 = "İlgini gerçekten çeken konularda uzmanlık geliştirerek bir otorite olabilirsin. Bu pratik öğrenimlerin ile ustalaşmak ve bilgini başkalarıyla paylaşmakla ilgilidir. İnsanlar, derin anlayışın ve çözümler bulma yeteneğinden dolayı sana başvurur. İster bir ekiple çalış ister kendi projelerini yürüt ister daha büyük bir organizasyona katkıda bulun, gücün, başkalarının güvenebileceği sağlam, deneyime dayalı içgörüler sunmada yatar."
+    var is_y_r_1_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_1_s3_1_1 = "Fırsatların, zorluklarla doğrudan yüzleşme isteğinden doğabilir. Yeni fikirleri veya süreçleri keşfetme, test etme ve geliştirme fırsatın olduğu durumlarda gelişir, ilerlersin. Henüz sağlam bir temel oluşturmadığında kendini güvensiz hissettiğin zamanlar olabilir. Bu hissiyat kendini geliştirme sürecinin bir parçasıdır—rolün, bu temeli deneyimlerinle inşa etmektir. Zamanla, bu zorluklar uzmanlık yolundaki basamak taşların haline gelecektir."
+    var is_y_r_1_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_1_s3_2_1 = "Rolün, deneyimlerini kullanarak güçlü yönlerinle uyumlu bir hayat ve kariyer inşa etmekle ilgilidir. Yolculuğun boyunca karşılaştığın iniş ve çıkışlar sayesinde, alanında ustalık kazanmaya devam edeceksin. Öğrendiklerini paylaşarak ve anlayışına sıkı sıkıya tutunarak, başkalarına değerli içgörüler sunarak hayat amacını doğal olarak yerine getireceksin. İster kariyerine yeni başlıyor ol, ister yolunda çok ilerlemiş ol, rolünü benimsemek daha fazla özgüven, tatmin ve başarıya ulaşmanı sağlayacaktır."
 
-    var is_y_r_s2_0 = "Otorite/Etkileyici" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Bilge Bağlanıcı"
-    var is_y_r_s2_1_1 = "Kendini alanında bir uzman olarak kanıtlama ihtiyacı ve bilgilerini, içgörülerini başkalarıyla paylaşma arzusu seni yönlendirir. Doğal olarak meraklısın ve ilgi duyduğun herhangi bir konunun temellerini araştırmayı ve anlamayı seversin. Sağlam bir temel oluşturduktan sonra, öğrendiklerini paylaşarak başkalarını etkilemekten ve yönlendirmekten keyif alırsın. Yolculuğun hem konunda ustalaşmayı hem de fikirlerini yaymak ve etkilemek için doğal ağ kurma yeteneğini kullanmayı içerir."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, konuları derinlemesine araştırma ve ardından bulgularını başkalarıyla bağlantı kurabilecek şekilde iletişim kurma yeteneğinde yatar. İş dünyasında, ilişkiler kurmakta ve uzmanlığından faydalanabilecek insanlarla ağ oluşturmakta başarılısın. Fikirlerini meslektaşlarınla paylaşmak, bir projeye katkıda bulunmak ya da bir ekibi yönlendirmek olsun, doğal etki yaratma yeteneğin seni önemli bir oyuncu yapar. Kişisel bilginle sosyal bağlantılarını birleştirme yeteneğin, seni hem otorite hem de iş dünyasında güvenilen bir kaynak olarak öne çıkarır."
-    var is_y_r_s2_3 = "Otorite ve Etkileyici Olma"
-    var is_y_r_s2_3_1 = "Otorite olmak, doğal ilerlemenle birlikte gelir ve gücün aynı zamanda başkalarını etkileme yeteneğinde de yatar. İnsanlar, uzmanlığına ve samimi, yaklaşılabilir doğana çekilir. Güçlü ağlar kurma eğilimindesin ve fırsatlar genellikle bu bağlantılar aracılığıyla sana gelir. İster kendi başına çalış ister bir ekibin parçası ol, başarın, derin bilginle başkaları üzerinde etkili olma ve yakın çevrenle bağlantı kurma yeteneğinden gelir. Güçlü bir temel ile sosyal etkinizi birleştirerek, çevreni şekillendirme ve kendin için fırsatlar yaratma potansiyeline sahipsin."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların hem sağlam bilgin hem de bağlantıların sayesinde gelir. Bir konuyu derinlemesine öğrenip ardından bu bilgiyi başkalarıyla paylaşabileceğin durumlarda gelişirsin. Fikir sunmak, meslektaşlarına mentorluk etmek veya bir projeyi yönetmek olsun, başkalarıyla iletişim kurma ve bağlantı sağlama yeteneğin seni farklı kılar. Doğal arkadaş canlılığını yalnız kalma ihtiyacıyla dengelemek önemlidir. Bazen insanlar yorgunluğu veya sürekli 'aktif' olma baskısı seni zorlayabilir, bu yüzden kendine zaman ayırmayı ve enerjini yenilemeyi unutma."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, alanında ustalaşmak ve ardından bu bilgiyi başkalarının yararına olacak şekilde paylaşmakla ilgilidir. Hayat amacını, bir başvuru kaynağı haline gelerek ve ağlarını fikirler ve çözümler yaymak için kullanarak gerçekleştirirsin. Rolünle uyum içinde olduğunda, kariyerinin ve hayatının doğal olarak başkalarını etkileme fırsatlarını sana sunduğunu fark edeceksin. İster kariyerine yeni başlıyor ol, ister halihazırda yerleşmiş ol, rolünün hem otorite hem de etkileyici taraflarını benimsemek, tatmin edici ve etkili bir kariyere yol açacaktır."
+    var is_y_r_2_s2_0 = "Otorite/Etkileyici" //burası sanırım basılmayacak
+    var is_y_r_2_s2_1 = "Bilge Bağlanıcı"
+    var is_y_r_2_s2_1_1 = "Kendini alanında bir uzman olarak kanıtlama ihtiyacı ve bilgilerini, içgörülerini başkalarıyla paylaşma arzusu seni yönlendirir. Doğal olarak meraklısın ve ilgi duyduğun herhangi bir konunun temellerini araştırmayı ve anlamayı seversin. Sağlam bir temel oluşturduktan sonra, öğrendiklerini paylaşarak başkalarını etkilemekten ve yönlendirmekten keyif alırsın. Yolculuğun hem konunda ustalaşmayı hem de fikirlerini yaymak ve etkilemek için doğal ağ kurma yeteneğini kullanmayı içerir."
+    var is_y_r_2_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_2_s2_2_1 = "Gücün, konuları derinlemesine araştırma ve ardından bulgularını başkalarıyla bağlantı kurabilecek şekilde iletişim kurma yeteneğinde yatar. İş dünyasında, ilişkiler kurmakta ve uzmanlığından faydalanabilecek insanlarla ağ oluşturmakta başarılısın. Fikirlerini meslektaşlarınla paylaşmak, bir projeye katkıda bulunmak ya da bir ekibi yönlendirmek olsun, doğal etki yaratma yeteneğin seni önemli bir oyuncu yapar. Kişisel bilginle sosyal bağlantılarını birleştirme yeteneğin, seni hem otorite hem de iş dünyasında güvenilen bir kaynak olarak öne çıkarır."
+    var is_y_r_2_s2_3 = "Otorite ve Etkileyici Olma"
+    var is_y_r_2_s2_3_1 = "Otorite olmak, doğal ilerlemenle birlikte gelir ve gücün aynı zamanda başkalarını etkileme yeteneğinde de yatar. İnsanlar, uzmanlığına ve samimi, yaklaşılabilir doğana çekilir. Güçlü ağlar kurma eğilimindesin ve fırsatlar genellikle bu bağlantılar aracılığıyla sana gelir. İster kendi başına çalış ister bir ekibin parçası ol, başarın, derin bilginle başkaları üzerinde etkili olma ve yakın çevrenle bağlantı kurma yeteneğinden gelir. Güçlü bir temel ile sosyal etkinizi birleştirerek, çevreni şekillendirme ve kendin için fırsatlar yaratma potansiyeline sahipsin."
+    var is_y_r_2_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_2_s3_1_1 = "Fırsatların hem sağlam bilgin hem de bağlantıların sayesinde gelir. Bir konuyu derinlemesine öğrenip ardından bu bilgiyi başkalarıyla paylaşabileceğin durumlarda gelişirsin. Fikir sunmak, meslektaşlarına mentorluk etmek veya bir projeyi yönetmek olsun, başkalarıyla iletişim kurma ve bağlantı sağlama yeteneğin seni farklı kılar. Doğal arkadaş canlılığını yalnız kalma ihtiyacıyla dengelemek önemlidir. Bazen insanlar yorgunluğu veya sürekli 'aktif' olma baskısı seni zorlayabilir, bu yüzden kendine zaman ayırmayı ve enerjini yenilemeyi unutma."
+    var is_y_r_2_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_2_s3_2_1 = "Rolün, alanında ustalaşmak ve ardından bu bilgiyi başkalarının yararına olacak şekilde paylaşmakla ilgilidir. Hayat amacını, bir başvuru kaynağı haline gelerek ve ağlarını fikirler ve çözümler yaymak için kullanarak gerçekleştirirsin. Rolünle uyum içinde olduğunda, kariyerinin ve hayatının doğal olarak başkalarını etkileme fırsatlarını sana sunduğunu fark edeceksin. İster kariyerine yeni başlıyor ol, ister halihazırda yerleşmiş ol, rolünün hem otorite hem de etkileyici taraflarını benimsemek, tatmin edici ve etkili bir kariyere yol açacaktır."
 
-    var is_y_r_s2_0 = "Doğal/Etkileyici" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Yetenekli Bağ Kurucu"
-    var is_y_r_s2_1_1 = "Doğuştan gelen yeteneklere sahipsin ve bu yetenekler senin için çabasız gibi görünse bile başkaları onları kolayca fark eder. Bu yetenekler o kadar doğal gelir ki bazen onları göz ardı edebilirsin, ancak başkaları uzmanlığını paylaşman için sık sık sana başvurur. Rolün, doğal yeteneklerini benimsemek ve başkalarıyla anlamlı bağlantılar kurmak arasında bir denge bulmakla ilgilidir. İlgi alanlarına odaklanmak için yalnız kalmayı seviyorsun, ancak etkilerin yakın çevrenle etkileşim kurduğunda artar."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Derin, kişisel bağlantılar kurma yeteneğin, kariyer ve iş fırsatlarını doğal olarak sana çeker. Öne çıkmak için çok çalışmana gerek kalmaz; sana kolay ve doğal gelen şeylere sadık kaldığında başarılı olursun. Bu da seni ister bağımsız çalış ister bir ekibin parçası ol, değerli kılar. Hem yalnız çalışmalarda hem de sosyal ortamlarda rahatça hareket edebilir ve iş dünyasında oluşturduğun güven ve getirdiğin yetenekler sayesinde başarı elde edersin."
-    var is_y_r_s2_3 = "Doğal / Etkileyici Olmak"
-    var is_y_r_s2_3_1 = "Liderlik ya da etki peşinde koşmana gerek yok—bu, başkalarının seni takdir etmesiyle sana gelir. Çaba gerektirmeyen şeylere odaklanarak, doğal yeteneklerinin parlamasına izin verirsin. İnsanlar sıcaklığına ve samimiyetine çekilir ve etkilerin ilişkilerin aracılığıyla doğal olarak büyür. Başarı, fırsatların ağların aracılığıyla sana akmasına izin verdiğinde ve doğal güçlü yönlerinle uyumlu rolleri üstlendiğinde gelir."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "En büyük fırsatların, başkalarının yeteneklerini fark edip bunları paylaşman için seni davet etmesiyle ortaya çıkar. Yeteneklerinin yeterli olduğuna güvenmeli ve zorlayıcı rolleri üstlenmekten kaçınmalısın. Bazen başkalarıyla derin bağlantıların, insanlardan yorulmana neden olabilir ya da her zaman ulaşılabilir olma baskısı hissedebilirsin. Yalnızlık ile sosyal etkileşim arasındaki dengeyi koruman, enerjini yüksek tutmak ve uzun vadeli başarıyı sağlamak için çok önemlidir."
-    var is_y_r_S3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_S3_2_1 = "Rolün, yeteneklerini otantik ve sana uygun bir şekilde paylaşmakla ilgilidir. Doğal yeteneklerinle uyumlu fırsatlara kendini davet ettirerek, kendini zorlamadan tatmin edici bir kariyer veya iş hayatı yaratabilirsin. Doğal yeteneklerine güven ve başkalarının değerinin farkına varmasına izin ver. Bu yaklaşım hem etkili hem de tatmin edici bir kariyer ve yaşam yoluna seni götürecektir."
+    var is_y_r_3_s2_0 = "Doğal/Etkileyici" //burası sanırım basılmayacak
+    var is_y_r_3_s2_1 = "Yetenekli Bağ Kurucu"
+    var is_y_r_3_s2_1_1 = "Doğuştan gelen yeteneklere sahipsin ve bu yetenekler senin için çabasız gibi görünse bile başkaları onları kolayca fark eder. Bu yetenekler o kadar doğal gelir ki bazen onları göz ardı edebilirsin, ancak başkaları uzmanlığını paylaşman için sık sık sana başvurur. Rolün, doğal yeteneklerini benimsemek ve başkalarıyla anlamlı bağlantılar kurmak arasında bir denge bulmakla ilgilidir. İlgi alanlarına odaklanmak için yalnız kalmayı seviyorsun, ancak etkilerin yakın çevrenle etkileşim kurduğunda artar."
+    var is_y_r_3_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_3_s2_2_1 = "Derin, kişisel bağlantılar kurma yeteneğin, kariyer ve iş fırsatlarını doğal olarak sana çeker. Öne çıkmak için çok çalışmana gerek kalmaz; sana kolay ve doğal gelen şeylere sadık kaldığında başarılı olursun. Bu da seni ister bağımsız çalış ister bir ekibin parçası ol, değerli kılar. Hem yalnız çalışmalarda hem de sosyal ortamlarda rahatça hareket edebilir ve iş dünyasında oluşturduğun güven ve getirdiğin yetenekler sayesinde başarı elde edersin."
+    var is_y_r_3_s2_3 = "Doğal / Etkileyici Olmak"
+    var is_y_r_3_s2_3_1 = "Liderlik ya da etki peşinde koşmana gerek yok—bu, başkalarının seni takdir etmesiyle sana gelir. Çaba gerektirmeyen şeylere odaklanarak, doğal yeteneklerinin parlamasına izin verirsin. İnsanlar sıcaklığına ve samimiyetine çekilir ve etkilerin ilişkilerin aracılığıyla doğal olarak büyür. Başarı, fırsatların ağların aracılığıyla sana akmasına izin verdiğinde ve doğal güçlü yönlerinle uyumlu rolleri üstlendiğinde gelir."
+    var is_y_r_3_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_3_s3_1_1 = "En büyük fırsatların, başkalarının yeteneklerini fark edip bunları paylaşman için seni davet etmesiyle ortaya çıkar. Yeteneklerinin yeterli olduğuna güvenmeli ve zorlayıcı rolleri üstlenmekten kaçınmalısın. Bazen başkalarıyla derin bağlantıların, insanlardan yorulmana neden olabilir ya da her zaman ulaşılabilir olma baskısı hissedebilirsin. Yalnızlık ile sosyal etkileşim arasındaki dengeyi koruman, enerjini yüksek tutmak ve uzun vadeli başarıyı sağlamak için çok önemlidir."
+    var is_y_r_3_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_3_s3_2_1 = "Rolün, yeteneklerini otantik ve sana uygun bir şekilde paylaşmakla ilgilidir. Doğal yeteneklerinle uyumlu fırsatlara kendini davet ettirerek, kendini zorlamadan tatmin edici bir kariyer veya iş hayatı yaratabilirsin. Doğal yeteneklerine güven ve başkalarının değerinin farkına varmasına izin ver. Bu yaklaşım hem etkili hem de tatmin edici bir kariyer ve yaşam yoluna seni götürecektir."
 
-    var is_y_r_s2_0 = "Doğal/Haberci" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Yetenekli Çözüm Yaratıcı"
-    var is_y_r_s2_1_1 = "Derin, doğal yeteneklere sahipsin ve bu yetenekler genellikle senin farkına varmadığın ama başkaları tarafından büyük değer verilen yeteneklerdir. Yeteneklerin, özellikle pratik çözümlere ihtiyaç duyulduğunda, başkalarının yardımına başvurduğu anlarda kendini gösterir. Sessiz ve bağımsız çalışmayı tercih etsen de içgörülerinin büyük bir etki yaratabileceği durumlara sıkça çekilirsin. Rolün, yalnız kalma arzun ile başkalarına değerli çözümler sunma ve iletişim kurma yeteneğin arasında bir denge kurmayı gerektirir."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, ihtiyaç duyulduğunda yenilikçi ve pratik çözümler sunabilme yeteneğinde yatar. Takdir edilmeyi aramana gerek yoktur—etkin, başkalarının yeteneklerini fark edip onları paylaşman için sana başvurduğunda büyür. Problem çözmede başarılısın ve genellikle “düzeltici” olarak görülürsün; gerekli içgörüleri sunar ve sonra sessiz, düşünceli çalışma alanına geri dönersin. Bu yetenek, pratik ve zamanında çözümlerin kritik olduğu iş ortamlarında seni vazgeçilmez kılar."
-    var is_y_r_s2_3 = "Doğal / Haberci Olmak"
-    var is_y_r_s2_3_1 = "Rolün, başkalarının seni fark etmesiyle doğal olarak ortaya çıkar. Dikkat çekmek ya da görüşlerini başkalarına dayatmaya çalışan biri değilsin. Bunun yerine, başkaları senin derin ve pratik tavsiyeler sunma yeteneğini fark ettiğinde etkin artar. Sana ihtiyaç duyulduğunda, devreye girer, etkili çözümler sunar ve sonra doğal ritmine geri dönersin. Başarı, sürecine güvenip başkalarının en çok ihtiyaç duyduğu anda uzmanlığını aramalarına izin verdiğinde gelir."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların genellikle insanların, sorunlarını çözmelerine yardımcı olabileceğine inandıkları zaman beklentilerini sana yansıttıkları anlarda ortaya çıkar. Bu yansıtma hem bir fırsat hem de bir zorluk olabilir, çünkü bazen bunlar seni bunaltıcı veya zorlayıcı hissettirebilir. Görevin, hangi fırsatların gerçek yeteneklerinle uyumlu olduğunu ve hangilerinin enerjini tüketebileceğini ayırt etmektir. Yalnız kalma ihtiyacın ile başkalarına çözüm sunma eğilimin arasında denge kurmak, başarıyı sürdürülebilir kılmanın anahtarıdır."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, yeteneklerinin doğru insanlar tarafından doğru zamanda fark edileceğine güvenmekle ilgilidir. Hayat amacını, en çok ihtiyaç duyulduğunda pratik çözümler sunarak ve katkıda bulunduktan sonra kendine geri çekilme alanı tanıyarak gerçekleştirirsin. Takdirin akışına güvenip doğru hissettiren fırsatlarla uyum sağlayarak ve ne zaman geri çekileceğini bilerek kariyerinde ve kişisel hayatında tatmin bulacaksın. Başarı, doğal yeteneklerini zorlamadan kabul ettiğinde gelir."
+    var is_y_r_4_s2_0 = "Doğal/Haberci" //burası sanırım basılmayacak
+    var is_y_r_4_s2_1 = "Yetenekli Çözüm Yaratıcı"
+    var is_y_r_4_s2_1_1 = "Derin, doğal yeteneklere sahipsin ve bu yetenekler genellikle senin farkına varmadığın ama başkaları tarafından büyük değer verilen yeteneklerdir. Yeteneklerin, özellikle pratik çözümlere ihtiyaç duyulduğunda, başkalarının yardımına başvurduğu anlarda kendini gösterir. Sessiz ve bağımsız çalışmayı tercih etsen de içgörülerinin büyük bir etki yaratabileceği durumlara sıkça çekilirsin. Rolün, yalnız kalma arzun ile başkalarına değerli çözümler sunma ve iletişim kurma yeteneğin arasında bir denge kurmayı gerektirir."
+    var is_y_r_4_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_4_s2_2_1 = "Gücün, ihtiyaç duyulduğunda yenilikçi ve pratik çözümler sunabilme yeteneğinde yatar. Takdir edilmeyi aramana gerek yoktur—etkin, başkalarının yeteneklerini fark edip onları paylaşman için sana başvurduğunda büyür. Problem çözmede başarılısın ve genellikle “düzeltici” olarak görülürsün; gerekli içgörüleri sunar ve sonra sessiz, düşünceli çalışma alanına geri dönersin. Bu yetenek, pratik ve zamanında çözümlerin kritik olduğu iş ortamlarında seni vazgeçilmez kılar."
+    var is_y_r_4_s2_3 = "Doğal / Haberci Olmak"
+    var is_y_r_4_s2_3_1 = "Rolün, başkalarının seni fark etmesiyle doğal olarak ortaya çıkar. Dikkat çekmek ya da görüşlerini başkalarına dayatmaya çalışan biri değilsin. Bunun yerine, başkaları senin derin ve pratik tavsiyeler sunma yeteneğini fark ettiğinde etkin artar. Sana ihtiyaç duyulduğunda, devreye girer, etkili çözümler sunar ve sonra doğal ritmine geri dönersin. Başarı, sürecine güvenip başkalarının en çok ihtiyaç duyduğu anda uzmanlığını aramalarına izin verdiğinde gelir."
+    var is_y_r_4_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_4_s3_1_1 = "Fırsatların genellikle insanların, sorunlarını çözmelerine yardımcı olabileceğine inandıkları zaman beklentilerini sana yansıttıkları anlarda ortaya çıkar. Bu yansıtma hem bir fırsat hem de bir zorluk olabilir, çünkü bazen bunlar seni bunaltıcı veya zorlayıcı hissettirebilir. Görevin, hangi fırsatların gerçek yeteneklerinle uyumlu olduğunu ve hangilerinin enerjini tüketebileceğini ayırt etmektir. Yalnız kalma ihtiyacın ile başkalarına çözüm sunma eğilimin arasında denge kurmak, başarıyı sürdürülebilir kılmanın anahtarıdır."
+    var is_y_r_4_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_4_s3_2_1 = "Rolün, yeteneklerinin doğru insanlar tarafından doğru zamanda fark edileceğine güvenmekle ilgilidir. Hayat amacını, en çok ihtiyaç duyulduğunda pratik çözümler sunarak ve katkıda bulunduktan sonra kendine geri çekilme alanı tanıyarak gerçekleştirirsin. Takdirin akışına güvenip doğru hissettiren fırsatlarla uyum sağlayarak ve ne zaman geri çekileceğini bilerek kariyerinde ve kişisel hayatında tatmin bulacaksın. Başarı, doğal yeteneklerini zorlamadan kabul ettiğinde gelir."
 
-    var is_y_r_s2_0 = "Öncü/Haberci" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Keşfeden Çözümcü"
-    var is_y_r_s2_1_1 = "Değişimin doğal bir temsilcisisin. Neyin işe yarayıp yaramadığını kişisel deneyimlerle keşfetmeye yönelirsin ve genellikle deneme yanılma yoluyla öğrenirsin. Bu pratik yaklaşım, başkalarının fark edemediği pratik çözümleri bulmana olanak tanır. Dayanıklısın, uyum sağlarsın ve hayatın karşına çıkardığı zorluklardan öğrenebilirsin. Bir kez neyin işe yaradığını keşfettiğinde, bu içgörüleri başkalarıyla paylaşırsın, bu da seni ihtiyaç anlarında değerli bir kaynak haline getirir. "
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, süreçleri deneme ve geliştirme yeteneğinde yatar, ta ki neyin işe yaradığını bulana kadar. Yenilik ve pratik çözümlerin gerektiği durumlarda başarılı olursun ve risk almaktan ya da hata yapmaktan korkmazsın. İş dünyasında, insanlar sık sık, özellikle başkaları bir çözüm bulmakta zorlandığında, senin sorunları çözme yeteneğine güvenir. Dayanıklılığın ve cevap bulma konusundaki kararlılığın seni diğerlerinden ayırır ve bulgularını başkalarına iletme yeteneğin, seni herhangi bir ekip veya organizasyonda kilit bir katılımcı yapar."
-    var is_y_r_s2_3 = "Öncü / Haberci Olmak"
-    var is_y_r_s2_3_1 = "Rolün, yeni çözümler bulmanın yanı sıra, bunları başkalarıyla paylaşmayı da içerir. Farklı fikirleri test etmeye, uyarlamaya ve deney yapmaya doğal bir eğilimin vardır ve bir kez işe yarayan bir şey bulduğunda, bunu yaymaya hevesli olursun. Etkin, tanınma arzusundan değil, sunduğun pratik çözümlerden gelir. Yeni bakış açıları masaya getirip bilgilerin ve deneyimlerinle başkalarına yardımcı olabildiğinde gelişirsin."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatlar genellikle zorluklar veya krizler şeklinde gelebilir. Bir şeylerin neden yanlış gittiğini anlamaya ve bunları nasıl düzelteceğini bulmaya çalışırken en iyi performansını sergilersin, süreçte ellerini kirletmekten çekinmezsin. Ancak, sürekli deneme ve öğrenme arzun, kendine dinlenme zamanı vermezsen tükenmişliğe yol açabilir. Keşif ihtiyacın ile kendine özen gösterme ihtiyacın arasındaki dengeyi korumak, enerjini ve odaklanmanı sürdürmek için çok önemlidir."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, deneyimlerini kullanarak pratik çözümler bulmak ve ardından bu içgörüleri başkalarıyla paylaşmaktır. Hayat amacını, zorlukları kucaklayarak, onlardan öğrenerek ve başkalarına bilgeliğinle yardımcı olarak yerine getirirsin. İster iş hayatında ister kişisel yaşamında olsun, belirsizlik zamanlarında başkalarının başvurduğu birisin. Çözümler bulma ve bunları etkili bir şekilde paylaşma yeteneğine güvenerek, tatmin edici ve etkili bir kariyer yaratacaksın. Başarı, güçlü yönlerine yaslandığında ve doğal problem çözme yeteneklerinin parlamasına izin verdiğinde gelir."
+    var is_y_r_5_s2_0 = "Öncü/Haberci" //burası sanırım basılmayacak
+    var is_y_r_5_s2_1 = "Keşfeden Çözümcü"
+    var is_y_r_5_s2_1_1 = "Değişimin doğal bir temsilcisisin. Neyin işe yarayıp yaramadığını kişisel deneyimlerle keşfetmeye yönelirsin ve genellikle deneme yanılma yoluyla öğrenirsin. Bu pratik yaklaşım, başkalarının fark edemediği pratik çözümleri bulmana olanak tanır. Dayanıklısın, uyum sağlarsın ve hayatın karşına çıkardığı zorluklardan öğrenebilirsin. Bir kez neyin işe yaradığını keşfettiğinde, bu içgörüleri başkalarıyla paylaşırsın, bu da seni ihtiyaç anlarında değerli bir kaynak haline getirir. "
+    var is_y_r_5_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_5_s2_2_1 = "Gücün, süreçleri deneme ve geliştirme yeteneğinde yatar, ta ki neyin işe yaradığını bulana kadar. Yenilik ve pratik çözümlerin gerektiği durumlarda başarılı olursun ve risk almaktan ya da hata yapmaktan korkmazsın. İş dünyasında, insanlar sık sık, özellikle başkaları bir çözüm bulmakta zorlandığında, senin sorunları çözme yeteneğine güvenir. Dayanıklılığın ve cevap bulma konusundaki kararlılığın seni diğerlerinden ayırır ve bulgularını başkalarına iletme yeteneğin, seni herhangi bir ekip veya organizasyonda kilit bir katılımcı yapar."
+    var is_y_r_5_s2_3 = "Öncü / Haberci Olmak"
+    var is_y_r_5_s2_3_1 = "Rolün, yeni çözümler bulmanın yanı sıra, bunları başkalarıyla paylaşmayı da içerir. Farklı fikirleri test etmeye, uyarlamaya ve deney yapmaya doğal bir eğilimin vardır ve bir kez işe yarayan bir şey bulduğunda, bunu yaymaya hevesli olursun. Etkin, tanınma arzusundan değil, sunduğun pratik çözümlerden gelir. Yeni bakış açıları masaya getirip bilgilerin ve deneyimlerinle başkalarına yardımcı olabildiğinde gelişirsin."
+    var is_y_r_5_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_5_s3_1_1 = "Fırsatlar genellikle zorluklar veya krizler şeklinde gelebilir. Bir şeylerin neden yanlış gittiğini anlamaya ve bunları nasıl düzelteceğini bulmaya çalışırken en iyi performansını sergilersin, süreçte ellerini kirletmekten çekinmezsin. Ancak, sürekli deneme ve öğrenme arzun, kendine dinlenme zamanı vermezsen tükenmişliğe yol açabilir. Keşif ihtiyacın ile kendine özen gösterme ihtiyacın arasındaki dengeyi korumak, enerjini ve odaklanmanı sürdürmek için çok önemlidir."
+    var is_y_r_5_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_5_s3_2_1 = "Rolün, deneyimlerini kullanarak pratik çözümler bulmak ve ardından bu içgörüleri başkalarıyla paylaşmaktır. Hayat amacını, zorlukları kucaklayarak, onlardan öğrenerek ve başkalarına bilgeliğinle yardımcı olarak yerine getirirsin. İster iş hayatında ister kişisel yaşamında olsun, belirsizlik zamanlarında başkalarının başvurduğu birisin. Çözümler bulma ve bunları etkili bir şekilde paylaşma yeteneğine güvenerek, tatmin edici ve etkili bir kariyer yaratacaksın. Başarı, güçlü yönlerine yaslandığında ve doğal problem çözme yeteneklerinin parlamasına izin verdiğinde gelir."
 
-    var is_y_r_s2_0 = "Öncü/Lider" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Keşifçi Rol Model"
-    var is_y_r_s2_1_1 = "Hayatın, deneyimlerinden sürekli öğrenip geliştiğin bir dizi aşama boyunca ilerler. Hayatının başlarında deneme yanılma yöntemiyle öğrenir, neyin işe yarayıp neyin yaramadığını bizzat yaşayarak keşfedersin. Bu deneyimler, seni pratik bir problem çözücü yaparak derin içgörüler kazanmana yardımcı olur. Olgunlaştıkça, aktif bir katılımcı olmaktan daha bağımsız bir gözlemci ve lider olmaya geçersin. Bu benzersiz yolculuğun, başkalarına rehberlik ederken onlara gerçek dünya deneyimlerinden kazandığın bilgileri sunmanı sağlar."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, deneyimlerden öğrenme ve uyum sağlama yeteneğinde yatar. İş dünyasında, zorluklarla yüzleşmek ve yenilikçi çözümler bulmakta mükemmelsin. Kariyerinin ilk yıllarında, daha çok deneme ve hatalardan öğrenmeye odaklanabilirsin, ancak zamanla, başkalarının rehberlik ve liderlik için başvurduğu biri haline gelirsin. Kendi deneyimlerinden kaynaklanan bilgelik, stratejik düşünme ve problem çözmenin gerektiği her organizasyonda seni değerli bir kaynak yapar."
-    var is_y_r_s2_3 = "Öncü / Lider Olmak"
-    var is_y_r_s2_3_1 = "Rolün, önce deneme yanılma yöntemiyle öğrenme ve ardından bir liderlik pozisyonuna geçme sürecini içerir. Olgunlaştıkça, uygulamalı bir rolden gözlemleyici, analiz eden ve başkalarına mentorluk yapan bir role doğal olarak geçersin. Liderliği zorlamana gerek yoktur—başkaları senin büyük resmi görme yeteneğini fark ettikçe ve seni rehber olarak kabul ettikçe kendiliğinden ortaya çıkar. Liderlik tarzın, deneyime ve neyin işe yaradığını derinlemesine anlama üzerine kuruludur."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatlar, hayatın erken dönemlerinde zorluklarla yüzleşme ve bunlardan öğrenme yeteneğinden gelir. Deneme yapma, sorun çözme ve büyüme fırsatlarının olduğu ortamlarda gelişirsin. Liderlik odaklı bir aşamaya geçtikçe, insanlar doğal olarak tavsiyen için sana başvurur, seni güvenilir bir rehber olarak görür."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, deneyimlerinden öğrenmek ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Hem kişisel gelişiminde hem de profesyonel yolculuğunda hayatın sana sunduğu dersleri kucaklayarak hayat amacını yerine getirirsin. Hayatın farklı aşamalarından geçerken, uyum sağlama ve gelişme yeteneğin seni etkili bir lider yapar. İster aktif olarak sorunları çöz, ister stratejik tavsiyeler sun, katkıların başkalarına kendi yollarını bulmalarında yardımcı olur. Başarı, sürecine güvenip liderliğinin doğal olarak ortaya çıkmasına izin verdiğinde gelir."
+    var is_y_r_6_s2_0 = "Öncü/Lider" //burası sanırım basılmayacak
+    var is_y_r_6_s2_1 = "Keşifçi Rol Model"
+    var is_y_r_6_s2_1_1 = "Hayatın, deneyimlerinden sürekli öğrenip geliştiğin bir dizi aşama boyunca ilerler. Hayatının başlarında deneme yanılma yöntemiyle öğrenir, neyin işe yarayıp neyin yaramadığını bizzat yaşayarak keşfedersin. Bu deneyimler, seni pratik bir problem çözücü yaparak derin içgörüler kazanmana yardımcı olur. Olgunlaştıkça, aktif bir katılımcı olmaktan daha bağımsız bir gözlemci ve lider olmaya geçersin. Bu benzersiz yolculuğun, başkalarına rehberlik ederken onlara gerçek dünya deneyimlerinden kazandığın bilgileri sunmanı sağlar."
+    var is_y_r_6_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_6_s2_2_1 = "Gücün, deneyimlerden öğrenme ve uyum sağlama yeteneğinde yatar. İş dünyasında, zorluklarla yüzleşmek ve yenilikçi çözümler bulmakta mükemmelsin. Kariyerinin ilk yıllarında, daha çok deneme ve hatalardan öğrenmeye odaklanabilirsin, ancak zamanla, başkalarının rehberlik ve liderlik için başvurduğu biri haline gelirsin. Kendi deneyimlerinden kaynaklanan bilgelik, stratejik düşünme ve problem çözmenin gerektiği her organizasyonda seni değerli bir kaynak yapar."
+    var is_y_r_6_s2_3 = "Öncü / Lider Olmak"
+    var is_y_r_6_s2_3_1 = "Rolün, önce deneme yanılma yöntemiyle öğrenme ve ardından bir liderlik pozisyonuna geçme sürecini içerir. Olgunlaştıkça, uygulamalı bir rolden gözlemleyici, analiz eden ve başkalarına mentorluk yapan bir role doğal olarak geçersin. Liderliği zorlamana gerek yoktur—başkaları senin büyük resmi görme yeteneğini fark ettikçe ve seni rehber olarak kabul ettikçe kendiliğinden ortaya çıkar. Liderlik tarzın, deneyime ve neyin işe yaradığını derinlemesine anlama üzerine kuruludur."
+    var is_y_r_6_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_6_s3_1_1 = "Fırsatlar, hayatın erken dönemlerinde zorluklarla yüzleşme ve bunlardan öğrenme yeteneğinden gelir. Deneme yapma, sorun çözme ve büyüme fırsatlarının olduğu ortamlarda gelişirsin. Liderlik odaklı bir aşamaya geçtikçe, insanlar doğal olarak tavsiyen için sana başvurur, seni güvenilir bir rehber olarak görür."
+    var is_y_r_6_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_6_s3_2_1 = "Rolün, deneyimlerinden öğrenmek ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Hem kişisel gelişiminde hem de profesyonel yolculuğunda hayatın sana sunduğu dersleri kucaklayarak hayat amacını yerine getirirsin. Hayatın farklı aşamalarından geçerken, uyum sağlama ve gelişme yeteneğin seni etkili bir lider yapar. İster aktif olarak sorunları çöz, ister stratejik tavsiyeler sun, katkıların başkalarına kendi yollarını bulmalarında yardımcı olur. Başarı, sürecine güvenip liderliğinin doğal olarak ortaya çıkmasına izin verdiğinde gelir."
 
-    var is_y_r_s2_0 = "Etkileyici/Lider" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Etkileyici Lider"
-    var is_y_r_s2_1_1 = "Hayat yolculuğun güçlü ve anlamlı bağlantılar kurma ve çevrendekileri etkileme yeteneğinle şekillenir. Hayatının erken dönemlerinde, ilişkiler geliştirmeye ve ağ kurmaya odaklanırsın, bu da seni doğal olarak bir bağlantı sağlayıcı ve etkileyici pozisyonuna getirir. Olgunlaştıkça, Rolün liderlik yönüne kayar ve tecrüben ve bilgin, başkalarına rehberlik etmeni ve onları yönlendirmeni sağlar. İnsanlar doğal olarak sana çekilir ve etkileyici liderlik yeteneğini birleştirme becerin hem kişisel hem de profesyonel ortamlarda güvenilir bir figür olmanı sağlar."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, güçlü kişisel bağlantılar kurma ve doğal bir otorite duygusuyla başkalarını etkileme yeteneğinde yatar. İş dünyasında, ağ kurma ve ittifaklar oluşturma konusunda mükemmelsin, bu da sana fırsat kapıları açar. Kiminle bağlantı kuracağını ve bu ilişkileri ekibin ya da organizasyonun yararına nasıl kullanacağını sezgisel olarak bilirsin. Zamanla, etkileyici liderlik yoluyla rehberlik yapma yeteneğin daha belirgin hale gelir ve başkalarına zorluklarla başa çıkmada ve başarıya ulaşmada yardımcı olan kilit bir figür olursun."
-    var is_y_r_s2_3 = "Etkileyici / Lider Olmak"
-    var is_y_r_s2_3_1 = "Rolün, bağlantı sağlayıcı ve etkileyici olmaktan rehberlik isteyen bir lider olmaya doğru kademeli bir geçiş içerir. Kariyerinin erken dönemlerinde, daha çok ilişkiler geliştirmeye ve ağın üzerinden etki yaratmaya odaklanabilirsin. Deneyim kazandıkça, doğal olarak liderlik pozisyonlarına adım atarsın ve insanlar tavsiyeni arar ve yargına güvenir. Liderlik tarzın hem insanları hem de büyük resmi anlamaya dayanır, bu da empati ve içgörü ile liderlik etmene olanak tanır."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların güçlü ağlar kurma ve bu bağlantıları kullanma yeteneğinden gelir. İş birliğinin ve ilişki kurmanın anahtar olduğu ortamlarda gelişirsin. Liderliğe geçerken, insanlar rehberlik ve yön için sana bakar. Ancak, karşılaşabileceğin bir zorluk, bağlantı kurma ihtiyacın ile liderlik baskısı arasında denge kurmaktır. Bazen, başkalarının beklentilerinin ağırlığı bunaltıcı gelebilir ve yeniden enerji toplamak ve düşünmek için zaman ayırmak önemlidir."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, ilişkiler kurma ve içgörülerini paylaşarak başkalarının başarıya ulaşmalarına yardımcı olma yeteneğini kullanmakla ilgilidir. Ağ kurma yeteneğini doğal liderlik becerilerinle birleştirerek, kişisel ve profesyonel zorluklar boyunca başkalarına rehberlik ederek hayat amacını gerçekleştirirsin. Liderlik Rolünü kucakladığında hem kariyerin hem de hayatın daha doyurucu hale gelir ve çevrendeki insanlarda önemli bir etki yaratırsın. Başarı, özgünlük ve güvenle liderlik etme yeteneğine güvendiğinde gelir."
+    var is_y_r_7_s2_0 = "Etkileyici/Lider" //burası sanırım basılmayacak
+    var is_y_r_7_s2_1 = "Etkileyici Lider"
+    var is_y_r_7_s2_1_1 = "Hayat yolculuğun güçlü ve anlamlı bağlantılar kurma ve çevrendekileri etkileme yeteneğinle şekillenir. Hayatının erken dönemlerinde, ilişkiler geliştirmeye ve ağ kurmaya odaklanırsın, bu da seni doğal olarak bir bağlantı sağlayıcı ve etkileyici pozisyonuna getirir. Olgunlaştıkça, Rolün liderlik yönüne kayar ve tecrüben ve bilgin, başkalarına rehberlik etmeni ve onları yönlendirmeni sağlar. İnsanlar doğal olarak sana çekilir ve etkileyici liderlik yeteneğini birleştirme becerin hem kişisel hem de profesyonel ortamlarda güvenilir bir figür olmanı sağlar."
+    var is_y_r_7_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_7_s2_2_1 = "Gücün, güçlü kişisel bağlantılar kurma ve doğal bir otorite duygusuyla başkalarını etkileme yeteneğinde yatar. İş dünyasında, ağ kurma ve ittifaklar oluşturma konusunda mükemmelsin, bu da sana fırsat kapıları açar. Kiminle bağlantı kuracağını ve bu ilişkileri ekibin ya da organizasyonun yararına nasıl kullanacağını sezgisel olarak bilirsin. Zamanla, etkileyici liderlik yoluyla rehberlik yapma yeteneğin daha belirgin hale gelir ve başkalarına zorluklarla başa çıkmada ve başarıya ulaşmada yardımcı olan kilit bir figür olursun."
+    var is_y_r_7_s2_3 = "Etkileyici / Lider Olmak"
+    var is_y_r_7_s2_3_1 = "Rolün, bağlantı sağlayıcı ve etkileyici olmaktan rehberlik isteyen bir lider olmaya doğru kademeli bir geçiş içerir. Kariyerinin erken dönemlerinde, daha çok ilişkiler geliştirmeye ve ağın üzerinden etki yaratmaya odaklanabilirsin. Deneyim kazandıkça, doğal olarak liderlik pozisyonlarına adım atarsın ve insanlar tavsiyeni arar ve yargına güvenir. Liderlik tarzın hem insanları hem de büyük resmi anlamaya dayanır, bu da empati ve içgörü ile liderlik etmene olanak tanır."
+    var is_y_r_7_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_7_s3_1_1 = "Fırsatların güçlü ağlar kurma ve bu bağlantıları kullanma yeteneğinden gelir. İş birliğinin ve ilişki kurmanın anahtar olduğu ortamlarda gelişirsin. Liderliğe geçerken, insanlar rehberlik ve yön için sana bakar. Ancak, karşılaşabileceğin bir zorluk, bağlantı kurma ihtiyacın ile liderlik baskısı arasında denge kurmaktır. Bazen, başkalarının beklentilerinin ağırlığı bunaltıcı gelebilir ve yeniden enerji toplamak ve düşünmek için zaman ayırmak önemlidir."
+    var is_y_r_7_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_7_s3_2_1 = "Rolün, ilişkiler kurma ve içgörülerini paylaşarak başkalarının başarıya ulaşmalarına yardımcı olma yeteneğini kullanmakla ilgilidir. Ağ kurma yeteneğini doğal liderlik becerilerinle birleştirerek, kişisel ve profesyonel zorluklar boyunca başkalarına rehberlik ederek hayat amacını gerçekleştirirsin. Liderlik Rolünü kucakladığında hem kariyerin hem de hayatın daha doyurucu hale gelir ve çevrendeki insanlarda önemli bir etki yaratırsın. Başarı, özgünlük ve güvenle liderlik etme yeteneğine güvendiğinde gelir."
 
-    var is_y_r_s2_0 = "Etkileyici/Otorite" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Etkileyici Otorite"
-    var is_y_r_s2_1_1 = "Başkalarıyla derin bağlantılar kurma yeteneğini ve belirli bir alanda uzmanlaşma arzusunu birleştirirsin. Hem etkileyici bir ağ kurucusun hem de detaylı bir araştırmacısın. İnsanlarla bağlantı kurmayı sevsen de, asıl gücün seni büyüleyen konulara derinlemesine dalmak ve sağlam bir bilgi temeli oluşturmakta yatar. Sonuç olarak, genellikle alanında güvenilir bir otorite haline gelir ve etrafındakilerle bilgini paylaşarak onların bakış açılarını etkilersin."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "İş dünyasındaki güçlü yönlerin, başkalarıyla derin bağlar kurma ve seçtiğin uzmanlık alanında ustalaşma yeteneğinden kaynaklanır. Güçlü ağlar kurarak fırsatları kendine çekersin ve alanında derin bilgi birikimin, tavsiye ve rehberlik için başvurulan bir kişi olmanı sağlar. Profesyonel başarın, kişisel ilişkileri inceleme ve araştırma tutkusu ile harmanlayarak iş dünyasında hem etkileyici hem de otorite olarak öne çıkmanı sağlar."
-    var is_y_r_s2_3 = "Etkileyici / Otorite Olmak"
-    var is_y_r_s2_3_1 = "Rolün, etki yaratma ve ustalık arasında bir dengeyi içerir. Seni ilgilendiren bir konuda derinlemesine çalışabilme ve ustalaşma yeteneğin sayesinde başarılı olursun. Bu ustalık, güçlü kişilerarası becerilerinle birleştiğinde, çevrendekileri etkileme gücünü artırır. Liderlik ya da tanınma aramana gerek yoktur—başkaları, uzmanlığını fark ettikçe etkili olman doğal olarak gelişir. Hem bilgi hem de ilişkiler inşa ederek iş dünyasında ya da kariyerinde kalıcı bir etki yaratabilirsin."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların, bilginin ve başkalarıyla bağlantı kurma yeteneğinin birleşiminden doğar. Hem derinlemesine çalışabileceğin hem de insanlarla anlamlı ilişkiler kurabileceğin ortamlarda gelişirsin. Ancak, karşılaşabileceğin zorluklardan biri, çalışmalarına odaklanma ihtiyacın ile sosyal bağlantıların talepleri arasında denge kurmaktır. Enerjini koruyup hem odaklanma hem de bağlantı kurma arasında denge sağlamak hem etkini hem de otoriteni sürdürmenin anahtarıdır."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, bir konuda derinlemesine bilgi sahibi olma ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Uzmanlığını paylaşarak ve başkalarının bundan faydalanmasına yardımcı olarak hayat amacını gerçekleştirirsin. Rolünle uyum içinde olduğunda, kendin ve çevrendekiler için fırsatlar yaratır ve tatmin edici bir kariyer inşa edersin. Hem bilgi hem de bağlantı yoluyla etki yaratma yeteneğine güvenmek, doğal yeteneklerinin parlamasını sağlayacaktır."
+    var is_y_r_8_s2_0 = "Etkileyici/Otorite" //burası sanırım basılmayacak
+    var is_y_r_8_s2_1 = "Etkileyici Otorite"
+    var is_y_r_8_s2_1_1 = "Başkalarıyla derin bağlantılar kurma yeteneğini ve belirli bir alanda uzmanlaşma arzusunu birleştirirsin. Hem etkileyici bir ağ kurucusun hem de detaylı bir araştırmacısın. İnsanlarla bağlantı kurmayı sevsen de, asıl gücün seni büyüleyen konulara derinlemesine dalmak ve sağlam bir bilgi temeli oluşturmakta yatar. Sonuç olarak, genellikle alanında güvenilir bir otorite haline gelir ve etrafındakilerle bilgini paylaşarak onların bakış açılarını etkilersin."
+    var is_y_r_8_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_8_s2_2_1 = "İş dünyasındaki güçlü yönlerin, başkalarıyla derin bağlar kurma ve seçtiğin uzmanlık alanında ustalaşma yeteneğinden kaynaklanır. Güçlü ağlar kurarak fırsatları kendine çekersin ve alanında derin bilgi birikimin, tavsiye ve rehberlik için başvurulan bir kişi olmanı sağlar. Profesyonel başarın, kişisel ilişkileri inceleme ve araştırma tutkusu ile harmanlayarak iş dünyasında hem etkileyici hem de otorite olarak öne çıkmanı sağlar."
+    var is_y_r_8_s2_3 = "Etkileyici / Otorite Olmak"
+    var is_y_r_8_s2_3_1 = "Rolün, etki yaratma ve ustalık arasında bir dengeyi içerir. Seni ilgilendiren bir konuda derinlemesine çalışabilme ve ustalaşma yeteneğin sayesinde başarılı olursun. Bu ustalık, güçlü kişilerarası becerilerinle birleştiğinde, çevrendekileri etkileme gücünü artırır. Liderlik ya da tanınma aramana gerek yoktur—başkaları, uzmanlığını fark ettikçe etkili olman doğal olarak gelişir. Hem bilgi hem de ilişkiler inşa ederek iş dünyasında ya da kariyerinde kalıcı bir etki yaratabilirsin."
+    var is_y_r_8_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_8_s3_1_1 = "Fırsatların, bilginin ve başkalarıyla bağlantı kurma yeteneğinin birleşiminden doğar. Hem derinlemesine çalışabileceğin hem de insanlarla anlamlı ilişkiler kurabileceğin ortamlarda gelişirsin. Ancak, karşılaşabileceğin zorluklardan biri, çalışmalarına odaklanma ihtiyacın ile sosyal bağlantıların talepleri arasında denge kurmaktır. Enerjini koruyup hem odaklanma hem de bağlantı kurma arasında denge sağlamak hem etkini hem de otoriteni sürdürmenin anahtarıdır."
+    var is_y_r_8_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_8_s3_2_1 = "Rolün, bir konuda derinlemesine bilgi sahibi olma ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Uzmanlığını paylaşarak ve başkalarının bundan faydalanmasına yardımcı olarak hayat amacını gerçekleştirirsin. Rolünle uyum içinde olduğunda, kendin ve çevrendekiler için fırsatlar yaratır ve tatmin edici bir kariyer inşa edersin. Hem bilgi hem de bağlantı yoluyla etki yaratma yeteneğine güvenmek, doğal yeteneklerinin parlamasını sağlayacaktır."
 
-    var is_y_r_s2_0 = "Haberci/Otorite" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Pratik Otorite"
-    var is_y_r_s2_1_1 = "Özellikle kriz zamanlarında pratik çözümler sunman için sana başvurulur. Büyük resmi görebilme ve başkalarına zorlukların üstesinden gelmelerinde yardımcı olacak uygulanabilir içgörüler sunma yeteneğine sahipsin. Bu da seni, özellikle rehberlik ve cevap arandığında alanında bir otorite haline getirir. Rolün, konunda ustalaşmaya olan derin bağlılığın ile uzmanlığını başkalarına etki eden bir şekilde iletme yeteneğini birleştirir. İnsanların güvendiği bir problem çözücü olarak, neyin bozuk olduğunu anlamak ve doğru çözümleri sunmak için sana güvenilir."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, seçtiğin alanda derinlemesine araştırma yapma, detayları öğrenme ve ardından bu bulguları net ve etkili bir şekilde iletme yeteneğinde yatar. İş dünyasında, zorluklar olduğunda pratik çözümler ve uzman bilgisi getiren biri olarak görülürsün. Bu da seni, özellikle düzeltme gereken durumlarda veya stratejik rehberlik gerektiğinde değerli bir kaynak yapar. Etkin, hem alanındaki derin anlayışından hem de insanlara güvenilir çözümler sunma yeteneğinden gelir."
-    var is_y_r_s2_3 = "Haberci / Otorite Olmak"
-    var is_y_r_s2_3_1 = "Rolün, başkalarının aradığı değerli içgörüler ve çözümler sunmakla ilgilidir, özellikle ihtiyaç duyulan zamanlarda. Tanınma peşinde koşmana gerek yoktur—insanlar doğal olarak bilgeliğin için sana başvurur. Zamanla, bilgini derinleştirdikçe ve başkalarıyla paylaştıkça otoriten büyür. Alanında ustalaşmaya ve ihtiyaç anlarında başkalarına yardımcı olmaya odaklanarak hem haberci hem de otorite rolünü yerine getirirsin. Etkin, güven, bilgi ve açık iletişim üzerine inşa edilmiştir."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların, başkalarına çözüm sunmaları için çağrıldıklarında ortaya çıkar. Kritik anlarda devreye girip başkalarının güvenebileceği rehberliği sunduğun durumlarda gelişirsin. Ancak, bu roldeki zorluklardan biri, hangi fırsatların senin için doğru olduğunu ayırt etmeyi öğrenmektir. Her sorun senin çözmen gereken bir sorun değildir ve gerçek yeteneklerinle uyumlu olmayan projelerden kaçınarak enerjini korumalısın. Güçlü olduğun alanlara odaklanmak hem enerjini hem de etkinliğini sürdürebilmen için önemlidir."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, başkalarına yardımcı olacak pratik çözümler sunmak ve kendi alanında güvenilen bir bilgelik kaynağı olmakla ilgilidir. Bilgini paylaşarak ve başkalarına rehberlik ederek hayat amacını yerine getirirsin. Rolünle uyum içinde olduğunda, güvenilir bir problem çözücü ve uzman olarak tanınacağın bir kariyer inşa edersin. Başarı, anlamlı içgörüler sunma yeteneğine ve ne zaman adım atıp uzmanlığını paylaşacağını bilme becerine güvendiğinde gelir."
+    var is_y_r_9_s2_0 = "Haberci/Otorite" //burası sanırım basılmayacak
+    var is_y_r_9_s2_1 = "Pratik Otorite"
+    var is_y_r_9_s2_1_1 = "Özellikle kriz zamanlarında pratik çözümler sunman için sana başvurulur. Büyük resmi görebilme ve başkalarına zorlukların üstesinden gelmelerinde yardımcı olacak uygulanabilir içgörüler sunma yeteneğine sahipsin. Bu da seni, özellikle rehberlik ve cevap arandığında alanında bir otorite haline getirir. Rolün, konunda ustalaşmaya olan derin bağlılığın ile uzmanlığını başkalarına etki eden bir şekilde iletme yeteneğini birleştirir. İnsanların güvendiği bir problem çözücü olarak, neyin bozuk olduğunu anlamak ve doğru çözümleri sunmak için sana güvenilir."
+    var is_y_r_9_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_9_s2_2_1 = "Gücün, seçtiğin alanda derinlemesine araştırma yapma, detayları öğrenme ve ardından bu bulguları net ve etkili bir şekilde iletme yeteneğinde yatar. İş dünyasında, zorluklar olduğunda pratik çözümler ve uzman bilgisi getiren biri olarak görülürsün. Bu da seni, özellikle düzeltme gereken durumlarda veya stratejik rehberlik gerektiğinde değerli bir kaynak yapar. Etkin, hem alanındaki derin anlayışından hem de insanlara güvenilir çözümler sunma yeteneğinden gelir."
+    var is_y_r_9_s2_3 = "Haberci / Otorite Olmak"
+    var is_y_r_9_s2_3_1 = "Rolün, başkalarının aradığı değerli içgörüler ve çözümler sunmakla ilgilidir, özellikle ihtiyaç duyulan zamanlarda. Tanınma peşinde koşmana gerek yoktur—insanlar doğal olarak bilgeliğin için sana başvurur. Zamanla, bilgini derinleştirdikçe ve başkalarıyla paylaştıkça otoriten büyür. Alanında ustalaşmaya ve ihtiyaç anlarında başkalarına yardımcı olmaya odaklanarak hem haberci hem de otorite rolünü yerine getirirsin. Etkin, güven, bilgi ve açık iletişim üzerine inşa edilmiştir."
+    var is_y_r_9_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_9_s3_1_1 = "Fırsatların, başkalarına çözüm sunmaları için çağrıldıklarında ortaya çıkar. Kritik anlarda devreye girip başkalarının güvenebileceği rehberliği sunduğun durumlarda gelişirsin. Ancak, bu roldeki zorluklardan biri, hangi fırsatların senin için doğru olduğunu ayırt etmeyi öğrenmektir. Her sorun senin çözmen gereken bir sorun değildir ve gerçek yeteneklerinle uyumlu olmayan projelerden kaçınarak enerjini korumalısın. Güçlü olduğun alanlara odaklanmak hem enerjini hem de etkinliğini sürdürebilmen için önemlidir."
+    var is_y_r_9_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_9_s3_2_1 = "Rolün, başkalarına yardımcı olacak pratik çözümler sunmak ve kendi alanında güvenilen bir bilgelik kaynağı olmakla ilgilidir. Bilgini paylaşarak ve başkalarına rehberlik ederek hayat amacını yerine getirirsin. Rolünle uyum içinde olduğunda, güvenilir bir problem çözücü ve uzman olarak tanınacağın bir kariyer inşa edersin. Başarı, anlamlı içgörüler sunma yeteneğine ve ne zaman adım atıp uzmanlığını paylaşacağını bilme becerine güvendiğinde gelir."
 
-    var is_y_r_s2_0 = "Haberci/Doğal" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Çözüm Sağlayan Yetenek"
-    var is_y_r_s2_1_1 = "Kendin bile farkına varmadan başkalarının sıklıkla fark ettiği doğuştan gelen yeteneklere sahipsin. Özellikle ihtiyaç anlarında, başkalarına yardımcı olacak pratik çözümler ve yenilikçi içgörüler sunma yeteneğine sahipsin. Genellikle sahne arkasında çalışmayı tercih etsen de, insanlar doğal olarak bilgeliğine çekilir ve senin onların sorunlarını çözebileceğine dair beklentiler geliştirir. Rolün, bu fırsatlara adım atıp yeteneklerini kendine özgü bir şekilde paylaşmakla ilgilidir."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "Gücün, başkalarının göremediği yenilikçi ve sıra dışı çözümler sunma yeteneğinde yatar. Doğal bir problem çözücüsün ve içgörülerin genellikle tam da ihtiyaç duyulduğunda ortaya çıkar. İş dünyasında, insanlar yargına ve sonuç elde etme yeteneğine güvenir. Bağımsız çalışmak için sana alan verildiğinde başarılı olursun ve doğru fırsatlar geldiğinde, pratik çözümlerini paylaşmak için öne çıkarsın. Bu da seni, özellikle kriz veya belirsizlik zamanlarında, herhangi bir ekibe ya da organizasyona değerli bir katkı sağlayan biri yapar."
-    var is_y_r_s2_3 = "Haberci / Doğal Olmak"
-    var is_y_r_s2_3_1 = "Rolün, sana kolay gelen yetenekleri kucaklamak ve başkalarının bu yetenekleri fark edip seni çağırmalarına izin vermekle ilgilidir. Kendini öne çıkarmaya çalışmana gerek yok—insanlar doğal olarak içgörülerini aradıkça etkin büyür. En etkili katkıların, çözümlerini içten bir yerden sunduğunda ve seni zorlayan rollere girmediğinde gelir. Yeteneklerinin fark edileceğine ve doğru fırsatların sana geleceğine güvenmelisin."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların başkalarının senin yeteneklerini fark edip çözümler sunmanı beklediklerinde ortaya çıkar. Bu, yeteneklerini paylaşman için harika bir fırsat olabilir, ancak beklentiler senin gerçekten ilgilendiğin veya yapabileceğin şeylerle uyumlu değilse, bu durum bazen bunaltıcı gelebilir. Senin görevin, hangi fırsatların senin için doğru olduğunu ayırt etmek ve kendini fazla yormamaktır. Gerektiğinde \"hayır\" demeyi öğrenmek ve başkalarına yardımcı olmak ile kendi ihtiyaçlarına saygı göstermek arasında denge kurmak uzun vadeli başarının anahtarıdır."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, doğuştan gelen yeteneklerini başkalarıyla uyum içinde paylaşmakla ilgilidir. Hayat amacını, en çok ihtiyaç duyulduğunda pratik çözümler sunarak ve doğru insanların yeteneklerini fark edeceğine güvenerek gerçekleştirirsin. Doğal yeteneklerini kucaklayıp kendini zorlayan rollere girmediğinde, tatmin edici bir kariyer ve yaşam yaratmış olursun. Başarı, yeteneklerinin doğal olarak ortaya çıkmasına izin verdiğinde ve başkalarının seni benzersiz bilgeliğin için aramasına fırsat verdiğinde gelir."
+    var is_y_r_10_s2_0 = "Haberci/Doğal" //burası sanırım basılmayacak
+    var is_y_r_10_s2_1 = "Çözüm Sağlayan Yetenek"
+    var is_y_r_10_s2_1_1 = "Kendin bile farkına varmadan başkalarının sıklıkla fark ettiği doğuştan gelen yeteneklere sahipsin. Özellikle ihtiyaç anlarında, başkalarına yardımcı olacak pratik çözümler ve yenilikçi içgörüler sunma yeteneğine sahipsin. Genellikle sahne arkasında çalışmayı tercih etsen de, insanlar doğal olarak bilgeliğine çekilir ve senin onların sorunlarını çözebileceğine dair beklentiler geliştirir. Rolün, bu fırsatlara adım atıp yeteneklerini kendine özgü bir şekilde paylaşmakla ilgilidir."
+    var is_y_r_10_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_10_s2_2_1 = "Gücün, başkalarının göremediği yenilikçi ve sıra dışı çözümler sunma yeteneğinde yatar. Doğal bir problem çözücüsün ve içgörülerin genellikle tam da ihtiyaç duyulduğunda ortaya çıkar. İş dünyasında, insanlar yargına ve sonuç elde etme yeteneğine güvenir. Bağımsız çalışmak için sana alan verildiğinde başarılı olursun ve doğru fırsatlar geldiğinde, pratik çözümlerini paylaşmak için öne çıkarsın. Bu da seni, özellikle kriz veya belirsizlik zamanlarında, herhangi bir ekibe ya da organizasyona değerli bir katkı sağlayan biri yapar."
+    var is_y_r_10_s2_3 = "Haberci / Doğal Olmak"
+    var is_y_r_10_s2_3_1 = "Rolün, sana kolay gelen yetenekleri kucaklamak ve başkalarının bu yetenekleri fark edip seni çağırmalarına izin vermekle ilgilidir. Kendini öne çıkarmaya çalışmana gerek yok—insanlar doğal olarak içgörülerini aradıkça etkin büyür. En etkili katkıların, çözümlerini içten bir yerden sunduğunda ve seni zorlayan rollere girmediğinde gelir. Yeteneklerinin fark edileceğine ve doğru fırsatların sana geleceğine güvenmelisin."
+    var is_y_r_10_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_10_s3_1_1 = "Fırsatların başkalarının senin yeteneklerini fark edip çözümler sunmanı beklediklerinde ortaya çıkar. Bu, yeteneklerini paylaşman için harika bir fırsat olabilir, ancak beklentiler senin gerçekten ilgilendiğin veya yapabileceğin şeylerle uyumlu değilse, bu durum bazen bunaltıcı gelebilir. Senin görevin, hangi fırsatların senin için doğru olduğunu ayırt etmek ve kendini fazla yormamaktır. Gerektiğinde \"hayır\" demeyi öğrenmek ve başkalarına yardımcı olmak ile kendi ihtiyaçlarına saygı göstermek arasında denge kurmak uzun vadeli başarının anahtarıdır."
+    var is_y_r_10_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_10_s3_2_1 = "Rolün, doğuştan gelen yeteneklerini başkalarıyla uyum içinde paylaşmakla ilgilidir. Hayat amacını, en çok ihtiyaç duyulduğunda pratik çözümler sunarak ve doğru insanların yeteneklerini fark edeceğine güvenerek gerçekleştirirsin. Doğal yeteneklerini kucaklayıp kendini zorlayan rollere girmediğinde, tatmin edici bir kariyer ve yaşam yaratmış olursun. Başarı, yeteneklerinin doğal olarak ortaya çıkmasına izin verdiğinde ve başkalarının seni benzersiz bilgeliğin için aramasına fırsat verdiğinde gelir."
 
-    var is_y_r_s2_0 = "Lider/Doğal" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Yetenekli Lider"
-    var is_y_r_s2_1_1 = "Doğal yeteneklerin ve bilgeliğinle başkalarına otantik bir şekilde nasıl yaşayacaklarını gösterme rolüne sahipsin. Etrafındakiler için sıklıkla bir rol model görevi üstlenir, onlara benzersiz ve tarafsız bir bakış açısı sunma yeteneğine sahipsin. Sessiz ve bağımsız çalışmayı tercih etsen de, insanlar doğal olarak sana rehberlik için başvurur ve bilgeliğine güvenir. Olgunlaştıkça, özellikle hayatının ilerleyen dönemlerinde, bu bilgelik daha da belirgin hale gelir ve başkaları tarafından büyük değer görür."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "En büyük gücün, büyük resmi görebilme ve pratik, objektif içgörüler sunma yeteneğindedir. Kariyerinin erken aşamalarında, farklı yollar deneyerek ve deneme yanılma yoluyla öğrenebilirsin. Olgunlaştıkça, anlayışın derinleşir ve doğal olarak başkalarının tavsiye almak için başvurduğu bir liderlik rolüne adım atarsın. Liderlik yaparken, sakin ve tarafsız bir yaklaşım sunar, kendi deneyimlerinden elde ettiğin içgörülere dayalı rehberlik sunarsın. Bu, hem iş dünyasında hem de kişisel ilişkilerde seni etkili bir lider yapar."
-    var is_y_r_s2_3 = "Lider / Doğal Olmak"
-    var is_y_r_s2_3_1 = "Rolün zamanla gelişir. Başlangıçta, kişisel büyümeye ve farklı fikirleri deneyimlemeye odaklanabilirsin. Zamanla, başkalarının rehber ve mentor olarak sana başvurduğu bir role doğal olarak geçersin. Bu geçiş, öğrendiğin dersleri içselleştirdikçe ve bilgeliği somutlaştırmaya başladıkça gerçekleşir. Liderliği aktif olarak aramana gerek yoktur; başkaları, örnek teşkil eden liderlik yeteneğini fark ettikçe bu rol kendiliğinden ortaya çıkar. Hayatının ilerleyen yıllarına girdikçe, bu liderlik daha da belirginleşir ve yaşam deneyimlerin seni güvenilir bir figür haline getirir."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların deneyimlerine dayalı olarak başkalarına rehberlik etme yeteneğinden gelir. Özellikle kariyerinin ilk yıllarında, keşfetme ve büyüme için alana sahip olduğunda gelişirsin. Olgunlaştıkça, kazandığın bilgelik sayesinde doğal olarak liderlik rollerine adım atarsın. Ancak, bu rolde karşılaşabileceğin zorluklardan biri, hayatın erken dönemlerinde başkalarının beklentilerine uyum sağlama baskısı olabilir. Kendi sürecine güvenmek ve kendi hızında büyümek için kendine alan tanımak, daha büyük bir tatmine ulaşmanı sağlayacaktır."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, doğal yeteneklerini ve bilgeliğini kullanarak başkalarına rehberlik etmekle ilgilidir. Hem kişisel hem de profesyonel yaşamındaki yolculuğunu kucaklayarak hayat amacını gerçekleştirirsin. Hayat boyunca ilerledikçe, özellikle 50 yaş sonrasında, bilgelik, başkalarına rehberlik ve onları etkileme şeklinin temel bir parçası haline gelir. Başarı, örnek teşkil eden liderlik yeteneğine güvenip, kendini zorlamadan liderliğin doğal olarak ortaya çıkmasına izin verdiğinde gelir."
+    var is_y_r_11_s2_0 = "Lider/Doğal" //burası sanırım basılmayacak
+    var is_y_r_11_s2_1 = "Yetenekli Lider"
+    var is_y_r_11_s2_1_1 = "Doğal yeteneklerin ve bilgeliğinle başkalarına otantik bir şekilde nasıl yaşayacaklarını gösterme rolüne sahipsin. Etrafındakiler için sıklıkla bir rol model görevi üstlenir, onlara benzersiz ve tarafsız bir bakış açısı sunma yeteneğine sahipsin. Sessiz ve bağımsız çalışmayı tercih etsen de, insanlar doğal olarak sana rehberlik için başvurur ve bilgeliğine güvenir. Olgunlaştıkça, özellikle hayatının ilerleyen dönemlerinde, bu bilgelik daha da belirgin hale gelir ve başkaları tarafından büyük değer görür."
+    var is_y_r_11_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_11_s2_2_1 = "En büyük gücün, büyük resmi görebilme ve pratik, objektif içgörüler sunma yeteneğindedir. Kariyerinin erken aşamalarında, farklı yollar deneyerek ve deneme yanılma yoluyla öğrenebilirsin. Olgunlaştıkça, anlayışın derinleşir ve doğal olarak başkalarının tavsiye almak için başvurduğu bir liderlik rolüne adım atarsın. Liderlik yaparken, sakin ve tarafsız bir yaklaşım sunar, kendi deneyimlerinden elde ettiğin içgörülere dayalı rehberlik sunarsın. Bu, hem iş dünyasında hem de kişisel ilişkilerde seni etkili bir lider yapar."
+    var is_y_r_11_s2_3 = "Lider / Doğal Olmak"
+    var is_y_r_11_s2_3_1 = "Rolün zamanla gelişir. Başlangıçta, kişisel büyümeye ve farklı fikirleri deneyimlemeye odaklanabilirsin. Zamanla, başkalarının rehber ve mentor olarak sana başvurduğu bir role doğal olarak geçersin. Bu geçiş, öğrendiğin dersleri içselleştirdikçe ve bilgeliği somutlaştırmaya başladıkça gerçekleşir. Liderliği aktif olarak aramana gerek yoktur; başkaları, örnek teşkil eden liderlik yeteneğini fark ettikçe bu rol kendiliğinden ortaya çıkar. Hayatının ilerleyen yıllarına girdikçe, bu liderlik daha da belirginleşir ve yaşam deneyimlerin seni güvenilir bir figür haline getirir."
+    var is_y_r_11_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_11_s3_1_1 = "Fırsatların deneyimlerine dayalı olarak başkalarına rehberlik etme yeteneğinden gelir. Özellikle kariyerinin ilk yıllarında, keşfetme ve büyüme için alana sahip olduğunda gelişirsin. Olgunlaştıkça, kazandığın bilgelik sayesinde doğal olarak liderlik rollerine adım atarsın. Ancak, bu rolde karşılaşabileceğin zorluklardan biri, hayatın erken dönemlerinde başkalarının beklentilerine uyum sağlama baskısı olabilir. Kendi sürecine güvenmek ve kendi hızında büyümek için kendine alan tanımak, daha büyük bir tatmine ulaşmanı sağlayacaktır."
+    var is_y_r_11_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_11_s3_2_1 = "Rolün, doğal yeteneklerini ve bilgeliğini kullanarak başkalarına rehberlik etmekle ilgilidir. Hem kişisel hem de profesyonel yaşamındaki yolculuğunu kucaklayarak hayat amacını gerçekleştirirsin. Hayat boyunca ilerledikçe, özellikle 50 yaş sonrasında, bilgelik, başkalarına rehberlik ve onları etkileme şeklinin temel bir parçası haline gelir. Başarı, örnek teşkil eden liderlik yeteneğine güvenip, kendini zorlamadan liderliğin doğal olarak ortaya çıkmasına izin verdiğinde gelir."
 
-    var is_y_r_s2_0 = "Lider/Öncü" //burası sanırım basılmayacak
-    var is_y_r_s2_1 = "Lider Keşfedici"
-    var is_y_r_s2_1_1 = "Olağanüstü dayanıklılığın ve kişisel deneyimler yoluyla öğrenip gelişme yeteneğinle tanımlanırsın. Karşına çıkan zorluklar veya aksilikler ne olursa olsun, her zaman ayağa kalkmanın ve ilerlemeye devam etmenin bir yolunu bulursun. Deneme yanılma yoluyla gelişir ve neyin işe yaradığını pratik deneyimlerle keşfedersin. Zamanla, bu dersler seni güvenilir bir lider yapar ve kişisel gelişiminle kazandığın bilgileri başkalarına rehberlik etmek için kullanırsın."
-    var is_y_r_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
-    var is_y_r_s2_2_1 = "İş dünyasındaki en büyük gücün, durmak bilmeyen dayanıklılığın ve risk almaya istekli olmandır. Kariyerinin erken dönemlerinde, hata yapmaktan korkmadan deneyimleyerek öğrenirsin çünkü her aksiliğin değerli içgörüler getireceğini bilirsin. Bu pratik yaklaşım, bilgi ve uzmanlık birikimi sağlar ve başkalarının yargına güvenmesine olanak tanır. Zamanla, hem pratik deneyimlerin hem de stratejik düşünce yeteneğin sayesinde daha objektif bir lider haline gelirsin. İnsanlar, bilgine güvenmelerinin yanı sıra, her düşüşten sonra ayağa kalkma yeteneğine hayran kalır, bu da seni iş dünyasında güçlü bir figür yapar."
-    var is_y_r_s2_3 = "Lider / Öncü Olmak"
-    var is_y_r_s2_3_1 = "Rolün, uygulamalı bir problem çözücülükten dayanıklı ve stratejik bir lidere evrilmekle ilgilidir. Hayatının erken dönemlerinde, sınırları zorlamaya, denemeye ve hatalardan öğrenmeye odaklanırsın. Karşına çıkan her zorluk sadece kararlılığını güçlendirir ve anlayışını derinleştirir. Olgunlaştıkça, deneyimlerin seni başkalarının tavsiye ve destek için başvurduğu bir lider haline getirir. Liderliğin hem deneyimlere dayanır hem de başkalarına bilgelik sunma yeteneğinle pekişir. Hayatının ilerleyen yıllarında, liderliğin daha çok başkalarına rehberlik etmek ve kişisel yolculuğun boyunca kazandığın bilgileri paylaşmakla ilgilidir."
-    var is_y_r_s3_1 = "Fırsatlar ve Zorluklar"
-    var is_y_r_s3_1_1 = "Fırsatların zorlukları kucaklama ve risk alma yeteneğinden gelir. Yeni olasılıkları keşfetme ve başarısızlıkların bile büyüme getireceğini bilme konularında gelişirsin. Dayanıklılığın seni diğerlerinden ayırır—ne kadar çok şey yanlış gitse de, ayağa kalkmanın ve devam etmenin bir yolunu bulursun. Zamanla bu deneme yanılma yaklaşımı, daha köklü bir liderlik tarzına evrilir ve insanlar seni mentor ve rehber olarak görmeye başlar. Bu rolde karşılaşabileceğin zorluklardan biri, uygulamalı bir yaklaşımdan daha bağımsız bir gözlemci ve lider rolüne geçiş yaparken kararsızlık veya belirsizlik hissetmektir. Sürecine güvenmek ve liderliğinin doğal olarak ortaya çıkmasına izin vermek, tatmin bulmanın anahtarıdır."
-    var is_y_r_s3_2 = "Hayat Amacını Gerçekleştirmek"
-    var is_y_r_s3_2_1 = "Rolün, kişisel deneyimlerle kazandığın dayanıklılığı ve dersleri kullanarak başkalarına rehberlik etmekle ilgilidir. Hem başarılarını hem de başarısızlıklarını kucaklayarak, bunların seni bilge ve düşünceli bir lider haline getirmesine izin vererek hayat amacını gerçekleştirirsin. Hayatının ilerleyen dönemlerinde, 50 yaş sonrası, liderlik rolüne tam anlamıyla adım atar ve kazandığın zorluklarla yoğrulmuş bilgeliği başkalarına sunarsın. Başarı, sadece eylem yoluyla değil, aynı zamanda dayanıklılığın ve her ne olursa olsun ilerlemeye devam etme yeteneğinle liderlik edebilme kapasitenle gelir."
+    var is_y_r_12_s2_0 = "Lider/Öncü" //burası sanırım basılmayacak
+    var is_y_r_12_s2_1 = "Lider Keşfedici"
+    var is_y_r_12_s2_1_1 = "Olağanüstü dayanıklılığın ve kişisel deneyimler yoluyla öğrenip gelişme yeteneğinle tanımlanırsın. Karşına çıkan zorluklar veya aksilikler ne olursa olsun, her zaman ayağa kalkmanın ve ilerlemeye devam etmenin bir yolunu bulursun. Deneme yanılma yoluyla gelişir ve neyin işe yaradığını pratik deneyimlerle keşfedersin. Zamanla, bu dersler seni güvenilir bir lider yapar ve kişisel gelişiminle kazandığın bilgileri başkalarına rehberlik etmek için kullanırsın."
+    var is_y_r_12_s2_2 = "İş Hayatında ve Kariyerde Güçlü Yönlerin"
+    var is_y_r_12_s2_2_1 = "İş dünyasındaki en büyük gücün, durmak bilmeyen dayanıklılığın ve risk almaya istekli olmandır. Kariyerinin erken dönemlerinde, hata yapmaktan korkmadan deneyimleyerek öğrenirsin çünkü her aksiliğin değerli içgörüler getireceğini bilirsin. Bu pratik yaklaşım, bilgi ve uzmanlık birikimi sağlar ve başkalarının yargına güvenmesine olanak tanır. Zamanla, hem pratik deneyimlerin hem de stratejik düşünce yeteneğin sayesinde daha objektif bir lider haline gelirsin. İnsanlar, bilgine güvenmelerinin yanı sıra, her düşüşten sonra ayağa kalkma yeteneğine hayran kalır, bu da seni iş dünyasında güçlü bir figür yapar."
+    var is_y_r_12_s2_3 = "Lider / Öncü Olmak"
+    var is_y_r_12_s2_3_1 = "Rolün, uygulamalı bir problem çözücülükten dayanıklı ve stratejik bir lidere evrilmekle ilgilidir. Hayatının erken dönemlerinde, sınırları zorlamaya, denemeye ve hatalardan öğrenmeye odaklanırsın. Karşına çıkan her zorluk sadece kararlılığını güçlendirir ve anlayışını derinleştirir. Olgunlaştıkça, deneyimlerin seni başkalarının tavsiye ve destek için başvurduğu bir lider haline getirir. Liderliğin hem deneyimlere dayanır hem de başkalarına bilgelik sunma yeteneğinle pekişir. Hayatının ilerleyen yıllarında, liderliğin daha çok başkalarına rehberlik etmek ve kişisel yolculuğun boyunca kazandığın bilgileri paylaşmakla ilgilidir."
+    var is_y_r_12_s3_1 = "Fırsatlar ve Zorluklar"
+    var is_y_r_12_s3_1_1 = "Fırsatların zorlukları kucaklama ve risk alma yeteneğinden gelir. Yeni olasılıkları keşfetme ve başarısızlıkların bile büyüme getireceğini bilme konularında gelişirsin. Dayanıklılığın seni diğerlerinden ayırır—ne kadar çok şey yanlış gitse de, ayağa kalkmanın ve devam etmenin bir yolunu bulursun. Zamanla bu deneme yanılma yaklaşımı, daha köklü bir liderlik tarzına evrilir ve insanlar seni mentor ve rehber olarak görmeye başlar. Bu rolde karşılaşabileceğin zorluklardan biri, uygulamalı bir yaklaşımdan daha bağımsız bir gözlemci ve lider rolüne geçiş yaparken kararsızlık veya belirsizlik hissetmektir. Sürecine güvenmek ve liderliğinin doğal olarak ortaya çıkmasına izin vermek, tatmin bulmanın anahtarıdır."
+    var is_y_r_12_s3_2 = "Hayat Amacını Gerçekleştirmek"
+    var is_y_r_12_s3_2_1 = "Rolün, kişisel deneyimlerle kazandığın dayanıklılığı ve dersleri kullanarak başkalarına rehberlik etmekle ilgilidir. Hem başarılarını hem de başarısızlıklarını kucaklayarak, bunların seni bilge ve düşünceli bir lider haline getirmesine izin vererek hayat amacını gerçekleştirirsin. Hayatının ilerleyen dönemlerinde, 50 yaş sonrası, liderlik rolüne tam anlamıyla adım atar ve kazandığın zorluklarla yoğrulmuş bilgeliği başkalarına sunarsın. Başarı, sadece eylem yoluyla değil, aynı zamanda dayanıklılığın ve her ne olursa olsun ilerlemeye devam etme yeteneğinle liderlik edebilme kapasitenle gelir."
 
     // İş Yaşamında Rolün
     var is_y_r_age_12_25_title = "12-25 Yaş"
@@ -2366,6 +2438,575 @@ export default async ({ req, res, log, error }) => {
     var ai_25_s4u2_9_3 = "Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
     var ai_25_s4u2_9_4 = "Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
 
+    var ai_25_s5u2_1_1 = "Dijital Okuryazarlık";
+    var ai_25_s5u2_1_2 = "Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
+    var ai_25_s5u2_1_3 = "Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum? ";
+    var ai_25_s5u2_1_4 = "Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım? ";
+    var ai_25_s5u2_1_5 = "Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
+
+    var ai_25_s5u2_2_1 = "Veri Okuryazarlığı";
+    var ai_25_s5u2_2_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_2_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_2_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_2_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_3_1 = "Kodlama ve Programlama ";
+    var ai_25_s5u2_3_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_3_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_3_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_3_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_4_1 = "Eleştirel Düşünme ve Problem Çözme";
+    var ai_25_s5u2_4_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_4_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_4_3 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_4_4 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
+    var ai_25_s5u2_5_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_5_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_5_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_5_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_6_1 = "İletişim ve İşbirliği";
+    var ai_25_s5u2_6_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_6_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_6_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_6_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_7_1 = "Etik ve Sosyal Sorumluluk";
+    var ai_25_s5u2_7_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_7_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_7_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_7_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_7_1 = "Duygusal Zeka (EQ)";
+    var ai_25_s5u2_7_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_7_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_7_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_7_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+    var ai_25_s5u2_8_1 = "Yenilikçi ve Girişimci Düşünce";
+    var ai_25_s5u2_8_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+    var ai_25_s5u2_8_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+    var ai_25_s5u2_8_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+    var ai_25_s5u2_8_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+
+
+    var ai_25_s5u1_1_1 = "Dijital Okuryazarlık";
+    var ai_25_s5u1_1_2 = "Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin? ";
+    var ai_25_s5u1_1_3 = "AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını düşünüyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin? ";
+
+    var ai_25_s5u1_2_1 = "Veri Okuryazarlığı";
+    var ai_25_s5u1_2_2 = "Verileri analiz etme yeteneğini, okul projelerinde ya da iş hayatında nasıl kullanabilirsin? Verilere dayalı kararlar almanın sana nasıl avantaj sağlayacağını düşünüyorsun? ";
+    var ai_25_s5u1_2_3 = "Veri güvenliği ve gizliliği konusunda ne kadar bilinçlisin? Bu bilgini ileride çalışacağın bir şirkette ya da kendi girişiminde nasıl kullanabilirsin? ";
+
+    var ai_25_s5u1_3_1 = "Kodlama ve Programlama";
+    var ai_25_s5u1_3_2 = "Programlama becerilerini okul projelerinde nasıl kullanabilir ve bu sayede farklı projelerde liderlik yapabilirsin? Hangi programlama dillerini öğrenmenin kariyer hedeflerine ulaşmada sana yardımcı olacağını düşünüyorsun? ";
+    var ai_25_s5u1_3_3 = "Algoritmik düşünme yeteneğinle karşılaştığın problemleri nasıl daha sistematik çözümlerle çözebilirsin? Bu beceriyi ileride hangi mesleklerde avantaj olarak kullanabilirsin? ";
+
+    var ai_25_s5u1_4_1 = "Eleştirel Düşünme ve Problem Çözme";
+    var ai_25_s5u1_4_2 = "Analitik düşünme becerinle verilerden ya da olaylardan anlam çıkarma yeteneğini hangi alanlarda geliştirebilir ve kullanabilirsin? Bu becerinin sana ileride hangi kariyer fırsatlarını sunacağını düşünüyorsun? ";
+    var ai_25_s5u1_4_3 = "Yaratıcı problem çözme yeteneğini kullanarak hangi projelerde ya da iş alanlarında fark yaratabileceğini düşünüyorsun? Bu beceriyi nasıl daha fazla geliştirebilirsin? ";
+
+    var ai_25_s5u1_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
+    var ai_25_s5u1_5_2 = "Hızla değişen teknoloji dünyasında nasıl adapte olabilirsin? Esnek olma yeteneğinle hangi mesleklerde daha başarılı olabileceğini düşünüyorsun? ";
+    var ai_25_s5u1_5_3 = "Yaşam boyu öğrenme anlayışınla hangi yeni teknolojileri öğrenmeyi planlıyorsun? Bu öğrenme sürecini kariyerin boyunca nasıl sürdürebilirsin? ";
+
+    var ai_25_s5u1_6_1 = "İletişim ve İşbirliği";
+    var ai_25_s5u1_6_2 = "Karmaşık teknik bilgileri sade bir şekilde açıklayabilme yeteneğinle hangi projelerde liderlik yapabilir ya da takım arkadaşlarına rehberlik edebilirsin? Bu beceriyi hangi iş alanlarında kullanabileceğini düşünüyorsun? ";
+    var ai_25_s5u1_6_3 = "Takım çalışması becerinle hangi disiplinler arası projelerde başarılı olabilirsin? AI projelerinde işbirliği yaparak hangi hedeflere ulaşmayı planlıyorsun? ";
+
+    var ai_25_s5u1_7_1 = "Etik ve Sosyal Sorumluluk";
+    var ai_25_s5u1_7_2 = "Yapay zekanın etik kullanımı hakkında sahip olduğun bilinçle hangi alanlarda fark yaratabilirsin? AI'nın sosyal etkilerini göz önünde bulundurarak, hangi projelerde yer almayı planlıyorsun? ";
+    var ai_25_s5u1_7_3 = "AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin? ";
+
+    var ai_25_s5u1_8_1 = "Duygusal Zeka (EQ)";
+    var ai_25_s5u1_8_2 = "Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin? ";
+    var ai_25_s5u1_8_3 = "Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin? ";
+
+    var ai_25_s5u1_9_1 = "Yenilikçi ve Girişimci Düşünce ";
+    var ai_25_s5u1_9_2 = "Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun? ";
+    var ai_25_s5u1_9_3 = "Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin? "
+
+    var teamwork_1 = "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var."
+
+    var teamwork_best_1_1 = "Aktif Dinleme ve Empati"
+    var teamwork_best_1_2 = "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
+
+    var teamwork_best_2_1 = "Etkili İletişim"
+    var teamwork_best_2_2 = "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur."
+
+    var teamwork_best_3_1 = "İşbirliği"
+    var teamwork_best_3_2 = "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. "
+
+    var teamwork_best_4_1 = "Uyumluluk"
+    var teamwork_best_4_2 = "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir."
+
+    var teamwork_best_5_1 = "Çatışma Çözümü"
+    var teamwork_best_5_2 = "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar."
+
+    var teamwork_best_6_1 = "İnisiyatif"
+    var teamwork_best_6_2 = "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır."
+
+    var teamwork_best_7_1 = "Geri Bildirim"
+    var teamwork_best_7_2 = "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. "
+
+    var teamwork_best_8_1 = "Takım Oluşturma"
+    var teamwork_best_8_2 = "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. "
+
+    var teamwork_best_9_1 = "Mesleki Gelişim"
+    var teamwork_best_9_2 = "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. "
+
+    var teamwork_best_10_1 = "Liderlik"
+    var teamwork_best_10_2 = "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. "
+
+    var teamwork_s3u1_1_1 = "Aktif Dinleme ve Empati"
+    var teamwork_s3u1_1_2 = "Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? "
+    var teamwork_s3u1_1_3 = "Empati yeteneğin, daha iyi sonuçlar elde etmek için hem müşterilerle hem de ekip üyeleriyle daha güçlü ilişkiler geliştirmene nasıl yardımcı olabilir? "
+
+    var teamwork_s3u1_2_1 = "Etkili İletişim"
+    var teamwork_s3u1_2_2 = "Ekibinin içinde eyleme ve uyuma ilham vermek için iletişimininin netliğini nasıl daha da artırabilirsin? "
+    var teamwork_s3u1_2_3 = "Müzakerelerde veya zor paydaşlarla uğraşırken daha etkili olmak için iletişim tarzını nasıl uyarlayabilirsin?"
+
+    var teamwork_s3u1_3_1 = "İşbirliği"
+    var teamwork_s3u1_3_2 = "İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? "
+    var teamwork_s3u1_3_3 = "İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? "
+
+    var teamwork_s3u1_4_1 = "Uyumluluk"
+    var teamwork_s3u1_4_2 = "Pazardaki veya endüstri trendlerindeki değişikliklerden daha iyi yararlanmak için uyumluluğunu nasıl kullnabilirsin? "
+    var teamwork_s3u1_4_3 = "Ekip süreçlerini iyileştirmek veya ekibe geçişlerde daha sorunsuz bir şekilde liderlik etmek için esnekliğini hangi yollarla kullanabilirsin? "
+
+    var teamwork_s3u1_5_1 = "Çatışma Çözümü"
+    var teamwork_s3u1_5_2 = "Çatışma çözme becerilerin, ekip dinamiklerini güçlendirecek ve üretkenliği artıracak şekilde anlaşmazlıkları ele almak için nasıl kullanılabilir? "
+    var teamwork_s3u1_5_3 = "Uzun vadeli iş ilişkilerinin bozulmadan kalmasını sağlamak için müşteriler veya ortaklarla olan çatışmalarda nasıl arabuluculuk yapabilirsin? "
+
+    var teamwork_s3u1_7_1 = "Girişim"
+    var teamwork_s3u1_7_2 = "İşletmen için büyüme fırsatlarını veya yeni pazarları belirleme konusunda nasıl daha fazla inisiyatif alabilirsin? "
+    var teamwork_s3u1_7_3 = "Ekibindeki diğer kişileri proaktif olma ve projeleri sahiplenme konusunda liderliğini takip etmeye nasıl teşvik edebilirsin?"
+
+
+    var teamwork_s3u1_7_1 = "Geri Bildirim"
+    var teamwork_s3u1_7_2 = "Daha da yüksek performans elde etmek için geri bildirimi hem kişisel olarak hem de ekibin için sürekli iyileştirme aracı olarak nasıl kullanabilirsin? "
+    var teamwork_s3u1_7_3 = "Ekibinizniçinde hesap verebilirliği teşvik eden ve daha iyi sonuçlar elde edilmesini sağlayan bir geri bildirim kültürünü nasıl oluşturabilirsin? "
+
+    var teamwork_s3u1_8_1 = "Takım Oluşturma"
+    var teamwork_s3u1_8_2 = "Ekibinin hedeflerini şirketin uzun vadeli hedefleriyle uyumlu hale getirmek için ekip oluşturma gücünüzden nasıl yararlanabilirsin? "
+    var teamwork_s3u1_8_3 = "Ekibinin içinde daha yüksek düzeyde işbirliği ve başarıya yol açan daha güçlü bağlantılar kurmak için ne gibi eylemler gerçekleştirebilirsin?"
+
+
+    var teamwork_s3u1_9_1 = "Mesleki Gelişim"
+    var teamwork_s3u1_9_2 = "Kurumunda bir öğrenme ve yenilik kültürünü teşvik etmek için mesleki gelişime olan bağlılığını nasıl kullanabilirsin? "
+    var teamwork_s3u1_9_3 = "Kendi profesyonel gelişiminin, ekibinizdeki diğer kişilere hem kendilerine hem de işletmeye fayda sağlayan gelişmeleri sürdürmeleri için nasıl ilham verebilir? "
+
+    var teamwork_s3u1_10_1 = "Liderlik"
+    var teamwork_s3u1_10_2 = "Liderlik gücün, ekibin satış veya müşteri hizmetleri hedeflerini aşmasına nasıl yardımcı olabilir? "
+    var teamwork_s3u1_10_3 = "Sürekli olarak güçlü sonuçlar elde eden yüksek performanslı bir kültür oluşturmak için liderliğini nasıl daha fazla kullanabilirsin? "
+
+
+    var teamwork_s3u2_1_1 = "Aktif Dinleme ve Empati"
+    var teamwork_s3u2_1_2 = "Ne sıklıkla başkalarının konuştuklarında duygularını ve bakış açılarını anlamaya gerçekten odaklanıyorum? "
+    var teamwork_s3u2_1_3 = "Hangi durumlarda konuşmalar sırasında dikkatim dağılıyor veya sabırsız oluyorum? "
+    var teamwork_s3u2_1_4 = "Aynı fikirde olmadığımda bile empati ve şefkatle yanıt verme yeteneğimi nasıl geliştirebilirim? "
+
+    var teamwork_s3u2_2_1 = "Etkili İletişim"
+    var teamwork_s3u2_2_2 = "İletişim tarzımı kiminle konuştuğuma göre uyarlıyor muyum ve eğer değilse, nasıl geliştirebilirim? "
+    var teamwork_s3u2_2_3 = "Mesajımın anlaşıldığından emin olmak için ne sıklıkla açıklama istiyorum ve bunu yapmamı engelleyen nedir? "
+    var teamwork_s3u2_2_4 = "Hem yazılı hem de sözlü olarak daha açık, özlü ve etkili iletişim kurmak için ne yapabilirim? "
+
+    var teamwork_s3u2_3_1 = "İşbirliği"
+    var teamwork_s3u2_3_2 = "Karar vermeden veya görevlerde ilerlemeden önce aktif olarak başkalarından girdi ve fikir alıyor muyum? "
+    var teamwork_s3u2_3_3 = "Kendi katkılarımı başkalarını düşüncelerini ve fikirlerini paylaşmaya teşvik etmekle ne kadar iyi dengeleyebilirim? "
+    var teamwork_s3u2_3_3 = "Ekibim içinde daha güçlü işbirlikçi ilişkiler kurmak için hangi adımları atabilirim? "
+
+    var teamwork_s3u2_4_1 = "Uyumluluk"
+    var teamwork_s3u2_4_2 = "Beklenmedik değişikliklere veya zorluklara genellikle nasıl yanıt veririm ve bu durumları daha olumlu bir şekilde kucaklamak için ne yapabilirim? "
+    var teamwork_s3u2_4_3 = "Değişimle karşı karşıya kaldığımda, bunalmış veya dirençli olmak yerine nasıl odaklanmış ve üretken kalabilirim? "
+    var teamwork_s3u2_4_4 = "Farklı çalışma ortamlarında esnekliğimi artırmak için hangi yeni beceriler veya tutumlar geliştirebilirim? "
+
+    var teamwork_s3u2_5_1 = "Çatışma Çözümü"
+    var teamwork_s3u2_5_1 = "Çatışmalar ortaya çıktığında, soruna mı yoksa ilgili kişilere mi odaklanıyorum ve ikisini nasıl daha iyi ayırabilirim? "
+    var teamwork_s3u2_5_2 = "Gergin durumlarda ne kadar sakin ve sakin kalıyorum ve bunu geliştirmeme hangi teknikler yardımcı olabilir? "
+    var teamwork_s3u2_5_3 = "Çatışma çözümüne hem kendi bakış açıma hem de başkalarının bakış açısına saygı duyacak şekilde nasıl daha iyi yaklaşabilirim?"
+
+    var teamwork_s3u2_6_1 = "Girişim"
+    var teamwork_s3u2_6_1 = "İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim? "
+    var teamwork_s3u2_6_1 = "Ne zaman inisiyatif almaktan çekiniyorum ve hangi korkular veya engeller beni engelliyor? "
+    var teamwork_s3u2_6_1 = "Risk olsa bile yeni fikirler veya çözümler önerme konusunda kendime daha fazla güvenmek için ne yapabilirim?"
+
+    var teamwork_s3u2_7_1 = "Geri Bildirim"
+    var teamwork_s3u2_7_1 = "Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim? "
+    var teamwork_s3u2_7_1 = "Başkalarına geri bildirim verme konusunda tutarlı mıyım ve bunun hem zamanında hem de yardımcı olduğundan nasıl emin olabilirim? "
+    var teamwork_s3u2_7_1 = "Başkalarından gelen geri bildirimlere daha açık olmak ve bunu kişisel ve profesyonel gelişim için bir araç olarak kullanmak için hangi adımları atabilirim?"
+
+    var teamwork_s3u2_8_1 = "Takım Oluşturma"
+    var teamwork_s3u2_8_1 = "Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim? "
+    var teamwork_s3u2_8_1 = "Daha kapsayıcı ve destekleyici bir ekip kültürü oluşturmaya nasıl yardımcı olabilirim? "
+    var teamwork_s3u2_8_1 = "Takım arkadaşlarımın güçlü ve zayıf yönlerini anlamak için çaba sarf ediyor muyum ve onları nasıl daha iyi destekleyebilirim? "
+
+    var teamwork_s3u2_9_1 = "Mesleki Gelişim"
+    var teamwork_s3u2_9_1 = "Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir? "
+    var teamwork_s3u2_9_1 = "Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim? "
+    var teamwork_s3u2_9_1 = "Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim? "
+
+    var teamwork_s3u2_10_1 = "Liderlik"
+    var teamwork_s3u2_10_1 = "Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim? "
+    var teamwork_s3u2_10_1 = "Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim? "
+    var teamwork_s3u2_10_1 = "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? "
+
+    var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator"
+    var lifestyle_25_plus_manifesting_generator_1 = "İş dünyasında ve kariyerinde kendine has ve benzersiz bir enerjin var.İşleri halletmede, bir şeyler inşa etmede ve büyütmede harikasın.Enerjini yapmayı sevdiğin işlere kullandıktan sonra başını yastığa koyduğunda tatmin hissi ile uyuyabilirsin.Hayatta ve işte tatmininin anahtarı sadece çok çalışmak değil, enerjini nasıl etkili ve verimli kullandığın.Yaptığın iş refahın ve esenliğin için çok önemli.İçinde harekete geçmene ve bir şeyler yaratmana yardımcı olan güçlü bir enerji kaynağın var.Dikkat etmen gereken başlamak ya da başlatmak zorunda olmadığını bilmek.Gücün, içgüdülerine dayanarak hayata cevap vermekte ve doğru ipuçlarını beklemekte yatıyor."
+    var lifestyle_25_plus_manifesting_generator_2 = "İçgüdülerine ne kadar güvenir ve doğru anı beklersen, hayatın o kadar tatmin edici ve keyifli hale gelir.Kendini bir mıknatıs gibi düşünebilirsin, enerjinin fırsatları doğal olarak sana çektiğini gözlemleyebilirsin."
+    var lifestyle_25_plus_manifesting_generator_3 = "Eforsuz ve doğal olan yolun, anda hayatın sunduklarına cevap verdiğinde kendini gösterecektir.Enerjin, hayatın sana getirdiklerine cevap vermek aracılığıyla taahhüt ettiğin şeyde ustalaşmana yardımcı olmak için burada.Doğru yolda olduğunun işareti, işlerin doğal olarak yerine oturmaya başlaması ve içinde bir tatmin hissi.Çok büyük bir enerjin olduğu için seni gerçekten ilgilendirmeyen veya seni tatmin etmeyen şeylere evet dememeye ve bağlanmamaya dikkat etmelisin.İç pusulan içgüdülerin aracılığıyla seninle iletişim kurar.Hayatı doğru yaşamak için stratejin hayatın sana getirmesini beklemek ve gelene cevap vermektir.Önce içgüdülerini dinle ve başkalarının ne yapman gerektiğini dikte etmesine izin verme.Sen monoton bir rutin için yaratılmadın.Üretmeye, inşa etmeye devam et ve inanılmaz enerjine her zaman güven."
+    var lifestyle_25_plus_manifesting_generator_motto = "Hayat tatmini için benimseyeceğin slogan: Yaptığın işi sev ve sevdiğin işi yap!"
+
+    var lifestyle_25_plus_generator_0 = "Generator"
+    var lifestyle_25_plus_generator_1 = "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz.Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.Uyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.Rolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli."
+    var lifestyle_25_plus_generator_2 = "Tanınmayı ve doğru davetleri beklemek, başarının anahtarıdır.  Enerjini ve bilgeliğini en anlamlı ve etkili şekilde yönlendirmeni sağlar. Senin için doğru davetleri kabul etme konusunda seçici ol. Bu süreçte sana rehberlik etmesi için sezgilerine güven."
+    var lifestyle_25_plus_generator_3 = "Doğuştan gelen yeteneklerinden biri, başkalarındaki potansiyeli tanımak.Bu, yetenekleri tespit edebileceğin ve onları doğru görevler ve projelerle eşleştirebileceğin için seni modern dünya için ideal bir lider ve rehber yapar.İnsanları ve fırsatları doğal olarak sana çeken benzersiz bir varlığın var.Her seferinde bir kişiye odaklanma yeteneğin, son derece kişisel ve anlamlı etkileşimler yaratır.Becerilerin, yeteneklerin ve dünyayı benzersiz algılama şeklinle tanındığında ve doğru davetleri aldığında, gerçek potansiyelini gerçekleştirme yolundasın demektir.Senin için başarı, zekanı ve bilgeliğini gerçekten takdir eden ve kabul eden doğru insanları ve fırsatları seçmekle ilgili. "
+    var lifestyle_25_plus_generator_motto = "Çevrendekiler için bilge ve zeki bir rehber olabilirsin. Bilgeliğini sadece sana davet verenler ile paylaş.
+
+    var lifestyle_25_plus_projektor_0 = "Projektor"
+    var lifestyle_25_plus_projektor_1 = "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir"
+    var lifestyle_25_plus_projektor_2 = "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin."
+    var lifestyle_25_plus_projektor_3 = "Kontrol edilmekten hiç hoşlanmadığın bir gerçek.Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir. İş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin.Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir.İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur."
+    var lifestyle_25_plus_projektor_motto = "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır."
+
+    var lifestyle_25_plus_manifestor_0 = "Manifestor"
+    var lifestyle_25_plus_manifestor_1 = "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir."
+    var lifestyle_25_plus_manifestor_2 = "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin."
+    var lifestyle_25_plus_manifestor_3 = "Kontrol edilmekten hiç hoşlanmadığın bir gerçek.Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir.İş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin.Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir.İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur"
+    var lifestyle_25_plus_manifestor_motto = "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır."
+
+    var lifestyle_25_plus_reflektor_0 = "Reflektor"
+    var lifestyle_25_plus_reflektor_1 = "Doğru ortamda, insanların, toplulukların ve işletmelerin objektif bir değerlendirmesini sağlayan bir kişi olarak parlayabilirsin.Bakış açın tamamen benzersiz ve ilerlemeyi veya dikkat edilmesi gereken alanları doğru bir şekilde değerlendirerek düşünmene ve genel bir bakış açısı kazanmana olanak tanır       Başkalarını kabul etme, doğru gitmeyen şeyleri vurgulayarak onları işbirliğine, barışa ve eşitliğe doğru yönlendirme konusunda olağanüstü bir yeteneğe sahipsin.Bir işletmenin, topluluğun veya bir grubun merkezinde olduğunda, özgürce hareket ettiğinde ve işlerin bir bütün olarak nasıl yürüdüğünü yansıtmak için buradasın.Çevrendekilere çeşitliliği kucaklamanın önemini öğreterek özellikle etkili olabilirsin."
+    var lifestyle_25_plus_reflektor_2 = "Objektif bir bakış açısı sunarak etrafındaki her şeyi ve herkesi yansıtmak yeteneklerin arasında. Varlığın sessizlik, nezaket ve müdahaleci olmama ile tanımlanabilir. Çevreyi bir bütün olarak yansıtırsın ve diğerleri kim olduğunu tam olarak anlamakta zorlanabilir. "
+    var lifestyle_25_plus_reflektor_3 = "Karar verirken acele etmemelisin.Önemli konuları değerlendir ve güvendiğin kişiler ile konuyu konuş.Başkalarıyla etkileşim kurarken, yanlış ortamda olmak veya herkese uymaya çalışmak gibi tuzakların farkında ol.Başkalarına aşırı bağımlı olmaktan veya görünmez hissetmekten kaçın, gerçek benliğinden ödün verme.Bir şeyleri başlatma, hayata geçirme veya olmaya zorlama dürtüsüne diren, çünkü bu başkalarında dirence neden olabilir ve hayal kırıklığına yol açabilir.Başkalarının korkularına, duygularına, stresine ve kaygılarına kapılmaktan kaçın.Etrafındakilerle sağlıklı bir mesafeyi her zaman koru ve acele etmekten veya karar vermek için baskı altında kalmaktan kaçın.Kendin için doğru seçimleri yapabilmen ve iyi hissetmen için bulunduğun ortamın senin için doğru olması çok önemli.Çünkü sen bulunduğun ortamların enerjisini yansıtma yeteneğine sahipsin.Gerek özel yaşamında gerek iş yaşamında ortamına hep önem ver."
+    var lifestyle_25_plus_reflektor_4_motto = "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!"
+
+
+
+    var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı"
+    var lifestyle_25_plus_manifestor_evaluation_1 = "Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? "
+    var lifestyle_25_plus_manifestor_evaluation_2 = "Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? "
+    var lifestyle_25_plus_manifestor_evaluation_3 = "Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? "
+    var lifestyle_25_plus_manifestor_evaluation_4 = "Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? "
+    var lifestyle_25_plus_manifestor_evaluation_5 = "Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? "
+
+
+    var lifestyle_25_plus_generator_evaluation_0 = "Enerjik"
+    var lifestyle_25_plus_generator_evaluation_1 = "Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? "
+    var lifestyle_25_plus_generator_evaluation_2 = "Fırsatlara yanıt verdiğimde ve beklemeden harekete geçtiğimde bedenimde nasıl hissediyorum? "
+    var lifestyle_25_plus_generator_evaluation_3 = "Hayatımın hangi alanlarında bir şeyleri olmaya zorluyorum ve daha duyarlı bir yaklaşıma nasıl geçebilirim? "
+    var lifestyle_25_plus_generator_evaluation_4 = "Sakral (içgüdüsel tepkim) doğru yolda olduğumda bana hangi sinyalleri veriyor ve onlara nasıl daha tutarlı bir şekilde güvenebilir ve takip edebilirim? "
+    var lifestyle_25_plus_generator_evaluation_5 = "Hayal kırıklığına uğradığımda veya sıkışmış hissettiğimde enerjimi nasıl yeniden şarj ederim ve bu zamanlarda daha fazla sabır geliştirmek için ne yapabilirim? "
+
+
+    var lifestyle_25_plus_manifesting_generator_evaluation_0 = "Başlatıcı Enerjik"
+    var lifestyle_25_plus_manifesting_generator_evaluation_1 = "Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?"
+    var lifestyle_25_plus_manifesting_generator_evaluation_2 = "Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? "
+    var lifestyle_25_plus_manifesting_generator_evaluation_3 = "Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? "
+    var lifestyle_25_plus_manifesting_generator_evaluation_4 = "Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? "
+    var lifestyle_25_plus_manifesting_generator_evaluation_5 = "Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? "
+
+    var lifestyle_25_plus_projektor_evaluation_0 = "Rehber"
+    var lifestyle_25_plus_projektor_evaluation_1 = "Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? "
+    var lifestyle_25_plus_projektor_evaluation_2 = "Son zamanlarda güçlü yönlerimle uyumlu olduğunu hissettiğim hangi davetler veya takdirler aldım ve bunlara nasıl yanıt verdim? "
+    var lifestyle_25_plus_projektor_evaluation_3 = "Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? "
+    var lifestyle_25_plus_projektor_evaluation_4 = "Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? "
+    var lifestyle_25_plus_projektor_evaluation_5 = "Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? "
+
+
+    var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı"
+    var lifestyle_25_plus_reflektor_evaluation_1 = "Şu anki ortamımda nasıl hissediyorum ve etrafımdaki insanlar ve alanlar hakkında ne yansıtıyor? "
+    var lifestyle_25_plus_reflektor_evaluation_2 = "Ay döngüsünün doğal ritmine güvenerek önemli kararlar almak için kendime nasıl daha fazla zaman verebilirim? "
+    var lifestyle_25_plus_reflektor_evaluation_3 = "Hangi durumlarda gerçek benliğimle en uyumlu hissediyorum ve hayatımda bu deneyimlerden daha fazlasını nasıl yaratabilirim? "
+    var lifestyle_25_plus_reflektor_evaluation_4 = "Başkalarının duygularını ve enerjilerini nasıl idare ederim ve kendi iyiliğimi korumak için hangi sınırları belirlemem gerekir? "
+    var lifestyle_25_plus_reflektor_evaluation_5 = "Eşsiz duyarlılığımı ve çevremin gerçeğini bunalmış hissetmeden yansıtma yeteneğimi onurlandırmak için ne yapabilirim? "
+
+    var communication_generator_0 = "Enerjik"
+    var communication_generator_1 = "Etkili iletişimin merkezinde, sessiz bir iletişimci olarak hareket eden, başkalarını ve fırsatları sana çeken sözsüz varlığın var. Açık ve saran varlığın bir mıknatıs gibi davranır, doğal olarak insanları kendine çeker ve verimli etkileşimlerin yolunu açar. "
+    var communication_generator_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... "
+    var communication_generator_3 = "Etkileşimde bulunmadan önce yanıt vermek için bekle: Etkileşimleri başlatmaktan kaçınarak ve bunun yerine yanıt vermeyi bekleyerek iletişim kanallarını açar ve direnci ortadan kaldırabilirsin.Farkındalığını açmak, fırsatları ortaya çıktıkça gözlemlemek ve başkalarıyla etkileşime girmeden önce sezgilerini dinlemek için pratik yapabilirsin."
+    var communication_generator_4 = "Doğru Hissettiren Şeylere Yanıt Ver:"
+    var communication_generator_5 = "İç güdülerine güven ve seninle rezonansa giren şeylere olanak tanıyan durumlara yanıt vermeye çalış. Seni neyin heyecanlandırdığına ve değerlerinle uyumlu olduğuna dikkat et, gerçek coşkunun etkileşimlerine rehberlik etmesine izin ver. "
+    var communication_generator_6 = "Başlatma - yalnızca önce yanıt verdikten sonra etkileşime geç:"
+    var communication_generator_7 = "Etkileşim başlatmak yerine, kişisel tercihlerin ve hedeflerinle uyumlu davetlere ve fırsatlara yanıt vermeye odaklan. Etkileşimlerin organik olarak ortaya çıkmasına izin vererek, karşılıklı anlayış ve saygıya dayanan özgün bağlantılar oluştururabilirsin. "
+
+    var communication_generator_1_s2 = "Doğal Manyetizmandan Yararlan: İnsanları varlığınla içine çekme konusundaki doğuştan gelen yeteneğin büyük bir varlık. İşyerinde, sürekli olarak ulaşılabilir olarak bu manyetizmanın senin için çalışmasına izin ver. İş arkadaşların doğal olarak sana yönelecek, projelerde girdilerini ve desteğini arayacak ve girişimleri ileriye taşıyan enerjiyi sağlama yeteneğini kabul edeceklerdir. "
+    var communication_generator_2_s2 = "Niyetle Yanıt Ver: Harekete geçmek cazip gelse de, gücünün yanıt olarak yattığını unutma. Aktif dinleme pratiği yapabilir ve seni gerçekten heyecanlandıran ve değerlerinle uyumlu projelerle meşgul olabilirsin. Başlatmak yerine yanıt verdiğinde, çabalarının daha etkili olduğu ve temel katkılar olarak kabul edildiği bir dinamik yaratma olasılığın çok daha fazla. "
+    var communication_generator_3_s2 = "Net Sınırlar Oluştur: Görevleri üstlenme kapasiten ve istekliliğin konusunda net ol. Bu, aşırı taahhütte bulunmamanı sağlar ve enerjini en üretken olabileceğin görevlere yönlendirmene olanak tanır. Kapasiten dahilinde çalıştığında, işteki memnuniyetin artar ve bu doğal olarak senin mutluluğunu ve başarını etkiler. "
+    var communication_generator_4_s2 = "Katılımda Coşku Göster: Katılmayı seçtiğinde, bunu belirgin bir coşkuyla göster. Enerjin bulaşıcıdır ve ekibine ilham verebilir ve onları motive edebilir. İş için gerçek heyecanının etkileşimlerine rehberlik etmesine izin ver, bunun ekip dinamiklerin içinde daha da önemli hale geldiğinizi göreceksiniz. "
+
+    var communication_generator_1_s3 = "Etkileşimlerde bulunmadan önce yanıt vermek için bekliyor musun? Sezgilerini dinleyip, doğru zamanın gelmesini nasıl fark edebilirsin? "
+    var communication_generator_2_s3 = "Seni gerçekten heyecanlandıran şeylere yanıt veriyor musun? İçgüdülerine güvenip, sadece seninle uyumlu olan fırsatları seçmek için neler yapabilirsin? "
+    var communication_generator_3_s3 = "Etkileşim başlatmadan önce gerçekten yanıt verdiğinden emin oluyor musun? Bu yaklaşımı iş ve sosyal hayatında nasıl daha fazla uygulayabilirsin? "
+    var communication_generator_4_s3 = "İnsanların doğal olarak sana yöneldiğini fark ediyor musun? Doğal manyetizman sayesinde iş yerinde daha verimli etkileşimler yaratmak için hangi yolları izleyebilirsin? "
+    var communication_generator_5_s3 = "İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin? "
+
+
+    var communication_projector_0 = "Rehber"
+    var communication_projector_1 = "Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir. "
+    var communication_projector_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... "
+    var communicaiton_projector_3 = "Katılmadan Önce Tanınma ve Davet Bekle: Tanınma konusunda başarılı olursun. Katılmadan önce, becerilerin, yeteneklerin ve rehberlik etme ve liderlik etme kapasiten için fark edildiğinden ve kabul edildiğinden emin ol. Bu, etkileşimlerinin özgün ve tanınmış bir temele dayanmasını sağlar. "
+    var communication_projector_4 = "Tanınma ve Davet:"
+    var communication_projector_5 = "Çevrene uyum sağla ve yoluna çıkan fırsatlara açık ol. Aldığın tanınma ve davetle bir rezonans hissettiğinde bu fırsatların doğru olduğunu bileceksin. Birisi büyük resmi görme yeteneklerini tanıyacak ve seni rehber niteliklerinle uyumlu bir role, projeye veya ortaklığa davet edecektir. "
+    var communication_projector_6 = "Tanındığında ve Davet Edildiğinde Etkileşim Kur:"
+    var communication_projector_7 = "Katkıların tanınma ve ardından bir davet yoluyla istendiğinde, bu, etkileşim kurman için ipucudur. İç görülerine ve rehberliğine değer veren birinin takdiri, beklediğin sinyaldir. Bu sadece karar verme stratejininin ilk kısmı değil, aynı zamanda önündeki fırsatın doğru olmasını sağlamanın anahtarıdır. "
+
+    var communication_projector_1_s2 = "Sabırlı Yanını Güçlendir: Yönlendirme ve organize etme konusunda istekli olsan da, devreye girmek için sabırlı olman önemlidir. Dikkatle dinlemeyi alışkanlık haline getirmen  ve fikirlerini yalnızca davet edildiğini hissettiğinde paylaşman önemli—bu bir baş selamı, meraklı bir bakış, konuşmada bir duraklama ya da doğrudan görüşünü paylaşman için yapılan bir davet olabilir. Genellikle bu tür anlarda, diğerlerinden gelen onayla devreye girmen gerektiğini anlarsın. "
+    var communication_projector_2_s2 = "Davetlerde Ayırt Etme Gücüyle Gezin: Projelere liderlik etme, yeni roller üstlenme veya ekiplere katılma davetleri ortaya çıktığında, onlara ayırt edici bir şekilde yaklaşman lazım. Uzmanlığın ve içsel bilgeliğinle gerçekten rezonansa girenleri kabul etmeli ve uymayanları red etmelisin. Enerjinim çabaları yerine getirmeye yatırıldığından emin olun. "
+    var communication_projector_3_s2 = "Bire Bir Etkileşimlerden Yararlan: Rehberler bire bir ortamlarda parlar. İlişkileri derinleştirmek ve iş arkadaşlarının ihtiyaçlarını anlamak için bireysel etkileşimleri kullanman daha doğru olur. Bu bağlantılar sayesinde, sana rehberlik etmek için doğru zamanı işaret eden tanınma ve davetleri sık sık bulacaksın. "
+    var communication_projector_4_s2 = "Tanınmaya Açık Olduğunuzu Göster: Katkıda bulunma fırsatlarını memnuniyetle karşıladığını incelikle bil. Bu, projelere ilgi göstererek veya ulaşılabilir olarak yapılabilir. Açık tavrın, danışman rolünün en etkili olabileceği iş birliklerine davet edilmeye hazır ve istekli olduğunu başkalarına gösterecektir. "
+
+    var communication_projector_1_s3 = "Tanınma ve davet beklerken ne kadar sabırlı olabiliyorsun? Hangi durumlarda aceleyle harekete geçmek yerine, doğru fırsatların sana gelmesini bekleyebilirsin? "
+    var communication_projector_1_s3 = "Sana sunulan davetler ve tanınma fırsatlarıyla ne kadar uyum içindesin? Bu fırsatların gerçekten seni en iyi yansıttığını nasıl fark edebilirsin? "
+    var communication_projector_1_s3 = "Fikirlerini paylaşmadan önce davet edildiğini hissettiğinden emin oluyor musun? İlişkilerinde bu ince işaretleri nasıl daha iyi gözlemleyebilirsin? "
+    var communication_projector_1_s3 = "Bire bir ilişkilerde nasıl parladığını fark ediyor musun? İş arkadaşlarınla daha derin bağlantılar kurmak için hangi yolları izleyebilirsin? "
+    var communication_projector_1_s3 = "Projelerde veya rollerde tanınmaya açık olduğunu başkalarına nasıl hissettiriyorsun? Ulaşılabilir ve açık tavrını iş yerinde daha etkili bir şekilde nasıl gösterebilirsin? "
+
+
+    var communication_manifestor_0 = "Başlatıcı"
+    var communication_manifestor_1 = "Senin varlığın kapalı ve koruyucu, bir kalkan ve mızrak gibi işlev görüyor. İçsel bir güce sahip olup, dışa doğru bir itişle harekete geçiyor ve başkalarını doğrudan etkiliyorsun. Enerjin bazen baskın olarak yanlış anlaşılabilir, ancak bu sadece senin doğal olarak proaktif ve kararlı olma halindir. "
+    var communication_manifestor_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... "
+    var communication_manifestor_3 = "Bilgilendirme ve Harekete Geçme: İçsel başlatma gücünü başkalarının ihtiyaçları ve sınırlarıyla uyumlu hale getirmek için, harekete geçmeden önce bilgilendirmek çok önemlidir. Bu uygulama sadece direnci azaltmakla kalmaz, aynı zamanda vizyonunu etkili bir şekilde tezahür ettirmek için ihtiyaç duyduğun özgürlüğün yolunu açar. "
+    var communication_manifestor_4 = "Başlatıcı Varlığını Yönet:"
+    var communication_manifestor_5 = "Başlatıcı enerjinin bazen başkalarını savunmaya geçirebileceğini anlamalısın. İş birliği içinde bir ortam yaratmak için, çevrendekilere niyetlerin ve eylemlerin hakkında önceden bilgi vermeyi öğren. Bu açıklık, insanların motivasyonlarını daha iyi anlamalarına yardımcı olacak ve yanlış anlaşılmaların önüne geçecektir."
+    var communication_manifestor_6 = "Eşsiz Rolünü Kucakla:"
+    var communication_manifestor_7 = @"Başka hiçbir türün yapamayacağı şekilde ""Dışarı Çık ve Gerçekleşmesini Sağla"" için benzersiz bir şekilde tasarlandın. Bunu benimse ve başlatma kapasitenin, farkındalıkla ve karar verme stratejinizle uzun süre kullanıldığında en büyük gücün olduğunu unutma. "
+
+    var communication_manifestor_1_s2 = "Bilgilendirmeyi Bir Alışkanlık Olarak Geliştir: İş yerinde, ekibini ve üstlerini planların ve eylemlerin hakkında bilgilendirme alışkanlığını uygulamayı unutma. Bu şeffaflık güven yaratır ve başkalarının girişimlerini daha etkili bir şekilde desteklemesine olanak tanır. "
+    var communication_manifestor_2_s2 = "Başlatma Gücünü Akıllıca Kullan: Başlatma gücünün değişim ve ilerleme için bir katalizör olduğunu kabul et. Projelere liderlik etmek ve harekete geçmek için bu yeteneği kullan, ancak her zaman ekibinin girdilerini ve katkılarını dikkate alan dikkatli bir yaklaşımla. "
+    var communication_manifestor_3_s2 = "Kontrol Edilme Korkusunun Üstesinden Gelmeye Çalış: Bir özerklik ortamı yaratarak altta yatan kontrol edilme korkunu gidermeye çalış. Hareket etme özgürlüğüne sahip olduğunda ve diğerleri bilgilendirildiğinde, direncin azaldığını ve üretkenliğin arttığını göreceksin. "
+    var communication_manifestor_4_s2 = "Direnci İşbirliğine Dönüştür: Direnç fark ettiğinde, bunu bilgilendirme sürecini iyileştirmek için bir fırsat olarak kullanmaya çalış. Açık iletişim, muhalefeti işbirliğine dönüştürebilir, vizyonunu ve yönünün gelişebileceği bir işyerini teşvik edebilir. "
+    var communication_manifestor_5_s2 = "Pratik Yap, Pratik Yap, Pratik Yap: Bilgilendirme sana doğal olarak gelmez, bu yüzden kendini bu beceride ustalaşmaya adaman lazım. Sürtünme olmadan liderlik etme yeteneğinin kilidini açacak ve çevrendekilerin desteği ve iş birliği ile hedeflerini ortaya koyacak olan kilit noktadır. "
+
+    var communication_manifestor_1_s3 = "Harekete geçmeden önce çevrendekileri bilgilendiriyor musun? Bu bilgilendirme süreci, iş yerinde ve sosyal çevrende direnci azaltmak için nasıl etkili olabilir? "
+    var communication_manifestor_2_s3 = "Başlatıcı enerjinin başkalarını nasıl etkilediğini fark ediyor musun? Proaktif yapını daha işbirlikçi bir ortam yaratmak için nasıl kullanabilirsin? "
+    var communication_manifestor_3_s3 = "Kontrol edilme korkunu yenmek için hangi adımları atıyorsun? Özerkliğini koruyarak direnci nasıl işbirliğine dönüştürebilirsin? "
+    var communication_manifestor_4_s3 = "Bilgilendirmeyi bir alışkanlık haline getirip, ekip arkadaşlarınla güven oluşturmaya nasıl katkıda bulunabilirsin? Bu yaklaşım projelerini ileriye taşımada ne kadar etkili olabilir? "
+    var communication_manifestor_5_s3 = "Başlatıcı gücünü dikkatli bir şekilde kullanarak, ekip arkadaşlarının katkılarını nasıl daha fazla dikkate alabilirsin? Bu sayede iş yerinde daha etkili bir lider olabilir misin? "
+
+
+
+    var communication_reflektor_0 = "Yansıtıcı"
+    var communication_reflektor_1 = "Dirençli, ancak çevreyi emmeden örnekleme ve yansıtma yeteneğine sahip bir varlığın var. Sözsüz varlığın sessiz, nazik ve müdahaleci değildir, çevreye ve içindeki insanlara bir ayna görevi görür."
+    var communication_reflektor_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... "
+    var communication_reflektor_3 = "Ne Kadar Eşsiz Olduğunu Fark Etmek ve Etkileşime Girmeden Önce Beklemek, Yansıtmak ve Tartışmak: Benzersizliğin, seni olağanüstü derecede nadir ve değerli kılan çevreyi yansıtmak ve örneklemektir. Nüfusun sadece %1'ini temsil ettiğini ve dünyayı diğerlerinden farklı gördüğünü kabul etmen gerekiyor. Benzersizliğini kucaklayarak, başkalarıyla güç ve bilgelik dolu bir yerden etkileşime girebilirsin. "
+    var communication_reflektor_4 = "Yansıtıcı Doğanı Anla: "
+    var communication_reflektor_5 = "Etrafındakileri yansıtma ve büyütme yeteneğin, çevrenin sağlığını objektif olarak gözlemlemene ve değerlendirmene olanak tanır. Etkileşime girmeden önce bekleyip düşündüğünde, direnci ortadan kaldırır ve iç görülerinin alınması ve değerlendirilmesi için alan açarsın."
+    var communication_reflektor_6 = "Yansıtıcı İç görülerinden Yararlan:"
+    var communication_reflektor_7 = "Bir Değerlendirici olarak, sana stratejik bir bakış açısı sağlayan kalıpları ve döngüleri gözlemleme konusunda doğuştan gelen bir yeteneğe sahipsin. Çeşitli durumlar üzerinde düşünmek ve düşünceli tartışmalara katılmak için gereken zamanı ayır. İyi düşünülmüş iç görülerinin ekibine ve projelerine katkılarını bilgilendirmesine izin ver. "
+
+    var communication_reflektor_1_s2 = "İletişimde Sabır ve Derinlik Geliştir: İş yerinde, çevrendeki etkileşimler ve dinamikler üzerinde düşünmek için zaman ayır. Dikkatli değerlendirmen ve benzersiz bakış açın, ekibine ve projelerine fayda sağlayabilecek derin iç görülere yol açabilir. "
+    var communication_reflektor_2_s2 = "İç görülerin İçin Alan Yarat: Başkalarının kendilerini rahatça açabilecekleri bir alan yaratmak için nazik varlığını kullan. Gösterişsiz doğan dürüst diyaloğu teşvik eder, görüşleri örneklemene ve tartışmaların özünü geri yansıtmana olanak tanır, bu da ekibi netlik ve fikir birliğine yönlendirebilir. "
+    var communication_reflektor_3_s2 = "Harekete Geçmeden Önce Bekle, Düşün ve Tartış: Önemli kararlar vermeden önce düşünceli tartışmalara katılmayı alışkanlık haline getirmen gerekir. Düşüncelerin hemen ortaya çıkmaz ve en iyi katkıların, resmin tamamını işlemek ve anlamak için zamanın olduğunda gelir. "
+    var communication_reflektor_4_s2 = "Doğuştan Gelen Bilgeliğinden Yararlan: İç görülerinin ve içsel bilgeliğinin işteki katkılarına rehberlik etmesine izin ver. Bu derin anlayış yerinden konuştuğunuzda, sözlerin ağırlık taşır ve genellikle ekibinin ve kuruluşun için dönüştürücü sonuçlara yol açabilir. "
+
+    var communication_reflektor_1_s3 = "Etrafındaki insanları ve ortamları objektif bir şekilde yansıttığını fark ediyor musun? Bu yansıtma gücünü iş yerinde veya sosyal çevrende nasıl daha etkili kullanabilirsin? "
+    var communication_reflektor_2_s3 = "Etkileşime girmeden önce bekleyip düşünmek sana nasıl bir içgörü sağlıyor? Bu bekleme sürecini hangi durumlarda daha iyi uygulayabilirsin? "
+    var communication_reflektor_3_s3 = "Nazik ve sessiz varlığın, başkalarının kendilerini rahatça ifade etmelerine nasıl yardımcı oluyor? Bu özelliğini ekip çalışmalarında daha fazla nasıl kullanabilirsin? "
+    var communication_reflektor_4_S3 = "Yansıtıcı içgörülerini başkalarıyla paylaşmadan önce değerlendirme yapmak için yeterince zaman ayırıyor musun? Stratejik bakış açını daha derinleştirmek için ne tür tartışmalar sana faydalı olabilir? "
+    var communication_reflektor_5_S3 = "Çevrenin sağlığını gözlemleme yeteneğin, ekip arkadaşlarına ve projelerine nasıl katkıda bulunuyor? Bu içsel bilgeliği iş yerinde daha etkili bir şekilde nasıl ortaya koyabilirsin? "
+
+    var communication_manifesting_generator_0 = "Enerjik"
+    var communication_manifesting_generator_1 = "Etkili iletişimin merkezinde, sessiz bir iletişimci olarak hareket eden, başkalarını ve fırsatları sana çeken sözsüz varlığın var. Açık ve saran varlığın bir mıknatıs gibi davranır, doğal olarak insanları kendine çeker ve verimli etkileşimlerin yolunu açar. "
+    var communication_manifesting_generator_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... "
+    var communication_manifesting_generator_3 = "Etkileşimde bulunmadan önce yanıt vermek için bekle: Etkileşimleri başlatmaktan kaçınarak ve bunun yerine yanıt vermeyi bekleyerek iletişim kanallarını açar ve direnci ortadan kaldırabilirsin.Farkındalığını açmak, fırsatları ortaya çıktıkça gözlemlemek ve başkalarıyla etkileşime girmeden önce sezgilerini dinlemek için pratik yapabilirsin."
+    var communication_manifesting_generator_4 = "Doğru Hissettiren Şeylere Yanıt Ver:"
+    var communication_manifesting_generator_5 = "İç güdülerine güven ve seninle rezonansa giren şeylere olanak tanıyan durumlara yanıt vermeye çalış. Seni neyin heyecanlandırdığına ve değerlerinle uyumlu olduğuna dikkat et, gerçek coşkunun etkileşimlerine rehberlik etmesine izin ver. "
+    var communication_manifesting_generator_6 = "Başlatma - yalnızca önce yanıt verdikten sonra etkileşime geç:"
+    var communication_manifesting_generator_7 = "Etkileşim başlatmak yerine, kişisel tercihlerin ve hedeflerinle uyumlu davetlere ve fırsatlara yanıt vermeye odaklan. Etkileşimlerin organik olarak ortaya çıkmasına izin vererek, karşılıklı anlayış ve saygıya dayanan özgün bağlantılar oluştururabilirsin. "
+
+    var communication_manifesting_generator_1_s2 = "Doğal Manyetizmandan Yararlan: İnsanları varlığınla içine çekme konusundaki doğuştan gelen yeteneğin büyük bir varlık. İşyerinde, sürekli olarak ulaşılabilir olarak bu manyetizmanın senin için çalışmasına izin ver. İş arkadaşların doğal olarak sana yönelecek, projelerde girdilerini ve desteğini arayacak ve girişimleri ileriye taşıyan enerjiyi sağlama yeteneğini kabul edeceklerdir. "
+    var communication_manifesting_generator_2_s2 = "Niyetle Yanıt Ver: Harekete geçmek cazip gelse de, gücünün yanıt olarak yattığını unutma. Aktif dinleme pratiği yapabilir ve seni gerçekten heyecanlandıran ve değerlerinle uyumlu projelerle meşgul olabilirsin. Başlatmak yerine yanıt verdiğinde, çabalarının daha etkili olduğu ve temel katkılar olarak kabul edildiği bir dinamik yaratma olasılığın çok daha fazla. "
+    var communication_manifesting_generator_3_s2 = "Net Sınırlar Oluştur: Görevleri üstlenme kapasiten ve istekliliğin konusunda net ol. Bu, aşırı taahhütte bulunmamanı sağlar ve enerjini en üretken olabileceğin görevlere yönlendirmene olanak tanır. Kapasiten dahilinde çalıştığında, işteki memnuniyetin artar ve bu doğal olarak senin mutluluğunu ve başarını etkiler. "
+    var communication_manifesting_generator_4_s2 = "Katılımda Coşku Göster: Katılmayı seçtiğinde, bunu belirgin bir coşkuyla göster. Enerjin bulaşıcıdır ve ekibine ilham verebilir ve onları motive edebilir. İş için gerçek heyecanının etkileşimlerine rehberlik etmesine izin ver, bunun ekip dinamiklerin içinde daha da önemli hale geldiğinizi göreceksiniz. "
+
+    var communication_manifesting_generator_1_s3 = "Etkileşimlerde bulunmadan önce yanıt vermek için bekliyor musun? Sezgilerini dinleyip, doğru zamanın gelmesini nasıl fark edebilirsin? "
+    var communication_manifesting_generator_2_s3 = "Seni gerçekten heyecanlandıran şeylere yanıt veriyor musun? İçgüdülerine güvenip, sadece seninle uyumlu olan fırsatları seçmek için neler yapabilirsin? "
+    var communication_manifesting_generator_3_s3 = "Etkileşim başlatmadan önce gerçekten yanıt verdiğinden emin oluyor musun? Bu yaklaşımı iş ve sosyal hayatında nasıl daha fazla uygulayabilirsin? "
+    var communication_manifesting_generator_4_s3 = "İnsanların doğal olarak sana yöneldiğini fark ediyor musun? Doğal manyetizman sayesinde iş yerinde daha verimli etkileşimler yaratmak için hangi yolları izleyebilirsin? "
+    var communication_manifesting_generator_5_s3 = "İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin? "
+
+    var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al"
+    var decision_strategy_s3_1_1 = "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret"
+    var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir. "
+    var decision_strategy_s3_1_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_1_4 = "İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın. "
+    var decision_strategy_s3_1_5 = "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar."
+    var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir. "
+    var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. "
+    var decision_strategy_s4_1_2 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle."
+    var decision_strategy_s4_1_3 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\". "
+    var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın. "
+    var decision_strategy_s4_1_4_e_1 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil. "
+    var decision_strategy_s4_1_4_e_2 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven. "
+    var decision_strategy_s4_1_6_2 = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir. "
+
+    var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et "
+    var decision_strategy_s3_2_1 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin " // eksik
+    var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir. "
+    var decision_strategy_s3_2_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_2_4 = "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven. "
+    var decision_strategy_s3_2_5 = @"İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya ""ah-huh"" (evet), ya ""uhn - un"" (hayır) ya da ""hmmmmm"" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir. "
+    var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver. "
+    var decision_strategy_s4_2_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. "
+    var decision_strategy_s4_2_2 = @"Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için ""ah-huh"", hayır için ""uhn - un"" ya da ""hmmmmm"" ile henüz değil. "
+    var decision_strategy_s4_2_3 = "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol. "
+    var decision_strategy_s4_2_4 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven. "
+    var decision_strategy_s4_8_4_e_1 = ""
+    var decision_strategy_s4_8_4_e_2 = ""
+    var decision_strategy_s4_2_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir"
+
+    var decision_strategy_s3_3_0 = "Tanınma ve Davet Al, Netlik ile Karar Al "
+    var decision_strategy_s3_3_1 = "Tanınma, Davet ve Netlik için Bekle "
+    var decision_strategy_s3_3_2 = "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. "
+    var decision_strategy_s3_3_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_3_4 = "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın."
+    var decision_strategy_s3_3_5 = "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. "
+    var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. "
+    var decision_strategy_s4_3_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. "
+    var decision_strategy_s4_3_2 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. "
+    var decision_strategy_s4_3_3 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. "
+    var decision_strategy_s4_3_4 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver."
+    var decision_strategy_s4_3_4_e_1 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. "
+    var decision_strategy_s4_3_4_e_2 = ""
+    var decision_strategy_s4_3_5 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. "
+
+    var decision_strategy_s3_4_0 = "Tanınma ve Davet Al, İçgüdülerini Takip Et "
+    var decision_strategy_s3_4_1 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  "
+    var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. "
+    var decision_strategy_s3_4_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_4_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. "
+    var decision_strategy_s3_4_5 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. "
+    var decision_strategy_s4_4_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. "
+    var decision_strategy_s4_4_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. "
+    var decision_strategy_s4_4_2 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. "
+    var decision_strategy_s4_4_3 = "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. "
+    var decision_strategy_s4_4_4 = "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. "
+    var decision_strategy_s4_4_4_e_1 = ""
+    var decision_strategy_s4_4_4_e_2 = ""
+    var decision_strategy_s4_4_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  "
+
+    var decision_strategy_s3_5_0 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et "
+    var decision_strategy_s3_5_1 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et "
+    var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. "
+    var decision_strategy_s3_5_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_5_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. "
+    var decision_strategy_s3_5_5 = "İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. \"Ben ne istiyorum?\" ve \"Bu benim için ne ifade ediyor ? \" sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. "
+    var decision_strategy_s4_5_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. "
+    var decision_strategy_s4_5_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. "
+    var decision_strategy_s4_5_2 = "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et."
+    var decision_strategy_s4_5_3 = "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. "
+    var decision_strategy_s4_5_4 = "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. "
+    var decision_strategy_s4_5_4_e_1 = ""
+    var decision_strategy_s4_5_4_e_2 = ""
+    var decision_strategy_s4_5_5 = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. "
+
+    var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle "
+    var decision_strategy_s3_6_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  "
+    var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. "
+    var decision_strategy_s3_6_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_6_4 = "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. "
+    var decision_strategy_s3_6_5 = "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. "
+    var decision_strategy_s4_6_5_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_6_5_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. "
+    var decision_strategy_s4_6_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. "
+    var decision_strategy_s4_6_2 = "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün."
+    var decision_strategy_s4_6_3 = "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. "
+    var decision_strategy_s4_6_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın."
+    var decision_strategy_s4_8_4_e_1 = ""
+    var decision_strategy_s4_8_4_e_2 = ""
+    var decision_strategy_s4_6_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin."
+    //var decision_strategy_s4_6_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
+
+    var decision_strategy_s3_7_0 = "Tanınma ve Davet Al, Kendi Söylediklerini Dinle "
+    var decision_strategy_s3_7_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle "
+    var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. "
+    var decision_strategy_s3_7_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_7_4 = "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. "
+    var decision_strategy_s3_7_5 = "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. "
+    var decision_strategy_s4_7_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. "
+    var decision_strategy_s4_7_1 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. "
+    var decision_strategy_s4_7_2 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. "
+    var decision_strategy_s4_7_3 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. "
+    var decision_strategy_s4_7_4 = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. "
+    var decision_strategy_s4_7_4_e_1 = ""
+    var decision_strategy_s4_7_4_e_2 = ""
+    var decision_strategy_s4_7_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin."
+    //var decision_strategy_s4_7_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
+
+    var decision_strategy_s3_8_0 = "Gör, Netlik Bekle ve Bilgi Ver "
+    var decision_strategy_s3_8_1 = "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir "
+    var decision_strategy_s3_8_2 = "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. "
+    var decision_strategy_s3_8_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_8_4 = "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. "
+    var decision_strategy_s3_8_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. "
+    var decision_strategy_s4_8_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_8_text = "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. "
+    var decision_strategy_s4_8_1 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. "
+    var decision_strategy_s4_8_2 = "Gör: Başlatılması gereken şeyleri fark et. "
+    var decision_strategy_s4_8_3 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. "
+    var decision_strategy_s4_8_4 = "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. "
+    var decision_strategy_s4_8_4_e_1 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. "
+    var decision_strategy_s4_8_4_e_2 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. "
+    var decision_strategy_s4_8_5 = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. "
+
+    var decision_strategy_s3_9_0 = "Gör, İç güdülerine Kulak ver ve Bilgi Ver. "
+    var decision_strategy_s3_9_1 = "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir "
+    var decision_strategy_s3_9_2 = "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. "
+    var decision_strategy_s3_9_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_9_4 = "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. "
+    var decision_strategy_s3_9_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. "
+    var decision_strategy_s4_9_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_9_text = "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. "
+    var decision_strategy_s4_9_1 = "Gör: Başlatılması gereken şeyleri fark et. "
+    var decision_strategy_s4_9_2 = "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven."
+    var decision_strategy_s4_9_3 = "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. "
+    var decision_strategy_s4_9_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. "
+    var decision_strategy_s4_9_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. "
+    var decision_strategy_s4_9_4_e_2 = ""
+    var decision_stragegy_s4_9_5 = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. "
+
+    var decision_strategy_s3_10_0 = "Gör, İradeni Dinle ve Bilgi Ver "
+    var decision_strategy_s3_10_1 = "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme "
+    var decision_strategy_s3_10_2 = "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin. "
+    var decision_strategy_s3_10_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_10_4 = @"İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. ""Sahibim"" ve ""Yapacağım"" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma. "
+    var decision_strategy_s3_10_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın. "
+    var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_10_text = "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır. "
+    var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et. "
+    var decision_strategy_s4_10_2 = "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün."
+    var decision_strategy_s4_10_3 = "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil. "
+    var decision_strategy_s4_10_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır."
+    var decision_strategy_s4_10_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. "
+    var decision_strategy_s4_10_4_e_2 = ""
+    var decision_strategy_s4_10_5 = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. "
+
+    var decision_strategy_s3_11_0 = "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. "
+    var decision_strategy_s3_11_1 = "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış "
+    var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin. "
+    var decision_strategy_s3_11_3 = "İki Temel Unsur: "
+    var decision_strategy_s3_11_4 = @"Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy. "
+    var decision_strategy_s3_11_5 = "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin. "
+    var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek: "
+    var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin. "
+    var decision_strategy_s4_11_1 = "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur."
+    var decision_strategy_s4_11_2 = "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan. "
+    var decision_strategy_s4_11_3 = "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et. "
+    var decision_strategy_s4_11_4 = @"Karar Ver: Düşüncelerin ve tartışmaların ışığında, ""evet,"" ""hayır"" ya da ""şimdi değil"" şeklinde, netliğine dayanan bir karar ver. "
+    var decision_strategy_s4_11_4_e_1 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle. "
+    var decision_strategy_s4_11_4_e_2 = ""
+    var decision_strategy_s4_11_5 = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin. "
+
 
     // eski hali
     // var inputs = {
@@ -2648,51 +3289,1480 @@ export default async ({ req, res, log, error }) => {
             } else if (aiName == "İletişim ve İşbirliği") {
                 return ai_25_s4u1_6_1;
             }
-        } else if (type == "s3_x_1") {
-            if (aiName == "Dijital Okuryazarlık") {
-                return ai_25_s3_1_2;
-            } else if (aiName == "Veri Okur Yazarlığı") {
-                return ai_25_s3_1_2;
-            } else if (aiName == "Kodlama ve Programlama") {
-                return ai_25_s4u1_3_1;
-            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
-                return ai_25_s4u1_4_1;
-            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
-                return ai_25_s4u1_5_1;
-            } else if (aiName == "İletişim ve İşbirliği") {
-                return ai_25_s4u1_6_1;
-            }
         } else if (type == "s3_x_2") {
             if (aiName == "Dijital Okuryazarlık") {
                 return ai_25_s3_1_2;
             } else if (aiName == "Veri Okur Yazarlığı") {
                 return ai_25_s3_1_2;
             } else if (aiName == "Kodlama ve Programlama") {
-                return ai_25_s4u1_3_1;
+                return ai_25_s3_3_2;
             } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
-                return ai_25_s4u1_4_1;
+                return ai_25_s3_4_2;
             } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
-                return ai_25_s4u1_5_1;
+                return ai_25_s3_5_2;
             } else if (aiName == "İletişim ve İşbirliği") {
-                return ai_25_s4u1_6_1;
+                return ai_25_s3_6_2;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s3_7_2;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s3_8_2;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s3_9_2;
             }
         } else if (type == "s3_x_3") {
             if (aiName == "Dijital Okuryazarlık") {
-                return ai_25_s3_1_2;
+                return ai_25_s3_1_3;
             } else if (aiName == "Veri Okur Yazarlığı") {
-                return ai_25_s3_1_2;
+                return ai_25_s3_1_3;
             } else if (aiName == "Kodlama ve Programlama") {
-                return ai_25_s4u1_3_1;
+                return ai_25_s3_3_3;
             } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
-                return ai_25_s4u1_4_1;
+                return ai_25_s3_4_3;
             } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
-                return ai_25_s4u1_5_1;
+                return ai_25_s3_5_3;
             } else if (aiName == "İletişim ve İşbirliği") {
-                return ai_25_s4u1_6_1;
+                return ai_25_s3_6_3;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s3_7_3;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s3_8_3;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s3_9_3;
+            }
+        } else if (type == "s4u1_x_2") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s4u1_1_2;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s4u1_2_2;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_2;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_2;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_2;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_2;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s4u1_7_2;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s4u1_8_2;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s4u1_9_2;
+            }
+        } else if (type == "s4u1_x_3") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s4u1_1_3;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s4u1_2_3;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u1_3_3;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u1_4_3;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u1_5_3;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u1_6_3;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s4u1_7_3;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s4u1_8_3;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s4u1_9_3;
+            }
+        } else if (type == "s4u2_x_2") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s4u2_1_2;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s4u2_2_2;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u2_3_2;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u2_4_2;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u2_5_2;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u2_6_2;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s4u2_7_2;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s4u2_8_2;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s4u2_9_2;
+            }
+        } else if (type == "s4u2_x_4") {
+            if (aiName == "Dijital Okuryazarlık") {
+                return ai_25_s4u2_1_4;
+            } else if (aiName == "Veri Okur Yazarlığı") {
+                return ai_25_s4u2_2_4;
+            } else if (aiName == "Kodlama ve Programlama") {
+                return ai_25_s4u2_3_4;
+            } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+                return ai_25_s4u2_4_4;
+            } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+                return ai_25_s4u2_5_4;
+            } else if (aiName == "İletişim ve İşbirliği") {
+                return ai_25_s4u2_6_4;
+            } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+                return ai_25_s4u2_7_4;
+            } else if (aiName == "Duygusal Zeka (EQ)") {
+                return ai_25_s4u2_8_4;
+            } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+                return ai_25_s4u2_9_4;
             }
         }
 
     }
+
+    let teamwork = (teamworkName, age, type) => {
+        if (type = "name") {
+            if (teamworkName == "Aktif Dinleme Ve Empati") {
+                return teamwork_s3u1_1_1;
+            } else if (teamworkName == "Efektif İletişim") {
+                return teamwork_s3u1_2_1;
+            } else if (teamworkName == "İş Birliği") {
+                return teamwork_s3u1_3_1;
+            } else if (teamworkName == "Uyumluluk") {
+                return teamwork_s3u1_4_1;
+            } else if (teamworkName == "Sorun Çözme") {
+                return teamwork_s3u1_5_1;
+            } else if (teamworkName == "Öncü Olma") {
+                return teamwork_s3u1_6_1;
+            } else if (teamworkName == "Geri Bildirim") {
+                return teamwork_s3u1_7_1;
+            } else if (teamworkName == "Takım Oyuncusu Olma") {
+                return teamwork_s3u1_8_1;
+            } else if (teamworkName == "Profesyonel Gelişim") {
+                return teamwork_s3u1_9_1;
+            } else if (teamworkName == "Liderlik") {
+                return teamwork_s3u1_10_1;
+            }
+
+        } else if (type == "best") {
+            if (teamworkName == "Aktif Dinleme Ve Empati") {
+                return teamwork_best_1_2;
+            } else if (teamworkName == "Efektif İletişim") {
+                return teamwork_best_2_2;
+            } else if (teamworkName == "İş Birliği") {
+                return teamwork_best_3_2;
+            } else if (teamworkName == "Uyumluluk") {
+                return teamwork_best_4_2;
+            } else if (teamworkName == "Sorun Çözme") {
+                return teamwork_best_5_2;
+            } else if (teamworkName == "Öncü Olma") {
+                return teamwork_best_6_2;
+            } else if (teamworkName == "Geri Bildirim") {
+                return teamwork_best_7_2;
+            } else if (teamworkName == "Takım Oyuncusu Olma") {
+                return teamwork_best_8_2;
+            } else if (teamworkName == "Profesyonel Gelişim") {
+                return teamwork_best_9_2;
+            } else if (teamworkName == "Liderlik") {
+                return teamwork_best_10_2;
+            }
+        }
+
+
+
+    }
+
+    let lifestyle = (lifestyleData, age, type) => {
+        if (type == "name") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_0;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_0;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_0
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_0;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_0;
+            }
+        } else if (type == "p1") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_1;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_1;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_1
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_1;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_1;
+            }
+        } else if (type == "p2") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_2;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_2;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_2;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_2;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_2;
+            }
+        } else if (type == "p3") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_3;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_3;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_3;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_3;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_3;
+            }
+        } else if (type == "motto") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_motto;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_motto;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_motto;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_motto;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_motto;
+            }
+        } else if (type == "evaluation_1") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_evaluation_1;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_motto_evaluation_1;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_motto_evaluation_1;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_motto_evaluation_1;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_motto_evaluation_1;
+            }
+        } else if (type == "evaluation_2") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_evaluation_2;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_evaluation_2;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_evaluation_2;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_evaluation_2;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_evaluation_2;
+            }
+        } else if (type == "evaluation_3") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_evaluation_3;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_evalution_3;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_evaluation_3;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_evalution_3;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_evaluation_3;
+            }
+        } else if (type == "evaluation_4") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_evaluation_4;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_evaluation_4;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_evaluation_4;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_evaluation_4;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_evaluation_4;
+            }
+        } else if (type == "evaluation_5") {
+            if (lifestyleData == "Manifesting Generator") {
+                return lifestyle_25_plus_manifesting_generator_evaluation_5;
+            } else if (lifestyleData == "Generator") {
+                return lifestyle_25_plus_generator_evaluation_5;
+            } else if (lifestyleData == "Projektor") {
+                return lifestyle_25_plus_projektor_evaluation_5;
+            } else if (lifestyleData == "Manifestor") {
+                return lifestyle_25_plus_manifestor_evaluation_5;
+            } else if (lifestyleData == "Reflektor") {
+                return lifestyle_25_plus_reflektor_evaluation_5;
+            }
+        }
+    }
+
+    let communication = (communicationData, age, type) => {
+        if (type == "name") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_0;
+            } else if (communicationData == "Generator") {
+                return communication_generator_0;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_0;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_0;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_0;
+            }
+        } else if (type == "1") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_1;
+            } else if (communicationData == "Generator") {
+                return communication_generator_1;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_1;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_1;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_1;
+            }
+        } else if (type == "2") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_2;
+            } else if (communicationData == "Generator") {
+                return communication_generator_2;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_2;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_2;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_2;
+            }
+        } else if (type == "3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_3;
+            }
+        } else if (type == "4") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_4;
+            } else if (communicationData == "Generator") {
+                return communication_generator_4;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_4;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_4;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_4;
+            }
+        } else if (type == "5") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_5;
+            } else if (communicationData == "Generator") {
+                return communication_generator_5;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_5;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_5;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_5;
+            }
+        } else if (type == "6") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_6;
+            } else if (communicationData == "Generator") {
+                return communication_generator_6;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_6;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_6;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_6;
+            }
+        } else if (type == "7") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_7;
+            } else if (communicationData == "Generator") {
+                return communication_generator_7;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_7;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_7;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_7;
+            }
+        }
+        else if (type == "1_s2") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_1_s2;
+            } else if (communicationData == "Generator") {
+                return communication_generator_1_s2;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_1_s2;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_1_s2;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_1_s2;
+            }
+        } else if (type == "2_s2") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_2_s2;
+            } else if (communicationData == "Generator") {
+                return communication_generator_2_s2;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_2_s2;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_2_s2;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_2_s2;
+            }
+        } else if (type == "3_s2") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_3_s2;
+            } else if (communicationData == "Generator") {
+                return communication_generator_3_s2;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_3_s2;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_3_s2;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_3_s2;
+            }
+        } else if (type == "4_s2") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_4_s2;
+            } else if (communicationData == "Generator") {
+                return communication_generator_4_s2;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_4_s2;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_4_s2;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_4_s2;
+            }
+        } else if (type == "1_s3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_1_s3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_1_s3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_1_s3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_1_s3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_1_s3;
+            }
+        } else if (type == "2_s3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_2_s3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_2_s3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_2_s3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_2_s3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_2_s3;
+            }
+        } else if (type == "3_s3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_3_s3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_3_s3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_3_s3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_3_s3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_3_s3;
+            }
+        } else if (type == "3_s3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_4_s3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_4_s3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_4_s3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_4_s3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_4_s3;
+            }
+        } else if (type == "3_s3") {
+            if (communicationData == "Manifesting Generator") {
+                return communication_manifesting_generator_5_s3;
+            } else if (communicationData == "Generator") {
+                return communication_generator_5_s3;
+            } else if (communicationData == "Projektor") {
+                return communication_projector_5_s3;
+            } else if (communicationData == "Manifestor") {
+                return communication_manifestor_5_s3;
+            } else if (communicationData == "Reflektor") {
+                return communication_reflektor_5_s3;
+            }
+        }
+    }
+
+    let worklearnstyle = (worklearnData, age, type) => {
+        if (type == "name") {
+            if (worklearnData[0].name == "No Definition") {
+                return c_o_s_objective_title
+            } else if (worklearnData[0].name == "Single Definition") {
+                return c_o_s_indivudal_title;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return c_o_s_collaborative_titie;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return c_o_s_synthesizing_title
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return c_o_s_subjective_title
+            }
+        } else if (type == "context") {
+            if (worklearnData[0].name == "No Definition") {
+                return c_o_s_objective;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return c_o_s_indivudal;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return c_o_s_collaborative;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return c_o_s_synthesizing
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return c_o_s_subjective
+            }
+        } else if (type == "s3_1") {
+            if (worklearnData[0].name == "No Definition") {
+                return objective_s3_1;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return individual_s3_1;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return collaborative_s3_1;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return synthesizing_s3_1
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return subjective_s3_1
+            }
+        } else if (type == "s3_2") {
+            if (worklearnData[0].name == "No Definition") {
+                return objective_s3_2;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return individual_s3_2;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return collaborative_s3_2;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return synthesizing_s3_2
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return subjective_s3_2
+            }
+        } else if (type == "s3_3") {
+            if (worklearnData[0].name == "No Definition") {
+                return objective_s3_3;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return individual_s3_3;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return collaborative_s3_3;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return synthesizing_s3_3
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return subjective_s3_3
+            }
+        } else if (type == "s3_4") {
+            if (worklearnData[0].name == "No Definition") {
+                return objective_s3_4;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return individual_s3_4;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return collaborative_s3_4;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return synthesizing_s3_4
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return subjective_s3_4
+            }
+        } else if (type == "s3_5") {
+            if (worklearnData[0].name == "No Definition") {
+                return objective_s3_5;
+            } else if (worklearnData[0].name == "Single Definition") {
+                return individual_s3_5;
+            } else if (worklearnData[0].name == "Split Definition") {
+                return collaborative_s3_5;
+            } else if (worklearnData[0].name == "Triple Split Definition") {
+                return synthesizing_s3_5
+            } else if (worklearnData[0].name == "Quadruple Split Definition") {
+                return subjective_s3_5
+            }
+        }
+    }
+
+    let is_y_r = (is_y_rData, age, type) => {
+        if (type == "name") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_0
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_0
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_0
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_0
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_0
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_0
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_0
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_0
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_0
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_0
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_0
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_0
+            }
+        } else if (type == "s2_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_1
+            }
+        } else if (type == "s2_1_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_1_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_1_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_1_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_1_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_1_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_1_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_1_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_1_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_1_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_1_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_1_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_1_1
+            }
+        }
+        else if (type == "s2_2") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_2
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_2
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_2
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_2
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_2
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_2
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_2
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_2
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_2
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_2
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_2
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_2
+            }
+        } else if (type == "s2_2_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_2_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_2_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_2_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_2_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_2_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_2_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_2_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_2_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_2_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_2_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_2_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_2_1
+            }
+        } else if (type == "s2_3") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_3
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_3
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_3
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_3
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_3
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_3
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_3
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_3
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_3
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_3
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_3
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_3
+            }
+        } else if (type == "s2_3_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s2_3_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s2_3_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s2_3_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s2_3_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s2_3_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s2_3_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s2_3_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s2_3_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s2_3_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s2_3_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s2_3_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s2_3_1
+            }
+        } else if (type == "s3_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s3_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s3_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s3_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s3_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s3_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s3_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s3_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s3_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s3_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s3_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s3_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s3_1
+            }
+        } else if (type == "s3_1_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s3_1_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s3_1_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s3_1_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s3_1_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s3_1_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s3_1_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s3_1_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s3_1_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s3_1_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s3_1_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s3_1_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s3_1_1
+            }
+        } else if (type == "s3_2") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s3_2
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s3_2
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s3_2
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s3_2
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s3_2
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s3_2
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s3_2
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s3_2
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s3_2
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s3_2
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s3_2
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s3_2
+            }
+        } else if (type == "s3_2_1") {
+            if (is_y_rData[0].name == "1 / 3") {
+                return is_y_r_1_s3_2_1
+            } else if (is_y_rData[0].name == "1 / 4") {
+                return is_y_r_2_s3_2_1
+            } else if (is_y_rData[0].name == "2 / 4") {
+                return is_y_r_3_s3_2_1
+            } else if (is_y_rData[0].name == "2 / 5") {
+                return is_y_r_4_s3_2_1
+            } else if (is_y_rData[0].name == "3 / 5") {
+                return is_y_r_5_s3_2_1
+            } else if (is_y_rData[0].name == "3 / 6") {
+                return is_y_r_6_s3_2_1
+            } else if (is_y_rData[0].name == "4 / 1") {
+                return is_y_r_7_s3_2_1
+            } else if (is_y_rData[0].name == "4 / 6") {
+                return is_y_r_8_s3_2_1
+            } else if (is_y_rData[0].name == "5 / 1") {
+                return is_y_r_9_s3_2_1
+            } else if (is_y_rData[0].name == "5 / 2") {
+                return is_y_r_10_s3_2_1
+            } else if (is_y_rData[0].name == "6 / 2") {
+                return is_y_r_11_s3_2_1
+            } else if (is_y_rData[0].name == "6 / 3") {
+                return is_y_r_12_s3_2_1
+            }
+        }
+    }
+
+    let decision_strategy = (decisionStrategyData, age, type) => {
+        if (type == "name") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_0;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_0;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_0;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_0;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_0;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_0;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_0;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_0;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_0;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_0;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_0;
+            }
+        } else if (type == "s3_x_1") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_1;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_1;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_1;
+            }
+        } else if (type == "s3_x_2") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_2;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_2;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_2;
+            }
+        } else if (type == "s3_x_3") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_3;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_3;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_3;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_3;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_3;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_3;
+            }
+        } else if (type == "s3_x_4") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_4;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_4;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_4;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_4;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_4;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_4;
+            }
+        } else if (type == "s3_x_5") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s3_1_5;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s3_2_5;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s3_3_5;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s3_4_5;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s3_5_5;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s3_6_5;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s3_7_5;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s3_8_5;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s3_9_5;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s3_10_5;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s3_11_5;
+            }
+        } else if (type == "s4_x_title") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_title;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_title;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_title;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_title;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_title;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_title;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_title;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_title;
+            }
+        } else if (type == "s4_x_text") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_text;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_text;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_text;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_text;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_text;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_text;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_title;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_title;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_title;
+            }
+        } else if (type == "s4_x_1") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_1;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_1
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_1;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_1;
+            }
+        } else if (type == "s4_x_2") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_2;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_2
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_2;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_2;
+            }
+        } else if (type == "s4_x_3") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_3;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_3;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_3;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_3
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_3;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_3;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_3;
+            }
+        } else if (type == "s4_x_4") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_4;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_4;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_4;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_4
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_4;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_4;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_4;
+            }
+        } else if (type == "s4_x_4_e_1") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_4_e_1;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_4_e_1;
+            }
+        } else if (type == "s4_x_4_e_2") {
+            if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Karar ver ve netlikle karar al
+                return decision_strategy_s4_1_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "To Respond" && decisionStrategyData[0].innnerAuthority == "Sacral") { // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+                return decision_strategy_s4_2_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Tanınma ve Davet Al, Netlik ile Karar Al
+                return decision_strategy_s4_3_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Splenic") { // Tanınma ve Davet Al, İçgüdülerini Takip Et
+                return decision_strategy_s4_4_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Ego Projected") { // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+                return decision_strategy_s4_5_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Self Projected") { // Tanınma ve Davet Al, Söylediklerini Dinle
+                return decision_strategy_s4_6_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait for the Invitation" && decisionStrategyData[0].innerAuthority == "Mental") { // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+                return decision_strategy_s4_7_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus") { // Gör, Netlik Bekle ve Bilgi Ver
+                return decision_strategy_s4_8_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Splenic") { // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+                return decision_strategy_s4_9_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "To Inform" && decisionStrategyData[0].innerAuthority == "Ego Manifested") { // Gör, İradeni Dinle ve Bilgi Ver
+                return decision_strategy_s4_10_4_e_2;
+            } else if (decisionStrategyData[0].strategy == "Wait a Lunar Cycle" && decisionStrategyData[0].innerAuthority == "Lunar") { // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. 
+                return decision_strategy_s4_11_4_e_2;
+            }
+        }
+    }
+
+    let kariyer_secim = (kariyer_secimData, age, type) => {
+        if (type == "name") {
+            if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s2_1_1
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s2_2_1
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s2_3_1
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerleri") {
+                return kariyer_secim_12_25_s2_4_1
+            } else if (kariyer_secimData == "Satış ve İlişki Kurma Kariyerleri") {
+                return kariyer_secim_12_25_s2_5_1
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s2_6_1
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s2_7_1
+            } else if (kariyer_secimData == "Öğretim ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s2_8_1
+            } else if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s2_9_1
+            }
+        } else if (type == "s2_x_2") {
+            if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_25_40_s2_1_2;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerleri") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Satış ve İlişki Kurma Kariyerleri") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Öğretim ve Mentorluk Kariyerleri") {
+                return kariyer_secim_25_40_s2_1_2;;
+            } else if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_25_40_s2_1_2;;
+            }
+        } else if (type == "s3_x") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_s3_0_1;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_s3_1_1;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_s3_2_1;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_s3_3_1;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_s3_4_1;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_s3_5_1;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_s3_6_1;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_s3_7_1;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_s3_8_1;
+            }
+        } else if (type == "s4_x") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_s4_0_1;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_s4_1_1;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_s4_2_1;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_s4_3_1;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_s4_4_1;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_s4_5_1;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_s4_6_1;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_s4_7_1;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_s4_8_1;
+            }
+        } else if (type == "s7_x") {
+            if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_1_1
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_1_2
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_25_40_s2_3_1
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerleri") {
+                return kariyer_secim_25_40_s2_4_1
+            } else if (kariyer_secimData == "Satış ve İlişki Kurma Kariyerleri") {
+                return kariyer_secim_25_40_s2_5_1
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_25_40_s2_6_1
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_25_40_s2_7_1
+            } else if (kariyer_secimData == "Öğretim ve Mentorluk Kariyerleri") {
+                return kariyer_secim_25_40_s2_8_1
+            } else if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_25_40_s2_9_1
+            }
+            
+        } else if (type == "s7_retail_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_retail_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_retail_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_retail_9_4;
+            }
+        } else if (type == "s7_health_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_health_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_health_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_health_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_health_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_health_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_health_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_health_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_health_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_health_9_4;
+            }
+        } else if (type == "s7_tech_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_tech_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_tech_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_tech_9_4;
+            }
+        } else if (type == "s7_dress_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_dress_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_dress_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_dress_9_4;
+            }
+        } else if (type == "s7_auto_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_auto_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_auto_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_auto_9_4;
+            }
+        } else if (type == "s7_meal_x_4") {
+            if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_1_4;
+            } else if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_2_4;
+            } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+                return kariyer_secim_12_25_s7_meal_3_4;
+            } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_4_4;
+            } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_5_4;
+            } else if (kariyer_secimData == "Satış ve İlişkisel Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_6_4;
+            } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_7_4;
+            } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+                return kariyer_secim_12_25_s7_meal_8_4;
+            } else if (kariuer_secimData == "Öğretmenlik ve Mentorluk Kariyerleri") {
+                return kariyer_secim_12_25_s7_meal_9_4;
+            }
+        }
+        //else if (type == "s5_x") {
+            
+        //    if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
+        //        return kariyer_secim_12_25_s5_1_1
+        //    } else if (kariyer_secimData == "Yardım ve Sosyal Kariyerler") {
+        //        return kariyer_secim_12_25_s5_2_1
+        //    } else if (kariyer_secimData == "Liderlik ve Yönetim Kariyerleri") {
+        //        return kariyer_secim_12_25_s2_3_1
+        //    } else if (kariyer_secimData == "Teknik ve Mühendislik Kariyerleri") {
+        //        return kariyer_secim_12_25_s2_4_1
+        //    } else if (kariyer_secimData == "Satış ve İlişki Kurma Kariyerleri") {
+        //        return kariyer_secim_12_25_s2_5_1
+        //    } else if (kariyer_secimData == "Organizasyonel ve İdari Kariyerler") {
+        //        return kariyer_secim_12_25_s2_6_1
+        //    } else if (kariyer_secimData == "Yenilikçi ve Girişimci Kariyerler") {
+        //        return kariyer_secim_12_25_s2_7_1
+        //    } else if (kariyer_secimData == "Öğretim ve Mentorluk Kariyerleri") {
+        //        return kariyer_secim_12_25_s2_8_1
+        //    } else if (kariyer_secimData == "Analitik ve Veri Odaklı Kariyerler") {
+        //        return kariyer_secim_12_25_s2_9_1
+        //    }
+        //}
+    }
+}
+    
 
     var inputs_25_plus = {
         P1A1: rawData.find(x => x.name == "kisiselbilgi / isim").string + " " + rawData.find(x => x.name == "kisiselbilgi / soyisim").string,
@@ -2741,72 +4811,95 @@ export default async ({ req, res, log, error }) => {
         P9A8: krktr_ozl(big5Data[1].name, 25, "question3"),
 
         P11A1: "chart", // Yapay zeka çağı yetkinliklerin
-        P12A1: ai(ai[0].name, 25, "name"),
-        P12A3: ai(ai[0].name, 25, "name"),
-        P12A4: ai(ai[0].name, 25, "s4u1"),
-        P12A5: ai(ai[0].name, 25, "s4u1"),
-        P12A6: ai(ai[0].name, 25, "s5u2"),
-        P12A7: ai(ai[0].name, 25,,
-        P12A8: "",
-        P13A1: "",
-        P13A2: "",
-        P13A3: "",
-        P13A4: "",
-        P13A5: "",
-        P13A6: "",
-        P14A1: "",
-        P15A1: "", // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-        P15A2: "",
-        P15A3: "",
-        P15A4: "",
-        P15A5: "", // Geliştirmeyi Düşünebilirsin
-        P15A6: "",
-        P15A7: "",
-        P15A8: "",
-        P16A1: "", // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-        P16A2: "",
-        P16A3: "",
-        P16A4: "",
-        P16A5: "", // Kendine sorabilirsin
-        P16A6: "",
-        P17A1: "", // Yaşamda İlerleme Tarzın
-        P17A2: "",
+        P12A1: ai(aiData[0].name, 25, "name"),
+        P12A2: ai(aiData[1].name, 25, "name"),
+        P12A3: ai(aiData[0].name, 25, "s4u1_x_3"),
+        P12A4: ai(aiData[1].name, 25, "s4u1_x_4"),
+        P12A5: ai(aiData[0].name, 25, "s4u1_x_3"),
+        P12A6: ai(aiData[1].name, 25, "s4u1_x_4"),
+        P12A7: ai(aiData[ai.length-1].name, 25, "name"),
+        P12A8: ai(aiData[ai.length - 2].name, 25, "name"),
+        P12A9: ai(aiData[ai.length - 1].name, 25, "s4u2_x_3"),
+        P12A10: ai(aiData[ai.length - 2].name, 25, "s4u2_x_4"),
+        P12A11: ai(aiData[ai.length - 1].name, 25, "s4u2_x_3"),
+        P12A12: ai(aiData[ai.length - 2].name, 25, "s4u2_x_4"),
+        P13A1: ai(aiData[0].name, 25, "name"),
+        P13A2: ai(aiData[0].name, 25, "s5u1_x_2"),
+        P13A3: ai(aiData[0].name, 25, "s5u1_x_3"),
+        P13A4: ai(aiData[1].name, 25, "name"),
+        P13A5: ai(aiData[1].name, 25, "s5u1_x_2"),
+        P13A6: ai(aiData[1].name, 25, "s5u1_x_3"),
+        P13A7: ai(aiData[ai.length - 1].name, 25, "name"),
+        P13A8: ai(aiData[0].name, 25, "s5u2_x_2"),
+        P13A9: ai(aiData[0].name, 25, "s4u2_x_3"),
+        P13A10: ai(aiData[0].name, 25, "s4u2_x_4"),
+        P13A11: ai(aiData[0].name, 25, "s4u2_x_5"),
+        
+        P14A1: "chart", // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+        P15A1: teamwork(teamworkData[0].name,25, "name"), 
+        P15A2: teamwork(teamworkData[1].name,25, "name"),
+        P15A3: teamwork(teamworkData[0].name, 25, "best"),
+        P15A4: teamwork(teamworkData[1].name,25, "best"),
+        P15A5: teamwork(teamworkData[teamworkData.length-1].name, 25, "name"), // Geliştirmeyi Düşünebilirsin
+        P15A6: teamwork(teamworkData[teamworkData.length-2].name, 25, "name"),
+        P15A7: teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
+        P15A8: teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
+        P16A1: teamwork(teamworkData[0].name, 25, "name"), // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+        P16A2: teamwork(teamworkData[0].name, 25, "s3u1"),
+        P16A3: teamwork(teamworkData[1].name, 25, "name"),
+        P16A4: teamwork(teamworkData[1].name, 25, "s3u1"),
+        P16A5: teamwork(teamworkData[teamworkData.length - 1], 25, "name"), // Kendine sorabilirsin
+        P16A6: teamwork(teamworkData[teamworkData.length - 1], 25, "s3u2")
+        P17A1: lifestyle(lifestyleData[0], 25, "name"), // Yaşamda İlerleme Tarzın
+        P17A2: lifestyle(lifestyleData[0], 25, "p1"),
         P17A3: "image",
-        P18A1: "",
-        P18A2: "",
-        P18A3: "", // motto
-        P19A1: "",
-        P19A2: "",
-        P20A1: "",
-        P20A2: "",
-        P20A3: "",
-        P20A4: "",
-        P20A5: "",
-        P20A6: "",
-        P20A7: "",
-        P20A8: "",
-        P21A1: "", // İş Yerinde Etkili İletişim ve Katılım
-        P21A2: "",
-        P21A3: "",
-        P21A4: "",
-        P22A1: "", // İletişim ve Etkileşim Tarzın
-        P22A2: "",
-        P24A1: "", // Çalışma ve Öğrenme Stilin
-        P24A2: "",
-        P25A1: "", // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-        P25A2: "",
-        P27A1: "", // İş Yaşamında Rolün
-        P27A2: "",
-        P27A3: "",
-        P27A4: "",
-        P27A5: "",
-        P27A6: "",
-        P30A1: "", // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-        P30A2: "", // Güçlü Yanların
-        P30A3: "",
-        P30A4: "",
-        P30A5: "",
-        P30A6: "",
+        P18A1: lifestyle(lifestyleData[0], 25, "p2"),
+        P18A2: lifestyle(lifestyleData[0], 25, "p3"),
+        P18A3: lifestyle(lifestyleData[0], 25, "motto") // motto
+        P19A1: lifestyle(lifestyleData[0], 25, "name"),
+        P19A2: lifestyle(lifestyleData[0], 25, "evaluation_1"),
+        P19A3: lifestyle(lifestyleData[0], 25, "evaluation_2"),
+        P19A4: lifestyle(lifestyleData[0], 25, "evaluation_3"),
+        P19A5: lifestyle(lifestyleData[0], 25, "evaluation_4"),
+        P19A6: lifestyle(lifestyleData[0], 25, "evaluation_5"),
+        P20A1: communication(communicationData[0], 25, "name"),
+        P20A2: communication(communicationData[0], 25, "1"),
+        P20A3: communication(communicationData[0], 25, "2"),
+        P20A4: communication(communicationData[0], 25, "3"),
+        P20A5: communication(communicationData[0], 25, "4"),
+        P20A6: communication(communicationData[0], 25, "5"),
+        P20A7: communication(communicationData[0], 25, "6"),
+        P20A8: communication(communicationData[0], 25, "7"),
+        P21A1: communication(communicationData[0], 25, "1_s2"), // İş Yerinde Etkili İletişim ve Katılım
+        P21A2: communication(communicationData[0], 25, "2_s2") ,
+        P21A3: communication(communicaitonData[0], 25, "3_s2"),
+        P21A4: communication(communicationData[0], 25, "4_s2"),
+        P22A1: communication(communicationData[0], 25, "name"), // İletişim ve Etkileşim Tarzın
+        P22A2: communication(communicationData[0], 25, "1_s3"),
+        P22A3: communication(communicationData[0], 25, "2_s3"),
+        P22A4: communication(communicationData[0], 25, "3_s3"),
+        P22A5: communication(communicationData[0], 25, "4_s3"),
+        P22A6: communication(communicationData[0], 25, "5_s3"),
+        P24A1: worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin
+        P24A2: worklearnstyle(worklearnData[0], 25, "context"),
+        P25A1: worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+        P25A2: worklearnstyle(worklearnData[0], 25, "s3_1"),
+        P25A3: worklearnstyle(worklearnData[0], 25, "s3_2"),
+        P25A4: worklearnstyle(worklearnData[0], 25, "s3_3"),
+        P25A5: worklearnstyle(worklearnData[0], 25, "s3_4"),
+        P25A6: worklearnstyle(worklearnData[0], 25, "s3_5"),
+        P25A7: worklearnstyle(worklearnData[0], 25, "s3_6"),
+        P27A1: is_y_r(is_y_rData[0], 25, "name"), // İş Yaşamında Rolün
+        P27A2: is_y_r(is_y_rData[0], 25, "s2_1_1"),
+        P27A3: is_y_r(is_y_rData[0], 25, "s2_2"),
+        P27A4: is_y_r(is_y_rData[0], 25, "s2_2_1"),
+        P27A5: is_y_r(is_y_rData[0], 25, "s2_3"),
+        P27A6: is_y_r(is_y_rData[0], 25, "s2_3_1"),
+        P30A1: "",// is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+        P30A2: "",// is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+        P30A3: "",// is_y_r(is_y_rData[0], 25, "s3_1"),
+        P30A4: "",// is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+        P30A5: "",// is_y_r(is_y_rData[0], 25, "s3_2_1"),
         P31A1: "",
         P31A2: "",
         P31A3: "",
@@ -2814,44 +4907,61 @@ export default async ({ req, res, log, error }) => {
         P31A5: "",
         P31A6: "",
         P34A1: "", // Senin Karar Verme Stratejin
-        P34A2: "",
-        P34A3: "",
-        P34A4: "",
-        P34A5: "",
-        P35A1: "",
-        P35A2: "",
-        P35A3: "",
-        P35A4: "",
-        P35A5: "",
+        P34A2: decision_strategy(decision_strategyData[0], 25, "name"),
+        P34A3: decision_strategy(decision_strategyData[0], 25, "s3_x_2"), 
+        P34A4: decision_strategy(decision_strategyData[0], 25, "s3_x_4"),
+        P34A5: decision_strategy(decision_strategyData[0], 25, "s3_x_5"), 
+        P35A1: decision_strategy(decision_strategyData[0], 25, "s4_x_title"),
+        P35A2: decision_strategy(decision_strategyData[0], 25, "s4_x_text"),
+        P35A3: "Adımlar",
+        P35A4: decision_strategy(decision_strategyData[0], 25, "s4_x_1"), 
+        P35A5: decision_strategy(decision_strategyData[0], 25, "s4_x_2"),
+        P35A6: decision_strategy(decision_strategyData[0], 25, "s4_x_3"),
+        P35A7: decision_strategy(decision_strategyData[0], 25, "s4_x_4"),
+        P35A8: decision_strategy(decision_strategyData[0], 25, "s4_x_5"),
         P35A6: "image",
-        P36A1: "",
-        P36A2: "",
-        P37A1: "",
-        P37A2: "",
-        P37A3: "",
-        P37A4: "",
-        P37A5: "",
-        P37A6: "",
-        P38A1: "", // Sana En uygun kariyer Seçenekleri Genel Sektörler
-        P38A2: "",
-        P38A3: "",
-        P38A4: "", // Güncel İşler
-        P38A5: "",
-        P38A6: "",
-        P39A1: "",
-        P39A2: "",
-        P39A3: "",
-        P39A4: "", // Geleceğin İşleri
-        P39A5: "",
-        P39A6: "",
-        P40A1: "", // Sana En uygun kariyer seçenekleri
-        P40A2: "",
-        P40A3: "",
-        P40A4: "",
-        P40A5: "",
-        P40A6: "",
-        P40A7: "",
-        P41A1: "" // Sevgili Dinçer
+        P36A1: "image",
+        P36A2: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
+        P36A3: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
+        P36A4: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
+        P37A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
+        P37A2: kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2"),
+        P37A3: kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2"),
+        P37A4: kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2"),
+        P37A5: kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2"),
+        P37A6: kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2"),
+        P38A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"), // Sana En uygun kariyer Seçenekleri Genel Sektörler
+        P38A2: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
+        P38A3: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
+        P38A4: kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"), // Güncel İşler
+        P38A5: kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1"),
+        P38A6: kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1"),
+        P39A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
+        P39A2: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
+        P39A3: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
+        P39A4: kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"), // Geleceğin İşleri
+        P39A5: kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1"),
+        P39A6: kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1"),
+        P40A1: kariyer_secim(careerSelectionLastResult, 25, "sector"), // Sana En uygun kariyer seçenekleri
+        P40A2: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decision_strategyData[0].sectorName + "x_1"),
+        P40A3: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decision_strategyData[0].sectorName + "x_3"),
+        P40A4: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_4"),
+        P40A5: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_5"),
+        P40A6: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_6"),
+        P40A7: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_7"),
+        P40A8: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_1"),
+        P40A9: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_3"),
+        P40A10: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_4"),
+        P40A11: kariyer_secim(careerSelectionLastResult, 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_5"),
+        P40A12: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_6"),
+        P40A13: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_7"),
+        P40A14: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_1"),
+        P40A15: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_3"),
+        P40A16: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_4"),
+        P40A17: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_5"),
+        P40A18: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_6"),
+        P40A19: kariyer_secim(decision_strategyData[0], 25, "s7_x_" + decisionStrategyData[0].sectorName + "x_7"),
+        P41A14: "Sevgili " + rawData.find(x => x.name == "kisiselbilgi / isim") // Sevgili Dinçer
 
     }
 
