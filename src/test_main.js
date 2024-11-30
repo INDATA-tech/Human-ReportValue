@@ -7031,6 +7031,668 @@ export default async ({ req, res, log, error }) => {
     //}
   };
 
+  let guclu_yanlarin = (guclu_yanlarinData, age, type) => {
+    if (guclu_yanlarinData[0] == "57_10") {
+      if (type == "57_10_1") {
+        return guclu_yanlarin_57_10_1;
+      } else if (type == "57_10_2") {
+        return guclu_yanlarin_57_10_2;
+      } else if ( type == "57_10_3") {
+        return guclu_yanlarin_57_10_3;
+      } else if ( type == "57_10_4") {
+        return guclu_yanlarin_57_10_4;
+      } else if ( type == "57_10_5") {
+        return guclu_yanlarin_57_10_5
+      } else if ( type == "57_10_6") {
+        return guclu_yanlarin_57_10_6
+      }
+    } else if ( guclu_yanlarinData[0] == "63-4") {
+      if (type == "63_4_1") {
+        return guclu_yanlarin_64_4_1
+      } else if (type == "63_4_2") {
+        return guclu_yanlarin_64_4_2
+      } else if (type == "63_4_3") {
+        return guclu_yanlarin_64_4_3;        
+      } else if (type == "63_4_4") {
+        return guclu_yanlarin_64_4_4;
+      } else if (type == "63_4_5") {
+        return guclu_yanlarin_64_4_5;
+      } else if (type == "63_4_6") {
+        return guclu_yanlarin_64_4_5;
+      } 
+    } else if ( guclu_yanlarinData[0] == "45-21") {
+      if (type == "45_21_1") {
+        return guclu_yanlarin_64_4_1;
+      } else if (type == "45_21_2") {
+        return guclu_yanlarin_64_4_2;
+      } else if (type == "45_21_3") {
+        return guclu_yanlarin_64_4_3;
+      } else if (type == "45_21_4") {
+        return guclu_yanlarin_64_4_4;
+      } else if (type == "45_21_5") {
+        return guclu_yanlarin_64_4_5;
+      } else if (type == "45_21_6") {
+        return guclu_yanlarin_64_4_6;
+      } 
+    } else if ( type == "3-60") {
+      if (type == "3_60_1") {
+        return guclu_yanlarin_3_60_1;
+      } else if (type == "3_60_2") {
+        return guclu_yanlarin_3_60_2;
+      } else if (type == "3_60_3") {
+        return guclu_yanlarin_3_60_3;
+      } else if (type == "3_60_4") {
+        return guclu_yanlarin_3_60_4;
+      } else if (type == "3_60_5") {
+        return guclu_yanlarin_3_60_5;
+      } else if (type == "3_60_6") {
+        return guclu_yanlarin_3_60_6;
+      } 
+    } else if ( type == "5-15") {
+      if (type == "5_15_1") {
+        return guclu_yanlarin_5_15_1;
+      } else if (type == "5_15_2") {
+        return guclu_yanlarin_5_15_2;
+      } else if (type == "5_15_3") {
+        return guclu_yanlarin_5_15_3;
+      } else if (type == "5_15_4") {
+        return guclu_yanlarin_5_15_4;
+      } else if (type == "5_15_5") {
+        return guclu_yanlarin_5_15_5;
+      } else if (type == "3_15_6") {
+        return guclu_yanlarin_5_15_6;
+      } 
+    } else if ( type == "64-47") {
+      if (type == "64_47_1") {
+        return guclu_yanlarin_64_47_1;
+      } else if (type == "64_47_2") {
+        return guclu_yanlarin_64_47_2;
+      } else if (type == "64_47_3") {
+        return guclu_yanlarin_64_47_3;
+      } else if (type == "64_47_4") {
+        return guclu_yanlarin_64_47_4;
+      } else if (type == "64_47_5") {
+        return guclu_yanlarin_64_47_5;
+      } else if (type == "64_47_6") {
+        return guclu_yanlarin_64_47_6;
+      } 
+    } else if ( type == "27-50") {
+      if (type == "27_50_1") {
+        return guclu_yanlarin_27_50_1;
+      } else if (type == "27_50_2") {
+        return guclu_yanlarin_27_50_2;
+      } else if (type == "27_50_3") {
+        return guclu_yanlarin_27_50_3;
+      } else if (type == "27_50_4") {
+        return guclu_yanlarin_27_50_4;
+      } else if (type == "27_50_5") {
+        return guclu_yanlarin_27_50_5;
+      } else if (type == "27_50_6") {
+        return guclu_yanlarin_27_50_6;
+      } 
+    } else if ( type == "26-44") {
+      if (type == "26_44_1") {
+        return guclu_yanlarin_26_44_1;
+      } else if (type == "26_44_2") {
+        return guclu_yanlarin_26_44_2;
+      } else if (type == "26_44_3") {
+        return guclu_yanlarin_26_44_3;
+      } else if (type == "26_44_4") {
+        return guclu_yanlarin_26_44_4;
+      } else if (type == "26_44_5") {
+        return guclu_yanlarin_26_44_5;
+      } else if (type == "26_44_6") {
+        return guclu_yanlarin_26_44_6;
+      } 
+    } else if ( type == "32-50") {
+      if (type == "32_50_1") {
+        return guclu_yanlarin_32_50_1;
+      } else if (type == "32_50_2") {
+        return guclu_yanlarin_32_50_2;
+      } else if (type == "32_50_3") {
+        return guclu_yanlarin_32_50_3;
+      } else if (type == "32_50_4") {
+        return guclu_yanlarin_32_50_4;
+      } else if (type == "32_50_5") {
+        return guclu_yanlarin_32_50_5;
+      } else if (type == "32_50_6") {
+        return guclu_yanlarin_32_50_6;
+      } 
+    } else if ( type == "19-49") {
+      if (type == "19_49_1") {
+        return guclu_yanlarin_19_49_1;
+      } else if (type == "19_49_2") {
+        return guclu_yanlarin_19_49_2;
+      } else if (type == "19_49_3") {
+        return guclu_yanlarin_19_49_3;
+      } else if (type == "19_49_4") {
+        return guclu_yanlarin_19_49_4;
+      } else if (type == "19_49_5") {
+        return guclu_yanlarin_19_49_5;
+      } else if (type == "19_49_6") {
+        return guclu_yanlarin_19_49_6;
+      } 
+    } else if ( type == "37-40") {
+      if (type == "37_40_1") {
+        return guclu_yanlarin_37_40_1;
+      } else if (type == "37_40_2") {
+        return guclu_yanlarin_37_40_2;
+      } else if (type == "37_40_3") {
+        return guclu_yanlarin_37_40_3;
+      } else if (type == "37_40_4") {
+        return guclu_yanlarin_37_40_4;
+      } else if (type == "37_40_5") {
+        return guclu_yanlarin_37_40_5;
+      } else if (type == "37_40_6") {
+        return guclu_yanlarin_37_40_6;
+      } 
+    } else if ( type == "34-57") {
+      if (type == "34_57_1") {
+        return guclu_yanlarin_34_57_1;
+      } else if (type == "34_57_2") {
+        return guclu_yanlarin_34_57_2;
+      } else if (type == "34_57_3") {
+        return guclu_yanlarin_34_57_3;
+      } else if (type == "34_57_4") {
+        return guclu_yanlarin_34_57_4;
+      } else if (type == "34_57_5") {
+        return guclu_yanlarin_47_57_5;
+      } else if (type == "34_57_6") {
+        return guclu_yanlarin_47_57_6;
+      } 
+    } else if ( type == "34-20") {
+      if (type == "34_20_1") {
+        return guclu_yanlarin_34_20_1;
+      } else if (type == "34_20_2") {
+        return guclu_yanlarin_34_20_2;
+      } else if (type == "34_20_3") {
+        return guclu_yanlarin_34_20_3;
+      } else if (type == "34_20_4") {
+        return guclu_yanlarin_34_20_4;
+      } else if (type == "34_20_5") {
+        return guclu_yanlarin_34_20_5;
+      } else if (type == "34_20_6") {
+        return guclu_yanlarin_34_20_6;
+      } 
+    } else if ( type == "51-25") {
+      if (type == "51_25_1") {
+        return guclu_yanlarin_51_25_1;
+      } else if (type == "51_25_2") {
+        return guclu_yanlarin_51_25_2;
+      } else if (type == "51_25_3") {
+        return guclu_yanlarin_51_25_3;
+      } else if (type == "51_25_4") {
+        return guclu_yanlarin_51_25_4;
+      } else if (type == "51_25_5") {
+        return guclu_yanlarin_51_25_5;
+      } else if (type == "51_25_6") {
+        return guclu_yanlarin_51_25_6;
+      } 
+    } else if ( type == "1-8") {
+      if (type == "1_8_1") {
+        return guclu_yanlarin_1_8_1;
+      } else if (type == "1_8_2") {
+        return guclu_yanlarin_1_8_2;
+      } else if (type == "1_8_3") {
+        return guclu_yanlarin_1_8_3;
+      } else if (type == "1_8_4") {
+        return guclu_yanlarin_1_8_4;
+      } else if (type == "1_8_5") {
+        return guclu_yanlarin_1_8_5;
+      } else if (type == "1_8_6") {
+        return guclu_yanlarin_1_8_6;
+      } 
+    } else if ( type == "38-28") {
+      if (type == "38_28_1") {
+        return guclu_yanlarin_38_28_1;
+      } else if (type == "38_28_2") {
+        return guclu_yanlarin_38_28_2;
+      } else if (type == "38_28_3") {
+        return guclu_yanlarin_38_28_3;
+      } else if (type == "38_28_4") {
+        return guclu_yanlarin_38_28_4;
+      } else if (type == "38_28_5") {
+        return guclu_yanlarin_38_28_5;
+      } else if (type == "38_28_6") {
+        return guclu_yanlarin_38_28_6;
+      } 
+    } else if ( type == "7-31") {
+      if (type == "7_31_1") {
+        return guclu_yanlarin_7_31_1;
+      } else if (type == "7_31_2") {
+        return guclu_yanlarin_7_31_2;
+      } else if (type == "7_31_3") {
+        return guclu_yanlarin_7_31_3;
+      } else if (type == "7_31_4") {
+        return guclu_yanlarin_7_31_4;
+      } else if (type == "7_31_5") {
+        return guclu_yanlarin_7_31_5;
+      } else if (type == "7_31_6") {
+        return guclu_yanlarin_7_31_6;
+      } 
+    } else if ( type == "57-20") {
+      if (type == "57_20_1") {
+        return guclu_yanlarin_57_20_1;
+      } else if (type == "57_20_2") {
+        return guclu_yanlarin_57_20_2;
+      } else if (type == "57_20_3") {
+        return guclu_yanlarin_57_20_3;
+      } else if (type == "57_20_4") {
+        return guclu_yanlarin_57_20_4;
+      } else if (type == "57_20_5") {
+        return guclu_yanlarin_57_20_5;
+      } else if (type == "57_20_6") {
+        return guclu_yanlarin_57_20_6;
+      } 
+    } else if ( type == "39-55") {
+      if (type == "39_55_1") {
+        return guclu_yanlarin_39_55_1;
+      } else if (type == "39_55_2") {
+        return guclu_yanlarin_39_55_2;
+      } else if (type == "39_55_3") {
+        return guclu_yanlarin_39_55_3;
+      } else if (type == "39_55_4") {
+        return guclu_yanlarin_39_55_4;
+      } else if (type == "39_55_5") {
+        return guclu_yanlarin_39_55_5;
+      } else if (type == "39_55_6") {
+        return guclu_yanlarin_39_55_6;
+      } 
+    } else if ( type == "14-2") {
+      if (type == "14_2_1") {
+        return guclu_yanlarin_14_2_1;
+      } else if (type == "14_2_2") {
+        return guclu_yanlarin_14_2_2;
+      } else if (type == "14_2_3") {
+        return guclu_yanlarin_14_2_3;
+      } else if (type == "14_2_4") {
+        return guclu_yanlarin_14_2_4;
+      } else if (type == "14_2_5") {
+        return guclu_yanlarin_14_2_5;
+      } else if (type == "14_2_6") {
+        return guclu_yanlarin_14_2_6;
+      } 
+    } else if ( type == "22-12") {
+      if (type == "22_12_1") {
+        return guclu_yanlarin_22_12_1;
+      } else if (type == "22_12_2") {
+        return guclu_yanlarin_22_12_2;
+      } else if (type == "22_12_3") {
+        return guclu_yanlarin_22_12_3;
+      } else if (type == "22_12_4") {
+        return guclu_yanlarin_22_12_4;
+      } else if (type == "22_12_5") {
+        return guclu_yanlarin_22_12_5;
+      } else if (type == "22_12_6") {
+        return guclu_yanlarin_22_12_6;
+      } 
+    } else if ( type == "61-24") {
+      if (type == "61_24_1") {
+        return guclu_yanlarin_61_24_1;
+      } else if (type == "61_24_2") {
+        return guclu_yanlarin_61_24_2;
+      } else if (type == "61_24_3") {
+        return guclu_yanlarin_61_24_3;
+      } else if (type == "61_24_4") {
+        return guclu_yanlarin_61_24_4;
+      } else if (type == "61_24_5") {
+        return guclu_yanlarin_61_24_5;
+      } else if (type == "61_24_6") {
+        return guclu_yanlarin_61_24_6;
+      } 
+    } else if ( type == "43-23") {
+      if (type == "43_23_1") {
+        return guclu_yanlarin_43_23_1;
+      } else if (type == "43_23_2") {
+        return guclu_yanlarin_43_23_2;
+      } else if (type == "43_23_3") {
+        return guclu_yanlarin_43_23_3;
+      } else if (type == "43_23_4") {
+        return guclu_yanlarin_43_23_4;
+      } else if (type == "43_23_5") {
+        return guclu_yanlarin_43_23_5;
+      } else if (type == "43_23_6") {
+        return guclu_yanlarin_43_23_6;
+      } 
+    } else if ( type == "52-9") {
+      if (type == "52_9_1") {
+        return guclu_yanlarin_52_9_1;
+      } else if (type == "52_9_2") {
+        return guclu_yanlarin_52_9_2;
+      } else if (type == "52_9_3") {
+        return guclu_yanlarin_52_9_3;
+      } else if (type == "52_9_4") {
+        return guclu_yanlarin_52_9_4;
+      } else if (type == "52_9_5") {
+        return guclu_yanlarin_52_9_5;
+      } else if (type == "52_9_6") {
+        return guclu_yanlarin_52_9_6;
+      } 
+    } else if ( type == "58-18") {
+      if (type == "58_18_1") {
+        return guclu_yanlarin_58_18_1;
+      } else if (type == "58_18_2") {
+        return guclu_yanlarin_58_18_2;
+      } else if (type == "58_18_3") {
+        return guclu_yanlarin_58_18_3;
+      } else if (type == "58_18_4") {
+        return guclu_yanlarin_58_18_4;
+      } else if (type == "58_18_5") {
+        return guclu_yanlarin_58_18_5;
+      } else if (type == "58_18_6") {
+        return guclu_yanlarin_58_18_6;
+      } 
+    } else if ( type == "48-16") {
+      if (type == "48_16_1") {
+        return guclu_yanlarin_48_16_1;
+      } else if (type == "48_16_2") {
+        return guclu_yanlarin_48_18_2;
+      } else if (type == "48_16_3") {
+        return guclu_yanlarin_48_18_3;
+      } else if (type == "48_16_4") {
+        return guclu_yanlarin_48_18_4;
+      } else if (type == "48_16_5") {
+        return guclu_yanlarin_48_18_5;
+      } else if (type == "48_16_6") {
+        return guclu_yanlarin_48_18_6;
+      } 
+    } else if ( type == "17-62") {
+      if (type == "17_62_1") {
+        return guclu_yanlarin_17_62_1;
+      } else if (type == "17_62_2") {
+        return guclu_yanlarin_17_62_2;
+      } else if (type == "17_62_3") {
+        return guclu_yanlarin_17_62_3;
+      } else if (type == "17_62_4") {
+        return guclu_yanlarin_17_62_4;
+      } else if (type == "17_62_5") {
+        return guclu_yanlarin_17_62_5;
+      } else if (type == "17_62_6") {
+        return guclu_yanlarin_17_62_6;
+      }
+    } else if ( type == "53-42") {
+      if (type == "53_42_1") {
+        return guclu_yanlarin_53_42_1;
+      } else if (type == "53_42_2") {
+        return guclu_yanlarin_53_42_2;
+      } else if (type == "53_42_3") {
+        return guclu_yanlarin_53_42_3;
+      } else if (type == "53_42_4") {
+        return guclu_yanlarin_53_42_4;
+      } else if (type == "53_42_5") {
+        return guclu_yanlarin_53_42_5;
+      } else if (type == "53_42_6") {
+        return guclu_yanlarin_53_42_6;
+      }
+    } else if ( type == "29-46") {
+      if (type == "29_46_1") {
+        return guclu_yanlarin_29_46_1;
+      } else if (type == "29_46_2") {
+        return guclu_yanlarin_29_46_2;
+      } else if (type == "29_46_3") {
+        return guclu_yanlarin_29_46_3;
+      } else if (type == "29_46_4") {
+        return guclu_yanlarin_29_46_4;
+      } else if (type == "29_46_5") {
+        return guclu_yanlarin_29_46_5;
+      } else if (type == "29_46_6") {
+        return guclu_yanlarin_29_46_6;
+      }
+    } else if ( type == "13-33") {
+      if (type == "13_33_1") {
+        return guclu_yanlarin_13_33_1;
+      } else if (type == "13_33_2") {
+        return guclu_yanlarin_13_33_2
+      } else if (type == "13_33_3") {
+        return guclu_yanlarin_13_33_3
+      } else if (type == "13_33_4") {
+        return guclu_yanlarin_13_33_4
+      } else if (type == "13_33_5") {
+        return guclu_yanlarin_13_33_5
+      } else if (type == "13_33_6") {
+        return guclu_yanlarin_13_33_6
+      }
+    } else if ( type == "41-30") {
+      if (type == "41_30_1") {
+        return guclu_yanlarin_41_30_1
+      } else if (type == "41_30_2") {
+        return guclu_yanlarin_41_30_2
+      } else if (type == "41_30_3") {
+        return guclu_yanlarin_41_30_3
+      } else if (type == "41_30_4") {
+        return guclu_yanlarin_41_30_4
+      } else if (type == "41_30_5") {
+        return guclu_yanlarin_41_30_5
+      } else if (type == "41_30_6") {
+        return guclu_yanlarin_41_30_6
+      }
+    } else if ( type == "36-35") {
+      if (type == "36_35_1") {
+        return guclu_yanlarin_36_35_1
+      } else if (type == "36_35_2") {
+        return guclu_yanlarin_36_35_2
+      } else if (type == "36_35_3") {
+        return guclu_yanlarin_36_35_3
+      } else if (type == "36_35_4") {
+        return guclu_yanlarin_36_35_4
+      } else if (type == "36_35_5") {
+        return guclu_yanlarin_36_35_5
+      } else if (type == "36_35_6") {
+        return guclu_yanlarin_36_35_6
+      }
+    } else if ( type == "11-56") {
+      if (type == "11_56_1") {
+        return guclu_yanlarin_11_56_1
+      } else if (type == "11_56_2") {
+        return guclu_yanlarin_11_56_2
+      } else if (type == "11_56_3") {
+        return guclu_yanlarin_11_56_3
+      } else if (type == "11_56_4") {
+        return guclu_yanlarin_11_56_4
+      } else if (type == "11_56_5") {
+        return guclu_yanlarin_11_56_5
+      } else if (type == "11_56_6") {
+        return guclu_yanlarin_11_56_6
+      }
+    } else if ( type == "34-10") {
+      if (type == "34_10_1") {
+        return guclu_yanlarin_34_10_1
+      } else if (type == "34_10_2") {
+        return guclu_yanlarin_34_10_2
+      } else if (type == "34_10_3") {
+        return guclu_yanlarin_34_10_3
+      } else if (type == "34_10_4") {
+        return guclu_yanlarin_34_10_4
+      } else if (type == "34_10_5") {
+        return guclu_yanlarin_34_10_5
+      } else if (type == "34_10_6") {
+        return guclu_yanlarin_34_10_6
+      }
+    } else if ( type == "15") {
+      if (type == "15_1") {
+        return guclu_yanlarin_15_1
+      } else if (type == "15_2") {
+        return guclu_yanlarin_15_2
+      } else if (type == "15_3") {
+        return guclu_yanlarin_15_3
+      } else if (type == "15_4") {
+        return guclu_yanlarin_15_4
+      } else if (type == "15_5") {
+        return guclu_yanlarin_15_5
+      } else if (type == "15_6") {
+        return guclu_yanlarin_15_6
+      }
+    } else if ( type == "5") {
+      if (type == "5_1") {
+        return guclu_yanlarin_5_1
+      } else if (type == "5_2") {
+        return guclu_yanlarin_5_2
+      } else if (type == "5_3") {
+        return guclu_yanlarin_5_3
+      } else if (type == "5_4") {
+        return guclu_yanlarin_5_4
+      } else if (type == "5_5") {
+        return guclu_yanlarin_5_5
+      } else if (type == "5_6") {
+        return guclu_yanlarin_5_6
+      }
+    } else if ( type == "46") {
+      if (type == "46_1") {
+        return guclu_yanlarin_46_1
+      } else if (type == "46_2") {
+        return guclu_yanlarin_46_2
+      } else if (type == "46_3") {
+        return guclu_yanlarin_46_3
+      } else if (type == "46_4") {
+        return guclu_yanlarin_46_4
+      } else if (type == "46_5") {
+        return guclu_yanlarin_46_5
+      } else if (type == "46_6") {
+        return guclu_yanlarin_46_6
+      }
+    } else if ( type == "29") {
+      if (type == "29_1") {
+        return guclu_yanlarin_29_1
+      } else if (type == "29_2") {
+        return guclu_yanlarin_29_2
+      } else if (type == "29_3") {
+        return guclu_yanlarin_29_3
+      } else if (type == "29_4") {
+        return guclu_yanlarin_29_4
+      } else if (type == "29_5") {
+        return guclu_yanlarin_29_5
+      } else if (type == "29_6") {
+        return guclu_yanlarin_29_6
+      }
+    } else if ( type == "14") {
+      if (type == "14_1") {
+        // return guclu_yanlarin_14_2_1
+      } else if (type == "14_2") {
+
+      } else if (type == "14_3") {
+
+      } else if (type == "14_4") {
+
+      } else if (type == "14_5") {
+
+      } else if (type == "14_6") {
+
+      }
+    } else if ( type == "2") {
+      if (type == "2_1") {
+        return guclu_yanlarin_2_1
+      } else if (type == "2_2") {
+
+      } else if (type == "2_3") {
+
+      } else if (type == "2_4") {
+
+      } else if (type == "2_5") {
+
+      } else if (type == "2_6") {
+
+      }
+    } else if ( type == "1") {
+      if (type == "1_1") {
+        return guclu_yanlarin_1_1
+      } else if (type == "1_2") {
+
+      } else if (type == "1_3") {
+
+      } else if (type == "1_4") {
+
+      } else if (type == "1_5") {
+
+      } else if (type == "1_6") {
+
+      }
+    } else if ( type == "8") {
+      if (type == "8_1") {
+        // return guclu_yanlarin_8_1
+      } else if (type == "8_2") {
+
+      } else if (type == "8_3") {
+
+      } else if (type == "8_4") {
+
+      } else if (type == "8_5") {
+
+      } else if (type == "8_6") {
+
+      }
+    } else if ( type == "7") {
+      if (type == "7_1") {
+        // return guclu_yanlarin_7_1
+      } else if (type == "7_2") {
+
+      } else if (type == "7_3") {
+
+      } else if (type == "7_4") {
+
+      } else if (type == "7_5") {
+
+      } else if (type == "7_6") {
+
+      }
+    } else if ( type == "37") {
+      if (type == "37_1") {
+        // return guclu_yanlarin_37_1
+      } else if (type == "37_2") {
+
+      } else if (type == "37_3") {
+
+      } else if (type == "37_4") {
+
+      } else if (type == "37_5") {
+
+      } else if (type == "37_6") {
+
+      }
+    } else if ( type == "31") {
+      if (type == "31_1") {
+
+      } else if (type == "31_2") {
+
+      } else if (type == "31_3") {
+
+      } else if (type == "31_4") {
+
+      } else if (type == "31_5") {
+
+      } else if (type == "31_6") {
+
+      }
+    } else if ( type == "13") {
+      if (type == "13_1") {
+
+      } else if (type == "13_2") {
+
+      } else if (type == "13_3") {
+
+      } else if (type == "13_4") {
+
+      } else if (type == "13_5") {
+
+      } else if (type == "13_6") {
+
+      }
+    } else if ( type == "33") {
+      if (type == "33_1") {
+
+      } else if (type == "33_2") {
+
+      } else if (type == "33_3") {
+
+      } else if (type == "33_4") {
+
+      } else if (type == "33_5") {
+
+      } else if (type == "33_6") {
+
+      }
+    }
+  }
+
   console.log(typeof rawData);
   var isim = Object.entries(rawData).find(
     (x) => x[0] == "kisiselbilgi / isim",
@@ -7195,18 +7857,18 @@ export default async ({ req, res, log, error }) => {
   var P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1");
   var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
   var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
-  var P30A1 = ""; // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A2 = ""; // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-  var P30A3 = ""; // is_y_r(is_y_rData[0], 25, "s3_1"),
-  var P30A4 = ""; // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-  var P30A5 = ""; // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-  var P31A1 = "";
-  var P31A2 = "";
-  var P31A3 = "";
-  var P31A4 = "";
-  var P31A5 = "";
-  var P31A6 = "";
-  var P34A1 = ""; // Senin Karar Verme Stratejin
+  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_1"),
+  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+  var P31A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P31A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P31A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P31A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P31A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P31A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
+  var P34A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // Senin Karar Verme Stratejin
   var P34A2 = decision_strategy(decision_strategyData[0], 25, "name");
   var P34A3 = decision_strategy(decision_strategyData[0], 25, "s3_x_2");
   var P34A4 = decision_strategy(decision_strategyData[0], 25, "s3_x_4");
