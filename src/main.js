@@ -8274,6 +8274,8 @@ export default async ({ req, res, log, error }) => {
     //}
   };
 
+
+
   var inputs_25_plus = {
     P1A1:
       rawData.find((x) => x.name == "kisiselbilgi / isim").string +
@@ -8419,19 +8421,20 @@ export default async ({ req, res, log, error }) => {
     P27A4: is_y_r(is_y_rData[0], 25, "s2_2_1"),
     P27A5: is_y_r(is_y_rData[0], 25, "s2_3"),
     P27A6: is_y_r(is_y_rData[0], 25, "s2_3_1"),
-    P30A1: "", // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-    P30A2: "", // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-    P30A3: "", // is_y_r(is_y_rData[0], 25, "s3_1"),
-    P30A4: "", // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-    P30A5: "", // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-    P31A1: "",
-    P31A2: "",
-    P31A3: "",
-    P31A4: "",
-    P31A5: "",
-    P31A6: "",
-    P34A1: "", // Senin Karar Verme Stratejin
-    P34A2: decision_strategy(decision_strategyData[0], 25, "name"),
+    P30A1: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_1"), // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+    P30A2: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_2"), // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+    P30A3: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_3"), // is_y_r(is_y_rData[0], 25, "s3_1"),
+    P30A4: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_4"), // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+    P30A5: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_5"), // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+    P30A6: guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_6"),
+    P31A1: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_1"),
+    P31A2: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_2"),
+    P31A3: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_3"),
+    P31A4: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_4"),
+    P31A5: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_5"),
+    P31A6: guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_6"),
+    P34A1: decision_strategy(decision_strategyData[0], 25, "name"), // Senin Karar Verme Stratejin
+    P34A2: decision_strategy(decision_strategyData[0], 25, "s3_x_1"),
     P34A3: decision_strategy(decision_strategyData[0], 25, "s3_x_2"),
     P34A4: decision_strategy(decision_strategyData[0], 25, "s3_x_4"),
     P34A5: decision_strategy(decision_strategyData[0], 25, "s3_x_5"),
