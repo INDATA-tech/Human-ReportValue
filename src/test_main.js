@@ -72,6 +72,14 @@ export default async ({ req, res, log, error }) => {
   var big5Data = processedData.big5;
   var aiData = processedData.ai;
   var teamworkData = processedData.teamwork;
+  var lifestyleData = processedData.api.Properties.Type;
+  var communicationData = processedData.api.Properties.Type;
+  var worklearnData =  api.Properties.Definition;
+  var is_y_rData = api.Properties.Profile
+  var decision_strategyData = {
+     strategy : strategy?.find(x => x.name === api.Properties.Strategy[0])?.value?.find(y => y.name === api.Properties.InnerAuthority[0])?.value ?? api.Properties.Strategy[0],
+     İnnerAuthority : api.Properties.InnerAuthority[0]
+  }  
   //log(big5Data);
   hollandData.sort((a, b) => b.value - a.value);
   big5Data.sort((a, b) => b.value - a.value);
@@ -945,7 +953,7 @@ export default async ({ req, res, log, error }) => {
     },
   ];
   var sortedUsageGate = siralaValueUzunlugunaGore(usageGate);
-
+  var guclu_yanlarinData = sortedUsageGate
   // Çalışma ve Öğrenme Stilin
   var age_12_25_title = "12-25 Yaş";
   var age_12_25 =
@@ -4209,7 +4217,7 @@ export default async ({ req, res, log, error }) => {
     "Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir. ";
   var communication_projector_2 =
     "Başkalarıyla Başarılı Etkileşimlerin Anahtarı... ";
-  var communicaiton_projector_3 =
+  var communication_projector_3 =
     "Katılmadan Önce Tanınma ve Davet Bekle: Tanınma konusunda başarılı olursun. Katılmadan önce, becerilerin, yeteneklerin ve rehberlik etme ve liderlik etme kapasiten için fark edildiğinden ve kabul edildiğinden emin ol. Bu, etkileşimlerinin özgün ve tanınmış bir temele dayanmasını sağlar. ";
   var communication_projector_4 = "Tanınma ve Davet:";
   var communication_projector_5 =
@@ -4230,13 +4238,13 @@ export default async ({ req, res, log, error }) => {
 
   var communication_projector_1_s3 =
     "Tanınma ve davet beklerken ne kadar sabırlı olabiliyorsun? Hangi durumlarda aceleyle harekete geçmek yerine, doğru fırsatların sana gelmesini bekleyebilirsin? ";
-  var communication_projector_1_s3 =
+  var communication_projector_2_s3 =
     "Sana sunulan davetler ve tanınma fırsatlarıyla ne kadar uyum içindesin? Bu fırsatların gerçekten seni en iyi yansıttığını nasıl fark edebilirsin? ";
-  var communication_projector_1_s3 =
+  var communication_projector_3_s3 =
     "Fikirlerini paylaşmadan önce davet edildiğini hissettiğinden emin oluyor musun? İlişkilerinde bu ince işaretleri nasıl daha iyi gözlemleyebilirsin? ";
-  var communication_projector_1_s3 =
+  var communication_projector_4_s3 =
     "Bire bir ilişkilerde nasıl parladığını fark ediyor musun? İş arkadaşlarınla daha derin bağlantılar kurmak için hangi yolları izleyebilirsin? ";
-  var communication_projector_1_s3 =
+  var communication_projector_5_s3 =
     "Projelerde veya rollerde tanınmaya açık olduğunu başkalarına nasıl hissettiriyorsun? Ulaşılabilir ve açık tavrını iş yerinde daha etkili bir şekilde nasıl gösterebilirsin? ";
 
   var communication_manifestor_0 = "Başlatıcı";
@@ -4304,9 +4312,9 @@ export default async ({ req, res, log, error }) => {
     "Etkileşime girmeden önce bekleyip düşünmek sana nasıl bir içgörü sağlıyor? Bu bekleme sürecini hangi durumlarda daha iyi uygulayabilirsin? ";
   var communication_reflektor_3_s3 =
     "Nazik ve sessiz varlığın, başkalarının kendilerini rahatça ifade etmelerine nasıl yardımcı oluyor? Bu özelliğini ekip çalışmalarında daha fazla nasıl kullanabilirsin? ";
-  var communication_reflektor_4_S3 =
+  var communication_reflektor_4_s3 =
     "Yansıtıcı içgörülerini başkalarıyla paylaşmadan önce değerlendirme yapmak için yeterince zaman ayırıyor musun? Stratejik bakış açını daha derinleştirmek için ne tür tartışmalar sana faydalı olabilir? ";
-  var communication_reflektor_5_S3 =
+  var communication_reflektor_5_s3 =
     "Çevrenin sağlığını gözlemleme yeteneğin, ekip arkadaşlarına ve projelerine nasıl katkıda bulunuyor? Bu içsel bilgeliği iş yerinde daha etkili bir şekilde nasıl ortaya koyabilirsin? ";
 
   var communication_manifesting_generator_0 = "Enerjik";
@@ -4703,99 +4711,99 @@ export default async ({ req, res, log, error }) => {
 
   let krktr_ozl = (big5Name, age, type) => {
     if (type == "name") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") { // self_discipline
         return krktr_ozl_self_discipline;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") { // extraversion
         return krktr_ozl_extraversion;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") { // compatibility
         return krktr_ozl_compatibility;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") { // emotional_resilience
         return krktr_ozl_emotional_resilience;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") { // openness_to_experience
         return krktr_ozl_openness_to_experience;
       }
     } else if (type == "character_elements") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_character_elements_self_discipline;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_character_elements_extraversion;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_character_elements_compatibility;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_character_elements_emotional_resilience;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_character_elements_openness_to_experience;
       }
-    } else if (type == "strenghts") {
-      if (big5Name == "self_discipline") {
+    } else if (type == "strenght") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_character_elements_self_discipline;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_type_elements_extraversion;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_type_elements_compatibility;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_type_elements_emotional_resilience;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_type_elements_openness_to_experience;
       }
-    } else if (type == "weaknesses") {
-      if (big5Name == "self_discipline") {
-        return krktr_ozl_weakness_self_discipline;
-      } else if (big5Name == "extraversion") {
-        return krktr_ozl_weakness_elements_extraversion;
-      } else if (big5Name == "compatibility") {
-        return krktr_ozl_weakness_elements_compatibility;
-      } else if (big5Name == "emotional_resilience") {
-        return krktr_ozl_weakness_elements_emotional_resilience;
-      } else if (big5Name == "openness_to_experience") {
-        return krktr_ozl_weakness_elements_openness_to_experience;
+    } else if (type == "weakness") {
+      if (big5Name == "Öz Disiplin") {
+        return krktr_ozl_weaknesses_self_discipline;
+      } else if (big5Name == "Dışa Dönüklük") {
+        return krktr_ozl_weaknesses_extraversion;
+      } else if (big5Name == "Uyumluluk") {
+        return krktr_ozl_weaknesses_compatibility;
+      } else if (big5Name == "Duygusal Dayanıklılık") {
+        return krktr_ozl_weaknesses_emotional_resilience;
+      } else if (big5Name == "Deneyime Açıklık") {
+        return krktr_ozl_weaknesses_openness_to_experience;
       }
     } else if (type == "other_attributes") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_other_attributes_self_discipline;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_other_attributes_extraversion;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_other_attributes_compatibility;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_other_attributes_emotional_resilience;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_other_attributes_openness_to_experience;
       }
     } else if (type == "questions1") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_40_plus_self_discipline_questions_1;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_40_plus_extraversion_questions_1;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_40_plus_compatibility_questions_1;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_1;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_40_plus_openness_to_experience_question_1;
       }
     } else if (type == "question2") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_40_plus_self_discipline_questions_2;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_40_plus_extraversion_questions_2;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_40_plus_compatibility_questions_2;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_2;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_40_plus_openness_to_experience_question_2;
       }
     } else if (type == "question3") {
       if (big5Name == "self_discipline") {
         return krktr_ozl_40_plus_self_discipline_questions_3;
-      } else if (big5Name == "extraversion") {
+      } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_40_plus_extraversion_questions_3;
-      } else if (big5Name == "compatibility") {
+      } else if (big5Name == "Uyumluluk") {
         return krktr_ozl_40_plus_compatibility_questions_3;
-      } else if (big5Name == "emotional_resilience") {
+      } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_3;
-      } else if (big5Name == "openness_to_experience") {
+      } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_40_plus_openness_to_experience_question_3;
       }
     }
@@ -4888,7 +4896,7 @@ export default async ({ req, res, log, error }) => {
       } else if (hollandName == "Geleneksel") {
         return kslk_ozl_traditional_you_may_not_like;
       }
-    } else if (type == "questions_1") {
+    } else if (type == "question_1") {
       if (hollandName == "Gerçekçi") {
         return kslk_ozl_25_plus_realistic_questions_1;
       } else if (hollandName == "Araştırıcı") {
@@ -4902,7 +4910,7 @@ export default async ({ req, res, log, error }) => {
       } else if (hollandName == "Geleneksel") {
         return kslk_ozl_25_plus_traditional_questions_1;
       }
-    } else if (type == "questions_2") {
+    } else if (type == "question_2") {
       if (hollandName == "Gerçekçi") {
         return kslk_ozl_25_plus_realistic_questions_2;
       } else if (hollandName == "Araştırıcı") {
@@ -4916,7 +4924,7 @@ export default async ({ req, res, log, error }) => {
       } else if (hollandName == "Geleneksel") {
         return kslk_ozl_25_plus_traditional_questions_2;
       }
-    } else if (type == "questions_3") {
+    } else if (type == "question_3") {
       if (hollandName == "Gerçekçi") {
         return kslk_ozl_25_plus_realistic_questions_3;
       } else if (hollandName == "Araştırıcı") {
@@ -5127,11 +5135,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_0;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_0;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_0;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_0;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_0;
       }
     } else if (type == "p1") {
@@ -5139,11 +5147,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_1;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_1;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_1;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_1;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_1;
       }
     } else if (type == "p2") {
@@ -5151,11 +5159,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_2;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_2;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_2;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_2;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_2;
       }
     } else if (type == "p3") {
@@ -5163,11 +5171,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_3;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_3;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_3;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_3;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_3;
       }
     } else if (type == "motto") {
@@ -5175,35 +5183,35 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_motto;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_motto;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_motto;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_motto;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_motto;
       }
     } else if (type == "evaluation_1") {
       if (lifestyleData == "Manifesting Generator") {
         return lifestyle_25_plus_manifesting_generator_evaluation_1;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_motto_evaluation_1;
-      } else if (lifestyleData == "Projektor") {
-        return lifestyle_25_plus_projektor_motto_evaluation_1;
+        return lifestyle_25_plus_generator_evaluation_1;
+      } else if (lifestyleData == "Projector") {
+        return lifestyle_25_plus_projektor_evaluation_1;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_motto_evaluation_1;
-      } else if (lifestyleData == "Reflektor") {
-        return lifestyle_25_plus_reflektor_motto_evaluation_1;
+        return lifestyle_25_plus_manifestor_evaluation_1;
+      } else if (lifestyleData == "Reflector") {
+        return lifestyle_25_plus_reflektor_evaluation_1;
       }
     } else if (type == "evaluation_2") {
       if (lifestyleData == "Manifesting Generator") {
         return lifestyle_25_plus_manifesting_generator_evaluation_2;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_evaluation_2;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_2;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_evaluation_2;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_2;
       }
     } else if (type == "evaluation_3") {
@@ -5211,11 +5219,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_evaluation_3;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_evalution_3;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_3;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_evalution_3;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_3;
       }
     } else if (type == "evaluation_4") {
@@ -5223,11 +5231,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_evaluation_4;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_evaluation_4;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_4;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_evaluation_4;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_4;
       }
     } else if (type == "evaluation_5") {
@@ -5235,11 +5243,11 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifesting_generator_evaluation_5;
       } else if (lifestyleData == "Generator") {
         return lifestyle_25_plus_generator_evaluation_5;
-      } else if (lifestyleData == "Projektor") {
+      } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_5;
       } else if (lifestyleData == "Manifestor") {
         return lifestyle_25_plus_manifestor_evaluation_5;
-      } else if (lifestyleData == "Reflektor") {
+      } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_5;
       }
     }
@@ -5251,11 +5259,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_0;
       } else if (communicationData == "Generator") {
         return communication_generator_0;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_0;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_0;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_0;
       }
     } else if (type == "1") {
@@ -5263,11 +5271,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_1;
       } else if (communicationData == "Generator") {
         return communication_generator_1;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_1;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_1;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_1;
       }
     } else if (type == "2") {
@@ -5275,11 +5283,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_2;
       } else if (communicationData == "Generator") {
         return communication_generator_2;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_2;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_2;
       }
     } else if (type == "3") {
@@ -5287,11 +5295,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_3;
       } else if (communicationData == "Generator") {
         return communication_generator_3;
-      } else if (communicationData == "Projektor") {
-        return communication_projector_3;
+      } else if (communicationData == "Projector") {
+        return communication_projector_3_s2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_3;
       }
     } else if (type == "4") {
@@ -5299,11 +5307,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_4;
       } else if (communicationData == "Generator") {
         return communication_generator_4;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_4;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_4;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_4;
       }
     } else if (type == "5") {
@@ -5311,11 +5319,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_5;
       } else if (communicationData == "Generator") {
         return communication_generator_5;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_5;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_5;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_5;
       }
     } else if (type == "6") {
@@ -5323,11 +5331,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_6;
       } else if (communicationData == "Generator") {
         return communication_generator_6;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_6;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_6;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_6;
       }
     } else if (type == "7") {
@@ -5335,11 +5343,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_7;
       } else if (communicationData == "Generator") {
         return communication_generator_7;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_7;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_7;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_7;
       }
     } else if (type == "1_s2") {
@@ -5347,11 +5355,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_1_s2;
       } else if (communicationData == "Generator") {
         return communication_generator_1_s2;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_1_s2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_1_s2;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_1_s2;
       }
     } else if (type == "2_s2") {
@@ -5359,11 +5367,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_2_s2;
       } else if (communicationData == "Generator") {
         return communication_generator_2_s2;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_2_s2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_2_s2;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_2_s2;
       }
     } else if (type == "3_s2") {
@@ -5371,11 +5379,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_3_s2;
       } else if (communicationData == "Generator") {
         return communication_generator_3_s2;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_3_s2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_3_s2;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_3_s2;
       }
     } else if (type == "4_s2") {
@@ -5383,11 +5391,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_4_s2;
       } else if (communicationData == "Generator") {
         return communication_generator_4_s2;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_4_s2;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_4_s2;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_4_s2;
       }
     } else if (type == "1_s3") {
@@ -5395,11 +5403,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_1_s3;
       } else if (communicationData == "Generator") {
         return communication_generator_1_s3;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_1_s3;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_1_s3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_1_s3;
       }
     } else if (type == "2_s3") {
@@ -5407,11 +5415,11 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_2_s3;
       } else if (communicationData == "Generator") {
         return communication_generator_2_s3;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_2_s3;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_2_s3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_2_s3;
       }
     } else if (type == "3_s3") {
@@ -5419,35 +5427,35 @@ export default async ({ req, res, log, error }) => {
         return communication_manifesting_generator_3_s3;
       } else if (communicationData == "Generator") {
         return communication_generator_3_s3;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_3_s3;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_3_s3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_3_s3;
       }
-    } else if (type == "3_s3") {
+    } else if (type == "4_s3") {
       if (communicationData == "Manifesting Generator") {
         return communication_manifesting_generator_4_s3;
       } else if (communicationData == "Generator") {
         return communication_generator_4_s3;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_4_s3;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_4_s3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_4_s3;
       }
-    } else if (type == "3_s3") {
+    } else if (type == "5_s3") {
       if (communicationData == "Manifesting Generator") {
         return communication_manifesting_generator_5_s3;
       } else if (communicationData == "Generator") {
         return communication_generator_5_s3;
-      } else if (communicationData == "Projektor") {
+      } else if (communicationData == "Projector") {
         return communication_projector_5_s3;
       } else if (communicationData == "Manifestor") {
         return communication_manifestor_5_s3;
-      } else if (communicationData == "Reflektor") {
+      } else if (communicationData == "Reflector") {
         return communication_reflektor_5_s3;
       }
     }
@@ -5455,87 +5463,87 @@ export default async ({ req, res, log, error }) => {
 
   let worklearnstyle = (worklearnData, age, type) => {
     if (type == "name") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return c_o_s_objective_title;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return c_o_s_indivudal_title;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return c_o_s_collaborative_titie;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return c_o_s_synthesizing_title;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return c_o_s_subjective_title;
       }
     } else if (type == "context") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return c_o_s_objective;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return c_o_s_indivudal;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return c_o_s_collaborative;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return c_o_s_synthesizing;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return c_o_s_subjective;
       }
     } else if (type == "s3_1") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return objective_s3_1;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return individual_s3_1;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return collaborative_s3_1;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return synthesizing_s3_1;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return subjective_s3_1;
       }
     } else if (type == "s3_2") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return objective_s3_2;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return individual_s3_2;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return collaborative_s3_2;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return synthesizing_s3_2;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return subjective_s3_2;
       }
     } else if (type == "s3_3") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return objective_s3_3;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return individual_s3_3;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return collaborative_s3_3;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return synthesizing_s3_3;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return subjective_s3_3;
       }
     } else if (type == "s3_4") {
       if (worklearnData[0].name == "No Definition") {
         return objective_s3_4;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return individual_s3_4;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return collaborative_s3_4;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return synthesizing_s3_4;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return subjective_s3_4;
       }
     } else if (type == "s3_5") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return objective_s3_5;
-      } else if (worklearnData[0].name == "Single Definition") {
+      } else if (worklearnData == "Single Definition") {
         return individual_s3_5;
-      } else if (worklearnData[0].name == "Split Definition") {
+      } else if (worklearnData == "Split Definition") {
         return collaborative_s3_5;
-      } else if (worklearnData[0].name == "Triple Split Definition") {
+      } else if (worklearnData == "Triple Split Definition") {
         return synthesizing_s3_5;
-      } else if (worklearnData[0].name == "Quadruple Split Definition") {
+      } else if (worklearnData == "Quadruple Split Definition") {
         return subjective_s3_5;
       }
     }
@@ -5543,289 +5551,289 @@ export default async ({ req, res, log, error }) => {
 
   let is_y_r = (is_y_rData, age, type) => {
     if (type == "name") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_0;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_0;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_0;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_0;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_0;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_0;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_0;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_0;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_0;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_0;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_0;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_0;
       }
     } else if (type == "s2_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_1;
       }
     } else if (type == "s2_1_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_1_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_1_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_1_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_1_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_1_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_1_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_1_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_1_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_1_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_1_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_1_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_1_1;
       }
     } else if (type == "s2_2") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_2;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_2;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_2;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_2;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_2;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_2;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_2;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_2;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_2;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_2;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_2;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_2;
       }
     } else if (type == "s2_2_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_2_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_2_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_2_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_2_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_2_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_2_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_2_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_2_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_2_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_2_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_2_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_2_1;
       }
     } else if (type == "s2_3") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_3;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_3;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_3;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_3;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_3;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_3;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_3;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_3;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_3;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_3;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_3;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_3;
       }
     } else if (type == "s2_3_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_3_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s2_3_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s2_3_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s2_3_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s2_3_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s2_3_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s2_3_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s2_3_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s2_3_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s2_3_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s2_3_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s2_3_1;
       }
     } else if (type == "s3_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s3_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s3_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s3_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s3_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s3_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s3_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s3_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s3_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s3_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s3_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s3_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s3_1;
       }
     } else if (type == "s3_1_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s3_1_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s3_1_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s3_1_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s3_1_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s3_1_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s3_1_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s3_1_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s3_1_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s3_1_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s3_1_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s3_1_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s3_1_1;
       }
     } else if (type == "s3_2") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s3_2;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s3_2;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s3_2;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s3_2;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s3_2;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s3_2;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s3_2;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s3_2;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s3_2;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s3_2;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s3_2;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s3_2;
       }
     } else if (type == "s3_2_1") {
-      if (is_y_rData[0].name == "1 / 3") {
+      if (is_y_rData == "1 / 3") {
         return is_y_r_1_s3_2_1;
-      } else if (is_y_rData[0].name == "1 / 4") {
+      } else if (is_y_rData == "1 / 4") {
         return is_y_r_2_s3_2_1;
-      } else if (is_y_rData[0].name == "2 / 4") {
+      } else if (is_y_rData == "2 / 4") {
         return is_y_r_3_s3_2_1;
-      } else if (is_y_rData[0].name == "2 / 5") {
+      } else if (is_y_rData == "2 / 5") {
         return is_y_r_4_s3_2_1;
-      } else if (is_y_rData[0].name == "3 / 5") {
+      } else if (is_y_rData == "3 / 5") {
         return is_y_r_5_s3_2_1;
-      } else if (is_y_rData[0].name == "3 / 6") {
+      } else if (is_y_rData == "3 / 6") {
         return is_y_r_6_s3_2_1;
-      } else if (is_y_rData[0].name == "4 / 1") {
+      } else if (is_y_rData == "4 / 1") {
         return is_y_r_7_s3_2_1;
-      } else if (is_y_rData[0].name == "4 / 6") {
+      } else if (is_y_rData == "4 / 6") {
         return is_y_r_8_s3_2_1;
-      } else if (is_y_rData[0].name == "5 / 1") {
+      } else if (is_y_rData == "5 / 1") {
         return is_y_r_9_s3_2_1;
-      } else if (is_y_rData[0].name == "5 / 2") {
+      } else if (is_y_rData == "5 / 2") {
         return is_y_r_10_s3_2_1;
-      } else if (is_y_rData[0].name == "6 / 2") {
+      } else if (is_y_rData == "6 / 2") {
         return is_y_r_11_s3_2_1;
-      } else if (is_y_rData[0].name == "6 / 3") {
+      } else if (is_y_rData == "6 / 3") {
         return is_y_r_12_s3_2_1;
       }
     }
@@ -5834,952 +5842,952 @@ export default async ({ req, res, log, error }) => {
   let decision_strategy = (decisionStrategyData, age, type) => {
     if (type == "name") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_0;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_0;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_0;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_0;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_0;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_0;
       }
     } else if (type == "s3_x_1") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_1;
       }
     } else if (type == "s3_x_2") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_2;
       }
     } else if (type == "s3_x_3") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_3;
       }
     } else if (type == "s3_x_4") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_4;
       }
     } else if (type == "s3_x_5") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s3_1_5;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s3_2_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s3_3_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s3_4_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s3_5_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s3_6_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s3_7_5;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s3_8_5;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s3_9_5;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s3_10_5;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s3_11_5;
       }
     } else if (type == "s4_x_title") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_title;
       }
     } else if (type == "s4_x_text") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_text;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_text;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_text;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_text;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_text;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_text;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_title;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_title;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_title;
       }
     } else if (type == "s4_x_1") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_1;
       }
     } else if (type == "s4_x_2") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_2;
       }
     } else if (type == "s4_x_3") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_3;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_3;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_3;
       }
     } else if (type == "s4_x_4") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_4;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_4;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_4;
       }
     } else if (type == "s4_x_4_e_1") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_4_e_1;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_4_e_1;
       }
     } else if (type == "s4_x_4_e_2") {
       if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Karar ver ve netlikle karar al
         return decision_strategy_s4_1_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Respond" &&
-        decisionStrategyData[0].innnerAuthority == "Sacral"
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innnerAuthority == "Sacral"
       ) {
         // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
         return decision_strategy_s4_2_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Tanınma ve Davet Al, Netlik ile Karar Al
         return decision_strategy_s4_3_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Tanınma ve Davet Al, İçgüdülerini Takip Et
         return decision_strategy_s4_4_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Ego Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
       ) {
         // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
         return decision_strategy_s4_5_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Self Projected"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
       ) {
         // Tanınma ve Davet Al, Söylediklerini Dinle
         return decision_strategy_s4_6_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait for the Invitation" &&
-        decisionStrategyData[0].innerAuthority == "Mental"
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
       ) {
         // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
         return decision_strategy_s4_7_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Emotional - Solar Plexus"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
       ) {
         // Gör, Netlik Bekle ve Bilgi Ver
         return decision_strategy_s4_8_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Splenic"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
       ) {
         // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
         return decision_strategy_s4_9_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "To Inform" &&
-        decisionStrategyData[0].innerAuthority == "Ego Manifested"
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
       ) {
         // Gör, İradeni Dinle ve Bilgi Ver
         return decision_strategy_s4_10_4_e_2;
       } else if (
-        decisionStrategyData[0].strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData[0].innerAuthority == "Lunar"
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
       ) {
         // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
         return decision_strategy_s4_11_4_e_2;
@@ -7032,7 +7040,7 @@ export default async ({ req, res, log, error }) => {
   };
 
   let guclu_yanlarin = (guclu_yanlarinData, age, type) => {
-    if (guclu_yanlarinData[0] == "57_10") {
+    if (guclu_yanlarinData.name == "57_10") {
       if (type == "57_10_1") {
         return guclu_yanlarin_57_10_1;
       } else if (type == "57_10_2") {
@@ -7046,35 +7054,35 @@ export default async ({ req, res, log, error }) => {
       } else if ( type == "57_10_6") {
         return guclu_yanlarin_57_10_6
       }
-    } else if ( guclu_yanlarinData[0] == "63-4") {
+    } else if ( guclu_yanlarinData.name == "63-4") {
       if (type == "63_4_1") {
-        return guclu_yanlarin_64_4_1
+        return guclu_yanlarin_63_4_1
       } else if (type == "63_4_2") {
-        return guclu_yanlarin_64_4_2
+        return guclu_yanlarin_63_4_2
       } else if (type == "63_4_3") {
-        return guclu_yanlarin_64_4_3;        
+        return guclu_yanlarin_63_4_3;        
       } else if (type == "63_4_4") {
-        return guclu_yanlarin_64_4_4;
+        return guclu_yanlarin_63_4_4;
       } else if (type == "63_4_5") {
-        return guclu_yanlarin_64_4_5;
+        return guclu_yanlarin_63_4_5;
       } else if (type == "63_4_6") {
-        return guclu_yanlarin_64_4_5;
+        return guclu_yanlarin_63_4_5;
       } 
-    } else if ( guclu_yanlarinData[0] == "45-21") {
+    } else if ( guclu_yanlarinData.name == "45-21") {
       if (type == "45_21_1") {
-        return guclu_yanlarin_64_4_1;
+        return guclu_yanlarin_45_21_1;
       } else if (type == "45_21_2") {
-        return guclu_yanlarin_64_4_2;
+        return guclu_yanlarin_45_21_2;
       } else if (type == "45_21_3") {
-        return guclu_yanlarin_64_4_3;
+        return guclu_yanlarin_45_21_3;
       } else if (type == "45_21_4") {
-        return guclu_yanlarin_64_4_4;
+        return guclu_yanlarin_45_21_4;
       } else if (type == "45_21_5") {
-        return guclu_yanlarin_64_4_5;
+        return guclu_yanlarin_45_21_5;
       } else if (type == "45_21_6") {
-        return guclu_yanlarin_64_4_6;
+        return guclu_yanlarin_45_21_6;
       } 
-    } else if ( type == "3-60") {
+    } else if ( guclu_yanlarinData.name == "3-60") {
       if (type == "3_60_1") {
         return guclu_yanlarin_3_60_1;
       } else if (type == "3_60_2") {
@@ -7088,7 +7096,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "3_60_6") {
         return guclu_yanlarin_3_60_6;
       } 
-    } else if ( type == "5-15") {
+    } else if ( guclu_yanlarinData.name == "5-15") {
       if (type == "5_15_1") {
         return guclu_yanlarin_5_15_1;
       } else if (type == "5_15_2") {
@@ -7102,7 +7110,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "3_15_6") {
         return guclu_yanlarin_5_15_6;
       } 
-    } else if ( type == "64-47") {
+    } else if ( guclu_yanlarinData.name == "64-47") {
       if (type == "64_47_1") {
         return guclu_yanlarin_64_47_1;
       } else if (type == "64_47_2") {
@@ -7116,7 +7124,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "64_47_6") {
         return guclu_yanlarin_64_47_6;
       } 
-    } else if ( type == "27-50") {
+    } else if ( guclu_yanlarinData.name == "27-50") {
       if (type == "27_50_1") {
         return guclu_yanlarin_27_50_1;
       } else if (type == "27_50_2") {
@@ -7130,7 +7138,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "27_50_6") {
         return guclu_yanlarin_27_50_6;
       } 
-    } else if ( type == "26-44") {
+    } else if ( guclu_yanlarinData.name == "26-44") {
       if (type == "26_44_1") {
         return guclu_yanlarin_26_44_1;
       } else if (type == "26_44_2") {
@@ -7144,21 +7152,21 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "26_44_6") {
         return guclu_yanlarin_26_44_6;
       } 
-    } else if ( type == "32-50") {
-      if (type == "32_50_1") {
-        return guclu_yanlarin_32_50_1;
+    } else if ( guclu_yanlarinData.name == "32-54") {
+      if (type == "32_54_1") {
+        return guclu_yanlarin_32_54_1;
       } else if (type == "32_50_2") {
-        return guclu_yanlarin_32_50_2;
+        return guclu_yanlarin_32_54_2;
       } else if (type == "32_50_3") {
-        return guclu_yanlarin_32_50_3;
+        return guclu_yanlarin_32_54_3;
       } else if (type == "32_50_4") {
-        return guclu_yanlarin_32_50_4;
+        return guclu_yanlarin_32_54_4;
       } else if (type == "32_50_5") {
-        return guclu_yanlarin_32_50_5;
+        return guclu_yanlarin_32_54_5;
       } else if (type == "32_50_6") {
-        return guclu_yanlarin_32_50_6;
+        return guclu_yanlarin_32_54_6;
       } 
-    } else if ( type == "19-49") {
+    } else if ( guclu_yanlarinData.name == "19-49") {
       if (type == "19_49_1") {
         return guclu_yanlarin_19_49_1;
       } else if (type == "19_49_2") {
@@ -7172,7 +7180,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "19_49_6") {
         return guclu_yanlarin_19_49_6;
       } 
-    } else if ( type == "37-40") {
+    } else if ( guclu_yanlarinData.name == "37-40") {
       if (type == "37_40_1") {
         return guclu_yanlarin_37_40_1;
       } else if (type == "37_40_2") {
@@ -7186,7 +7194,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "37_40_6") {
         return guclu_yanlarin_37_40_6;
       } 
-    } else if ( type == "34-57") {
+    } else if ( guclu_yanlarinData.name == "34-57") {
       if (type == "34_57_1") {
         return guclu_yanlarin_34_57_1;
       } else if (type == "34_57_2") {
@@ -7200,7 +7208,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "34_57_6") {
         return guclu_yanlarin_47_57_6;
       } 
-    } else if ( type == "34-20") {
+    } else if ( guclu_yanlarinData.name == "34-20") {
       if (type == "34_20_1") {
         return guclu_yanlarin_34_20_1;
       } else if (type == "34_20_2") {
@@ -7214,7 +7222,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "34_20_6") {
         return guclu_yanlarin_34_20_6;
       } 
-    } else if ( type == "51-25") {
+    } else if ( guclu_yanlarinData.name == "51-25") {
       if (type == "51_25_1") {
         return guclu_yanlarin_51_25_1;
       } else if (type == "51_25_2") {
@@ -7228,7 +7236,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "51_25_6") {
         return guclu_yanlarin_51_25_6;
       } 
-    } else if ( type == "1-8") {
+    } else if ( guclu_yanlarinData.name == "1-8") {
       if (type == "1_8_1") {
         return guclu_yanlarin_1_8_1;
       } else if (type == "1_8_2") {
@@ -7242,7 +7250,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "1_8_6") {
         return guclu_yanlarin_1_8_6;
       } 
-    } else if ( type == "38-28") {
+    } else if ( guclu_yanlarinData.name == "38-28") {
       if (type == "38_28_1") {
         return guclu_yanlarin_38_28_1;
       } else if (type == "38_28_2") {
@@ -7256,7 +7264,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "38_28_6") {
         return guclu_yanlarin_38_28_6;
       } 
-    } else if ( type == "7-31") {
+    } else if ( guclu_yanlarinData.name == "7-31") {
       if (type == "7_31_1") {
         return guclu_yanlarin_7_31_1;
       } else if (type == "7_31_2") {
@@ -7270,7 +7278,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "7_31_6") {
         return guclu_yanlarin_7_31_6;
       } 
-    } else if ( type == "57-20") {
+    } else if ( guclu_yanlarinData.name == "57-20") {
       if (type == "57_20_1") {
         return guclu_yanlarin_57_20_1;
       } else if (type == "57_20_2") {
@@ -7284,7 +7292,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "57_20_6") {
         return guclu_yanlarin_57_20_6;
       } 
-    } else if ( type == "39-55") {
+    } else if ( guclu_yanlarinData.name == "39-55") {
       if (type == "39_55_1") {
         return guclu_yanlarin_39_55_1;
       } else if (type == "39_55_2") {
@@ -7298,7 +7306,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "39_55_6") {
         return guclu_yanlarin_39_55_6;
       } 
-    } else if ( type == "14-2") {
+    } else if ( guclu_yanlarinData.name == "14-2") {
       if (type == "14_2_1") {
         return guclu_yanlarin_14_2_1;
       } else if (type == "14_2_2") {
@@ -7312,7 +7320,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "14_2_6") {
         return guclu_yanlarin_14_2_6;
       } 
-    } else if ( type == "22-12") {
+    } else if ( guclu_yanlarinData.name == "22-12") {
       if (type == "22_12_1") {
         return guclu_yanlarin_22_12_1;
       } else if (type == "22_12_2") {
@@ -7326,7 +7334,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "22_12_6") {
         return guclu_yanlarin_22_12_6;
       } 
-    } else if ( type == "61-24") {
+    } else if ( guclu_yanlarinData.name == "61-24") {
       if (type == "61_24_1") {
         return guclu_yanlarin_61_24_1;
       } else if (type == "61_24_2") {
@@ -7340,7 +7348,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "61_24_6") {
         return guclu_yanlarin_61_24_6;
       } 
-    } else if ( type == "43-23") {
+    } else if ( guclu_yanlarinData.name == "43-23") {
       if (type == "43_23_1") {
         return guclu_yanlarin_43_23_1;
       } else if (type == "43_23_2") {
@@ -7354,7 +7362,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "43_23_6") {
         return guclu_yanlarin_43_23_6;
       } 
-    } else if ( type == "52-9") {
+    } else if ( guclu_yanlarinData.name == "52-9") {
       if (type == "52_9_1") {
         return guclu_yanlarin_52_9_1;
       } else if (type == "52_9_2") {
@@ -7368,7 +7376,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "52_9_6") {
         return guclu_yanlarin_52_9_6;
       } 
-    } else if ( type == "58-18") {
+    } else if ( guclu_yanlarinData.name == "58-18") {
       if (type == "58_18_1") {
         return guclu_yanlarin_58_18_1;
       } else if (type == "58_18_2") {
@@ -7382,7 +7390,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "58_18_6") {
         return guclu_yanlarin_58_18_6;
       } 
-    } else if ( type == "48-16") {
+    } else if ( guclu_yanlarinData.name == "48-16") {
       if (type == "48_16_1") {
         return guclu_yanlarin_48_16_1;
       } else if (type == "48_16_2") {
@@ -7396,7 +7404,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "48_16_6") {
         return guclu_yanlarin_48_18_6;
       } 
-    } else if ( type == "17-62") {
+    } else if ( guclu_yanlarinData.name == "17-62") {
       if (type == "17_62_1") {
         return guclu_yanlarin_17_62_1;
       } else if (type == "17_62_2") {
@@ -7410,7 +7418,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "17_62_6") {
         return guclu_yanlarin_17_62_6;
       }
-    } else if ( type == "53-42") {
+    } else if ( guclu_yanlarinData.name == "53-42") {
       if (type == "53_42_1") {
         return guclu_yanlarin_53_42_1;
       } else if (type == "53_42_2") {
@@ -7424,7 +7432,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "53_42_6") {
         return guclu_yanlarin_53_42_6;
       }
-    } else if ( type == "29-46") {
+    } else if ( guclu_yanlarinData.name == "29-46") {
       if (type == "29_46_1") {
         return guclu_yanlarin_29_46_1;
       } else if (type == "29_46_2") {
@@ -7438,7 +7446,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "29_46_6") {
         return guclu_yanlarin_29_46_6;
       }
-    } else if ( type == "13-33") {
+    } else if ( guclu_yanlarinData.name == "13-33") {
       if (type == "13_33_1") {
         return guclu_yanlarin_13_33_1;
       } else if (type == "13_33_2") {
@@ -7452,7 +7460,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "13_33_6") {
         return guclu_yanlarin_13_33_6
       }
-    } else if ( type == "41-30") {
+    } else if ( guclu_yanlarinData.name == "41-30") {
       if (type == "41_30_1") {
         return guclu_yanlarin_41_30_1
       } else if (type == "41_30_2") {
@@ -7466,7 +7474,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "41_30_6") {
         return guclu_yanlarin_41_30_6
       }
-    } else if ( type == "36-35") {
+    } else if ( guclu_yanlarinData.name == "36-35") {
       if (type == "36_35_1") {
         return guclu_yanlarin_36_35_1
       } else if (type == "36_35_2") {
@@ -7480,7 +7488,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "36_35_6") {
         return guclu_yanlarin_36_35_6
       }
-    } else if ( type == "11-56") {
+    } else if ( guclu_yanlarinData.name == "11-56") {
       if (type == "11_56_1") {
         return guclu_yanlarin_11_56_1
       } else if (type == "11_56_2") {
@@ -7494,7 +7502,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "11_56_6") {
         return guclu_yanlarin_11_56_6
       }
-    } else if ( type == "34-10") {
+    } else if ( guclu_yanlarinData.name == "34-10") {
       if (type == "34_10_1") {
         return guclu_yanlarin_34_10_1
       } else if (type == "34_10_2") {
@@ -7508,7 +7516,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "34_10_6") {
         return guclu_yanlarin_34_10_6
       }
-    } else if ( type == "15") {
+    } else if ( guclu_yanlarinData.name == "15") {
       if (type == "15_1") {
         return guclu_yanlarin_15_1
       } else if (type == "15_2") {
@@ -7522,7 +7530,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "15_6") {
         return guclu_yanlarin_15_6
       }
-    } else if ( type == "5") {
+    } else if ( guclu_yanlarinData.name == "5") {
       if (type == "5_1") {
         return guclu_yanlarin_5_1
       } else if (type == "5_2") {
@@ -7536,7 +7544,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "5_6") {
         return guclu_yanlarin_5_6
       }
-    } else if ( type == "46") {
+    } else if ( guclu_yanlarinData.name == "46") {
       if (type == "46_1") {
         return guclu_yanlarin_46_1
       } else if (type == "46_2") {
@@ -7550,7 +7558,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "46_6") {
         return guclu_yanlarin_46_6
       }
-    } else if ( type == "29") {
+    } else if ( guclu_yanlarinData.name == "29") {
       if (type == "29_1") {
         return guclu_yanlarin_29_1
       } else if (type == "29_2") {
@@ -7564,131 +7572,117 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "29_6") {
         return guclu_yanlarin_29_6
       }
-    } else if ( type == "14") {
+    } else if ( guclu_yanlarinData.name == "14") {
       if (type == "14_1") {
-        // return guclu_yanlarin_14_2_1
+        return guclu_yanlarin_14_1
       } else if (type == "14_2") {
-
+        return guclu_yanlarin_14_2
       } else if (type == "14_3") {
-
+        return guclu_yanlarin_14_3
       } else if (type == "14_4") {
-
+        return guclu_yanlarin_14_4
       } else if (type == "14_5") {
-
+        return guclu_yanlarin_14_5
       } else if (type == "14_6") {
-
+        return guclu_yanlarin_14_6
       }
-    } else if ( type == "2") {
+    } else if ( guclu_yanlarinData.name == "2") {
       if (type == "2_1") {
         return guclu_yanlarin_2_1
       } else if (type == "2_2") {
-
+        return guclu_yanlarin_2_2
       } else if (type == "2_3") {
-
+        return guclu_yanlarin_2_3
       } else if (type == "2_4") {
-
+        return guclu_yanlarin_2_4
       } else if (type == "2_5") {
-
+        return guclu_yanlarin_2_5
       } else if (type == "2_6") {
-
+        return guclu_yanlarin_2_6
       }
-    } else if ( type == "1") {
+    } else if ( guclu_yanlarinData.name == "1") {
       if (type == "1_1") {
         return guclu_yanlarin_1_1
       } else if (type == "1_2") {
-
+        return guclu_yanlarin_1_2
       } else if (type == "1_3") {
-
+        return guclu_yanlarin_1_3
       } else if (type == "1_4") {
-
+        return guclu_yanlarin_1_4
       } else if (type == "1_5") {
-
+        return guclu_yanlarin_1_5
       } else if (type == "1_6") {
-
+        return guclu_yanlarin_1_6
       }
-    } else if ( type == "8") {
+    } else if ( guclu_yanlarinData.name == "8") {
       if (type == "8_1") {
-        // return guclu_yanlarin_8_1
+        return guclu_yanlarin_8_1
       } else if (type == "8_2") {
-
+        return guclu_yanlarin_8_2
       } else if (type == "8_3") {
-
+        return guclu_yanlarin_8_3
       } else if (type == "8_4") {
-
+        return guclu_yanlarin_8_4
       } else if (type == "8_5") {
-
+        return guclu_yanlarin_8_5
       } else if (type == "8_6") {
-
+        return guclu_yanlarin_8_6
       }
-    } else if ( type == "7") {
+    } else if ( guclu_yanlarinData.name == "7") {
       if (type == "7_1") {
-        // return guclu_yanlarin_7_1
+        return guclu_yanlarin_7_1// return guclu_yanlarin_7_1
       } else if (type == "7_2") {
-
+        return guclu_yanlarin_7_2
       } else if (type == "7_3") {
-
+        return guclu_yanlarin_7_3
       } else if (type == "7_4") {
-
+        return guclu_yanlarin_7_4
       } else if (type == "7_5") {
-
+        return guclu_yanlarin_7_5
       } else if (type == "7_6") {
-
+        return guclu_yanlarin_7_6
       }
-    } else if ( type == "37") {
-      if (type == "37_1") {
-        // return guclu_yanlarin_37_1
-      } else if (type == "37_2") {
-
-      } else if (type == "37_3") {
-
-      } else if (type == "37_4") {
-
-      } else if (type == "37_5") {
-
-      } else if (type == "37_6") {
-
-      }
-    } else if ( type == "31") {
+    } else if ( guclu_yanlarinData.name == "31") {
       if (type == "31_1") {
-
+        return guclu_yanlarin_31_1
       } else if (type == "31_2") {
-
+        return guclu_yanlarin_31_2
       } else if (type == "31_3") {
-
+        return guclu_yanlarin_31_3
       } else if (type == "31_4") {
-
+        return guclu_yanlarin_31_4
       } else if (type == "31_5") {
-
+        return guclu_yanlarin_31_5
       } else if (type == "31_6") {
-
+        return guclu_yanlarin_31_6
       }
-    } else if ( type == "13") {
+    } else if ( guclu_yanlarinData.name == "13") {
       if (type == "13_1") {
-
+        return guclu_yanlarin_13_1
       } else if (type == "13_2") {
-
+        return guclu_yanlarin_13_2
       } else if (type == "13_3") {
-
+        return guclu_yanlarin_13_3
       } else if (type == "13_4") {
-
+        return guclu_yanlarin_13_4
       } else if (type == "13_5") {
-
+        return guclu_yanlarin_13_5
       } else if (type == "13_6") {
-
+        return guclu_yanlarin_13_6
       }
-    } else if ( type == "33") {
+    } else if ( guclu_yanlarinData.name == "33") {
       if (type == "33_1") {
-
+        return guclu_yanlarin_33_1
       } else if (type == "33_2") {
-
+        return guclu_yanlarin_33_2
       } else if (type == "33_3") {
-
+        return guclu_yanlarin_33_3
       } else if (type == "33_4") {
-
+        return guclu_yanlarin_33_4
       } else if (type == "33_5") {
-
+        return guclu_yanlarin_33_5
       } else if (type == "33_6") {
-
+        return guclu_yanlarin_33_6
       }
     }
   }
@@ -7730,10 +7724,10 @@ export default async ({ req, res, log, error }) => {
   var P4A4 = kslk_ozl(hollandData[1].name, 25, "name"); //holland.find(x => x.name == hollandData[0].name).value.feature,
   var P4A5 = kslk_ozl(hollandData[0].name, 25, "profile"); //holland.find(x => x.name == hollandData[0].name).value.value,
   var P4A6 = kslk_ozl(hollandData[1].name, 25, "profile");
-  var P5A1 = kslk_ozl(hollandData[0].name, 25, "interest");
-  var P5A2 = kslk_ozl(hollandData[1].name, 25, "interest");
-  var P5A3 = kslk_ozl(hollandData[0].name, 25, "interest_1");
-  var P5A4 = kslk_ozl(hollandData[1].name, 25, "interest_1");
+  var P5A1 = kslk_ozl(hollandData[0].name, 25, "interest_1");
+  var P5A2 = kslk_ozl(hollandData[1].name, 25, "interest_1");
+  var P5A3 = kslk_ozl(hollandData[0].name, 25, "interest_2");
+  var P5A4 = kslk_ozl(hollandData[1].name, 25, "interest_2");
   var P5A5 = kslk_ozl(hollandData[0].name, 25, "work_areas");
   var P5A6 = kslk_ozl(hollandData[0].name, 25, "may_not_like");
   var P5A7 = kslk_ozl(hollandData[1].name, 25, "work_areas");
@@ -7834,7 +7828,7 @@ export default async ({ req, res, log, error }) => {
   var P20A8 = communication(communicationData[0], 25, "7");
   var P21A1 = communication(communicationData[0], 25, "1_s2"); // İş Yerinde Etkili İletişim ve Katılım
   var P21A2 = communication(communicationData[0], 25, "2_s2");
-  var P21A3 = communication(communicaitonData[0], 25, "3_s2");
+  var P21A3 = communication(communicationData[0], 25, "3_s2");
   var P21A4 = communication(communicationData[0], 25, "4_s2");
   var P22A1 = communication(communicationData[0], 25, "name"); // İletişim ve Etkileşim Tarzın
   var P22A2 = communication(communicationData[0], 25, "1_s3");
@@ -7858,18 +7852,20 @@ export default async ({ req, res, log, error }) => {
   var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
   var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
   var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_1"),
-  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-  var P31A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P31A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P31A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P31A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P31A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P31A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, "");
-  var P34A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, ""); // Senin Karar Verme Stratejin
-  var P34A2 = decision_strategy(decision_strategyData[0], 25, "name");
+  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_1") // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_2") // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_3") // is_y_r(is_y_rData[0], 25, "s3_1"),
+  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_4") // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_5") // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+  var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_6")
+  var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_1")
+  var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_2")
+  var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_3")
+  var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_4")
+  var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_5")
+  var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_6")
+  var P34A1 = decision_strategy(decision_strategyData[0], 25, "name"); // Senin Karar Verme Stratejin
+  var P34A2 = decision_strategy(decision_strategyData[0], 25, "s3_x_1");
   var P34A3 = decision_strategy(decision_strategyData[0], 25, "s3_x_2");
   var P34A4 = decision_strategy(decision_strategyData[0], 25, "s3_x_4");
   var P34A5 = decision_strategy(decision_strategyData[0], 25, "s3_x_5");
@@ -8128,7 +8124,7 @@ export default async ({ req, res, log, error }) => {
     P20A8: communication(communicationData[0], 25, "7"),
     P21A1: communication(communicationData[0], 25, "1_s2"), // İş Yerinde Etkili İletişim ve Katılım
     P21A2: communication(communicationData[0], 25, "2_s2"),
-    P21A3: communication(communicaitonData[0], 25, "3_s2"),
+    P21A3: communication(communicationData[0], 25, "3_s2"),
     P21A4: communication(communicationData[0], 25, "4_s2"),
     P22A1: communication(communicationData[0], 25, "name"), // İletişim ve Etkileşim Tarzın
     P22A2: communication(communicationData[0], 25, "1_s3"),
