@@ -83,7 +83,9 @@ export default async ({ req, res, log, error }) => {
         ?.value?.find((y) => y.name === api.Properties.InnerAuthority[0])
         ?.value ?? api.Properties.Strategy[0],
     innerAuthority: api.Properties.InnerAuthority[0],
-    sectorName: 
+    sectorName: Object.entries(rawData).find(
+      (x) => x[0] == "İlgilendiğin-İçinde Olduğun Sektör",
+    )[1],
   };
   //log(big5Data);
   hollandData.sort((a, b) => b.value - a.value);
@@ -5474,11 +5476,11 @@ export default async ({ req, res, log, error }) => {
       if (lifestyleData == "Manifesting Generator") {
         return lifestyle_25_plus_manifesting_generator_evaluation_3;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evalution_3;
+        return lifestyle_25_plus_generator_evaluation_3;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_3;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evalution_3;
+        return lifestyle_25_plus_manifestor_evaluation_3;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_3;
       }
@@ -5734,7 +5736,7 @@ export default async ({ req, res, log, error }) => {
       if (worklearnData == "No Definition") {
         return c_o_s_objective;
       } else if (worklearnData == "Single Definition") {
-        return c_o_s_indivudal;
+        return c_o_s_individual;
       } else if (worklearnData == "Split Definition") {
         return c_o_s_collaborative;
       } else if (worklearnData == "Triple Split Definition") {
@@ -8501,57 +8503,57 @@ export default async ({ req, res, log, error }) => {
   var P40A2 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decision_strategyData[0].sectorName + "x_1",
+    "s7_x_" + decision_strategyData.sectorName + "x_1",
   );
   var P40A3 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decision_strategyData[0].sectorName + "x_3",
+    "s7_x_" + decision_strategyData.sectorName + "x_3",
   );
   var P40A4 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
+    "s7_x_" + decisionStrategyData.sectorName + "x_4",
   );
   var P40A5 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
+    "s7_x_" + decisionStrategyData.sectorName + "x_5",
   );
   var P40A6 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
+    "s7_x_" + decisionStrategyData.sectorName + "x_6",
   );
   var P40A7 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
+    "s7_x_" + decisionStrategyData.sectorName + "x_7",
   );
   var P40A8 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_1",
+    "s7_x_" + decisionStrategyData.sectorName + "x_1",
   );
   var P40A9 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_3",
+    "s7_x_" + decisionStrategyData.sectorName + "x_3",
   );
   var P40A10 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult.strategy,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
+    "s7_x_" + decisionStrategyData.sectorName + "x_4",
   );
   var P40A11 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult.strategy,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
+    "s7_x_" + decisionStrategyData.sectorName + "x_5",
   );
   var P40A12 = kariyer_secim(
-    decision_strategyData[0],
+    decision_strategyData.strategy,
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
+    "s7_x_" + decisionStrategyData.sectorName + "x_6",
   );
   var P40A13 = kariyer_secim(
     decision_strategyData[0],
