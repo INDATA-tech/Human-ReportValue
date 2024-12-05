@@ -27,6 +27,27 @@ export default async ({ req, res, log, error }) => {
 
     return gates;
   }
+
+  function Map2SektorName(sektorName) {
+    if (sektorName == "Teknoloji") {
+      return "tech";
+    } else if (sektorName == "Perakende") {
+      return "retail";
+    } else if (sektorName == "Moda ve Hazır Giyim") {
+      return "dress";
+    } else if (sektorName == "Otomotiv") {
+      return "auto";
+    } else if (sektorName == "Sağlık ve İlaç") {
+      return "health";
+    } else if (sektorName == "Mutfak Sanatları") {
+      return "meal";
+    } else if (sektorName == "Diğer") {
+      return "other";
+    } else {
+      return sektorName;
+    }
+  }
+
   function siralaValueUzunlugunaGore(gates) {
     // 1. Adım: value değerlerini bir diziye al
     const valueSiralama = gates.map((gate) => gate.value.length);
@@ -83,9 +104,11 @@ export default async ({ req, res, log, error }) => {
         ?.value?.find((y) => y.name === api.Properties.InnerAuthority[0])
         ?.value ?? api.Properties.Strategy[0],
     innerAuthority: api.Properties.InnerAuthority[0],
-    sectorName: Object.entries(rawData).find(
-      (x) => x[0] == "İlgilendiğin-İçinde Olduğun Sektör",
-    )[1],
+    sectorName: Map2SektorName(
+      Object.entries(rawData).find(
+        (x) => x[0] == "İlgilendiğin-İçinde Olduğun Sektör",
+      )[1],
+    ),
   };
   //log(big5Data);
   hollandData.sort((a, b) => b.value - a.value);
@@ -8503,92 +8526,92 @@ export default async ({ req, res, log, error }) => {
   var P40A2 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decision_strategyData.sectorName + "x_1",
+    "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A3 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decision_strategyData.sectorName + "x_3",
+    "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A4 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_4",
+    "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A5 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_5",
+    "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A6 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_6",
+    "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A7 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_7",
+    "s7_" + decisionStrategyData.sectorName + "_x_7",
   );
   var P40A8 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_1",
+    "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A9 = kariyer_secim(
     careerSelectionLastResult,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_3",
+    "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A10 = kariyer_secim(
     careerSelectionLastResult.strategy,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_4",
+    "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A11 = kariyer_secim(
     careerSelectionLastResult.strategy,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_5",
+    "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A12 = kariyer_secim(
     decision_strategyData.strategy,
     25,
-    "s7_x_" + decisionStrategyData.sectorName + "x_6",
+    "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A13 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
+    "s7_" + decision_strategyData.sectorName + "_x_7",
   );
   var P40A14 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_1",
+    "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A15 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_3",
+    "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A16 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
+    "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A17 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
+    "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A18 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
+    "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A19 = kariyer_secim(
     decision_strategyData[0],
     25,
-    "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
+    "s7_" + decision_strategyData.sectorName + "_x_7",
   );
   var P41A14 =
     "Sevgili " +
