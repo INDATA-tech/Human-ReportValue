@@ -1693,25 +1693,25 @@ export default async ({ req, res, log, error }) => {
     "Teknoloji sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
   var kariyer_secim_12_25_s7_tech_5_3 =
     "Müşteri Başarı Yöneticisi: Teknoloji ürünlerini kullanan müşterilere destek sağlayarak, ürünlerin verimli kullanımlarını sağlamalarına yardımcı olabilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_5_3 =
+  var kariyer_secim_12_25_s7_tech_5_4 =
     "Teknoloji Ürünleri Satış Müdürü: Satış ekiplerini yönetebilir, teknoloji ürünlerinin pazar stratejilerini geliştirip uygulayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_5_3 =
+  var kariyer_secim_12_25_s7_tech_5_5 =
     "Dijital Pazarlama Uzmanı: Teknoloji firmalarının ürünlerini dijital platformlarda tanıtarak satış stratejileri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_5_3 =
+  var kariyer_secim_12_25_s7_tech_5_6 =
     "İş Geliştirme Uzmanı (Teknoloji): Yeni müşteri ve iş fırsatları geliştirerek teknoloji firmalarının büyümesine katkı sağlayabilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_6_1 = "Organizasyonel ve İdari Kariyerler ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_2 =
     "Teknoloji sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_3 =
     "Ofis Yöneticisi (Teknoloji): Bir teknoloji firmasının günlük operasyonlarını ve idari süreçlerini yönetebilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_4 =
     "Proje Koordinatörü: Teknoloji projelerinde ekipler arasında koordinasyon sağlayarak işlerin zamanında ve düzenli bir şekilde ilerlemesini sağlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_5 =
     "Bilgi Teknolojileri Yönetici Asistanı: IT yöneticilerinin programlarını düzenleyebilir, toplantıları ve proje süreçlerini takip edebilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_6 =
     "İnsan Kaynakları Uzmanı (Teknoloji): Teknoloji firmalarında personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_6_1 =
+  var kariyer_secim_12_25_s7_tech_6_7 =
     "Dijital İşlem Uzmanı: Teknoloji firmalarının dijital operasyonlarını yöneterek veri işleme, dosya yönetimi ve dijital süreçleri optimize edebilirsiniz. ";
 
   var kariyer_secim_12_25_s7_tech_7_1 = "Yenilikçi ve Girişimci Kariyerler";
@@ -7124,6 +7124,22 @@ export default async ({ req, res, log, error }) => {
       ) {
         return kariyer_secim_12_25_s2_9_1;
       }
+    } else if (type == "sector") {
+      if (kariyer_secimData == "tech") {
+        return "Teknoloji";
+      } else if (kariyer_secimData == "retail") {
+        return "Perakende";
+      } else if (kariyer_secimData == "dress") {
+        return "Moda ve Hazır Giyim";
+      } else if (kariyer_secimData == "auto") {
+        return "Otomotiv";
+      } else if (kariyer_secimData == "health") {
+        return "Sağlık ve İlaç";
+      } else if (kariyer_secimData == "meal") {
+        return "Mutfak Sanatları";
+      } else {
+        return "Diğer";
+      }
     } else if (type == "s2_x_2") {
       if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
@@ -7194,7 +7210,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_s3_4_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_s3_5_1;
       } else if (
@@ -7241,7 +7257,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_s4_4_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_s4_5_1;
       } else if (
@@ -7334,7 +7350,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_1;
       } else if (
@@ -7381,7 +7397,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_2;
       } else if (
@@ -7428,7 +7444,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_3;
       } else if (
@@ -7475,7 +7491,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_4;
       } else if (
@@ -7522,7 +7538,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_5;
       } else if (
@@ -7569,7 +7585,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_6;
       } else if (
@@ -7616,7 +7632,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_7;
       } else if (
@@ -7663,7 +7679,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_retail_5_8;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_retail_6_8;
       } else if (
@@ -7710,7 +7726,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_1;
       } else if (
@@ -7757,7 +7773,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_2;
       } else if (
@@ -7804,7 +7820,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_3;
       } else if (
@@ -7851,7 +7867,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_4;
       } else if (
@@ -7898,7 +7914,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_5;
       } else if (
@@ -7945,7 +7961,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_6;
       } else if (
@@ -7992,7 +8008,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_7;
       } else if (
@@ -8039,7 +8055,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_health_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_health_6_4;
       } else if (
@@ -8086,7 +8102,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_1;
       } else if (
@@ -8133,7 +8149,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_2;
       } else if (
@@ -8180,7 +8196,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_3;
       } else if (
@@ -8227,7 +8243,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_4;
       } else if (
@@ -8274,7 +8290,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_5;
       } else if (
@@ -8321,7 +8337,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_6;
       } else if (
@@ -8368,7 +8384,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_7;
       } else if (
@@ -8415,7 +8431,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_tech_5_8;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_tech_6_8;
       } else if (
@@ -8462,7 +8478,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_1;
       } else if (
@@ -8509,7 +8525,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_2;
       } else if (
@@ -8556,7 +8572,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_3;
       } else if (
@@ -8603,7 +8619,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_4;
       } else if (
@@ -8650,7 +8666,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_5;
       } else if (
@@ -8697,7 +8713,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_6;
       } else if (
@@ -8744,7 +8760,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_dress_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_dress_6_7;
       } else if (
@@ -8791,7 +8807,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_1;
       } else if (
@@ -8838,7 +8854,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_2;
       } else if (
@@ -8885,7 +8901,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_3;
       } else if (
@@ -8932,7 +8948,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_4;
       } else if (
@@ -8979,7 +8995,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_5;
       } else if (
@@ -9026,7 +9042,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_5;
       } else if (
@@ -9073,7 +9089,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_6;
       } else if (
@@ -9120,7 +9136,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_auto_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_auto_6_7;
       } else if (
@@ -9167,7 +9183,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_1;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_1;
       } else if (
@@ -9214,7 +9230,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_2;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_2;
       } else if (
@@ -9261,7 +9277,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_3;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_3;
       } else if (
@@ -9308,7 +9324,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_4;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_4;
       } else if (
@@ -9355,7 +9371,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_5;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_5;
       } else if (
@@ -9402,7 +9418,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_6;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_6;
       } else if (
@@ -9449,7 +9465,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_7;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_7;
       } else if (
@@ -9496,7 +9512,7 @@ export default async ({ req, res, log, error }) => {
         return kariyer_secim_12_25_s7_meal_5_8;
       } else if (
         careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişkisel Kariyerler"
+        "Satış ve İlişki Kurma Kariyerleri"
       ) {
         return kariyer_secim_12_25_s7_meal_6_8;
       } else if (
@@ -10449,392 +10465,302 @@ export default async ({ req, res, log, error }) => {
   var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x"); // Geleceğin İşleri
   var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x");
   var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x");
-  var P40A1 = kariyer_secim(careerSelectionLastResult[0], 25, "sector"); // Sana En uygun kariyer seçenekleri
+  var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
   var P40A2 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A3 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A4 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A5 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A6 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A7 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[0],
     25,
-    "s7_" + decisionStrategyData.sectorName + "_x_7",
+    "s7_" + decision_strategyData.sectorName + "_x_7",
   );
   var P40A8 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A9 = kariyer_secim(
-    careerSelectionLastResult,
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A10 = kariyer_secim(
-    careerSelectionLastResult.strategy,
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A11 = kariyer_secim(
-    careerSelectionLastResult.strategy,
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A12 = kariyer_secim(
-    decision_strategyData.strategy,
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A13 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[1],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_7",
   );
   var P40A14 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_1",
   );
   var P40A15 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_3",
   );
   var P40A16 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_4",
   );
   var P40A17 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_5",
   );
   var P40A18 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_6",
   );
   var P40A19 = kariyer_secim(
-    decision_strategyData[0],
+    careerSelectionLastResult[2],
     25,
     "s7_" + decision_strategyData.sectorName + "_x_7",
   );
   var P41A14 =
     "Sevgili " +
-    Object.entries(rawData.find((x) => x[0] == "kisiselbilgi / isim"))[1]; // Sevgili Dinçer
+    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]; // Sevgili Dinçer
   var graphbig = bigdataPercent;
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
 
   var inputs_25_plus = {
-    P1A1:
-      Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] +
-      " " +
-      Object.entries(rawData).find(
-        (x) => x.name == "kisiselbilgi / soyisim",
-      )[1],
-    P2A1:
-      "Sevgili " +
-      Object.entries(rawData).find((x) => x.name == "kisiselbilgi / isim")[1],
-    P4A1: "chart", // Kişilik Özellikleri
-    P4A2:
-      hollandData[0].name +
-      " ve " +
-      hollandData[1].name +
-      " kişilik özelliklerinin baskın, " +
-      hollandData[5].name +
-      " özelliğinin daha geri planda olduğu bir yapın var.",
-    P4A3: kslk_ozl(hollandData[0].name, 25, "name"), //holland.find(x => x.name == hollandData[0].name).value.description,
-    P4A4: kslk_ozl(hollandData[1].name, 25, "name"), //holland.find(x => x.name == hollandData[0].name).value.feature,
-    P4A5: kslk_ozl(hollandData[0].name, 25, "profil"), //holland.find(x => x.name == hollandData[0].name).value.value,
-    P4A6: kslk_ozl(hollandData[1].name, 25, "profil"),
-    P5A1: kslk_ozl(hollandData[0].name, 25, "interest"),
-    P5A2: kslk_ozl(hollandData[1].name, 25, "interest"),
-    P5A3: kslk_ozl(hollandData[0].name, 25, "interest_1"),
-    P5A4: kslk_ozl(hollandData[1].name, 25, "interest_1"),
-    P5A5: kslk_ozl(hollandData[0].name, 25, "work_areas"),
-    P5A6: kslk_ozl(hollandData[0].name, 25, "may_not_like"),
-    P5A7: kslk_ozl(hollandData[1].name, 25, "work_areas"),
-    P5A8: kslk_ozl(hollandData[1].name, 25, "may_not_like"),
-    P6A1: kslk_ozl(hollandData[0].name, 25, "name"), // Kendini Değerlendirme
-    P6A2: kslk_ozl(hollandData[0].name, 25, "question_1"),
-    P6A3: kslk_ozl(hollandData[0].name, 25, "question_2"),
-    P6A4: kslk_ozl(hollandData[0].name, 25, "question_3"),
-    P6A5: kslk_ozl(hollandData[1].name, 25, "name"),
-    P6A6: kslk_ozl(hollandData[1].name, 25, "question_1"),
-    P6A7: kslk_ozl(hollandData[1].name, 25, "question_2"),
-    P6A8: kslk_ozl(hollandData[1].name, 25, "question_3"),
-    P7A1: "chart", // Karakter Özelliklerin
-    P7A2: krktr_ozl(big5Data[0].name, 25, "name"),
-    P7A3: krktr_ozl(big5Data[1].name, 25, "name"),
-    P7A4: krktr_ozl(big5Data[0].name, 25, "character_elements"),
-    P7A5: krktr_ozl(big5Data[1].name, 25, "character_elements"),
-    P8A1: krktr_ozl(big5Data[0].name, 25, "strength"),
-    P8A2: krktr_ozl(big5Data[0].name, 25, "weakness"),
-    P8A2: krktr_ozl(big5Data[1].name, 25, "strength"),
-    P8A2: krktr_ozl(big5Data[1].name, 25, "weakness"),
-    P8A2: krktr_ozl(big5Data[2].name, 25, "strength"),
-    P8A2: krktr_ozl(big5Data[2].name, 25, "weakness"),
-    P8A2:
-      krktr_ozl(big5Data[0].name, 25, "other_attributes") +
-      "," +
-      krktr_ozl(big5Data[1].name, 25, "other_attributes") +
-      "," +
-      krktr_ozl(big5Data[2].name, 25, "other_attributes"),
-    P9A1: krktr_ozl(big5Data[0].name, 25, "name"), // Karakter Özelliklerin üzerine kendini değerlendirme.
-    P9A2: krktr_ozl(big5Data[0].name, 25, "question1"),
-    P9A3: krktr_ozl(big5Data[0].name, 25, "question1"),
-    P9A4: krktr_ozl(big5Data[0].name, 25, "question1"),
-    P9A5: krktr_ozl(big5Data[1].name, 25, "name"),
-    P9A6: krktr_ozl(big5Data[1].name, 25, "question1"),
-    P9A7: krktr_ozl(big5Data[1].name, 25, "question2"),
-    P9A8: krktr_ozl(big5Data[1].name, 25, "question3"),
+    P1A1: P11A1,
+    P2A1: P2A1,
+    P4A1: P4A1, // Kişilik Özellikleri
+    P4A2: P4A2,
+    P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+    P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+    P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+    P4A6: P4A6,
+    P5A1: P5A1,
+    P5A2: P5A2,
+    P5A3: P5A3,
+    P5A4: P5A4,
+    P5A5: P5A5,
+    P5A6: P5A6,
+    P5A7: P5A7,
+    P5A8: P5A8,
+    P6A1: P6A1, // Kendini Değerlendirme
+    P6A2: P6A2,
+    P6A3: P6A3,
+    P6A4: P6A4,
+    P6A5: P6A5,
+    P6A6: P6A6,
+    P6A7: P6A7,
+    P6A8: P6A8,
+    P7A1: P7A1, // Karakter Özelliklerin
+    P7A2: P7A2,
+    P7A3: P7A3,
+    P7A4: P7A4,
+    P7A5: P7A5,
+    P8A1: P8A1,
+    P8A2: P8A2,
+    P8A3: P8A3,
+    P8A4: P8A4,
+    P8A5: P8A5,
+    P8A6: P8A6,
+    P8A7: P8A7,
+    P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+    P9A2: P9A2,
+    P9A3: P9A3,
+    P9A4: P9A4,
+    P9A5: P9A5,
+    P9A6: P9A6,
+    P9A7: P9A7,
+    P9A8: P9A8,
 
-    P11A1: "chart", // Yapay zeka çağı yetkinliklerin
-    P12A1: ai(aiData[0].name, 25, "name"),
-    P12A2: ai(aiData[1].name, 25, "name"),
-    P12A3: ai(aiData[0].name, 25, "s4u1_x_3"),
-    P12A4: ai(aiData[1].name, 25, "s4u1_x_4"),
-    P12A5: ai(aiData[0].name, 25, "s4u1_x_3"),
-    P12A6: ai(aiData[1].name, 25, "s4u1_x_4"),
-    P12A7: ai(aiData[ai.length - 1].name, 25, "name"),
-    P12A8: ai(aiData[ai.length - 2].name, 25, "name"),
-    P12A9: ai(aiData[ai.length - 1].name, 25, "s4u2_x_3"),
-    P12A10: ai(aiData[ai.length - 2].name, 25, "s4u2_x_4"),
-    P12A11: ai(aiData[ai.length - 1].name, 25, "s4u2_x_3"),
-    P12A12: ai(aiData[ai.length - 2].name, 25, "s4u2_x_4"),
-    P13A1: ai(aiData[0].name, 25, "name"),
-    P13A2: ai(aiData[0].name, 25, "s5u1_x_2"),
-    P13A3: ai(aiData[0].name, 25, "s5u1_x_3"),
-    P13A4: ai(aiData[1].name, 25, "name"),
-    P13A5: ai(aiData[1].name, 25, "s5u1_x_2"),
-    P13A6: ai(aiData[1].name, 25, "s5u1_x_3"),
-    P13A7: ai(aiData[ai.length - 1].name, 25, "name"),
-    P13A8: ai(aiData[0].name, 25, "s5u2_x_2"),
-    P13A9: ai(aiData[0].name, 25, "s4u2_x_3"),
-    P13A10: ai(aiData[0].name, 25, "s4u2_x_4"),
-    P13A11: ai(aiData[0].name, 25, "s4u2_x_5"),
+    P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+    P12A1: P12A1,
+    P12A2: P12A2,
+    P12A3: P12A3,
+    P12A4: P12A4,
+    P12A5: P12A5,
+    P12A6: P12A6,
+    P12A7: P12A7,
+    P12A8: P12A8,
+    P12A9: P12A9,
+    P12A10: P12A10,
+    P12A11: P12A11,
+    P12A12: P12A12,
+    P13A1: P13A1,
+    P13A2: P13A2,
+    P13A3: P13A3,
+    P13A4: P13A4,
+    P13A5: P13A5,
+    P13A6: P13A6,
+    P13A7: P13A7,
+    P13A8: P13A8,
+    P13A9: P13A9,
+    P13A10: P13A10,
+    P13A11: P13A11,
 
-    P14A1: "chart", // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-    P15A1: teamwork(teamworkData[0].name, 25, "name"),
-    P15A2: teamwork(teamworkData[1].name, 25, "name"),
-    P15A3: teamwork(teamworkData[0].name, 25, "best"),
-    P15A4: teamwork(teamworkData[1].name, 25, "best"),
-    P15A5: teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"), // Geliştirmeyi Düşünebilirsin
-    P15A6: teamwork(teamworkData[teamworkData.length - 2].name, 25, "name"),
-    P15A7: teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
-    P15A8: teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
-    P16A1: teamwork(teamworkData[0].name, 25, "name"), // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-    P16A2: teamwork(teamworkData[0].name, 25, "s3u1"),
-    P16A3: teamwork(teamworkData[1].name, 25, "name"),
-    P16A4: teamwork(teamworkData[1].name, 25, "s3u1"),
-    P16A5: teamwork(teamworkData[teamworkData.length - 1], 25, "name"), // Kendine sorabilirsin
-    P16A6: teamwork(teamworkData[teamworkData.length - 1], 25, "s3u2"),
-    P17A1: lifestyle(lifestyleData[0], 25, "name"), // Yaşamda İlerleme Tarzın
-    P17A2: lifestyle(lifestyleData[0], 25, "p1"),
-    P17A3: "image",
-    P18A1: lifestyle(lifestyleData[0], 25, "p2"),
-    P18A2: lifestyle(lifestyleData[0], 25, "p3"),
-    P18A3: lifestyle(lifestyleData[0], 25, "motto"), // motto
-    P19A1: lifestyle(lifestyleData[0], 25, "name"),
-    P19A2: lifestyle(lifestyleData[0], 25, "evaluation_1"),
-    P19A3: lifestyle(lifestyleData[0], 25, "evaluation_2"),
-    P19A4: lifestyle(lifestyleData[0], 25, "evaluation_3"),
-    P19A5: lifestyle(lifestyleData[0], 25, "evaluation_4"),
-    P19A6: lifestyle(lifestyleData[0], 25, "evaluation_5"),
-    P20A1: communication(communicationData[0], 25, "name"),
-    P20A2: communication(communicationData[0], 25, "1"),
-    P20A3: communication(communicationData[0], 25, "2"),
-    P20A4: communication(communicationData[0], 25, "3"),
-    P20A5: communication(communicationData[0], 25, "4"),
-    P20A6: communication(communicationData[0], 25, "5"),
-    P20A7: communication(communicationData[0], 25, "6"),
-    P20A8: communication(communicationData[0], 25, "7"),
-    P21A1: communication(communicationData[0], 25, "1_s2"), // İş Yerinde Etkili İletişim ve Katılım
-    P21A2: communication(communicationData[0], 25, "2_s2"),
-    P21A3: communication(communicationData[0], 25, "3_s2"),
-    P21A4: communication(communicationData[0], 25, "4_s2"),
-    P22A1: communication(communicationData[0], 25, "name"), // İletişim ve Etkileşim Tarzın
-    P22A2: communication(communicationData[0], 25, "1_s3"),
-    P22A3: communication(communicationData[0], 25, "2_s3"),
-    P22A4: communication(communicationData[0], 25, "3_s3"),
-    P22A5: communication(communicationData[0], 25, "4_s3"),
-    P22A6: communication(communicationData[0], 25, "5_s3"),
-    P24A1: worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin
-    P24A2: worklearnstyle(worklearnData[0], 25, "context"),
-    P25A1: worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-    P25A2: worklearnstyle(worklearnData[0], 25, "s3_1"),
-    P25A3: worklearnstyle(worklearnData[0], 25, "s3_2"),
-    P25A4: worklearnstyle(worklearnData[0], 25, "s3_3"),
-    P25A5: worklearnstyle(worklearnData[0], 25, "s3_4"),
-    P25A6: worklearnstyle(worklearnData[0], 25, "s3_5"),
-    P25A7: worklearnstyle(worklearnData[0], 25, "s3_6"),
-    P27A1: is_y_r(is_y_rData[0], 25, "name"), // İş Yaşamında Rolün
-    P27A2: is_y_r(is_y_rData[0], 25, "s2_1_1"),
-    P27A3: is_y_r(is_y_rData[0], 25, "s2_2"),
-    P27A4: is_y_r(is_y_rData[0], 25, "s2_2_1"),
-    P27A5: is_y_r(is_y_rData[0], 25, "s2_3"),
-    P27A6: is_y_r(is_y_rData[0], 25, "s2_3_1"),
-    P30A1: "", // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-    P30A2: "", // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-    P30A3: "", // is_y_r(is_y_rData[0], 25, "s3_1"),
-    P30A4: "", // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-    P30A5: "", // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-    P31A1: "",
-    P31A2: "",
-    P31A3: "",
-    P31A4: "",
-    P31A5: "",
-    P31A6: "",
-    P34A1: "", // Senin Karar Verme Stratejin
-    P34A2: decision_strategy(decision_strategyData[0], 25, "name"),
-    P34A3: decision_strategy(decision_strategyData[0], 25, "s3_x_2"),
-    P34A4: decision_strategy(decision_strategyData[0], 25, "s3_x_4"),
-    P34A5: decision_strategy(decision_strategyData[0], 25, "s3_x_5"),
-    P35A1: decision_strategy(decision_strategyData[0], 25, "s4_x_title"),
-    P35A2: decision_strategy(decision_strategyData[0], 25, "s4_x_text"),
-    P35A3: "Adımlar",
-    P35A4: decision_strategy(decision_strategyData[0], 25, "s4_x_1"),
-    P35A5: decision_strategy(decision_strategyData[0], 25, "s4_x_2"),
-    P35A6: decision_strategy(decision_strategyData[0], 25, "s4_x_3"),
-    P35A7: decision_strategy(decision_strategyData[0], 25, "s4_x_4"),
-    P35A8: decision_strategy(decision_strategyData[0], 25, "s4_x_5"),
-    P35A6: "image",
-    P36A1: "image",
-    P36A2: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
-    P36A3: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
-    P36A4: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
-    P37A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
-    P37A2: kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2"),
-    P37A3: kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2"),
-    P37A4: kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2"),
-    P37A5: kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2"),
-    P37A6: kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2"),
-    P38A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"), // Sana En uygun kariyer Seçenekleri Genel Sektörler
-    P38A2: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
-    P38A3: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
-    P38A4: kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"), // Güncel İşler
-    P38A5: kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1"),
-    P38A6: kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1"),
-    P39A1: kariyer_secim(careerSelectionLastResult[0], 25, "name"),
-    P39A2: kariyer_secim(careerSelectionLastResult[1], 25, "name"),
-    P39A3: kariyer_secim(careerSelectionLastResult[2], 25, "name"),
-    P39A4: kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"), // Geleceğin İşleri
-    P39A5: kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1"),
-    P39A6: kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1"),
-    P40A1: kariyer_secim(careerSelectionLastResult, 25, "sector"), // Sana En uygun kariyer seçenekleri
-    P40A2: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decision_strategyData[0].sectorName + "x_1",
-    ),
-    P40A3: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decision_strategyData[0].sectorName + "x_3",
-    ),
-    P40A4: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
-    ),
-    P40A5: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
-    ),
-    P40A6: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
-    ),
-    P40A7: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
-    ),
-    P40A8: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_1",
-    ),
-    P40A9: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_3",
-    ),
-    P40A10: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
-    ),
-    P40A11: kariyer_secim(
-      careerSelectionLastResult,
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
-    ),
-    P40A12: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
-    ),
-    P40A13: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
-    ),
-    P40A14: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_1",
-    ),
-    P40A15: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_3",
-    ),
-    P40A16: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_4",
-    ),
-    P40A17: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_5",
-    ),
-    P40A18: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_6",
-    ),
-    P40A19: kariyer_secim(
-      decision_strategyData[0],
-      25,
-      "s7_x_" + decisionStrategyData[0].sectorName + "x_7",
-    ),
-    P41A14: "Sevgili " + rawData.find((x) => x.name == "kisiselbilgi / isim"), // Sevgili Dinçer
+    P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+    P15A1: P15A1,
+    P15A2: P15A2,
+    P15A3: P15A3,
+    P15A4: P15A4,
+    P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+    P15A6: P15A6,
+    P15A7: P15A7,
+    P15A8: P15A8,
+    P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+    P16A2: P16A2,
+    P16A3: P16A3,
+    P16A4: P16A4,
+    P16A5: P16A5, // Kendine sorabilirsin
+    P16A6: P16A6,
+    P17A1: P17A1, // Yaşamda İlerleme Tarzın
+    P17A2: P17A2,
+    P17A3: P17A3,
+    P18A1: P18A1,
+    P18A2: P18A2,
+    P18A3: P18A3, // motto
+    P19A1: P19A1,
+    P19A2: P19A2,
+    P19A3: P19A3,
+    P19A4: P19A4,
+    P19A5: P19A5,
+    P19A6: P19A6,
+    P20A1: P20A1,
+    P20A2: P20A2,
+    P20A3: P20A3,
+    P20A4: P20A4,
+    P20A5: P20A5,
+    P20A6: P20A6,
+    P20A7: P20A7,
+    P20A8: P20A8,
+    P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+    P21A2: P21A2,
+    P21A3: P21A3,
+    P21A4: P21A4,
+    P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+    P22A2: P22A2,
+    P22A3: P22A3,
+    P22A4: P22A4,
+    P22A5: P22A5,
+    P22A6: P22A6,
+    P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+    P24A2: P24A2,
+    P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+    P25A2: P25A2,
+    P25A3: P25A3,
+    P25A4: P25A4,
+    P25A5: P25A5,
+    P25A6: P25A6,
+    P25A7: P25A7,
+    P27A1: P27A1, // İş Yaşamında Rolün
+    P27A2: P27A2,
+    P27A3: P27A3,
+    P27A4: P27A4,
+    P27A5: P27A5,
+    P27A6: P27A6,
+    P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+    P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+    P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+    P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+    P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+    P31A1: P31A1,
+    P31A2: P31A2,
+    P31A3: P31A3,
+    P31A4: P31A4,
+    P31A5: P31A5,
+    P31A6: P31A6,
+    P34A1: P34A1, // Senin Karar Verme Stratejin
+    P34A2: P34A2,
+    P34A3: P34A3,
+    P34A4: P34A4,
+    P34A5: P34A5,
+    P35A1: P35A1,
+    P35A2: P35A2,
+    P35A3: P35A3,
+    P35A4: P35A4,
+    P35A5: P35A5,
+    P35A6: P35A6,
+    P35A7: P35A7,
+    P35A8: P35A8,
+    P35A6: P35A6,
+    P36A1: P36A1,
+    P36A2: P36A2,
+    P36A3: P36A3,
+    P36A4: P36A4,
+    P37A1: P37A1,
+    P37A2: P37A2,
+    P37A3: P37A3,
+    P37A4: P37A4,
+    P37A5: P37A5,
+    P37A6: P37A6,
+    P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P38A2: P38A2,
+    P38A3: P38A3,
+    P38A4: P38A4, // Güncel İşler
+    P38A5: P38A5,
+    P38A6: P38A6,
+    P39A1: P39A1,
+    P39A2: P39A2,
+    P39A3: P39A3,
+    P39A4: P39A4, // Geleceğin İşleri
+    P39A5: P39A5,
+    P39A6: P39A6,
+    P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+    P40A2: P40A2,
+    P40A3: P40A3,
+    P40A4: P40A4,
+    P40A5: P40A5,
+    P40A6: P40A6,
+    P40A7: P40A7,
+    P40A8: P40A8,
+    P40A9: P40A9,
+    P40A10: P40A10,
+    P40A11: P40A11,
+    P40A12: P40A12,
+    P40A13: P40A13,
+    P40A14: P40A14,
+    P40A15: P40A15,
+    P40A16: P40A16,
+    P40A17: P40A17,
+    P40A18: P40A18,
+    P40A19: P40A19,
+    P41A14: P41A14, // Sevgili Dinçer
     graphbig: bigdataPercent,
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
