@@ -10264,11 +10264,11 @@ export default async ({ req, res, log, error }) => {
   var P7A5 = krktr_ozl(big5Data[1].name, 25, "character_elements");
   var P8A1 = krktr_ozl(big5Data[0].name, 25, "strength");
   var P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness");
-  var P8A2 = krktr_ozl(big5Data[1].name, 25, "strength");
-  var P8A2 = krktr_ozl(big5Data[1].name, 25, "weakness");
-  var P8A2 = krktr_ozl(big5Data[2].name, 25, "strength");
-  var P8A2 = krktr_ozl(big5Data[2].name, 25, "weakness");
-  var P8A2 =
+  var P8A3 = krktr_ozl(big5Data[1].name, 25, "strength");
+  var P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness");
+  var P8A5 = krktr_ozl(big5Data[2].name, 25, "strength");
+  var P8A6 = krktr_ozl(big5Data[2].name, 25, "weakness");
+  var P8A7 =
     krktr_ozl(big5Data[0].name, 25, "other_attributes") +
     "," +
     krktr_ozl(big5Data[1].name, 25, "other_attributes") +
@@ -10764,6 +10764,7 @@ export default async ({ req, res, log, error }) => {
     graphbig: bigdataPercent,
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
+    graphai: aiData,
   };
 
   return res.json(inputs);
