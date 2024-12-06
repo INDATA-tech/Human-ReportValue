@@ -4750,184 +4750,303 @@ export default async ({ req, res, log, error }) => {
     "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
 
   var teamwork_best_1_1 = "Aktif Dinleme ve Empati";
+  var teamwork_best_1_1_en = "Acive Listening and Empathy";
+
+ 
   var teamwork_best_1_2 =
     "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
-
+    var teamwork_best_1_2_en ="Active listening and empathy are crucial for building trust within a team. It’s not just about hearing words but also understanding the emotions and intentions behind them. These individuals are approachable, emotionally available, and responsive to the needs of others, making them excellent team players in any collaborative environment."
   var teamwork_best_2_1 = "Etkili İletişim";
+  var teamwork_best_2_1_en = "Effective Communication:";
   var teamwork_best_2_2 =
     "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur.";
-
+    var teamwork_best_2_2_en =
+    "Communication goes beyond exchanging information—it involves clarity and emotional intelligence. It reflects the ability to convey thoughts in a way that others can easily understand. Employees who are strong in this skill help reduce misunderstandings, increase productivity, and foster positive working relationships.";
   var teamwork_best_3_1 = "İşbirliği";
+  var teamwork_best_3_1_en = "Collaboration";
   var teamwork_best_3_2 =
     "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. ";
-
+    var teamwork_best_3_2_en ="Working well with others involves sharing ideas and responsibilities to achieve common goals. These individuals naturally excel in collaboration. They are eager to work as part of a cooperative, friendly, and cohesive unit, contributing to an inclusive team environment where everyone feels valued.";
   var teamwork_best_4_1 = "Uyumluluk";
+  var teamwork_best_4_1_en = "Adaptability";
   var teamwork_best_4_2 =
     "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir.";
-
+    var teamwork_best_4_2_en ="Adaptability reflects the ability to adjust to new situations, challenges, and demands without becoming overwhelmed. These individuals are more likely to embrace and thrive in uncertain environments. This flexibility is critical in fast-paced workplaces where priorities can change unexpectedly.";
   var teamwork_best_5_1 = "Çatışma Çözümü";
+  var teamwork_best_5_1_en = "Conflict Resolution";
   var teamwork_best_5_2 =
     "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar.";
-
+    var teamwork_best_5_2_en ="Every team will encounter conflict at some point, and the ability to resolve these conflicts amicably is essential for maintaining team harmony. These individuals tend to be effective in navigating disagreements. They remain calm under pressure, are empathetic, and focus on finding mutually beneficial solutions rather than engaging in confrontational behavior.";
   var teamwork_best_6_1 = "İnisiyatif";
+  var teamwork_best_6_1_en = "Initiative";
   var teamwork_best_6_2 =
     "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır.";
-
+    var teamwork_best_6_2_en ="Taking initiative means being proactive, not waiting for instructions, and handling tasks independently. People with this competency are more inclined to take the lead naturally. They are often self-starters who bring new ideas and energy to the table, motivating their peers to do the same.";
   var teamwork_best_7_1 = "Geri Bildirim";
+  var teamwork_best_7_1_en = "Feedback";
   var teamwork_best_7_2 =
     "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. ";
-
+    var teamwork_best_7_2_en ="Providing and receiving constructive feedback is a vital aspect of teamwork. They are able to deliver feedback compassionately, ensure it is received positively, and are also open to hearing and applying feedback themselves."
   var teamwork_best_8_1 = "Takım Oluşturma";
+  var teamwork_best_8_1_en = "Team Building";
   var teamwork_best_8_2 =
     "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. ";
-
+    var teamwork_best_8_2_en ="Building and maintaining a strong, cohesive team requires focusing on relationships and morale. These individuals are often charismatic and inclusive, making it easier for them to foster a sense of unity and collaboration among diverse team members.";
   var teamwork_best_9_1 = "Mesleki Gelişim";
+  var teamwork_best_9_1_en = "Professional Development:";
   var teamwork_best_9_2 =
     "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. ";
-
+    var teamwork_best_9_2_en ="Professional development involves not only improving one’s own skills but also encouraging others to grow. These individuals tend to value continuous improvement. They are proactive in seeking learning opportunities and motivating others to do the same, fostering overall team growth.";
   var teamwork_best_10_1 = "Liderlik";
+  var teamwork_best_10_1_en = "Leadership";
   var teamwork_best_10_2 =
     "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
+    var teamwork_best_10_2_en ="Leadership requires a combination of vision, communication, and the ability to inspire others to take action. They are decisive, motivating, and capable of setting clear goals while guiding their teams toward achieving them.";
+
+
+
+
+
 
   var teamwork_s3u1_1_1 = "Aktif Dinleme ve Empati";
+  var teamwork_s3u1_1_1_en = "Active Listening and Empathy";
   var teamwork_s3u1_1_2 =
     "Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? ";
+    var teamwork_s3u1_1_2_en ="How can you use your strong listening skills to better understand customer needs and tailor solutions more effectively?";
+
   var teamwork_s3u1_1_3 =
     "Empati yeteneğin, daha iyi sonuçlar elde etmek için hem müşterilerle hem de ekip üyeleriyle daha güçlü ilişkiler geliştirmene nasıl yardımcı olabilir? ";
+    var teamwork_s3u1_1_3_en ="How can your ability to empathize help you build stronger relationships with both customers and team members, leading to better outcomes?";
+
 
   var teamwork_s3u1_2_1 = "Etkili İletişim";
+  var teamwork_s3u1_2_1_en = "Effective Communication";
   var teamwork_s3u1_2_2 =
     "Ekibinin içinde eyleme ve uyuma ilham vermek için iletişimininin netliğini nasıl daha da artırabilirsin? ";
+    var teamwork_s3u1_2_2_en ="How can you further enhance the clarity of your communication to inspire action and alignment within your team?";
   var teamwork_s3u1_2_3 =
     "Müzakerelerde veya zor paydaşlarla uğraşırken daha etkili olmak için iletişim tarzını nasıl uyarlayabilirsin?";
+    var teamwork_s3u1_2_3_en ="How can you adapt your communication style to be more effective in negotiations or when dealing with difficult stakeholders?";
+
 
   var teamwork_s3u1_3_1 = "İşbirliği";
+  var teamwork_s3u1_3_1_en = "Collaboration";
   var teamwork_s3u1_3_2 =
     "İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? ";
+    var teamwork_s3u1_3_2_en ="How can you bring your collaboration skills to cross-functional projects and ensure that all team members feel heard and contribute effectively?";
   var teamwork_s3u1_3_3 =
     "İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? ";
+    var teamwork_s3u1_3_3_en ="What steps can you take to encourage more creative problem-solving through collaborative teamwork?";
+
 
   var teamwork_s3u1_4_1 = "Uyumluluk";
+  var teamwork_s3u1_4_1_en = "Adaptability";
   var teamwork_s3u1_4_2 =
     "Pazardaki veya endüstri trendlerindeki değişikliklerden daha iyi yararlanmak için uyumluluğunu nasıl kullnabilirsin? ";
+    var teamwork_s3u1_4_2_en ="How can you use your adaptability to better capitalize on changes in the market or industry trends?";
   var teamwork_s3u1_4_3 =
     "Ekip süreçlerini iyileştirmek veya ekibe geçişlerde daha sorunsuz bir şekilde liderlik etmek için esnekliğini hangi yollarla kullanabilirsin? ";
+    var teamwork_s3u1_4_3_en ="In what ways can you use your flexibility to improve team processes or lead smoother transitions during team shifts?";
+
 
   var teamwork_s3u1_5_1 = "Çatışma Çözümü";
+  var teamwork_s3u1_5_1_en = "Conflict Resolution";
   var teamwork_s3u1_5_2 =
     "Çatışma çözme becerilerin, ekip dinamiklerini güçlendirecek ve üretkenliği artıracak şekilde anlaşmazlıkları ele almak için nasıl kullanılabilir? ";
+    var teamwork_s3u1_5_2_en ="How can your conflict resolution skills be used to address disagreements in a way that strengthens team dynamics and boosts productivity?";
   var teamwork_s3u1_5_3 =
     "Uzun vadeli iş ilişkilerinin bozulmadan kalmasını sağlamak için müşteriler veya ortaklarla olan çatışmalarda nasıl arabuluculuk yapabilirsin? ";
+    var teamwork_s3u1_5_3_en ="How can you mediate conflicts with clients or partners to ensure that long-term business relationships remain intact?";
+
 
   var teamwork_s3u1_7_1 = "Girişim";
+  var teamwork_s3u1_7_1_en = "Initiative";
   var teamwork_s3u1_7_2 =
     "İşletmen için büyüme fırsatlarını veya yeni pazarları belirleme konusunda nasıl daha fazla inisiyatif alabilirsin? ";
+    var teamwork_s3u1_7_2_en ="How can you take more initiative in identifying growth opportunities or new markets for your business?";
   var teamwork_s3u1_7_3 =
     "Ekibindeki diğer kişileri proaktif olma ve projeleri sahiplenme konusunda liderliğini takip etmeye nasıl teşvik edebilirsin?";
+    var teamwork_s3u1_7_3_en ="How can you encourage others in your team to follow your lead in being proactive and taking ownership of projects?";
+
 
   var teamwork_s3u1_7_1 = "Geri Bildirim";
+  var teamwork_s3u1_7_1_en = "Feedback";
   var teamwork_s3u1_7_2 =
     "Daha da yüksek performans elde etmek için geri bildirimi hem kişisel olarak hem de ekibin için sürekli iyileştirme aracı olarak nasıl kullanabilirsin? ";
+    var teamwork_s3u1_7_2_en ="How can you use feedback as a tool for continuous improvement, both personally and for your team, to achieve even higher performance?";
   var teamwork_s3u1_7_3 =
     "Ekibinizniçinde hesap verebilirliği teşvik eden ve daha iyi sonuçlar elde edilmesini sağlayan bir geri bildirim kültürünü nasıl oluşturabilirsin? ";
+    var teamwork_s3u1_7_3_en ="How can you create a feedback culture within your team that promotes accountability and leads to better outcomes?";
+
 
   var teamwork_s3u1_8_1 = "Takım Oluşturma";
+  var teamwork_s3u1_8_1_en = "Team Building";
   var teamwork_s3u1_8_2 =
     "Ekibinin hedeflerini şirketin uzun vadeli hedefleriyle uyumlu hale getirmek için ekip oluşturma gücünüzden nasıl yararlanabilirsin? ";
+    var teamwork_s3u1_8_2_en ="How can you leverage your team-building strength to align your team’s goals with the long-term objectives of the company?";
   var teamwork_s3u1_8_3 =
     "Ekibinin içinde daha yüksek düzeyde işbirliği ve başarıya yol açan daha güçlü bağlantılar kurmak için ne gibi eylemler gerçekleştirebilirsin?";
+    var teamwork_s3u1_8_3_en ="What actions can you take to foster stronger connections within your team, leading to higher levels of collaboration and success?";
+
 
   var teamwork_s3u1_9_1 = "Mesleki Gelişim";
+  var teamwork_s3u1_9_1_en = "Professional Development";
   var teamwork_s3u1_9_2 =
     "Kurumunda bir öğrenme ve yenilik kültürünü teşvik etmek için mesleki gelişime olan bağlılığını nasıl kullanabilirsin? ";
+    var teamwork_s3u1_9_2_en ="How can you use your commitment to professional development to foster a culture of learning and innovation in your organization?";
   var teamwork_s3u1_9_3 =
     "Kendi profesyonel gelişiminin, ekibinizdeki diğer kişilere hem kendilerine hem de işletmeye fayda sağlayan gelişmeleri sürdürmeleri için nasıl ilham verebilir? ";
-
+    var teamwork_s3u1_9_3_en ="How can your own professional growth inspire others in your team to pursue development that benefits both themselves and the business?";
+    
   var teamwork_s3u1_10_1 = "Liderlik";
+  var teamwork_s3u1_10_1_en = "Leadership";
   var teamwork_s3u1_10_2 =
     "Liderlik gücün, ekibin satış veya müşteri hizmetleri hedeflerini aşmasına nasıl yardımcı olabilir? ";
+    var teamwork_s3u1_10_2_en ="How can your leadership strength help your team exceed sales or customer service targets?";
   var teamwork_s3u1_10_3 =
     "Sürekli olarak güçlü sonuçlar elde eden yüksek performanslı bir kültür oluşturmak için liderliğini nasıl daha fazla kullanabilirsin? ";
+    var teamwork_s3u1_10_3_en ="How can you use your leadership to build a high-performance culture that consistently delivers strong results?";
+
+
+
 
   var teamwork_s3u2_1_1 = "Aktif Dinleme ve Empati";
+  var teamwork_s3u2_1_1_en = "Active Listening and Empathy";
   var teamwork_s3u2_1_2 =
     "Ne sıklıkla başkalarının konuştuklarında duygularını ve bakış açılarını anlamaya gerçekten odaklanıyorum? ";
+    var teamwork_s3u2_1_2_en ="How often do I genuinely focus on understanding the emotions and perspectives of others when they speak?";
   var teamwork_s3u2_1_3 =
     "Hangi durumlarda konuşmalar sırasında dikkatim dağılıyor veya sabırsız oluyorum? ";
+    var teamwork_s3u2_1_3_en ="In which situations do I get distracted or impatient during conversations?";
   var teamwork_s3u2_1_4 =
     "Aynı fikirde olmadığımda bile empati ve şefkatle yanıt verme yeteneğimi nasıl geliştirebilirim? ";
+    var teamwork_s3u2_1_4_en ="How can I improve my ability to respond with empathy and compassion, even when I disagree?";
+
 
   var teamwork_s3u2_2_1 = "Etkili İletişim";
+  var teamwork_s3u2_2_1_en = "Effective Communication";
   var teamwork_s3u2_2_2 =
     "İletişim tarzımı kiminle konuştuğuma göre uyarlıyor muyum ve eğer değilse, nasıl geliştirebilirim? ";
+    var teamwork_s3u2_2_2_en ="Do I adapt my communication style based on who I’m talking to, and if not, how can I improve this?"
   var teamwork_s3u2_2_3 =
     "Mesajımın anlaşıldığından emin olmak için ne sıklıkla açıklama istiyorum ve bunu yapmamı engelleyen nedir? ";
+    var teamwork_s3u2_2_3_en = "How often do I ask for clarification to ensure my message is understood, and what stops me from doing so?";
   var teamwork_s3u2_2_4 =
     "Hem yazılı hem de sözlü olarak daha açık, özlü ve etkili iletişim kurmak için ne yapabilirim? ";
+    var teamwork_s3u2_2_4_en = "What can I do to communicate more clearly, concisely, and effectively, both in writing and verbally?";
+
+
 
   var teamwork_s3u2_3_1 = "İşbirliği";
+  var teamwork_s3u2_3_1_en = "Collaboration";
   var teamwork_s3u2_3_2 =
     "Karar vermeden veya görevlerde ilerlemeden önce aktif olarak başkalarından girdi ve fikir alıyor muyum? ";
+    var teamwork_s3u2_3_2_en ="Do I actively seek input and ideas from others before making decisions or moving forward with tasks?";
   var teamwork_s3u2_3_3 =
     "Kendi katkılarımı başkalarını düşüncelerini ve fikirlerini paylaşmaya teşvik etmekle ne kadar iyi dengeleyebilirim? ";
+    var teamwork_s3u2_3_3_en ="How well do I balance contributing my own ideas with encouraging others to share their thoughts and opinions?";
   var teamwork_s3u2_3_3 =
     "Ekibim içinde daha güçlü işbirlikçi ilişkiler kurmak için hangi adımları atabilirim? ";
+    var teamwork_s3u2_3_3_en ="What steps can I take to foster stronger collaborative relationships within my team?";
+
+
 
   var teamwork_s3u2_4_1 = "Uyumluluk";
+  var teamwork_s3u2_4_1_en = "Adaptability";
   var teamwork_s3u2_4_2 =
     "Beklenmedik değişikliklere veya zorluklara genellikle nasıl yanıt veririm ve bu durumları daha olumlu bir şekilde kucaklamak için ne yapabilirim? ";
+    var teamwork_s3u2_4_2_en ="How do I typically respond to unexpected changes or challenges, and what can I do to embrace these situations more positively?";
   var teamwork_s3u2_4_3 =
     "Değişimle karşı karşıya kaldığımda, bunalmış veya dirençli olmak yerine nasıl odaklanmış ve üretken kalabilirim? ";
+    var teamwork_s3u2_4_3_en ="When faced with change, how can I remain focused and productive instead of feeling overwhelmed or resistant?";
   var teamwork_s3u2_4_4 =
     "Farklı çalışma ortamlarında esnekliğimi artırmak için hangi yeni beceriler veya tutumlar geliştirebilirim? ";
+    var teamwork_s3u2_4_4_en ="What new skills or attitudes can I develop to increase my flexibility in different work environments?";
+
+
+
 
   var teamwork_s3u2_5_1 = "Çatışma Çözümü";
+  var teamwork_s3u2_5_1_en = "Conflict Resolution";
   var teamwork_s3u2_5_1 =
     "Çatışmalar ortaya çıktığında, soruna mı yoksa ilgili kişilere mi odaklanıyorum ve ikisini nasıl daha iyi ayırabilirim? ";
+    var teamwork_s3u2_5_1_en ="When conflicts arise, do I focus more on the problem or the people involved, and how can I better separate the two?";
   var teamwork_s3u2_5_2 =
     "Gergin durumlarda ne kadar sakin ve sakin kalıyorum ve bunu geliştirmeme hangi teknikler yardımcı olabilir? ";
+    var teamwork_s3u2_5_2_en ="How calm and composed do I remain in tense situations, and what techniques can help me improve this?";
   var teamwork_s3u2_5_3 =
     "Çatışma çözümüne hem kendi bakış açıma hem de başkalarının bakış açısına saygı duyacak şekilde nasıl daha iyi yaklaşabilirim?";
+    var teamwork_s3u2_5_3_en ="How can I approach conflict resolution in a way that respects both my perspective and the viewpoints of others?"
+
 
   var teamwork_s3u2_6_1 = "Girişim";
+  var teamwork_s3u2_6_1_en = "Initiative";
   var teamwork_s3u2_6_1 =
     "İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim? ";
+    var teamwork_s3u2_6_1_en ="How proactive am I in identifying improvement opportunities or tackling new challenges at work?";
   var teamwork_s3u2_6_1 =
     "Ne zaman inisiyatif almaktan çekiniyorum ve hangi korkular veya engeller beni engelliyor? ";
+    var teamwork_s3u2_6_1_en ="When do I hesitate to take initiative, and what fears or obstacles hold me back?";
   var teamwork_s3u2_6_1 =
     "Risk olsa bile yeni fikirler veya çözümler önerme konusunda kendime daha fazla güvenmek için ne yapabilirim?";
+    var teamwork_s3u2_6_1_en ="What can I do to feel more confident in proposing new ideas or solutions, even when there’s risk involved?";
+
 
   var teamwork_s3u2_7_1 = "Geri Bildirim";
+  var teamwork_s3u2_7_1_en = "Feedback";
   var teamwork_s3u2_7_1 =
     "Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim? ";
+    var teamwork_s3u2_7_1_en ="How do I react when receiving feedback, and how can I ensure my responses are constructive?";
   var teamwork_s3u2_7_1 =
     "Başkalarına geri bildirim verme konusunda tutarlı mıyım ve bunun hem zamanında hem de yardımcı olduğundan nasıl emin olabilirim? ";
+    var teamwork_s3u2_7_1_en ="Am I consistent in giving feedback to others, and how can I make sure it’s both timely and helpful?";
   var teamwork_s3u2_7_1 =
     "Başkalarından gelen geri bildirimlere daha açık olmak ve bunu kişisel ve profesyonel gelişim için bir araç olarak kullanmak için hangi adımları atabilirim?";
+    var teamwork_s3u2_7_1_en ="What steps can I take to be more open to feedback from others and use it as a tool for personal and professional growth?";
+
+
 
   var teamwork_s3u2_8_1 = "Takım Oluşturma";
+  var teamwork_s3u2_8_1_en = "Team Building";
   var teamwork_s3u2_8_1 =
     "Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim? ";
+    var teamwork_s3u2_8_1_en ="What should I be doing to foster positive relationships within my team, and where can I improve?";
   var teamwork_s3u2_8_1 =
     "Daha kapsayıcı ve destekleyici bir ekip kültürü oluşturmaya nasıl yardımcı olabilirim? ";
+    var teamwork_s3u2_8_1_en ="How can I contribute to creating a more inclusive and supportive team culture?";
   var teamwork_s3u2_8_1 =
     "Takım arkadaşlarımın güçlü ve zayıf yönlerini anlamak için çaba sarf ediyor muyum ve onları nasıl daha iyi destekleyebilirim? ";
+    var teamwork_s3u2_8_1_en ="Do I make an effort to understand my team members’ strengths and weaknesses, and how can I better support them?";
+
 
   var teamwork_s3u2_9_1 = "Mesleki Gelişim";
+  var teamwork_s3u2_9_1_en = "Professional Development";
   var teamwork_s3u2_9_1 =
     "Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir? ";
+    var teamwork_s3u2_9_1_en = "Am I actively seeking opportunities to develop new skills, and if not, what’s holding me back?" ;
   var teamwork_s3u2_9_1 =
     "Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim? ";
+    var teamwork_s3u2_9_1_en = "How can I balance my professional development with my current workload and prioritize growth?" ;
   var teamwork_s3u2_9_1 =
     "Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim? ";
+    var teamwork_s3u2_9_1_en = "What can I do to encourage others on my team to invest in their own development?";
 
   var teamwork_s3u2_10_1 = "Liderlik";
+  var teamwork_s3u2_10_1_en = "Leadership";
   var teamwork_s3u2_10_1 =
     "Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim? ";
+    var teamwork_s3u2_10_1_en ="How well do I set clear goals and expectations for myself and others, and how can I improve in this area?";
   var teamwork_s3u2_10_1 =
     "Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim? ";
+    var teamwork_s3u2_10_1_en ="Am I leading by example, and what behaviors can I model to more effectively inspire and motivate others?";
   var teamwork_s3u2_10_1 =
     "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
+    var teamwork_s3u2_10_1_en ="What steps can I take to strengthen my decision-making and delegation skills?";
+
+
+
+
+    //=================== 6.B ================================
 
   var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator";
   var lifestyle_25_plus_manifesting_generator_1 =
