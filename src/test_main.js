@@ -5111,7 +5111,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_other_attributes_openness_to_experience;
       }
-    } else if (type == "questions1") {
+    } else if (type == "question1") {
       if (big5Name == "Öz Disiplin") {
         return krktr_ozl_40_plus_self_discipline_questions_1;
       } else if (big5Name == "Dışa Dönüklük") {
@@ -5418,6 +5418,86 @@ export default async ({ req, res, log, error }) => {
         return ai_25_s4u2_8_4;
       } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
         return ai_25_s4u2_9_4;
+      }
+    } else if (type == "s5u2_x_2") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u2_1_2;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s4u2_2_2;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s4u2_3_2;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s4u2_4_2;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s4u2_5_2;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s4u2_6_2;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s4u2_7_2;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s4u2_8_2;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s4u2_9_2;
+      }
+    } else if (type == "s5u2_x_3") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u2_1_3;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s4u2_2_3;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s4u2_3_3;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s4u2_4_3;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s4u2_5_3;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s4u2_6_3;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s4u2_7_3;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s4u2_8_3;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s4u2_9_3;
+      }
+    } else if (type == "s5u2_x_4") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u2_1_4;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s4u2_2_4;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s4u2_3_4;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s4u2_4_4;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s4u2_5_4;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s4u2_6_4;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s4u2_7_4;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s4u2_8_4;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s4u2_9_4;
+      }
+    } else if (type == "s5u2_x_5") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u2_1_5;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s4u2_2_5;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s4u2_3_5;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s4u2_4_5;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s4u2_5_5;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s4u2_6_5;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s4u2_7_5;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s4u2_8_5;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s4u2_9_5;
       }
     }
   };
@@ -10405,8 +10485,8 @@ export default async ({ req, res, log, error }) => {
     krktr_ozl(big5Data[2].name, 25, "other_attributes");
   var P9A1 = krktr_ozl(big5Data[0].name, 25, "name"); // Karakter Özelliklerin üzerine kendini değerlendirme.
   var P9A2 = krktr_ozl(big5Data[0].name, 25, "question1");
-  var P9A3 = krktr_ozl(big5Data[0].name, 25, "question1");
-  var P9A4 = krktr_ozl(big5Data[0].name, 25, "question1");
+  var P9A3 = krktr_ozl(big5Data[0].name, 25, "question2");
+  var P9A4 = krktr_ozl(big5Data[0].name, 25, "question3");
   var P9A5 = krktr_ozl(big5Data[1].name, 25, "name");
   var P9A6 = krktr_ozl(big5Data[1].name, 25, "question1");
   var P9A7 = krktr_ozl(big5Data[1].name, 25, "question2");
@@ -10415,16 +10495,16 @@ export default async ({ req, res, log, error }) => {
   var P11A1 = "chart"; // Yapay zeka çağı yetkinliklerin
   var P12A1 = ai(aiData[0].name, 25, "name");
   var P12A2 = ai(aiData[1].name, 25, "name");
-  var P12A3 = ai(aiData[0].name, 25, "s4u1_x_3");
-  var P12A4 = ai(aiData[1].name, 25, "s4u1_x_4");
-  var P12A5 = ai(aiData[0].name, 25, "s4u1_x_3");
-  var P12A6 = ai(aiData[1].name, 25, "s4u1_x_4");
+  var P12A3 = ai(aiData[0].name, 25, "s3_x_2");
+  var P12A4 = ai(aiData[1].name, 25, "s3_x_2");
+  var P12A5 = ai(aiData[0].name, 25, "s3_x_3");
+  var P12A6 = ai(aiData[1].name, 25, "s3_x_3");
   var P12A7 = ai(aiData[ai.length - 1].name, 25, "name");
   var P12A8 = ai(aiData[ai.length - 2].name, 25, "name");
-  var P12A9 = ai(aiData[ai.length - 1].name, 25, "s4u2_x_3");
-  var P12A10 = ai(aiData[ai.length - 2].name, 25, "s4u2_x_4");
-  var P12A11 = ai(aiData[ai.length - 1].name, 25, "s4u2_x_3");
-  var P12A12 = ai(aiData[ai.length - 2].name, 25, "s4u2_x_4");
+  var P12A9 = ai(aiData[ai.length - 1].name, 25, "s3_x_2");
+  var P12A10 = ai(aiData[ai.length - 2].name, 25, "s3_x_3");
+  var P12A11 = ai(aiData[ai.length - 1].name, 25, "s3_x_2");
+  var P12A12 = ai(aiData[ai.length - 2].name, 25, "s3_x_3");
   var P13A1 = ai(aiData[0].name, 25, "name");
   var P13A2 = ai(aiData[0].name, 25, "s5u1_x_2");
   var P13A3 = ai(aiData[0].name, 25, "s5u1_x_3");
@@ -10433,9 +10513,9 @@ export default async ({ req, res, log, error }) => {
   var P13A6 = ai(aiData[1].name, 25, "s5u1_x_3");
   var P13A7 = ai(aiData[ai.length - 1].name, 25, "name");
   var P13A8 = ai(aiData[0].name, 25, "s5u2_x_2");
-  var P13A9 = ai(aiData[0].name, 25, "s4u2_x_3");
-  var P13A10 = ai(aiData[0].name, 25, "s4u2_x_4");
-  var P13A11 = ai(aiData[0].name, 25, "s4u2_x_5");
+  var P13A9 = ai(aiData[0].name, 25, "s5u2_x_3");
+  var P13A10 = ai(aiData[0].name, 25, "s5u2_x_4");
+  var P13A11 = ai(aiData[0].name, 25, "s5u2_x_5");
 
   var P14A1 = "chart"; // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
   var P15A1 = teamwork(teamworkData[0].name, 25, "name");
@@ -10896,5 +10976,5 @@ export default async ({ req, res, log, error }) => {
     graphai: aiData,
   };
 
-  return res.json(inputs);
+  return res.json(inputs_25_plus);
 };
