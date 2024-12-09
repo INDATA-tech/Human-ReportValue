@@ -982,6 +982,66 @@ export default async ({ req, res, log, error }) => {
       futurist: `Veri Bilimcisi\nMakine Öğrenimi Mühendisi\nYapay Zeka (AI) Etikçisi\nVeri Gizliliği Görevlisi\nBlockchain Veri Analisti\nBaş Veri Sorumlusu\nTahmine Dayalı Analitik Modelleyici\nArtırılmış Analitik Uzmanı\nSiber Güvenlik Veri Analisti\nKuantum Veri Analisti\nSağlık Bilişiminde Veri Bilimcisi\nVeriye Dayalı Pazarlama Uzmanı\nSürdürülebilirlik Veri Analisti\nİnsan Kaynakları Analisti için Yapay Zeka\nIoT (Nesnelerin İnterneti) Veri Analisti`,
     },
   ];
+
+  var image_karar_verme_stratejileri_1 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b247000e1713375d/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_2 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a920022c6f5f092/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a9e000a3ec05944/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_4 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aa70030fa7afb16/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_5 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ab40019162083a9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_6 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345abf000e41d46b7e/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_7 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345acc000ab12f24a2/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_8 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ad6003dab141cb9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_9 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ae0001be37cfae9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_10 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aea002d9cc94aa5/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_karar_verme_stratejileri_11 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345af3003b87545d9f/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+
+  var image_6_3_leader_explorer =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_6_2_talented_leader =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322e2001fdd7852d7/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_5_2_solution_gives_talent =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d9002bce8dd6a6/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_5_1_practice_authority =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d20033d27b4f32/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_4_6_impactful_leader =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c8001d23247b88/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_4_1_attractive_authority =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c0000834ab763b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_3_6_explorer_role_model =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322b60012aa7e3499/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_3_5_exploration_solver =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ad0011d4c5a403/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_2_5_talented_solution_creator =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322a50018baefc20b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_2_4_talented_connector =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6733229a0030e4ce5812/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_1_4_information_connector =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322910004bac07424/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_1_3_explorer_proffessor =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67332285001c81e3bf63/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+
+  var image_projector =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/projector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_generator_w =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_generator_m =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_reflector =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var image_manifestor =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/manifestor/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+
   var sortedUsageGate = siralaValueUzunlugunaGore(usageGate);
   var guclu_yanlarinData = sortedUsageGate;
   // Çalışma ve Öğrenme Stilin
@@ -5015,17 +5075,17 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_character_elements_openness_to_experience;
       }
-    } else if (type == "strenght") {
+    } else if (type == "strength") {
       if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_character_elements_self_discipline;
+        return krktr_ozl_strenghts_self_discipline;
       } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_type_elements_extraversion;
+        return krktr_ozl_strenghts_extraversion;
       } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_type_elements_compatibility;
+        return krktr_ozl_strenghts_compatibility;
       } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_type_elements_emotional_resilience;
+        return krktr_ozl_strenghts_emotional_resilience;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_type_elements_openness_to_experience;
+        return krktr_ozl_strenghts_openness_to_experience;
       }
     } else if (type == "weakness") {
       if (big5Name == "Öz Disiplin") {
@@ -6121,6 +6181,75 @@ export default async ({ req, res, log, error }) => {
   };
 
   let decision_strategy = (decisionStrategyData, age, type) => {
+    if (type == "image") {
+      if (
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Emotional"
+      ) {
+        // Karar ver ve netlikle karar al
+        return image_karar_verme_stratejileri_1;
+      } else if (
+        decisionStrategyData.strategy == "To Respond" &&
+        decisionStrategyData.innerAuthority == "Sacral"
+      ) {
+        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+        return image_karar_verme_stratejileri_2;
+      } else if (
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Emotional"
+      ) {
+        // Tanınma ve Davet Al, Netlik ile Karar Al
+        return image_karar_verme_stratejileri_3;
+      } else if (
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Splenic"
+      ) {
+        // Tanınma ve Davet Al, İçgüdülerini Takip Et
+        return image_karar_verme_stratejileri_4;
+      } else if (
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Ego Projected"
+      ) {
+        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+        return image_karar_verme_stratejileri_5;
+      } else if (
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Self Projected"
+      ) {
+        // Tanınma ve Davet Al, Söylediklerini Dinle
+        return image_karar_verme_stratejileri_6;
+      } else if (
+        decisionStrategyData.strategy == "Wait for the Invitation" &&
+        decisionStrategyData.innerAuthority == "Mental"
+      ) {
+        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+        return image_karar_verme_stratejileri_7;
+      } else if (
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Emotional"
+      ) {
+        // Gör, Netlik Bekle ve Bilgi Ver
+        return image_karar_verme_stratejileri_8;
+      } else if (
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Splenic"
+      ) {
+        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+        return image_karar_verme_stratejileri_9;
+      } else if (
+        decisionStrategyData.strategy == "To Inform" &&
+        decisionStrategyData.innerAuthority == "Ego Manifested"
+      ) {
+        // Gör, İradeni Dinle ve Bilgi Ver
+        return image_karar_verme_stratejileri_10;
+      } else if (
+        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
+        decisionStrategyData.innerAuthority == "Lunar"
+      ) {
+        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+        return image_karar_verme_stratejileri_11;
+      }
+    }
     if (type == "name") {
       if (
         decisionStrategyData.strategy == "To Respond" &&
@@ -10442,8 +10571,8 @@ export default async ({ req, res, log, error }) => {
   var P35A6 = decision_strategy(decision_strategyData, 25, "s4_x_3");
   var P35A7 = decision_strategy(decision_strategyData, 25, "s4_x_4");
   var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5");
-  var P35A6 = "image";
-  var P36A1 = "image";
+  var P35A6 = decision_strategy(decision_strategyData, 25, "image");
+  var P36A1 = decision_strategy(decision_strategyData, 25, "graph"); // Sana uygun kariyer dağılımların
   var P36A2 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P36A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P36A4 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
@@ -10564,7 +10693,7 @@ export default async ({ req, res, log, error }) => {
   var graphcareer = careerSelectionLastResult;
 
   var inputs_25_plus = {
-    P1A1: P11A1,
+    P1A1: P1A1,
     P2A1: P2A1,
     P4A1: P4A1, // Kişilik Özellikleri
     P4A2: P4A2,
