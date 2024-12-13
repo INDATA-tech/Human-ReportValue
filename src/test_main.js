@@ -1046,192 +1046,126 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarinData = sortedUsageGate;
   // Çalışma ve Öğrenme Stilin
   var age_12_25_title = "12-25 Yaş";
-  var age_12_25 =
-    "Sosyal hayatta ve okul ortamında nasıl çalıştığını ve öğrendiğini anlamak, hem daha iyi iletişim kurmak hem de birlikte iş yapmak için çok önemli. Sınıf ortamlarında veya grup çalışmalarında, herkesin farklı bir çalışma ve öğrenme tarzı olabilir. Bu farkları görmek ve kabul etmek, grup çalışmalarında daha iyi sonuçlar almanı ve sınıf içindeki uyumu artırmanı sağlar. \n Kendi çalışma ve öğrenme stilini keşfederek, ihtiyaçlarını ve tercihlerini arkadaşlarına daha net bir şekilde anlatabilirsin. Aynı şekilde, arkadaşlarının nasıl öğrendiğini ve birlikte nasıl çalıştığını anlamak, onlarla daha iyi uyum sağlamana ve grup projelerinde daha başarılı olmanı sağlar. Bu yaklaşım, ekip içinde daha fazla anlayış ve iş birliği oluşturur, herkese kendini ifade etme fırsatı tanır. \n Başarılı bir grup çalışması, genellikle farklı düşünme ve öğrenme biçimlerini bir araya getirme becerisine bağlıdır. Herkesin farklı çalışma tarzını kabul edip buna göre hareket etmek, daha yaratıcı çözümler bulmanıza ve birlikte belirlediğiniz hedeflere daha kolay ulaşmanıza yardımcı olur. Her bireyin farklı öğrenme yaklaşımını takdir ederek, okul hayatında daha üretken ve uyumlu bir çalışma ortamı oluşturabilirsin. \n Her çalışma ve öğrenme tarzının kendine has güçlü yanları vardır. Kendi tarzını tanıyıp bunu kabul etmek, hem derslerinde daha verimli olmanı sağlar hem de arkadaşlarının farklı bakış açılarını anlamanı kolaylaştırır. Bu, sınıf ve grup projelerinde uyumlu bir ortam oluşturmak için oldukça önemlidir.";
+  var age_12_25 = "Sosyal hayatta ve okul ortamında nasıl çalıştığını ve öğrendiğini anlamak, hem daha iyi iletişim kurmak hem de birlikte iş yapmak için çok önemli. Sınıf ortamlarında veya grup çalışmalarında, herkesin farklı bir çalışma ve öğrenme tarzı olabilir. Bu farkları görmek ve kabul etmek, grup çalışmalarında daha iyi sonuçlar almanı ve sınıf içindeki uyumu artırmanı sağlar. \n Kendi çalışma ve öğrenme stilini keşfederek, ihtiyaçlarını ve tercihlerini arkadaşlarına daha net bir şekilde anlatabilirsin. Aynı şekilde, arkadaşlarının nasıl öğrendiğini ve birlikte nasıl çalıştığını anlamak, onlarla daha iyi uyum sağlamana ve grup projelerinde daha başarılı olmanı sağlar. Bu yaklaşım, ekip içinde daha fazla anlayış ve iş birliği oluşturur, herkese kendini ifade etme fırsatı tanır. \n Başarılı bir grup çalışması, genellikle farklı düşünme ve öğrenme biçimlerini bir araya getirme becerisine bağlıdır. Herkesin farklı çalışma tarzını kabul edip buna göre hareket etmek, daha yaratıcı çözümler bulmanıza ve birlikte belirlediğiniz hedeflere daha kolay ulaşmanıza yardımcı olur. Her bireyin farklı öğrenme yaklaşımını takdir ederek, okul hayatında daha üretken ve uyumlu bir çalışma ortamı oluşturabilirsin. \n Her çalışma ve öğrenme tarzının kendine has güçlü yanları vardır. Kendi tarzını tanıyıp bunu kabul etmek, hem derslerinde daha verimli olmanı sağlar hem de arkadaşlarının farklı bakış açılarını anlamanı kolaylaştırır. Bu, sınıf ve grup projelerinde uyumlu bir ortam oluşturmak için oldukça önemlidir.";
   var age_25_plus_title = "25+ Yaş";
-  var age_25_plus =
-    "Sosyal hayatta ve iş dünyasında çalışma ve öğrenme stillerini anlamak, etkili iletişim ve iş birliği için çok önemli. Her ortamda, farklı çalışma ve öğrenme tarzlarına sahip bireyler ortak hedefler doğrultusunda bir araya gelir. Bu farklılıkları görebilmek ve takdir etmek, ekip çalışmasını, verimliliği ve genel başarıyı artırabilir. \n Kendi çalışma ve öğrenme tarzını anlayarak, tercihlerini ve ihtiyaçlarını arkadaşlarına daha net bir şekilde ifade edebilirsin. Aynı şekilde, iş arkadaşlarının uyum sağlama biçimlerini anlamak da, onlarla iletişimini ve iş birliği çabalarını onların ihtiyaçlarına uygun hale getirmeni sağlar.Bu yaklaşım, daha iyi bir anlayış ve katılım sağlarken, ekip içinde kapsayıcılığı ve saygıyı da güçlendirir. \n Ekip çalışmasında başarı, genellikle farklılıkları birleştirme ve çeşitliliğin getirdiği güçlü yönlerden faydalanma yeteneğine bağlıdır. Farklı çalışma ve öğrenme biçimlerini kucaklayıp onlara uyum sağlamak, daha zengin tartışmalar, yenilikçi çözümler ve nihayetinde ortak hedeflere ulaşmada daha büyük başarılar getirebilir.Her bireyin kendine özgü öğrenme yaklaşımını değer vererek, iş yerinde iş birliği, yaratıcılık ve sürekli gelişim kültürünü geliştirebilirsin. \n Her çalışma ve öğrenme biçimi, kendine has güçlü yanlar sunar.Kendi tarzını fark edip bunu benimsemek, hem kendi potansiyelini en üst düzeyde kullanmanı sağlar, hem de iş arkadaşlarının farklı düşünme yaklaşımlarını takdir etmeni ve değer vermeni kolaylaştırır. Bu, uyumlu ve verimli bir çalışma ortamı yaratmak için kritik öneme sahiptir.";
+  var age_25_plus = "Sosyal hayatta ve iş dünyasında çalışma ve öğrenme stillerini anlamak, etkili iletişim ve iş birliği için çok önemli. Her ortamda, farklı çalışma ve öğrenme tarzlarına sahip bireyler ortak hedefler doğrultusunda bir araya gelir. Bu farklılıkları görebilmek ve takdir etmek, ekip çalışmasını, verimliliği ve genel başarıyı artırabilir. \n Kendi çalışma ve öğrenme tarzını anlayarak, tercihlerini ve ihtiyaçlarını arkadaşlarına daha net bir şekilde ifade edebilirsin. Aynı şekilde, iş arkadaşlarının uyum sağlama biçimlerini anlamak da, onlarla iletişimini ve iş birliği çabalarını onların ihtiyaçlarına uygun hale getirmeni sağlar.Bu yaklaşım, daha iyi bir anlayış ve katılım sağlarken, ekip içinde kapsayıcılığı ve saygıyı da güçlendirir. \n Ekip çalışmasında başarı, genellikle farklılıkları birleştirme ve çeşitliliğin getirdiği güçlü yönlerden faydalanma yeteneğine bağlıdır. Farklı çalışma ve öğrenme biçimlerini kucaklayıp onlara uyum sağlamak, daha zengin tartışmalar, yenilikçi çözümler ve nihayetinde ortak hedeflere ulaşmada daha büyük başarılar getirebilir.Her bireyin kendine özgü öğrenme yaklaşımını değer vererek, iş yerinde iş birliği, yaratıcılık ve sürekli gelişim kültürünü geliştirebilirsin. \n Her çalışma ve öğrenme biçimi, kendine has güçlü yanlar sunar.Kendi tarzını fark edip bunu benimsemek, hem kendi potansiyelini en üst düzeyde kullanmanı sağlar, hem de iş arkadaşlarının farklı düşünme yaklaşımlarını takdir etmeni ve değer vermeni kolaylaştırır. Bu, uyumlu ve verimli bir çalışma ortamı yaratmak için kritik öneme sahiptir.";
 
   var objective_title = "Objektif";
-  var objective =
-    "Senin Objektif çalışma ve öğrenme tarzın, bilgiyi önyargısız bir şekilde alma yeteneğine sahip olmanı sağlar ve bu da bulgularını gerçekten tarafsız bir şekilde paylaşmanı mümkün kılar. Bilgiye yaklaşımın, çevreyi örnekleme, karşılaştığın şeyleri yansıtma ve algıladıklarını net ve tarafsız bir bakış açısıyla değerlendirme üzerine kuruludur. Çevrendeki ortamın genel sağlığını, ister ofisinin fiziksel alanı ister ekibinin duygusal durumu olsun, sezme yeteneğin çok değerlidir. İnce ipuçlarını doğal olarak yakalayarak, bir durumun iyi mi yoksa altında çözülmesi gereken sorunlar mı barındırdığını objektif bir şekilde algılayabilirsin. Samimiyete olan keskin duyarlılığın sayesinde, çevrendeki insanların ne zaman kendilerine sadık olduğunu ya da olmadığını sezebilirsin. Bu yetenek, iş dünyasında kime güvenebileceğini anlamana ve kimlerin kendini açması için cesaretlendirilmesi gerektiğini belirlemene yardımcı olur. Açık yaklaşımın, adeta bir ayna gibi, insanlara ve gruplara, eylemlerinin ve tercihlerinin gerçekliğini yansıtmanı sağlar, özellikle de zarar verici ya da adaletsiz durumlarla karşılaştıklarında. Bu, seni güçlü bir değişim temsilcisi yapar, çünkü etrafındakilerin daha net görmelerine ve herkesin yararına olacak ayarlamalar yapmalarına yardımcı olabilirsin. Değerlendirici olarak, Objektif çalışma ve öğrenme ile her şeyi kişisel filtrelerden geçirmeden, anlamak ve değerlendirmek amacıyla işlersin. Bu geniş ve açık yaklaşım, her şeyden etkilenmek anlamına gelmez; aksine, bilgilerin senden geçmesine izin verir ve böylece diğerlerinin kaçırabileceği bir netlik sağlar. İş Dünyasında Objektif Çalışma ve Öğrenme Tarzınla Çalışmak Profesyonel alanda, objektif değerlendirme yeteneğin sayesinde tarafsız içgörüler ve rehberlik sunabilirsin. İster yeni bir projenin uygulanabilirliğini değerlendiriyor, ister potansiyel bir ortaklığın havasını ölçüyor ol, değerlendirmelerin net ve bulandırılmamış gözlemlere dayanır. İş dünyasında, işletmelerin misyonlarına sadık kalmalarına ve sağlıklı, samimi bir şekilde faaliyet göstermelerine yardımcı olmak için önemli bir rol oynarsın. Objektif çalışma ve öğrenme tarzını kullanarak iş dünyasında çok gerekli bir perspektif sunar, kararların mevcut bilgilerin doğru ve adil bir değerlendirmesine dayalı olarak verilmesini sağlarsın.";
-  var objective_s3_1 =
-    "Çevrende olup bitenleri tarafsız bir şekilde değerlendirirken bu içgörülerini iş hayatına nasıl yansıtıyorsun? ";
-  var objective_s3_2 =
-    "İnsanların samimiyetini veya uyumsuzluklarını sezdiğinde nasıl tepki veriyorsun ve bu bilgiyi nasıl kullanıyorsun? ";
-  var objective_s3_3 =
-    "Ortamın duygusal ve fiziksel sağlığını sezme yeteneğinle iş süreçlerini nasıl daha verimli hale getirebilirsin? ";
-  var objective_s3_4 =
-    "İş yerinde bir ayna gibi davranarak başkalarına hangi farkındalıkları kazandırıyorsun ve bu süreçte nasıl bir değişim yarattığını düşünüyorsun? ";
+  var objective = "Senin Objektif çalışma ve öğrenme tarzın, bilgiyi önyargısız bir şekilde alma yeteneğine sahip olmanı sağlar ve bu da bulgularını gerçekten tarafsız bir şekilde paylaşmanı mümkün kılar. Bilgiye yaklaşımın, çevreyi örnekleme, karşılaştığın şeyleri yansıtma ve algıladıklarını net ve tarafsız bir bakış açısıyla değerlendirme üzerine kuruludur. Çevrendeki ortamın genel sağlığını, ister ofisinin fiziksel alanı ister ekibinin duygusal durumu olsun, sezme yeteneğin çok değerlidir. İnce ipuçlarını doğal olarak yakalayarak, bir durumun iyi mi yoksa altında çözülmesi gereken sorunlar mı barındırdığını objektif bir şekilde algılayabilirsin. Samimiyete olan keskin duyarlılığın sayesinde, çevrendeki insanların ne zaman kendilerine sadık olduğunu ya da olmadığını sezebilirsin. Bu yetenek, iş dünyasında kime güvenebileceğini anlamana ve kimlerin kendini açması için cesaretlendirilmesi gerektiğini belirlemene yardımcı olur. Açık yaklaşımın, adeta bir ayna gibi, insanlara ve gruplara, eylemlerinin ve tercihlerinin gerçekliğini yansıtmanı sağlar, özellikle de zarar verici ya da adaletsiz durumlarla karşılaştıklarında. Bu, seni güçlü bir değişim temsilcisi yapar, çünkü etrafındakilerin daha net görmelerine ve herkesin yararına olacak ayarlamalar yapmalarına yardımcı olabilirsin. Değerlendirici olarak, Objektif çalışma ve öğrenme ile her şeyi kişisel filtrelerden geçirmeden, anlamak ve değerlendirmek amacıyla işlersin. Bu geniş ve açık yaklaşım, her şeyden etkilenmek anlamına gelmez; aksine, bilgilerin senden geçmesine izin verir ve böylece diğerlerinin kaçırabileceği bir netlik sağlar. İş Dünyasında Objektif Çalışma ve Öğrenme Tarzınla Çalışmak Profesyonel alanda, objektif değerlendirme yeteneğin sayesinde tarafsız içgörüler ve rehberlik sunabilirsin. İster yeni bir projenin uygulanabilirliğini değerlendiriyor, ister potansiyel bir ortaklığın havasını ölçüyor ol, değerlendirmelerin net ve bulandırılmamış gözlemlere dayanır. İş dünyasında, işletmelerin misyonlarına sadık kalmalarına ve sağlıklı, samimi bir şekilde faaliyet göstermelerine yardımcı olmak için önemli bir rol oynarsın. Objektif çalışma ve öğrenme tarzını kullanarak iş dünyasında çok gerekli bir perspektif sunar, kararların mevcut bilgilerin doğru ve adil bir değerlendirmesine dayalı olarak verilmesini sağlarsın.";
+  var objective_s3_1 = "Çevrende olup bitenleri tarafsız bir şekilde değerlendirirken bu içgörülerini iş hayatına nasıl yansıtıyorsun? ";
+  var objective_s3_2 = "İnsanların samimiyetini veya uyumsuzluklarını sezdiğinde nasıl tepki veriyorsun ve bu bilgiyi nasıl kullanıyorsun? ";
+  var objective_s3_3 = "Ortamın duygusal ve fiziksel sağlığını sezme yeteneğinle iş süreçlerini nasıl daha verimli hale getirebilirsin? ";
+  var objective_s3_4 = "İş yerinde bir ayna gibi davranarak başkalarına hangi farkındalıkları kazandırıyorsun ve bu süreçte nasıl bir değişim yarattığını düşünüyorsun? ";
+  var objective_s3_5 = "Tarafsız değerlendirmen sayesinde işletmenin misyonuna daha sadık kalmasını nasıl sağlıyorsun? "
 
   var indivudal_title = "Bağımsız";
-  var individual =
-    "Bağımsız çalışma ve öğrenme tarzın sayesinde bilgileri işleme ve kendi başına çalışma konusunda benzersiz bir yeteneğe sahipsin. Profesyonel duruşun, dışarıdan onay almadan da kendini güvende hissetmeni sağlayan doğal bir tamlık duygusuyla karakterizedir. Bu odaklanma, bilgiyi hızlıca sindirip uyum sağlamana olanak tanır ve hızla değişen iş dünyasında sana bir avantaj kazandırır. Bu hızlı düşünme tarzın, özellikle zamanın kritik olduğu ortamlarda seni değerli bir hale getirir. \n Bağımsız ve tutarlı bir şekilde bilgi işleyebildiğin için genellikle hızlı hareket edebilirsin. Hızlı işlem yeteneğin büyük bir güç olsa da, sabırlı olmayı unutmaman gerekir. İş dünyası ve sosyal hayat genellikle kolektif bir ritimde ilerler ve senin de bu ritme uyum sağlaman gerekebilir. Biraz yavaşlamak, diğerlerinin senin hızına yetişmesini sağlar ve içgörülerine dayalı olarak harekete geçtiğinde, zamanlamanın hem bireysel hem de organizasyonel olarak doğru olmasına yardımcı olur. \n İş birliği ve Takdir \n Bilgiyi işlemekte başkalarına ihtiyaç duymasan da, iş birliği çalışmalarının derinliğini artırabilir. Diğerlerine, kendi bakış açılarını sunmaları için zaman tanımak önemlidir. Çoğu zaman, çalışma arkadaşların meseleleri birçok farklı açıdan incelemek ve daha fazla düşünmek isteyebilirler. Onların bu süreçlerine katılman, hem kendi içgörülerini zenginleştirecek hem de iş birliği ve liderlik çalışmalarını güçlendirecektir. \n Doğal, bağımsız çalışma ve öğrenme tarzını onurlandırırken, ekibindeki farklı yaklaşımlara da saygı göstererek, hem kendinden emin hem de empati dolu bir lider olarak iş dünyasında başarıya katkı sağlayabilirsin. Bu da hem kişisel olarak tatmin edici hem de geniş çapta etkili sonuçlar yaratır.";
-  var individual_s3_1 =
-    "Kararlarını verirken kendine ne kadar güveniyorsun ve dış onaya ne kadar ihtiyaç duyuyorsun?";
-  var individual_s3_2 =
-    "Hızlı kararlar alırken başkalarının senin tempoya ayak uydurabilmesi için nasıl sabırlı olabilirsin?";
-  var individual_s3_3 =
-    "Bilgiyi hızlı bir şekilde işlemek doğal yeteneğin, ama hangi durumlarda daha yavaş ve derinlemesine düşünmek gerektiğini fark ediyorsun? ";
-  var individual_s3_4 =
-    "Ekibinle iş birliği yaparken farklı bakış açılarına nasıl daha fazla yer açabilirsin? ";
-  var individual_s3_5 =
-    "Kendi başına çalıştığında, başkalarından gelebilecek potansiyel katkıları göz ardı etmeden nasıl dengeli hareket edebilirsin? ";
+  var individual = "Bağımsız çalışma ve öğrenme tarzın sayesinde bilgileri işleme ve kendi başına çalışma konusunda benzersiz bir yeteneğe sahipsin. Profesyonel duruşun, dışarıdan onay almadan da kendini güvende hissetmeni sağlayan doğal bir tamlık duygusuyla karakterizedir. Bu odaklanma, bilgiyi hızlıca sindirip uyum sağlamana olanak tanır ve hızla değişen iş dünyasında sana bir avantaj kazandırır. Bu hızlı düşünme tarzın, özellikle zamanın kritik olduğu ortamlarda seni değerli bir hale getirir. \n Bağımsız ve tutarlı bir şekilde bilgi işleyebildiğin için genellikle hızlı hareket edebilirsin. Hızlı işlem yeteneğin büyük bir güç olsa da, sabırlı olmayı unutmaman gerekir. İş dünyası ve sosyal hayat genellikle kolektif bir ritimde ilerler ve senin de bu ritme uyum sağlaman gerekebilir. Biraz yavaşlamak, diğerlerinin senin hızına yetişmesini sağlar ve içgörülerine dayalı olarak harekete geçtiğinde, zamanlamanın hem bireysel hem de organizasyonel olarak doğru olmasına yardımcı olur. \n İş birliği ve Takdir \n Bilgiyi işlemekte başkalarına ihtiyaç duymasan da, iş birliği çalışmalarının derinliğini artırabilir. Diğerlerine, kendi bakış açılarını sunmaları için zaman tanımak önemlidir. Çoğu zaman, çalışma arkadaşların meseleleri birçok farklı açıdan incelemek ve daha fazla düşünmek isteyebilirler. Onların bu süreçlerine katılman, hem kendi içgörülerini zenginleştirecek hem de iş birliği ve liderlik çalışmalarını güçlendirecektir. \n Doğal, bağımsız çalışma ve öğrenme tarzını onurlandırırken, ekibindeki farklı yaklaşımlara da saygı göstererek, hem kendinden emin hem de empati dolu bir lider olarak iş dünyasında başarıya katkı sağlayabilirsin. Bu da hem kişisel olarak tatmin edici hem de geniş çapta etkili sonuçlar yaratır.";
+  var individual_s3_1 = "Kararlarını verirken kendine ne kadar güveniyorsun ve dış onaya ne kadar ihtiyaç duyuyorsun?";
+  var individual_s3_2 = "Hızlı kararlar alırken başkalarının senin tempoya ayak uydurabilmesi için nasıl sabırlı olabilirsin?";
+  var individual_s3_3 = "Bilgiyi hızlı bir şekilde işlemek doğal yeteneğin, ama hangi durumlarda daha yavaş ve derinlemesine düşünmek gerektiğini fark ediyorsun? ";
+  var individual_s3_4 = "Ekibinle iş birliği yaparken farklı bakış açılarına nasıl daha fazla yer açabilirsin? ";
+  var individual_s3_5 = "Kendi başına çalıştığında, başkalarından gelebilecek potansiyel katkıları göz ardı etmeden nasıl dengeli hareket edebilirsin? ";
 
   var collaborative_titie = "İş Birlikçi";
-  var collaborative =
-    "Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor. \n Yalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor. \n İş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler. \n Senin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun. \n Karar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek. \n Canlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir. \n İşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
-  var collaborative_s3_1 =
-    "Birden fazla kaynaktan bilgi toplarken, bu bilgileri nasıl daha sabırlı bir şekilde sindirebilirsin? ";
-  var collaborative_s3_2 =
-    "Farklı insanlarla etkileşim içinde olduğunda enerjin nasıl artıyor? Bu enerjiyi iş hayatında daha etkin kullanmak için neler yapabilirsin? ";
-  var collaborative_s3_3 =
-    "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
-  var collaborative_s3_4 =
-    "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
-  var collaborative_s3_5 =
-    "Çeşitliliğin iş süreçlerine katkısını daha iyi anlamak ve kullanmak için kendini nasıl geliştirebilirsin? ";
+  var collaborative = 
+  "Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor. \n Yalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor. \n İş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler. \n Senin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun. \n Karar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek. \n Canlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir. \n İşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
+  var collaborative_s3_1 = "Birden fazla kaynaktan bilgi toplarken, bu bilgileri nasıl daha sabırlı bir şekilde sindirebilirsin? ";
+  var collaborative_s3_2 = "Farklı insanlarla etkileşim içinde olduğunda enerjin nasıl artıyor? Bu enerjiyi iş hayatında daha etkin kullanmak için neler yapabilirsin? ";
+  var collaborative_s3_3 = "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
+  var collaborative_s3_4 = "Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
+  var collaborative_s3_5 = "Çeşitliliğin iş süreçlerine katkısını daha iyi anlamak ve kullanmak için kendini nasıl geliştirebilirsin? ";
 
   var synthesizing_title = "Sentezleyen";
-  var synthesizing =
-    "Senin sentezleyici çalışma ve öğrenme tarzın, farklı bilgi kaynaklarını bir araya getirip anlamlandırma konusunda benzersiz bir yetenek sağlıyor. En iyi performansı, özgürce hareket edip çeşitli insanlarla etkileşime girebildiğinde gösterirsin. Farklı perspektiflerden bilgi toplamak ve bu bilgileri bir yapboz gibi birleştirmek senin doğal yeteneğin. \n Değişim ve çeşitlilikten beslenirsin.Gün içinde farklı ortamlarda, çeşitli insanlarla etkileşim kurduğunda kendini daha enerjik ve sağlıklı hissedersin.Aynı ortamda veya aynı grupla sınırlı kalmak seni kısıtlanmış hissettirebilir, bu yüzden seni meşgul eden ve zihinsel olarak uyarıcı çeşitli iş deneyimlerini aramalısın. \n Doğal eğilimin hızla hareket etmek ve kararlarını anlık olarak vermek olabilir, çünkü bu senin hırsın ve itici gücünle bağlantılıdır.Ancak, asıl gücün, elindeki bilgileri sentezleyebilme yeteneğinden gelir ve bu da sabır gerektirir.Farklı girdileri tam anlamıyla bütünleştirip anlamadan harekete geçmeden önce kendine zaman tanıdığında, daha dengeli ve etkili sonuçlar elde edersin. \n Çoğu zaman sanki aynı anda üç rolü birden üstleniyormuş gibi hissedebilirsin, her biri kendi istekleri ve bakış açılarıyla.Bu bir bölünme değil, üç güçlü yönün bir araya gelmesiyle oluşan bir bütünlüktür.Bu üç yönü bir arada kullanmayı başardığında, durumlara, zorluklara ve çözümlere üç boyutlu bir bakış açısıyla yaklaşabilirsin. \n İş birliği, farklı bakış açılarını sentezlemek için faydalı olsa da, yalnız çalışmakta da oldukça iyisin.Kendi başına işleri halledebilme yeteneğin, farklı ortamlarda esnek bir şekilde çalışma özgürlüğü sağlar—ister hareketli bir ofiste ister sessiz bir özel alanda.Unutma, sentezleyici çalışma ve öğrenme tarzın, kendi kendine yetebilme ve farklı kaynaklardan gelen içgörüleri birleştirebilme yeteneğinin güçlü bir birleşimidir.Bu da seni iş dünyasında dinamik ve çok yönlü bir değer haline getirir.";
-  var synthesizing_s3_1 =
-    "Başkalarıyla çalışırken enerjinin yükseldiğini ne kadar fark ediyorsun ve bunu projelerine nasıl yansıtabilirsin? ";
-  var synthesizing_s3_2 =
-    "Tek başına çalışırken hangi zorlukları yaşıyorsun ve bu durumlarda kendini nasıl daha iyi motive edebilirsin? ";
-  var synthesizing_s3_3 =
-    "İş birliği ortamlarında diğer kişilerin bakış açılarına nasıl yer veriyorsun ve bu sürecin sonucunda nasıl daha zengin içgörüler elde edebilirsin?";
-  var synthesizing_s3_4 =
-    "Bilgiyi sindirirken, karşındaki insanlarla etkileşime girmenin senin düşünme sürecini nasıl hızlandırdığını fark ediyor musun? ";
-  var synthesizing_s3_5 =
-    "Karar alma sürecinde başkalarının enerjisini ve fikirlerini nasıl daha etkin bir şekilde kullanabilirsin? ";
+  var synthesizing = "Senin sentezleyici çalışma ve öğrenme tarzın, farklı bilgi kaynaklarını bir araya getirip anlamlandırma konusunda benzersiz bir yetenek sağlıyor. En iyi performansı, özgürce hareket edip çeşitli insanlarla etkileşime girebildiğinde gösterirsin. Farklı perspektiflerden bilgi toplamak ve bu bilgileri bir yapboz gibi birleştirmek senin doğal yeteneğin. \n Değişim ve çeşitlilikten beslenirsin.Gün içinde farklı ortamlarda, çeşitli insanlarla etkileşim kurduğunda kendini daha enerjik ve sağlıklı hissedersin.Aynı ortamda veya aynı grupla sınırlı kalmak seni kısıtlanmış hissettirebilir, bu yüzden seni meşgul eden ve zihinsel olarak uyarıcı çeşitli iş deneyimlerini aramalısın. \n Doğal eğilimin hızla hareket etmek ve kararlarını anlık olarak vermek olabilir, çünkü bu senin hırsın ve itici gücünle bağlantılıdır.Ancak, asıl gücün, elindeki bilgileri sentezleyebilme yeteneğinden gelir ve bu da sabır gerektirir.Farklı girdileri tam anlamıyla bütünleştirip anlamadan harekete geçmeden önce kendine zaman tanıdığında, daha dengeli ve etkili sonuçlar elde edersin. \n Çoğu zaman sanki aynı anda üç rolü birden üstleniyormuş gibi hissedebilirsin, her biri kendi istekleri ve bakış açılarıyla.Bu bir bölünme değil, üç güçlü yönün bir araya gelmesiyle oluşan bir bütünlüktür.Bu üç yönü bir arada kullanmayı başardığında, durumlara, zorluklara ve çözümlere üç boyutlu bir bakış açısıyla yaklaşabilirsin. \n İş birliği, farklı bakış açılarını sentezlemek için faydalı olsa da, yalnız çalışmakta da oldukça iyisin.Kendi başına işleri halledebilme yeteneğin, farklı ortamlarda esnek bir şekilde çalışma özgürlüğü sağlar—ister hareketli bir ofiste ister sessiz bir özel alanda.Unutma, sentezleyici çalışma ve öğrenme tarzın, kendi kendine yetebilme ve farklı kaynaklardan gelen içgörüleri birleştirebilme yeteneğinin güçlü bir birleşimidir.Bu da seni iş dünyasında dinamik ve çok yönlü bir değer haline getirir.";
+  var synthesizing_s3_1 = "Başkalarıyla çalışırken enerjinin yükseldiğini ne kadar fark ediyorsun ve bunu projelerine nasıl yansıtabilirsin? ";
+  var synthesizing_s3_2 = "Tek başına çalışırken hangi zorlukları yaşıyorsun ve bu durumlarda kendini nasıl daha iyi motive edebilirsin? ";
+  var synthesizing_s3_3 = "İş birliği ortamlarında diğer kişilerin bakış açılarına nasıl yer veriyorsun ve bu sürecin sonucunda nasıl daha zengin içgörüler elde edebilirsin?";
+  var synthesizing_s3_4 = "Bilgiyi sindirirken, karşındaki insanlarla etkileşime girmenin senin düşünme sürecini nasıl hızlandırdığını fark ediyor musun? ";
+  var synthesizing_s3_5 = "Karar alma sürecinde başkalarının enerjisini ve fikirlerini nasıl daha etkin bir şekilde kullanabilirsin? ";
 
   var subjective_title = "Öznel";
-  var subjective =
-    "Senin Öznel Çalışma ve Öğrenme tarzın, bilgiyi işleme konusunda oldukça özel ve sabit bir yaklaşıma sahip olmanı sağlar. Bu, tamamen kişisel deneyimlerine dayanan, derinlemesine ve öznel bir yöntemdir. Diğerleri sana daha az esnek görünebilir, ancak bu, bilgiyi kendine özgü bir şekilde özümseme sürecinden kaynaklanıyor. Bilgileri doğal olarak kendi bakış açınla yorumlayarak, çevrendeki dünyayı benzersiz bir biçimde anlamlandırıyorsun. \n Yaklaşımın seçici gibi görünebilir ve bu, sınırların önemini ve derin bağlantıların değerini bildiğin içindir. Doğal olarak belirli insanlara yakınlık duyarak, güvenilir ve samimi bir çevre oluşturma eğilimindesin. Bu, bazen 'taraf tutuyormuşsun' gibi görünebilir ama aslında, gerçek ve derin ilişkiler kurma ihtiyacının bir yansımasıdır. \n Küçük gruplarda sık sık uyum sağlamanı gerektiren durumlar sana zor gelebilir, çünkü en iyi işlerini, farklı insanlarla ve farklı ortamlarda etkileşim kurma özgürlüğüne sahip olduğunda ortaya koyarsın. Bu çeşitlilik ihtiyacı, nicelikten çok nitelik arayışından kaynaklanıyor; seni zenginleştiren farklı bakış açıları, öznel analizini derinleştiriyor. \n Hızlı kararlar vermek sana göre değildir çünkü bilgiyi kendi ritmine uygun şekilde işlemen için zamana ihtiyacın var. Bu zaman, yeni bilgileri mevcut bilgi birikimine tam anlamıyla dahil etmene olanak tanır, böylece verdiğin kararlar kişisel anlayışına dayalı sağlam temellere oturur. \n Kendi hızında hareket etmek senin için çok önemli. Başkalarının beklentilerine veya zaman çizelgelerine uymaya zorlanmak, zihinsel, fiziksel ve duygusal sağlığını olumsuz etkileyebilir. Kendi ritmini benimsemek, sürecine sadık kalmanı ve işte de, hayatta da etkili ve tatmin edici sonuçlar elde etmeni sağlar. \n İş dünyasında, Öznel çalışma ve öğrenme tarzın büyük bir avantajdır. Derinlemesine düşünülmüş ve yenilikçi çözümler ortaya koymana yardımcı olur. Kişisel işleme tarzına sadık kalarak, her profesyonel ortamda tartışmalara ve projelere önemli bir değer katabilir ve daha çeşitli, zengin bir bakış açısına katkıda bulunabilirsin.";
-  var subjective_s3_1 =
-    "Kararlarını kendi kişisel deneyimlerine dayandırırken, farklı bakış açılarını nasıl dahil edebilirsin? ";
-  var subjective_s3_2 =
-    "Derin ve samimi ilişkiler kurma eğilimin iş hayatında sana nasıl fayda sağlıyor? ";
-  var subjective_s3_3 =
-    "Kendine zaman ayırarak bilgiyi özümsemek için hangi stratejileri kullanıyorsun? ";
-  var subjective_s3_4 =
-    "Farklı insanlardan gelen bilgilerle kendi deneyimlerini nasıl birleştiriyorsun ve bu birleşimden nasıl yararlanıyorsun? ";
-  var subjective_s3_5 =
-    "Dış baskılar altında çalışırken, kendi doğal ritmine sadık kalmayı nasıl başarabilirsin? ";
+  var subjective = "Senin Öznel Çalışma ve Öğrenme tarzın, bilgiyi işleme konusunda oldukça özel ve sabit bir yaklaşıma sahip olmanı sağlar. Bu, tamamen kişisel deneyimlerine dayanan, derinlemesine ve öznel bir yöntemdir. Diğerleri sana daha az esnek görünebilir, ancak bu, bilgiyi kendine özgü bir şekilde özümseme sürecinden kaynaklanıyor. Bilgileri doğal olarak kendi bakış açınla yorumlayarak, çevrendeki dünyayı benzersiz bir biçimde anlamlandırıyorsun. \n Yaklaşımın seçici gibi görünebilir ve bu, sınırların önemini ve derin bağlantıların değerini bildiğin içindir. Doğal olarak belirli insanlara yakınlık duyarak, güvenilir ve samimi bir çevre oluşturma eğilimindesin. Bu, bazen 'taraf tutuyormuşsun' gibi görünebilir ama aslında, gerçek ve derin ilişkiler kurma ihtiyacının bir yansımasıdır. \n Küçük gruplarda sık sık uyum sağlamanı gerektiren durumlar sana zor gelebilir, çünkü en iyi işlerini, farklı insanlarla ve farklı ortamlarda etkileşim kurma özgürlüğüne sahip olduğunda ortaya koyarsın. Bu çeşitlilik ihtiyacı, nicelikten çok nitelik arayışından kaynaklanıyor; seni zenginleştiren farklı bakış açıları, öznel analizini derinleştiriyor. \n Hızlı kararlar vermek sana göre değildir çünkü bilgiyi kendi ritmine uygun şekilde işlemen için zamana ihtiyacın var. Bu zaman, yeni bilgileri mevcut bilgi birikimine tam anlamıyla dahil etmene olanak tanır, böylece verdiğin kararlar kişisel anlayışına dayalı sağlam temellere oturur. \n Kendi hızında hareket etmek senin için çok önemli. Başkalarının beklentilerine veya zaman çizelgelerine uymaya zorlanmak, zihinsel, fiziksel ve duygusal sağlığını olumsuz etkileyebilir. Kendi ritmini benimsemek, sürecine sadık kalmanı ve işte de, hayatta da etkili ve tatmin edici sonuçlar elde etmeni sağlar. \n İş dünyasında, Öznel çalışma ve öğrenme tarzın büyük bir avantajdır. Derinlemesine düşünülmüş ve yenilikçi çözümler ortaya koymana yardımcı olur. Kişisel işleme tarzına sadık kalarak, her profesyonel ortamda tartışmalara ve projelere önemli bir değer katabilir ve daha çeşitli, zengin bir bakış açısına katkıda bulunabilirsin.";
+  var subjective_s3_1 = "Kararlarını kendi kişisel deneyimlerine dayandırırken, farklı bakış açılarını nasıl dahil edebilirsin? ";
+  var subjective_s3_2 = "Derin ve samimi ilişkiler kurma eğilimin iş hayatında sana nasıl fayda sağlıyor? ";
+  var subjective_s3_3 = "Kendine zaman ayırarak bilgiyi özümsemek için hangi stratejileri kullanıyorsun? ";
+  var subjective_s3_4 = "Farklı insanlardan gelen bilgilerle kendi deneyimlerini nasıl birleştiriyorsun ve bu birleşimden nasıl yararlanıyorsun? ";
+  var subjective_s3_5 = "Dış baskılar altında çalışırken, kendi doğal ritmine sadık kalmayı nasıl başarabilirsin? ";
 
   var kariyer_secim_12_25_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
-  var kariyer_secim_12_25_s2_1_2 =
-    "Görünen o ki geniş bir hayal gücün var ve kendini ifade etmeyi seviyorsun. Bu kariyerler tam sana göre olabilir. Tasarım, moda, müzik, resim ya da yazarlık gibi alanlarda yaratıcılığını kullanarak özgün projeler geliştirebilirsin. Örneğin, bir grafik tasarımcı olup yeni bir marka için logo tasarlayabilir ya da müzikle uğraşıp kendi bestelerini yapabilirsin. Bu tür kariyerlerde fikirlerini hayata geçirerek fark yaratma şansın çok yüksek.";
+  var kariyer_secim_12_25_s2_1_2 = "Görünen o ki geniş bir hayal gücün var ve kendini ifade etmeyi seviyorsun. Bu kariyerler tam sana göre olabilir. Tasarım, moda, müzik, resim ya da yazarlık gibi alanlarda yaratıcılığını kullanarak özgün projeler geliştirebilirsin. Örneğin, bir grafik tasarımcı olup yeni bir marka için logo tasarlayabilir ya da müzikle uğraşıp kendi bestelerini yapabilirsin. Bu tür kariyerlerde fikirlerini hayata geçirerek fark yaratma şansın çok yüksek.";
   var kariyer_secim_12_25_s2_2_1 = "Liderlik ve Yönetim Kariyerleri ";
-  var kariyer_secim_12_25_s2_2_2 =
-    "İnsanları yönlendirme ve organizasyonları yönetme konularında doğal bir yeteneğin var, bu alanlarda başarılı olabilirsin.  Proje liderliği, organizasyon yönetimi veya insan kaynakları gibi alanlarda çalışmak, büyük bir ekip içinde insanları bir araya getirerek hedeflere ulaşmayı sağlar. Mesela bir okul projesinde takım liderliği yaptığını düşün, bu becerilerini iş hayatında da kullanarak kariyerinde yükselebilirsin.";
-
+  var kariyer_secim_12_25_s2_2_2 = "İnsanları yönlendirme ve organizasyonları yönetme konularında doğal bir yeteneğin var, bu alanlarda başarılı olabilirsin.  Proje liderliği, organizasyon yönetimi veya insan kaynakları gibi alanlarda çalışmak, büyük bir ekip içinde insanları bir araya getirerek hedeflere ulaşmayı sağlar. Mesela bir okul projesinde takım liderliği yaptığını düşün, bu becerilerini iş hayatında da kullanarak kariyerinde yükselebilirsin.";
   var kariyer_secim_12_25_s2_3_1 = "Yardım ve Sosyal Kariyerler";
-  var kariyer_secim_12_25_s2_3_2 =
-    "Başkalarına yardım etmek seni mutlu ediyor gibi, sosyal hizmetler veya sağlık sektöründe kendine uygun bir yol bulmaya ne dersin. Örneğin, bir hemşire veya sosyal hizmet uzmanı olarak insanlara destek olabilir ya da bir kar amacı gütmeyen kuruluşta çalışarak topluma katkı sağlayabilirsin. Bu kariyerler, hem başkalarına yardım etme hem de anlamlı bir iş yapma fırsatı sunar.";
+  var kariyer_secim_12_25_s2_3_2 = "Başkalarına yardım etmek seni mutlu ediyor gibi, sosyal hizmetler veya sağlık sektöründe kendine uygun bir yol bulmaya ne dersin. Örneğin, bir hemşire veya sosyal hizmet uzmanı olarak insanlara destek olabilir ya da bir kar amacı gütmeyen kuruluşta çalışarak topluma katkı sağlayabilirsin. Bu kariyerler, hem başkalarına yardım etme hem de anlamlı bir iş yapma fırsatı sunar.";
   var kariyer_secim_12_25_s2_4_1 = "Teknik ve Mühendislik Kariyerleri";
-  var kariyer_secim_12_25_s2_4_2 =
-    "Analitik düşünme ve teknik beceriler senin güçlü yanların, mühendislik ya da teknoloji alanlarında bir kariyer tam sana göre olabilir. Bilgisayar mühendisliği, yazılım geliştirme ya da elektrik mühendisliği gibi mesleklerde karmaşık problemleri çözme ve yeni teknolojiler geliştirme şansına sahip olursun. Mesela, bir bilgisayar programcısı olarak yeni bir mobil uygulama geliştirebilirsin. ";
+  var kariyer_secim_12_25_s2_4_2 = "Analitik düşünme ve teknik beceriler senin güçlü yanların, mühendislik ya da teknoloji alanlarında bir kariyer tam sana göre olabilir. Bilgisayar mühendisliği, yazılım geliştirme ya da elektrik mühendisliği gibi mesleklerde karmaşık problemleri çözme ve yeni teknolojiler geliştirme şansına sahip olursun. Mesela, bir bilgisayar programcısı olarak yeni bir mobil uygulama geliştirebilirsin. ";
   var kariyer_secim_12_25_s2_5_1 = "Satış ve İlişki Kurma Kariyerleri";
-  var kariyer_secim_12_25_s2_5_2 =
-    "İletişim becerilerin kuvvetli ve insanlarla kolayca bağlantı kurabiliyorsun, satış ve müşteri ilişkileri alanlarında başarılı olabilirsin.  Pazarlama, satış veya müşteri temsilciliği gibi alanlarda çalışarak, ürün ya da hizmetleri doğru kişilere ulaştırmayı sağlayabilirsin. Örneğin, bir mağazada satış danışmanı olarak müşterilere yardımcı olabilir ya da bir şirkette satış temsilcisi olarak çalışabilirsin. ";
-
+  var kariyer_secim_12_25_s2_5_2 = "İletişim becerilerin kuvvetli ve insanlarla kolayca bağlantı kurabiliyorsun, satış ve müşteri ilişkileri alanlarında başarılı olabilirsin.  Pazarlama, satış veya müşteri temsilciliği gibi alanlarda çalışarak, ürün ya da hizmetleri doğru kişilere ulaştırmayı sağlayabilirsin. Örneğin, bir mağazada satış danışmanı olarak müşterilere yardımcı olabilir ya da bir şirkette satış temsilcisi olarak çalışabilirsin. ";
   var kariyer_secim_12_25_s2_6_1 = "Organizasyonel ve İdari Kariyerler";
-  var kariyer_secim_12_25_s2_6_2 =
-    "Düzenli olmayı ve işleri planlamayı seviyorsun, idari ve organizasyonel kariyerlerde kendine yer bulabilirsin. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi alanlarda çalışarak, bir kurumun işleyişini daha verimli hale getirme fırsatın olur. Mesela, bir proje yöneticisi olarak ekipleri organize edip işlerin sorunsuz ilerlemesini sağlayabilirsin.";
+  var kariyer_secim_12_25_s2_6_2 = "Düzenli olmayı ve işleri planlamayı seviyorsun, idari ve organizasyonel kariyerlerde kendine yer bulabilirsin. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi alanlarda çalışarak, bir kurumun işleyişini daha verimli hale getirme fırsatın olur. Mesela, bir proje yöneticisi olarak ekipleri organize edip işlerin sorunsuz ilerlemesini sağlayabilirsin.";
   var kariyer_secim_12_25_s2_7_1 = "Yenilikçi ve Girişimci Kariyerler ";
-  var kariyer_secim_12_25_s2_7_2 =
-    "Yenilikçi ve yaratıcı düşüncelerin var, kendi işini kurmak ya da bir startup’ta çalışmak senin için uygun olabilir.  Girişimcilik, risk almayı ve yeni fikirlerle bir şeyler başarmayı gerektirir. Örneğin, kendi online mağazanı açarak ürünlerini satabilir ya da bir teknoloji girişiminde yeni bir uygulama geliştirebilirsin. ";
+  var kariyer_secim_12_25_s2_7_2 = "Yenilikçi ve yaratıcı düşüncelerin var, kendi işini kurmak ya da bir startup’ta çalışmak senin için uygun olabilir.  Girişimcilik, risk almayı ve yeni fikirlerle bir şeyler başarmayı gerektirir. Örneğin, kendi online mağazanı açarak ürünlerini satabilir ya da bir teknoloji girişiminde yeni bir uygulama geliştirebilirsin. ";
   var kariyer_secim_12_25_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
-  var kariyer_secim_12_25_s2_8_2 =
-    "Bilgini başkalarıyla paylaşmaktan hoşlanıyorsun, öğretim ve mentorluk kariyerleri tam sana göre.  Öğretmenlik, eğitmenlik ya da koçluk yaparak, başkalarına rehberlik edebilir ve onların gelişimine katkıda bulunabilirsin. Mesela, bir öğretmen olarak öğrencilere ders verebilir ya da bir koç olarak kişisel gelişimlerine destek olabilirsin. ";
+  var kariyer_secim_12_25_s2_8_2 = "Bilgini başkalarıyla paylaşmaktan hoşlanıyorsun, öğretim ve mentorluk kariyerleri tam sana göre.  Öğretmenlik, eğitmenlik ya da koçluk yaparak, başkalarına rehberlik edebilir ve onların gelişimine katkıda bulunabilirsin. Mesela, bir öğretmen olarak öğrencilere ders verebilir ya da bir koç olarak kişisel gelişimlerine destek olabilirsin. ";
   var kariyer_secim_12_25_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler";
-  var kariyer_secim_12_25_s2_9_2 =
-    "Sayılarla ve analizlerle aranın iyi olduğunu görüyoruz, veri bilimi ya da iş analitiği gibi kariyerlerde başarılı olabilirsin. Bu tür kariyerler, büyük miktarda veriyi analiz edip kararlar almaya yardımcı olmayı içerir. Örneğin, bir veri bilimcisi olarak bir şirketin satış verilerini analiz edebilir ve gelecekte nasıl daha iyi performans gösterebileceklerini belirleyebilirsin.";
+  var kariyer_secim_12_25_s2_9_2 = "Sayılarla ve analizlerle aranın iyi olduğunu görüyoruz, veri bilimi ya da iş analitiği gibi kariyerlerde başarılı olabilirsin. Bu tür kariyerler, büyük miktarda veriyi analiz edip kararlar almaya yardımcı olmayı içerir. Örneğin, bir veri bilimcisi olarak bir şirketin satış verilerini analiz edebilir ve gelecekte nasıl daha iyi performans gösterebileceklerini belirleyebilirsin.";
+  
   var kariyer_secim_25_40_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
-  var kariyer_secim_25_40_s2_1_2 =
-    "Eğer yaratıcı yönünüzü iş hayatında kullanmak istiyorsanız, bu alanlar size uygun olabilir. Reklamcılık, grafik tasarım, moda, müzik, sinema ya da yazarlık gibi alanlarda kariyer yapmak, estetik anlayışınızı ve özgün fikirlerinizi profesyonel projelere yansıtmanızı sağlar. Örneğin, bir marka için yenilikçi reklam kampanyaları tasarlayabilir ya da bir içerik yazarı olarak yaratıcı projelere imza atabilirsiniz. Sanatın her dalında kariyer fırsatları geniş ve esnektir, freelance çalışabilir ya da bir ajansla iş birliği yapabilirsiniz. ";
+  var kariyer_secim_25_40_s2_1_2 = "Eğer yaratıcı yönünüzü iş hayatında kullanmak istiyorsanız, bu alanlar size uygun olabilir. Reklamcılık, grafik tasarım, moda, müzik, sinema ya da yazarlık gibi alanlarda kariyer yapmak, estetik anlayışınızı ve özgün fikirlerinizi profesyonel projelere yansıtmanızı sağlar. Örneğin, bir marka için yenilikçi reklam kampanyaları tasarlayabilir ya da bir içerik yazarı olarak yaratıcı projelere imza atabilirsiniz. Sanatın her dalında kariyer fırsatları geniş ve esnektir, freelance çalışabilir ya da bir ajansla iş birliği yapabilirsiniz. ";
   var kariyer_secim_25_40_s2_2_1 = "Liderlik ve Yönetim Kariyerleri";
-  var kariyer_secim_25_40_s2_2_2 =
-    "Doğal bir liderlik yeteneğiniz var, ekip yönetimi ve stratejik karar alma konularında başarılı olabilirsiniz.  Proje yönetimi, takım liderliği, operasyon yönetimi veya üst düzey yöneticilik pozisyonları, sorumluluk alarak hedeflere ulaşmanızı gerektirir. Örneğin, bir işletme müdürü olarak organizasyonun tüm süreçlerini yönetebilir, yeni stratejiler geliştirerek büyümeye katkı sağlayabilirsiniz. Bu kariyerler, uzun vadeli başarı ve kariyer ilerlemesi için güçlü liderlik becerileri gerektirir.";
+  var kariyer_secim_25_40_s2_2_2 = "Doğal bir liderlik yeteneğiniz var, ekip yönetimi ve stratejik karar alma konularında başarılı olabilirsiniz.  Proje yönetimi, takım liderliği, operasyon yönetimi veya üst düzey yöneticilik pozisyonları, sorumluluk alarak hedeflere ulaşmanızı gerektirir. Örneğin, bir işletme müdürü olarak organizasyonun tüm süreçlerini yönetebilir, yeni stratejiler geliştirerek büyümeye katkı sağlayabilirsiniz. Bu kariyerler, uzun vadeli başarı ve kariyer ilerlemesi için güçlü liderlik becerileri gerektirir.";
   var kariyer_secim_25_40_s2_3_1 = "Yardım ve Sosyal Kariyerler";
-  var kariyer_secim_25_40_s2_4_1 =
-    "İnsanlara yardım etme tutkunuzu görebiliyoruz. Sağlık, sosyal hizmetler ya da kar amacı gütmeyen organizasyonlarda tatmin edici bir kariyer bulabilirsiniz.  Sosyal sorumluluk projelerinde yer almak, bir terapist ya da sağlık çalışanı olarak insanların hayatlarını iyileştirmek gibi meslekler bu alanda öne çıkar. Örneğin, bir sosyal hizmet uzmanı olarak dezavantajlı gruplara yardım edebilir ya da bir sağlık yöneticisi olarak sağlık hizmetlerinin daha verimli işlemesini sağlayabilirsiniz.";
-  var kariyer_secim_25_40_s2_5_1 = "Teknik ve Mühendislik Kariyerleri";
-  var kariyer_secim_25_40_s2_5_2 =
-    "Teknik becerileriniz ve analitik düşünce yapınızla, mühendislik ya da teknoloji alanlarında uzmanlaşabilirsiniz.  Yazılım geliştirme, makine mühendisliği ya da siber güvenlik gibi alanlarda çalışarak iş dünyasının sürekli değişen taleplerine yanıt verebilirsiniz. Örneğin, bir yazılım mühendisi olarak yeni uygulamalar geliştirebilir ya da bir ağ güvenliği uzmanı olarak şirketlerin dijital altyapılarını koruyabilirsiniz. Bu alanlar, hızla gelişen teknolojilere ayak uydurma ve sürekli öğrenmeyi gerektirir.";
-  var kariyer_secim_25_40_s2_6_1 = "Satış ve İlişki Kurma Kariyerleri";
-  var kariyer_secim_25_40_s2_6_2 =
-    "İletişim becerileriniz ve insan ilişkilerini yönetme yeteneğiniz sayesinde satış ve müşteri ilişkileri alanlarında başarılı olabilirsiniz. Satış yönetimi, iş geliştirme ya da müşteri hizmetleri gibi alanlarda çalışarak, şirketin büyümesine doğrudan katkı sağlayabilirsiniz. Örneğin, bir satış yöneticisi olarak ekiplerinizi hedeflere yönlendirebilir ya da bir iş geliştirme uzmanı olarak yeni müşteriler kazanabilirsiniz. Bu kariyerler, ikna kabiliyetinizi ve ilişki yönetimi yetkinliklerinizi ön plana çıkarır. ";
-  var kariyer_secim_25_40_s2_7_1 = "Organizasyonel ve İdari Kariyerler";
-  var kariyer_secim_25_40_s2_7_2 =
-    "Düzen, planlama ve organizasyon becerileriniz güçlü, idari yönetim ve organizasyon alanlarında kariyer yapabilirsiniz. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi roller, iş süreçlerinin düzenli ve etkili şekilde yürümesini sağlar. Örneğin, bir insan kaynakları yöneticisi olarak işe alım süreçlerini yönetebilir ya da bir proje yöneticisi olarak farklı ekiplerin aynı hedefe ulaşması için çalışabilirsiniz. Bu alanlarda detaylara hakimiyet ve çok yönlü düşünme önemlidir.";
-  var kariyer_secim_25_40_s2_8_1 = "Yenilikçi ve Girişimci Kariyerler";
-  var kariyer_secim_25_40_s2_8_2 =
-    "Girişimci bir ruha sahipsiniz, yenilikçi fikirlerinizi hayata geçirme fırsatını bulabileceğiniz alanlar mevcuttur. Kendi işinizi kurabilir, bir start-up'ı yönlendirebilir ya da yeni ürün ve hizmetler geliştirerek piyasada fark yaratabilirsiniz. Örneğin, teknoloji alanında bir start-up kurarak yeni bir mobil uygulama geliştirebilir ya da e-ticaret sektöründe yenilikçi bir iş modeli hayata geçirebilirsiniz. Bu kariyerler risk almayı ve yaratıcılığı birleştirir. ";
-  var kariyer_secim_25_40_s2_9_1 = "Öğretim ve Mentorluk Kariyerleri";
-  var kariyer_secim_25_40_s2_9_2 =
-    "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
-  var kariyer_secim_25_40_s2_10_1 = "Analitik ve Veri Odaklı Kariyerler ";
-  var kariyer_secim_25_40_s2_10_2 =
-    "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
+  var kariyer_secim_25_40_s2_3_2 = "İnsanlara yardım etme tutkunuzu görebiliyoruz. Sağlık, sosyal hizmetler ya da kar amacı gütmeyen organizasyonlarda tatmin edici bir kariyer bulabilirsiniz.  Sosyal sorumluluk projelerinde yer almak, bir terapist ya da sağlık çalışanı olarak insanların hayatlarını iyileştirmek gibi meslekler bu alanda öne çıkar. Örneğin, bir sosyal hizmet uzmanı olarak dezavantajlı gruplara yardım edebilir ya da bir sağlık yöneticisi olarak sağlık hizmetlerinin daha verimli işlemesini sağlayabilirsiniz.";
+  var kariyer_secim_25_40_s2_4_1 = "Teknik ve Mühendislik Kariyerleri ";
+  var kariyer_secim_25_40_s2_4_2 = "Teknik becerileriniz ve analitik düşünce yapınızla, mühendislik ya da teknoloji alanlarında uzmanlaşabilirsiniz.  Yazılım geliştirme, makine mühendisliği ya da siber güvenlik gibi alanlarda çalışarak iş dünyasının sürekli değişen taleplerine yanıt verebilirsiniz. Örneğin, bir yazılım mühendisi olarak yeni uygulamalar geliştirebilir ya da bir ağ güvenliği uzmanı olarak şirketlerin dijital altyapılarını koruyabilirsiniz. Bu alanlar, hızla gelişen teknolojilere ayak uydurma ve sürekli öğrenmeyi gerektirir.";
+  var kariyer_secim_25_40_s2_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+  var kariyer_secim_25_40_s2_5_2 = "İletişim becerileriniz ve insan ilişkilerini yönetme yeteneğiniz sayesinde satış ve müşteri ilişkileri alanlarında başarılı olabilirsiniz. Satış yönetimi, iş geliştirme ya da müşteri hizmetleri gibi alanlarda çalışarak, şirketin büyümesine doğrudan katkı sağlayabilirsiniz. Örneğin, bir satış yöneticisi olarak ekiplerinizi hedeflere yönlendirebilir ya da bir iş geliştirme uzmanı olarak yeni müşteriler kazanabilirsiniz. Bu kariyerler, ikna kabiliyetinizi ve ilişki yönetimi yetkinliklerinizi ön plana çıkarır. ";
+  var kariyer_secim_25_40_s2_6_1 = "Organizasyonel ve İdari Kariyerler";
+  var kariyer_secim_25_40_s2_6_2 = "Düzen, planlama ve organizasyon becerileriniz güçlü, idari yönetim ve organizasyon alanlarında kariyer yapabilirsiniz. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi roller, iş süreçlerinin düzenli ve etkili şekilde yürümesini sağlar. Örneğin, bir insan kaynakları yöneticisi olarak işe alım süreçlerini yönetebilir ya da bir proje yöneticisi olarak farklı ekiplerin aynı hedefe ulaşması için çalışabilirsiniz. Bu alanlarda detaylara hakimiyet ve çok yönlü düşünme önemlidir.";
+  var kariyer_secim_25_40_s2_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+  var kariyer_secim_25_40_s2_7_2 = "Girişimci bir ruha sahipsiniz, yenilikçi fikirlerinizi hayata geçirme fırsatını bulabileceğiniz alanlar mevcuttur. Kendi işinizi kurabilir, bir start-up'ı yönlendirebilir ya da yeni ürün ve hizmetler geliştirerek piyasada fark yaratabilirsiniz. Örneğin, teknoloji alanında bir start-up kurarak yeni bir mobil uygulama geliştirebilir ya da e-ticaret sektöründe yenilikçi bir iş modeli hayata geçirebilirsiniz. Bu kariyerler risk almayı ve yaratıcılığı birleştirir. ";
+  var kariyer_secim_25_40_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+  var kariyer_secim_25_40_s2_8_2 = "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
+  var kariyer_secim_25_40_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler ";
+  var kariyer_secim_25_40_s2_9_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
 
-  var kariyer_secim_s3_0_0 = "Analitik ve Veriye Dayalı Kariyerler";
-  var kariyer_secim_s3_0_1 =
-    "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
   var kariyer_secim_s3_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-  var kariyer_secim_s3_1_1 =
-    "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\nIllustrator\nMüzisyen\nYönetmenSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
+  var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\nIllustrator\nMüzisyen\nYönetmenSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
   var kariyer_secim_s3_2_0 = "Liderlik ve Yönetim Kariyerleri";
-  var kariyer_secim_s3_2_1 =
-    "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra DirektörüKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
+  var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra DirektörüKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
   var kariyer_secim_s3_3_0 = "Yardım ve Sosyal Kariyerler";
-  var kariyer_secim_s3_3_1 =
-    "Sosyal Hizmet UzmanıDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
+  var kariyer_secim_s3_3_1 = "Sosyal Hizmet UzmanıDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
   var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler";
-  var kariyer_secim_s3_4_1 =
-    "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
+  var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
   var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler";
-  var kariyer_secim_s3_5_1 =
-    "Satış Temsilcisi\nMuhasebe Müdürü (Account manager)\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
+  var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü (Account manager)\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
   var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler";
-  var kariyer_secim_s3_6_1 =
-    "Yönetici Asistanı\nOfis Müdürü\nYönetici Asistanı\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
+  var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nYönetici Asistanı\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
   var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
-  var kariyer_secim_s3_7_1 =
-    "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
+  var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
   var kariyer_secim_s3_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri";
-  var kariyer_secim_s3_8_1 =
-    "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
-
+  var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
+  var kariyer_secim_s3_10_0 = "Analitik ve Veriye Dayalı Kariyerler";
+  var kariyer_secim_s3_10_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
+  
   var kariyer_secim_s4_0_0 = "Analitik ve Veriye Dayalı Kariyerler";
-  var kariyer_secim_s4_0_1 =
-    "Veri Bilimcisi, Makine Öğrenimi Mühendisi, Yapay Zeka (AI) Etikçisi, Veri Gizliliği Görevlisi, Blockchain Veri Analisti, Baş Veri Sorumlusu, Tahmine Dayalı Analitik Modelleyici, Artırılmış Analitik Uzmanı, Siber Güvenlik Veri Analisti, Kuantum Veri Analisti, Sağlık Bilişiminde Veri Bilimcisi, Veriye Dayalı Pazarlama Uzmanı, Sürdürülebilirlik Veri Analisti, İnsan Kaynakları Analisti için Yapay Zeka, IoT (Nesnelerin İnterneti) Veri Analisti";
+  var kariyer_secim_s4_0_1 = "Veri Bilimcisi, Makine Öğrenimi Mühendisi, Yapay Zeka (AI) Etikçisi, Veri Gizliliği Görevlisi, Blockchain Veri Analisti, Baş Veri Sorumlusu, Tahmine Dayalı Analitik Modelleyici, Artırılmış Analitik Uzmanı, Siber Güvenlik Veri Analisti, Kuantum Veri Analisti, Sağlık Bilişiminde Veri Bilimcisi, Veriye Dayalı Pazarlama Uzmanı, Sürdürülebilirlik Veri Analisti, İnsan Kaynakları Analisti için Yapay Zeka, IoT (Nesnelerin İnterneti) Veri Analisti";
   var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-  var kariyer_secim_s4_1_1 =
-    "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı (Genişletilmiş Gerçeklik)\nYapay Zeka Tarafından Oluşturulan Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı (Biyoteknoloji Sanatı)\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Geliştirilmiş Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka Tarafından Oluşturulan Hikaye Anlatıcısı\nMetaverse MimarıYapay Zeka Destekli Film Yapımcısı";
+  var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı (Genişletilmiş Gerçeklik)\nYapay Zeka Tarafından Oluşturulan Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı (Biyoteknoloji Sanatı)\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Geliştirilmiş Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka Tarafından Oluşturulan Hikaye Anlatıcısı\nMetaverse MimarıYapay Zeka Destekli Film Yapımcısı";
   var kariyer_secim_s4_2_0 = "Liderlik ve Yönetim Kariyerleri";
-  var kariyer_secim_s4_2_1 =
-    "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nBaş İnovasyon Sorumlusu\nESG (Çevresel, Sosyal ve Yönetişim) YöneticisiVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
+  var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nBaş İnovasyon Sorumlusu\nESG (Çevresel, Sosyal ve Yönetişim) YöneticisiVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
   var kariyer_secim_s4_3_0 = "Yardım ve Sosyal Kariyerler";
-  var kariyer_secim_s4_3_1 =
-    "Telesağlık Uzmanı\nYapay Zeka Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı Yapay Zeka Koçu\nGerontolog (yaşlı bakımında uzmanlaşmış)\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYapay Zeka Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYapay Zeka ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu";
+  var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYapay Zeka Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı Yapay Zeka Koçu\nGerontolog (yaşlı bakımında uzmanlaşmış)\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYapay Zeka Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYapay Zeka ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu";
   var kariyer_secim_s4_4_0 = "Teknik ve Mühendislik Kariyerler";
-  var kariyer_secim_s4_4_1 =
-    "Kuantum Bilişim Mühendisi\nYapay Zeka (AI) Etik Uzmanı\nRobotik Proses Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nSağlık Mühendisi için Yapay Zeka\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi (Sürdürülebilir Altyapı)\nUzaktan Drone Teknisyeni";
+  var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYapay Zeka (AI) Etik Uzmanı\nRobotik Proses Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nSağlık Mühendisi için Yapay Zeka\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi (Sürdürülebilir Altyapı)\nUzaktan Drone Teknisyeni";
   var kariyer_secim_s4_5_0 = "Satış ve İlişkisel Kariyerler";
-  var kariyer_secim_s4_5_1 =
-    "Dijital Satış Stratejisti\nYapay Zeka Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nE-ticaret Müdürü\nSosyal Ticaret Uzmanı\nYapay Zeka Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi Yapay Zeka Tasarımcısı";
+  var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYapay Zeka Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nE-ticaret Müdürü\nSosyal Ticaret Uzmanı\nYapay Zeka Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi Yapay Zeka Tasarımcısı";
   var kariyer_secim_s4_6_0 = "Organizasyonel ve İdari Kariyerler";
-  var kariyer_secim_s4_6_1 =
-    "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Süreç Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
+  var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Süreç Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
   var kariyer_secim_s4_7_0 = "Yenilikçi ve Girişimci Kariyerler";
-  var kariyer_secim_s4_7_1 =
-    "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Arcade Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Turizm Operatörü\nYeşil Teknoloji Yenilikçisi\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
+  var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Arcade Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Turizm Operatörü\nYeşil Teknoloji Yenilikçisi\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
   var kariyer_secim_s4_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri";
-  var kariyer_secim_s4_8_1 =
-    "Sanal Gerçeklik Eğitim Uzmanı\nYapay Zeka Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\nÇevrimiçi Öğrenme Deneyimi Tasarımcısı\nArtırılmış Gerçeklik Eğitmeni\nHayat Boyu Öğrenme Kolaylaştırıcısı\nSanal Dünyalarda Gençlik Mentoru\nYapay Zeka Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYapay Zeka Destekli Dil Eğitmeni";
+  var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYapay Zeka Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\nÇevrimiçi Öğrenme Deneyimi Tasarımcısı\nArtırılmış Gerçeklik Eğitmeni\nHayat Boyu Öğrenme Kolaylaştırıcısı\nSanal Dünyalarda Gençlik Mentoru\nYapay Zeka Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYapay Zeka Destekli Dil Eğitmeni";
 
   var kariyer_secim_12_25_s5_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
   var kariyer_secim_12_25_s5_1_2 = "Grafik Tasarımı";
@@ -4058,349 +3992,227 @@ export default async ({ req, res, log, error }) => {
     "AI teknolojilerinin getirdiği fırsatları toplumsal faydaya nasıl dönüştürebilirim?";
 
   var ai_25_s4u2_8_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s4u2_8_2 =
-    "Yapay zeka ve teknolojiyle çalışırken insan ilişkilerime ne kadar önem veriyorum? Empati yeteneğimi nasıl geliştirebilirim?";
-  var ai_25_s4u2_8_3 =
-    "Teknoloji projelerinde duygusal zekamı ne kadar kullanıyorum? İş yerinde daha empatik olabilmek için neler yapabilirim?";
-  var ai_25_s4u2_8_4 =
-    "AI ve dijital dünyada sürekli öğrenmenin getirdiği stresle nasıl başa çıkıyorum? Stresle baş etme stratejilerim neler?";
-  var ai_25_s4u2_8_5 =
-    "Zorlayıcı projelerde kendimi nasıl rahatlatıyorum? Stres yönetimi konusunda hangi becerilerimi geliştirmeliyim? ";
+  var ai_25_s4u2_8_2 = "Yapay zeka ve teknolojiyle çalışırken insan ilişkilerime ne kadar önem veriyorum? Empati yeteneğimi nasıl geliştirebilirim?";
+  var ai_25_s4u2_8_3 = "Teknoloji projelerinde duygusal zekamı ne kadar kullanıyorum? İş yerinde daha empatik olabilmek için neler yapabilirim?";
+  var ai_25_s4u2_8_4 = "AI ve dijital dünyada sürekli öğrenmenin getirdiği stresle nasıl başa çıkıyorum? Stresle baş etme stratejilerim neler?";
+  var ai_25_s4u2_8_5 = "Zorlayıcı projelerde kendimi nasıl rahatlatıyorum? Stres yönetimi konusunda hangi becerilerimi geliştirmeliyim? ";
 
   var ai_25_s4u2_9_1 = "Yenilikçi ve Girişimci Düşünce";
-  var ai_25_s4u2_9_2 =
-    "Yapay zeka ile ilgili yenilikçi iş fikirleri geliştirme konusunda ne kadar istekliyim? Yeni projeler başlatmak için hangi adımları atıyorum? ";
-  var ai_25_s4u2_9_3 =
-    "Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
-  var ai_25_s4u2_9_4 =
-    "Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
+  var ai_25_s4u2_9_2 = "Yapay zeka ile ilgili yenilikçi iş fikirleri geliştirme konusunda ne kadar istekliyim? Yeni projeler başlatmak için hangi adımları atıyorum? ";
+  var ai_25_s4u2_9_3 = "Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
+  var ai_25_s4u2_9_4 = "Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
 
   var ai_25_s5u2_1_1 = "Dijital Okuryazarlık";
-  var ai_25_s5u2_1_2 =
-    "Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
-  var ai_25_s5u2_1_3 =
-    "Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum? ";
-  var ai_25_s5u2_1_4 =
-    "Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım? ";
-  var ai_25_s5u2_1_5 =
-    "Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
+  var ai_25_s5u2_1_2 = "Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
+  var ai_25_s5u2_1_3 = "Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum? ";
+  var ai_25_s5u2_1_4 = "Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım? ";
+  var ai_25_s5u2_1_5 = "Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
 
   var ai_25_s5u2_2_1 = "Veri Okuryazarlığı";
-  var ai_25_s5u2_2_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_2_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_2_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_2_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_2_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_2_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_2_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_2_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_3_1 = "Kodlama ve Programlama ";
-  var ai_25_s5u2_3_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_3_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_3_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_3_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_3_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_3_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_3_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_3_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-  var ai_25_s5u2_4_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_4_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_4_3 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_4_4 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_4_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_4_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_4_3 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_4_4 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-  var ai_25_s5u2_5_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_5_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_5_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_5_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_5_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_5_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_5_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_5_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_6_1 = "İletişim ve İşbirliği";
-  var ai_25_s5u2_6_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_6_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_6_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_6_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_6_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_6_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_6_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_6_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_7_1 = "Etik ve Sosyal Sorumluluk";
-  var ai_25_s5u2_7_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_7_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_7_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_7_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_7_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_7_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_7_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_7_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_7_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s5u2_7_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_7_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_7_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_7_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_7_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_7_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_7_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_7_5 = "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u2_8_1 = "Yenilikçi ve Girişimci Düşünce";
-  var ai_25_s5u2_8_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-  var ai_25_s5u2_8_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-  var ai_25_s5u2_8_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s5u2_8_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s5u2_8_2 = "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
+  var ai_25_s5u2_8_3 = "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
+  var ai_25_s5u2_8_4 = "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s5u2_8_5 ="Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s5u1_1_1 = "Dijital Okuryazarlık";
-  var ai_25_s5u1_1_2 =
-    "Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin? ";
-  var ai_25_s5u1_1_3 =
-    "AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını düşünüyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin? ";
+  var ai_25_s5u1_1_2 = "Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin? ";
+  var ai_25_s5u1_1_3 = "AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını düşünüyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin? ";
 
   var ai_25_s5u1_2_1 = "Veri Okuryazarlığı";
-  var ai_25_s5u1_2_2 =
-    "Verileri analiz etme yeteneğini, okul projelerinde ya da iş hayatında nasıl kullanabilirsin? Verilere dayalı kararlar almanın sana nasıl avantaj sağlayacağını düşünüyorsun? ";
-  var ai_25_s5u1_2_3 =
-    "Veri güvenliği ve gizliliği konusunda ne kadar bilinçlisin? Bu bilgini ileride çalışacağın bir şirkette ya da kendi girişiminde nasıl kullanabilirsin? ";
+  var ai_25_s5u1_2_2 = "Verileri analiz etme yeteneğini, okul projelerinde ya da iş hayatında nasıl kullanabilirsin? Verilere dayalı kararlar almanın sana nasıl avantaj sağlayacağını düşünüyorsun? ";
+  var ai_25_s5u1_2_3 = "Veri güvenliği ve gizliliği konusunda ne kadar bilinçlisin? Bu bilgini ileride çalışacağın bir şirkette ya da kendi girişiminde nasıl kullanabilirsin? ";
 
   var ai_25_s5u1_3_1 = "Kodlama ve Programlama";
-  var ai_25_s5u1_3_2 =
-    "Programlama becerilerini okul projelerinde nasıl kullanabilir ve bu sayede farklı projelerde liderlik yapabilirsin? Hangi programlama dillerini öğrenmenin kariyer hedeflerine ulaşmada sana yardımcı olacağını düşünüyorsun? ";
-  var ai_25_s5u1_3_3 =
-    "Algoritmik düşünme yeteneğinle karşılaştığın problemleri nasıl daha sistematik çözümlerle çözebilirsin? Bu beceriyi ileride hangi mesleklerde avantaj olarak kullanabilirsin? ";
+  var ai_25_s5u1_3_2 = "Programlama becerilerini okul projelerinde nasıl kullanabilir ve bu sayede farklı projelerde liderlik yapabilirsin? Hangi programlama dillerini öğrenmenin kariyer hedeflerine ulaşmada sana yardımcı olacağını düşünüyorsun? ";
+  var ai_25_s5u1_3_3 = "Algoritmik düşünme yeteneğinle karşılaştığın problemleri nasıl daha sistematik çözümlerle çözebilirsin? Bu beceriyi ileride hangi mesleklerde avantaj olarak kullanabilirsin? ";
 
   var ai_25_s5u1_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-  var ai_25_s5u1_4_2 =
-    "Analitik düşünme becerinle verilerden ya da olaylardan anlam çıkarma yeteneğini hangi alanlarda geliştirebilir ve kullanabilirsin? Bu becerinin sana ileride hangi kariyer fırsatlarını sunacağını düşünüyorsun? ";
-  var ai_25_s5u1_4_3 =
-    "Yaratıcı problem çözme yeteneğini kullanarak hangi projelerde ya da iş alanlarında fark yaratabileceğini düşünüyorsun? Bu beceriyi nasıl daha fazla geliştirebilirsin? ";
+  var ai_25_s5u1_4_2 = "Analitik düşünme becerinle verilerden ya da olaylardan anlam çıkarma yeteneğini hangi alanlarda geliştirebilir ve kullanabilirsin? Bu becerinin sana ileride hangi kariyer fırsatlarını sunacağını düşünüyorsun? ";
+  var ai_25_s5u1_4_3 = "Yaratıcı problem çözme yeteneğini kullanarak hangi projelerde ya da iş alanlarında fark yaratabileceğini düşünüyorsun? Bu beceriyi nasıl daha fazla geliştirebilirsin? ";
 
   var ai_25_s5u1_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-  var ai_25_s5u1_5_2 =
-    "Hızla değişen teknoloji dünyasında nasıl adapte olabilirsin? Esnek olma yeteneğinle hangi mesleklerde daha başarılı olabileceğini düşünüyorsun? ";
-  var ai_25_s5u1_5_3 =
-    "Yaşam boyu öğrenme anlayışınla hangi yeni teknolojileri öğrenmeyi planlıyorsun? Bu öğrenme sürecini kariyerin boyunca nasıl sürdürebilirsin? ";
+  var ai_25_s5u1_5_2 = "Hızla değişen teknoloji dünyasında nasıl adapte olabilirsin? Esnek olma yeteneğinle hangi mesleklerde daha başarılı olabileceğini düşünüyorsun? ";
+  var ai_25_s5u1_5_3 = "Yaşam boyu öğrenme anlayışınla hangi yeni teknolojileri öğrenmeyi planlıyorsun? Bu öğrenme sürecini kariyerin boyunca nasıl sürdürebilirsin? ";
 
   var ai_25_s5u1_6_1 = "İletişim ve İşbirliği";
-  var ai_25_s5u1_6_2 =
-    "Karmaşık teknik bilgileri sade bir şekilde açıklayabilme yeteneğinle hangi projelerde liderlik yapabilir ya da takım arkadaşlarına rehberlik edebilirsin? Bu beceriyi hangi iş alanlarında kullanabileceğini düşünüyorsun? ";
-  var ai_25_s5u1_6_3 =
-    "Takım çalışması becerinle hangi disiplinler arası projelerde başarılı olabilirsin? AI projelerinde işbirliği yaparak hangi hedeflere ulaşmayı planlıyorsun? ";
+  var ai_25_s5u1_6_2 = "Karmaşık teknik bilgileri sade bir şekilde açıklayabilme yeteneğinle hangi projelerde liderlik yapabilir ya da takım arkadaşlarına rehberlik edebilirsin? Bu beceriyi hangi iş alanlarında kullanabileceğini düşünüyorsun? ";
+  var ai_25_s5u1_6_3 = "Takım çalışması becerinle hangi disiplinler arası projelerde başarılı olabilirsin? AI projelerinde işbirliği yaparak hangi hedeflere ulaşmayı planlıyorsun? ";
 
   var ai_25_s5u1_7_1 = "Etik ve Sosyal Sorumluluk";
-  var ai_25_s5u1_7_2 =
-    "Yapay zekanın etik kullanımı hakkında sahip olduğun bilinçle hangi alanlarda fark yaratabilirsin? AI'nın sosyal etkilerini göz önünde bulundurarak, hangi projelerde yer almayı planlıyorsun? ";
-  var ai_25_s5u1_7_3 =
-    "AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin? ";
+  var ai_25_s5u1_7_2 = "Yapay zekanın etik kullanımı hakkında sahip olduğun bilinçle hangi alanlarda fark yaratabilirsin? AI'nın sosyal etkilerini göz önünde bulundurarak, hangi projelerde yer almayı planlıyorsun? ";
+  var ai_25_s5u1_7_3 = "AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin? ";
 
   var ai_25_s5u1_8_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s5u1_8_2 =
-    "Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin? ";
-  var ai_25_s5u1_8_3 =
-    "Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin? ";
+  var ai_25_s5u1_8_2 = "Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin? ";
+  var ai_25_s5u1_8_3 = "Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin? ";
 
   var ai_25_s5u1_9_1 = "Yenilikçi ve Girişimci Düşünce ";
-  var ai_25_s5u1_9_2 =
-    "Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun? ";
-  var ai_25_s5u1_9_3 =
-    "Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin? ";
+  var ai_25_s5u1_9_2 = "Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun? ";
+  var ai_25_s5u1_9_3 = "Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin? ";
 
-  var teamwork_1 =
-    "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
+  var teamwork_1 = "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
 
   var teamwork_best_1_1 = "Aktif Dinleme ve Empati";
-  var teamwork_best_1_2 =
-    "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
+  var teamwork_best_1_2 = "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
 
   var teamwork_best_2_1 = "Etkili İletişim";
-  var teamwork_best_2_2 =
-    "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur.";
+  var teamwork_best_2_2 = "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur.";
 
   var teamwork_best_3_1 = "İşbirliği";
-  var teamwork_best_3_2 =
-    "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. ";
+  var teamwork_best_3_2 = "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. ";
 
   var teamwork_best_4_1 = "Uyumluluk";
-  var teamwork_best_4_2 =
-    "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir.";
+  var teamwork_best_4_2 = "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir.";
 
   var teamwork_best_5_1 = "Çatışma Çözümü";
-  var teamwork_best_5_2 =
-    "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar.";
+  var teamwork_best_5_2 = "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar.";
 
   var teamwork_best_6_1 = "İnisiyatif";
-  var teamwork_best_6_2 =
-    "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır.";
+  var teamwork_best_6_2 = "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır.";
 
   var teamwork_best_7_1 = "Geri Bildirim";
-  var teamwork_best_7_2 =
-    "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. ";
+  var teamwork_best_7_2 = "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. ";
 
   var teamwork_best_8_1 = "Takım Oluşturma";
-  var teamwork_best_8_2 =
-    "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. ";
+  var teamwork_best_8_2 = "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. ";
 
   var teamwork_best_9_1 = "Mesleki Gelişim";
-  var teamwork_best_9_2 =
-    "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. ";
+  var teamwork_best_9_2 = "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. ";
 
   var teamwork_best_10_1 = "Liderlik";
-  var teamwork_best_10_2 =
-    "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
+  var teamwork_best_10_2 = "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
 
   var teamwork_s3u1_1_1 = "Aktif Dinleme ve Empati";
-  var teamwork_s3u1_1_2 =
-    "Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? ";
-  var teamwork_s3u1_1_3 =
-    "Empati yeteneğin, daha iyi sonuçlar elde etmek için hem müşterilerle hem de ekip üyeleriyle daha güçlü ilişkiler geliştirmene nasıl yardımcı olabilir? ";
+  var teamwork_s3u1_1_2 = "Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? ";
+  var teamwork_s3u1_1_3 = "Empati yeteneğin, daha iyi sonuçlar elde etmek için hem müşterilerle hem de ekip üyeleriyle daha güçlü ilişkiler geliştirmene nasıl yardımcı olabilir? ";
 
-  var teamwork_s3u1_2_1 = "Etkili İletişim";
-  var teamwork_s3u1_2_2 =
-    "Ekibinin içinde eyleme ve uyuma ilham vermek için iletişimininin netliğini nasıl daha da artırabilirsin? ";
-  var teamwork_s3u1_2_3 =
-    "Müzakerelerde veya zor paydaşlarla uğraşırken daha etkili olmak için iletişim tarzını nasıl uyarlayabilirsin?";
+  var teamwork_s3u1_2_1 = "Efektif İletişim";
+  var teamwork_s3u1_2_2 = "Ekibinin içinde eyleme ve uyuma ilham vermek için iletişimininin netliğini nasıl daha da artırabilirsin? ";
+  var teamwork_s3u1_2_3 = "Müzakerelerde veya zor paydaşlarla uğraşırken daha etkili olmak için iletişim tarzını nasıl uyarlayabilirsin?";
 
   var teamwork_s3u1_3_1 = "İşbirliği";
-  var teamwork_s3u1_3_2 =
-    "İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? ";
-  var teamwork_s3u1_3_3 =
-    "İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? ";
+  var teamwork_s3u1_3_2 = "İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? ";
+  var teamwork_s3u1_3_3 = "İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? ";
 
   var teamwork_s3u1_4_1 = "Uyumluluk";
-  var teamwork_s3u1_4_2 =
-    "Pazardaki veya endüstri trendlerindeki değişikliklerden daha iyi yararlanmak için uyumluluğunu nasıl kullnabilirsin? ";
-  var teamwork_s3u1_4_3 =
-    "Ekip süreçlerini iyileştirmek veya ekibe geçişlerde daha sorunsuz bir şekilde liderlik etmek için esnekliğini hangi yollarla kullanabilirsin? ";
+  var teamwork_s3u1_4_2 = "Pazardaki veya endüstri trendlerindeki değişikliklerden daha iyi yararlanmak için uyumluluğunu nasıl kullnabilirsin? ";
+  var teamwork_s3u1_4_3 = "Ekip süreçlerini iyileştirmek veya ekibe geçişlerde daha sorunsuz bir şekilde liderlik etmek için esnekliğini hangi yollarla kullanabilirsin? ";
 
   var teamwork_s3u1_5_1 = "Çatışma Çözümü";
-  var teamwork_s3u1_5_2 =
-    "Çatışma çözme becerilerin, ekip dinamiklerini güçlendirecek ve üretkenliği artıracak şekilde anlaşmazlıkları ele almak için nasıl kullanılabilir? ";
-  var teamwork_s3u1_5_3 =
-    "Uzun vadeli iş ilişkilerinin bozulmadan kalmasını sağlamak için müşteriler veya ortaklarla olan çatışmalarda nasıl arabuluculuk yapabilirsin? ";
+  var teamwork_s3u1_5_2 = "Çatışma çözme becerilerin, ekip dinamiklerini güçlendirecek ve üretkenliği artıracak şekilde anlaşmazlıkları ele almak için nasıl kullanılabilir? ";
+  var teamwork_s3u1_5_3 = "Uzun vadeli iş ilişkilerinin bozulmadan kalmasını sağlamak için müşteriler veya ortaklarla olan çatışmalarda nasıl arabuluculuk yapabilirsin? ";
 
-  var teamwork_s3u1_7_1 = "Girişim";
-  var teamwork_s3u1_7_2 =
-    "İşletmen için büyüme fırsatlarını veya yeni pazarları belirleme konusunda nasıl daha fazla inisiyatif alabilirsin? ";
-  var teamwork_s3u1_7_3 =
-    "Ekibindeki diğer kişileri proaktif olma ve projeleri sahiplenme konusunda liderliğini takip etmeye nasıl teşvik edebilirsin?";
+  var teamwork_s3u1_6_1 = "Girişim";
+  var teamwork_s3u1_6_2 = "İşletmen için büyüme fırsatlarını veya yeni pazarları belirleme konusunda nasıl daha fazla inisiyatif alabilirsin? ";
+  var teamwork_s3u1_6_3 = "Ekibindeki diğer kişileri proaktif olma ve projeleri sahiplenme konusunda liderliğini takip etmeye nasıl teşvik edebilirsin?";
 
   var teamwork_s3u1_7_1 = "Geri Bildirim";
-  var teamwork_s3u1_7_2 =
-    "Daha da yüksek performans elde etmek için geri bildirimi hem kişisel olarak hem de ekibin için sürekli iyileştirme aracı olarak nasıl kullanabilirsin? ";
-  var teamwork_s3u1_7_3 =
-    "Ekibinizniçinde hesap verebilirliği teşvik eden ve daha iyi sonuçlar elde edilmesini sağlayan bir geri bildirim kültürünü nasıl oluşturabilirsin? ";
+  var teamwork_s3u1_7_2 = "Daha da yüksek performans elde etmek için geri bildirimi hem kişisel olarak hem de ekibin için sürekli iyileştirme aracı olarak nasıl kullanabilirsin? ";
+  var teamwork_s3u1_7_3 = "Ekibinizniçinde hesap verebilirliği teşvik eden ve daha iyi sonuçlar elde edilmesini sağlayan bir geri bildirim kültürünü nasıl oluşturabilirsin? ";
 
   var teamwork_s3u1_8_1 = "Takım Oluşturma";
-  var teamwork_s3u1_8_2 =
-    "Ekibinin hedeflerini şirketin uzun vadeli hedefleriyle uyumlu hale getirmek için ekip oluşturma gücünüzden nasıl yararlanabilirsin? ";
-  var teamwork_s3u1_8_3 =
-    "Ekibinin içinde daha yüksek düzeyde işbirliği ve başarıya yol açan daha güçlü bağlantılar kurmak için ne gibi eylemler gerçekleştirebilirsin?";
+  var teamwork_s3u1_8_2 = "Ekibinin hedeflerini şirketin uzun vadeli hedefleriyle uyumlu hale getirmek için ekip oluşturma gücünüzden nasıl yararlanabilirsin? ";
+  var teamwork_s3u1_8_3 = "Ekibinin içinde daha yüksek düzeyde işbirliği ve başarıya yol açan daha güçlü bağlantılar kurmak için ne gibi eylemler gerçekleştirebilirsin?";
 
   var teamwork_s3u1_9_1 = "Mesleki Gelişim";
-  var teamwork_s3u1_9_2 =
-    "Kurumunda bir öğrenme ve yenilik kültürünü teşvik etmek için mesleki gelişime olan bağlılığını nasıl kullanabilirsin? ";
-  var teamwork_s3u1_9_3 =
-    "Kendi profesyonel gelişiminin, ekibinizdeki diğer kişilere hem kendilerine hem de işletmeye fayda sağlayan gelişmeleri sürdürmeleri için nasıl ilham verebilir? ";
+  var teamwork_s3u1_9_2 = "Kurumunda bir öğrenme ve yenilik kültürünü teşvik etmek için mesleki gelişime olan bağlılığını nasıl kullanabilirsin? ";
+  var teamwork_s3u1_9_3 = "Kendi profesyonel gelişiminin, ekibinizdeki diğer kişilere hem kendilerine hem de işletmeye fayda sağlayan gelişmeleri sürdürmeleri için nasıl ilham verebilir? ";
 
   var teamwork_s3u1_10_1 = "Liderlik";
-  var teamwork_s3u1_10_2 =
-    "Liderlik gücün, ekibin satış veya müşteri hizmetleri hedeflerini aşmasına nasıl yardımcı olabilir? ";
-  var teamwork_s3u1_10_3 =
-    "Sürekli olarak güçlü sonuçlar elde eden yüksek performanslı bir kültür oluşturmak için liderliğini nasıl daha fazla kullanabilirsin? ";
+  var teamwork_s3u1_10_2 = "Liderlik gücün, ekibin satış veya müşteri hizmetleri hedeflerini aşmasına nasıl yardımcı olabilir? ";
+  var teamwork_s3u1_10_3 = "Sürekli olarak güçlü sonuçlar elde eden yüksek performanslı bir kültür oluşturmak için liderliğini nasıl daha fazla kullanabilirsin? ";
 
   var teamwork_s3u2_1_1 = "Aktif Dinleme ve Empati";
-  var teamwork_s3u2_1_2 =
-    "Ne sıklıkla başkalarının konuştuklarında duygularını ve bakış açılarını anlamaya gerçekten odaklanıyorum? ";
-  var teamwork_s3u2_1_3 =
-    "Hangi durumlarda konuşmalar sırasında dikkatim dağılıyor veya sabırsız oluyorum? ";
-  var teamwork_s3u2_1_4 =
-    "Aynı fikirde olmadığımda bile empati ve şefkatle yanıt verme yeteneğimi nasıl geliştirebilirim? ";
+  var teamwork_s3u2_1_2 = "Ne sıklıkla başkalarının konuştuklarında duygularını ve bakış açılarını anlamaya gerçekten odaklanıyorum? ";
+  var teamwork_s3u2_1_3 = "Hangi durumlarda konuşmalar sırasında dikkatim dağılıyor veya sabırsız oluyorum? ";
+  var teamwork_s3u2_1_4 = "Aynı fikirde olmadığımda bile empati ve şefkatle yanıt verme yeteneğimi nasıl geliştirebilirim? ";
 
   var teamwork_s3u2_2_1 = "Etkili İletişim";
-  var teamwork_s3u2_2_2 =
-    "İletişim tarzımı kiminle konuştuğuma göre uyarlıyor muyum ve eğer değilse, nasıl geliştirebilirim? ";
-  var teamwork_s3u2_2_3 =
-    "Mesajımın anlaşıldığından emin olmak için ne sıklıkla açıklama istiyorum ve bunu yapmamı engelleyen nedir? ";
-  var teamwork_s3u2_2_4 =
-    "Hem yazılı hem de sözlü olarak daha açık, özlü ve etkili iletişim kurmak için ne yapabilirim? ";
+  var teamwork_s3u2_2_2 = "İletişim tarzımı kiminle konuştuğuma göre uyarlıyor muyum ve eğer değilse, nasıl geliştirebilirim? ";
+  var teamwork_s3u2_2_3 = "Mesajımın anlaşıldığından emin olmak için ne sıklıkla açıklama istiyorum ve bunu yapmamı engelleyen nedir? ";
+  var teamwork_s3u2_2_4 = "Hem yazılı hem de sözlü olarak daha açık, özlü ve etkili iletişim kurmak için ne yapabilirim? ";
 
   var teamwork_s3u2_3_1 = "İşbirliği";
-  var teamwork_s3u2_3_2 =
-    "Karar vermeden veya görevlerde ilerlemeden önce aktif olarak başkalarından girdi ve fikir alıyor muyum? ";
-  var teamwork_s3u2_3_3 =
-    "Kendi katkılarımı başkalarını düşüncelerini ve fikirlerini paylaşmaya teşvik etmekle ne kadar iyi dengeleyebilirim? ";
-  var teamwork_s3u2_3_3 =
-    "Ekibim içinde daha güçlü işbirlikçi ilişkiler kurmak için hangi adımları atabilirim? ";
+  var teamwork_s3u2_3_2 = "Karar vermeden veya görevlerde ilerlemeden önce aktif olarak başkalarından girdi ve fikir alıyor muyum? ";
+  var teamwork_s3u2_3_3 = "Kendi katkılarımı başkalarını düşüncelerini ve fikirlerini paylaşmaya teşvik etmekle ne kadar iyi dengeleyebilirim? ";
+  var teamwork_s3u2_3_3 = "Ekibim içinde daha güçlü işbirlikçi ilişkiler kurmak için hangi adımları atabilirim? ";
 
   var teamwork_s3u2_4_1 = "Uyumluluk";
-  var teamwork_s3u2_4_2 =
-    "Beklenmedik değişikliklere veya zorluklara genellikle nasıl yanıt veririm ve bu durumları daha olumlu bir şekilde kucaklamak için ne yapabilirim? ";
-  var teamwork_s3u2_4_3 =
-    "Değişimle karşı karşıya kaldığımda, bunalmış veya dirençli olmak yerine nasıl odaklanmış ve üretken kalabilirim? ";
-  var teamwork_s3u2_4_4 =
-    "Farklı çalışma ortamlarında esnekliğimi artırmak için hangi yeni beceriler veya tutumlar geliştirebilirim? ";
+  var teamwork_s3u2_4_2 = "Beklenmedik değişikliklere veya zorluklara genellikle nasıl yanıt veririm ve bu durumları daha olumlu bir şekilde kucaklamak için ne yapabilirim? ";
+  var teamwork_s3u2_4_3 = "Değişimle karşı karşıya kaldığımda, bunalmış veya dirençli olmak yerine nasıl odaklanmış ve üretken kalabilirim? ";
+  var teamwork_s3u2_4_4 = "Farklı çalışma ortamlarında esnekliğimi artırmak için hangi yeni beceriler veya tutumlar geliştirebilirim? ";
 
   var teamwork_s3u2_5_1 = "Çatışma Çözümü";
-  var teamwork_s3u2_5_1 =
-    "Çatışmalar ortaya çıktığında, soruna mı yoksa ilgili kişilere mi odaklanıyorum ve ikisini nasıl daha iyi ayırabilirim? ";
-  var teamwork_s3u2_5_2 =
-    "Gergin durumlarda ne kadar sakin ve sakin kalıyorum ve bunu geliştirmeme hangi teknikler yardımcı olabilir? ";
-  var teamwork_s3u2_5_3 =
-    "Çatışma çözümüne hem kendi bakış açıma hem de başkalarının bakış açısına saygı duyacak şekilde nasıl daha iyi yaklaşabilirim?";
+  var teamwork_s3u2_5_2 = "Çatışmalar ortaya çıktığında, soruna mı yoksa ilgili kişilere mi odaklanıyorum ve ikisini nasıl daha iyi ayırabilirim? ";
+  var teamwork_s3u2_5_2 = "Gergin durumlarda ne kadar sakin ve sakin kalıyorum ve bunu geliştirmeme hangi teknikler yardımcı olabilir? ";
+  var teamwork_s3u2_5_3 = "Çatışma çözümüne hem kendi bakış açıma hem de başkalarının bakış açısına saygı duyacak şekilde nasıl daha iyi yaklaşabilirim?";
 
   var teamwork_s3u2_6_1 = "Girişim";
-  var teamwork_s3u2_6_1 =
-    "İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim? ";
-  var teamwork_s3u2_6_1 =
-    "Ne zaman inisiyatif almaktan çekiniyorum ve hangi korkular veya engeller beni engelliyor? ";
-  var teamwork_s3u2_6_1 =
-    "Risk olsa bile yeni fikirler veya çözümler önerme konusunda kendime daha fazla güvenmek için ne yapabilirim?";
+  var teamwork_s3u2_6_2 = "İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim? ";
+  var teamwork_s3u2_6_3 = "Ne zaman inisiyatif almaktan çekiniyorum ve hangi korkular veya engeller beni engelliyor? ";
+  var teamwork_s3u2_6_4 = "Risk olsa bile yeni fikirler veya çözümler önerme konusunda kendime daha fazla güvenmek için ne yapabilirim?";
 
   var teamwork_s3u2_7_1 = "Geri Bildirim";
-  var teamwork_s3u2_7_1 =
-    "Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim? ";
-  var teamwork_s3u2_7_1 =
-    "Başkalarına geri bildirim verme konusunda tutarlı mıyım ve bunun hem zamanında hem de yardımcı olduğundan nasıl emin olabilirim? ";
-  var teamwork_s3u2_7_1 =
-    "Başkalarından gelen geri bildirimlere daha açık olmak ve bunu kişisel ve profesyonel gelişim için bir araç olarak kullanmak için hangi adımları atabilirim?";
+  var teamwork_s3u2_7_2 = "Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim? ";
+  var teamwork_s3u2_7_3 = "Başkalarına geri bildirim verme konusunda tutarlı mıyım ve bunun hem zamanında hem de yardımcı olduğundan nasıl emin olabilirim? ";
+  var teamwork_s3u2_7_4 = "Başkalarından gelen geri bildirimlere daha açık olmak ve bunu kişisel ve profesyonel gelişim için bir araç olarak kullanmak için hangi adımları atabilirim?";
 
   var teamwork_s3u2_8_1 = "Takım Oluşturma";
-  var teamwork_s3u2_8_1 =
-    "Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim? ";
-  var teamwork_s3u2_8_1 =
-    "Daha kapsayıcı ve destekleyici bir ekip kültürü oluşturmaya nasıl yardımcı olabilirim? ";
-  var teamwork_s3u2_8_1 =
-    "Takım arkadaşlarımın güçlü ve zayıf yönlerini anlamak için çaba sarf ediyor muyum ve onları nasıl daha iyi destekleyebilirim? ";
+  var teamwork_s3u2_8_2 = "Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim? ";
+  var teamwork_s3u2_8_3 = "Daha kapsayıcı ve destekleyici bir ekip kültürü oluşturmaya nasıl yardımcı olabilirim? ";
+  var teamwork_s3u2_8_4 = "Takım arkadaşlarımın güçlü ve zayıf yönlerini anlamak için çaba sarf ediyor muyum ve onları nasıl daha iyi destekleyebilirim? ";
 
   var teamwork_s3u2_9_1 = "Mesleki Gelişim";
-  var teamwork_s3u2_9_1 =
-    "Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir? ";
-  var teamwork_s3u2_9_1 =
-    "Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim? ";
-  var teamwork_s3u2_9_1 =
-    "Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim? ";
+  var teamwork_s3u2_9_2 = "Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir? ";
+  var teamwork_s3u2_9_3 = "Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim? ";
+  var teamwork_s3u2_9_4 = "Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim? ";
 
   var teamwork_s3u2_10_1 = "Liderlik";
-  var teamwork_s3u2_10_1 =
-    "Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim? ";
-  var teamwork_s3u2_10_1 =
-    "Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim? ";
-  var teamwork_s3u2_10_1 =
-    "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
+  var teamwork_s3u2_10_2 = "Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim? ";
+  var teamwork_s3u2_10_3 = "Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim? ";
+  var teamwork_s3u2_10_4 = "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
 
   var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator";
   var lifestyle_25_plus_manifesting_generator_1 =
@@ -4690,299 +4502,191 @@ export default async ({ req, res, log, error }) => {
     "İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin? ";
 
   var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al";
-  var decision_strategy_s3_1_1 =
-    "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
-  var decision_strategy_s3_1_2 =
-    "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir. ";
+  var decision_strategy_s3_1_1 = "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
+  var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
   var decision_strategy_s3_1_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_1_4 =
-    'İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın "ah-huh" (evet), "uhn - un" (hayır) ya da "hmmmmm" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın. ';
-  var decision_strategy_s3_1_5 =
-    "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
-  var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_1_text =
-    "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir. ";
-  var decision_strategy_s4_1_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
-  var decision_strategy_s4_1_2 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.";
-  var decision_strategy_s4_1_3 =
-    'Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için "ah-huh", hayır için "uhn - un" ya da henüz değil için "hmmmmm". ';
-  var decision_strategy_s4_1_4 =
-    "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın. ";
-  var decision_strategy_s4_1_4_e_1 =
-    "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil. ";
-  var decision_strategy_s4_1_4_e_2 =
-    "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven. ";
-  var decision_strategy_s4_1_6_2 =
-    "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir. ";
-
-  var decision_strategy_s3_2_0 =
-    "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et ";
-  var decision_strategy_s3_2_1 =
-    "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin "; // eksik
-  var decision_strategy_s3_2_2 =
-    "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir. ";
+  var decision_strategy_s3_1_4 = 'İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın "ah-huh" (evet), "uhn - un" (hayır) ya da "hmmmmm" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.';
+  var decision_strategy_s3_1_5 = "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
+  
+  var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et";
+  var decision_strategy_s3_2_1 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin";
+  var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
   var decision_strategy_s3_2_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_2_4 =
-    "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven. ";
-  var decision_strategy_s3_2_5 =
-    'İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya "ah-huh" (evet), ya "uhn - un" (hayır) ya da "hmmmmm" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir. ';
-  var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_2_text =
-    "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver. ";
-  var decision_strategy_s4_2_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
-  var decision_strategy_s4_2_2 =
-    'Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için "ah-huh", hayır için "uhn - un" ya da "hmmmmm" ile henüz değil. ';
-  var decision_strategy_s4_2_3 =
-    "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol. ";
-  var decision_strategy_s4_2_4 =
-    "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven. ";
-  var decision_strategy_s4_8_4_e_1 = "";
-  var decision_strategy_s4_8_4_e_2 = "";
-  var decision_strategy_s4_2_5 =
-    "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
+  var decision_strategy_s3_2_4 = "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
+  var decision_strategy_s3_2_5 = 'İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya "ah-huh" (evet), ya "uhn - un" (hayır) ya da "hmmmmm" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.';
 
   var decision_strategy_s3_3_0 = "Tanınma ve Davet Al, Netlik ile Karar Al ";
   var decision_strategy_s3_3_1 = "Tanınma, Davet ve Netlik için Bekle ";
-  var decision_strategy_s3_3_2 =
-    "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
+  var decision_strategy_s3_3_2 = "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
   var decision_strategy_s3_3_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_3_4 =
-    "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
-  var decision_strategy_s3_3_5 =
-    "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
-  var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_3_text =
-    "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_3_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
-  var decision_strategy_s4_3_2 =
-    "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
-  var decision_strategy_s4_3_3 =
-    "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
-  var decision_strategy_s4_3_4 =
-    "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
-  var decision_strategy_s4_3_4_e_1 =
-    "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
-  var decision_strategy_s4_3_4_e_2 = "";
-  var decision_strategy_s4_3_5 =
-    "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
-
+  var decision_strategy_s3_3_4 = "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
+  var decision_strategy_s3_3_5 = "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
+  
   var decision_strategy_s3_4_0 = "Tanınma ve Davet Al, İçgüdülerini Takip Et ";
-  var decision_strategy_s3_4_1 =
-    "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  ";
-  var decision_strategy_s3_4_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
+  var decision_strategy_s3_4_1 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  ";
+  var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
   var decision_strategy_s3_4_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_4_4 =
-    "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
-  var decision_strategy_s3_4_5 =
-    "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
+  var decision_strategy_s3_4_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
+  var decision_strategy_s3_4_5 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
+  
+  var decision_strategy_s3_5_0 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et ";
+  var decision_strategy_s3_5_1 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et ";
+  var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
+  var decision_strategy_s3_5_3 = "İki Temel Unsur: ";
+  var decision_strategy_s3_5_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
+  var decision_strategy_s3_5_5 = "İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. \"Ben ne istiyorum?\" ve \"Bu benim için ne ifade ediyor ? \" sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ";
+  
+  var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle ";
+  var decision_strategy_s3_6_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
+  var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
+  var decision_strategy_s3_6_3 = "İki Temel Unsur: ";
+  var decision_strategy_s3_6_4 = "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
+  var decision_strategy_s3_6_5 = "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
+  
+  var decision_strategy_s3_7_0 = "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
+  var decision_strategy_s3_7_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
+  var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
+  var decision_strategy_s3_7_3 = "İki Temel Unsur: ";
+  var decision_strategy_s3_7_4 = "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
+  var decision_strategy_s3_7_5 = "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
+  
+  var decision_strategy_s3_8_0 = "Gör, Netlik Bekle ve Bilgi Ver ";
+  var decision_strategy_s3_8_1 = "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir ";
+  var decision_strategy_s3_8_2 = "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. ";
+  var decision_strategy_s3_8_3 = "İki Temel Unsur: ";
+  var decision_strategy_s3_8_4 = "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
+  var decision_strategy_s3_8_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
+  
+  var decision_strategy_s3_9_0 = "Gör, İç güdülerine Kulak ver ve Bilgi Ver. ";
+  var decision_strategy_s3_9_1 = "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir ";
+  var decision_strategy_s3_9_2 = "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. ";
+  var decision_strategy_s3_9_3 = "İki Temel Unsur: ";
+  var decision_strategy_s3_9_4 = "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
+  var decision_strategy_s3_9_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
+  
+  var decision_strategy_s3_10_0 = "Gör, İradeni Dinle ve Bilgi Ver.";
+  var decision_strategy_s3_10_1 = "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme.";
+  var decision_strategy_s3_10_2 = "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin.";
+  var decision_strategy_s3_10_3 = "İki Temel Unsur:";
+  var decision_strategy_s3_10_4 = 'İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma.';
+  var decision_strategy_s3_10_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın.";
+  
+  var decision_strategy_s3_11_0 = "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.";
+  var decision_strategy_s3_11_1 = "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış.";
+  var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
+  var decision_strategy_s3_11_3 = "İki Temel Unsur:";
+  var decision_strategy_s3_11_4 = "Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
+  var decision_strategy_s3_11_5 = "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
+  
+  var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
+  var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
+  var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
+  var decision_strategy_s4_1_2 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.";
+  var decision_strategy_s4_1_3 = 'Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için "ah-huh", hayır için "uhn - un" ya da henüz değil için "hmmmmm".';
+  var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
+  var decision_strategy_s4_1_4_e_1 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
+  var decision_strategy_s4_1_4_e_2 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
+  var decision_strategy_s4_1_5 = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
+  
+  var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
+  var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
+  var decision_strategy_s4_2_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
+  var decision_strategy_s4_2_2 = 'Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için "ah-huh", hayır için "uhn - un" ya da "hmmmmm" ile henüz değil.';
+  var decision_strategy_s4_2_3 = "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.";
+  var decision_strategy_s4_2_4 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
+  var decision_strategy_s4_2_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
+  
+  var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: ";
+  var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_3_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
+  var decision_strategy_s4_3_2 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
+  var decision_strategy_s4_3_3 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
+  var decision_strategy_s4_3_4 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
+  var decision_strategy_s4_3_4_e_1 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
+  var decision_strategy_s4_3_4_e_2 = "";
+  var decision_strategy_s4_3_5 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  
   var decision_strategy_s4_4_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_4_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_4_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. ";
-  var decision_strategy_s4_4_2 =
-    "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
-  var decision_strategy_s4_4_3 =
-    "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
-  var decision_strategy_s4_4_4 =
-    "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
+  var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_4_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. ";
+  var decision_strategy_s4_4_2 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
+  var decision_strategy_s4_4_3 = "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
+  var decision_strategy_s4_4_4 = "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
   var decision_strategy_s4_4_4_e_1 = "";
   var decision_strategy_s4_4_4_e_2 = "";
-  var decision_strategy_s4_4_5 =
-    "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
-
-  var decision_strategy_s3_5_0 =
-    "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et ";
-  var decision_strategy_s3_5_1 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et ";
-  var decision_strategy_s3_5_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
-  var decision_strategy_s3_5_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_5_4 =
-    "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
-  var decision_strategy_s3_5_5 =
-    'İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
+  var decision_strategy_s4_4_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
+  
   var decision_strategy_s4_5_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_5_text =
-    "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_5_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-  var decision_strategy_s4_5_2 =
-    "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
-  var decision_strategy_s4_5_3 =
-    "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-  var decision_strategy_s4_5_4 =
-    "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
+  var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_5_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
+  var decision_strategy_s4_5_2 = "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
+  var decision_strategy_s4_5_3 = "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
+  var decision_strategy_s4_5_4 = "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
   var decision_strategy_s4_5_4_e_1 = "";
   var decision_strategy_s4_5_4_e_2 = "";
-  var decision_strategy_s4_5_5 =
-    "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
-
-  var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle ";
-  var decision_strategy_s3_6_1 =
-    "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
-  var decision_strategy_s3_6_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
-  var decision_strategy_s3_6_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_6_4 =
-    "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
-  var decision_strategy_s3_6_5 =
-    "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
+  var decision_strategy_s4_5_5 = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  
   var decision_strategy_s4_6_5_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_6_5_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
-  var decision_strategy_s4_6_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-  var decision_strategy_s4_6_2 =
-    "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
-  var decision_strategy_s4_6_3 =
-    "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-  var decision_strategy_s4_6_4 =
-    "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
-  var decision_strategy_s4_8_4_e_1 = "";
-  var decision_strategy_s4_8_4_e_2 = "";
-  var decision_strategy_s4_6_5 =
-    "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
+  var decision_strategy_s4_6_5_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
+  var decision_strategy_s4_6_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
+  var decision_strategy_s4_6_2 = "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
+  var decision_strategy_s4_6_3 = "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
+  var decision_strategy_s4_6_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
+  var decision_strategy_s4_6_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
   //var decision_strategy_s4_6_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
-
-  var decision_strategy_s3_7_0 =
-    "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
-  var decision_strategy_s3_7_1 =
-    "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
-  var decision_strategy_s3_7_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
-  var decision_strategy_s3_7_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_7_4 =
-    "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
-  var decision_strategy_s3_7_5 =
-    "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
+  
   var decision_strategy_s4_7_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_7_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
-  var decision_strategy_s4_7_1 =
-    "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
-  var decision_strategy_s4_7_2 =
-    "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-  var decision_strategy_s4_7_3 =
-    "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
-  var decision_strategy_s4_7_4 =
-    "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
+  var decision_strategy_s4_7_1 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
+  var decision_strategy_s4_7_2 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+  var decision_strategy_s4_7_3 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
+  var decision_strategy_s4_7_4 = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
   var decision_strategy_s4_7_4_e_1 = "";
   var decision_strategy_s4_7_4_e_2 = "";
-  var decision_strategy_s4_7_5 =
-    "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
+  var decision_strategy_s4_7_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
   //var decision_strategy_s4_7_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
-
-  var decision_strategy_s3_8_0 = "Gör, Netlik Bekle ve Bilgi Ver ";
-  var decision_strategy_s3_8_1 =
-    "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir ";
-  var decision_strategy_s3_8_2 =
-    "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. ";
-  var decision_strategy_s3_8_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_8_4 =
-    "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
-  var decision_strategy_s3_8_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
+  
   var decision_strategy_s4_8_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_8_text =
-    "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
-  var decision_strategy_s4_8_1 =
-    "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+  var decision_strategy_s4_8_text = "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
+  var decision_strategy_s4_8_1 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
   var decision_strategy_s4_8_2 = "Gör: Başlatılması gereken şeyleri fark et. ";
-  var decision_strategy_s4_8_3 =
-    "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
-  var decision_strategy_s4_8_4 =
-    "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. ";
-  var decision_strategy_s4_8_4_e_1 =
-    "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
-  var decision_strategy_s4_8_4_e_2 =
-    "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
-  var decision_strategy_s4_8_5 =
-    "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-
-  var decision_strategy_s3_9_0 = "Gör, İç güdülerine Kulak ver ve Bilgi Ver. ";
-  var decision_strategy_s3_9_1 =
-    "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir ";
-  var decision_strategy_s3_9_2 =
-    "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. ";
-  var decision_strategy_s3_9_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_9_4 =
-    "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
-  var decision_strategy_s3_9_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
+  var decision_strategy_s4_8_3 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
+  var decision_strategy_s4_8_4 = "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. ";
+  var decision_strategy_s4_8_4_e_1 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
+  var decision_strategy_s4_8_4_e_2 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
+  var decision_strategy_s4_8_5 = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_8_4_e_1 = "";
+  var decision_strategy_s4_8_4_e_2 = "";
+  
   var decision_strategy_s4_9_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_9_text =
-    "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
+  var decision_strategy_s4_9_text = "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
   var decision_strategy_s4_9_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
-  var decision_strategy_s4_9_2 =
-    "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
-  var decision_strategy_s4_9_3 =
-    "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
-  var decision_strategy_s4_9_4 =
-    "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
-  var decision_strategy_s4_9_4_e_1 =
-    "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
+  var decision_strategy_s4_9_2 = "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
+  var decision_strategy_s4_9_3 = "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
+  var decision_strategy_s4_9_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
+  var decision_stragegy_s4_9_5 = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_9_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
   var decision_strategy_s4_9_4_e_2 = "";
-  var decision_stragegy_s4_9_5 =
-    "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-
-  var decision_strategy_s3_10_0 = "Gör, İradeni Dinle ve Bilgi Ver ";
-  var decision_strategy_s3_10_1 =
-    "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme ";
-  var decision_strategy_s3_10_2 =
-    "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin. ";
-  var decision_strategy_s3_10_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_10_4 =
-    'İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma. ';
-  var decision_strategy_s3_10_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın. ";
-  var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_10_text =
-    "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır. ";
-  var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
-  var decision_strategy_s4_10_2 =
-    "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
-  var decision_strategy_s4_10_3 =
-    "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil. ";
-  var decision_strategy_s4_10_4 =
-    "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
-  var decision_strategy_s4_10_4_e_1 =
-    "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
+  
+  var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek:";
+  var decision_strategy_s4_10_text = "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır.";
+  var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et.";
+  var decision_strategy_s4_10_2 = "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
+  var decision_strategy_s4_10_3 = "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.";
+  var decision_strategy_s4_10_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
+  var decision_strategy_s4_10_5 = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
+  var decision_strategy_s4_10_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
   var decision_strategy_s4_10_4_e_2 = "";
-  var decision_strategy_s4_10_5 =
-    "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-
-  var decision_strategy_s3_11_0 =
-    "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin. ";
-  var decision_strategy_s3_11_1 =
-    "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış ";
-  var decision_strategy_s3_11_2 =
-    "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin. ";
-  var decision_strategy_s3_11_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_11_4 =
-    "Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy. ";
-  var decision_strategy_s3_11_5 =
-    "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin. ";
-  var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_11_text =
-    "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin. ";
-  var decision_strategy_s4_11_1 =
-    "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.";
-  var decision_strategy_s4_11_2 =
-    "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan. ";
-  var decision_strategy_s4_11_3 =
-    "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et. ";
-  var decision_strategy_s4_11_4 =
-    'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver. ';
-  var decision_strategy_s4_11_4_e_1 =
-    "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle. ";
+  
+  var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek:";
+  var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
+  var decision_strategy_s4_11_1 = "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.";
+  var decision_strategy_s4_11_2 = "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.";
+  var decision_strategy_s4_11_3 = "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.";
+  var decision_strategy_s4_11_4 = 'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver.';
+  var decision_strategy_s4_11_5 = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
+  var decision_strategy_s4_11_4_e_1 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
   var decision_strategy_s4_11_4_e_2 = "";
-  var decision_strategy_s4_11_5 =
-    "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin. ";
 
   // eski hali
   // var inputs = {
@@ -5399,6 +5103,26 @@ export default async ({ req, res, log, error }) => {
       } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
         return ai_25_s4u2_9_2;
       }
+    } else if (type == "s4u2_x_3") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s4u2_1_3;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s4u2_2_3;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s4u2_3_3;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s4u2_4_3;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s4u2_5_3;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s4u2_6_3;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s4u2_7_3;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s4u2_8_3;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s4u2_9_3;
+      }
     } else if (type == "s4u2_x_4") {
       if (aiName == "Dijital Okuryazarlık") {
         return ai_25_s4u2_1_4;
@@ -5418,6 +5142,110 @@ export default async ({ req, res, log, error }) => {
         return ai_25_s4u2_8_4;
       } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
         return ai_25_s4u2_9_4;
+      }
+    } else if (type == "s5u1_x_2") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u1_1_2;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s5u1_2_2;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s5u1_3_2;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s5u1_4_2;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s5u1_5_2;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s5u1_6_2;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s5u1_7_2;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s5u1_8_2;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s5u1_9_2;
+      }
+    }
+      else if (type == "s5u1_x_3") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u1_1_3;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s5u1_2_3;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s5u1_3_3;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s5u1_4_3;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s5u1_5_3;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s5u1_6_3;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s5u1_7_3;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s5u1_8_3;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s5u1_9_3;
+      }
+    }
+      else if (type == "s5u1_x_4") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u1_1_4;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s5u1_2_4;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s5u1_3_4;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s5u1_4_4;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s5u1_5_4;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s5u1_6_4;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s5u1_7_4;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s5u1_8_4;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s5u1_9_4;
+      }
+    }
+      else if (type == "s5u1_x_4") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u1_1_4;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s5u1_2_4;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s5u1_3_4;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s5u1_4_4;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s5u1_5_4;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s5u1_6_4;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s5u1_7_4;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s5u1_8_4;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s5u1_9_4;
+      }
+    }
+      else if (type == "s5u1_x_5") {
+      if (aiName == "Dijital Okuryazarlık") {
+        return ai_25_s5u1_1_5;
+      } else if (aiName == "Veri Okur Yazarlığı") {
+        return ai_25_s5u1_2_5;
+      } else if (aiName == "Kodlama ve Programlama") {
+        return ai_25_s5u1_3_5;
+      } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
+        return ai_25_s5u1_4_5;
+      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+        return ai_25_s5u1_5_5;
+      } else if (aiName == "İletişim ve İşbirliği") {
+        return ai_25_s5u1_6_5;
+      } else if (aiName == "Etik ve Sosyal Sorumluluk") {
+        return ai_25_s5u1_7_5;
+      } else if (aiName == "Duygusal Zeka (EQ)") {
+        return ai_25_s5u1_8_5;
+      } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
+        return ai_25_s5u1_9_5;
       }
     } else if (type == "s5u2_x_2") {
       if (aiName == "Dijital Okuryazarlık") {
@@ -5502,9 +5330,9 @@ export default async ({ req, res, log, error }) => {
     }
   };
 
-  let teamwork = (teamworkName, age, type) => {
-    if ((type = "name")) {
-      if (teamworkName == "Aktif Dinleme Ve Empati") {
+  let teamwork = (teamworkName, age, type) => {    
+    if (type == "name") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
         return teamwork_s3u1_1_1;
       } else if (teamworkName == "Efektif İletişim") {
         return teamwork_s3u1_2_1;
@@ -5526,7 +5354,7 @@ export default async ({ req, res, log, error }) => {
         return teamwork_s3u1_10_1;
       }
     } else if (type == "best") {
-      if (teamworkName == "Aktif Dinleme Ve Empati") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
         return teamwork_best_1_2;
       } else if (teamworkName == "Efektif İletişim") {
         return teamwork_best_2_2;
@@ -5546,6 +5374,121 @@ export default async ({ req, res, log, error }) => {
         return teamwork_best_9_2;
       } else if (teamworkName == "Liderlik") {
         return teamwork_best_10_2;
+      }
+    }
+    else if (type == "s3u1_x_1") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
+        return teamwork_s3u1_1_2;
+      } else if (teamworkName == "Efektif İletişim") {
+        return teamwork_s3u1_2_2;
+      } else if (teamworkName == "İş Birliği") {
+        return teamwork_s3u1_3_2;
+      } else if (teamworkName == "Uyumluluk") {
+        return teamwork_s3u1_4_2;
+      } else if (teamworkName == "Sorun Çözme") {
+        return teamwork_s3u1_5_2;
+      } else if (teamworkName == "Öncü Olma") {
+        return teamwork_s3u1_6_2;
+      } else if (teamworkName == "Geri Bildirim") {
+        return teamwork_s3u1_7_2;
+      } else if (teamworkName == "Takım Oyuncusu Olma") {
+        return teamwork_s3u1_8_2;
+      } else if (teamworkName == "Profesyonel Gelişim") {
+        return teamwork_s3u1_9_2;
+      } else if (teamworkName == "Liderlik") {
+        return teamwork_s3u1_10_2;
+      }
+    }
+    else if (type == "s3u1_x_2") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
+        return teamwork_s3u1_1_3;
+      } else if (teamworkName == "Efektif İletişim") {
+        return teamwork_s3u1_2_3;
+      } else if (teamworkName == "İş Birliği") {
+        return teamwork_s3u1_3_3;
+      } else if (teamworkName == "Uyumluluk") {
+        return teamwork_s3u1_4_3;
+      } else if (teamworkName == "Sorun Çözme") {
+        return teamwork_s3u1_5_3;
+      } else if (teamworkName == "Öncü Olma") {
+        return teamwork_s3u1_6_3;
+      } else if (teamworkName == "Geri Bildirim") {
+        return teamwork_s3u1_7_3;
+      } else if (teamworkName == "Takım Oyuncusu Olma") {
+        return teamwork_s3u1_8_3;
+      } else if (teamworkName == "Profesyonel Gelişim") {
+        return teamwork_s3u1_9_3;
+      } else if (teamworkName == "Liderlik") {
+        return teamwork_s3u1_10_3;
+      }
+    }
+    else if (type == "s3u2_x_1") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
+        return teamwork_s3u2_1_2;
+      } else if (teamworkName == "Efektif İletişim") {
+        return teamwork_s3u2_2_2;
+      } else if (teamworkName == "İş Birliği") {
+        return teamwork_s3u2_3_2;
+      } else if (teamworkName == "Uyumluluk") {
+        return teamwork_s3u2_4_2;
+      } else if (teamworkName == "Sorun Çözme") {
+        return teamwork_s3u2_5_2;
+      } else if (teamworkName == "Öncü Olma") {
+        return teamwork_s3u2_6_2;
+      } else if (teamworkName == "Geri Bildirim") {
+        return teamwork_s3u2_7_2;
+      } else if (teamworkName == "Takım Oyuncusu Olma") {
+        return teamwork_s3u2_8_2;
+      } else if (teamworkName == "Profesyonel Gelişim") {
+        return teamwork_s3u2_9_2;
+      } else if (teamworkName == "Liderlik") {
+        return teamwork_s3u2_10_2;
+      }
+    }
+    else if (type == "s3u2_x_2") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
+        return teamwork_s3u2_1_3;
+      } else if (teamworkName == "Efektif İletişim") {
+        return teamwork_s3u2_2_3;
+      } else if (teamworkName == "İş Birliği") {
+        return teamwork_s3u2_3_3;
+      } else if (teamworkName == "Uyumluluk") {
+        return teamwork_s3u2_4_3;
+      } else if (teamworkName == "Sorun Çözme") {
+        return teamwork_s3u2_5_3;
+      } else if (teamworkName == "Öncü Olma") {
+        return teamwork_s3u2_6_3;
+      } else if (teamworkName == "Geri Bildirim") {
+        return teamwork_s3u2_7_3;
+      } else if (teamworkName == "Takım Oyuncusu Olma") {
+        return teamwork_s3u2_8_3;
+      } else if (teamworkName == "Profesyonel Gelişim") {
+        return teamwork_s3u2_9_3;
+      } else if (teamworkName == "Liderlik") {
+        return teamwork_s3u2_10_3;
+      }
+    }
+    else if (type == "s3u2_x_3") {
+      if (teamworkName == "Aktif Dinleme ve Empati") {
+        return teamwork_s3u2_1_4;
+      } else if (teamworkName == "Efektif İletişim") {
+        return teamwork_s3u2_2_4;
+      } else if (teamworkName == "İş Birliği") {
+        return teamwork_s3u2_3_4;
+      } else if (teamworkName == "Uyumluluk") {
+        return teamwork_s3u2_4_4;
+      } else if (teamworkName == "Sorun Çözme") {
+        return teamwork_s3u2_5_4;
+      } else if (teamworkName == "Öncü Olma") {
+        return teamwork_s3u2_6_4;
+      } else if (teamworkName == "Geri Bildirim") {
+        return teamwork_s3u2_7_4;
+      } else if (teamworkName == "Takım Oyuncusu Olma") {
+        return teamwork_s3u2_8_4;
+      } else if (teamworkName == "Profesyonel Gelişim") {
+        return teamwork_s3u2_9_4;
+      } else if (teamworkName == "Liderlik") {
+        return teamwork_s3u2_10_4;
       }
     }
   };
@@ -5944,7 +5887,7 @@ export default async ({ req, res, log, error }) => {
         return subjective_s3_3;
       }
     } else if (type == "s3_4") {
-      if (worklearnData[0].name == "No Definition") {
+      if (worklearnData == "No Definition") {
         return objective_s3_4;
       } else if (worklearnData == "Single Definition") {
         return individual_s3_4;
@@ -6262,1075 +6205,412 @@ export default async ({ req, res, log, error }) => {
 
   let decision_strategy = (decisionStrategyData, age, type) => {
     if (type == "image") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return image_karar_verme_stratejileri_1;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return image_karar_verme_stratejileri_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return image_karar_verme_stratejileri_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return image_karar_verme_stratejileri_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return image_karar_verme_stratejileri_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return image_karar_verme_stratejileri_6;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return image_karar_verme_stratejileri_7;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return image_karar_verme_stratejileri_8;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return image_karar_verme_stratejileri_9;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return image_karar_verme_stratejileri_10;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return image_karar_verme_stratejileri_11;
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_1; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return image_karar_verme_stratejileri_2; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_3; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return image_karar_verme_stratejileri_4; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return image_karar_verme_stratejileri_5; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return image_karar_verme_stratejileri_6; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return image_karar_verme_stratejileri_7; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_8; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return image_karar_verme_stratejileri_9; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return image_karar_verme_stratejileri_10; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return image_karar_verme_stratejileri_11; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
     }
     if (type == "name") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_0;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_0;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_0;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_0;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_0;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_0;
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_0; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_0; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_0; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_0; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_0; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_0; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_0; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_0; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s3_9_0; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s3_10_0; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s3_11_0; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s3_x_1") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_1;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_1;
+  } else if (type == "s3_x_1") { // BURASI NEDEN YAZILMIŞ ANLAMADıM TEMPLATE BÖYLE BIR ALAN YOK!
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_1; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_1; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_1; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_1; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_1; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_1; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_1; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_1; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_9_1; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+          return decision_strategy_s3_10_1; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+          return decision_strategy_s3_11_1; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s3_x_2") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_2;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_2;
+  } else if (type == "s3_x_2") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_2; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_2; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_2; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_2; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_2; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_2; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_2; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_2; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_9_2; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+          return decision_strategy_s3_10_2; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+          return decision_strategy_s3_11_2; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s3_x_3") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_3;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_3;
+  } else if (type == "s3_x_3") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_3; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_3; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_3; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_3; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_3; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_3; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_3; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_3; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_9_3; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+          return decision_strategy_s3_10_3; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+          return decision_strategy_s3_11_3; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s3_x_4") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_4;
-      } else if (
-        decisionStrategyData.strategy === "To Respond" &&
-        decisionStrategyData.innerAuthority === "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_4;
+  } else if (type == "s3_x_4") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_4; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_4; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_4; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_4; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_4; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_4; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_4; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_4; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_9_4; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+          return decision_strategy_s3_10_4; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+          return decision_strategy_s3_11_4; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s3_x_5") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s3_1_5;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s3_2_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s3_3_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s3_4_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s3_5_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s3_6_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s3_7_5;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s3_8_5;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s3_9_5;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s3_10_5;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s3_11_5;
+  } else if (type == "s3_x_5") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_1_5; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+          return decision_strategy_s3_2_5; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_3_5; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_4_5; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+          return decision_strategy_s3_5_5; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+          return decision_strategy_s3_6_5; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s3_7_5; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+          return decision_strategy_s3_8_5; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+          return decision_strategy_s3_9_5; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+          return decision_strategy_s3_10_5; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+          return decision_strategy_s3_11_5; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_title") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_title;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_title;
+  } else if (type == "s4_x_title") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_title; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_title; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_title; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_title; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_title; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_title; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_title; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_title; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_title; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_title; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_title; // Yaklaşık bir ay beklemelisin
       }
-    } else if (type == "s4_x_text") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_text;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_text;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_text;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_text;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_text;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_text;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_title;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_title;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_title;
+  } else if (type == "s4_x_text") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_text; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_text; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_text; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_text; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_text; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_text; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_text; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_text; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_text; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_text; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_text; // Yaklaşık bir ay beklemelisin
       }
-    } else if (type == "s4_x_1") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_1;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_1;
+  } else if (type == "s4_x_1") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_1; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_1; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_1; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_1; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_1; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_1; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_1; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_1; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_1; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_1; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+       return decision_strategy_s4_11_1; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_2") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_2;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_2;
+  } else if (type == "s4_x_2") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_2; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_2; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_2; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_2; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_2; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_2; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_2; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_2; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_2; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_2; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_2; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_3") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_3;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_3;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_3;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_3;
+  } else if (type == "s4_x_3") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_3; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_3; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_3; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_3; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_3; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_3; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_3; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_3; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_3; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_3; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_3; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_4") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_4;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_4;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_4;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_4;
+  } else if (type == "s4_x_4") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_4; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_4; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_4; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_4; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_4; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_4; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_4; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_4; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_4; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_4; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_4; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_4_e_1") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_4_e_1;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_4_e_1;
+  } else if (type == "s4_x_5") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_5; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_5; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_5; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_5; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_5; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_5; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_5; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_5; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_5; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_5; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_5; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
-    } else if (type == "s4_x_4_e_2") {
-      if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Karar ver ve netlikle karar al
-        return decision_strategy_s4_1_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "To Respond" &&
-        decisionStrategyData.innnerAuthority == "Sacral"
-      ) {
-        // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
-        return decision_strategy_s4_2_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Tanınma ve Davet Al, Netlik ile Karar Al
-        return decision_strategy_s4_3_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Tanınma ve Davet Al, İçgüdülerini Takip Et
-        return decision_strategy_s4_4_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Ego Projected"
-      ) {
-        // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
-        return decision_strategy_s4_5_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Self Projected"
-      ) {
-        // Tanınma ve Davet Al, Söylediklerini Dinle
-        return decision_strategy_s4_6_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait for the Invitation" &&
-        decisionStrategyData.innerAuthority == "Mental"
-      ) {
-        // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
-        return decision_strategy_s4_7_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Emotional"
-      ) {
-        // Gör, Netlik Bekle ve Bilgi Ver
-        return decision_strategy_s4_8_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Splenic"
-      ) {
-        // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
-        return decision_strategy_s4_9_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "To Inform" &&
-        decisionStrategyData.innerAuthority == "Ego Manifested"
-      ) {
-        // Gör, İradeni Dinle ve Bilgi Ver
-        return decision_strategy_s4_10_4_e_2;
-      } else if (
-        decisionStrategyData.strategy == "Wait a Lunar Cycle" &&
-        decisionStrategyData.innerAuthority == "Lunar"
-      ) {
-        // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
-        return decision_strategy_s4_11_4_e_2;
+  } else if (type == "s4_x_4_e_1") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_4_e_1; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_4_e_1; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_4_e_1; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_4_e_1; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_4_e_1; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_4_e_1; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_4_e_1; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_4_e_1; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_4_e_1; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_4_e_1; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_4_e_1; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+      }
+  } else if (type == "s4_x_4_e_2") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_1_4_e_2; // Karar ver ve netlikle karar al
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return decision_strategy_s4_2_4_e_2; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_3_4_e_2; // Tanınma ve Davet Al, Netlik ile Karar Al
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_4_4_e_2; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return decision_strategy_s4_5_4_e_2; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return decision_strategy_s4_6_4_e_2; // Tanınma ve Davet Al, Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return decision_strategy_s4_7_4_e_2; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return decision_strategy_s4_8_4_e_2; // Gör, Netlik Bekle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return decision_strategy_s4_9_4_e_2; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return decision_strategy_s4_10_4_e_2; // Gör, İradeni Dinle ve Bilgi Ver
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return decision_strategy_s4_11_4_e_2; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
       }
     }
   };
 
   let kariyer_secim = (kariyer_secimData, age, type) => {
     if (type == "name") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s2_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s2_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s2_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
         return kariyer_secim_12_25_s2_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s2_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s2_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s2_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretim ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s2_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s2_9_1;
       }
     } else if (type == "sector") {
@@ -7350,2397 +6630,1023 @@ export default async ({ req, res, log, error }) => {
         return "Diğer";
       }
     } else if (type == "s2_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerleri"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretim ve Mentorluk Kariyerleri"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
-        return kariyer_secim_25_40_s2_1_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+        return kariyer_secim_25_40_s2_2_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+        return kariyer_secim_25_40_s2_3_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+        return kariyer_secim_25_40_s2_4_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+        return kariyer_secim_25_40_s2_5_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+        return kariyer_secim_25_40_s2_6_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+        return kariyer_secim_25_40_s2_7_2;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+        return kariyer_secim_25_40_s2_8_2;
+      }else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+        return kariyer_secim_25_40_s2_9_2;
       }
-    } else if (type == "s3_x") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
-        return kariyer_secim_s3_0_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+    } else if (type == "s3_x_1") {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_s3_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_s3_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_s3_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_s3_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_s3_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_s3_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_s3_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_s3_8_1;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+        return kariyer_secim_s3_9_1;
       }
-    } else if (type == "s4_x") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+    } else if (type == "s4_x_1") {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_s4_0_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_s4_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_s4_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_s4_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_s4_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_s4_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_s4_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_s4_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_s4_8_1;
       }
     } else if (type == "s7_x") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+        return kariyer_secim_12_25_s7_2_1;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_25_40_s2_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
         return kariyer_secim_25_40_s2_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_25_40_s2_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_25_40_s2_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_25_40_s2_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretim ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_25_40_s2_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_25_40_s2_9_1;
       }
     } else if (type == "s7_retail_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_1;
       }
     } else if (type == "s7_retail_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_2;
       }
     } else if (type == "s7_retail_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_3;
       }
     } else if (type == "s7_retail_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_4;
       }
     } else if (type == "s7_retail_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_5;
       }
     } else if (type == "s7_retail_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_6;
       }
     } else if (type == "s7_retail_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_7;
       }
     } else if (type == "s7_retail_x_8") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_1_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_2_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_3_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_retail_4_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_retail_5_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_6_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_8_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_9_8;
       }
     } else if (type == "s7_health_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_1;
       }
     } else if (type == "s7_health_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_2;
       }
     } else if (type == "s7_health_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_3;
       }
     } else if (type == "s7_health_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_4;
       }
     } else if (type == "s7_health_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_5;
       }
     } else if (type == "s7_health_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_6;
       }
     } else if (type == "s7_health_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_health_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_health_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_health_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_health_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_health_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_7;
       }
     } else if (type == "s7_health_x_8") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_1_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_health_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_health_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_health_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_health_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_health_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_health_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_health_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_health_9_4;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+        return kariyer_secim_12_25_s7_health_2_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+        return kariyer_secim_12_25_s7_health_3_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+        return kariyer_secim_12_25_s7_health_4_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+        return kariyer_secim_12_25_s7_health_5_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+        return kariyer_secim_12_25_s7_health_6_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+        return kariyer_secim_12_25_s7_health_7_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+        return kariyer_secim_12_25_s7_health_8_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+        return kariyer_secim_12_25_s7_health_9_8;
       }
     } else if (type == "s7_tech_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") 
         return kariyer_secim_12_25_s7_tech_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") 
         return kariyer_secim_12_25_s7_tech_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") 
         return kariyer_secim_12_25_s7_tech_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") 
         return kariyer_secim_12_25_s7_tech_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_9_1;
-      }
     } else if (type == "s7_tech_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") 
         return kariyer_secim_12_25_s7_tech_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") 
         return kariyer_secim_12_25_s7_tech_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") 
         return kariyer_secim_12_25_s7_tech_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") 
         return kariyer_secim_12_25_s7_tech_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_9_2;
-      }
     } else if (type == "s7_tech_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") 
         return kariyer_secim_12_25_s7_tech_1_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") 
         return kariyer_secim_12_25_s7_tech_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") 
         return kariyer_secim_12_25_s7_tech_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") 
         return kariyer_secim_12_25_s7_tech_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") 
         return kariyer_secim_12_25_s7_tech_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") 
         return kariyer_secim_12_25_s7_tech_9_3;
-      }
     } else if (type == "s7_tech_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_1_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_tech_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_9_4;
       }
     } else if (type == "s7_tech_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_tech_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_9_5;
       }
     } else if (type == "s7_tech_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_1_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_tech_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_9_6;
       }
     } else if (type == "s7_tech_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_1_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_tech_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_9_7;
       }
     } else if (type == "s7_tech_x_8") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_1_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_2_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_3_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_tech_4_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_tech_5_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_6_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_8_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_9_8;
       }
     } else if (type == "s7_dress_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_1;
       }
     } else if (type == "s7_dress_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_2;
       }
     } else if (type == "s7_dress_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_3;
       }
     } else if (type == "s7_dress_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_4;
       }
     } else if (type == "s7_dress_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_5;
       }
     } else if (type == "s7_dress_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_6;
       }
     } else if (type == "s7_dress_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_1_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_dress_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_dress_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_9_7;
       }
+    } else if (type == "s7_dress_x_8") {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_1_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_2_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+        return kariyer_secim_12_25_s7_dress_3_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_4_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_5_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+        return kariyer_secim_12_25_s7_dress_6_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_7_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+        return kariyer_secim_12_25_s7_dress_8_8;
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+        return kariyer_secim_12_25_s7_dress_9_8;
+      } 
     } else if (type == "s7_auto_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_1;
       }
     } else if (type == "s7_auto_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_2;
       }
     } else if (type == "s7_auto_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_3;
       }
     } else if (type == "s7_auto_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_4;
       }
     } else if (type == "s7_auto_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_auto_9_5;
-      }
-    } else if (type == "s7_auto_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_1_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_auto_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_auto_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_auto_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_5;
       }
     } else if (type == "s7_auto_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_6;
       }
     } else if (type == "s7_auto_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_1_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yaratıcı ve Sanatsal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_auto_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_9_7;
       }
     } else if (type == "s7_meal_x_1") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_1;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_1;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_1;
       }
     } else if (type == "s7_meal_x_2") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_2;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_2;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_2;
       }
     } else if (type == "s7_meal_x_3") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_3;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_3;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_3;
       }
     } else if (type == "s7_meal_x_4") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_4;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_4;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_4;
       }
     } else if (type == "s7_meal_x_5") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_5;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_5;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_5;
       }
     } else if (type == "s7_meal_x_6") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_1_6;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_2_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_3_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_meal_4_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
         return kariyer_secim_12_25_s7_meal_5_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_6_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_8_6;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_9_6;
       }
     } else if (type == "s7_meal_x_7") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_1_7;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
-        return kariyer_secim_12_25_s7_meal_2_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_3_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_4_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_5_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_6_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_7_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_8_7;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_9_7;
-      }
-    } else if (type == "s7_meal_x_8") {
-      if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Analitik ve Veri Odaklı Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_1_8;
-      } else if (
-        (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name =
-          "Yaratıcı ve Sanatsal Kariyerler")
-      ) {
-        return kariyer_secim_12_25_s7_meal_2_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Liderlik ve Yönetim Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_3_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yardım ve Sosyal Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_4_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Teknik ve Mühendislik Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_5_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Satış ve İlişki Kurma Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_6_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Organizasyonel ve İdari Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_7_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Yenilikçi ve Girişimci Kariyerler"
-      ) {
-        return kariyer_secim_12_25_s7_meal_8_8;
-      } else if (
-        careerSelectionData.find((x) => x.id == kariyer_secimData.id).name ==
-        "Öğretmenlik ve Mentorluk Kariyerleri"
-      ) {
-        return kariyer_secim_12_25_s7_meal_9_8;
-      }
-    }
+      if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_9_7;
+        }
+      } else if (type == "s7_meal_x_8") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_1_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_2_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_3_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_4_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_5_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_6_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_7_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_12_25_s7_meal_8_8;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+          return kariyer_secim_12_25_s7_meal_9_8;
+        }
+      }      
     //else if (type == "s5_x") {
 
     //    if (kariyer_secimData == "Yaratıcı ve Sanatsal Kariyerler") {
@@ -10526,12 +8432,16 @@ export default async ({ req, res, log, error }) => {
   var P15A6 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "name");
   var P15A7 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "best");
   var P15A8 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "best");
-  var P16A1 = teamwork(teamworkData[0].name, 25, "name"); // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-  var P16A2 = teamwork(teamworkData[0].name, 25, "s3u1");
-  var P16A3 = teamwork(teamworkData[1].name, 25, "name");
-  var P16A4 = teamwork(teamworkData[1].name, 25, "s3u1");
-  var P16A5 = teamwork(teamworkData[teamworkData.length - 1], 25, "name"); // Kendine sorabilirsin
-  var P16A6 = teamwork(teamworkData[teamworkData.length - 1], 25, "s3u2");
+  var P16A1 = teamwork(teamworkData[0].name, 25, "name"); // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
+  var P16A2 = teamwork(teamworkData[0].name, 25, "s3u1_x_1");
+  var P16A3 = teamwork(teamworkData[0].name, 25, "s3u1_x_2");
+  var P16A4 = teamwork(teamworkData[1].name, 25, "name");
+  var P16A5 = teamwork(teamworkData[1].name, 25, "s3u1_x_1");
+  var P16A6 = teamwork(teamworkData[1].name, 25, "s3u1_x_2");
+  var P16A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name");
+  var P16A8 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_1");
+  var P16A9 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_2");
+  var P16A10 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_3");
   var P17A1 = lifestyle(lifestyleData[0], 25, "name"); // Yaşamda İlerleme Tarzın
   var P17A2 = lifestyle(lifestyleData[0], 25, "p1");
   var P17A3 = "image";
@@ -10570,7 +8480,6 @@ export default async ({ req, res, log, error }) => {
   var P25A4 = worklearnstyle(worklearnData[0], 25, "s3_3");
   var P25A5 = worklearnstyle(worklearnData[0], 25, "s3_4");
   var P25A6 = worklearnstyle(worklearnData[0], 25, "s3_5");
-  var P25A7 = worklearnstyle(worklearnData[0], 25, "s3_6");
   var P27A1 = is_y_r(is_y_rData[0], 25, "name"); // İş Yaşamında Rolün
   var P27A2 = is_y_r(is_y_rData[0], 25, "s2_1_1");
   var P27A3 = is_y_r(is_y_rData[0], 25, "s2_2");
@@ -10578,69 +8487,21 @@ export default async ({ req, res, log, error }) => {
   var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
   var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
   var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A1 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_1",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A2 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_2",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-  var P30A3 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_3",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"),
-  var P30A4 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_4",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-  var P30A5 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_5",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-  var P30A6 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].type + "_6",
-  );
-  var P31A1 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_1",
-  );
-  var P31A2 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_2",
-  );
-  var P31A3 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_3",
-  );
-  var P31A4 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_4",
-  );
-  var P31A5 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_5",
-  );
-  var P31A6 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].type + "_6",
-  );
+  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_1",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_2",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_3",); // is_y_r(is_y_rData[0], 25, "s3_1"),
+  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_4",); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_5",); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+  var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].type + "_6",);
+  var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_1",);
+  var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_2",);
+  var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_3",);
+  var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_4",);
+  var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_5",);
+  var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].type + "_6",);
   var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
-  var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_1");
-  var P34A3 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+  var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+  var P34A3 = "iki Temel Unsur"
   var P34A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
   var P34A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
   var P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
@@ -10651,123 +8512,49 @@ export default async ({ req, res, log, error }) => {
   var P35A6 = decision_strategy(decision_strategyData, 25, "s4_x_3");
   var P35A7 = decision_strategy(decision_strategyData, 25, "s4_x_4");
   var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5");
-  var P35A6 = decision_strategy(decision_strategyData, 25, "image");
+  var P35A9 = decision_strategy(decision_strategyData, 25, "image");
   var P36A1 = decision_strategy(decision_strategyData, 25, "graph"); // Sana uygun kariyer dağılımların
   var P36A2 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P36A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P36A4 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
   var P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
-  var P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+  var P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P37A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
-  var P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+  var P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
   var P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
   var P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
   var P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
-  var P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x"); // Güncel İşler
-  var P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x");
-  var P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x");
+  var P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+  var P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+  var P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
   var P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
-  var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x"); // Geleceğin İşleri
-  var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x");
-  var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x");
+  var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+  var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+  var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
   var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
-  var P40A2 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A3 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A4 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A5 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A6 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A7 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A8 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A9 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A10 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A11 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A12 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A13 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A14 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A15 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A16 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A17 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A18 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A19 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P41A14 =
-    "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]; // Sevgili Dinçer
+  var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1",);
+  var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3",);
+  var P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4",);
+  var P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5",);
+  var P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6",);
+  var P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7",);
+  var P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1",);
+  var P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3",);
+  var P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4",);
+  var P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5",);
+  var P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6",);
+  var P40A13 = kariyer_secim(careerSelectionLastResult[1] ,25, "s7_" + decision_strategyData.sectorName + "_x_7",);
+  var P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1",);
+  var P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3",);
+  var P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4",);
+  var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5",);
+  var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6",);
+  var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7",);
+  var P41A14 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]; // Sevgili Dinçer
   var graphbig = bigdataPercent;
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
@@ -10797,6 +8584,7 @@ export default async ({ req, res, log, error }) => {
     P6A6: P6A6,
     P6A7: P6A7,
     P6A8: P6A8,
+
     P7A1: P7A1, // Karakter Özelliklerin
     P7A2: P7A2,
     P7A3: P7A3,
@@ -10896,7 +8684,6 @@ export default async ({ req, res, log, error }) => {
     P25A4: P25A4,
     P25A5: P25A5,
     P25A6: P25A6,
-    P25A7: P25A7,
     P27A1: P27A1, // İş Yaşamında Rolün
     P27A2: P27A2,
     P27A3: P27A3,
@@ -10976,5 +8763,7 @@ export default async ({ req, res, log, error }) => {
     graphai: aiData,
   };
 
-  return res.json(inputs_25_plus);
+ console.log(inputs_25_plus)
+
+  return (inputs_25_plus);
 };
