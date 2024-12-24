@@ -6,4 +6,6 @@ var res = "";
 var log = "";
 var error = "";
 
+console.log(res + "onur");
+
 test_main({ req, res, log, error });
