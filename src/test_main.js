@@ -2744,142 +2744,142 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_34_10_17 = "İş Dünyasında Yetkinliğini Kullanmak ";
   var guclu_yanlarin_34_10_18 =
     "İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin. ";
-  var guclu_yanlarin_34_10_19 = "Kültür Mimarı ";
-  var guclu_yanlarin_34_10_20 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak ";
-  var guclu_yanlarin_34_10_21 =
+    var guclu_yanlarin_5_1 = "Kültür Mimarı ";
+  var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak ";
+  var guclu_yanlarin_5_3 =
     "Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
-  var guclu_yanlarin_34_10_22 = "Grup Kimliğini Şekillendirmek ";
-  var guclu_yanlarin_34_10_23 =
+  var guclu_yanlarin_5_4 = "Grup Kimliğini Şekillendirmek ";
+  var guclu_yanlarin_5_5 =
     "Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.  ";
-  var guclu_yanlarin_34_10_24 = "Başarıyı Yapılandırma ile Desteklemek ";
-  var guclu_yanlarin_34_10_25 =
+  var guclu_yanlarin_5_6 = "Başarıyı Yapılandırma ile Desteklemek ";
+  var guclu_yanlarin_5_7 =
     "Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
-  var guclu_yanlarin_34_10_26 = "İş Dünyasında Yetkinliğini Kullanmak ";
-  var guclu_yanlarin_34_10_27 =
+  var guclu_yanlarin_5_8 = "İş Dünyasında Yetkinliğini Kullanmak ";
+  var guclu_yanlarin_5_9 =
     "İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
-  var guclu_yanlarin_34_10_28 = "Harmoni Yaratıcısı  ";
-  var guclu_yanlarin_34_10_29 = "Ekibi Stabilize Etmek ";
-  var guclu_yanlarin_34_10_30 =
+    var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
+  var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek ";
+  var guclu_yanlarin_46_3 =
     "Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın.  ";
-  var guclu_yanlarin_34_10_31 = "Odaklanmak ";
-  var guclu_yanlarin_34_10_32 =
+  var guclu_yanlarin_46_4 = "Odaklanmak ";
+  var guclu_yanlarin_46_5 =
     "Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
-  var guclu_yanlarin_34_10_33 = "Denge ve Uyumu Teşvik Etmek ";
-  var guclu_yanlarin_34_10_34 =
+  var guclu_yanlarin_46_6 = "Denge ve Uyumu Teşvik Etmek ";
+  var guclu_yanlarin_46_7 =
     "Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
-  var guclu_yanlarin_34_10_35 = "Değişime Uyum Sağlama ";
-  var guclu_yanlarin_34_10_36 =
+  var guclu_yanlarin_46_8 = "Değişime Uyum Sağlama ";
+  var guclu_yanlarin_46_9 =
     "Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
-  var guclu_yanlarin_34_10_37 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_38 =
+  var guclu_yanlarin_46_10 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_46_11 =
     "İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
-  var guclu_yanlarin_34_10_39 = "Amaca Bağlayıcıs ";
-  var guclu_yanlarin_34_10_40 = "Takım Bağlılığını Güçlendirme ";
-  var guclu_yanlarin_34_10_41 =
+    var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
+  var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme ";
+  var guclu_yanlarin_29_3 =
     "Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.  ";
-  var guclu_yanlarin_34_10_42 = "Sadakat ve Güven Aşılamak ";
-  var guclu_yanlarin_34_10_43 =
+  var guclu_yanlarin_29_4 = "Sadakat ve Güven Aşılamak ";
+  var guclu_yanlarin_29_5 =
     "Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.  ";
-  var guclu_yanlarin_34_10_44 = "Adanmış Bir Takım Ortamı Yaratma ";
-  var guclu_yanlarin_34_10_45 =
+  var guclu_yanlarin_29_6 = "Adanmış Bir Takım Ortamı Yaratma ";
+  var guclu_yanlarin_29_7 =
     "Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar. ";
-  var guclu_yanlarin_34_10_46 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_47 =
+  var guclu_yanlarin_29_8 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_29_9 =
     "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
-  var guclu_yanlarin_34_10_48 = "Yön Belirleyici  ";
-  var guclu_yanlarin_34_10_49 = "Başarı İçin Yön Belirleme ";
-  var guclu_yanlarin_34_10_50 =
+    var guclu_yanlarin_2_1 = "Yön Belirleyici  ";
+  var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme ";
+  var guclu_yanlarin_2_3 =
     "Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.  ";
-  var guclu_yanlarin_34_10_51 = "Büyümeyi Destekleme ";
-  var guclu_yanlarin_34_10_52 =
+  var guclu_yanlarin_2_4 = "Büyümeyi Destekleme ";
+  var guclu_yanlarin_2_5 =
     "Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.  ";
-  var guclu_yanlarin_34_10_53 = "Kaynak Yönetimi ";
-  var guclu_yanlarin_34_10_54 =
+  var guclu_yanlarin_2_6 = "Kaynak Yönetimi ";
+  var guclu_yanlarin_2_7 =
     "Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar. ";
-  var guclu_yanlarin_34_10_55 = "İş Dünyasında Yetkinliğini Kullanmak ";
-  var guclu_yanlarin_34_10_56 =
+  var guclu_yanlarin_2_8 = "İş Dünyasında Yetkinliğini Kullanmak ";
+  var guclu_yanlarin_2_9 =
     "İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
-  var guclu_yanlarin_34_10_57 = "Satış Ustası  ";
-  var guclu_yanlarin_34_10_58 = "Vizyonu Eyleme Dönüştürmek  ";
-  var guclu_yanlarin_34_10_59 =
+    var guclu_yanlarin_1_1 = "Satış Ustası  ";
+  var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek  ";
+  var guclu_yanlarin_1_3 =
     "Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
-  var guclu_yanlarin_34_10_60 = "Satışı Gerçekleştirmek  ";
-  var guclu_yanlarin_34_10_61 =
+  var guclu_yanlarin_1_4 = "Satışı Gerçekleştirmek  ";
+  var guclu_yanlarin_1_5 =
     "Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
-  var guclu_yanlarin_34_10_62 = "Sonuç Odaklı Olmak  ";
-  var guclu_yanlarin_34_10_63 =
+  var guclu_yanlarin_1_6 = "Sonuç Odaklı Olmak  ";
+  var guclu_yanlarin_1_7 =
     "Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
-  var guclu_yanlarin_34_10_64 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_65 =
+  var guclu_yanlarin_1_8 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_1_9 =
     "İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
-  var guclu_yanlarin_34_10_66 = "İmaj Yöneticisi  ";
-  var guclu_yanlarin_34_10_67 =
+    var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
+  var guclu_yanlarin_8_2 =
     "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
-  var guclu_yanlarin_34_10_68 =
+  var guclu_yanlarin_8_3 =
     "Ekibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.  ";
-  var guclu_yanlarin_34_10_69 =
+  var guclu_yanlarin_8_4 =
     "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
-  var guclu_yanlarin_34_10_70 = "İş Dünyasında Yeteneğini Kullanmak   ";
-  var guclu_yanlarin_34_10_71 =
-    "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
-  var guclu_yanlarin_34_10_72 = "Stratejik Planlayıcı";
-  var guclu_yanlarin_34_10_73 = "Stratejik İleriye Yönelik Düşünme";
-  var guclu_yanlarin_34_10_74 =
-    "Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.";
-  var guclu_yanlarin_34_10_75 = "Pazar Anlayışı";
-  var guclu_yanlarin_34_10_76 =
-    "Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.";
-  var guclu_yanlarin_34_10_77 = "Kaynakların Verimli Kullanımı";
-  var guclu_yanlarin_34_10_78 =
-    "Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.";
-  var guclu_yanlarin_34_10_79 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_80 =
-    "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.";
-  var guclu_yanlarin_34_10_81 = "Uygulama Ustası";
-  var guclu_yanlarin_34_10_82 = "Planları Verimli Şekilde Uygulamak";
-  var guclu_yanlarin_34_10_83 =
-    "Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.";
-  var guclu_yanlarin_34_10_84 = "Başarı İçin Roller Atamak";
-  var guclu_yanlarin_34_10_85 =
-    "Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.";
-  var guclu_yanlarin_34_10_86 = "Sistemlerini Yönetmek";
-  var guclu_yanlarin_34_10_87 =
-    "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.";
-  var guclu_yanlarin_34_10_88 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_89 =
-    "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.";
-  var guclu_yanlarin_34_10_90 = "Rakam Stratejisti";
-  var guclu_yanlarin_34_10_91 = "Karlılık ve İş Sağlığını İzlemek";
-  var guclu_yanlarin_34_10_92 =
-    "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.";
-  var guclu_yanlarin_34_10_93 = "Finansal Büyümeyi Sağlamak";
-  var guclu_yanlarin_34_10_94 =
-    "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.";
-  var guclu_yanlarin_34_10_95 = "Detaylı Kayıtları Tutmak";
-  var guclu_yanlarin_34_10_96 =
-    "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak kazanıldığından emin olabilirsin.";
-  var guclu_yanlarin_34_10_97 = "Verilerle Güveni Sürdürmek";
-  var guclu_yanlarin_34_10_98 =
-    "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır.";
-  var guclu_yanlarin_34_10_99 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_100 =
-    "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.";
-  var guclu_yanlarin_34_10_101 = "Gözlem Ustası";
-  var guclu_yanlarin_34_10_102 = "Düzenli İşleyişi Sağlamak";
-  var guclu_yanlarin_34_10_103 =
-    "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.";
-  var guclu_yanlarin_34_10_104 = "Geçmişten Ders Çıkarmak";
-  var guclu_yanlarin_34_10_105 =
-    "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.";
-  var guclu_yanlarin_34_10_106 = "Sorumluluğu Sağlamak";
-  var guclu_yanlarin_34_10_107 =
-    "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.";
-  var guclu_yanlarin_34_10_108 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_109 =
-    "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır.";
-
+  var guclu_yanlarin_8_5 = "İş Dünyasında Yeteneğini Kullanmak   ";
+  var guclu_yanlarin_8_6 =
+    "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+    var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
+  var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme ";
+  var guclu_yanlarin_7_3 =
+    "Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
+  var guclu_yanlarin_7_4 = "Pazar Anlayışı ";
+  var guclu_yanlarin_7_5 =
+    "Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.  ";
+  var guclu_yanlarin_7_6 = "Kaynakların Verimli Kullanımı ";
+  var guclu_yanlarin_7_7 =
+    "Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
+  var guclu_yanlarin_7_8 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_7_9 =
+  "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+  var guclu_yanlarin_31_1 = "Uygulama Ustası  ";
+  var guclu_yanlarin_31_2 = "Planları Verimli Şekilde Uygulamak  ";
+  var guclu_yanlarin_31_3 =
+    "Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
+  var guclu_yanlarin_31_4 = "Başarı İçin Roller Atamak  ";
+  var guclu_yanlarin_31_5 =
+    "Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
+  var guclu_yanlarin_31_6 = "Sistemlerini Yönetmek  ";
+  var guclu_yanlarin_31_7 =
+    "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
+  var guclu_yanlarin_31_8 = "İş Dünyasında Yeteneğini Kullanmak  ";
+  var guclu_yanlarin_31_9 =
+    "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+    var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
+    var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek ";
+    var guclu_yanlarin_13_3 =
+      "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
+    var guclu_yanlarin_13_4 = "Finansal Büyümeyi Sağlamak ";
+    var guclu_yanlarin_13_5 =
+      "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
+    var guclu_yanlarin_13_6 = "Detaylı Kayıtları Tutmak ";
+    var guclu_yanlarin_13_7 =
+      "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
+    var guclu_yanlarin_13_8 = "Verilerle Güveni Sürdürmek ";
+    var guclu_yanlarin_13_9 =
+      "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
+    var guclu_yanlarin_13_10 = "İş Dünyasında Yeteneğini Kullanmak ";
+    var guclu_yanlarin_13_11 =
+      "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
+    var guclu_yanlarin_33_1 = "Gözlem Ustası ";
+    var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak ";
+    var guclu_yanlarin_33_3 =
+      "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
+    var guclu_yanlarin_33_4 = "Geçmişten Ders Çıkarmak ";
+    var guclu_yanlarin_33_5 =
+      "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
+    var guclu_yanlarin_33_6 = "Sorumluluğu Sağlamak ";
+    var guclu_yanlarin_33_7 =
+      "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
+    var guclu_yanlarin_33_8 = "İş Dünyasında Yeteneğini Kullanmak ";
+    var guclu_yanlarin_33_9 =
+      "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
   //Güçlü Yanların Ingilizce
 
+  
   var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
   var guclu_yanlarin_en2 =
     "You have the ability to “think on your feet” which is very valuable in dynamic business environments. You are great at creating and designing environments that ensure survival and provide protection from future uncertainties. ";
