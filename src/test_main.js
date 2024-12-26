@@ -986,25 +986,25 @@ export default async ({ req, res, log, error }) => {
   var image_karar_verme_stratejileri_1 =
     "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b247000e1713375d/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_2 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a920022c6f5f092/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b251000cce3d6d50/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_3 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a9e000a3ec05944/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b25a003c37dfb678/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_4 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aa70030fa7afb16/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b264001b1ad7c5e8/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_5 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ab40019162083a9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b26e002a5b306e61/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_6 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345abf000e41d46b7e/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b276003d72002671/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_7 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345acc000ab12f24a2/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b27e0009dd74fad5/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_8 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ad6003dab141cb9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b2840004691d8ed4/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_9 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ae0001be37cfae9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b28b0007742258d3/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_10 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aea002d9cc94aa5/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b2910026e301602b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_11 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345af3003b87545d9f/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b297003dca7ce90e/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 
   var image_6_3_leader_explorer =
     "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
@@ -2744,7 +2744,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_34_10_17 = "İş Dünyasında Yetkinliğini Kullanmak ";
   var guclu_yanlarin_34_10_18 =
     "İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin. ";
-    var guclu_yanlarin_5_1 = "Kültür Mimarı ";
+  var guclu_yanlarin_5_1 = "Kültür Mimarı ";
   var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak ";
   var guclu_yanlarin_5_3 =
     "Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
@@ -2757,7 +2757,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_5_8 = "İş Dünyasında Yetkinliğini Kullanmak ";
   var guclu_yanlarin_5_9 =
     "İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
-    var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
+  var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
   var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek ";
   var guclu_yanlarin_46_3 =
     "Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın.  ";
@@ -2773,7 +2773,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_46_10 = "İş Dünyasında Yeteneğini Kullanmak ";
   var guclu_yanlarin_46_11 =
     "İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
-    var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
+  var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
   var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme ";
   var guclu_yanlarin_29_3 =
     "Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.  ";
@@ -2786,7 +2786,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_29_8 = "İş Dünyasında Yeteneğini Kullanmak ";
   var guclu_yanlarin_29_9 =
     "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
-    var guclu_yanlarin_2_1 = "Yön Belirleyici  ";
+  var guclu_yanlarin_2_1 = "Yön Belirleyici  ";
   var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme ";
   var guclu_yanlarin_2_3 =
     "Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.  ";
@@ -2799,7 +2799,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_2_8 = "İş Dünyasında Yetkinliğini Kullanmak ";
   var guclu_yanlarin_2_9 =
     "İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
-    var guclu_yanlarin_1_1 = "Satış Ustası  ";
+  var guclu_yanlarin_1_1 = "Satış Ustası  ";
   var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek  ";
   var guclu_yanlarin_1_3 =
     "Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
@@ -2812,7 +2812,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_1_8 = "İş Dünyasında Yeteneğini Kullanmak ";
   var guclu_yanlarin_1_9 =
     "İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
-    var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
+  var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
   var guclu_yanlarin_8_2 =
     "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
   var guclu_yanlarin_8_3 =
@@ -2822,7 +2822,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_8_5 = "İş Dünyasında Yeteneğini Kullanmak   ";
   var guclu_yanlarin_8_6 =
     "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
-    var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
+  var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
   var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme ";
   var guclu_yanlarin_7_3 =
     "Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
@@ -2834,7 +2834,7 @@ export default async ({ req, res, log, error }) => {
     "Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
   var guclu_yanlarin_7_8 = "İş Dünyasında Yeteneğini Kullanmak ";
   var guclu_yanlarin_7_9 =
-  "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+    "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
   var guclu_yanlarin_31_1 = "Uygulama Ustası  ";
   var guclu_yanlarin_31_2 = "Planları Verimli Şekilde Uygulamak  ";
   var guclu_yanlarin_31_3 =
@@ -2848,38 +2848,37 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_31_8 = "İş Dünyasında Yeteneğini Kullanmak  ";
   var guclu_yanlarin_31_9 =
     "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
-    var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
-    var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek ";
-    var guclu_yanlarin_13_3 =
-      "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
-    var guclu_yanlarin_13_4 = "Finansal Büyümeyi Sağlamak ";
-    var guclu_yanlarin_13_5 =
-      "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
-    var guclu_yanlarin_13_6 = "Detaylı Kayıtları Tutmak ";
-    var guclu_yanlarin_13_7 =
-      "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
-    var guclu_yanlarin_13_8 = "Verilerle Güveni Sürdürmek ";
-    var guclu_yanlarin_13_9 =
-      "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
-    var guclu_yanlarin_13_10 = "İş Dünyasında Yeteneğini Kullanmak ";
-    var guclu_yanlarin_13_11 =
-      "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
-    var guclu_yanlarin_33_1 = "Gözlem Ustası ";
-    var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak ";
-    var guclu_yanlarin_33_3 =
-      "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
-    var guclu_yanlarin_33_4 = "Geçmişten Ders Çıkarmak ";
-    var guclu_yanlarin_33_5 =
-      "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
-    var guclu_yanlarin_33_6 = "Sorumluluğu Sağlamak ";
-    var guclu_yanlarin_33_7 =
-      "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
-    var guclu_yanlarin_33_8 = "İş Dünyasında Yeteneğini Kullanmak ";
-    var guclu_yanlarin_33_9 =
-      "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
+  var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
+  var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek ";
+  var guclu_yanlarin_13_3 =
+    "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
+  var guclu_yanlarin_13_4 = "Finansal Büyümeyi Sağlamak ";
+  var guclu_yanlarin_13_5 =
+    "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
+  var guclu_yanlarin_13_6 = "Detaylı Kayıtları Tutmak ";
+  var guclu_yanlarin_13_7 =
+    "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
+  var guclu_yanlarin_13_8 = "Verilerle Güveni Sürdürmek ";
+  var guclu_yanlarin_13_9 =
+    "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
+  var guclu_yanlarin_13_10 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_13_11 =
+    "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
+  var guclu_yanlarin_33_1 = "Gözlem Ustası ";
+  var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak ";
+  var guclu_yanlarin_33_3 =
+    "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
+  var guclu_yanlarin_33_4 = "Geçmişten Ders Çıkarmak ";
+  var guclu_yanlarin_33_5 =
+    "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
+  var guclu_yanlarin_33_6 = "Sorumluluğu Sağlamak ";
+  var guclu_yanlarin_33_7 =
+    "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
+  var guclu_yanlarin_33_8 = "İş Dünyasında Yeteneğini Kullanmak ";
+  var guclu_yanlarin_33_9 =
+    "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
   //Güçlü Yanların Ingilizce
 
-  
   var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
   var guclu_yanlarin_en2 =
     "You have the ability to “think on your feet” which is very valuable in dynamic business environments. You are great at creating and designing environments that ensure survival and provide protection from future uncertainties. ";
@@ -3391,6 +3390,33 @@ export default async ({ req, res, log, error }) => {
   var is_y_r_12_s3_2 = "Hayat Amacını Gerçekleştirmek";
   var is_y_r_12_s3_2_1 =
     "Rolün, kişisel deneyimlerle kazandığın dayanıklılığı ve dersleri kullanarak başkalarına rehberlik etmekle ilgilidir. Hem başarılarını hem de başarısızlıklarını kucaklayarak, bunların seni bilge ve düşünceli bir lider haline getirmesine izin vererek hayat amacını gerçekleştirirsin. Hayatının ilerleyen dönemlerinde, 50 yaş sonrası, liderlik rolüne tam anlamıyla adım atar ve kazandığın zorluklarla yoğrulmuş bilgeliği başkalarına sunarsın. Başarı, sadece eylem yoluyla değil, aynı zamanda dayanıklılığın ve her ne olursa olsun ilerlemeye devam etme yeteneğinle liderlik edebilme kapasitenle gelir.";
+
+  var is_y_r_image_1_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67332285001c81e3bf63/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_3_5 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ad0011d4c5a403/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_3_6 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322b60012aa7e3499/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_1_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67332285001c81e3bf63/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_1_4 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322910004bac07424/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_5_2 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d9002bce8dd6a6/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_4_1 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c0000834ab763b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_4_6 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c8001d23247b88/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_6_2 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322e2001fdd7852d7/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_2_5 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322a50018baefc20b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_2_4 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6733229a0030e4ce5812/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_5_1 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d20033d27b4f32/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_6_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 
   // Karakter Özellikleri
   var krktr_ozl_s1_chart = "";
@@ -6048,6 +6074,33 @@ export default async ({ req, res, log, error }) => {
   };
 
   let is_y_r = (is_y_rData, age, type) => {
+    if (type == "image") {
+      if (is_y_rData == "1 / 3") {
+        return is_y_r_image_1_3;
+      } else if (is_y_rData == "1 / 4") {
+        return is_y_r_image_1_4;
+      } else if (is_y_rData == "2 / 4") {
+        return is_y_r_image_2_4;
+      } else if (is_y_rData == "2 / 5") {
+        return is_y_r_image_2_5;
+      } else if (is_y_rData == "3 / 5") {
+        return is_y_r_image_3_5;
+      } else if (is_y_rData == "3 / 6") {
+        return is_y_r_image_3_6;
+      } else if (is_y_rData == "4 / 1") {
+        return is_y_r_image_4_1;
+      } else if (is_y_rData == "4 / 6") {
+        return is_y_r_image_4_6;
+      } else if (is_y_rData == "5 / 1") {
+        return is_y_r_image_5_1;
+      } else if (is_y_rData == "5 / 2") {
+        return is_y_r_image_5_2;
+      } else if (is_y_rData == "6 / 2") {
+        return is_y_r_image_6_2;
+      } else if (is_y_rData == "6 / 3") {
+        return is_y_r_image_6_3;
+      }
+    }
     if (type == "name") {
       if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_0;
@@ -10483,7 +10536,7 @@ export default async ({ req, res, log, error }) => {
   );
   var P17A1 = lifestyle(lifestyleData[0], 25, "name"); // Yaşamda İlerleme Tarzın
   var P17A2 = lifestyle(lifestyleData[0], 25, "p1");
-  var P17A3 = "image";
+  var P17A3 = lifestyle();
   var P18A1 = lifestyle(lifestyleData[0], 25, "p2");
   var P18A2 = lifestyle(lifestyleData[0], 25, "p3");
   var P18A3 = lifestyle(lifestyleData[0], 25, "motto"); // motto
@@ -10525,7 +10578,7 @@ export default async ({ req, res, log, error }) => {
   var P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1");
   var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
   var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
-  var P27A7 = "image";
+  var P27A7 = is_y_r(is_y_rData[0], 25, "image");
   var P28A1 = is_y_r(is_y_rData[0], 25, "name");
   var P28A2 = is_y_r(is_y_rData[0], 25, "s3_1");
   var P28A3 = is_y_r(is_y_rData[0], 25, "s3_1_1");
@@ -10940,7 +10993,7 @@ export default async ({ req, res, log, error }) => {
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
     graphai: aiData,
-    graphteamwork: teamworkData
+    graphteamwork: teamworkData,
   };
 
   console.log(inputs_25_plus);
