@@ -5975,15 +5975,15 @@ export default async ({ req, res, log, error }) => {
   let lifestyle = (lifestyleData, age, type) => {
     if (type == "name") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_0;
+        return lifestyle_25_plus_manifesting_generator_name;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_0;
+        return lifestyle_25_plus_generator_name;
       } else if (lifestyleData == "Projektor") {
-        return lifestyle_25_plus_projektor_0;
+        return lifestyle_25_plus_projektor_name;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_0;
+        return lifestyle_25_plus_manifestor_name;
       } else if (lifestyleData == "Reflektor") {
-        return lifestyle_25_plus_reflektor_0;
+        return lifestyle_25_plus_reflektor_name;
       }
     } else if (type == "p1") {
       if (lifestyleData == "Manifesting Generator") {
