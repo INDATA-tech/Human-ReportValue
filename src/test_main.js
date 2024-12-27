@@ -3450,7 +3450,7 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_weaknesses_extraversion =
     "İş yerinde fazla dışa dönük olmak, odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.";
   var krktr_ozl_other_attributes_extraversion =
-    "Girişken, enerjik, güçlü, heyecan arayan, maceracı, çoşkulu, olumlu duygular yaşayan, sıcak";
+    "Girişken,\n enerjik,\n güçlü,\n heyecan arayan,\n maceracı,\n çoşkulu,\n olumlu duygular yaşayan,\n sıcak";
   var krktr_ozl_extraversion_questions = "Dışa Dönüklük";
   var krktr_ozl_12_25_extraversion_questions_1 =
     "Grup çalışmalarında ya da sınıf etkinliklerinde aktif rol aldığımda nasıl hissediyorum? Bu enerjiyi okulda daha fazla hangi etkinliklerde kullanabilirim?";
@@ -10370,7 +10370,7 @@ export default async ({ req, res, log, error }) => {
     Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
   var P2A1 =
     "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1];
+    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim" + ",")[1];
   var P4A1 = "chart"; // Kişilik Özellikleri
   var P4A2 =
     hollandData[0].name +
@@ -10629,99 +10629,25 @@ export default async ({ req, res, log, error }) => {
   var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
   var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
   var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
-  var P40A2 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A3 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A4 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A5 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A6 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A7 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A8 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A9 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A10 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A11 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A12 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A13 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A14 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A15 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A16 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A17 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A18 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A19 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P42A1 =
-    "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]; // Sevgili Dinçer
+  var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
   var graphbig = bigdataPercent;
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
