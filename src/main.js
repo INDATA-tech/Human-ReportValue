@@ -10513,7 +10513,7 @@ export default async ({ req, res, log, error }) => {
     Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
   var P2A1 =
     "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim" + ",")[1];
+    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1];
   var P4A1 = "chart"; // Kişilik Özellikleri
   var P4A2 =
     hollandData[0].name +
