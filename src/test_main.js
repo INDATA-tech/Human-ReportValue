@@ -986,25 +986,25 @@ export default async ({ req, res, log, error }) => {
   var image_karar_verme_stratejileri_1 =
     "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b247000e1713375d/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_2 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a920022c6f5f092/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b251000cce3d6d50/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_3 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345a9e000a3ec05944/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b25a003c37dfb678/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_4 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aa70030fa7afb16/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b264001b1ad7c5e8/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_5 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ab40019162083a9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b26e002a5b306e61/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_6 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345abf000e41d46b7e/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b276003d72002671/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_7 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345acc000ab12f24a2/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b27e0009dd74fad5/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_8 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ad6003dab141cb9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b2840004691d8ed4/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_9 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345ae0001be37cfae9/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b28b0007742258d3/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_10 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345aea002d9cc94aa5/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b2910026e301602b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var image_karar_verme_stratejileri_11 =
-    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67345af3003b87545d9f/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6756b297003dca7ce90e/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 
   var image_6_3_leader_explorer =
     "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
@@ -2630,34 +2630,41 @@ export default async ({ req, res, log, error }) => {
     "Hayatın belirgin başlangıçlar, ortalar ve sonlarla döngüler halinde işler. Her döngünün kendi ritmi vardır, olgunlaşmak, büyümek ve gelişmek zaman alır, ardından nihayetinde düşüşe geçer ve sona erer – sadece süreci yeniden başlatmak için. Bir deneyime girip onu tamamladığında, tamamlanan döngüden elde edilen değerli dersleri ve bilgeliği yansıtabilir ve paylaşabilirsin. Yeni deneyimler, eskiler üzerine inşa edilebilir, sürekli büyüme ve anlayış için bir temel sağlar.  ";
   var guclu_yanlarin_53_42_3 =
     "Yeni bir deneyime başlarken içgüdülerine güven – bu, ilgini kaybettiğin veya süreci tamamlayamadığın bir döngüye sıkışıp kalmaktan kaçınmana yardımcı olabilir. Beklentilerin olduğunda, hayal kırıklığına açık hale gelirsin. Beklenti olmadan, sadece bir deneyimde olmak, sağlıklı ve ödüllendirici olur.  ";
-  var guclu_yanlarin_53_42_4 = "Deneyimden Öğrenmek  ";
+  var guclu_yanlarin_53_42_4 =
+    "Deneyimden Öğrenmek hayatın döngüler halinde işlediğini kabul et ve her aşamanın büyüme ve yenilenme için gerekli olduğunu anla. Bu anlayış, kişisel ve profesyonel zorlukları daha büyük bir kolaylık ve dirençle yönetmene yardımcı olabilir. Her tamamlanan döngü, yansıtma ve büyüme fırsatı sunar. Öğrenilen dersleri paylaşarak, kolektif bilgeliğe katkıda bulunabilir ve başkalarının benzer deneyimleri yönetmelerine yardımcı olabilirsin.  ";
+  // var guclu_yanlarin_53_42_5 =
+  //   "Hayatın döngüler halinde işlediğini kabul et ve her aşamanın büyüme ve yenilenme için gerekli olduğunu anla. Bu anlayış, kişisel ve profesyonel zorlukları daha büyük bir kolaylık ve dirençle yönetmene yardımcı olabilir. Her tamamlanan döngü, yansıtma ve büyüme fırsatı sunar. Öğrenilen dersleri paylaşarak, kolektif bilgeliğe katkıda bulunabilir ve başkalarının benzer deneyimleri yönetmelerine yardımcı olabilirsin.  ";
   var guclu_yanlarin_53_42_5 =
-    "Hayatın döngüler halinde işlediğini kabul et ve her aşamanın büyüme ve yenilenme için gerekli olduğunu anla. Bu anlayış, kişisel ve profesyonel zorlukları daha büyük bir kolaylık ve dirençle yönetmene yardımcı olabilir. Her tamamlanan döngü, yansıtma ve büyüme fırsatı sunar. Öğrenilen dersleri paylaşarak, kolektif bilgeliğe katkıda bulunabilir ve başkalarının benzer deneyimleri yönetmelerine yardımcı olabilirsin.  ";
-  var guclu_yanlarin_53_42_6 = "Tuzaklardan Kaçınmak  ";
+    "Tuzaklardan Kaçınmak Yeni girişimlere başlarken içgüdülerine güvenmek çok önemlidir. Bu, verimsiz kalıplara sıkışıp kalmanı engelleyebilir ve çabalarının gerçek amacına uygun olmasını sağlayabilir.";
+  // var guclu_yanlarin_53_42_7 =
+  //   "Yeni girişimlere başlarken içgüdülerine güvenmek çok önemlidir. Bu, verimsiz kalıplara sıkışıp kalmanı engelleyebilir ve çabalarının gerçek amacına uygun olmasını sağlayabilir.  ";
+  var guclu_yanlarin_53_42_6 =
+    "Beklentisiz yaşamak deneyimlere önceden belirlenmiş beklentiler olmadan yaklaşmak, anın tadını çıkarmanı sağlar. Bu zihniyet, daha tatmin edici ve otantik etkileşimlere ve başarılara yol açabilir.";
+  // var guclu_yanlarin_53_42_9 =
+  //   "Deneyimlere önceden belirlenmiş beklentiler olmadan yaklaşmak, anın tadını çıkarmanı sağlar. Bu zihniyet, daha tatmin edici ve otantik etkileşimlere ve başarılara yol açabilir.";
   var guclu_yanlarin_53_42_7 =
-    "Yeni girişimlere başlarken içgüdülerine güvenmek çok önemlidir. Bu, verimsiz kalıplara sıkışıp kalmanı engelleyebilir ve çabalarının gerçek amacına uygun olmasını sağlayabilir.  ";
-  var guclu_yanlarin_53_42_8 = "Beklentisiz Yaşamak  ";
-  var guclu_yanlarin_53_42_9 =
-    "Deneyimlere önceden belirlenmiş beklentiler olmadan yaklaşmak, anın tadını çıkarmanı sağlar. Bu zihniyet, daha tatmin edici ve otantik etkileşimlere ve başarılara yol açabilir.  ";
-  var guclu_yanlarin_53_42_10 = "İş Dünyasında Gücünü Kullanmak  ";
-  var guclu_yanlarin_53_42_11 =
-    "İş dünyasında, döngüleri anlamak ve kucaklamak, daha stratejik planlama ve yürütmeye imkan tanır. Projelerin ve girişimlerin doğal akışını tanıyarak, kaynakları ve beklentileri daha iyi yönetebilirsin. Geçmişteki başarıları ve başarısızlıkları yansıtmak, gelecekteki girişimler için değerli içgörüler sağlar. Karar verme süreçlerinde içgüdülerine güvenmek, tuzaklardan kaçınmana ve sürekli ilerleme sağlamana yardımcı olabilir.  ";
-  var guclu_yanlarin_53_42_12 =
+    "İş dünyasında gücünü kullanmak İş dünyasında, döngüleri anlamak ve kucaklamak, daha stratejik planlama ve yürütmeye imkan tanır. Projelerin ve girişimlerin doğal akışını tanıyarak, kaynakları ve beklentileri daha iyi yönetebilirsin. Geçmişteki başarıları ve başarısızlıkları yansıtmak, gelecekteki girişimler için değerli içgörüler sağlar. Karar verme süreçlerinde içgüdülerine güvenmek, tuzaklardan kaçınmana ve sürekli ilerleme sağlamana yardımcı olabilir.  ";
+  // var guclu_yanlarin_53_42_11 =
+  //   "";
+  var guclu_yanlarin_53_42_8 =
     "Döngüler gücün, büyüme ve gelişim üzerinde benzersiz bir bakış açısı sunan güçlü bir yetenektir. Bu gücü kullanarak, hayatın zorluklarını zarafet ve dirençle yönetebilir, kişisel ve profesyonel başarıya katkıda bulunabilirsin. Hayatın döngüsel doğasını kucaklamak, daha tatmin edici ve etkili bir yolculuğa yol açabilir.  ";
 
   var guclu_yanlarin_29_46_1 = "“Keşif” Gücü Quantum 29-46  ";
   var guclu_yanlarin_29_46_2 =
     "Keşif Gücü, yeni farkındalıklara dalmana ve bir deneyim tamamlanana kadar azimle devam etmene olanak tanır. Bu güç, doğru zamanda doğru yerde olmanı sağlayan içgüdüsel yanıtın aracılığıyla erişilen derin bir dayanıklılık ile beslenir. Keşif sürecinden elde edebileceğin memnuniyet ve bilgelik için net bir bağlılık çok önemlidir. Bir deneyim o anda anlamlı gelmese de tamamen kendini kaybedebilir, arkana bakmadan devam edebilirsin. Döngünün sonu, nihai keşfini bulacağın yerdir. İçgüdüsel yanıtını takip etmek ve beklentilerini bırakmak, başkalarının başarısız olduğu yerlerde başarılı olma potansiyelini artırır.  ";
-  var guclu_yanlarin_29_46_3 = "Farkındalıkları ve Azmi Kucaklamak ";
+  var guclu_yanlarin_29_46_3 =
+    "Farkındalıkları ve Azmi Kucaklamak. Bir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.";
+  // var guclu_yanlarin_29_46_4 =
+  //   "";
   var guclu_yanlarin_29_46_4 =
-    "Bir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.  ";
-  var guclu_yanlarin_29_46_5 = "Bağlılık ve Memnuniyet ";
+    "Bağlılık ve Memnuniyet, Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.  ";
+  // var guclu_yanlarin_29_46_6 =
+  //   "Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.  ";
+  var guclu_yanlarin_29_46_5 =
+    "Deneyime Dalmak, Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir ";
+  // var guclu_yanlarin_29_46_8 =
+  //   "Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir ";
   var guclu_yanlarin_29_46_6 =
-    "Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.  ";
-  var guclu_yanlarin_29_46_7 = "Deneyime Dalmak ";
-  var guclu_yanlarin_29_46_8 =
-    "Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir ";
-  var guclu_yanlarin_29_46_9 =
     "Keşif Gücü, azim, bağlılık ve sezgiyi birleştiren güçlü bir özelliktir. Bu gücü kullanarak yenilikçi çözümler üretebilir, gizli gerçekleri ortaya çıkarabilir ve başkalarının tökezleyebileceği alanlarda başarı elde edebilirsin.   ";
 
   var guclu_yanlarin_13_33_1 = "“Tanıklık” Gücü (Kuantum 13-33)  ";
@@ -2689,195 +2696,244 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_36_35_1 = "“Deneyimleyen” Gücü (Quantum 36-35)";
   var guclu_yanlarin_36_35_2 =
     "İş ve hayatında ilerlemeyi sağlamak için birçok şeyi denemeye gönüllü olabilirsin. Büyüme ve yenilik vaat eden toplu deneyimlerden bilgelik toplama konusunda motive oluyorsun. Çeşitli deneyimlerin birikimi olan değerli içgörülerini etrafındakiler ile paylaşabilirsin. Çevrenizdeki insanlara her anı değerlendirmeleri ve 'anı yaşamaları' için ilham verebilirsin.";
-  var guclu_yanlarin_36_35_3 = "Yeni Deneyimleri Kucaklamak";
+  // var guclu_yanlarin_36_35_3 = "";
+  var guclu_yanlarin_36_35_3 =
+    "Yeni Deneyimleri Kucaklamak, Yeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.";
+  // var guclu_yanlarin_36_35_4 = "Başkalarına İlham Vermek";
   var guclu_yanlarin_36_35_4 =
-    "Yeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.";
-  var guclu_yanlarin_36_35_5 = "Başkalarına İlham Vermek";
+    "Başkalarına İlham Vermek, Çok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.";
+  var guclu_yanlarin_36_35_5 =
+    "İş Dünyasında Gücünü kullanmak, Deneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.";
   var guclu_yanlarin_36_35_6 =
-    "Çok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.";
-  var guclu_yanlarin_36_35_7 = "İş Dünyasında Gücünü kullanmak";
-  var guclu_yanlarin_36_35_8 =
     "Deneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.";
-  var guclu_yanlarin_36_35_9 =
+  var guclu_yanlarin_36_35_7 =
     "Bu gücün, karmaşık projeleri ve hızlı hareket eden endüstrileri yönetmene yardımcı olur ve seni dinamik ortamlarda liderlik pozisyonlarına uygun hale getirir. Keşiflerini paylaşarak ilerlemeyi teşvik edersin ve çevrendekilere de aynı keşif ve büyüme zihniyetini benimsemeleri için ilham verebilirsin.";
 
   var guclu_yanlarin_11_56_1 = "“Merak” Gücü (11-56)";
   var guclu_yanlarin_11_56_2 =
     "Sürekli zihinsel uyarımlar aramaya, yeni fikirleri ve etrafındaki dünyayı görmenin yollarını keşfetmeye meraklısın. Spesifik bir şey bulmayı amaçlamazsın, daha ziyade “Bakın ne keşfettim!” diyerek paylaşımda bulunmak sana daha uygun olabilir.";
-  var guclu_yanlarin_11_56_3 = "Yaratıcılığı Serbest Bırakmak";
+  var guclu_yanlarin_11_56_3 =
+    "Yaratıcılığı Serbest Bırakmak, Felsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.";
+  // var guclu_yanlarin_11_56_4 =
+  //   "Felsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.";
   var guclu_yanlarin_11_56_4 =
-    "Felsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.";
-  var guclu_yanlarin_11_56_5 = "Hikayeler Yaratmak";
+    "Hikayeler Yaratmak, Soyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.";
+  // var guclu_yanlarin_11_56_6 =
+  //   "Soyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.";
+  var guclu_yanlarin_11_56_5 =
+    "Vizyonuna İnanmak, Bir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.";
+  // var guclu_yanlarin_11_56_8 =
+  //   "Bir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.";
   var guclu_yanlarin_11_56_6 =
-    "Soyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.";
-  var guclu_yanlarin_11_56_7 = "Vizyonuna İnanmak";
-  var guclu_yanlarin_11_56_8 =
-    "Bir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.";
-  var guclu_yanlarin_11_56_9 = "İş Dünyasında Gücünü Kullanmak";
-  var guclu_yanlarin_11_56_10 =
-    "Merak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir. Merak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+    "İş Dünyasında Gücünü Kullanmak, Merak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir. Merak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+  // var guclu_yanlarin_11_56_10 =
+  //   "Merak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir. Merak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
   var guclu_yanlarin_34_10_1 = "“İnanç” Gücü (34-10)  ";
   var guclu_yanlarin_34_10_2 =
     "Kendi gerçeğini sarsılmaz bir inançla takip etme gücüne sahipsin. Karşına çıkan engellere rağmen bağımsız ve otantik bir şekilde davranma içsel gücüne sahipsin. Belirli bir inancı benimsediğinde, ne kadar alışılmadık görünse de, seni bu inançtan döndürmek neredeyse imkansız olabilir. Güçlü varlığın ve bireyselliğin doğal olarak dikkat çeker, ancak asıl olarak kendin olmaya bağlı kalarak başkalarına da kendi inançları ve gerçekleriyle bağlantı kurmaları için ilham verirsin.  ";
-  var guclu_yanlarin_34_10_3 = "Kendin Olmak ";
+  var guclu_yanlarin_34_10_3 =
+    "Kendin Olmak, Davranışlarını çeşitli durumlara uyarlayabilirken, kim olduğuna sadık kalma yeteneğine sahipsin. Kendine güvenmeyi, kendini sevmeyi ve kabul etmeyi öğrendiğinde, seni benzersiz kılan özellikleri tam anlamıyla kucaklarsın. Bu otantiklik, seni kendi hayatını kendi olarak yaşaman için güçlendirir ve başkalarını da aynı şeyi yapmaları için cesaretlendirir. ";
+  // var guclu_yanlarin_34_10_4 =
+  //   "Davranışlarını çeşitli durumlara uyarlayabilirken, kim olduğuna sadık kalma yeteneğine sahipsin. Kendine güvenmeyi, kendini sevmeyi ve kabul etmeyi öğrendiğinde, seni benzersiz kılan özellikleri tam anlamıyla kucaklarsın. Bu otantiklik, seni kendi hayatını kendi olarak yaşaman için güçlendirir ve başkalarını da aynı şeyi yapmaları için cesaretlendirir.  ";
   var guclu_yanlarin_34_10_4 =
-    "Davranışlarını çeşitli durumlara uyarlayabilirken, kim olduğuna sadık kalma yeteneğine sahipsin. Kendine güvenmeyi, kendini sevmeyi ve kabul etmeyi öğrendiğinde, seni benzersiz kılan özellikleri tam anlamıyla kucaklarsın. Bu otantiklik, seni kendi hayatını kendi olarak yaşaman için güçlendirir ve başkalarını da aynı şeyi yapmaları için cesaretlendirir.  ";
-  var guclu_yanlarin_34_10_5 = "Kişisel Güç ";
+    "Kişisel Güç, Kişisel gücün, seni benzersizliğini sergilemeye iten etkileyici bir enerji kaynağıdır. Bu özellik tamamen senin kullanımına özgüdür, başkaları tarafından hayranlıkla karşılanıp kullanılmak istense bile başkalarının erişimine açık değildir. Bu kişisel güç, bağımsızlığını destekler, seni inançlarına göre hareket etmeye yönlendirir ve otantik bir şekilde hayatta kalman ve başarılı olman için seni güçlendirir.  ";
+  // var guclu_yanlarin_34_10_6 =
+  //   "Kişisel gücün, seni benzersizliğini sergilemeye iten etkileyici bir enerji kaynağıdır. Bu özellik tamamen senin kullanımına özgüdür, başkaları tarafından hayranlıkla karşılanıp kullanılmak istense bile başkalarının erişimine açık değildir. Bu kişisel güç, bağımsızlığını destekler, seni inançlarına göre hareket etmeye yönlendirir ve otantik bir şekilde hayatta kalman ve başarılı olman için seni güçlendirir. ";
+  var guclu_yanlarin_34_10_5 =
+    "İş Dünyasında Gücünü Kullanmak, İnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.  ";
+  // var guclu_yanlarin_34_10_8 =
+  //   "İnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.  ";
   var guclu_yanlarin_34_10_6 =
-    "Kişisel gücün, seni benzersizliğini sergilemeye iten etkileyici bir enerji kaynağıdır. Bu özellik tamamen senin kullanımına özgüdür, başkaları tarafından hayranlıkla karşılanıp kullanılmak istense bile başkalarının erişimine açık değildir. Bu kişisel güç, bağımsızlığını destekler, seni inançlarına göre hareket etmeye yönlendirir ve otantik bir şekilde hayatta kalman ve başarılı olman için seni güçlendirir. ";
-  var guclu_yanlarin_34_10_7 = "İş Dünyasında Gücünü Kullanmak";
-  var guclu_yanlarin_34_10_8 =
-    "İnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.  ";
-  var guclu_yanlarin_34_10_9 =
     "İnanç gücün, otantik bir şekilde liderlik yapmanı, başkalarına inançlarının arkasında durmaları için ilham vermeni ve bütünlük ile kişisel gücün geliştiği bir ortam yaratmanı sağlar. Kendi gerçeğine sarılarak ve bu doğrultuda hareket ederek, ilerleme kaydedebilir ve dayanıklılık ve yenilikçilik kültürü yaratabilirsin.  ";
-  var guclu_yanlarin_34_10_10 = "Güven Kaynağı  ";
-  var guclu_yanlarin_34_10_11 = "Güven ve İstikrar İnşa Etmek ";
-  var guclu_yanlarin_34_10_12 =
+  var guclu_yanlarin_15_1 = "Güven Kaynağı  ";
+  var guclu_yanlarin_15_2 = "Güven ve İstikrar İnşa Etmek ";
+  var guclu_yanlarin_15_3 =
     "İnsanları bir araya getirip uyumlu ve güvenilir bir ekip oluşturma konusunda doğal bir yeteneğe sahipsin. Varlığın, gruba istikrar ve güvenlik hissi katar. Farklı bireyleri bağlı ve uyumlu bir ortamda bir araya getirerek, insanların rahat ve desteklenmiş hissettiği bir atmosfer yaratabilirsin.  ";
-  var guclu_yanlarin_34_10_13 = "Bağlantıyı Güçlendirmek  ";
-  var guclu_yanlarin_34_10_14 =
-    "Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.  ";
-  var guclu_yanlarin_34_10_15 = "Güvenilir Bir Çevre Yaratmak ";
-  var guclu_yanlarin_34_10_16 =
-    "Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar. ";
-  var guclu_yanlarin_34_10_17 = "İş Dünyasında Yetkinliğini Kullanmak ";
-  var guclu_yanlarin_34_10_18 =
-    "İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin. ";
-  var guclu_yanlarin_34_10_19 = "Kültür Mimarı ";
-  var guclu_yanlarin_34_10_20 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak ";
-  var guclu_yanlarin_34_10_21 =
-    "Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
-  var guclu_yanlarin_34_10_22 = "Grup Kimliğini Şekillendirmek ";
-  var guclu_yanlarin_34_10_23 =
-    "Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.  ";
-  var guclu_yanlarin_34_10_24 = "Başarıyı Yapılandırma ile Desteklemek ";
-  var guclu_yanlarin_34_10_25 =
-    "Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
-  var guclu_yanlarin_34_10_26 = "İş Dünyasında Yetkinliğini Kullanmak ";
-  var guclu_yanlarin_34_10_27 =
+  var guclu_yanlarin_15_4 =
+    "Bağlantıyı Güçlendirmek, Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.  ";
+  // var guclu_yanlarin_15_5 =
+  //   "Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.  ";
+  var guclu_yanlarin_15_5 =
+    "Güvenilir Bir Çevre Yaratmak, Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar.  ";
+  // var guclu_yanlarin_15_7 =
+  //   "Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar. ";
+  var guclu_yanlarin_15_6 =
+    "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
+  // var guclu_yanlarin_15_9 =
+  //   "İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin. ";
+  var guclu_yanlarin_5_1 = "Kültür Mimarı ";
+  var guclu_yanlarin_5_2 =
+    "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
+  // var guclu_yanlarin_5_3 =
+  //   "Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
+  var guclu_yanlarin_5_3 =
+    "Grup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.   ";
+  // var guclu_yanlarin_5_5 =
+  //   "Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.  ";
+  var guclu_yanlarin_5_4 =
+    "Başarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
+  // var guclu_yanlarin_5_7 =
+  //   "Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
+  var guclu_yanlarin_5_5 =
+    "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
+  var guclu_yanlarin_5_6 =
     "İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
-  var guclu_yanlarin_34_10_28 = "Harmoni Yaratıcısı  ";
-  var guclu_yanlarin_34_10_29 = "Ekibi Stabilize Etmek ";
-  var guclu_yanlarin_34_10_30 =
-    "Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın.  ";
-  var guclu_yanlarin_34_10_31 = "Odaklanmak ";
-  var guclu_yanlarin_34_10_32 =
-    "Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
-  var guclu_yanlarin_34_10_33 = "Denge ve Uyumu Teşvik Etmek ";
-  var guclu_yanlarin_34_10_34 =
-    "Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
-  var guclu_yanlarin_34_10_35 = "Değişime Uyum Sağlama ";
-  var guclu_yanlarin_34_10_36 =
-    "Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
-  var guclu_yanlarin_34_10_37 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_38 =
+  var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
+  var guclu_yanlarin_46_2 =
+    "Ekibi Stabilize Etmek, Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın. ";
+  // var guclu_yanlarin_46_3 =
+  //   "";
+  var guclu_yanlarin_46_3 =
+    "Odaklanmak, Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
+  // var guclu_yanlarin_46_5 =
+  //   "Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
+  var guclu_yanlarin_46_4 =
+    "Denge ve Uyumu Teşvik Etmek,  Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
+  // var guclu_yanlarin_46_7 =
+  //   "Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
+  var guclu_yanlarin_46_5 =
+    "Değişime Uyum Sağlama, Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
+  // var guclu_yanlarin_46_9 =
+  //   "Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
+  var guclu_yanlarin_46_6 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
+  var guclu_yanlarin_46_7 =
     "İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
-  var guclu_yanlarin_34_10_39 = "Amaca Bağlayıcıs ";
-  var guclu_yanlarin_34_10_40 = "Takım Bağlılığını Güçlendirme ";
-  var guclu_yanlarin_34_10_41 =
-    "Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.  ";
-  var guclu_yanlarin_34_10_42 = "Sadakat ve Güven Aşılamak ";
-  var guclu_yanlarin_34_10_43 =
-    "Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.  ";
-  var guclu_yanlarin_34_10_44 = "Adanmış Bir Takım Ortamı Yaratma ";
-  var guclu_yanlarin_34_10_45 =
-    "Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar. ";
-  var guclu_yanlarin_34_10_46 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_47 =
-    "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
-  var guclu_yanlarin_34_10_48 = "Yön Belirleyici  ";
-  var guclu_yanlarin_34_10_49 = "Başarı İçin Yön Belirleme ";
-  var guclu_yanlarin_34_10_50 =
-    "Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.  ";
-  var guclu_yanlarin_34_10_51 = "Büyümeyi Destekleme ";
-  var guclu_yanlarin_34_10_52 =
-    "Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.  ";
-  var guclu_yanlarin_34_10_53 = "Kaynak Yönetimi ";
-  var guclu_yanlarin_34_10_54 =
-    "Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar. ";
-  var guclu_yanlarin_34_10_55 = "İş Dünyasında Yetkinliğini Kullanmak ";
-  var guclu_yanlarin_34_10_56 =
+  var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
+  var guclu_yanlarin_29_2 =
+    "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.   ";
+  // var guclu_yanlarin_29_3 =
+  //   "Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.  ";
+  var guclu_yanlarin_29_3 =
+    "Sadakat ve Güven Aşılamak, Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.   ";
+  // var guclu_yanlarin_29_5 =
+  //   "Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.  ";
+  var guclu_yanlarin_29_4 =
+    "Adanmış Bir Takım Ortamı Yaratma, Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar.  ";
+  // var guclu_yanlarin_29_5 =
+  //   "Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar. ";
+  var guclu_yanlarin_29_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
+  // var guclu_yanlarin_29_9 =
+  //   "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
+  var guclu_yanlarin_2_1 = "Yön Belirleyici";
+  var guclu_yanlarin_2_2 =
+    "Başarı İçin Yön Belirleme, Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.   ";
+  // var guclu_yanlarin_2_3 =
+  //   "Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.  ";
+  var guclu_yanlarin_2_3 =
+    "Büyümeyi Destekleme, Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.   ";
+  // var guclu_yanlarin_2_4 =
+  //   "Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.  ";
+  var guclu_yanlarin_2_4 =
+    "Kaynak Yönetimi, Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar.  ";
+  // var guclu_yanlarin_2_7 =
+  //   "Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar. ";
+  var guclu_yanlarin_2_5 =
+    "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
+  var guclu_yanlarin_2_6 =
     "İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
-  var guclu_yanlarin_34_10_57 = "Satış Ustası  ";
-  var guclu_yanlarin_34_10_58 = "Vizyonu Eyleme Dönüştürmek  ";
-  var guclu_yanlarin_34_10_59 =
-    "Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
-  var guclu_yanlarin_34_10_60 = "Satışı Gerçekleştirmek  ";
-  var guclu_yanlarin_34_10_61 =
-    "Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
-  var guclu_yanlarin_34_10_62 = "Sonuç Odaklı Olmak  ";
-  var guclu_yanlarin_34_10_63 =
-    "Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
-  var guclu_yanlarin_34_10_64 = "İş Dünyasında Yeteneğini Kullanmak ";
-  var guclu_yanlarin_34_10_65 =
-    "İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
-  var guclu_yanlarin_34_10_66 = "İmaj Yöneticisi  ";
-  var guclu_yanlarin_34_10_67 =
+  var guclu_yanlarin_1_1 = "Satış Ustası  ";
+  var guclu_yanlarin_1_2 =
+    "Vizyonu Eyleme Dönüştürmek, Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
+  // var guclu_yanlarin_1_3 =
+  //   "Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
+  var guclu_yanlarin_1_3 =
+    "Satışı Gerçekleştirmek, Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
+  // var guclu_yanlarin_1_5 =
+  //   "Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
+  var guclu_yanlarin_1_4 =
+    "Sonuç Odaklı Olmak, Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
+  // var guclu_yanlarin_1_7 =
+  //   "Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
+  var guclu_yanlarin_1_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
+  // var guclu_yanlarin_1_9 =
+  //   "İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
+  var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
+  var guclu_yanlarin_8_2 =
     "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
-  var guclu_yanlarin_34_10_68 =
+  var guclu_yanlarin_8_3 =
     "Ekibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.  ";
-  var guclu_yanlarin_34_10_69 =
+  var guclu_yanlarin_8_4 =
     "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
-  var guclu_yanlarin_34_10_70 = "İş Dünyasında Yeteneğini Kullanmak   ";
-  var guclu_yanlarin_34_10_71 =
-    "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
-  var guclu_yanlarin_34_10_72 = "Stratejik Planlayıcı";
-  var guclu_yanlarin_34_10_73 = "Stratejik İleriye Yönelik Düşünme";
-  var guclu_yanlarin_34_10_74 =
-    "Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.";
-  var guclu_yanlarin_34_10_75 = "Pazar Anlayışı";
-  var guclu_yanlarin_34_10_76 =
-    "Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.";
-  var guclu_yanlarin_34_10_77 = "Kaynakların Verimli Kullanımı";
-  var guclu_yanlarin_34_10_78 =
-    "Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.";
-  var guclu_yanlarin_34_10_79 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_80 =
-    "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.";
-  var guclu_yanlarin_34_10_81 = "Uygulama Ustası";
-  var guclu_yanlarin_34_10_82 = "Planları Verimli Şekilde Uygulamak";
-  var guclu_yanlarin_34_10_83 =
-    "Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.";
-  var guclu_yanlarin_34_10_84 = "Başarı İçin Roller Atamak";
-  var guclu_yanlarin_34_10_85 =
-    "Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.";
-  var guclu_yanlarin_34_10_86 = "Sistemlerini Yönetmek";
-  var guclu_yanlarin_34_10_87 =
-    "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.";
-  var guclu_yanlarin_34_10_88 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_89 =
-    "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.";
-  var guclu_yanlarin_34_10_90 = "Rakam Stratejisti";
-  var guclu_yanlarin_34_10_91 = "Karlılık ve İş Sağlığını İzlemek";
-  var guclu_yanlarin_34_10_92 =
-    "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.";
-  var guclu_yanlarin_34_10_93 = "Finansal Büyümeyi Sağlamak";
-  var guclu_yanlarin_34_10_94 =
-    "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.";
-  var guclu_yanlarin_34_10_95 = "Detaylı Kayıtları Tutmak";
-  var guclu_yanlarin_34_10_96 =
-    "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak kazanıldığından emin olabilirsin.";
-  var guclu_yanlarin_34_10_97 = "Verilerle Güveni Sürdürmek";
-  var guclu_yanlarin_34_10_98 =
-    "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır.";
-  var guclu_yanlarin_34_10_99 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_100 =
-    "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.";
-  var guclu_yanlarin_34_10_101 = "Gözlem Ustası";
-  var guclu_yanlarin_34_10_102 = "Düzenli İşleyişi Sağlamak";
-  var guclu_yanlarin_34_10_103 =
-    "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.";
-  var guclu_yanlarin_34_10_104 = "Geçmişten Ders Çıkarmak";
-  var guclu_yanlarin_34_10_105 =
-    "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.";
-  var guclu_yanlarin_34_10_106 = "Sorumluluğu Sağlamak";
-  var guclu_yanlarin_34_10_107 =
-    "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.";
-  var guclu_yanlarin_34_10_108 = "İş Dünyasında Yeteneğini Kullanmak";
-  var guclu_yanlarin_34_10_109 =
-    "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır.";
-
+  var guclu_yanlarin_8_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+  // var guclu_yanlarin_8_6 =
+  //   "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+  var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
+  var guclu_yanlarin_7_2 =
+    "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
+  // var guclu_yanlarin_7_3 =
+  //   "Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
+  var guclu_yanlarin_7_3 =
+    "Pazar Anlayışı, Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.  ";
+  // var guclu_yanlarin_7_5 =
+  //   "Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.  ";
+  var guclu_yanlarin_7_4 =
+    "Kaynakların Verimli Kullanımı, Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
+  // var guclu_yanlarin_7_7 =
+  //   "Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
+  var guclu_yanlarin_7_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+  // var guclu_yanlarin_7_9 =
+  //   "İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+  var guclu_yanlarin_31_1 = "Uygulama Ustası  ";
+  var guclu_yanlarin_31_2 =
+    "Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
+  // var guclu_yanlarin_31_3 =
+  //   "Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
+  var guclu_yanlarin_31_3 =
+    "Başarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
+  // var guclu_yanlarin_31_5 =
+  //   "Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
+  var guclu_yanlarin_31_4 =
+    "Sistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
+  // var guclu_yanlarin_31_7 =
+  //   "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
+  var guclu_yanlarin_31_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+  // var guclu_yanlarin_31_9 =
+  //   "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+  var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
+  var guclu_yanlarin_13_2 =
+    "Karlılık ve İş Sağlığını İzlemek, Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
+  // var guclu_yanlarin_13_3 =
+  //   "Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
+  var guclu_yanlarin_13_3 =
+    "Finansal Büyümeyi Sağlamak, Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
+  // var guclu_yanlarin_13_5 =
+  //   "Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
+  var guclu_yanlarin_13_4 =
+    "Detaylı Kayıtları Tutmak, Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
+  // var guclu_yanlarin_13_7 =
+  //   "Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
+  var guclu_yanlarin_13_5 =
+    "Verilerle Güveni Sürdürmek, Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
+  // var guclu_yanlarin_13_9 =
+  //   "Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
+  var guclu_yanlarin_13_6 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
+  // var guclu_yanlarin_13_11 =
+  //   "İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
+  var guclu_yanlarin_33_1 = "Gözlem Ustası ";
+  var guclu_yanlarin_33_2 =
+    "Düzenli İşleyişi Sağlamak, Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
+  // var guclu_yanlarin_33_3 =
+  //   "Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
+  var guclu_yanlarin_33_3 =
+    "Geçmişten Ders Çıkarmak, Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
+  // var guclu_yanlarin_33_5 =
+  //   "Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
+  var guclu_yanlarin_33_4 =
+    "Sorumluluğu Sağlamak, Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
+  // var guclu_yanlarin_33_7 =
+  //   "Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
+  var guclu_yanlarin_33_5 =
+    "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
+  // var guclu_yanlarin_33_9 =
+  //   "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
   //Güçlü Yanların Ingilizce
 
   var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
@@ -3392,6 +3448,33 @@ export default async ({ req, res, log, error }) => {
   var is_y_r_12_s3_2_1 =
     "Rolün, kişisel deneyimlerle kazandığın dayanıklılığı ve dersleri kullanarak başkalarına rehberlik etmekle ilgilidir. Hem başarılarını hem de başarısızlıklarını kucaklayarak, bunların seni bilge ve düşünceli bir lider haline getirmesine izin vererek hayat amacını gerçekleştirirsin. Hayatının ilerleyen dönemlerinde, 50 yaş sonrası, liderlik rolüne tam anlamıyla adım atar ve kazandığın zorluklarla yoğrulmuş bilgeliği başkalarına sunarsın. Başarı, sadece eylem yoluyla değil, aynı zamanda dayanıklılığın ve her ne olursa olsun ilerlemeye devam etme yeteneğinle liderlik edebilme kapasitenle gelir.";
 
+  var is_y_r_image_1_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67332285001c81e3bf63/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_3_5 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ad0011d4c5a403/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_3_6 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322b60012aa7e3499/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_1_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/67332285001c81e3bf63/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_1_4 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322910004bac07424/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_5_2 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d9002bce8dd6a6/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_4_1 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c0000834ab763b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_4_6 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322c8001d23247b88/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_6_2 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322e2001fdd7852d7/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_2_5 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322a50018baefc20b/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_2_4 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/6733229a0030e4ce5812/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_5_1 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d20033d27b4f32/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+  var is_y_r_image_6_3 =
+    "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+
   // Karakter Özellikleri
   var krktr_ozl_s1_chart = "";
   var krktr_ozl_openness_to_experience = "Deneyime Açıklık";
@@ -3450,7 +3533,7 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_weaknesses_extraversion =
     "İş yerinde fazla dışa dönük olmak, odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.";
   var krktr_ozl_other_attributes_extraversion =
-    "Girişken, enerjik, güçlü, heyecan arayan, maceracı, çoşkulu, olumlu duygular yaşayan, sıcak";
+    "Girişken,\n enerjik,\n güçlü,\n heyecan arayan,\n maceracı,\n çoşkulu,\n olumlu duygular yaşayan,\n sıcak";
   var krktr_ozl_extraversion_questions = "Dışa Dönüklük";
   var krktr_ozl_12_25_extraversion_questions_1 =
     "Grup çalışmalarında ya da sınıf etkinliklerinde aktif rol aldığımda nasıl hissediyorum? Bu enerjiyi okulda daha fazla hangi etkinliklerde kullanabilirim?";
@@ -4234,7 +4317,9 @@ export default async ({ req, res, log, error }) => {
   var teamwork_s3u2_10_4 =
     "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
 
+  var lifestyle_25_plus_manifesting_generator_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
   var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator";
+  var lifestyle_25_plus_manifesting_generator_name = "Enerjik";
   var lifestyle_25_plus_manifesting_generator_1 =
     "İş dünyasında ve kariyerinde kendine has ve benzersiz bir enerjin var.İşleri halletmede, bir şeyler inşa etmede ve büyütmede harikasın.Enerjini yapmayı sevdiğin işlere kullandıktan sonra başını yastığa koyduğunda tatmin hissi ile uyuyabilirsin.Hayatta ve işte tatmininin anahtarı sadece çok çalışmak değil, enerjini nasıl etkili ve verimli kullandığın.Yaptığın iş refahın ve esenliğin için çok önemli.İçinde harekete geçmene ve bir şeyler yaratmana yardımcı olan güçlü bir enerji kaynağın var.Dikkat etmen gereken başlamak ya da başlatmak zorunda olmadığını bilmek.Gücün, içgüdülerine dayanarak hayata cevap vermekte ve doğru ipuçlarını beklemekte yatıyor.";
   var lifestyle_25_plus_manifesting_generator_2 =
@@ -4244,107 +4329,125 @@ export default async ({ req, res, log, error }) => {
   var lifestyle_25_plus_manifesting_generator_motto =
     "Hayat tatmini için benimseyeceğin slogan: Yaptığın işi sev ve sevdiğin işi yap!";
 
-  var lifestyle_25_plus_generator_0 = "Generator";
-  var lifestyle_25_plus_generator_1 =
-    "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz.Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.Uyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.Rolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
-  var lifestyle_25_plus_generator_2 =
-    "Tanınmayı ve doğru davetleri beklemek, başarının anahtarıdır.  Enerjini ve bilgeliğini en anlamlı ve etkili şekilde yönlendirmeni sağlar. Senin için doğru davetleri kabul etme konusunda seçici ol. Bu süreçte sana rehberlik etmesi için sezgilerine güven.";
-  var lifestyle_25_plus_generator_3 =
-    "Doğuştan gelen yeteneklerinden biri, başkalarındaki potansiyeli tanımak.Bu, yetenekleri tespit edebileceğin ve onları doğru görevler ve projelerle eşleştirebileceğin için seni modern dünya için ideal bir lider ve rehber yapar.İnsanları ve fırsatları doğal olarak sana çeken benzersiz bir varlığın var.Her seferinde bir kişiye odaklanma yeteneğin, son derece kişisel ve anlamlı etkileşimler yaratır.Becerilerin, yeteneklerin ve dünyayı benzersiz algılama şeklinle tanındığında ve doğru davetleri aldığında, gerçek potansiyelini gerçekleştirme yolundasın demektir.Senin için başarı, zekanı ve bilgeliğini gerçekten takdir eden ve kabul eden doğru insanları ve fırsatları seçmekle ilgili. ";
-  var lifestyle_25_plus_generator_motto =
-    "Çevrendekiler için bilge ve zeki bir rehber olabilirsin. Bilgeliğini sadece sana davet verenler ile paylaş.";
-
-  var lifestyle_25_plus_projektor_0 = "Projektor";
-  var lifestyle_25_plus_projektor_1 =
-    "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir";
-  var lifestyle_25_plus_projektor_2 =
-    "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin.";
-  var lifestyle_25_plus_projektor_3 =
-    "Kontrol edilmekten hiç hoşlanmadığın bir gerçek.Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir. İş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin.Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir.İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur.";
-  var lifestyle_25_plus_projektor_motto =
-    "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
-
-  var lifestyle_25_plus_manifestor_0 = "Manifestor";
-  var lifestyle_25_plus_manifestor_1 =
-    "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir.";
-  var lifestyle_25_plus_manifestor_2 =
-    "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin.";
-  var lifestyle_25_plus_manifestor_3 =
-    "Kontrol edilmekten hiç hoşlanmadığın bir gerçek.Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir.İş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin.Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir.İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur";
-  var lifestyle_25_plus_manifestor_motto =
-    "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
-
-  var lifestyle_25_plus_reflektor_0 = "Reflektor";
-  var lifestyle_25_plus_reflektor_1 =
-    "Doğru ortamda, insanların, toplulukların ve işletmelerin objektif bir değerlendirmesini sağlayan bir kişi olarak parlayabilirsin.Bakış açın tamamen benzersiz ve ilerlemeyi veya dikkat edilmesi gereken alanları doğru bir şekilde değerlendirerek düşünmene ve genel bir bakış açısı kazanmana olanak tanır       Başkalarını kabul etme, doğru gitmeyen şeyleri vurgulayarak onları işbirliğine, barışa ve eşitliğe doğru yönlendirme konusunda olağanüstü bir yeteneğe sahipsin.Bir işletmenin, topluluğun veya bir grubun merkezinde olduğunda, özgürce hareket ettiğinde ve işlerin bir bütün olarak nasıl yürüdüğünü yansıtmak için buradasın.Çevrendekilere çeşitliliği kucaklamanın önemini öğreterek özellikle etkili olabilirsin.";
-  var lifestyle_25_plus_reflektor_2 =
-    "Objektif bir bakış açısı sunarak etrafındaki her şeyi ve herkesi yansıtmak yeteneklerin arasında. Varlığın sessizlik, nezaket ve müdahaleci olmama ile tanımlanabilir. Çevreyi bir bütün olarak yansıtırsın ve diğerleri kim olduğunu tam olarak anlamakta zorlanabilir. ";
-  var lifestyle_25_plus_reflektor_3 =
-    "Karar verirken acele etmemelisin.Önemli konuları değerlendir ve güvendiğin kişiler ile konuyu konuş.Başkalarıyla etkileşim kurarken, yanlış ortamda olmak veya herkese uymaya çalışmak gibi tuzakların farkında ol.Başkalarına aşırı bağımlı olmaktan veya görünmez hissetmekten kaçın, gerçek benliğinden ödün verme.Bir şeyleri başlatma, hayata geçirme veya olmaya zorlama dürtüsüne diren, çünkü bu başkalarında dirence neden olabilir ve hayal kırıklığına yol açabilir.Başkalarının korkularına, duygularına, stresine ve kaygılarına kapılmaktan kaçın.Etrafındakilerle sağlıklı bir mesafeyi her zaman koru ve acele etmekten veya karar vermek için baskı altında kalmaktan kaçın.Kendin için doğru seçimleri yapabilmen ve iyi hissetmen için bulunduğun ortamın senin için doğru olması çok önemli.Çünkü sen bulunduğun ortamların enerjisini yansıtma yeteneğine sahipsin.Gerek özel yaşamında gerek iş yaşamında ortamına hep önem ver.";
-  var lifestyle_25_plus_reflektor_4_motto =
-    "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!";
-
-  var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı";
-  var lifestyle_25_plus_manifestor_evaluation_1 =
-    "Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
-  var lifestyle_25_plus_manifestor_evaluation_2 =
-    "Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
-  var lifestyle_25_plus_manifestor_evaluation_3 =
-    "Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
-  var lifestyle_25_plus_manifestor_evaluation_4 =
-    "Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
-  var lifestyle_25_plus_manifestor_evaluation_5 =
-    "Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
-
-  var lifestyle_25_plus_generator_evaluation_0 = "Enerjik";
-  var lifestyle_25_plus_generator_evaluation_1 =
-    "Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? ";
-  var lifestyle_25_plus_generator_evaluation_2 =
-    "Fırsatlara yanıt verdiğimde ve beklemeden harekete geçtiğimde bedenimde nasıl hissediyorum? ";
-  var lifestyle_25_plus_generator_evaluation_3 =
-    "Hayatımın hangi alanlarında bir şeyleri olmaya zorluyorum ve daha duyarlı bir yaklaşıma nasıl geçebilirim? ";
-  var lifestyle_25_plus_generator_evaluation_4 =
-    "Sakral (içgüdüsel tepkim) doğru yolda olduğumda bana hangi sinyalleri veriyor ve onlara nasıl daha tutarlı bir şekilde güvenebilir ve takip edebilirim? ";
-  var lifestyle_25_plus_generator_evaluation_5 =
-    "Hayal kırıklığına uğradığımda veya sıkışmış hissettiğimde enerjimi nasıl yeniden şarj ederim ve bu zamanlarda daha fazla sabır geliştirmek için ne yapabilirim? ";
-
-  var lifestyle_25_plus_manifesting_generator_evaluation_0 =
-    "Başlatıcı Enerjik";
-  var lifestyle_25_plus_manifesting_generator_evaluation_1 =
-    "Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
-  var lifestyle_25_plus_manifesting_generator_evaluation_2 =
-    "Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
-  var lifestyle_25_plus_manifesting_generator_evaluation_3 =
-    "Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
-  var lifestyle_25_plus_manifesting_generator_evaluation_4 =
-    "Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
-  var lifestyle_25_plus_manifesting_generator_evaluation_5 =
-    "Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
-
-  var lifestyle_25_plus_projektor_evaluation_0 = "Rehber";
-  var lifestyle_25_plus_projektor_evaluation_1 =
-    "Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
-  var lifestyle_25_plus_projektor_evaluation_2 =
-    "Son zamanlarda güçlü yönlerimle uyumlu olduğunu hissettiğim hangi davetler veya takdirler aldım ve bunlara nasıl yanıt verdim? ";
-  var lifestyle_25_plus_projektor_evaluation_3 =
-    "Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? ";
-  var lifestyle_25_plus_projektor_evaluation_4 =
-    "Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? ";
-  var lifestyle_25_plus_projektor_evaluation_5 =
-    "Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
-
-  var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı";
-  var lifestyle_25_plus_reflektor_evaluation_1 =
-    "Şu anki ortamımda nasıl hissediyorum ve etrafımdaki insanlar ve alanlar hakkında ne yansıtıyor? ";
-  var lifestyle_25_plus_reflektor_evaluation_2 =
-    "Ay döngüsünün doğal ritmine güvenerek önemli kararlar almak için kendime nasıl daha fazla zaman verebilirim? ";
-  var lifestyle_25_plus_reflektor_evaluation_3 =
-    "Hangi durumlarda gerçek benliğimle en uyumlu hissediyorum ve hayatımda bu deneyimlerden daha fazlasını nasıl yaratabilirim? ";
-  var lifestyle_25_plus_reflektor_evaluation_4 =
-    "Başkalarının duygularını ve enerjilerini nasıl idare ederim ve kendi iyiliğimi korumak için hangi sınırları belirlemem gerekir? ";
-  var lifestyle_25_plus_reflektor_evaluation_5 =
-    "Eşsiz duyarlılığımı ve çevremin gerçeğini bunalmış hissetmeden yansıtma yeteneğimi onurlandırmak için ne yapabilirim? ";
-
+    var lifestyle_25_plus_generator_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_generator_0 = "Generator";
+    var lifestyle_25_plus_generator_name = "Enerjik";
+    var lifestyle_25_plus_generator_1 =
+      "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz.Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.Uyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.Rolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
+    var lifestyle_25_plus_generator_2 =
+      "Tanınmayı ve doğru davetleri beklemek, başarının anahtarıdır.  Enerjini ve bilgeliğini en anlamlı ve etkili şekilde yönlendirmeni sağlar. Senin için doğru davetleri kabul etme konusunda seçici ol. Bu süreçte sana rehberlik etmesi için sezgilerine güven.";
+    var lifestyle_25_plus_generator_3 =
+      "Doğuştan gelen yeteneklerinden biri, başkalarındaki potansiyeli tanımak.Bu, yetenekleri tespit edebileceğin ve onları doğru görevler ve projelerle eşleştirebileceğin için seni modern dünya için ideal bir lider ve rehber yapar.\n\nİnsanları ve fırsatları doğal olarak sana çeken benzersiz bir varlığın var.Her seferinde bir kişiye odaklanma yeteneğin, son derece kişisel ve anlamlı etkileşimler yaratır.\n\nBecerilerin, yeteneklerin ve dünyayı benzersiz algılama şeklinle tanındığında ve doğru davetleri aldığında, gerçek potansiyelini gerçekleştirme yolundasın demektir.Senin için başarı, zekanı ve bilgeliğini gerçekten takdir eden ve kabul eden doğru insanları ve fırsatları seçmekle ilgili. ";
+    var lifestyle_25_plus_generator_motto =
+      "Çevrendekiler için bilge ve zeki bir rehber olabilirsin. Bilgeliğini sadece sana davet verenler ile paylaş.";
+  
+    var lifestyle_25_plus_projektor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/projector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_projektor_0 = "Projektor";
+    var lifestyle_25_plus_projektor_name = "Rehber";
+    var lifestyle_25_plus_projektor_1 =
+      "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir";
+    var lifestyle_25_plus_projektor_2 =
+      "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin.";
+    var lifestyle_25_plus_projektor_3 =
+      "Kontrol edilmekten hiç hoşlanmadığın bir gerçek. Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir.\n\n İş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin. Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir. İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur.";
+    var lifestyle_25_plus_projektor_motto =
+      "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
+  
+    var lifestyle_25_plus_manifestor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/manifestor/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_manifestor_0 = "Manifestor";
+    var lifestyle_25_plus_manifestor_name = "Başlatıcı";
+    var lifestyle_25_plus_manifestor_1 =
+      "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir.";
+    var lifestyle_25_plus_manifestor_2 =
+      "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin.";
+    var lifestyle_25_plus_manifestor_3 =
+      "Kontrol edilmekten hiç hoşlanmadığın bir gerçek.Buna rağmen, harekete geçmeden önce bilgilendirme sanatını öğrenmen çok önemlidir.Harekete geçmeden önce çevrendekileri bilgilendirdiğinde açık, verimli ve barışçıl bir iletişimin önünü açmış olursun.Bilgilendirmek sana doğal gelmese de, ustalaşmaya değer bir uygulamadır ve tüm hayatında ve iş yaşamında sana yardımcı olacak önemli unsurlardan biridir.\n\nİş yaşamında ilerlerken, yapılması veya başlatılması gereken şeyleri doğal olarak göreceksin.Bu konularda iç görülerini takip ederek ilerle, ve etkilenecek herkesi de bilgilendir.İş yaşamında başarı ve huzurun anahtarı senin için tam olarak budur";
+    var lifestyle_25_plus_manifestor_motto =
+      "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
+  
+    var lifestyle_25_plus_reflektor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_reflektor_0 = "Reflektor";
+    var lifestyle_25_plus_reflektor_name = "Yansıtıcı";
+    var lifestyle_25_plus_reflektor_1 =
+      "Doğru ortamda, insanların, toplulukların ve işletmelerin objektif bir değerlendirmesini sağlayan bir kişi olarak parlayabilirsin.Bakış açın tamamen benzersiz ve ilerlemeyi veya dikkat edilmesi gereken alanları doğru bir şekilde değerlendirerek düşünmene ve genel bir bakış açısı kazanmana olanak tanır       Başkalarını kabul etme, doğru gitmeyen şeyleri vurgulayarak onları işbirliğine, barışa ve eşitliğe doğru yönlendirme konusunda olağanüstü bir yeteneğe sahipsin.Bir işletmenin, topluluğun veya bir grubun merkezinde olduğunda, özgürce hareket ettiğinde ve işlerin bir bütün olarak nasıl yürüdüğünü yansıtmak için buradasın.Çevrendekilere çeşitliliği kucaklamanın önemini öğreterek özellikle etkili olabilirsin.";
+    var lifestyle_25_plus_reflektor_2 =
+      "Objektif bir bakış açısı sunarak etrafındaki her şeyi ve herkesi yansıtmak yeteneklerin arasında. Varlığın sessizlik, nezaket ve müdahaleci olmama ile tanımlanabilir. Çevreyi bir bütün olarak yansıtırsın ve diğerleri kim olduğunu tam olarak anlamakta zorlanabilir. ";
+    var lifestyle_25_plus_reflektor_3 =
+      "Karar verirken acele etmemelisin.Önemli konuları değerlendir ve güvendiğin kişiler ile konuyu konuş.Başkalarıyla etkileşim kurarken, yanlış ortamda olmak veya herkese uymaya çalışmak gibi tuzakların farkında ol.Başkalarına aşırı bağımlı olmaktan veya görünmez hissetmekten kaçın, gerçek benliğinden ödün verme.\n\nBir şeyleri başlatma, hayata geçirme veya olmaya zorlama dürtüsüne diren, çünkü bu başkalarında dirence neden olabilir ve hayal kırıklığına yol açabilir.Başkalarının korkularına, duygularına, stresine ve kaygılarına kapılmaktan kaçın.Etrafındakilerle sağlıklı bir mesafeyi her zaman koru ve acele etmekten veya karar vermek için baskı altında kalmaktan kaçın.\n\nKendin için doğru seçimleri yapabilmen ve iyi hissetmen için bulunduğun ortamın senin için doğru olması çok önemli.Çünkü sen bulunduğun ortamların enerjisini yansıtma yeteneğine sahipsin.Gerek özel yaşamında gerek iş yaşamında ortamına hep önem ver.";
+    var lifestyle_25_plus_reflektor_4_motto =
+      "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!";
+  
+    var lifestyle_25_plus_manifestor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/manifestor/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı";
+    var lifestyle_25_plus_manifestor_evaluation_name = "Başlatıcı";
+    var lifestyle_25_plus_manifestor_evaluation_1 =
+      "Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
+    var lifestyle_25_plus_manifestor_evaluation_2 =
+      "Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
+    var lifestyle_25_plus_manifestor_evaluation_3 =
+      "Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
+    var lifestyle_25_plus_manifestor_evaluation_4 =
+      "Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
+    var lifestyle_25_plus_manifestor_evaluation_5 =
+      "Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
+  
+    var lifestyle_25_plus_generator_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_generator_evaluation_0 = "Enerjik";
+    var lifestyle_25_plus_generator_evaluation_name = "Enerjik";
+    var lifestyle_25_plus_generator_evaluation_1 =
+      "Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? ";
+    var lifestyle_25_plus_generator_evaluation_2 =
+      "Fırsatlara yanıt verdiğimde ve beklemeden harekete geçtiğimde bedenimde nasıl hissediyorum? ";
+    var lifestyle_25_plus_generator_evaluation_3 =
+      "Hayatımın hangi alanlarında bir şeyleri olmaya zorluyorum ve daha duyarlı bir yaklaşıma nasıl geçebilirim? ";
+    var lifestyle_25_plus_generator_evaluation_4 =
+      "Sakral (içgüdüsel tepkim) doğru yolda olduğumda bana hangi sinyalleri veriyor ve onlara nasıl daha tutarlı bir şekilde güvenebilir ve takip edebilirim? ";
+    var lifestyle_25_plus_generator_evaluation_5 =
+      "Hayal kırıklığına uğradığımda veya sıkışmış hissettiğimde enerjimi nasıl yeniden şarj ederim ve bu zamanlarda daha fazla sabır geliştirmek için ne yapabilirim? ";
+  
+    var lifestyle_25_plus_manifesting_generator_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_manifesting_generator_evaluation_0 =
+      "Başlatıcı Enerjik";
+    var lifestyle_25_plus_manifesting_generator_name = "Başlatıcı Enerjik";
+    var lifestyle_25_plus_manifesting_generator_evaluation_1 =
+      "Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
+    var lifestyle_25_plus_manifesting_generator_evaluation_2 =
+      "Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
+    var lifestyle_25_plus_manifesting_generator_evaluation_3 =
+      "Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
+    var lifestyle_25_plus_manifesting_generator_evaluation_4 =
+      "Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
+    var lifestyle_25_plus_manifesting_generator_evaluation_5 =
+      "Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
+  
+    var lifestyle_25_plus_projektor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/projector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+    var lifestyle_25_plus_projektor_evaluation_0 = "Rehber";
+    var lifestyle_25_plus_projektor_evaluation_name = "Rehber";
+    var lifestyle_25_plus_projektor_evaluation_1 =
+      "Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
+    var lifestyle_25_plus_projektor_evaluation_2 =
+      "Son zamanlarda güçlü yönlerimle uyumlu olduğunu hissettiğim hangi davetler veya takdirler aldım ve bunlara nasıl yanıt verdim? ";
+    var lifestyle_25_plus_projektor_evaluation_3 =
+      "Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? ";
+    var lifestyle_25_plus_projektor_evaluation_4 =
+      "Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? ";
+    var lifestyle_25_plus_projektor_evaluation_5 =
+      "Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
+  
+    var lifestyle_25_plus_reflektor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin"
+    var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı";
+    var lifestyle_25_plus_reflektor_evaluation_name = "Yansıtıcı";
+    var lifestyle_25_plus_reflektor_evaluation_1 =
+      "Şu anki ortamımda nasıl hissediyorum ve etrafımdaki insanlar ve alanlar hakkında ne yansıtıyor? ";
+    var lifestyle_25_plus_reflektor_evaluation_2 =
+      "Ay döngüsünün doğal ritmine güvenerek önemli kararlar almak için kendime nasıl daha fazla zaman verebilirim? ";
+    var lifestyle_25_plus_reflektor_evaluation_3 =
+      "Hangi durumlarda gerçek benliğimle en uyumlu hissediyorum ve hayatımda bu deneyimlerden daha fazlasını nasıl yaratabilirim? ";
+    var lifestyle_25_plus_reflektor_evaluation_4 =
+      "Başkalarının duygularını ve enerjilerini nasıl idare ederim ve kendi iyiliğimi korumak için hangi sınırları belirlemem gerekir? ";
+    var lifestyle_25_plus_reflektor_evaluation_5 =
+      "Eşsiz duyarlılığımı ve çevremin gerçeğini bunalmış hissetmeden yansıtma yeteneğimi onurlandırmak için ne yapabilirim? ";
+  
   var communication_generator_0 = "Enerjik";
   var communication_generator_1 =
     "Etkili iletişimin merkezinde, sessiz bir iletişimci olarak hareket eden, başkalarını ve fırsatları sana çeken sözsüz varlığın var. Açık ve saran varlığın bir mıknatıs gibi davranır, doğal olarak insanları kendine çeker ve verimli etkileşimlerin yolunu açar. ";
@@ -5630,15 +5733,15 @@ export default async ({ req, res, log, error }) => {
   let lifestyle = (lifestyleData, age, type) => {
     if (type == "name") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_0;
+        return lifestyle_25_plus_manifesting_generator_name;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_0;
+        return lifestyle_25_plus_generator_name;
       } else if (lifestyleData == "Projector") {
-        return lifestyle_25_plus_projektor_0;
+        return lifestyle_25_plus_projektor_name;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_0;
+        return lifestyle_25_plus_manifestor_name;
       } else if (lifestyleData == "Reflector") {
-        return lifestyle_25_plus_reflektor_0;
+        return lifestyle_25_plus_reflektor_name;
       }
     } else if (type == "p1") {
       if (lifestyleData == "Manifesting Generator") {
@@ -5747,6 +5850,18 @@ export default async ({ req, res, log, error }) => {
         return lifestyle_25_plus_manifestor_evaluation_5;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_5;
+      }
+    } else if( type == "image") {
+      if (lifestyleData == "Manifesting Generator") {
+        return lifestyle_25_plus_manifesting_generator_evaluation_image;
+      } else if (lifestyleData == "Generator") {
+        return lifestyle_25_plus_generator_evaluation_image;
+      } else if (lifestyleData == "Projector") {
+        return lifestyle_25_plus_projektor_evaluation_image;
+      } else if (lifestyleData == "Manifestor") {
+        return lifestyle_25_plus_manifestor_evaluation_image;
+      } else if (lifestyleData == "Reflector") {
+        return lifestyle_25_plus_reflektor_evaluation_image;
       }
     }
   };
@@ -6048,6 +6163,33 @@ export default async ({ req, res, log, error }) => {
   };
 
   let is_y_r = (is_y_rData, age, type) => {
+    if (type == "image") {
+      if (is_y_rData == "1 / 3") {
+        return is_y_r_image_1_3;
+      } else if (is_y_rData == "1 / 4") {
+        return is_y_r_image_1_4;
+      } else if (is_y_rData == "2 / 4") {
+        return is_y_r_image_2_4;
+      } else if (is_y_rData == "2 / 5") {
+        return is_y_r_image_2_5;
+      } else if (is_y_rData == "3 / 5") {
+        return is_y_r_image_3_5;
+      } else if (is_y_rData == "3 / 6") {
+        return is_y_r_image_3_6;
+      } else if (is_y_rData == "4 / 1") {
+        return is_y_r_image_4_1;
+      } else if (is_y_rData == "4 / 6") {
+        return is_y_r_image_4_6;
+      } else if (is_y_rData == "5 / 1") {
+        return is_y_r_image_5_1;
+      } else if (is_y_rData == "5 / 2") {
+        return is_y_r_image_5_2;
+      } else if (is_y_rData == "6 / 2") {
+        return is_y_r_image_6_2;
+      } else if (is_y_rData == "6 / 3") {
+        return is_y_r_image_6_3;
+      }
+    }
     if (type == "name") {
       if (is_y_rData == "1 / 3") {
         return is_y_r_1_s2_0;
@@ -10050,15 +10192,15 @@ export default async ({ req, res, log, error }) => {
       if (type == "48_16_1") {
         return guclu_yanlarin_48_16_1;
       } else if (type == "48_16_2") {
-        return guclu_yanlarin_48_18_2;
+        return guclu_yanlarin_48_16_2;
       } else if (type == "48_16_3") {
-        return guclu_yanlarin_48_18_3;
+        return guclu_yanlarin_48_16_3;
       } else if (type == "48_16_4") {
-        return guclu_yanlarin_48_18_4;
+        return guclu_yanlarin_48_16_4;
       } else if (type == "48_16_5") {
-        return guclu_yanlarin_48_18_5;
+        return guclu_yanlarin_48_16_5;
       } else if (type == "48_16_6") {
-        return guclu_yanlarin_48_18_6;
+        return guclu_yanlarin_48_16_6;
       }
     } else if (guclu_yanlarinData.name == "17-62") {
       if (type == "17_62_1") {
@@ -10370,7 +10512,7 @@ export default async ({ req, res, log, error }) => {
     Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
   var P2A1 =
     "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1];
+    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim" + ",")[1];
   var P4A1 = "chart"; // Kişilik Özellikleri
   var P4A2 =
     hollandData[0].name +
@@ -10483,7 +10625,7 @@ export default async ({ req, res, log, error }) => {
   );
   var P17A1 = lifestyle(lifestyleData[0], 25, "name"); // Yaşamda İlerleme Tarzın
   var P17A2 = lifestyle(lifestyleData[0], 25, "p1");
-  var P17A3 = "image";
+  var P17A3 = lifestyle(lifestyleData[0], 25, "image");
   var P18A1 = lifestyle(lifestyleData[0], 25, "p2");
   var P18A2 = lifestyle(lifestyleData[0], 25, "p3");
   var P18A3 = lifestyle(lifestyleData[0], 25, "motto"); // motto
@@ -10525,72 +10667,72 @@ export default async ({ req, res, log, error }) => {
   var P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1");
   var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
   var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
-  var P27A7 = "image";
+  var P27A7 = is_y_r(is_y_rData[0], 25, "image");
   var P28A1 = is_y_r(is_y_rData[0], 25, "name");
   var P28A2 = is_y_r(is_y_rData[0], 25, "s3_1");
   var P28A3 = is_y_r(is_y_rData[0], 25, "s3_1_1");
   var P28A4 = is_y_r(is_y_rData[0], 25, "s3_2");
   var P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1");
-  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  //var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
   var P30A1 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_1",
+    guclu_yanlarinData[0].name + "_1",
   ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
   var P30A2 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_2",
+    guclu_yanlarinData[0].name + "_2",
   ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
   var P30A3 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_3",
+    guclu_yanlarinData[0].name + "_3",
   ); // is_y_r(is_y_rData[0], 25, "s3_1"),
   var P30A4 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_4",
+    guclu_yanlarinData[0].name + "_4",
   ); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
   var P30A5 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_5",
+    guclu_yanlarinData[0].name + "_5",
   ); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
   var P30A6 = guclu_yanlarin(
     guclu_yanlarinData[0],
     25,
-    guclu_yanlarinData[0].type + "_6",
+    guclu_yanlarinData[0].name + "_6",
   );
   var P31A1 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_1",
+    guclu_yanlarinData[1].name + "_1",
   );
   var P31A2 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_2",
+    guclu_yanlarinData[1].name + "_2",
   );
   var P31A3 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_3",
+    guclu_yanlarinData[1].name + "_3",
   );
   var P31A4 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_4",
+    guclu_yanlarinData[1].name + "_4",
   );
   var P31A5 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_5",
+    guclu_yanlarinData[1].name + "_5",
   );
   var P31A6 = guclu_yanlarin(
     guclu_yanlarinData[1],
     25,
-    guclu_yanlarinData[1].type + "_6",
+    guclu_yanlarinData[1].name + "_6",
   );
   var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
   var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
@@ -10629,99 +10771,25 @@ export default async ({ req, res, log, error }) => {
   var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
   var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
   var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
-  var P40A2 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A3 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A4 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A5 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A6 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A7 = kariyer_secim(
-    careerSelectionLastResult[0],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A8 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A9 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A10 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A11 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A12 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A13 = kariyer_secim(
-    careerSelectionLastResult[1],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P40A14 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_1",
-  );
-  var P40A15 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_3",
-  );
-  var P40A16 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_4",
-  );
-  var P40A17 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_5",
-  );
-  var P40A18 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_6",
-  );
-  var P40A19 = kariyer_secim(
-    careerSelectionLastResult[2],
-    25,
-    "s7_" + decision_strategyData.sectorName + "_x_7",
-  );
-  var P42A1 =
-    "Sevgili " +
-    Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]; // Sevgili Dinçer
+  var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  var P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  var P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  var P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
   var graphbig = bigdataPercent;
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
@@ -10940,7 +11008,7 @@ export default async ({ req, res, log, error }) => {
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
     graphai: aiData,
-    graphteamwork: teamworkData
+    graphteamwork: teamworkData,
   };
 
   console.log(inputs_25_plus);

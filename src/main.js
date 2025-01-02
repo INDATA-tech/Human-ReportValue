@@ -2931,7 +2931,7 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_31_7 =
     "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
   var guclu_yanlarin_31_8 = "İş Dünyasında Yeteneğini Kullanmak  ";
-  var guclu_yanlarin_3 =
+  var guclu_yanlarin_31_9 =
     "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
   var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
   var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek ";
@@ -4930,6 +4930,7 @@ export default async ({ req, res, log, error }) => {
     "Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
 
   var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator";
+  var lifestyle_25_plus_manifesting_generator_name = "Enerjik"; 
   var lifestyle_25_plus_manifesting_generator_1 =
     "İş dünyasında ve kariyerinde kendine has ve benzersiz bir enerjin var.İşleri halletmede, bir şeyler inşa etmede ve büyütmede harikasın.Enerjini yapmayı sevdiğin işlere kullandıktan sonra başını yastığa koyduğunda tatmin hissi ile uyuyabilirsin.Hayatta ve işte tatmininin anahtarı sadece çok çalışmak değil, enerjini nasıl etkili ve verimli kullandığın.Yaptığın iş refahın ve esenliğin için çok önemli.İçinde harekete geçmene ve bir şeyler yaratmana yardımcı olan güçlü bir enerji kaynağın var.Dikkat etmen gereken başlamak ya da başlatmak zorunda olmadığını bilmek.Gücün, içgüdülerine dayanarak hayata cevap vermekte ve doğru ipuçlarını beklemekte yatıyor.";
   var lifestyle_25_plus_manifesting_generator_2 =
@@ -4940,6 +4941,7 @@ export default async ({ req, res, log, error }) => {
     "Hayat tatmini için benimseyeceğin slogan: Yaptığın işi sev ve sevdiğin işi yap!";
 
   var lifestyle_25_plus_generator_0 = "Generator";
+  var lifestyle_25_plus_generator_name = "Enerjik";
   var lifestyle_25_plus_generator_1 =
     "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz.Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.Uyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.Rolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
   var lifestyle_25_plus_generator_2 =
@@ -4950,6 +4952,7 @@ export default async ({ req, res, log, error }) => {
     "Çevrendekiler için bilge ve zeki bir rehber olabilirsin. Bilgeliğini sadece sana davet verenler ile paylaş.";
 
   var lifestyle_25_plus_projektor_0 = "Projektor";
+  var lifestyle_25_plus_projektor_name = "Rehber";
   var lifestyle_25_plus_projektor_1 =
     "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir";
   var lifestyle_25_plus_projektor_2 =
@@ -4960,6 +4963,7 @@ export default async ({ req, res, log, error }) => {
     "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
 
   var lifestyle_25_plus_manifestor_0 = "Manifestor";
+  var lifestyle_25_plus_manifestor_name = "Başlatıcı";
   var lifestyle_25_plus_manifestor_1 =
     "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin. İlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir.";
   var lifestyle_25_plus_manifestor_2 =
@@ -4970,6 +4974,7 @@ export default async ({ req, res, log, error }) => {
     "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
 
   var lifestyle_25_plus_reflektor_0 = "Reflektor";
+  var lifestyle_25_plus_reflektor_name = "Yansıtıcı";
   var lifestyle_25_plus_reflektor_1 =
     "Doğru ortamda, insanların, toplulukların ve işletmelerin objektif bir değerlendirmesini sağlayan bir kişi olarak parlayabilirsin.Bakış açın tamamen benzersiz ve ilerlemeyi veya dikkat edilmesi gereken alanları doğru bir şekilde değerlendirerek düşünmene ve genel bir bakış açısı kazanmana olanak tanır       Başkalarını kabul etme, doğru gitmeyen şeyleri vurgulayarak onları işbirliğine, barışa ve eşitliğe doğru yönlendirme konusunda olağanüstü bir yeteneğe sahipsin.Bir işletmenin, topluluğun veya bir grubun merkezinde olduğunda, özgürce hareket ettiğinde ve işlerin bir bütün olarak nasıl yürüdüğünü yansıtmak için buradasın.Çevrendekilere çeşitliliği kucaklamanın önemini öğreterek özellikle etkili olabilirsin.";
   var lifestyle_25_plus_reflektor_2 =
@@ -4980,6 +4985,7 @@ export default async ({ req, res, log, error }) => {
     "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!";
 
   var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı";
+  var lifestyle_25_plus_manifestor_evaluation_name = "Başlatıcı";
   var lifestyle_25_plus_manifestor_evaluation_1 =
     "Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
   var lifestyle_25_plus_manifestor_evaluation_2 =
@@ -4992,6 +4998,7 @@ export default async ({ req, res, log, error }) => {
     "Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
 
   var lifestyle_25_plus_generator_evaluation_0 = "Enerjik";
+  var lifestyle_25_plus_generator_evaluation_name = "Enerjik";
   var lifestyle_25_plus_generator_evaluation_1 =
     "Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? ";
   var lifestyle_25_plus_generator_evaluation_2 =
@@ -5005,6 +5012,7 @@ export default async ({ req, res, log, error }) => {
 
   var lifestyle_25_plus_manifesting_generator_evaluation_0 =
     "Başlatıcı Enerjik";
+  var lifestyle_25_plus_manifesting_generator_name = "Başlatıcı Enerjik";
   var lifestyle_25_plus_manifesting_generator_evaluation_1 =
     "Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
   var lifestyle_25_plus_manifesting_generator_evaluation_2 =
@@ -5017,6 +5025,7 @@ export default async ({ req, res, log, error }) => {
     "Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
 
   var lifestyle_25_plus_projektor_evaluation_0 = "Rehber";
+  var lifestyle_25_plus_projektor_evaluation_name = "Rehber";
   var lifestyle_25_plus_projektor_evaluation_1 =
     "Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
   var lifestyle_25_plus_projektor_evaluation_2 =
@@ -5029,6 +5038,7 @@ export default async ({ req, res, log, error }) => {
     "Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
 
   var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı";
+  var lifestyle_25_plus_reflektor_evaluation_name = "Yansıtıcı";
   var lifestyle_25_plus_reflektor_evaluation_1 =
     "Şu anki ortamımda nasıl hissediyorum ve etrafımdaki insanlar ve alanlar hakkında ne yansıtıyor? ";
   var lifestyle_25_plus_reflektor_evaluation_2 =
@@ -5965,15 +5975,15 @@ export default async ({ req, res, log, error }) => {
   let lifestyle = (lifestyleData, age, type) => {
     if (type == "name") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_0;
+        return lifestyle_25_plus_manifesting_generator_name;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_0;
+        return lifestyle_25_plus_generator_name;
       } else if (lifestyleData == "Projektor") {
-        return lifestyle_25_plus_projektor_0;
+        return lifestyle_25_plus_projektor_name;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_0;
+        return lifestyle_25_plus_manifestor_name;
       } else if (lifestyleData == "Reflektor") {
-        return lifestyle_25_plus_reflektor_0;
+        return lifestyle_25_plus_reflektor_name;
       }
     } else if (type == "p1") {
       if (lifestyleData == "Manifesting Generator") {
