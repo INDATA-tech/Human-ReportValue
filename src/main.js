@@ -11018,5 +11018,5 @@ export default async ({ req, res, log, error }) => {
 
   log(jsonString);
 
-  return inputs_25_plus;
+  return res.send(inputs_25_plus);
 };
