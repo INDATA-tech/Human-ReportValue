@@ -2963,9 +2963,9 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_33_9 =
     "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
 
-  var guclu_yanlarin_51_25_1 = "“Rekabet” Gücü (Quantum 51-25)  ";
-  var guclu_yanlarin =
-    "Başkalarını geride bırakma ve mükemmelliğe ulaşma konusunda güçlü bir dürtüye sahipsin. Bu rekabet ruhu, sürekli olarak daha iyi performans ve daha yüksek standartlar için çaba göstermeni sağlar. İş dünyasında bu güç, yüksek başarı ve sonuç odaklılık gerektiren satış, pazarlama ve üst düzey liderlik gibi rollerde çok değerlidir.  ";
+  //var guclu_yanlarin_51_25_1 = "“Rekabet” Gücü (Quantum 51-25)  ";
+  //var guclu_yanlarin =
+  //  "Başkalarını geride bırakma ve mükemmelliğe ulaşma konusunda güçlü bir dürtüye sahipsin. Bu rekabet ruhu, sürekli olarak daha iyi performans ve daha yüksek standartlar için çaba göstermeni sağlar. İş dünyasında bu güç, yüksek başarı ve sonuç odaklılık gerektiren satış, pazarlama ve üst düzey liderlik gibi rollerde çok değerlidir.  ";
   var guclu_yanlarin116 =
     "Mükemmellik Peşinde Koşma Rekabetçiliğin, durmaksızın mükemmellik peşinde koşmanı sağlar. Hırslı hedefler belirlersin ve bunları gerçekleştirmeye kararlısındır. Genellikle geleneksel sınırların ötesine geçersin. Bu dürtü, senin ve ekibinin her zaman en üst düzey performansa ve sürekli iyileşmeye odaklanmasını sağlar.  ";
   var guclu_yanlarin117 =
