@@ -5066,7 +5066,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_1;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_question_1;
+        return krktr_ozl_40_plus_openness_to_experience_questions_1;
       }
     } else if (type == "question2") {
       if (big5Name == "Öz Disiplin") {
@@ -5078,7 +5078,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_2;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_question_2;
+        return krktr_ozl_40_plus_openness_to_experience_questions_2;
       }
     } else if (type == "question3") {
       if (big5Name == "self_discipline") {
@@ -5090,7 +5090,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Duygusal Dayanıklılık") {
         return krktr_ozl_40_plus_emotional_resilience_questions_3;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_question_3;
+        return krktr_ozl_40_plus_openness_to_experience_questions_3;
       }
     }
   };
