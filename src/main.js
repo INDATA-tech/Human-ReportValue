@@ -859,9 +859,9 @@ export default async ({ req, res, log, error }) => {
     );
   }
   careerSelectionLastResult.sort((a, b) => b.value - a.value);
-  logcareerSelectionLastResult);
-  loghollanddataPercent);
-  logbigdataPercent);
+  log(careerSelectionLastResult);
+  log(hollanddataPercent);
+  log(bigdataPercent);
 
   var careerSelectionData = [
     {
@@ -7631,7 +7631,7 @@ export default async ({ req, res, log, error }) => {
     }
   };
 
-  logtypeof rawData);
+  log(typeof rawData);
   var isim = Object.entries(rawData).find(
     (x) => x[0] == "kisiselbilgi / isim",
   )[1];
