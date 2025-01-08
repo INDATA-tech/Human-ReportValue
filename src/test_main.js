@@ -7805,66 +7805,18 @@ export default async ({ req, res, log, error }) => {
   var P28A4 = is_y_r(is_y_rData[0], 25, "s3_2");
   var P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1");
   //var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A1 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_1",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A2 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_2",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-  var P30A3 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_3",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"),
-  var P30A4 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_4",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-  var P30A5 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_5",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-  var P30A6 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_6",
-  );
-  var P31A1 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_1",
-  );
-  var P31A2 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_2",
-  );
-  var P31A3 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_3",
-  );
-  var P31A4 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_4",
-  );
-  var P31A5 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_5",
-  );
-  var P31A6 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_6",
-  );
+  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); // is_y_r(is_y_rData[0], 25, "s3_1"),
+  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+  var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+  var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+  var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+  var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+  var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+  var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+  var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
   var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
   var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
   var P34A3 = "İki Temel Unsur:";
