@@ -63,7 +63,7 @@ export default async ({ req, res, log, error }) => {
       return bIndex - aIndex;
     });
 
-    logsiraliGates);
+    log(siraliGates);
     // 4. Adım: Sıralanmış veriyi döndür
     return siraliGates;
   }
@@ -8099,7 +8099,7 @@ export default async ({ req, res, log, error }) => {
     graphteamwork: teamworkData,
   };
 
-  // loginputs_25_plus);
+  log(inputs_25_plus);
 
   const jsonString = JSON.stringify(inputs_25_plus)
   
