@@ -8,7 +8,7 @@ export default async ({ req, res, log, error }) => {
   //     .then(response => response.text())
   //     .then(data => {
   //         const satirlar = data.split('\n'); // Satırları ayır
-  //         console.log(satirlar[0]); // İlk satırı yazdır
+  //         logsatirlar[0]); // İlk satırı yazdır
   //         // Burada istediğiniz satırı `satirlar[index]` ile alabilirsiniz
   //     })
   //     .catch(error => console.error('Dosya okunamadı:', error));
@@ -63,7 +63,7 @@ export default async ({ req, res, log, error }) => {
       return bIndex - aIndex;
     });
 
-    console.log(siraliGates);
+    logsiraliGates);
     // 4. Adım: Sıralanmış veriyi döndür
     return siraliGates;
   }
@@ -859,9 +859,9 @@ export default async ({ req, res, log, error }) => {
     );
   }
   careerSelectionLastResult.sort((a, b) => b.value - a.value);
-  console.log(careerSelectionLastResult);
-  console.log(hollanddataPercent);
-  console.log(bigdataPercent);
+  logcareerSelectionLastResult);
+  loghollanddataPercent);
+  logbigdataPercent);
 
   var careerSelectionData = [
     {
@@ -7631,7 +7631,7 @@ export default async ({ req, res, log, error }) => {
     }
   };
 
-  console.log(typeof rawData);
+  logtypeof rawData);
   var isim = Object.entries(rawData).find(
     (x) => x[0] == "kisiselbilgi / isim",
   )[1];
@@ -8099,11 +8099,9 @@ export default async ({ req, res, log, error }) => {
     graphteamwork: teamworkData,
   };
 
-  // console.log(inputs_25_plus);
+  // loginputs_25_plus);
 
   const jsonString = JSON.stringify(inputs_25_plus)
-
-  const updateString = jsonString.replaceAll("\\\\","\\")
-
-  return inputs_25_plus;
+  
+  return res.send(inputs_25_plus);
 };
