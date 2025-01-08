@@ -1140,7 +1140,7 @@ export default async ({ req, res, log, error }) => {
   var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler";
   var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
   var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler";
-  var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü (Account manager)\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
+  var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
   var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler";
   var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nYönetici Asistanı\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
   var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
@@ -1395,368 +1395,368 @@ export default async ({ req, res, log, error }) => {
   // var kariyer_secim_12_25_s7_9_9 = "sağlık ve ilaç sektöründe yapılabilecek işler: "
   var kariyer_secim_12_25_s7_health_1_1 = "Yaratıcı ve Sanatsal Kariyerler ";
   var kariyer_secim_12_25_s7_health_1_2 = "Sağlık ve ilaç sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_health_1_3 = "Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_1_4 = "Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_1_5 = "Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_1_6 = "Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_1_7 = "İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_1_3 = " • Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_1_4 = " • Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_1_5 = " • Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_1_6 = " • Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_1_7 = " • İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_health_2_1 = "Liderlik ve Yönetim Kariyerleri ";
   var kariyer_secim_12_25_s7_health_2_2 = "Sağlık ve ilaç sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_health_2_3 = "Hastane Yöneticisi: Bir hastanenin operasyonel süreçlerini yönetebilir, personel ve kaynak yönetiminden sorumlu olabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_2_4 = "İlaç Firması Yöneticisi: İlaç üretim ve pazarlama süreçlerini yöneterek firmanın stratejik hedeflerine ulaşmasını sağlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_2_5 = "Sağlık Projesi Yöneticisi: Sağlık projeleri (hastane açılışları, tıbbi cihaz geliştirme) veya araştırmalarının başında bulunabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_2_6 = "Klinik Araştırma Müdürü: Yeni ilaçların klinik araştırma süreçlerini yöneterek, ilaç güvenliği ve etkinliğinin değerlendirilmesini sağlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_2_7 = "İnsan Kaynakları Yöneticisi (Sağlık): Sağlık çalışanlarının işe alım, eğitim ve performans yönetiminden sorumlu olabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_2_3 = " • Hastane Yöneticisi: Bir hastanenin operasyonel süreçlerini yönetebilir, personel ve kaynak yönetiminden sorumlu olabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_2_4 = " • İlaç Firması Yöneticisi: İlaç üretim ve pazarlama süreçlerini yöneterek firmanın stratejik hedeflerine ulaşmasını sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_2_5 = " • Sağlık Projesi Yöneticisi: Sağlık projeleri (hastane açılışları, tıbbi cihaz geliştirme) veya araştırmalarının başında bulunabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_2_6 = " • Klinik Araştırma Müdürü: Yeni ilaçların klinik araştırma süreçlerini yöneterek, ilaç güvenliği ve etkinliğinin değerlendirilmesini sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_2_7 = " • İnsan Kaynakları Yöneticisi (Sağlık): Sağlık çalışanlarının işe alım, eğitim ve performans yönetiminden sorumlu olabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_health_3_1 = "Yardım ve Sosyal Kariyerler";
   var kariyer_secim_12_25_s7_health_3_2 = "Sağlık ve ilaç sektöründe insanlara yardım edebileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_health_3_3 = "Hemşire: Hastaların bakımını üstlenebilir, tedavi süreçlerinde doktorlara yardımcı olabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_3_4 = "Sosyal Hizmet Uzmanı: Hastalar ve aileleri için rehberlik sağlayabilir, sosyal destek hizmetleri sunabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_3_5 = "Hasta Danışmanı: Hastaların tedavi süreçlerinde rehberlik ederek, onların sorularını yanıtlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_3_6 = "Terapist: Psikolojik ya da fiziksel tedavi sağlayarak hastaların sağlığına katkıda bulunabilirsiniz (fizyoterapist, psikolog, ergoterapist vb.). ";
-  var kariyer_secim_12_25_s7_health_3_7 = "Eczane Teknisyeni: İlaçların dağıtımı ve hastalara ilaç kullanımı konusunda danışmanlık hizmeti verebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_3_3 = " • Hemşire: Hastaların bakımını üstlenebilir, tedavi süreçlerinde doktorlara yardımcı olabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_3_4 = " • Sosyal Hizmet Uzmanı: Hastalar ve aileleri için rehberlik sağlayabilir, sosyal destek hizmetleri sunabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_3_5 = " • Hasta Danışmanı: Hastaların tedavi süreçlerinde rehberlik ederek, onların sorularını yanıtlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_3_6 = " • Terapist: Psikolojik ya da fiziksel tedavi sağlayarak hastaların sağlığına katkıda bulunabilirsiniz (fizyoterapist, psikolog, ergoterapist vb.). ";
+  var kariyer_secim_12_25_s7_health_3_7 = " • Eczane Teknisyeni: İlaçların dağıtımı ve hastalara ilaç kullanımı konusunda danışmanlık hizmeti verebilirsiniz. ";
 
   var kariyer_secim_12_25_s7_health_4_1 = "Teknik ve Mühendislik Kariyerleri";
   var kariyer_secim_12_25_s7_health_4_2 = "Sağlık ve ilaç sektöründe teknik becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_health_4_3 = "Biyomedikal Mühendisi: Tıbbi cihazlar geliştirerek hastaların tedavi süreçlerine katkı sağlayabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_4_4 = "Tıbbi Teknolog: Laboratuvarlarda tıbbi testler yapabilir, kan ve doku örnekleri analiz edebilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_4_5 = "Sağlık IT Uzmanı: Sağlık sistemleri ve veri tabanları üzerinde çalışarak sağlık hizmetlerinin teknolojik altyapısını sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_4_6 = "Tıbbi Cihaz Teknisyeni: Tıbbi cihazların bakım ve onarımını gerçekleştirerek hastanelerin teknik altyapısını destekleyebilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_4_7 = "Eczacılık Mühendisi: İlaç üretim süreçlerini denetleyebilir ve iyileştirme projeleri üzerinde çalışabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_4_3 = " • Biyomedikal Mühendisi: Tıbbi cihazlar geliştirerek hastaların tedavi süreçlerine katkı sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_4_4 = " • Tıbbi Teknolog: Laboratuvarlarda tıbbi testler yapabilir, kan ve doku örnekleri analiz edebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_4_5 = " • Sağlık IT Uzmanı: Sağlık sistemleri ve veri tabanları üzerinde çalışarak sağlık hizmetlerinin teknolojik altyapısını sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_4_6 = " • Tıbbi Cihaz Teknisyeni: Tıbbi cihazların bakım ve onarımını gerçekleştirerek hastanelerin teknik altyapısını destekleyebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_4_7 = " • Eczacılık Mühendisi: İlaç üretim süreçlerini denetleyebilir ve iyileştirme projeleri üzerinde çalışabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_health_5_1 = "Satış ve İlişki Kurma Kariyerleri";
   var kariyer_secim_12_25_s7_health_5_2 = "Sağlık ve ilaç sektöründe satış becerilerinizi ve müşteri ilişkilerinizi kullanabileceğiniz işler şunlar olabilir: ";
-  var kariyer_secim_12_25_s7_health_5_3 = "Tıbbi Satış Temsilcisi: Doktorlara, hastanelere veya eczanelere yeni ilaçlar ve tıbbi ürünler hakkında bilgi verip satış yapabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_5_4 = "Eczane Satış Danışmanı: Eczanelerde çalışarak müşterilere ilaçlar ve sağlık ürünleri hakkında bilgi verebilir, satış yapabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_5_5 = "İlaç Satış Müdürü: İlaç firmalarının satış ekiplerini yönetebilir, stratejik satış hedeflerine ulaşmak için ekibinizi yönlendirebilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_5_6 = "Tıbbi Ürün Pazarlama Uzmanı: İlaçların ve medikal ürünlerin pazarlama stratejilerini yöneterek, sağlık sektöründe marka bilinirliği yaratabilirsiniz. ";
-  var kariyer_secim_12_25_s7_health_5_7 = "Müşteri İlişkileri Yöneticisi (Sağlık): Sağlık hizmeti sağlayıcıları ve hastalarla uzun vadeli ilişkiler kurarak ihtiyaçlarına uygun çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_5_3 = " • Tıbbi Satış Temsilcisi: Doktorlara, hastanelere veya eczanelere yeni ilaçlar ve tıbbi ürünler hakkında bilgi verip satış yapabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_5_4 = " • Eczane Satış Danışmanı: Eczanelerde çalışarak müşterilere ilaçlar ve sağlık ürünleri hakkında bilgi verebilir, satış yapabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_5_5 = " • İlaç Satış Müdürü: İlaç firmalarının satış ekiplerini yönetebilir, stratejik satış hedeflerine ulaşmak için ekibinizi yönlendirebilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_5_6 = " • Tıbbi Ürün Pazarlama Uzmanı: İlaçların ve medikal ürünlerin pazarlama stratejilerini yöneterek, sağlık sektöründe marka bilinirliği yaratabilirsiniz. ";
+  var kariyer_secim_12_25_s7_health_5_7 = " • Müşteri İlişkileri Yöneticisi (Sağlık): Sağlık hizmeti sağlayıcıları ve hastalarla uzun vadeli ilişkiler kurarak ihtiyaçlarına uygun çözümler sunabilirsiniz.";
 
   var kariyer_secim_12_25_s7_health_6_1 = "Organizasyonel ve İdari Kariyerler";
   var kariyer_secim_12_25_s7_health_6_2 = "Sağlık ve ilaç sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_health_6_3 = "Hastane Yönetim Asistanı: Hastane içi organizasyonel süreçleri, personel ve hasta kayıt işlemlerini koordine edebilirsiniz.";
-  var kariyer_secim_12_25_s7_health_6_4 = "Tedarik Zinciri Uzmanı: İlaçların ve tıbbi malzemelerin tedarik süreçlerini yöneterek, stok ve dağıtım zincirini optimize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_health_6_5 = "Sağlık Proje Koordinatörü: Sağlık hizmeti sunan kuruluşların projelerini yönetebilir, ekipleri organize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_health_6_6 = "Tıbbi Sekreter: Hastaların randevu süreçlerini yönetebilir, doktorlar ve hastalar arasında iletişimi sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_6_7 = "İnsan Kaynakları Uzmanı: Sağlık sektöründeki personel alımlarını ve çalışan eğitimlerini organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_6_3 = " • Hastane Yönetim Asistanı: Hastane içi organizasyonel süreçleri, personel ve hasta kayıt işlemlerini koordine edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_6_4 = " • Tedarik Zinciri Uzmanı: İlaçların ve tıbbi malzemelerin tedarik süreçlerini yöneterek, stok ve dağıtım zincirini optimize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_6_5 = " • Sağlık Proje Koordinatörü: Sağlık hizmeti sunan kuruluşların projelerini yönetebilir, ekipleri organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_6_6 = " • Tıbbi Sekreter: Hastaların randevu süreçlerini yönetebilir, doktorlar ve hastalar arasında iletişimi sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_6_7 = " • İnsan Kaynakları Uzmanı: Sağlık sektöründeki personel alımlarını ve çalışan eğitimlerini organize edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_health_7_1 = "Yenilikçi ve Girişimci Kariyerler";
   var kariyer_secim_12_25_s7_health_7_2 = "Sağlık ve ilaç sektöründe yenilikçi fikirler ve girişimcilik ruhuyla çalışabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_health_7_3 = "Sağlık Teknolojisi Girişimcisi: Yeni sağlık teknolojileri (mobil uygulamalar, tıbbi cihazlar) geliştiren bir girişim başlatabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_7_4 = "Biyoteknoloji Girişimcisi: Yeni biyoteknolojik çözümler veya ilaçlar geliştirmek üzere kendi girişiminizi kurabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_7_5 = "Dijital Sağlık Girişimcisi: Dijital sağlık hizmetleri sunan bir platform veya uygulama geliştirerek sektörde fark yaratabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_7_6 = "Medikal Ürün Girişimcisi: Yenilikçi tıbbi ürünler geliştirip pazarlayarak sağlık sektöründe girişimcilik yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_7_7 = "İlaç Ar-Ge Yöneticisi: İlaç firmalarında araştırma ve geliştirme süreçlerini yönetebilir, yeni ilaçlar ve tedaviler üzerine çalışmalar yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_7_3 = " • Sağlık Teknolojisi Girişimcisi: Yeni sağlık teknolojileri (mobil uygulamalar, tıbbi cihazlar) geliştiren bir girişim başlatabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_7_4 = " • Biyoteknoloji Girişimcisi: Yeni biyoteknolojik çözümler veya ilaçlar geliştirmek üzere kendi girişiminizi kurabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_7_5 = " • Dijital Sağlık Girişimcisi: Dijital sağlık hizmetleri sunan bir platform veya uygulama geliştirerek sektörde fark yaratabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_7_6 = " • Medikal Ürün Girişimcisi: Yenilikçi tıbbi ürünler geliştirip pazarlayarak sağlık sektöründe girişimcilik yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_7_7 = " • İlaç Ar-Ge Yöneticisi: İlaç firmalarında araştırma ve geliştirme süreçlerini yönetebilir, yeni ilaçlar ve tedaviler üzerine çalışmalar yapabilirsiniz.";
 
   var kariyer_secim_12_25_s7_health_8_1 = "Öğretim ve Mentorluk Kariyerleri";
   var kariyer_secim_12_25_s7_health_8_2 = "Sağlık ve ilaç sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_health_8_3 = "Sağlık Eğitmeni: Hemşirelere, sağlık teknisyenlerine ya da doktorlara yönelik eğitimler vererek onların mesleki gelişimlerine katkıda bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_8_4 = "Tıp Fakültesi Öğretim Görevlisi: Tıp öğrencilerine ders vererek, yeni nesil doktorların yetişmesine katkı sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_8_5 = "Eczacılık Eğitmeni: Eczacılık öğrencilerine veya teknisyenlerine yönelik eğitimler vererek ilaç bilimi konusunda bilgi aktarabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_8_6 = "Sağlık ve Güvenlik Eğitmeni: Sağlık kurumlarında çalışanlara iş güvenliği ve hasta güvenliği eğitimleri sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_8_7 = "Mentor (Sağlık Profesyonelleri): Deneyimli bir sağlık profesyoneli olarak, yeni mezunlara ya da genç çalışanlara rehberlik edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_8_3 = " • Sağlık Eğitmeni: Hemşirelere, sağlık teknisyenlerine ya da doktorlara yönelik eğitimler vererek onların mesleki gelişimlerine katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_8_4 = " • Tıp Fakültesi Öğretim Görevlisi: Tıp öğrencilerine ders vererek, yeni nesil doktorların yetişmesine katkı sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_8_5 = " • Eczacılık Eğitmeni: Eczacılık öğrencilerine veya teknisyenlerine yönelik eğitimler vererek ilaç bilimi konusunda bilgi aktarabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_8_6 = " • Sağlık ve Güvenlik Eğitmeni: Sağlık kurumlarında çalışanlara iş güvenliği ve hasta güvenliği eğitimleri sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_8_7 = " • Mentor (Sağlık Profesyonelleri): Deneyimli bir sağlık profesyoneli olarak, yeni mezunlara ya da genç çalışanlara rehberlik edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_health_9_1 = "Analitik ve Veri Odaklı Kariyerler";
   var kariyer_secim_12_25_s7_health_9_2 = "Sağlık ve ilaç sektöründe analitik becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_health_9_3 = "Sağlık Veri Analisti: Hastaların tedavi süreçlerini ve sağlık hizmetlerinin performansını analiz ederek veri odaklı çözümler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_health_9_4 = "Klinik Veri Yöneticisi: İlaç firmaları veya hastanelerde klinik araştırmalardan elde edilen verileri yönetebilir, analiz edebilirsiniz.";
-  var kariyer_secim_12_25_s7_health_9_5 = "Sağlık Ekonomisi Analisti: Sağlık hizmetlerinin maliyetlerini analiz edip, ekonomik çözümler sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_9_6 = "Biyoinformatik Uzmanı: Genom ve biyomedikal verileri analiz ederek ilaç geliştirme süreçlerine katkıda bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_health_9_7 = "Kalite Kontrol Analisti: İlaç üretim süreçlerinin kalitesini analiz ederek, güvenli ve etkili ürünler üretilmesini sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_9_3 = " • Sağlık Veri Analisti: Hastaların tedavi süreçlerini ve sağlık hizmetlerinin performansını analiz ederek veri odaklı çözümler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_9_4 = " • Klinik Veri Yöneticisi: İlaç firmaları veya hastanelerde klinik araştırmalardan elde edilen verileri yönetebilir, analiz edebilirsiniz.";
+  var kariyer_secim_12_25_s7_health_9_5 = " • Sağlık Ekonomisi Analisti: Sağlık hizmetlerinin maliyetlerini analiz edip, ekonomik çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_9_6 = " • Biyoinformatik Uzmanı: Genom ve biyomedikal verileri analiz ederek ilaç geliştirme süreçlerine katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_health_9_7 = " • Kalite Kontrol Analisti: İlaç üretim süreçlerinin kalitesini analiz ederek, güvenli ve etkili ürünler üretilmesini sağlayabilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
   var kariyer_secim_12_25_s7_tech_1_2 = "Teknoloji sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_1_3 = "UX/UI Tasarımcısı: Web siteleri ve mobil uygulamaların kullanıcı deneyimini ve arayüzünü tasarlayarak kullanıcı dostu çözümler üretebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_1_4 = "Oyun Tasarımcısı: Video oyunlarının konseptini ve görsellerini geliştirerek yaratıcı dünyalar ve karakterler oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_1_5 = "Grafik Tasarımcı (Dijital): Teknoloji firmalarının dijital pazarlama materyalleri ve web grafikleri için görseller tasarlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_1_6 = "Web Tasarımcısı: Web sitelerinin estetik görünümünü ve işlevselliğini oluşturabilir, yaratıcı çözümler sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_1_7 = "Animasyon Uzmanı: 3D modelleme, animasyon ve dijital efektler oluşturarak reklamlar, oyunlar ya da filmler için görsel içerik üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_1_3 = " • UX/UI Tasarımcısı: Web siteleri ve mobil uygulamaların kullanıcı deneyimini ve arayüzünü tasarlayarak kullanıcı dostu çözümler üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_1_4 = " • Oyun Tasarımcısı: Video oyunlarının konseptini ve görsellerini geliştirerek yaratıcı dünyalar ve karakterler oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_1_5 = " • Grafik Tasarımcı (Dijital): Teknoloji firmalarının dijital pazarlama materyalleri ve web grafikleri için görseller tasarlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_1_6 = " • Web Tasarımcısı: Web sitelerinin estetik görünümünü ve işlevselliğini oluşturabilir, yaratıcı çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_1_7 = " • Animasyon Uzmanı: 3D modelleme, animasyon ve dijital efektler oluşturarak reklamlar, oyunlar ya da filmler için görsel içerik üretebilirsiniz.";
   
   var kariyer_secim_12_25_s7_tech_2_1 = "Liderlik ve Yönetim Kariyerleri";
   var kariyer_secim_12_25_s7_tech_2_2 = "Teknoloji sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_2_3 = "Proje Yöneticisi (Teknoloji): Yazılım geliştirme veya teknoloji projelerini yönetebilir, takımları organize ederek projeleri zamanında tamamlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_2_4 = "IT Yöneticisi: Şirketin bilgi teknolojileri altyapısını yönetebilir, yazılım ve donanım çözümleri geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_2_5 = "Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_2_6 = "Teknoloji Danışmanı: Firmalara teknoloji stratejileri geliştirerek iş süreçlerini optimize etmelerine yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_2_7 = "CTO (Chief Technology Officer): Bir şirketin teknoloji vizyonunu belirleyebilir, teknolojik yatırımları ve inovasyonu yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_2_3 = " • Proje Yöneticisi (Teknoloji): Yazılım geliştirme veya teknoloji projelerini yönetebilir, takımları organize ederek projeleri zamanında tamamlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_2_4 = " • IT Yöneticisi: Şirketin bilgi teknolojileri altyapısını yönetebilir, yazılım ve donanım çözümleri geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_2_5 = " • Ürün Yöneticisi: Yeni teknolojik ürünlerin geliştirilmesinde sorumluluk alarak, ürünün pazara uyumlu olmasını sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_2_6 = " • Teknoloji Danışmanı: Firmalara teknoloji stratejileri geliştirerek iş süreçlerini optimize etmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_2_7 = " • CTO (Chief Technology Officer): Bir şirketin teknoloji vizyonunu belirleyebilir, teknolojik yatırımları ve inovasyonu yönetebilirsiniz.";
   
   var kariyer_secim_12_25_s7_tech_3_1 = "Yardım ve Sosyal Kariyerler";
   var kariyer_secim_12_25_s7_tech_3_2 = "Teknoloji sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_3_3 = "IT Destek Uzmanı: Kullanıcılara teknik destek sağlayarak bilgisayar, yazılım ve ağ sorunlarını çözebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_3_4 = "Teknoloji Eğitmeni: Çalışanlara veya öğrencilere teknoloji ve yazılım eğitimleri vererek dijital becerilerini geliştirmelerine yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_3_5 = "Kullanıcı Destek Uzmanı: Yazılım ya da teknoloji ürünleri hakkında kullanıcıların sorularını yanıtlayabilir, teknik problemlerini çözmelerine yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_3_6 = "Sosyal Girişimci (Teknoloji): Teknoloji yoluyla sosyal problemlere çözüm üreten projeler geliştirerek toplum yararına işler yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_3_7 = "Dijital Erişilebilirlik Uzmanı: Engelli bireylerin teknolojiyi daha rahat kullanabilmesi için yazılım ve donanım çözümleri geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_3_3 = " • IT Destek Uzmanı: Kullanıcılara teknik destek sağlayarak bilgisayar, yazılım ve ağ sorunlarını çözebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_3_4 = " • Teknoloji Eğitmeni: Çalışanlara veya öğrencilere teknoloji ve yazılım eğitimleri vererek dijital becerilerini geliştirmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_3_5 = " • Kullanıcı Destek Uzmanı: Yazılım ya da teknoloji ürünleri hakkında kullanıcıların sorularını yanıtlayabilir, teknik problemlerini çözmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_3_6 = " • Sosyal Girişimci (Teknoloji): Teknoloji yoluyla sosyal problemlere çözüm üreten projeler geliştirerek toplum yararına işler yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_3_7 = " • Dijital Erişilebilirlik Uzmanı: Engelli bireylerin teknolojiyi daha rahat kullanabilmesi için yazılım ve donanım çözümleri geliştirebilirsiniz.";
   
   var kariyer_secim_12_25_s7_tech_4_1 = "Teknik ve Mühendislik Kariyerleri";
   var kariyer_secim_12_25_s7_tech_4_2 = "Teknoloji sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_4_3 = "Yazılım Geliştirici: Web, mobil uygulama ya da oyun yazılımları geliştirebilir, kodlama becerilerinizi kullanarak çözümler üretebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_4_4 = "Veri Mühendisi: Büyük veri setlerini işleyerek, şirketlerin veri yönetim süreçlerini optimize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_4_5 = "Ağ Mühendisi: Şirketlerin bilgi ağlarını kurabilir, güvenli ve verimli ağ çözümleri sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_4_6 = "Siber Güvenlik Uzmanı: Sistemlerin güvenliğini sağlamak için siber saldırılara karşı güvenlik önlemleri alabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_4_7 = "Yapay Zeka Mühendisi: Yapay zeka algoritmaları geliştirerek makine öğrenmesi, robotik ve otomasyon gibi alanlarda projeler üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_4_3 = " • Yazılım Geliştirici: Web, mobil uygulama ya da oyun yazılımları geliştirebilir, kodlama becerilerinizi kullanarak çözümler üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_4_4 = " • Veri Mühendisi: Büyük veri setlerini işleyerek, şirketlerin veri yönetim süreçlerini optimize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_4_5 = " • Ağ Mühendisi: Şirketlerin bilgi ağlarını kurabilir, güvenli ve verimli ağ çözümleri sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_4_6 = " • Siber Güvenlik Uzmanı: Sistemlerin güvenliğini sağlamak için siber saldırılara karşı güvenlik önlemleri alabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_4_7 = " • Yapay Zeka Mühendisi: Yapay zeka algoritmaları geliştirerek makine öğrenmesi, robotik ve otomasyon gibi alanlarda projeler üretebilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_5_1 = "Satış ve İlişki Kurma Kariyerleri";
   var kariyer_secim_12_25_s7_tech_5_2 = "Teknoloji sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_5_3 = "Teknoloji Satış Uzmanı: Şirketlere ya da bireylere yazılım, donanım ve bulut çözümleri satarak müşterilere uygun teknolojik çözümler sunabilirsiniz. ";
-  var kariyer_secim_12_25_s7_tech_5_4 = "Müşteri Başarı Yöneticisi: Teknoloji ürünlerini kullanan müşterilere destek sağlayarak, ürünlerin verimli kullanımlarını sağlamalarına yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_5_5 = "Teknoloji Ürünleri Satış Müdürü: Satış ekiplerini yönetebilir, teknoloji ürünlerinin pazar stratejilerini geliştirip uygulayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_5_6 = "Dijital Pazarlama Uzmanı: Teknoloji firmalarının ürünlerini dijital platformlarda tanıtarak satış stratejileri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_5_7 = "İş Geliştirme Uzmanı (Teknoloji): Yeni müşteri ve iş fırsatları geliştirerek teknoloji firmalarının büyümesine katkı sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_5_3 = " • Teknoloji Satış Uzmanı: Şirketlere ya da bireylere yazılım, donanım ve bulut çözümleri satarak müşterilere uygun teknolojik çözümler sunabilirsiniz. ";
+  var kariyer_secim_12_25_s7_tech_5_4 = " • Müşteri Başarı Yöneticisi: Teknoloji ürünlerini kullanan müşterilere destek sağlayarak, ürünlerin verimli kullanımlarını sağlamalarına yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_5_5 = " • Teknoloji Ürünleri Satış Müdürü: Satış ekiplerini yönetebilir, teknoloji ürünlerinin pazar stratejilerini geliştirip uygulayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_5_6 = " • Dijital Pazarlama Uzmanı: Teknoloji firmalarının ürünlerini dijital platformlarda tanıtarak satış stratejileri oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_5_7 = " • İş Geliştirme Uzmanı (Teknoloji): Yeni müşteri ve iş fırsatları geliştirerek teknoloji firmalarının büyümesine katkı sağlayabilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_6_1 = "Organizasyonel ve İdari Kariyerler";
   var kariyer_secim_12_25_s7_tech_6_2 = "Teknoloji sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_6_3 = "Ofis Yöneticisi (Teknoloji): Bir teknoloji firmasının günlük operasyonlarını ve idari süreçlerini yönetebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_6_4 = "Proje Koordinatörü: Teknoloji projelerinde ekipler arasında koordinasyon sağlayarak işlerin zamanında ve düzenli bir şekilde ilerlemesini sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_6_5 = "Bilgi Teknolojileri Yönetici Asistanı: IT yöneticilerinin programlarını düzenleyebilir, toplantıları ve proje süreçlerini takip edebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_6_6 = "İnsan Kaynakları Uzmanı (Teknoloji): Teknoloji firmalarında personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_6_7 = "Dijital İşlem Uzmanı: Teknoloji firmalarının dijital operasyonlarını yöneterek veri işleme, dosya yönetimi ve dijital süreçleri optimize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_6_3 = " • Ofis Yöneticisi (Teknoloji): Bir teknoloji firmasının günlük operasyonlarını ve idari süreçlerini yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_6_4 = " • Proje Koordinatörü: Teknoloji projelerinde ekipler arasında koordinasyon sağlayarak işlerin zamanında ve düzenli bir şekilde ilerlemesini sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_6_5 = " • Bilgi Teknolojileri Yönetici Asistanı: IT yöneticilerinin programlarını düzenleyebilir, toplantıları ve proje süreçlerini takip edebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_6_6 = " • İnsan Kaynakları Uzmanı (Teknoloji): Teknoloji firmalarında personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_6_7 = " • Dijital İşlem Uzmanı: Teknoloji firmalarının dijital operasyonlarını yöneterek veri işleme, dosya yönetimi ve dijital süreçleri optimize edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_7_1 = "Yenilikçi ve Girişimci Kariyerler";
   var kariyer_secim_12_25_s7_tech_7_2 = "Teknoloji sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_7_3 = "Start-Up Kurucusu (Teknoloji): Yeni teknoloji girişimleri kurarak inovatif ürünler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_7_4 = "Yazılım Girişimcisi: Kendi yazılım projelerinizi geliştirerek piyasaya yeni dijital çözümler sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_7_5 = "Teknoloji İnovasyon Danışmanı: Şirketlere yenilikçi teknolojik çözümler sunarak iş süreçlerini dijitalleştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_7_6 = "Dijital Ürün Geliştirici: Yeni dijital ürünler, uygulamalar ya da platformlar oluşturarak teknoloji dünyasında fark yaratabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_7_7 = "Blockchain Girişimcisi: Blockchain teknolojisi üzerine projeler geliştirerek finans, güvenlik ya da lojistik gibi sektörlere yenilikçi çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_7_3 = " • Start-Up Kurucusu (Teknoloji): Yeni teknoloji girişimleri kurarak inovatif ürünler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_7_4 = " • Yazılım Girişimcisi: Kendi yazılım projelerinizi geliştirerek piyasaya yeni dijital çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_7_5 = " • Teknoloji İnovasyon Danışmanı: Şirketlere yenilikçi teknolojik çözümler sunarak iş süreçlerini dijitalleştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_7_6 = " • Dijital Ürün Geliştirici: Yeni dijital ürünler, uygulamalar ya da platformlar oluşturarak teknoloji dünyasında fark yaratabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_7_7 = " • Blockchain Girişimcisi: Blockchain teknolojisi üzerine projeler geliştirerek finans, güvenlik ya da lojistik gibi sektörlere yenilikçi çözümler sunabilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_8_1 = "Öğretim ve Mentorluk Kariyerleri";
   var kariyer_secim_12_25_s7_tech_8_2 = "Teknoloji sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_8_3 = "Yazılım Eğitmeni: Genç yazılımcılara ya da profesyonellere yazılım dilleri ve teknolojik çözümler konusunda eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_8_4 = "Teknoloji Koçu: Teknoloji alanında yeni başlayanlara ya da genç profesyonellere rehberlik ederek kariyer gelişimlerine katkıda bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_8_5 = "Dijital Eğitim Uzmanı: Online eğitim platformlarında ya da eğitim kurumlarında teknoloji odaklı dersler ve eğitim materyalleri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_8_6 = "STEM Eğitmeni: Okullarda ya da özel kurslarda fen, teknoloji, mühendislik ve matematik (STEM) eğitimleri vererek gençleri bu alanlara yönlendirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_8_7 = "Mentor (Teknoloji): Start-up kurucuları ya da teknoloji profesyonellerine iş geliştirme, ürün yönetimi ya da yazılım geliştirme konularında rehberlik edebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_8_3 = " • Yazılım Eğitmeni: Genç yazılımcılara ya da profesyonellere yazılım dilleri ve teknolojik çözümler konusunda eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_8_4 = " • Teknoloji Koçu: Teknoloji alanında yeni başlayanlara ya da genç profesyonellere rehberlik ederek kariyer gelişimlerine katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_8_5 = " • Dijital Eğitim Uzmanı: Online eğitim platformlarında ya da eğitim kurumlarında teknoloji odaklı dersler ve eğitim materyalleri oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_8_6 = " • STEM Eğitmeni: Okullarda ya da özel kurslarda fen, teknoloji, mühendislik ve matematik (STEM) eğitimleri vererek gençleri bu alanlara yönlendirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_8_7 = " • Mentor (Teknoloji): Start-up kurucuları ya da teknoloji profesyonellerine iş geliştirme, ürün yönetimi ya da yazılım geliştirme konularında rehberlik edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_tech_9_1 = "Analitik ve Veri Odaklı Kariyerler";
   var kariyer_secim_12_25_s7_tech_9_2 = "Teknoloji sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_tech_9_3 = "Veri Bilimcisi: Büyük veri setlerini analiz ederek, şirketlerin iş süreçlerini optimize edecek içgörüler üretebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_9_4 = "İş Zekası Analisti: Şirketlerin stratejik kararlarını desteklemek için veri analizi yaparak raporlar ve çözümler sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_9_5 = "Yapay Zeka Analisti: Yapay zeka algoritmaları ve makine öğrenmesi üzerine çalışmalar yaparak veri odaklı projeler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_9_6 = "SEO Uzmanı: Web sitelerinin arama motorlarında daha iyi performans göstermesi için analizler yapabilir ve stratejiler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_9_7 = "Blockchain Analisti: Blockchain teknolojisi ile ilgili verileri analiz ederek, güvenli ve şeffaf dijital çözümler üretebilirsiniz.";
-  var kariyer_secim_12_25_s7_tech_9_8 = "Teknoloji sektörü, her kariyer tipine uygun geniş bir yelpazede iş fırsatları sunuyor. Bu sektör, yenilikçi, teknik, yaratıcı ve organizasyonel becerilere sahip kişiler için oldukça uygun kariyer seçenekleri barındırıyor.";
+  var kariyer_secim_12_25_s7_tech_9_3 = " • Veri Bilimcisi: Büyük veri setlerini analiz ederek, şirketlerin iş süreçlerini optimize edecek içgörüler üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_9_4 = " • İş Zekası Analisti: Şirketlerin stratejik kararlarını desteklemek için veri analizi yaparak raporlar ve çözümler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_9_5 = " • Yapay Zeka Analisti: Yapay zeka algoritmaları ve makine öğrenmesi üzerine çalışmalar yaparak veri odaklı projeler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_9_6 = " • SEO Uzmanı: Web sitelerinin arama motorlarında daha iyi performans göstermesi için analizler yapabilir ve stratejiler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_9_7 = " • Blockchain Analisti: Blockchain teknolojisi ile ilgili verileri analiz ederek, güvenli ve şeffaf dijital çözümler üretebilirsiniz.";
+  var kariyer_secim_12_25_s7_tech_9_8 = " • Teknoloji sektörü, her kariyer tipine uygun geniş bir yelpazede iş fırsatları sunuyor. Bu sektör, yenilikçi, teknik, yaratıcı ve organizasyonel becerilere sahip kişiler için oldukça uygun kariyer seçenekleri barındırıyor.";
 
   var kariyer_secim_12_25_s7_dress_1_1 = "Yaratıcı ve Sanatsal Kariyerler "; 
   var kariyer_secim_12_25_s7_dress_1_2 = "Hazır giyim sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_1_3 = "Moda Tasarımcısı: Kendi kıyafet koleksiyonlarınızı tasarlayarak veya bir moda markası için özgün tasarımlar geliştirerek yaratıcı yönünüzü ortaya koyabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_1_4 = "Stylist (Stilist): Ünlüler, markalar veya moda çekimleri için kıyafet seçimleri yapabilir, kombin önerileri sunabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_1_5 = "Görsel Düzenleme Uzmanı (Visual Merchandiser): Mağaza vitrinlerini ve iç tasarımlarını yaparak ürünlerin daha çekici görünmesini sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_1_6 = "Moda İllüstratörü: Moda koleksiyonlarının çizimlerini yaparak tasarımları görsel olarak ifade edebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_1_7 = "Kostüm Tasarımcısı: Tiyatro, film veya dizi prodüksiyonları için karakterlerin kostümlerini tasarlayarak giyim alanındaki yaratıcılığınızı kullanabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_1_3 = " • Moda Tasarımcısı: Kendi kıyafet koleksiyonlarınızı tasarlayarak veya bir moda markası için özgün tasarımlar geliştirerek yaratıcı yönünüzü ortaya koyabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_1_4 = " • Stylist (Stilist): Ünlüler, markalar veya moda çekimleri için kıyafet seçimleri yapabilir, kombin önerileri sunabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_1_5 = " • Görsel Düzenleme Uzmanı (Visual Merchandiser): Mağaza vitrinlerini ve iç tasarımlarını yaparak ürünlerin daha çekici görünmesini sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_1_6 = " • Moda İllüstratörü: Moda koleksiyonlarının çizimlerini yaparak tasarımları görsel olarak ifade edebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_1_7 = " • Kostüm Tasarımcısı: Tiyatro, film veya dizi prodüksiyonları için karakterlerin kostümlerini tasarlayarak giyim alanındaki yaratıcılığınızı kullanabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_2_1 = "Liderlik ve Yönetim Kariyerleri "; 
   var kariyer_secim_12_25_s7_dress_2_2 = "Hazır giyim sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_2_3 = "Mağaza Müdürü: Büyük bir moda perakende mağazasını yönetebilir, satış stratejileri geliştirebilir ve personeli yönlendirebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_2_4 = "Üretim Müdürü: Giyim üretim süreçlerini yönetebilir, kalite kontrol ve verimlilik konularında sorumluluk alabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_2_5 = "Satış Müdürü: Hazır giyim ürünlerinin satış stratejilerini belirleyebilir ve satış ekibini yönetebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_2_6 = "Tedarik Zinciri Yöneticisi: Giyim markalarının üretimden mağazalara kadar olan tedarik zincirini yöneterek, ürünlerin doğru zamanda doğru yerlere ulaşmasını sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_2_7 = "Bölge Müdürü: Birden fazla mağazanın performansını denetleyerek, satış ve operasyon süreçlerini koordine edebilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_2_3 = " • Mağaza Müdürü: Büyük bir moda perakende mağazasını yönetebilir, satış stratejileri geliştirebilir ve personeli yönlendirebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_2_4 = " • Üretim Müdürü: Giyim üretim süreçlerini yönetebilir, kalite kontrol ve verimlilik konularında sorumluluk alabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_2_5 = " • Satış Müdürü: Hazır giyim ürünlerinin satış stratejilerini belirleyebilir ve satış ekibini yönetebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_2_6 = " • Tedarik Zinciri Yöneticisi: Giyim markalarının üretimden mağazalara kadar olan tedarik zincirini yöneterek, ürünlerin doğru zamanda doğru yerlere ulaşmasını sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_2_7 = " • Bölge Müdürü: Birden fazla mağazanın performansını denetleyerek, satış ve operasyon süreçlerini koordine edebilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_3_1 = "Yardım ve Sosyal Kariyerler "; 
   var kariyer_secim_12_25_s7_dress_3_2 = "Hazır giyim sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_3_3 = "Moda Danışmanı (Mağaza): Müşterilere kıyafet seçimlerinde yardımcı olabilir, onların tarzlarına uygun kombinler önererek sosyal becerilerinizi kullanabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_3_4 = "Sürdürülebilir Moda Uzmanı: Çevre dostu ve etik giyim üretimi üzerine çalışmalar yaparak topluma ve çevreye katkıda bulunabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_3_5 = "Müşteri Hizmetleri Uzmanı: Giyim mağazalarında ya da moda markalarında müşterilere yardımcı olabilir, ürünler hakkında destek sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_3_6 = "Moda Bağış Organizasyonları Koordinatörü: İhtiyaç sahiplerine giyim bağışı yapmak üzere organizasyonlar düzenleyebilir, sosyal sorumluluk projelerinde yer alabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_3_7 = "Kariyer Danışmanı (Moda): Gençlere ve öğrencilere moda sektöründe kariyer olanakları hakkında rehberlik yapabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_3_3 = " • Moda Danışmanı (Mağaza): Müşterilere kıyafet seçimlerinde yardımcı olabilir, onların tarzlarına uygun kombinler önererek sosyal becerilerinizi kullanabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_3_4 = " • Sürdürülebilir Moda Uzmanı: Çevre dostu ve etik giyim üretimi üzerine çalışmalar yaparak topluma ve çevreye katkıda bulunabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_3_5 = " • Müşteri Hizmetleri Uzmanı: Giyim mağazalarında ya da moda markalarında müşterilere yardımcı olabilir, ürünler hakkında destek sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_3_6 = " • Moda Bağış Organizasyonları Koordinatörü: İhtiyaç sahiplerine giyim bağışı yapmak üzere organizasyonlar düzenleyebilir, sosyal sorumluluk projelerinde yer alabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_3_7 = " • Kariyer Danışmanı (Moda): Gençlere ve öğrencilere moda sektöründe kariyer olanakları hakkında rehberlik yapabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_4_1 = "Teknik ve Mühendislik Kariyerleri "; 
   var kariyer_secim_12_25_s7_dress_4_2 = "Hazır giyim sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_4_3 = "Tekstil Mühendisi: Giyim üretiminde kullanılan kumaş ve malzemelerin kalitesini denetleyebilir, üretim süreçlerini iyileştirebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_4_4 = "Üretim Teknolojileri Uzmanı: Giyim üretiminde kullanılan makinelerin ve üretim teknolojilerinin verimli çalışmasını sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_4_5 = "Kalıp Tasarımcısı: Kıyafetlerin kalıplarını teknik çizimlerle oluşturabilir, üretim aşamasında doğru kesimlerin yapılmasını sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_4_6 = "Kumaş Teknoloğu: Kumaşların üretimi, geliştirilmesi ve performans testlerini yaparak teknik bilgi birikiminizi kullanabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_4_7 = "Üretim Otomasyonu Uzmanı: Giyim üretim hatlarının otomatikleşmesini sağlayacak çözümler geliştirerek üretim süreçlerini optimize edebilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_4_3 = " • Tekstil Mühendisi: Giyim üretiminde kullanılan kumaş ve malzemelerin kalitesini denetleyebilir, üretim süreçlerini iyileştirebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_4_4 = " • Üretim Teknolojileri Uzmanı: Giyim üretiminde kullanılan makinelerin ve üretim teknolojilerinin verimli çalışmasını sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_4_5 = " • Kalıp Tasarımcısı: Kıyafetlerin kalıplarını teknik çizimlerle oluşturabilir, üretim aşamasında doğru kesimlerin yapılmasını sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_4_6 = " • Kumaş Teknoloğu: Kumaşların üretimi, geliştirilmesi ve performans testlerini yaparak teknik bilgi birikiminizi kullanabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_4_7 = " • Üretim Otomasyonu Uzmanı: Giyim üretim hatlarının otomatikleşmesini sağlayacak çözümler geliştirerek üretim süreçlerini optimize edebilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_5_1 = "Satış ve İlişki Kurma Kariyerleri "; 
   var kariyer_secim_12_25_s7_dress_5_2 = "Hazır giyim sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_5_3 = "Perakende Satış Danışmanı: Mağazalarda müşteri ilişkilerini yöneterek giyim ürünlerinin satışını yapabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_5_4 = "Bayi Yöneticisi: Giyim markalarının bayilikleriyle ilişkileri yönetebilir, satış süreçlerini takip edebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_5_5 = "Moda Pazarlama Uzmanı: Giyim markalarının reklam kampanyalarını ve dijital pazarlama stratejilerini oluşturarak ürünlerin tanıtımını yapabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_5_6 = "Müşteri İlişkileri Yöneticisi: Büyük moda markaları için müşteri deneyimini yönetebilir, müşteri memnuniyetini artırmak için stratejiler geliştirebilirsiniz."; 
-  var kariyer_secim_12_25_s7_dress_5_7 = "İş Geliştirme Uzmanı (Moda): Giyim markalarının yeni iş fırsatlarını değerlendirmelerine ve müşteri portföylerini genişletmelerine yardımcı olabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_5_3 = " • Perakende Satış Danışmanı: Mağazalarda müşteri ilişkilerini yöneterek giyim ürünlerinin satışını yapabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_5_4 = " • Bayi Yöneticisi: Giyim markalarının bayilikleriyle ilişkileri yönetebilir, satış süreçlerini takip edebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_5_5 = " • Moda Pazarlama Uzmanı: Giyim markalarının reklam kampanyalarını ve dijital pazarlama stratejilerini oluşturarak ürünlerin tanıtımını yapabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_5_6 = " • Müşteri İlişkileri Yöneticisi: Büyük moda markaları için müşteri deneyimini yönetebilir, müşteri memnuniyetini artırmak için stratejiler geliştirebilirsiniz."; 
+  var kariyer_secim_12_25_s7_dress_5_7 = " • İş Geliştirme Uzmanı (Moda): Giyim markalarının yeni iş fırsatlarını değerlendirmelerine ve müşteri portföylerini genişletmelerine yardımcı olabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_6_1 = "Organizasyonel ve İdari Kariyerler "; 
   var kariyer_secim_12_25_s7_dress_6_2 = "Hazır giyim sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_6_3 = "Mağaza Yönetici Asistanı: Mağazanın idari işlerini ve personel yönetimini destekleyerek, mağaza operasyonlarının sorunsuz ilerlemesini sağlayabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_6_4 = "Stok Kontrol Uzmanı: Mağazaların stok yönetimini yapabilir, ürünlerin tedarik ve satış süreçlerini optimize edebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_6_5 = "İnsan Kaynakları Uzmanı (Moda): Giyim firmalarında personel alımı, eğitim ve performans yönetimi gibi idari süreçleri organize edebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_6_6 = "Proje Koordinatörü (Moda Etkinlikleri): Moda markalarının düzenlediği etkinlikleri ve lansmanları organize edebilir, etkinlik süreçlerini yönetebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_6_7 = "Lojistik Uzmanı: Giyim ürünlerinin depolanması ve dağıtılması süreçlerini organize ederek tedarik zinciri yönetimine katkı sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_6_3 = " • Mağaza Yönetici Asistanı: Mağazanın idari işlerini ve personel yönetimini destekleyerek, mağaza operasyonlarının sorunsuz ilerlemesini sağlayabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_6_4 = " • Stok Kontrol Uzmanı: Mağazaların stok yönetimini yapabilir, ürünlerin tedarik ve satış süreçlerini optimize edebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_6_5 = " • İnsan Kaynakları Uzmanı (Moda): Giyim firmalarında personel alımı, eğitim ve performans yönetimi gibi idari süreçleri organize edebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_6_6 = " • Proje Koordinatörü (Moda Etkinlikleri): Moda markalarının düzenlediği etkinlikleri ve lansmanları organize edebilir, etkinlik süreçlerini yönetebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_6_7 = " • Lojistik Uzmanı: Giyim ürünlerinin depolanması ve dağıtılması süreçlerini organize ederek tedarik zinciri yönetimine katkı sağlayabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_7_1 = "Yenilikçi ve Girişimci Kariyerler "; 
   var kariyer_secim_12_25_s7_dress_7_2 = "Hazır giyim sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_7_3 = "Moda Girişimcisi: Kendi moda markanızı kurarak yenilikçi tasarımlarınızı piyasaya sürebilir ve kendi işinizi yönetebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_7_4 = "E-Ticaret Girişimcisi: Kendi online giyim mağazanızı kurarak dijital ortamda moda ürünleri satabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_7_5 = "Sürdürülebilir Moda Girişimcisi: Çevre dostu ve geri dönüştürülebilir materyallerle giyim ürünleri üreterek bu alanda bir girişim başlatabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_7_6 = "Moda Teknoloji Girişimcisi: Giyim teknolojisi, akıllı kumaşlar veya inovatif üretim yöntemleri üzerine çalışmalar yaparak sektörde fark yaratabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_7_7 = "Tasarım Danışmanlığı: Moda tasarım danışmanlığı yaparak diğer markalara yenilikçi tasarımlar geliştirme konusunda rehberlik edebilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_7_3 = " • Moda Girişimcisi: Kendi moda markanızı kurarak yenilikçi tasarımlarınızı piyasaya sürebilir ve kendi işinizi yönetebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_7_4 = " • E-Ticaret Girişimcisi: Kendi online giyim mağazanızı kurarak dijital ortamda moda ürünleri satabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_7_5 = " • Sürdürülebilir Moda Girişimcisi: Çevre dostu ve geri dönüştürülebilir materyallerle giyim ürünleri üreterek bu alanda bir girişim başlatabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_7_6 = " • Moda Teknoloji Girişimcisi: Giyim teknolojisi, akıllı kumaşlar veya inovatif üretim yöntemleri üzerine çalışmalar yaparak sektörde fark yaratabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_7_7 = " • Tasarım Danışmanlığı: Moda tasarım danışmanlığı yaparak diğer markalara yenilikçi tasarımlar geliştirme konusunda rehberlik edebilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_8_1 = "Öğretim ve Mentorluk Kariyerleri "; 
   var kariyer_secim_12_25_s7_dress_8_2 = "Hazır giyim sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir: "; 
-  var kariyer_secim_12_25_s7_dress_8_3 = "Moda Eğitmeni: Moda tasarımı, stil danışmanlığı veya tekstil üretimi üzerine öğrencilere ya da çalışanlara eğitim verebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_8_4 = "Stilist Danışmanı: Yeni başlayan stilistlere rehberlik ederek kariyerlerinde gelişmelerine yardımcı olabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_8_5 = "Moda Koçu: Moda dünyasında kariyer yapmak isteyen bireylere profesyonel koçluk yaparak onların gelişim süreçlerini yönlendirebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_8_6 = "Kariyer Mentoru (Moda): Moda sektöründe kariyer yapan profesyonellere rehberlik ederek, iş dünyasında karşılaştıkları zorluklarla başa çıkmalarına yardımcı olabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_8_7 = "Moda Okulu Yöneticisi: Bir moda okulunda yönetici olarak, eğitim programlarını yönetebilir ve öğrencilere kaliteli bir eğitim sunulmasını sağlayabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_8_3 = " • Moda Eğitmeni: Moda tasarımı, stil danışmanlığı veya tekstil üretimi üzerine öğrencilere ya da çalışanlara eğitim verebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_8_4 = " • Stilist Danışmanı: Yeni başlayan stilistlere rehberlik ederek kariyerlerinde gelişmelerine yardımcı olabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_8_5 = " • Moda Koçu: Moda dünyasında kariyer yapmak isteyen bireylere profesyonel koçluk yaparak onların gelişim süreçlerini yönlendirebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_8_6 = " • Kariyer Mentoru (Moda): Moda sektöründe kariyer yapan profesyonellere rehberlik ederek, iş dünyasında karşılaştıkları zorluklarla başa çıkmalarına yardımcı olabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_8_7 = " • Moda Okulu Yöneticisi: Bir moda okulunda yönetici olarak, eğitim programlarını yönetebilir ve öğrencilere kaliteli bir eğitim sunulmasını sağlayabilirsiniz. ";
 
   var kariyer_secim_12_25_s7_dress_9_1 = "Analitik ve Veri Odaklı Kariyerler "; 
   var kariyer_secim_12_25_s7_dress_9_2 = "Hazır giyim sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:"; 
-  var kariyer_secim_12_25_s7_dress_9_3 = "Moda Trend Analisti: Pazar araştırmaları yaparak moda trendlerini ve tüketici tercihlerini analiz edebilir, markalara gelecekteki stratejileri hakkında önerilerde bulunabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_9_4 = "E-Ticaret Veri Analisti: Online giyim mağazalarının satış verilerini analiz ederek müşteri davranışlarını ve satış performansını değerlendirebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_9_5 = "Stok Analisti: Giyim ürünlerinin satış ve stok hareketlerini analiz ederek tedarik zincirinin daha verimli işlemesine yardımcı olabilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_9_6 = "Fiyatlandırma Uzmanı: Moda ürünlerinin fiyatlandırılmasında veri odaklı analizler yaparak şirketin kar marjını optimize edebilirsiniz. "; 
-  var kariyer_secim_12_25_s7_dress_9_7 = "Müşteri Analitiği Uzmanı: Müşteri alışkanlıklarını ve geri bildirimlerini analiz ederek, markaların müşteri deneyimini geliştirmelerine yardımcı olabilirsiniz. ";
+  var kariyer_secim_12_25_s7_dress_9_3 = " • Moda Trend Analisti: Pazar araştırmaları yaparak moda trendlerini ve tüketici tercihlerini analiz edebilir, markalara gelecekteki stratejileri hakkında önerilerde bulunabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_9_4 = " • E-Ticaret Veri Analisti: Online giyim mağazalarının satış verilerini analiz ederek müşteri davranışlarını ve satış performansını değerlendirebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_9_5 = " • Stok Analisti: Giyim ürünlerinin satış ve stok hareketlerini analiz ederek tedarik zincirinin daha verimli işlemesine yardımcı olabilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_9_6 = " • Fiyatlandırma Uzmanı: Moda ürünlerinin fiyatlandırılmasında veri odaklı analizler yaparak şirketin kar marjını optimize edebilirsiniz. "; 
+  var kariyer_secim_12_25_s7_dress_9_7 = " • Müşteri Analitiği Uzmanı: Müşteri alışkanlıklarını ve geri bildirimlerini analiz ederek, markaların müşteri deneyimini geliştirmelerine yardımcı olabilirsiniz. ";
 
 
   // otomotiv
   var kariyer_secim_12_25_s7_auto_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
   var kariyer_secim_12_25_s7_auto_1_2 = "Otomotiv sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_1_3 = "Otomotiv Tasarımcısı: Araçların dış tasarımlarını veya iç mekan düzenlemelerini yaparak otomotiv dünyasına estetik katabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_1_4 = "Endüstriyel Tasarımcı: Araçların kullanıcı dostu ve estetik açıdan çekici olmasını sağlayacak tasarımlar geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_1_5 = "Grafik Tasarımcı: Otomotiv markaları için reklam, logo veya ürün tanıtımı gibi grafik çalışmalar yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_1_6 = "Renk ve Malzeme Tasarımcısı: Araçlarda kullanılacak renk paletlerini ve malzemeleri belirleyerek, araçların estetik görünümüne katkıda bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_1_7 = "Görsel Sunum Uzmanı: Otomobil fuarları, reklam kampanyaları ve lansmanlar için görsel sunumlar ve konsept tasarımlar hazırlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_1_3 = " • Otomotiv Tasarımcısı: Araçların dış tasarımlarını veya iç mekan düzenlemelerini yaparak otomotiv dünyasına estetik katabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_1_4 = " • Endüstriyel Tasarımcı: Araçların kullanıcı dostu ve estetik açıdan çekici olmasını sağlayacak tasarımlar geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_1_5 = " • Grafik Tasarımcı: Otomotiv markaları için reklam, logo veya ürün tanıtımı gibi grafik çalışmalar yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_1_6 = " • Renk ve Malzeme Tasarımcısı: Araçlarda kullanılacak renk paletlerini ve malzemeleri belirleyerek, araçların estetik görünümüne katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_1_7 = " • Görsel Sunum Uzmanı: Otomobil fuarları, reklam kampanyaları ve lansmanlar için görsel sunumlar ve konsept tasarımlar hazırlayabilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_2_1 = "Liderlik ve Yönetim Kariyerleri";
   var kariyer_secim_12_25_s7_auto_2_2 = "Otomotiv sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_2_3 = "Fabrika Müdürü: Otomobil üretim fabrikasında üretim süreçlerini yönetebilir, kalite kontrol ve üretim hedeflerinin yerine getirilmesini sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_2_4 = "Satış Müdürü: Otomobil bayileri veya distribütörler için satış stratejileri geliştirip, satış ekibini yönlendirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_2_5 = "Proje Yöneticisi: Yeni araç modelleri geliştirme süreçlerini yönetebilir, farklı departmanları bir araya getirerek projelerin zamanında tamamlanmasını sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_2_6 = "Servis Müdürü: Otomobil servislerinin operasyonlarını yönetebilir, müşteri memnuniyetini artırmak için ekipleri yönlendirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_2_7 = "Lojistik Müdürü: Üretimden dağıtıma kadar olan tedarik zinciri süreçlerini yönetebilir, araçların zamanında bayilere ulaşmasını sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_2_3 = " • Fabrika Müdürü: Otomobil üretim fabrikasında üretim süreçlerini yönetebilir, kalite kontrol ve üretim hedeflerinin yerine getirilmesini sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_2_4 = " • Satış Müdürü: Otomobil bayileri veya distribütörler için satış stratejileri geliştirip, satış ekibini yönlendirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_2_5 = " • Proje Yöneticisi: Yeni araç modelleri geliştirme süreçlerini yönetebilir, farklı departmanları bir araya getirerek projelerin zamanında tamamlanmasını sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_2_6 = " • Servis Müdürü: Otomobil servislerinin operasyonlarını yönetebilir, müşteri memnuniyetini artırmak için ekipleri yönlendirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_2_7 = " • Lojistik Müdürü: Üretimden dağıtıma kadar olan tedarik zinciri süreçlerini yönetebilir, araçların zamanında bayilere ulaşmasını sağlayabilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_3_1 = "Yardım ve Sosyal Kariyerler";
   var kariyer_secim_12_25_s7_auto_3_2 = "Otomotiv sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_3_3 = "Müşteri Hizmetleri Uzmanı: Otomobil sahiplerine servis ve bakım konusunda rehberlik edebilir, müşteri şikayetlerini çözüme kavuşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_3_4 = "Garanti Danışmanı: Otomobil garantileri hakkında müşterilere bilgi verip, garanti kapsamındaki işlemleri organize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_3_5 = "Sürdürülebilirlik Uzmanı: Çevre dostu otomobil üretimi ve sürdürülebilir enerji kaynaklarının kullanımı üzerine çalışarak sektörde çevresel farkındalık yaratabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_3_6 = "Eğitim ve Gelişim Uzmanı: Otomotiv çalışanlarına servis, satış veya teknik eğitimler vererek sektörde bilgi paylaşımına katkı sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_3_7 = "Topluluk İlişkileri Uzmanı: Otomotiv firmalarının sosyal sorumluluk projelerini yönetebilir, topluma fayda sağlayacak projeler oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_3_3 = " • Müşteri Hizmetleri Uzmanı: Otomobil sahiplerine servis ve bakım konusunda rehberlik edebilir, müşteri şikayetlerini çözüme kavuşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_3_4 = " • Garanti Danışmanı: Otomobil garantileri hakkında müşterilere bilgi verip, garanti kapsamındaki işlemleri organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_3_5 = " • Sürdürülebilirlik Uzmanı: Çevre dostu otomobil üretimi ve sürdürülebilir enerji kaynaklarının kullanımı üzerine çalışarak sektörde çevresel farkındalık yaratabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_3_6 = " • Eğitim ve Gelişim Uzmanı: Otomotiv çalışanlarına servis, satış veya teknik eğitimler vererek sektörde bilgi paylaşımına katkı sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_3_7 = " • Topluluk İlişkileri Uzmanı: Otomotiv firmalarının sosyal sorumluluk projelerini yönetebilir, topluma fayda sağlayacak projeler oluşturabilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_4_1 = "Teknik ve Mühendislik Kariyerleri";
   var kariyer_secim_12_25_s7_auto_4_2 = "Otomotiv sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_4_3 = "Makine Mühendisi: Araçların motor, şasi ve diğer mekanik parçalarını tasarlayabilir ve geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_4_4 = "Otomotiv Mühendisi: Araçların performansını artırmak, güvenliğini sağlamak ve enerji verimliliğini optimize etmek için çalışabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_4_5 = "Elektrik-Elektronik Mühendisi: Araçların elektronik sistemleri, sensörleri ve otonom sürüş teknolojilerini geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_4_6 = "Üretim Mühendisi: Araçların üretim süreçlerini planlayarak, verimliliği artırmak ve maliyetleri azaltmak üzerine çalışmalar yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_4_7 = "Kalite Kontrol Uzmanı: Üretilen araçların kalite standartlarına uygun olup olmadığını denetleyerek, üretim süreçlerini iyileştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_4_3 = " • Makine Mühendisi: Araçların motor, şasi ve diğer mekanik parçalarını tasarlayabilir ve geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_4_4 = " • Otomotiv Mühendisi: Araçların performansını artırmak, güvenliğini sağlamak ve enerji verimliliğini optimize etmek için çalışabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_4_5 = " • Elektrik-Elektronik Mühendisi: Araçların elektronik sistemleri, sensörleri ve otonom sürüş teknolojilerini geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_4_6 = " • Üretim Mühendisi: Araçların üretim süreçlerini planlayarak, verimliliği artırmak ve maliyetleri azaltmak üzerine çalışmalar yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_4_7 = " • Kalite Kontrol Uzmanı: Üretilen araçların kalite standartlarına uygun olup olmadığını denetleyerek, üretim süreçlerini iyileştirebilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_5_1 = "Satış ve İlişki Kurma Kariyerleri";
   var kariyer_secim_12_25_s7_auto_5_2 = "Otomotiv sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_5_3 = "Otomobil Satış Danışmanı: Bayilerde müşteri ilişkilerini yöneterek, araç satışını gerçekleştirebilir ve müşteri taleplerini karşılayabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_5_4 = "Filo Satış Yöneticisi: Büyük firmalar veya filo alıcıları için araç satış stratejileri geliştirebilir, kurumsal müşterilerle ilişkiler kurabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_5_5 = "Satış Sonrası Hizmetler Uzmanı: Müşterilerin araç servisi, bakım ve yedek parça ihtiyaçları için destek sağlayabilir, satış sonrası hizmet kalitesini artırabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_5_6 = "Pazarlama Uzmanı: Otomobil markalarının pazarlama kampanyalarını yönetebilir, reklam ve tanıtım stratejileri geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_5_7 = "Müşteri Deneyimi Yöneticisi: Müşterilerin satın alma sürecinde ve sonrasında yaşadıkları deneyimleri analiz ederek, müşteri memnuniyetini artıracak stratejiler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_5_3 = " • Otomobil Satış Danışmanı: Bayilerde müşteri ilişkilerini yöneterek, araç satışını gerçekleştirebilir ve müşteri taleplerini karşılayabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_5_4 = " • Filo Satış Yöneticisi: Büyük firmalar veya filo alıcıları için araç satış stratejileri geliştirebilir, kurumsal müşterilerle ilişkiler kurabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_5_5 = " • Satış Sonrası Hizmetler Uzmanı: Müşterilerin araç servisi, bakım ve yedek parça ihtiyaçları için destek sağlayabilir, satış sonrası hizmet kalitesini artırabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_5_6 = " • Pazarlama Uzmanı: Otomobil markalarının pazarlama kampanyalarını yönetebilir, reklam ve tanıtım stratejileri geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_5_7 = " • Müşteri Deneyimi Yöneticisi: Müşterilerin satın alma sürecinde ve sonrasında yaşadıkları deneyimleri analiz ederek, müşteri memnuniyetini artıracak stratejiler geliştirebilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_6_1 = "Organizasyonel ve İdari Kariyerler";
   var kariyer_secim_12_25_s7_auto_6_2 = "Otomotiv sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_6_3 = "Ofis Yöneticisi: Otomobil firmalarında idari süreçleri yönetebilir, personel ve günlük operasyonları organize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_6_4 = "İnsan Kaynakları Uzmanı: Otomotiv sektöründe çalışan personelin alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_6_5 = "Stok Yönetimi Uzmanı: Bayilerde ya da üretim tesislerinde araç ve parça stoklarını yönetebilir, taleplere göre stok seviyelerini optimize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_6_6 = "Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_6_7 = "Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_6_3 = " • Ofis Yöneticisi: Otomobil firmalarında idari süreçleri yönetebilir, personel ve günlük operasyonları organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_6_4 = " • İnsan Kaynakları Uzmanı: Otomotiv sektöründe çalışan personelin alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_6_5 = " • Stok Yönetimi Uzmanı: Bayilerde ya da üretim tesislerinde araç ve parça stoklarını yönetebilir, taleplere göre stok seviyelerini optimize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_6_6 = " • Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_6_7 = " • Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_7_1 = "Yenilikçi ve Girişimci Kariyerler";
-  var kariyer_secim_12_25_s7_auto_7_2 = "Otomotiv sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_7_3 = "Elektrikli Araç Girişimcisi: Elektrikli otomobil üretimi veya şarj altyapısı geliştirme üzerine bir girişim başlatabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_7_4 = "Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_7_5 = "Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_7_6 = "İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_7_7 = "Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_7_2 = " • Otomotiv sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir:";
+  var kariyer_secim_12_25_s7_auto_7_3 = " • Elektrikli Araç Girişimcisi: Elektrikli otomobil üretimi veya şarj altyapısı geliştirme üzerine bir girişim başlatabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_7_4 = " • Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_7_5 = " • Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_7_6 = " • İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_7_7 = " • Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_8_1 = "Öğretim ve Mentorluk Kariyerleri";
   var kariyer_secim_12_25_s7_auto_8_2 = "Otomotiv sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_8_3 = "Otomotiv Eğitmeni: Teknik liselerde veya üniversitelerde otomotiv teknolojisi, mühendislik veya üretim süreçleri üzerine eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_8_4 = "Sürücü Eğitmeni: Araç kullanımı konusunda sürücü adaylarına eğitim vererek onların güvenli sürüş becerilerini geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_8_5 = "Teknik Servis Eğitmeni: Servis teknisyenlerine otomobil tamiri, bakım ve onarım konusunda eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_8_6 = "Kariyer Koçu (Otomotiv): Otomotiv sektöründe kariyer yapmayı planlayan bireylere mentorluk yaparak onların kariyer yollarını çizmelerine yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_8_7 = "Mentor (Ar-Ge ve Yenilik): Genç mühendis ve girişimcilere Ar-Ge ve inovasyon projelerinde rehberlik edebilir, yeni nesil otomotiv çözümleri geliştirmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_8_3 = " • Otomotiv Eğitmeni: Teknik liselerde veya üniversitelerde otomotiv teknolojisi, mühendislik veya üretim süreçleri üzerine eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_8_4 = " • Sürücü Eğitmeni: Araç kullanımı konusunda sürücü adaylarına eğitim vererek onların güvenli sürüş becerilerini geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_8_5 = " • Teknik Servis Eğitmeni: Servis teknisyenlerine otomobil tamiri, bakım ve onarım konusunda eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_8_6 = " • Kariyer Koçu (Otomotiv): Otomotiv sektöründe kariyer yapmayı planlayan bireylere mentorluk yaparak onların kariyer yollarını çizmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_8_7 = " • Mentor (Ar-Ge ve Yenilik): Genç mühendis ve girişimcilere Ar-Ge ve inovasyon projelerinde rehberlik edebilir, yeni nesil otomotiv çözümleri geliştirmelerine yardımcı olabilirsiniz.";
 
   var kariyer_secim_12_25_s7_auto_9_1 = "Analitik ve Veri Odaklı Kariyerler";
   var kariyer_secim_12_25_s7_auto_9_2 = "Otomotiv sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_auto_9_3 = "Veri Analisti (Otonom Sürüş): Otonom sürüş sistemlerinin topladığı verileri analiz ederek araç güvenliğini artırmaya yönelik çözümler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_9_4 = "Satış ve Pazar Analisti: Araç satış verilerini ve pazar trendlerini analiz ederek, satış stratejilerine yön verebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_9_5 = "Veri Bilimci (Telemetri): Araçların sürüş performansını izleyen telemetri verilerini analiz ederek, araç performansını ve güvenliğini iyileştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_9_6 = "Müşteri Analitiği Uzmanı: Otomotiv müşterilerinin tercih ve satın alma davranışlarını analiz ederek, kişiselleştirilmiş müşteri deneyimi stratejileri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_auto_9_7 = "Üretim Analisti: Araç üretim süreçlerindeki verileri analiz ederek, üretim verimliliğini ve kaliteyi artıracak iyileştirmeler yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_9_3 = " • Veri Analisti (Otonom Sürüş): Otonom sürüş sistemlerinin topladığı verileri analiz ederek araç güvenliğini artırmaya yönelik çözümler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_9_4 = " • Satış ve Pazar Analisti: Araç satış verilerini ve pazar trendlerini analiz ederek, satış stratejilerine yön verebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_9_5 = " • Veri Bilimci (Telemetri): Araçların sürüş performansını izleyen telemetri verilerini analiz ederek, araç performansını ve güvenliğini iyileştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_9_6 = " • Müşteri Analitiği Uzmanı: Otomotiv müşterilerinin tercih ve satın alma davranışlarını analiz ederek, kişiselleştirilmiş müşteri deneyimi stratejileri oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_auto_9_7 = " • Üretim Analisti: Araç üretim süreçlerindeki verileri analiz ederek, üretim verimliliğini ve kaliteyi artıracak iyileştirmeler yapabilirsiniz.";
 
 
   // mutfak sanatları
   var kariyer_secim_12_25_s7_meal_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
   var kariyer_secim_12_25_s7_meal_1_2 = "Mutfak sanatları sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_1_3 = "Şef (Chef): Restoranlarda veya otellerde menüleri tasarlayarak, yaratıcı yemekler hazırlayabilir ve mutfak sanatlarını yüksek seviyede icra edebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_1_4 = "Pasta Şefi: Özel pastalar, tatlılar ve şekerlemeler hazırlayarak tatlı dünyasında yaratıcı dokunuşlar yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_1_5 = "Gıda Tasarımcısı: Yemeklerin görsel sunumunu tasarlayarak, şık ve estetik tabaklar hazırlayabilir, yemeklerin görsel estetiğini artırabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_1_6 = "Gıda Fotoğrafçısı: Yiyeceklerin etkileyici fotoğraflarını çekerek, yemeklerin tanıtımı için görsel içerikler oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_1_7 = "Yemek Stilisisti: Yemeklerin sunumu, tabak düzeni ve fotoğraf çekimleri için profesyonel stil düzenlemeleri yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_1_3 = " • Şef (Chef): Restoranlarda veya otellerde menüleri tasarlayarak, yaratıcı yemekler hazırlayabilir ve mutfak sanatlarını yüksek seviyede icra edebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_1_4 = " • Pasta Şefi: Özel pastalar, tatlılar ve şekerlemeler hazırlayarak tatlı dünyasında yaratıcı dokunuşlar yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_1_5 = " • Gıda Tasarımcısı: Yemeklerin görsel sunumunu tasarlayarak, şık ve estetik tabaklar hazırlayabilir, yemeklerin görsel estetiğini artırabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_1_6 = " • Gıda Fotoğrafçısı: Yiyeceklerin etkileyici fotoğraflarını çekerek, yemeklerin tanıtımı için görsel içerikler oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_1_7 = " • Yemek Stilisisti: Yemeklerin sunumu, tabak düzeni ve fotoğraf çekimleri için profesyonel stil düzenlemeleri yapabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_2_1 = "Liderlik ve Yönetim Kariyerleri";
   var kariyer_secim_12_25_s7_meal_2_2 = "Mutfak sanatları sektöründe liderlik ve yönetim becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_2_3 = "Mutfak Şefi: Bir mutfağı yönetebilir, menüleri oluşturabilir ve mutfak personelini yönlendirebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_2_4 = "Restoran Müdürü: Restoran operasyonlarını yönetebilir, müşteri ilişkilerini düzenleyebilir ve işletme stratejilerini belirleyebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_2_5 = "Catering Müdürü: Büyük etkinlikler için yemek hizmetlerini organize edebilir, ekibi yönetebilir ve etkinliklerin başarılı bir şekilde gerçekleşmesini sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_2_6 = "Mutfak Koordinatörü: Mutfak içindeki günlük operasyonları, malzeme yönetimini ve personel koordinasyonunu sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_2_7 = "Gıda ve İçecek Müdürü: Restoran veya otel içindeki yiyecek ve içecek hizmetlerini yönetebilir, kalite kontrol ve müşteri memnuniyetini artırabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_2_3 = " • Mutfak Şefi: Bir mutfağı yönetebilir, menüleri oluşturabilir ve mutfak personelini yönlendirebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_2_4 = " • Restoran Müdürü: Restoran operasyonlarını yönetebilir, müşteri ilişkilerini düzenleyebilir ve işletme stratejilerini belirleyebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_2_5 = " • Catering Müdürü: Büyük etkinlikler için yemek hizmetlerini organize edebilir, ekibi yönetebilir ve etkinliklerin başarılı bir şekilde gerçekleşmesini sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_2_6 = " • Mutfak Koordinatörü: Mutfak içindeki günlük operasyonları, malzeme yönetimini ve personel koordinasyonunu sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_2_7 = " • Gıda ve İçecek Müdürü: Restoran veya otel içindeki yiyecek ve içecek hizmetlerini yönetebilir, kalite kontrol ve müşteri memnuniyetini artırabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_3_1 = "Yardım ve Sosyal Kariyerler";
   var kariyer_secim_12_25_s7_meal_3_2 = "Mutfak sanatları sektöründe yardımsever yönlerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_3_3 = "Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_3_4 = "Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_3_5 = "Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_3_6 = "Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_3_7 = "Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_3_3 = " • Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_3_4 = " • Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_3_5 = " • Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_3_6 = " • Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_3_7 = " • Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_4_1 = "Teknik ve Mühendislik Kariyerleri";
   var kariyer_secim_12_25_s7_meal_4_2 = "Mutfak sanatları sektöründe teknik ve mühendislik becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_4_3 = "Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_4_4 = "Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_4_5 = "Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_4_6 = "Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_4_7 = "Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_4_3 = " • Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_4_4 = " • Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_4_5 = " • Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_4_6 = " • Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_4_7 = " • Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_5_1 = "Satış ve İlişki Kurma Kariyerleri";
   var kariyer_secim_12_25_s7_meal_5_2 = "Mutfak sanatları sektöründe satış ve ilişki yönetimi becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_5_3 = "Restoran Satış Temsilcisi: Restoranların veya catering hizmetlerinin satışını yapabilir, müşteri ilişkilerini yönetebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_5_4 = "Yiyecek ve İçecek Satış Müdürü: Gıda ürünleri ve içeceklerin satışını artırmak için stratejiler geliştirebilir, müşterilerle ilişkileri yönetebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_5_5 = "Gıda Ürünleri Satış Danışmanı: Yeni gıda ürünlerini tanıtarak, marketler veya restoranlar için satış stratejileri geliştirebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_5_6 = "Restoran Pazarlama Uzmanı: Restoranların tanıtımını yaparak, pazarlama kampanyalarını yönetebilir ve müşteri çekme stratejileri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_5_7 = "Müşteri İlişkileri Yöneticisi: Restoran veya catering hizmetlerinde müşteri deneyimini yönetebilir, geri bildirimleri değerlendirip iyileştirme yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_5_3 = " • Restoran Satış Temsilcisi: Restoranların veya catering hizmetlerinin satışını yapabilir, müşteri ilişkilerini yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_5_4 = " • Yiyecek ve İçecek Satış Müdürü: Gıda ürünleri ve içeceklerin satışını artırmak için stratejiler geliştirebilir, müşterilerle ilişkileri yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_5_5 = " • Gıda Ürünleri Satış Danışmanı: Yeni gıda ürünlerini tanıtarak, marketler veya restoranlar için satış stratejileri geliştirebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_5_6 = " • Restoran Pazarlama Uzmanı: Restoranların tanıtımını yaparak, pazarlama kampanyalarını yönetebilir ve müşteri çekme stratejileri oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_5_7 = " • Müşteri İlişkileri Yöneticisi: Restoran veya catering hizmetlerinde müşteri deneyimini yönetebilir, geri bildirimleri değerlendirip iyileştirme yapabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_6_1 = "Organizasyonel ve İdari Kariyerler";
   var kariyer_secim_12_25_s7_meal_6_2 = "Mutfak sanatları sektöründe organizasyon ve idari becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_6_3 = "Mutfak Yönetici Asistanı: Mutfak yöneticisinin günlük işlerini destekleyebilir, organizasyon ve idari süreçlerde yardımcı olabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_6_4 = "Gıda Stok Kontrol Uzmanı: Yiyecek ve içecek stoklarının yönetimini yapabilir, malzeme taleplerini organize edebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_6_5 = "Yemek Servis Koordinatörü: Restoran veya catering hizmetlerinde yemek servislerinin düzenlenmesini ve koordinasyonunu sağlayabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_6_6 = "İnsan Kaynakları Uzmanı: Mutfak personelinin işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yönetebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_6_7 = "Restoran Operasyon Yöneticisi: Restoran operasyonlarının idaresini yaparak, müşteri hizmetlerini ve günlük iş akışını yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_6_3 = " • Mutfak Yönetici Asistanı: Mutfak yöneticisinin günlük işlerini destekleyebilir, organizasyon ve idari süreçlerde yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_6_4 = " • Gıda Stok Kontrol Uzmanı: Yiyecek ve içecek stoklarının yönetimini yapabilir, malzeme taleplerini organize edebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_6_5 = " • Yemek Servis Koordinatörü: Restoran veya catering hizmetlerinde yemek servislerinin düzenlenmesini ve koordinasyonunu sağlayabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_6_6 = " • İnsan Kaynakları Uzmanı: Mutfak personelinin işe alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yönetebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_6_7 = " • Restoran Operasyon Yöneticisi: Restoran operasyonlarının idaresini yaparak, müşteri hizmetlerini ve günlük iş akışını yönetebilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_7_1 = "Yenilikçi ve Girişimci Kariyerler";
   var kariyer_secim_12_25_s7_meal_7_2 = "Mutfak sanatları sektöründe yenilikçi düşünceler ve girişimcilik ruhunuzu kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_7_3 = "Gıda Start-up Kurucusu: Kendi gıda markanızı veya restoranınızı kurarak yenilikçi menüler ve hizmetler sunabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_7_4 = "Gastronomi Girişimcisi: Yeni yemek trendleri ve gastronomi deneyimleri üzerine girişim başlatarak sektörde farklılık yaratabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_7_6 = "Yemek Tarifleri Geliştiricisi: Kendi tariflerinizi oluşturarak, yemek kitapları yazabilir veya dijital platformlarda tariflerinizi paylaşabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_7_7 = "Sağlıklı Gıda Girişimcisi: Sağlıklı ve doğal gıda ürünleri üretimi üzerine bir girişim kurarak, sağlıklı yaşamı teşvik edebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_7_8 = "Gıda İnovasyon Danışmanı: Restoranlar ve gıda firmalarına yenilikçi yemek çözümleri ve menü geliştirme konularında danışmanlık yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_7_3 = " • Gıda Start-up Kurucusu: Kendi gıda markanızı veya restoranınızı kurarak yenilikçi menüler ve hizmetler sunabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_7_4 = " • Gastronomi Girişimcisi: Yeni yemek trendleri ve gastronomi deneyimleri üzerine girişim başlatarak sektörde farklılık yaratabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_7_6 = " • Yemek Tarifleri Geliştiricisi: Kendi tariflerinizi oluşturarak, yemek kitapları yazabilir veya dijital platformlarda tariflerinizi paylaşabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_7_7 = " • Sağlıklı Gıda Girişimcisi: Sağlıklı ve doğal gıda ürünleri üretimi üzerine bir girişim kurarak, sağlıklı yaşamı teşvik edebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_7_8 = " • Gıda İnovasyon Danışmanı: Restoranlar ve gıda firmalarına yenilikçi yemek çözümleri ve menü geliştirme konularında danışmanlık yapabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_8_1 = "Öğretim ve Mentorluk Kariyerleri";
   var kariyer_secim_12_25_s7_meal_8_2 = "Mutfak sanatları sektöründe öğretim ve mentorluk becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_8_3 = "Aşçılık Eğitmeni: Mutfak sanatları okulunda veya kurslarda aşçılık ve mutfak teknikleri üzerine eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_8_4 = "Gıda Güvenliği Eğitmeni: Gıda güvenliği ve hijyen konularında eğitimler vererek profesyonellere rehberlik edebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_8_5 = "Mutfak Mentoru: Genç aşçılara ve mutfak çalışanlarına rehberlik yaparak, kariyer gelişimlerini destekleyebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_8_6 = "Yemek Tarifi Danışmanı: Yemek tarifleri oluşturma ve yemek pişirme teknikleri üzerine bireylere veya gruplara eğitim verebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_8_7 = "Gastronomi Koçu: Mutfak sanatları alanında kariyer yapmak isteyen bireylere koçluk yaparak, onların yeteneklerini geliştirmelerine yardımcı olabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_8_3 = " • Aşçılık Eğitmeni: Mutfak sanatları okulunda veya kurslarda aşçılık ve mutfak teknikleri üzerine eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_8_4 = " • Gıda Güvenliği Eğitmeni: Gıda güvenliği ve hijyen konularında eğitimler vererek profesyonellere rehberlik edebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_8_5 = " • Mutfak Mentoru: Genç aşçılara ve mutfak çalışanlarına rehberlik yaparak, kariyer gelişimlerini destekleyebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_8_6 = " • Yemek Tarifi Danışmanı: Yemek tarifleri oluşturma ve yemek pişirme teknikleri üzerine bireylere veya gruplara eğitim verebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_8_7 = " • Gastronomi Koçu: Mutfak sanatları alanında kariyer yapmak isteyen bireylere koçluk yaparak, onların yeteneklerini geliştirmelerine yardımcı olabilirsiniz.";
   
   var kariyer_secim_12_25_s7_meal_9_1 = "Analitik ve Veri Odaklı Kariyerler";
   var kariyer_secim_12_25_s7_meal_9_2 = "Mutfak sanatları sektöründe analitik düşünce ve veri becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
-  var kariyer_secim_12_25_s7_meal_9_3 = "Menü Analisti: Menü performansını analiz ederek, müşteri geri bildirimlerine göre menü iyileştirmeleri yapabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_9_4 = "Gıda Ürünleri Veri Analisti: Gıda ürünlerinin pazar trendlerini ve müşteri tercihlerine dair verileri analiz ederek, ürün geliştirme stratejileri oluşturabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_9_5 = "Müşteri Deneyimi Analisti: Restoran veya mutfak hizmetlerindeki müşteri deneyimlerini analiz ederek, hizmet kalitesini artıracak önerilerde bulunabilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_9_6 = "Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsiniz.";
-  var kariyer_secim_12_25_s7_meal_9_7 = "Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_9_3 = " • Menü Analisti: Menü performansını analiz ederek, müşteri geri bildirimlerine göre menü iyileştirmeleri yapabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_9_4 = " • Gıda Ürünleri Veri Analisti: Gıda ürünlerinin pazar trendlerini ve müşteri tercihlerine dair verileri analiz ederek, ürün geliştirme stratejileri oluşturabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_9_5 = " • Müşteri Deneyimi Analisti: Restoran veya mutfak hizmetlerindeki müşteri deneyimlerini analiz ederek, hizmet kalitesini artıracak önerilerde bulunabilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_9_6 = " • Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsiniz.";
+  var kariyer_secim_12_25_s7_meal_9_7 = " • Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsiniz.";
   
 
   //Güçlü Yanların + 25
@@ -2591,154 +2591,99 @@ export default async ({ req, res, log, error }) => {
 
   // Kişilik Özelliklerin
 
-  var kslk_ozl_age_12_25_p1 =
-    "Kariyer seçimi, hayatında vereceğin en önemli kararlardan biri olabilir ve bu karar gelecekteki yaşamını şekillendirecek. Hangi işi yapacağına karar verirken, doğru ve sana en uygun seçimi yapman gerçekten önemli. Yanlış bir seçim, ileride çalışırken mutsuz ve isteksiz hissetmene neden olabilir.";
-  var kslk_ozl_age_12_25_p2 =
-    "Bu yüzden kariyerini seçerken, kişiliğine ve ilgi alanlarına en uygun olanı bulmaya çalışmalısın. Çünkü seni yansıtan bir kariyer, hem iş hem de sosyal hayatında daha başarılı ve mutlu olmanı sağlar. Böylece, gerçekten keyif aldığın ve kendini geliştirebileceğin bir işte çalışmak sana tatmin dolu bir yaşam sunar.";
-  var kslk_ozl_age_25_plus_p1 =
-    "Kariyer seçimi, hayatının geri kalanını etkileyebilecek en önemli kararlardan biridir ve yaşam tarzını doğrudan şekillendirir. Çalışma hayatında başarılı ve tatmin olmuş hissetmek için, sana en uygun ve doğru seçimi yapman çok önemli. Aksi takdirde, ileride işinden memnuniyetsiz, isteksiz ve verimsiz hissedebilirsin.";
-  var kslk_ozl_age_25_plus_p2 =
-    "Bu nedenle, kariyerini seçerken kişiliğine ve profesyonel yetkinliklerine en uygun alanı bulman gerekir. Kişiliğine uygun bir kariyer, iş ve sosyal hayatında daha mutlu ve dengeli bir yaşam sürdürmene olanak tanır. Bu, hem kariyerinde başarıya ulaşmanı hem de yaşamdan daha fazla tatmin almanı sağlayacaktır.";
+  var kslk_ozl_age_12_25_p1 = "Kariyer seçimi, hayatında vereceğin en önemli kararlardan biri olabilir ve bu karar gelecekteki yaşamını şekillendirecek. Hangi işi yapacağına karar verirken, doğru ve sana en uygun seçimi yapman gerçekten önemli. Yanlış bir seçim, ileride çalışırken mutsuz ve isteksiz hissetmene neden olabilir.";
+  var kslk_ozl_age_12_25_p2 = "Bu yüzden kariyerini seçerken, kişiliğine ve ilgi alanlarına en uygun olanı bulmaya çalışmalısın. Çünkü seni yansıtan bir kariyer, hem iş hem de sosyal hayatında daha başarılı ve mutlu olmanı sağlar. Böylece, gerçekten keyif aldığın ve kendini geliştirebileceğin bir işte çalışmak sana tatmin dolu bir yaşam sunar.";
+  var kslk_ozl_age_25_plus_p1 = "Kariyer seçimi, hayatının geri kalanını etkileyebilecek en önemli kararlardan biridir ve yaşam tarzını doğrudan şekillendirir. Çalışma hayatında başarılı ve tatmin olmuş hissetmek için, sana en uygun ve doğru seçimi yapman çok önemli. Aksi takdirde, ileride işinden memnuniyetsiz, isteksiz ve verimsiz hissedebilirsin.";
+  var kslk_ozl_age_25_plus_p2 = "Bu nedenle, kariyerini seçerken kişiliğine ve profesyonel yetkinliklerine en uygun alanı bulman gerekir. Kişiliğine uygun bir kariyer, iş ve sosyal hayatında daha mutlu ve dengeli bir yaşam sürdürmene olanak tanır. Bu, hem kariyerinde başarıya ulaşmanı hem de yaşamdan daha fazla tatmin almanı sağlayacaktır.";
   var kslk_ozl_chart = "";
 
-  var kslk_ozl_realistic_s1_1 =
-    "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
+  var kslk_ozl_realistic_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
   var kslk_ozl_realistic_your_profile = "Gerçekçi";
-  var kslk_ozl_realistic_your_profile_ =
-    "Pratik, uygulamalı problemler ve çözümler içeren iş aktivitelerinin tadını çıkarabilirsin. Bitkiler, hayvanlar ve ahşap, aletler ve makineler gibi gerçek dünya malzemeleriyle uğraşmayı sevebilirsin. Dışarıda çalışmaktan hoşlanabilirsin.";
-  var kslk_ozl_realistic_your_interests_1 =
-    "Gerçekçi insanlar pratik, kendine güvenen ve mekanik işlere daha eğilimlidir. Gelenekseldirler ve görebildikleri ve dokunabildikleri şeylere değer verirler. Gerçekçi bireyler genellikle aletlerle çalışmak, makineleri çalıştırmak veya tarım ve hayvacılık için iyi gelişmiş becerilere sahiptir.";
-  var kslk_ozl_realistic_your_interests_2 =
-    "Açık havada gerçekleşen ve fiziksel aktivite içeren işlerden hoşlanırlar. Somut problem çözmeyi içeren uygulamalı etkinliklerden hoşlandıkları için, insanlarla, soyut fikirlerle ve çok fazla veriyle uğraşmaktan kaçınmayı tercih ederler. Bir sorunla karşılaştıklarında sözel ya da kişilerarası çözümler yerine eylem odaklı çözümler üretirler.";
-  var kslk_ozl_realistic_your_work_areas =
-    "Marangozlar, elektrikçiler, tamirciler, tesisatçılar; tarım ve ormancılık; askeriye.";
-  var kslk_ozl_realistic_you_may_not_like =
-    "Topluluk önünde konuşma, sosyal etkinlikler, kültürel ve estetik faaliyetler, anlaşmazlıklarda arabuluculuk, yakın kişilerarası ilişkiler içeren çalışmalar.";
+  var kslk_ozl_realistic_your_profile_ = "Pratik, uygulamalı problemler ve çözümler içeren iş aktivitelerinin tadını çıkarabilirsin. Bitkiler, hayvanlar ve ahşap, aletler ve makineler gibi gerçek dünya malzemeleriyle uğraşmayı sevebilirsin. Dışarıda çalışmaktan hoşlanabilirsin.";
+  var kslk_ozl_realistic_your_interests_1 = "Gerçekçi insanlar pratik, kendine güvenen ve mekanik işlere daha eğilimlidir. Gelenekseldirler ve görebildikleri ve dokunabildikleri şeylere değer verirler. Gerçekçi bireyler genellikle aletlerle çalışmak, makineleri çalıştırmak veya tarım ve hayvacılık için iyi gelişmiş becerilere sahiptir.";
+  var kslk_ozl_realistic_your_interests_2 = "Açık havada gerçekleşen ve fiziksel aktivite içeren işlerden hoşlanırlar. Somut problem çözmeyi içeren uygulamalı etkinliklerden hoşlandıkları için, insanlarla, soyut fikirlerle ve çok fazla veriyle uğraşmaktan kaçınmayı tercih ederler. Bir sorunla karşılaştıklarında sözel ya da kişilerarası çözümler yerine eylem odaklı çözümler üretirler.";
+  var kslk_ozl_realistic_your_work_areas = "Marangozlar, elektrikçiler, tamirciler, tesisatçılar; tarım ve ormancılık; askeriye.";
+  var kslk_ozl_realistic_you_may_not_like = "Topluluk önünde konuşma, sosyal etkinlikler, kültürel ve estetik faaliyetler, anlaşmazlıklarda arabuluculuk, yakın kişilerarası ilişkiler içeren çalışmalar.";
   var kslk_ozl_realistic_questions = "Gerçekçi";
-  var kslk_ozl_12_25_realistic_questions_1 =
-    "Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
-  var kslk_ozl_12_25_realistic_questions_2 =
-    "Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
-  var kslk_ozl_12_25_realistic_questions_3 =
-    "Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
+  var kslk_ozl_12_25_realistic_questions_1 = "Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
+  var kslk_ozl_12_25_realistic_questions_2 = "Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
+  var kslk_ozl_12_25_realistic_questions_3 = "Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
   var kslk_ozl_25_plus_realistic_questions_1 = " • İşimde ellerimle bir şeyler ürettiğimde veya somut sonuçlar aldığımda kendimi nasıl hissediyorum? Bu pratik beceriyi iş projelerimde daha iyi nasıl kullanabilirim?";
   var kslk_ozl_25_plus_realistic_questions_2 = " • Sorunları hızlı ve etkili bir şekilde çözmek, iş verimliliğimi nasıl etkiliyor? Bu yaklaşımı günlük iş akışımda daha fazla nasıl kullanabilirim?";
   var kslk_ozl_25_plus_realistic_questions_3 = " • Açık hava veya fiziksel hareket gerektiren bir iş yaptığımda motivasyonumda bir artış oluyor mu? Bu motivasyonu işimde daha çok nasıl artırabilirim?";
 
   var kslk_ozl_researcher_s1_1 =
     "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
-  var kslk_ozl_researcher_your_profile = "Araştırmacı";
-  var kslk_ozl_researcher_your_profile_ =
-    "Karmaşık sorunları çözmeyi içeren işlerin tadını çıkarabilirsin. Fikirleri keşfetmeyi, araştırma yapmayı ve teorilere bakmayı sevebilirsin. Yapmaktan çok düşünmeyi tercih edebilir ve verileri ve fikirleri insanlara tercih etme ihtimalin daha fazla olabilir.";
-  var kslk_ozl_researcher_your_interests_1 =
-    "Araştırmacı insanlar meraklı, analitik ve entelektüeldir. Bir şeyleri araştırmayı severler ve karmaşık problemleri çözmek. Araştırmacı bireyler fikirleri keşfetmekten, yürütmekten hoşlanırlar.";
-  var kslk_ozl_researcher_your_interests_2 =
-    "Tercih ettikleri okuma materyali bilimsel veya teknik dergileri içerir. Ayrıca yalnız çalışmaktan hoşlanabilirler. İnsanlar yerine veri ve fikirlerle çalışmayı tercih edebilirler. Sonuç olarak, liderlik, satış ya da başkalarını ikna gerektiren işlerden kaçınma eğilimindedirler.";
-  var kslk_ozl_researcher_your_work_areas =
-    "Biyoloji, kimya, fizik, bilgisayar programlama, bilgisayar mühendisliği, tıp, farmakoloji, psikoloji, veterinerlik bilimi, teknik yazı.";
-  var kslk_ozl_researcher_you_may_not_like =
-    "Satış, başkalarını ikna etme, insanları yönlendirme.";
+  var kslk_ozl_researcher_your_profile = "Araştırıcı";
+  var kslk_ozl_researcher_your_profile_ = "Karmaşık sorunları çözmeyi içeren işlerin tadını çıkarabilirsin. Fikirleri keşfetmeyi, araştırma yapmayı ve teorilere bakmayı sevebilirsin. Yapmaktan çok düşünmeyi tercih edebilir ve verileri ve fikirleri insanlara tercih etme ihtimalin daha fazla olabilir.";
+  var kslk_ozl_researcher_your_interests_1 = "Araştırmacı insanlar meraklı, analitik ve entelektüeldir. Bir şeyleri araştırmayı severler ve karmaşık problemleri çözmek. Araştırmacı bireyler fikirleri keşfetmekten, yürütmekten hoşlanırlar.";
+  var kslk_ozl_researcher_your_interests_2 = "Tercih ettikleri okuma materyali bilimsel veya teknik dergileri içerir. Ayrıca yalnız çalışmaktan hoşlanabilirler. İnsanlar yerine veri ve fikirlerle çalışmayı tercih edebilirler. Sonuç olarak, liderlik, satış ya da başkalarını ikna gerektiren işlerden kaçınma eğilimindedirler.";
+  var kslk_ozl_researcher_your_work_areas = "Biyoloji, kimya, fizik, bilgisayar programlama, bilgisayar mühendisliği, tıp, farmakoloji, psikoloji, veterinerlik bilimi, teknik yazı.";
+  var kslk_ozl_researcher_you_may_not_like = "Satış, başkalarını ikna etme, insanları yönlendirme.";
   var kslk_ozl_researcher_questions = "Araştırıcı";
-  var kslk_ozl_12_25_researcher_questions_1 =
-    "Zor sorularla karşılaştığımda nasıl bir çözüm yolu buluyorum? Bu problem çözme becerimi derslerde daha sık nasıl kullanabilirim?";
-  var kslk_ozl_12_25_researcher_questions_2 =
-    "Yeni şeyler öğrenmek ve araştırmak beni nasıl motive ediyor? Araştırmalarımı projelerde veya ödevlerde nasıl daha etkili kullanabilirim?";
-  var kslk_ozl_12_25_researcher_questions_3 =
-    "Zihinsel olarak zorlandığım bir konuda ne kadar derine inip öğrenmeyi seviyorum? Bu merakımı okulda hangi alanlarda daha fazla geliştirebilirim?";
+  var kslk_ozl_12_25_researcher_questions_1 = "Zor sorularla karşılaştığımda nasıl bir çözüm yolu buluyorum? Bu problem çözme becerimi derslerde daha sık nasıl kullanabilirim?";
+  var kslk_ozl_12_25_researcher_questions_2 = "Yeni şeyler öğrenmek ve araştırmak beni nasıl motive ediyor? Araştırmalarımı projelerde veya ödevlerde nasıl daha etkili kullanabilirim?";
+  var kslk_ozl_12_25_researcher_questions_3 = "Zihinsel olarak zorlandığım bir konuda ne kadar derine inip öğrenmeyi seviyorum? Bu merakımı okulda hangi alanlarda daha fazla geliştirebilirim?";
   var kslk_ozl_25_plus_researcher_questions_1 = " • Zorlu problemlerle karşılaştığımda, hangi çözüm yollarını kullanıyorum? Bu analitik düşünme becerimi iş yerinde daha sık nasıl uygulayabilirim?";
   var kslk_ozl_25_plus_researcher_questions_2 = " • Detaylı araştırmalar yaptığımda işimde nasıl bir fark yaratıyorum? Bu merak duygusunu işimde daha fazla nasıl kullanabilirim?";
   var kslk_ozl_25_plus_researcher_questions_3 = " • Karmaşık bir sorunu çözmek için derinlemesine düşündüğümde hangi yeteneklerimi geliştiriyorum? Bu problem çözme becerilerimi işimde daha çok nasıl öne çıkarabilirim?";
 
-  var kslk_ozl_artistic_s1_1 =
-    "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
+  var kslk_ozl_artistic_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
   var kslk_ozl_artistic_your_profile = "Sanatsal";
-  var kslk_ozl_artistic_your_profile_ =
-    "Formlar, tasarımlar ve desenler gibi şeylerin sanatsal yönüyle ilgilenen iş etkinliklerinin tadını çıkarırsın. İşinde kendini ifade etmeyi sevebilirsin. Net bir dizi kurala uymadan işin yapılabileceği ayarları tercih edebilirsin.";
-  var kslk_ozl_artistic_your_interests_1 =
-    "Sanatsal insanlar yaratıcı ve yaratıcıdır. Kendilerini yaratıcı bir şekilde ifade etmek için güçlü bir arzuya sahip özgün, bağımsız insanlardır. Sanatsal bireyler estetiğe değer verir ve sanat, drama, yazı, dans ve müzik gibi yaratıcı etkinliklerden hoşlanırlar.";
-  var kslk_ozl_artistic_your_interests_2 =
-    "Yeni fikirler geliştirmek için sezgilerini ve özgünlüklerini kullanmayı severler. Bu şekilde Araştırmacı insanlara benzerler. Bununla birlikte, bilimsel olanlardan çok kültürel-estetik arayışlarla ilgilenirler. Sanatsal insanlar, çeşitliliğin ve değişimin olduğu ortamlarda en fazla tatmini bulurlar. Yüksek düzeyde yapılandırılmış veya tekrarlayan iş faaliyetlerinden hoşlanmazlar. Verilerden veya somut şeylerden çok fikirlerle ve insanlarla ilgilenirler.";
-  var kslk_ozl_artistic_your_work_areas =
-    "Müzisyenler, sanatçılar, grafik sanatçıları, reklam, tasarım, yazarlar/editörler, yaratıcılık gerektiren tüm alanlar.";
-  var kslk_ozl_artistic_you_may_not_like =
-    "Tekrarlayan, yapılandırılmış görevler; çeşitlilik eksikliği; bilgi işleme; sayılarla çalışma.";
+  var kslk_ozl_artistic_your_profile_ = "Formlar, tasarımlar ve desenler gibi şeylerin sanatsal yönüyle ilgilenen iş etkinliklerinin tadını çıkarırsın. İşinde kendini ifade etmeyi sevebilirsin. Net bir dizi kurala uymadan işin yapılabileceği ayarları tercih edebilirsin.";
+  var kslk_ozl_artistic_your_interests_1 = "Sanatsal insanlar yaratıcı ve yaratıcıdır. Kendilerini yaratıcı bir şekilde ifade etmek için güçlü bir arzuya sahip özgün, bağımsız insanlardır. Sanatsal bireyler estetiğe değer verir ve sanat, drama, yazı, dans ve müzik gibi yaratıcı etkinliklerden hoşlanırlar.";
+  var kslk_ozl_artistic_your_interests_2 = "Yeni fikirler geliştirmek için sezgilerini ve özgünlüklerini kullanmayı severler. Bu şekilde Araştırmacı insanlara benzerler. Bununla birlikte, bilimsel olanlardan çok kültürel-estetik arayışlarla ilgilenirler. Sanatsal insanlar, çeşitliliğin ve değişimin olduğu ortamlarda en fazla tatmini bulurlar. Yüksek düzeyde yapılandırılmış veya tekrarlayan iş faaliyetlerinden hoşlanmazlar. Verilerden veya somut şeylerden çok fikirlerle ve insanlarla ilgilenirler.";
+  var kslk_ozl_artistic_your_work_areas = "Müzisyenler, sanatçılar, grafik sanatçıları, reklam, tasarım, yazarlar/editörler, yaratıcılık gerektiren tüm alanlar.";
+  var kslk_ozl_artistic_you_may_not_like = "Tekrarlayan, yapılandırılmış görevler; çeşitlilik eksikliği; bilgi işleme; sayılarla çalışma.";
   var kslk_ozl_artistic_questions = "Sanatsal";
-  var kslk_ozl_12_25_artistic_questions_1 =
-    "Kendimi resim yaparak, yazı yazarak ya da başka yaratıcı yollarla ifade ettiğimde en çok hangi anlarda kendimi özgür hissediyorum? Bu yaratıcılığı ödevlerime nasıl ekleyebilirim?";
-  var kslk_ozl_12_25_artistic_questions_2 =
-    "Farklı fikirler bulduğumda arkadaşlarım ve öğretmenlerim nasıl tepkiler veriyor? Yaratıcı düşüncelerimi projelerde daha fazla nasıl gösterebilirim?";
-  var kslk_ozl_12_25_artistic_questions_3 =
-    "Sıkıcı bulduğum görevlerde yaratıcı bir dokunuş eklediğimde nasıl bir fark yaratıyorum? Yaratıcılığı günlük okul işlerine nasıl daha çok katabilirim?";
+  var kslk_ozl_12_25_artistic_questions_1 = "Kendimi resim yaparak, yazı yazarak ya da başka yaratıcı yollarla ifade ettiğimde en çok hangi anlarda kendimi özgür hissediyorum? Bu yaratıcılığı ödevlerime nasıl ekleyebilirim?";
+  var kslk_ozl_12_25_artistic_questions_2 = "Farklı fikirler bulduğumda arkadaşlarım ve öğretmenlerim nasıl tepkiler veriyor? Yaratıcı düşüncelerimi projelerde daha fazla nasıl gösterebilirim?";
+  var kslk_ozl_12_25_artistic_questions_3 = "Sıkıcı bulduğum görevlerde yaratıcı bir dokunuş eklediğimde nasıl bir fark yaratıyorum? Yaratıcılığı günlük okul işlerine nasıl daha çok katabilirim?";
   var kslk_ozl_25_plus_artistic_questions_1 = " • Yaratıcı bir çözüm ürettiğimde ya da özgün bir fikir sunduğumda iş yerinde nasıl geri bildirimler alıyorum? Bu yaratıcı bakış açısını projelerime daha fazla nasıl katabilirim?";
   var kslk_ozl_25_plus_artistic_questions_2 = " • Rutin işler monotonlaştığında, işime daha yaratıcı bir dokunuş katmak performansımı nasıl etkiliyor? Yaratıcı düşünme tarzımı günlük görevlerde nasıl daha çok kullanabilirim?";
   var kslk_ozl_25_plus_artistic_questions_3 = " • Yeni ve alışılmadık fikirler ürettiğimde, bu fikirlerin iş yerindeki katkılarını nasıl gözlemliyorum? Bu yaratıcı süreçleri projelerime nasıl daha sık entegre edebilirim?";
 
   var kslk_ozl_social_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
   var kslk_ozl_social_your_profile = "Sosyal";
-  var kslk_ozl_social_your_profile_ =
-    "Başkalarına yardımcı olan ve öğrenmeyi ve kişisel gelişimi teşvik eden iş etkinliklerinin tadını çıkarabilirsin. Nesnelerle, makinelerle veya verilerle çalışmak yerine insanlarla birlikte olmayı tercih edebilirsin. Öğretmeyi, tavsiye vermeyi, yardım etmeyi veya başka bir şekilde insanlara hizmet etmeyi sevme olasılığın çok yüksek.";
-  var kslk_ozl_social_your_interests_1 =
-    "Sosyal insanlar arkadaş canlısı, dışa dönük ve anlayışlıdır. Kişisel etkileşim ve başkalarına yardım edebileceği işlerden hoşlanabilirler. İnsanlarla, veriden ve somut şeylerden çok daha fazla ilgilidirler. Sosyal bireyler yakın kişilerarası ilişkiler ararlar ve öğretmeyi severler. İnsan refahı konusunda endişeli olabilirler.";
-  var kslk_ozl_social_your_interests_2 =
-    "Kişilerarası sorunların üstesinden gelmekten ve anlaşmazlıklarda arabuluculuk yapmaktan hoşlanabilirler. Makine veya alet kullanmaktan kaçınmaya eğilimlidirler.Kapsamlı entelektüel veya fiziksel çalışmalardan hoşlanmayabilirler.";
+  var kslk_ozl_social_your_profile_ = "Başkalarına yardımcı olan ve öğrenmeyi ve kişisel gelişimi teşvik eden iş etkinliklerinin tadını çıkarabilirsin. Nesnelerle, makinelerle veya verilerle çalışmak yerine insanlarla birlikte olmayı tercih edebilirsin. Öğretmeyi, tavsiye vermeyi, yardım etmeyi veya başka bir şekilde insanlara hizmet etmeyi sevme olasılığın çok yüksek.";
+  var kslk_ozl_social_your_interests_1 = "Sosyal insanlar arkadaş canlısı, dışa dönük ve anlayışlıdır. Kişisel etkileşim ve başkalarına yardım edebileceği işlerden hoşlanabilirler. İnsanlarla, veriden ve somut şeylerden çok daha fazla ilgilidirler. Sosyal bireyler yakın kişilerarası ilişkiler ararlar ve öğretmeyi severler. İnsan refahı konusunda endişeli olabilirler.";
+  var kslk_ozl_social_your_interests_2 = "Kişilerarası sorunların üstesinden gelmekten ve anlaşmazlıklarda arabuluculuk yapmaktan hoşlanabilirler. Makine veya alet kullanmaktan kaçınmaya eğilimlidirler.Kapsamlı entelektüel veya fiziksel çalışmalardan hoşlanmayabilirler.";
   var kslk_ozl_social_your_work_areas = "Hemşirelik, Danışmanlık, Öğretim, Din";
-  var kslk_ozl_social_you_may_not_like =
-    "Fiziksel çalışma; veri ve somut şeylerle uğraşmak; İnşa ve Onarım";
+  var kslk_ozl_social_you_may_not_like = "Fiziksel çalışma; veri ve somut şeylerle uğraşmak; İnşa ve Onarım";
   var kslk_ozl_social_questions = "Sosyal";
-  var kslk_ozl_12_25_social_questions_1 =
-    "Bir arkadaşımın problemini çözmesine yardım ettiğimde kendimi nasıl hissediyorum? Bu yardımlaşma yeteneğimi okul etkinliklerinde nasıl daha etkili kullanabilirim? ";
-  var kslk_ozl_12_25_social_questions_2 =
-    "Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
-  var kslk_ozl_12_25_social_questions_3 =
-    "Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
+  var kslk_ozl_12_25_social_questions_1 = "Bir arkadaşımın problemini çözmesine yardım ettiğimde kendimi nasıl hissediyorum? Bu yardımlaşma yeteneğimi okul etkinliklerinde nasıl daha etkili kullanabilirim? ";
+  var kslk_ozl_12_25_social_questions_2 = "Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
+  var kslk_ozl_12_25_social_questions_3 = "Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
   var kslk_ozl_25_plus_social_questions_1 = " • İş arkadaşlarıma yardım ettiğimde ya da onlara rehberlik ettiğimde, hangi becerilerim öne çıkıyor? Bu yardımseverliği iş hayatımda daha fazla nasıl kullanabilirim?";
   var kslk_ozl_25_plus_social_questions_2 = " • Ekip çalışmalarında başkalarını motive ettiğimde, işlerin ilerleyişini nasıl etkiliyorum? Bu yeteneğimi daha fazla projeye nasıl yansıtabilirim? ";
   var kslk_ozl_25_plus_social_questions_3 = " • Başkalarının ihtiyaçlarını anlamak ve uygun çözümler sunmak, işimde bana nasıl katkılar sağlıyor? Bu empatiyi iş yerinde daha da güçlendirmek için neler yapabtraditional";
 
-  var kslk_ozl_entrepreneur_s1_1 =
-    "En yüksek çıkan 2 kişilik özeliğin burada olacak";
+  var kslk_ozl_entrepreneur_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
   var kslk_ozl_entrepreneur_your_profile = "Girişimci";
-  var kslk_ozl_entrepreneur_your_profile_ =
-    "Projelerin başlatılması ve yürütülmesi, özellikle de ticari girişimler ile ilgili iş faaliyetlerinden daha çok keyif alabilirsin. İnsanları ikna etmeyi, yönlendirmeyi ve karar vermeyi seversin. Kâr için risk almayı tercih edebilirsin. Senin gibi insanlar düşünceden ziyade eylemi tercih edebilirler.";
-  var kslk_ozl_entrepreneur_your_interests_1 =
-    "Girişimci insanlar ticari faaliyetlerden ve anlaşma yapmaktan hoşlanırlar. Kendine güvenen, iddialı, ikna edici ve enerjiktirler. Sözel yetenekli, Girişimci bireyler, sözel becerilerini başkalarını desteklemek için kullanan Sosyal bireylerin aksine, bu becerileri insanları ikna etmek için kullanırlar. Bir şeyler satmaktan, fikirleri tanıtmaktan ve insanları etkilemekten hoşlanırlar.";
-  var kslk_ozl_entrepreneur_your_interests_2 =
-    "Ayrıca statü ve prestije değer verirler ve bu arzuları karşılayabilecek meslekler ararlar. Girişimci insanlar aynı zamanda rekabetçidir ve risk almaya isteklidir. Sonuç olarak, girişimci bir yapıya sahiptirler ve projeler başlatmayı ve başkalarını gemiye atlamaya ikna etmeyi severler. Girişimci bireyler, somut şeyler ve fikirler yerine, insanlarla ve verilerle çalışmaktan hoşlanırlar.";
-  var kslk_ozl_entrepreneur_your_work_areas =
-    "işletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
-  var kslk_ozl_entrepreneur_you_may_not_like =
-    "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak";
+  var kslk_ozl_entrepreneur_your_profile_ = "Projelerin başlatılması ve yürütülmesi, özellikle de ticari girişimler ile ilgili iş faaliyetlerinden daha çok keyif alabilirsin. İnsanları ikna etmeyi, yönlendirmeyi ve karar vermeyi seversin. Kâr için risk almayı tercih edebilirsin. Senin gibi insanlar düşünceden ziyade eylemi tercih edebilirler.";
+  var kslk_ozl_entrepreneur_your_interests_1 = "Girişimci insanlar ticari faaliyetlerden ve anlaşma yapmaktan hoşlanırlar. Kendine güvenen, iddialı, ikna edici ve enerjiktirler. Sözel yetenekli, Girişimci bireyler, sözel becerilerini başkalarını desteklemek için kullanan Sosyal bireylerin aksine, bu becerileri insanları ikna etmek için kullanırlar. Bir şeyler satmaktan, fikirleri tanıtmaktan ve insanları etkilemekten hoşlanırlar.";
+  var kslk_ozl_entrepreneur_your_interests_2 = "Ayrıca statü ve prestije değer verirler ve bu arzuları karşılayabilecek meslekler ararlar. Girişimci insanlar aynı zamanda rekabetçidir ve risk almaya isteklidir. Sonuç olarak, girişimci bir yapıya sahiptirler ve projeler başlatmayı ve başkalarını gemiye atlamaya ikna etmeyi severler. Girişimci bireyler, somut şeyler ve fikirler yerine, insanlarla ve verilerle çalışmaktan hoşlanırlar.";
+  var kslk_ozl_entrepreneur_your_work_areas = "işletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
+  var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak";
   var kslk_ozl_entrepreneur_questions = "Girişimci";
-  var kslk_ozl_12_25_entrepreneur_questions_1 =
-    "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
-  var kslk_ozl_12_25_entrepreneur_questions_2 =
-    "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
-  var kslk_ozl_12_25_entrepreneur_questions_3 =
-    "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
+  var kslk_ozl_12_25_entrepreneur_questions_1 = "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
+  var kslk_ozl_12_25_entrepreneur_questions_2 = "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
+  var kslk_ozl_12_25_entrepreneur_questions_3 = "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
   var kslk_ozl_25_plus_entrepreneur_questions_1 = " • Karar alma süreçlerinde liderlik ettiğimde nasıl bir sonuç elde ediyorum? Bu liderlik becerimi iş yerimde hangi alanlarda daha çok kullanabilirim? ";
   var kslk_ozl_25_plus_entrepreneur_questions_2 = " • İnsanları motive edip yönlendirdiğimde projelerdeki ilerleme nasıl oluyor? Bu motivasyon becerilerimi iş yerinde daha etkili kullanmak için hangi yolları deneyebilirim? ";
   var kslk_ozl_25_plus_entrepreneur_questions_3 = " • İşimde risk almayı gerektiren durumlarda, hangi stratejileri kullanıyorum ve sonuçları nasıl değerlendiriyorum? Risk yönetimimi daha da geliştirmek için neler yapabilirim? ";
 
-  var kslk_ozl_traditional_s1_1 =
-    "En yüksek çıkan 2 kişilik özeliğin burada olacak";
+  var kslk_ozl_traditional_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
   var kslk_ozl_traditional_your_profile = "Geleneksel";
-  var kslk_ozl_traditional_your_profile_ =
-    "Belirlenen prosedürleri ve rutinleri takip eden iş aktivitelerini senin hoşuna gidebilir. Fikirlerden ziyade verilerle ve ayrıntılarla çalışmayı tercih edebilirsin. Yargıda bulunmaktan ziyade kesin standartların olduğu işleri tercih edebilirsin. Muhtemelen sen de diğerleri gibi otorite sınırlarının net olduğu yerlerde çalışmayı seversin.";
-  var kslk_ozl_traditional_your_interests_1 =
-    "Geleneksel insanlar metodik, vicdanlı ve verimlidir. Doğrudurlar ve açıkça tanımlanmış prosedürleri takip etmeyi severler. İş yerinde, işlerin sorunsuz yürümesini sağlayan kural ve düzenlemelerden hoşlanırlar. Yapıyı ve düzeni belirsizliğe tercih ederler. Sonuç olarak, sistemler veya büyük kuruluşlar içinde iyi çalışırlar.";
-  var kslk_ozl_traditional_your_interests_2 =
-    "Geleneksel insanlar kendileri için yüksek standartlara sahiptir, doğrudur ve ayrıntılara çok dikkat eder. Geleneksel bireyler, insanlardan ziyade verilerle ve şeylerle ilgilenir. Sonuç olarak, bir işletmenin muhasebe, kayıt tutma ve veri işleme gibi kağıt ve bilgisayar tabanlı yönleriyle çalışmayı tercih ederler.";
-  var kslk_ozl_traditional_your_work_areas =
-    "Muhasebe, Bankacılık ve Finans, Büro / Sekreterlik, İşletme, Sigorta - Eksper / Sigortacı";
-  var kslk_ozl_traditional_you_may_not_like =
-    "Belirsiz, yapılandırılmamış faaliyetler; kişilerarası sorunlarla başa çıkmak; çizim, resim, yaratıcı yazarlık, fotoğrafçılık; İçeren faaliyetler Kendini ifade etme";
+  var kslk_ozl_traditional_your_profile_ = "Belirlenen prosedürleri ve rutinleri takip eden iş aktivitelerini senin hoşuna gidebilir. Fikirlerden ziyade verilerle ve ayrıntılarla çalışmayı tercih edebilirsin. Yargıda bulunmaktan ziyade kesin standartların olduğu işleri tercih edebilirsin. Muhtemelen sen de diğerleri gibi otorite sınırlarının net olduğu yerlerde çalışmayı seversin.";
+  var kslk_ozl_traditional_your_interests_1 = "Geleneksel insanlar metodik, vicdanlı ve verimlidir. Doğrudurlar ve açıkça tanımlanmış prosedürleri takip etmeyi severler. İş yerinde, işlerin sorunsuz yürümesini sağlayan kural ve düzenlemelerden hoşlanırlar. Yapıyı ve düzeni belirsizliğe tercih ederler. Sonuç olarak, sistemler veya büyük kuruluşlar içinde iyi çalışırlar.";
+  var kslk_ozl_traditional_your_interests_2 = "Geleneksel insanlar kendileri için yüksek standartlara sahiptir, doğrudur ve ayrıntılara çok dikkat eder. Geleneksel bireyler, insanlardan ziyade verilerle ve şeylerle ilgilenir. Sonuç olarak, bir işletmenin muhasebe, kayıt tutma ve veri işleme gibi kağıt ve bilgisayar tabanlı yönleriyle çalışmayı tercih ederler.";
+  var kslk_ozl_traditional_your_work_areas = "Muhasebe, Bankacılık ve Finans, Büro / Sekreterlik, İşletme, Sigorta - Eksper / Sigortacı";
+  var kslk_ozl_traditional_you_may_not_like = "Belirsiz, yapılandırılmamış faaliyetler; kişilerarası sorunlarla başa çıkmak; çizim, resim, yaratıcı yazarlık, fotoğrafçılık; İçeren faaliyetler Kendini ifade etme";
   var kslk_ozl_traditional_questions = "Geleneksel";
-  var kslk_ozl_12_25_traditional_questions_1 =
-    "Ders çalışırken veya ödev yaparken kendimi ne kadar düzenli hissediyorum? Bu düzenli çalışma alışkanlığını sınav dönemlerinde nasıl daha iyi kullanabilirim?";
-  var kslk_ozl_12_25_traditional_questions_2 =
-    "Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
-  var kslk_ozl_12_25_traditional_questions_3 =
-    "Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
+  var kslk_ozl_12_25_traditional_questions_1 = "Ders çalışırken veya ödev yaparken kendimi ne kadar düzenli hissediyorum? Bu düzenli çalışma alışkanlığını sınav dönemlerinde nasıl daha iyi kullanabilirim?";
+  var kslk_ozl_12_25_traditional_questions_2 = "Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
+  var kslk_ozl_12_25_traditional_questions_3 = "Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
   var kslk_ozl_25_plus_traditional_questions_1 = " • Düzenli ve sistematik bir şekilde çalıştığımda işlerimi ne kadar daha verimli yapıyorum? Bu düzenli çalışma alışkanlığımı daha büyük projelere nasıl yayabilirim? ";
   var kslk_ozl_25_plus_traditional_questions_2 = " • Detaylara gösterdiğim özen, iş yerimde hangi farkları yaratıyor? Bu dikkatimi projelerimde daha etkili nasıl kullanabilirim? ";
   var kslk_ozl_25_plus_traditional_questions_3 = " • Planlı ve organize olduğumda iş yerindeki zamanımı nasıl daha iyi yönetiyorum? Bu planlama becerisini iş hayatımda nasıl daha geniş çapta uygulayabilirim? ";
@@ -3257,201 +3202,130 @@ export default async ({ req, res, log, error }) => {
     "Uyum ve Esneklik: Yapay zeka ve dijitalleşme hızla gelişiyor. Bu nedenle 25+ yaş grubundaki bireyler, esneklik ve adaptasyon becerilerini güçlendirdiklerinde, iş dünyasında daha sürdürülebilir bir kariyer yoluna sahip olabilirler. AI çağında hızlı değişimlere ayak uydurmak, hem kişisel hem de profesyonel gelişim için büyük bir avantaj sağlar.";
 
   var ai_25_s3_1_1 = "Dijital Okuryazarlık ";
-  var ai_25_s3_1_2 =
-    "Temel Bilgisayar ve Teknoloji Becerileri: Bilgisayar kullanımını, yazılım ve donanım bilgilerini kapsar. Gençler teknolojiyi etkili ve verimli bir şekilde kullanabilmelidir. ";
-  var ai_25_s3_1_3 =
-    "Yapay Zeka Temelleri: AI'nın ne olduğu, nasıl çalıştığı ve hayatımızı nasıl şekillendirdiği hakkında temel bilgilere sahip olmak giderek önem kazanıyor.";
+  var ai_25_s3_1_2 = " • Temel Bilgisayar ve Teknoloji Becerileri: Bilgisayar kullanımını, yazılım ve donanım bilgilerini kapsar. Gençler teknolojiyi etkili ve verimli bir şekilde kullanabilmelidir. ";
+  var ai_25_s3_1_3 = " • Yapay Zeka Temelleri: AI'nın ne olduğu, nasıl çalıştığı ve hayatımızı nasıl şekillendirdiği hakkında temel bilgilere sahip olmak giderek önem kazanıyor.";
 
   var ai_25_s3_2_1 = "Veri Okuryazarlığı";
-  var ai_25_s3_2_2 =
-    "Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir.";
-  var ai_25_s3_2_3 =
-    "Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
+  var ai_25_s3_2_2 = " • Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir.";
+  var ai_25_s3_2_3 = " • Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
 
   var ai_25_s3_3_1 = "Kodlama ve Programlama";
-  var ai_25_s3_3_2 =
-    "Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
-  var ai_25_s3_3_3 =
-    "Algoritmik Düşünme: Problemleri çözmek için sistematik ve mantıklı yollar geliştirmek, AI çağında temel bir beceridir.";
+  var ai_25_s3_3_2 = " • Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
+  var ai_25_s3_3_3 = " • Algoritmik Düşünme: Problemleri çözmek için sistematik ve mantıklı yollar geliştirmek, AI çağında temel bir beceridir.";
 
   var ai_25_s3_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-  var ai_25_s3_4_2 =
-    "Analitik Düşünme: Verilerden veya olaylardan anlam çıkarma, çözüm yolları geliştirme yeteneği. AI araçlarını doğru ve etkili bir şekilde kullanabilmek için bu beceri hayati önem taşır. ";
-  var ai_25_s3_4_3 =
-    "Yaratıcı Problem Çözme: Yenilikçi ve yaratıcı yollarla çözümler üretebilme, özellikle AI ve teknoloji alanlarında avantaj sağlar.";
+  var ai_25_s3_4_2 = " • Analitik Düşünme: Verilerden veya olaylardan anlam çıkarma, çözüm yolları geliştirme yeteneği. AI araçlarını doğru ve etkili bir şekilde kullanabilmek için bu beceri hayati önem taşır. ";
+  var ai_25_s3_4_3 = " • Yaratıcı Problem Çözme: Yenilikçi ve yaratıcı yollarla çözümler üretebilme, özellikle AI ve teknoloji alanlarında avantaj sağlar.";
 
   var ai_25_s3_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-  var ai_25_s3_5_2 =
-    "Esneklik: Sürekli değişen teknoloji ve iş dünyasına hızla adapte olabilmek. Yeni AI araçlarını, sistemlerini öğrenme yeteneği önemlidir. ";
-  var ai_25_s3_5_3 =
-    "Yaşam Boyu Öğrenme: Teknoloji geliştikçe, yeni beceriler öğrenme ve mevcut becerileri güncelleme yeteneği daha da önem kazanıyor.";
+  var ai_25_s3_5_2 = " • Esneklik: Sürekli değişen teknoloji ve iş dünyasına hızla adapte olabilmek. Yeni AI araçlarını, sistemlerini öğrenme yeteneği önemlidir. ";
+  var ai_25_s3_5_3 = " • Yaşam Boyu Öğrenme: Teknoloji geliştikçe, yeni beceriler öğrenme ve mevcut becerileri güncelleme yeteneği daha da önem kazanıyor.";
 
   var ai_25_s3_6_1 = "İletişim ve İşbirliği ";
-  var ai_25_s3_6_2 =
-    "Teknik ve İnsan Dili Arasındaki Köprü: AI ve teknoloji alanında çalışırken karmaşık bilgileri sade bir şekilde açıklayabilme yeteneği önemlidir.";
-  var ai_25_s3_6_3 =
-    "Takım Çalışması: Özellikle çok disiplinli projelerde işbirliği yapabilmek, AI projelerinde başarıya ulaşmanın anahtarlarından biridir.";
+  var ai_25_s3_6_2 = " • Teknik ve İnsan Dili Arasındaki Köprü: AI ve teknoloji alanında çalışırken karmaşık bilgileri sade bir şekilde açıklayabilme yeteneği önemlidir.";
+  var ai_25_s3_6_3 = " • Takım Çalışması: Özellikle çok disiplinli projelerde işbirliği yapabilmek, AI projelerinde başarıya ulaşmanın anahtarlarından biridir.";
 
   var ai_25_s3_7_1 = "Etik ve Sosyal Sorumluluk";
-  var ai_25_s3_7_2 =
-    "AI Etikleri: Yapay zekanın toplumsal etkileri, karar alma süreçlerindeki rolü ve insanlara olan etkileri konusunda bilinçli olmak.";
-  var ai_25_s3_7_3 =
-    "Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
+  var ai_25_s3_7_2 = " • AI Etikleri: Yapay zekanın toplumsal etkileri, karar alma süreçlerindeki rolü ve insanlara olan etkileri konusunda bilinçli olmak.";
+  var ai_25_s3_7_3 = " • Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
 
   var ai_25_s3_8_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s3_8_2 =
-    "Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir.";
-  var ai_25_s3_8_3 =
-    "Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
+  var ai_25_s3_8_2 = " • Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir.";
+  var ai_25_s3_8_3 = " • Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
 
   var ai_25_s3_9_1 = "Yenilikçi ve Girişimci Düşünce";
-  var ai_25_s3_9_2 =
-    "Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
-  var ai_25_s3_9_3 =
-    "Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
+  var ai_25_s3_9_2 = " • Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
+  var ai_25_s3_9_3 = " • Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
 
   var ai_25_s4u1_1_1 = "Dijital Okuryazarlık";
-  var ai_25_s4u1_1_2 =
-    "Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin?";
-  var ai_25_s4u1_1_3 =
-    "AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını ön görebiliyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin?";
+  var ai_25_s4u1_1_2 = " • Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin?";
+  var ai_25_s4u1_1_3 = " • AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını ön görebiliyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin?";
 
   var ai_25_s4u1_2_1 = "Veri Okuryazarlığı";
-  var ai_25_s4u1_2_2 =
-    "Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir. ";
-  var ai_25_s4u1_2_3 =
-    "Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
+  var ai_25_s4u1_2_2 = " • Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir. ";
+  var ai_25_s4u1_2_3 = " • Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
 
   var ai_25_s4u1_3_1 = "Kodlama ve Programlama";
-  var ai_25_s4u1_3_2 =
-    "Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
-  var ai_25_s4u1_3_3 =
-    "Algoritmik Düşünme: Problemleri çözmek için sistematik ve mantıklı yollar geliştirmek, AI çağında temel bir beceridir.";
+  var ai_25_s4u1_3_2 = " • Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
+  var ai_25_s4u1_3_3 = " • Algoritmik Düşünme: Problemleri çözmek için sistematik ve mantıklı yollar geliştirmek, AI çağında temel bir beceridir.";
 
   var ai_25_s4u1_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-  var ai_25_s4u1_4_2 =
-    "Analitik Düşünme: Verilerden veya olaylardan anlam çıkarma, çözüm yolları geliştirme yeteneği. AI araçlarını doğru ve etkili bir şekilde kullanabilmek için bu beceri hayati önem taşır.";
-  var ai_25_s4u1_4_3 =
-    "Yaratıcı Problem Çözme: Yenilikçi ve yaratıcı yollarla çözümler üretebilme, özellikle AI ve teknoloji alanlarında avantaj sağlar.";
+  var ai_25_s4u1_4_2 = " • Analitik Düşünme: Verilerden veya olaylardan anlam çıkarma, çözüm yolları geliştirme yeteneği. AI araçlarını doğru ve etkili bir şekilde kullanabilmek için bu beceri hayati önem taşır.";
+  var ai_25_s4u1_4_3 = " • Yaratıcı Problem Çözme: Yenilikçi ve yaratıcı yollarla çözümler üretebilme, özellikle AI ve teknoloji alanlarında avantaj sağlar.";
 
   var ai_25_s4u1_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-  var ai_25_s4u1_5_2 =
-    "Esneklik: Sürekli değişen teknoloji ve iş dünyasına hızla adapte olabilmek. Yeni AI araçlarını, sistemlerini öğrenme yeteneği önemlidir. ";
-  var ai_25_s4u1_5_3 =
-    "Yaşam Boyu Öğrenme: Teknoloji geliştikçe, yeni beceriler öğrenme ve mevcut becerileri güncelleme yeteneği daha da önem kazanıyor.";
+  var ai_25_s4u1_5_2 = " • Esneklik: Sürekli değişen teknoloji ve iş dünyasına hızla adapte olabilmek. Yeni AI araçlarını, sistemlerini öğrenme yeteneği önemlidir. ";
+  var ai_25_s4u1_5_3 = " • Yaşam Boyu Öğrenme: Teknoloji geliştikçe, yeni beceriler öğrenme ve mevcut becerileri güncelleme yeteneği daha da önem kazanıyor.";
 
   var ai_25_s4u1_6_1 = "İletişim ve İşbirliği";
-  var ai_25_s4u1_6_2 =
-    "Teknik ve İnsan Dili Arasındaki Köprü: AI ve teknoloji alanında çalışırken karmaşık bilgileri sade bir şekilde açıklayabilme yeteneği önemlidir.";
-  var ai_25_s4u1_6_3 =
-    "Takım Çalışması: Özellikle çok disiplinli projelerde işbirliği yapabilmek, AI projelerinde başarıya ulaşmanın anahtarlarından biridir.";
+  var ai_25_s4u1_6_2 = " • Teknik ve İnsan Dili Arasındaki Köprü: AI ve teknoloji alanında çalışırken karmaşık bilgileri sade bir şekilde açıklayabilme yeteneği önemlidir.";
+  var ai_25_s4u1_6_3 = " • Takım Çalışması: Özellikle çok disiplinli projelerde işbirliği yapabilmek, AI projelerinde başarıya ulaşmanın anahtarlarından biridir.";
 
   var ai_25_s4u1_7_1 = "Etik ve Sosyal Sorumluluk";
-  var ai_25_s4u1_7_2 =
-    "AI Etikleri: Yapay zekanın toplumsal etkileri, karar alma süreçlerindeki rolü ve insanlara olan etkileri konusunda bilinçli olmak. ";
-  var ai_25_s4u1_7_3 =
-    "Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
+  var ai_25_s4u1_7_2 = " • AI Etikleri: Yapay zekanın toplumsal etkileri, karar alma süreçlerindeki rolü ve insanlara olan etkileri konusunda bilinçli olmak. ";
+  var ai_25_s4u1_7_3 = " • Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
 
   var ai_25_s4u1_8_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s4u1_8_2 =
-    "Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir. ";
-  var ai_25_s4u1_8_3 =
-    "Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
+  var ai_25_s4u1_8_2 = " • Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir. ";
+  var ai_25_s4u1_8_3 = " • Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
 
   var ai_25_s4u1_9_1 = "Yenilikçi ve Girişimci Düşünce";
-  var ai_25_s4u1_9_2 =
-    "Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
-  var ai_25_s4u1_9_3 =
-    "Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
+  var ai_25_s4u1_9_2 = " • Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
+  var ai_25_s4u1_9_3 = " • Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
 
   var ai_25_s4u2_1_1 = "Dijital Okuryazarlık";
-  var ai_25_s4u2_1_2 =
-    "Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
-  var ai_25_s4u2_1_3 =
-    "Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum?";
-  var ai_25_s4u2_1_4 =
-    "Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım?";
-  var ai_25_s4u2_1_5 =
-    "Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
+  var ai_25_s4u2_1_2 = " • Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
+  var ai_25_s4u2_1_3 = " • Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum?";
+  var ai_25_s4u2_1_4 = " • Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım?";
+  var ai_25_s4u2_1_5 = " • Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
 
   var ai_25_s4u2_2_1 = "Veri Okuryazarlığı";
-  var ai_25_s4u2_2_2 =
-    "Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor? ";
-  var ai_25_s4u2_2_3 =
-    "Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum?";
-  var ai_25_s4u2_2_4 =
-    "Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-  var ai_25_s4u2_2_5 =
-    "Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
+  var ai_25_s4u2_2_2 = " • Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor? ";
+  var ai_25_s4u2_2_3 = " • Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum?";
+  var ai_25_s4u2_2_4 = " • Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
+  var ai_25_s4u2_2_5 = " • Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
 
   var ai_25_s4u2_3_1 = "Kodlama ve Programlama";
-  var ai_25_s4u2_3_2 =
-    "Programlama dilleri öğrenmeye olan ilgim ne düzeyde? Yeni bir dil öğrenmeyi düşündüğümde nereden başlamalıyım? ";
-  var ai_25_s4u2_3_3 =
-    "Hangi alanlarda programlama bilgimi daha da geliştirebilirim? Mevcut projelerimde daha etkin olmak için hangi dilleri öğrenmeliyim?";
-  var ai_25_s4u2_3_4 =
-    "Problemleri çözmek için hangi adımları izliyorum? Mantıksal düşünme becerilerim ne kadar gelişmiş?";
-  var ai_25_s4u2_3_4 =
-    "Algoritmik düşünme yeteneğimi geliştirmek için hangi araçlardan faydalanabilirim? Bu beceriyi iş veya eğitim hayatımda nasıl daha iyi kullanabilirim? ";
+  var ai_25_s4u2_3_2 = " • Programlama dilleri öğrenmeye olan ilgim ne düzeyde? Yeni bir dil öğrenmeyi düşündüğümde nereden başlamalıyım? ";
+  var ai_25_s4u2_3_3 = " • Hangi alanlarda programlama bilgimi daha da geliştirebilirim? Mevcut projelerimde daha etkin olmak için hangi dilleri öğrenmeliyim?";
+  var ai_25_s4u2_3_4 = " • Problemleri çözmek için hangi adımları izliyorum? Mantıksal düşünme becerilerim ne kadar gelişmiş?";
+  var ai_25_s4u2_3_4 = " • Algoritmik düşünme yeteneğimi geliştirmek için hangi araçlardan faydalanabilirim? Bu beceriyi iş veya eğitim hayatımda nasıl daha iyi kullanabilirim? ";
 
   var ai_25_s4u2_4_1 = "Eleştirel Düşünme ve Problem Çözme ";
-  var ai_25_s4u2_4_2 =
-    "Karar verirken olaylara nasıl yaklaşırım? Farklı seçenekleri değerlendirme konusunda ne kadar analitik düşünüyorum? ";
-  var ai_25_s4u2_4_3 =
-    "Analitik düşünme yeteneğimi geliştirmek için hangi kaynaklardan faydalanıyorum? Zorlu problemlere karşı nasıl bir strateji izliyorum? ";
-  var ai_25_s4u2_4_4 =
-    "Yaratıcı düşünceyi nasıl geliştirebilirim? Farklı perspektiflerden bakmayı nasıl öğrenebilirim?";
-  var ai_25_s4u2_4_5 =
-    "Teknoloji ve AI kullanarak daha yenilikçi çözümler üretme konusunda ne kadar isteklilik gösteriyorum?";
+  var ai_25_s4u2_4_2 = " • Karar verirken olaylara nasıl yaklaşırım? Farklı seçenekleri değerlendirme konusunda ne kadar analitik düşünüyorum? ";
+  var ai_25_s4u2_4_3 = " • Analitik düşünme yeteneğimi geliştirmek için hangi kaynaklardan faydalanıyorum? Zorlu problemlere karşı nasıl bir strateji izliyorum? ";
+  var ai_25_s4u2_4_4 = " • Yaratıcı düşünceyi nasıl geliştirebilirim? Farklı perspektiflerden bakmayı nasıl öğrenebilirim?";
+  var ai_25_s4u2_4_5 = " • Teknoloji ve AI kullanarak daha yenilikçi çözümler üretme konusunda ne kadar isteklilik gösteriyorum?";
 
   var ai_25_s4u2_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-  var ai_25_s4u2_5_2 =
-    "Yeni teknolojilere ve değişen iş dünyasına ne kadar hızlı uyum sağlayabiliyorum? Değişikliklere karşı nasıl tepki veriyorum?";
-  var ai_25_s4u2_5_3 =
-    "Yapay zekanın hızlı gelişimi karşısında nasıl esnek olabilirim? İş hayatımda daha uyumlu olmak için hangi adımları atmalıyım?";
-  var ai_25_s4u2_5_4 =
-    "Kendimi geliştirmek için ne kadar istekliyim? Teknolojideki yenilikleri takip etme konusunda ne kadar aktifim? ";
-  var ai_25_s4u2_5_5 =
-    "Hangi alanlarda kendimi daha fazla geliştirmem gerektiğini düşünüyorum? AI dünyasında öğrenmeye nasıl devam edebilirim? ";
+  var ai_25_s4u2_5_2 = " • Yeni teknolojilere ve değişen iş dünyasına ne kadar hızlı uyum sağlayabiliyorum? Değişikliklere karşı nasıl tepki veriyorum?";
+  var ai_25_s4u2_5_3 = " • Yapay zekanın hızlı gelişimi karşısında nasıl esnek olabilirim? İş hayatımda daha uyumlu olmak için hangi adımları atmalıyım?";
+  var ai_25_s4u2_5_4 = " • Kendimi geliştirmek için ne kadar istekliyim? Teknolojideki yenilikleri takip etme konusunda ne kadar aktifim? ";
+  var ai_25_s4u2_5_5 = " • Hangi alanlarda kendimi daha fazla geliştirmem gerektiğini düşünüyorum? AI dünyasında öğrenmeye nasıl devam edebilirim? ";
 
   var ai_25_s4u2_6_1 = "İletişim ve İşbirliği";
-  var ai_25_s4u2_6_2 =
-    "Teknik konuları başkalarına açıklarken ne kadar başarılıyım? Kendi bilgimi sade ve anlaşılır hale getirme konusunda ne kadar becerikliyim? ";
-  var ai_25_s4u2_6_3 =
-    "Teknik bilgileri ekip arkadaşlarıma veya müşterilere daha net ifade edebilmek için hangi becerileri geliştirmeliyim?";
-  var ai_25_s4u2_6_4 =
-    "Takım içinde fikirlerimi paylaşırken ne kadar rahatım? Grup dinamiklerini anlamak ve katkı sağlamak için hangi becerilerimi geliştirmeliyim?";
-  var ai_25_s4u2_6_5 =
-    "AI projelerinde ekip üyeleriyle nasıl daha iyi iş birliği yapabilirim? Takım arkadaşlarımın güçlü yanlarını nasıl daha etkili kullanabilirim?";
+  var ai_25_s4u2_6_2 = " • Teknik konuları başkalarına açıklarken ne kadar başarılıyım? Kendi bilgimi sade ve anlaşılır hale getirme konusunda ne kadar becerikliyim? ";
+  var ai_25_s4u2_6_3 = " • Teknik bilgileri ekip arkadaşlarıma veya müşterilere daha net ifade edebilmek için hangi becerileri geliştirmeliyim?";
+  var ai_25_s4u2_6_4 = " • Takım içinde fikirlerimi paylaşırken ne kadar rahatım? Grup dinamiklerini anlamak ve katkı sağlamak için hangi becerilerimi geliştirmeliyim?";
+  var ai_25_s4u2_6_5 = " • AI projelerinde ekip üyeleriyle nasıl daha iyi iş birliği yapabilirim? Takım arkadaşlarımın güçlü yanlarını nasıl daha etkili kullanabilirim?";
 
   var ai_25_s4u2_7_1 = "Etik ve Sosyal Sorumluluk";
-  var ai_25_s4u2_7_2 =
-    "AI kullanırken etik sorumluluklarım nelerdir? Bu sorumlulukları daha iyi yönetmek için neler yapmalıyım?";
-  var ai_25_s4u2_7_3 =
-    "AI projelerinde etik kararlar alırken, topluma ve çevreme nasıl bir fayda sağlayabilirim? ";
-  var ai_25_s4u2_7_4 =
-    "Yapay zeka projelerinde sosyal sorumluluk bilincimi nasıl geliştirebilirim? Toplumun iyiliği için hangi AI projelerine katkı sağlayabilirim?";
-  var ai_25_s4u2_7_5 =
-    "AI teknolojilerinin getirdiği fırsatları toplumsal faydaya nasıl dönüştürebilirim?";
+  var ai_25_s4u2_7_2 = " • AI kullanırken etik sorumluluklarım nelerdir? Bu sorumlulukları daha iyi yönetmek için neler yapmalıyım?";
+  var ai_25_s4u2_7_3 = " • AI projelerinde etik kararlar alırken, topluma ve çevreme nasıl bir fayda sağlayabilirim? ";
+  var ai_25_s4u2_7_4 = " • Yapay zeka projelerinde sosyal sorumluluk bilincimi nasıl geliştirebilirim? Toplumun iyiliği için hangi AI projelerine katkı sağlayabilirim?";
+  var ai_25_s4u2_7_5 = " • AI teknolojilerinin getirdiği fırsatları toplumsal faydaya nasıl dönüştürebilirim?";
 
   var ai_25_s4u2_8_1 = "Duygusal Zeka (EQ)";
-  var ai_25_s4u2_8_2 =
-    "Yapay zeka ve teknolojiyle çalışırken insan ilişkilerime ne kadar önem veriyorum? Empati yeteneğimi nasıl geliştirebilirim?";
-  var ai_25_s4u2_8_3 =
-    "Teknoloji projelerinde duygusal zekamı ne kadar kullanıyorum? İş yerinde daha empatik olabilmek için neler yapabilirim?";
-  var ai_25_s4u2_8_4 =
-    "AI ve dijital dünyada sürekli öğrenmenin getirdiği stresle nasıl başa çıkıyorum? Stresle baş etme stratejilerim neler?";
-  var ai_25_s4u2_8_5 =
-    "Zorlayıcı projelerde kendimi nasıl rahatlatıyorum? Stres yönetimi konusunda hangi becerilerimi geliştirmeliyim? ";
+  var ai_25_s4u2_8_2 = " • Yapay zeka ve teknolojiyle çalışırken insan ilişkilerime ne kadar önem veriyorum? Empati yeteneğimi nasıl geliştirebilirim?";
+  var ai_25_s4u2_8_3 = " • Teknoloji projelerinde duygusal zekamı ne kadar kullanıyorum? İş yerinde daha empatik olabilmek için neler yapabilirim?";
+  var ai_25_s4u2_8_4 = " • AI ve dijital dünyada sürekli öğrenmenin getirdiği stresle nasıl başa çıkıyorum? Stresle baş etme stratejilerim neler?";
+  var ai_25_s4u2_8_5 = " • Zorlayıcı projelerde kendimi nasıl rahatlatıyorum? Stres yönetimi konusunda hangi becerilerimi geliştirmeliyim? ";
 
   var ai_25_s4u2_9_1 = "Yenilikçi ve Girişimci Düşünce";
-  var ai_25_s4u2_9_2 =
-    "Yapay zeka ile ilgili yenilikçi iş fikirleri geliştirme konusunda ne kadar istekliyim? Yeni projeler başlatmak için hangi adımları atıyorum? ";
-  var ai_25_s4u2_9_3 =
-    "Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
-  var ai_25_s4u2_9_4 =
-    "Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
-
+  var ai_25_s4u2_9_2 = " • Yapay zeka ile ilgili yenilikçi iş fikirleri geliştirme konusunda ne kadar istekliyim? Yeni projeler başlatmak için hangi adımları atıyorum? ";
+  var ai_25_s4u2_9_3 = " • Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
+  var ai_25_s4u2_9_4 = " • Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
+  
   var ai_25_s5u2_1_1 = "Dijital Okuryazarlık";
   var ai_25_s5u2_1_2 = " • Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
   var ai_25_s5u2_1_3 = " • Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum? ";
@@ -3542,48 +3416,37 @@ export default async ({ req, res, log, error }) => {
   var ai_25_s5u1_9_2 = " • Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun? ";
   var ai_25_s5u1_9_3 = " • Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin? ";
 
-  var teamwork_1 =
-    "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
+  var teamwork_1 = "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
 
   var teamwork_best_1_1 = "Aktif Dinleme ve Empati";
-  var teamwork_best_1_2 =
-    "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
+  var teamwork_best_1_2 = "Aktif dinleme ve empati, bir ekip içinde güven oluşturmak için çok önemlidir. Bu sadece kelimeleri duymakla ilgili değil, aynı zamanda arkalarındaki duyguları ve niyetleri anlamakla da ilgilidir. Bu bireyler cana yakın, duygusal olarak müsait ve başkalarının ihtiyaçlarına düşünceli bir şekilde yanıt verebilen kişilerdir, bu da onları herhangi bir işbirlikçi ortamda harika takım oyuncuları yapar.";
 
   var teamwork_best_2_1 = "Etkili İletişim";
-  var teamwork_best_2_2 =
-    "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur.";
+  var teamwork_best_2_2 = "Bilgi alışverişinin ötesine geçer - açıklık ve duygusal zekayı içerir. Bireyin düşüncelerini başkalarının kolayca anlayabileceği şekilde ifade etme yeteneğini gösterir. Bu beceride güçlü çalışanlar, yanlış anlamaları azaltmaya, üretkenliği artırmaya ve olumlu çalışma ilişkilerini geliştirmeye yardımcı olur.";
 
   var teamwork_best_3_1 = "İşbirliği";
-  var teamwork_best_3_2 =
-    "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. ";
+  var teamwork_best_3_2 = "Başkalarıyla iyi çalışma, ortak hedeflere ulaşmak için fikir ve sorumlulukları paylaşma yeteneğidir. Bu kişiler doğal olarak işbirliğinde mükemmeldir. İşbirlikçi, arkadaş canlısı ve uyumlu bir birim olarak çalışmaya isteklidirler ve herkesin kendini değerli hissettiği kapsayıcı bir ekip ortamına katkıda bulunurlar. ";
 
   var teamwork_best_4_1 = "Uyumluluk";
-  var teamwork_best_4_2 =
-    "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir.";
+  var teamwork_best_4_2 = "Bunalmadan yeni durumlara, zorluklara ve taleplere uyum sağlama yeteneğini ifade eder. Bu kişiler, belirsiz ortamlarda değişimi benimseme ve başarılı olma olasılıkları daha yüksektir. Bu esneklik, önceliklerin beklenmedik bir şekilde değişebildiği hızlı tempolu iş yerlerinde çok önemlidir.";
 
   var teamwork_best_5_1 = "Çatışma Çözümü";
-  var teamwork_best_5_2 =
-    "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar.";
+  var teamwork_best_5_2 = "Her ekip bir noktada çatışmayla karşı karşıya kalacaktır ve bu çatışmaları dostane bir şekilde çözme yeteneği, ekip uyumunu korumak için çok önemlidir. Bu bireyler, anlaşmazlıkları yönlendirmede etkili olma eğilimindedir. Baskı altında sakindirler, empatiktirler ve çatışmacı davranışlarda bulunmak yerine karşılıklı yarar sağlayan çözümler bulmaya odaklanırlar.";
 
   var teamwork_best_6_1 = "İnisiyatif";
-  var teamwork_best_6_2 =
-    "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır.";
+  var teamwork_best_6_2 = "İnisiyatif almak, proaktif olmak, talimat beklememek ve görevleri bağımsız olarak ele almak anlamına gelir. Bu yetkinliğe sahip kişiler doğal olarak inisiyatif göstermeye daha meyillidir. Bu kişiler, genellikle masaya yeni fikirler ve enerji getiren, akranlarını da aynı şeyi yapmaya motive eden, kendi kendine başlayanlardır.";
 
   var teamwork_best_7_1 = "Geri Bildirim";
-  var teamwork_best_7_2 =
-    "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. ";
+  var teamwork_best_7_2 = "Yapıcı geri bildirim vermek ve almak, ekip çalışmasının çok önemli bir yönüdür. Geri bildirimi şefkatli bir şekilde iletebilir, olumlu bir şekilde alınmasını sağlayabilirler ve ayrıca geri bildirimi kendileri duymaya ve uygulamaya açıktırlar. ";
 
   var teamwork_best_8_1 = "Takım Oluşturma";
-  var teamwork_best_8_2 =
-    "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. ";
+  var teamwork_best_8_2 = "Güçlü, uyumlu bir ekip oluşturmak ve sürdürmek, ilişkilere ve morale odaklanmayı gerektirir. Genellikle karizmatik ve kapsayıcı olurlar, bu da çeşitli ekip üyeleri arasında birlik ve işbirliği duygusu geliştirmelerini kolaylaştırır. ";
 
   var teamwork_best_9_1 = "Mesleki Gelişim";
-  var teamwork_best_9_2 =
-    "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. ";
+  var teamwork_best_9_2 = "Mesleki gelişim, sadece kendi becerilerini geliştirmeyi değil, aynı zamanda başkalarını da büyümeye teşvik etmeyi içerir. Bu bireyler sürekli gelişime değer verme eğilimindedir. Öğrenme fırsatlarını araştırma ve başkalarını da aynı şeyi yapmaya motive etme konusunda proaktiftirler ve ekibin genel büyümesini sağlarlar. ";
 
   var teamwork_best_10_1 = "Liderlik";
-  var teamwork_best_10_2 =
-    "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
+  var teamwork_best_10_2 = "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
 
   var teamwork_s3u1_1_1 = "Aktif Dinleme ve Empati";
   var teamwork_s3u1_1_2 = " • Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? ";
@@ -4346,10 +4209,8 @@ export default async ({ req, res, log, error }) => {
       if (hollandName == "Gerçekçi") {
         return kslk_ozl_realistic_your_profile;
       } else if (hollandName == "Araştırıcı") {
-        // bu ne Araştırmacı
         return kslk_ozl_researcher_your_profile;
       } else if (hollandName == "Artistik Sanatsal") {
-        // Sanatsal
         return kslk_ozl_artistic_your_profile;
       } else if (hollandName == "Sosyal") {
         return kslk_ozl_social_your_profile;
@@ -4402,17 +4263,17 @@ export default async ({ req, res, log, error }) => {
       }
     } else if (type == "work_areas") {
       if (hollandName == "Gerçekçi") {
-        return kslk_ozl_realistic_your_profile_;
+        return kslk_ozl_realistic_your_work_areas;
       } else if (hollandName == "Araştırıcı") {
-        return kslk_ozl_researcher_your_profile_;
+        return kslk_ozl_researcher_your_work_areas;
       } else if (hollandName == "Artistik Sanatsal") {
-        return kslk_ozl_artistic_your_profile_;
+        return kslk_ozl_artistic_your_work_areas;
       } else if (hollandName == "Sosyal") {
-        return kslk_ozl_social_your_profile_;
+        return kslk_ozl_social_your_work_areas;
       } else if (hollandName == "Girişimci") {
-        return kslk_ozl_entrepreneur_your_profile_;
+        return kslk_ozl_entrepreneur_your_work_areas;
       } else if (hollandName == "Geleneksel") {
-        return kslk_ozl_traditional_your_profile_;
+        return kslk_ozl_traditional_your_work_areas;
       }
     } else if (type == "may_not_like") {
       if (hollandName == "Gerçekçi") {
@@ -6831,7 +6692,7 @@ export default async ({ req, res, log, error }) => {
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_12_25_s7_auto_3_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
-        return kariyer_secim_12_25_s7_auto_3_2;
+        return kariyer_secim_12_25_s7_auto_4_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_5_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
@@ -7897,7 +7758,7 @@ export default async ({ req, res, log, error }) => {
   var P17A3 = lifestyle(lifestyleData[0], 25, "image");
   var P18A1 = lifestyle(lifestyleData[0], 25, "p2");
   var P18A2 = lifestyle(lifestyleData[0], 25, "p3");
-  var P18A3 = lifestyle(lifestyleData[0], 25, "motto"); // motto
+  var P18A3 = lifestyle(lifestyleData[0], 25, "motto").toUpperCase(); // motto
   var P19A1 = lifestyle(lifestyleData[0], 25, "name");
   var P19A2 = lifestyle(lifestyleData[0], 25, "evaluation_1");
   var P19A3 = lifestyle(lifestyleData[0], 25, "evaluation_2");
@@ -7944,66 +7805,18 @@ export default async ({ req, res, log, error }) => {
   var P28A4 = is_y_r(is_y_rData[0], 25, "s3_2");
   var P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1");
   //var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, "s2_3_1"); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A1 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_1",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-  var P30A2 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_2",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-  var P30A3 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_3",
-  ); // is_y_r(is_y_rData[0], 25, "s3_1"),
-  var P30A4 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_4",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-  var P30A5 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_5",
-  ); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-  var P30A6 = guclu_yanlarin(
-    guclu_yanlarinData[0],
-    25,
-    guclu_yanlarinData[0].name + "_6",
-  );
-  var P31A1 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_1",
-  );
-  var P31A2 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_2",
-  );
-  var P31A3 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_3",
-  );
-  var P31A4 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_4",
-  );
-  var P31A5 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_5",
-  );
-  var P31A6 = guclu_yanlarin(
-    guclu_yanlarinData[1],
-    25,
-    guclu_yanlarinData[1].name + "_6",
-  );
+  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); // is_y_r(is_y_rData[0], 25, "s3_1"),
+  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+  var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+  var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+  var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+  var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+  var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+  var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+  var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
   var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
   var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
   var P34A3 = "İki Temel Unsur:";
@@ -8102,6 +7915,8 @@ export default async ({ req, res, log, error }) => {
     P8A5: P8A5,
     P8A6: P8A6,
     P8A7: P8A7,
+    P8A8: P8A8,
+    P8A9: P8A9,
     P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
     P9A2: P9A2,
     P9A3: P9A3,
