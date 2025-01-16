@@ -2947,10 +2947,8 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_s1_chart = "";
   var krktr_ozl_self_discipline = "Öz Disiplin"; //bold
   var krktr_ozl_character_elements_self_discipline_s1 = "Her bir kişilik özelliği arasında, öz disiplin; yüksek seviyede düşüncelilik, iyi dürtü kontrolü ve hedef odaklı davranışlarla tanımlanır. Öz Disiplin duygusu yüksek olan kişiler genellikle düzenli ve ayrıntılara dikkat eden bireylerdir. Önceden plan yapar, davranışlarının başkalarını nasıl etkilediğini düşünür ve son teslim tarihlerine özen gösterirler.\n\nBu temel kişilik özelliğinden düşük puan alan bir kişi ise daha az yapısal ve daha düzensiz olabilir. İşleri son ana bırakabilir ve bazen teslim tarihlerini tamamen kaçırabilir.";
-  var krktr_ozl_strenghts_self_discipline_s2_1 = "Öz Disiplinli olma,"; 
-  var krktr_ozl_strenghts_self_discipline_s2_2 = "disiplini, organizasyon becerilerini ve sorumluluk hissini yansıtır. Bu, zaman yönetimi ve verimlilik açısından avantaj sağlayabilir.";
-  var krktr_ozl_weaknesses_self_discipline_s2_1 = "Aşırı öz disiplinli olmak,"; 
-  var krktr_ozl_weaknesses_self_discipline_s2_2 = "esneklik eksikliğine yol açabilir ve iş yerinde aşırı mükemmeliyetçiliğe neden olabilir.";
+  var krktr_ozl_strenghts_self_discipline_s2_1 = "Öz Disiplinli olma, disiplini, organizasyon becerilerini ve sorumluluk hissini yansıtır. Bu, zaman yönetimi ve verimlilik açısından avantaj sağlayabilir.";
+  var krktr_ozl_weaknesses_self_discipline_s2_1 = "Aşırı öz disiplinli olmak, esneklik eksikliğine yol açabilir ve iş yerinde aşırı mükemmeliyetçiliğe neden olabilir.";
   var krktr_ozl_other_attributes_self_discipline_s2 = "Verimli,\norganize,\ngörev odaklı,\nbaşarı çabası içerisinde,\nmüzakereci,\ndürtüsel ve tembel olmayan";
   var krktr_ozl_12_25_self_discipline_questions_1 = "Ödevlerimi planlı ve düzenli bir şekilde yaptığımda sonuçlarım nasıl oluyor? Bu planlama becerimi sınav dönemlerinde nasıl daha etkili hale getirebilirim?";
   var krktr_ozl_12_25_self_discipline_questions_2 = "Hedeflerime ulaştığımda, bu başarıyı sağlayan en önemli alışkanlıklarım neler? Bu alışkanlıkları ders çalışmamda ve diğer görevlerimde nasıl daha da geliştirebilirim?";
@@ -2962,10 +2960,8 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_s1_chart = "";
   var krktr_ozl_extraversion = "Dışa Dönüklük"; //bold
   var krktr_ozl_character_elements_extraversion_s1 = 'Dışadönüklük, heyecanlı olma, sosyallik, konuşkanlık, kendine güven ve yüksek duygusal ifade ile karakterize edilen bir kişilik özelliğidir. Dışadönüklük seviyesi yüksek olan kişiler, dışa dönük olup sosyal ortamlarda enerji kazanma eğilimindedir. Başkalarıyla bir arada olmak, onların kendilerini enerjik ve heyecanlı hissetmelerine yardımcı olur.\n\nBu kişilik özelliği düşük olan ya da içedönük kişiler ise genellikle daha sakindirler. Sosyal ortamlarda harcayacak daha az enerjileri vardır ve sosyal etkinlikler onları yorabilir. İçedönük bireyler genellikle \"yeniden şarj olmak\" için yalnızlığa ve sessizliğe ihtiyaç duyarlar.';
-  var krktr_ozl_strenghts_extraversion_s2_1 = "Sosyal etkileşimlere yatkınlık,"; 
-  var krktr_ozl_strenghts_extraversion_s2_2 = "liderlik pozisyonlarına uygunluk ve ekip çalışması yeteneği gibi dışa dönüklük özellikleri, iş birligi ve iletişim becerilerini geliştirebilir. Diğer insanların yanındayken enerjik hisseder.";
-  var krktr_ozl_weaknesses_extraversion_s2_1 = "İş yerinde fazla dışa dönük olmak,"; 
-  var krktr_ozl_weaknesses_extraversion_s2_2 = "odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.";
+  var krktr_ozl_strenghts_extraversion_s2_1 = "Sosyal etkileşimlere yatkınlık, liderlik pozisyonlarına uygunluk ve ekip çalışması yeteneği gibi dışa dönüklük özellikleri, iş birligi ve iletişim becerilerini geliştirebilir. Diğer insanların yanındayken enerjik hisseder.";
+  var krktr_ozl_weaknesses_extraversion_s2_1 = "İş yerinde fazla dışa dönük olmak, odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.";
   var krktr_ozl_other_attributes_extraversion_s2 = "Girişken,\nenerjik,\ngüçlü,\nheyecan arayan,\nmaceracı,\nçoşkulu,\nolumlu duygular yaşayan,\nsıcak";
   var krktr_ozl_12_25_extraversion_questions_1 = "Grup çalışmalarında ya da sınıf etkinliklerinde aktif rol aldığımda nasıl hissediyorum? Bu enerjiyi okulda daha fazla hangi etkinliklerde kullanabilirim?";
   var krktr_ozl_12_25_extraversion_questions_2 = "Arkadaşlarımla etkileşim kurarak öğrenmek beni nasıl etkiliyor? Grup çalışmalarında nasıl daha fazla liderlik yapabilirim?";
@@ -2977,10 +2973,8 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_s1_chart = "";
   var krktr_ozl_compatibility = "Uyumluluk"; //bold
   var krktr_ozl_character_elements_compatibility_s1 = "Uyumluluk düzeyi yüksek olan kişiler, genellikle başkalarına yardım etme ve destek olma isteğiyle hareket ederler. Bu, onları grup çalışmalarında ve sosyal ortamlarda sevilen bireyler haline getirir. Ayrıca, uzlaşmacı yapıları nedeniyle çevreleriyle daha sağlıklı ilişkiler kurar ve işbirliği gerektiren ortamlarda başarılı olurlar. Buna karşın, uyumluluk seviyesi düşük bireyler, daha rekabetçi ve kendi çıkarlarına odaklı olabilir; bu da bazen ekip çalışmasında zorluklar yaşamalarına veya başkalarıyla daha zorlu ilişkiler kurmalarına neden olabilir.";
-  var krktr_ozl_strenghts_compatibility_s2_1 = "Uyumluluk,"; 
-  var krktr_ozl_strenghts_compatibility_s2_2 = "işbirliği, empati ve iletişim becerilerini yansıtır. İş yerinde veya okulda diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.";
-  var krktr_ozl_weaknesses_compatibility_s2_1 = "Uyumluluk,"; 
-  var krktr_ozl_weaknesses_compatibility_s2_2 = "işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir."; // Burası mantıksız olabilir, düzeltilmesi gerekebilir.
+  var krktr_ozl_strenghts_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. İş yerinde veya okulda diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.";
+  var krktr_ozl_weaknesses_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir."; // Burası mantıksız olabilir, düzeltilmesi gerekebilir.
   var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sözlü,\n talepkar olmayan,\n fedakar,\n uyumlu,\n alçak gönüllü,\n sempatik,\n şefkatli";
   var krktr_ozl_12_25_compatibility_questions_1 = "Sınıf arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda, hangi becerilerim öne çıkıyor? Bu iş birliğini grup projelerinde nasıl daha etkili kullanabilirim?";
   var krktr_ozl_12_25_compatibility_questions_2 = "Başkalarının ihtiyaçlarını anlamak ve onlara destek olmak, sınıf içindeki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi okulda daha fazla nasıl geliştirebilirim?";
@@ -2992,10 +2986,8 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_s1_chart = "";
   var krktr_ozl_emotional_resilience = "Duygusal Dayanıklılık"; //bold
   var krktr_ozl_character_elements_emotional_resilience_s1 = "Duygusal denge, bir kişinin stresi nasıl yönettiğini, duygusal dengeyi nasıl koruduğunu ve sağlıklı bir özgüven sürdürebilme yeteneğini yansıtır. Duygusal dengesi yüksek olan bireyler, baskı altında daha sakin kalır ve zorluklardan çabuk toparlanabilirler.\n\nBuna karşılık, duygusal dengesi düşük olan kişiler, daha güçlü duygusal dalgalanmalar yaşayabilir, stres karşısında kolayca bunalmış hissedebilir ve zor zamanlarda olumlu bir benlik imajını sürdürmekte zorlanabilirler. Bu özellik, hem kişisel refah hem de profesyonel başarı açısından kritik öneme sahiptir ve zorluklarla başa çıkma şeklimizi doğrudan etkiler.";
-  var krktr_ozl_strenghts_emotional_resilience_s2_1 = "Duygusal istikrar,"; 
-  var krktr_ozl_strenghts_emotional_resilience_s2_2 = "stresle başa çıkma yeteneği ve iş yerinde olumsuz durumları tolere etme yeteneğini yansıtır. Bu, kriz anlarında sakin kalma ve etkili kararlar alabilme yeteneğini artırabilir.";
-  var krktr_ozl_weaknesses_emotional_resilience_s2_1 = "Bu kişiler,"; 
-  var krktr_ozl_weaknesses_emotional_resilience_s2_2 = "çok fazla stres yaşar ve çeşitli konular hakkında sürekli endişelenir. Ruh hali sık sık değişir, kolayca üzülür ve stresli olaylardan sonra toparlanmakta zorluk çeker.";
+  var krktr_ozl_strenghts_emotional_resilience_s2_1 = "Duygusal istikrar, stresle başa çıkma yeteneği ve iş yerinde olumsuz durumları tolere etme yeteneğini yansıtır. Bu, kriz anlarında sakin kalma ve etkili kararlar alabilme yeteneğini artırabilir.";
+  var krktr_ozl_weaknesses_emotional_resilience_s2_1 = "Bu kişiler, çok fazla stres yaşar ve çeşitli konular hakkında sürekli endişelenir. Ruh hali sık sık değişir, kolayca üzülür ve stresli olaylardan sonra toparlanmakta zorluk çeker.";
   var krktr_ozl_other_attributes_emotional_resilience_s2 = "Sakin,\soğuk kanlı,\nuyumlu,\nkendinden emin,\nesnek,\nmemnuniyetli";
   var krktr_ozl_12_25_emotional_resilience_questions_1 = "Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?";
   var krktr_ozl_12_25_emotional_resilience_questions_2 = "Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?";
@@ -4106,7 +4098,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_openness_to_experience_s1;
       }
-    } else if (type == "strength-1") {
+    } else if (type == "strength") {
       if (big5Name == "Öz Disiplin") {
         return krktr_ozl_strenghts_self_discipline_s2_1;
       } else if (big5Name == "Dışa Dönüklük") {
@@ -4118,19 +4110,7 @@ export default async ({ req, res, log, error }) => {
       } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_strenghts_openness_to_experience_s2_1;
       }
-    } else if (type == "strength-2") {
-      if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_strenghts_self_discipline_s2_2;
-      } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_strenghts_extraversion_s2_2;
-      } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_strenghts_compatibility_s2_2;
-      } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_strenghts_emotional_resilience_s2_2;
-      } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_strenghts_openness_to_experience_s2_2
-      }
-    } else if (type == "weakness-1") {
+    } else if (type == "weakness") {
       if (big5Name == "Öz Disiplin") {
         return krktr_ozl_weaknesses_self_discipline_s2_1;
       } else if (big5Name == "Dışa Dönüklük") {
@@ -4141,18 +4121,6 @@ export default async ({ req, res, log, error }) => {
         return krktr_ozl_weaknesses_emotional_resilience_s2_1;;
       } else if (big5Name == "Deneyime Açıklık") {
         return krktr_ozl_weaknesses_openness_to_experience_s2_1;;
-      }
-    } else if (type == "weakness-2") {
-      if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_weaknesses_self_discipline_s2_2;
-      } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_weaknesses_extraversion_s2_2;
-      } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_weaknesses_compatibility_s2_2;
-      } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_weaknesses_emotional_resilience_s2_2;
-      } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_weaknesses_openness_to_experience_s2_2;
       }
     } else if (type == "other_attributes") {
       if (big5Name == "Öz Disiplin") {
@@ -7692,10 +7660,10 @@ export default async ({ req, res, log, error }) => {
   var P7A3 = krktr_ozl(big5Data[1].name, 25, "name").toUpperCase();
   var P7A4 = krktr_ozl(big5Data[0].name, 25, "character_elements");
   var P7A5 = krktr_ozl(big5Data[1].name, 25, "character_elements");
-  var P8A1 = krktr_ozl(big5Data[0].name, 25, "strength-1");
-  var P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness-1");
-  var P8A3 = krktr_ozl(big5Data[1].name, 25, "strength-1");
-  var P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness-1");
+  var P8A1 = krktr_ozl(big5Data[0].name, 25, "strength");
+  var P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness");
+  var P8A3 = krktr_ozl(big5Data[1].name, 25, "strength");
+  var P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness");
   var P8A5 = krktr_ozl(big5Data[2].name, 25, "strength-1");
   var P8A6 = krktr_ozl(big5Data[2].name, 25, "weakness-1");
   var P8A7 = krktr_ozl(big5Data[0].name, 25, "other_attributes");
