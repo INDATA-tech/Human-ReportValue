@@ -2416,7 +2416,10 @@ export default async ({ req, res, log, error }) => {
   //   "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
   var guclu_yanlarin_31_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+  var guclu_yanlarin_31_6 = "" 
+  
   // var guclu_yanlarin_31_9 =
+  
   //   "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
   var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
   var guclu_yanlarin_13_2 =
