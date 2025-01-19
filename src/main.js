@@ -1944,25 +1944,11 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_34_57_1 = "“Kuvvet” Gücü (Quantum 34-57)";
   var guclu_yanlarin_34_57_2 =
     "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.";
-  var guclu_yanlarin_34_57_3 = "Operasyonel Verimlilik";
-  var guclu_yanlarin_34_57_4 =
-    "İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
-  var guclu_yanlarin_34_57_5 = "“Kuvvet” Gücü (Quantum 34-57)";
-  var guclu_yanlarin_34_57_6 =
-    "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.";
-  var guclu_yanlarin_34_57_7 = "Operasyonel Verimlilik";
-  var guclu_yanlarin_34_57_8 =
-    "İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
-  var guclu_yanlarin_34_57_9 = "Kriz Yönetimi";
-  var guclu_yanlarin_34_57_10 =
-    "Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.";
-  var guclu_yanlarin_34_57_11 = "Proje Liderliği";
-  var guclu_yanlarin_34_57_12 =
-    "Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.";
-  var guclu_yanlarin_34_57_13 = "İş Dünyasında Gücünü Kullanmak";
-  var guclu_yanlarin_34_57_14 =
-    "Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.";
-  var guclu_yanlarin_34_57_15 =
+  var guclu_yanlarin_34_57_3 = "Operasyonel Verimlilik, İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
+  var guclu_yanlarin_34_57_4 = "Kriz Yönetimi, Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.";
+  var guclu_yanlarin_34_57_5 = "Proje Liderliği, Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.";
+  var guclu_yanlarin_34_57_6 = "İş Dünyasında Gücünü Kullanmak, Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.";
+  var guclu_yanlarin_34_57_7 =
     "Kuvvet gücün, iş dünyasında güçlü bir özelliktir. Her ana tepki verebilme yeteneğin, başkalarını güven ve amaçla hareket etmeye ilham veren bir rol modeli olmanı sağlar. Sonuç olarak, etrafındaki insanları daha verimli, odaklı ve hedef odaklı olmaya motive edebilir, ekibinde veya organizasyonunda olumlu bir etki yaratabilirsin.";
 
   var guclu_yanlarin_34_20_1 = "“Karizma” Gücü (Quantum 34-20)";
@@ -2094,13 +2080,13 @@ export default async ({ req, res, log, error }) => {
     "Yaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
 
   var guclu_yanlarin_43_23_1 = "“Verimlilik” Gücü (Quantum 43-23) ";
-  var guclu_yanlarin_61_24_2 =
+  var guclu_yanlarin_43_23_2 =
     "Kendini ve başkalarını önemli ölçüde güçlendiren anlık atılımlar ve benzersiz içgörüler sunma yeteneğin var. Bu yetenek, yenilik ve problem çözme gerektiren süreç iyileştirme, proje yönetimi ve stratejik planlama gibi rollerde çok değerlidir. Verimli çözümler bulma yeteneğin, operasyonlar ve üretkenlikte önemli iyileştirmelere yol açabilir. ";
-  var guclu_yanlarin_61_24_3 =
+  var guclu_yanlarin_43_23_3 =
     "Bilinmeyeni Keşfetmek Zihnin sadece bildiklerini değil, aynı zamanda bilinmeyeni de kucaklamak için tasarlanmıştır. Bu merak ve keşfedilmemiş alanlara adım atma isteği, araştırma ve geliştirme, teknoloji ve yaratıcı endüstrilerde özellikle faydalıdır. Geleneksel düşüncenin sınırlarını zorlayarak, başkalarının gözden kaçırabileceği yeni yöntemler ve yaklaşımlar keşfedebilirsin. ";
-  var guclu_yanlarin_61_24_4 =
+  var guclu_yanlarin_43_23_4 =
     "İletişim Yetkinliği Geliştirmek Bildiğini basit ve net bir şekilde açıklama yetkinliği geliştirebilirsin. Tanındığında ve davet edildiğin zamanlarda benzersiz içgörülerini paylaşman dahiliğini doğal olarak ortaya çıkarır. Bu güç, öğretim, danışmanlık ve liderlik pozisyonları gibi etkili iletişim ve bilgi transferi gerektiren rollerde özellikle değerlidir. ";
-  var guclu_yanlarin_61_24_5 =
+  var guclu_yanlarin_43_23_5 =
     "Verimlilik gücün, iş dünyasında yenilikçi düşünme, keşfetme ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, operasyonel iyileştirmeler sağlayabilir, yeniliği teşvik edebilir ve karmaşık fikirleri başkalarının anlayabileceği ve takdir edebileceği şekilde iletebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
 
   var guclu_yanlarin_52_9_1 = "“Konsantrasyon” Gücü (Quantum 52-9)  ";
@@ -2393,8 +2379,8 @@ export default async ({ req, res, log, error }) => {
     "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
   var guclu_yanlarin_8_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
-  // var guclu_yanlarin_8_6 =
-  //   "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+  var guclu_yanlarin_8_6 =
+     "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
   var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
   var guclu_yanlarin_7_2 =
     "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
@@ -6974,17 +6960,17 @@ export default async ({ req, res, log, error }) => {
       }
     } else if (guclu_yanlarinData.name == "10-20") {
       if (type == "10_20_1") {
-        return guclu_yanlarin_63_4_1;
+        return guclu_yanlarin_10_20_1;
       } else if (type == "10_20_2") {
-        return guclu_yanlarin_63_4_2;
+        return guclu_yanlarin_10_20_2;
       } else if (type == "10_20_3") {
-        return guclu_yanlarin_63_4_3;
+        return guclu_yanlarin_10_20_3;
       } else if (type == "10_20_4") {
-        return guclu_yanlarin_63_4_4;
+        return guclu_yanlarin_10_20_4;
       } else if (type == "10_20_5") {
-        return guclu_yanlarin_63_4_5;
+        return guclu_yanlarin_10_20_5;
       } else if (type == "10_20_6") {
-        return guclu_yanlarin_63_4_6;
+        return guclu_yanlarin_10_20_6;
       }
     }
      else if (guclu_yanlarinData.name == "45-21") {
@@ -7026,7 +7012,7 @@ export default async ({ req, res, log, error }) => {
         return guclu_yanlarin_5_15_4;
       } else if (type == "5_15_5") {
         return guclu_yanlarin_5_15_5;
-      } else if (type == "3_15_6") {
+      } else if (type == "5_15_6") {
         return guclu_yanlarin_5_15_6;
       }
     } else if (guclu_yanlarinData.name == "64-47") {
@@ -7074,15 +7060,15 @@ export default async ({ req, res, log, error }) => {
     } else if (guclu_yanlarinData.name == "32-54") {
       if (type == "32_54_1") {
         return guclu_yanlarin_32_54_1;
-      } else if (type == "32_50_2") {
+      } else if (type == "32_54_2") {
         return guclu_yanlarin_32_54_2;
-      } else if (type == "32_50_3") {
+      } else if (type == "32_54_3") {
         return guclu_yanlarin_32_54_3;
-      } else if (type == "32_50_4") {
+      } else if (type == "32_54_4") {
         return guclu_yanlarin_32_54_4;
-      } else if (type == "32_50_5") {
+      } else if (type == "32_54_5") {
         return guclu_yanlarin_32_54_5;
-      } else if (type == "32_50_6") {
+      } else if (type == "32_54_6") {
         return guclu_yanlarin_32_54_6;
       }
     } else if (guclu_yanlarinData.name == "19-49") {
@@ -7123,9 +7109,9 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "34_57_4") {
         return guclu_yanlarin_34_57_4;
       } else if (type == "34_57_5") {
-        return guclu_yanlarin_47_57_5;
+        return guclu_yanlarin_34_57_5;
       } else if (type == "34_57_6") {
-        return guclu_yanlarin_47_57_6;
+        return guclu_yanlarin_34_57_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "34-20") {
       if (type == "34_20_1") {
@@ -7279,7 +7265,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "43_23_5") {
         return guclu_yanlarin_43_23_5;
       } else if (type == "43_23_6") {
-        return guclu_yanlarin_43_23_6;
+        return guclu_yanlarin_43_23_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "52-9") {
       if (type == "52_9_1") {
@@ -7489,7 +7475,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "29_5") {
         return guclu_yanlarin_29_5;
       } else if (type == "29_6") {
-        return guclu_yanlarin_29_6;
+        return guclu_yanlarin_29_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "14") {
       if (type == "14_1") {
@@ -7503,7 +7489,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "14_5") {
         return guclu_yanlarin_14_5;
       } else if (type == "14_6") {
-        return guclu_yanlarin_14_6;
+        return guclu_yanlarin_14_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "2") {
       if (type == "2_1") {
@@ -7531,7 +7517,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "1_5") {
         return guclu_yanlarin_1_5;
       } else if (type == "1_6") {
-        return guclu_yanlarin_1_6;
+        return guclu_yanlarin_1_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "8") {
       if (type == "8_1") {
@@ -7559,7 +7545,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "7_5") {
         return guclu_yanlarin_7_5;
       } else if (type == "7_6") {
-        return guclu_yanlarin_7_6;
+        return guclu_yanlarin_7_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "31") {
       if (type == "31_1") {
@@ -7573,7 +7559,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "31_5") {
         return guclu_yanlarin_31_5;
       } else if (type == "31_6") {
-        return guclu_yanlarin_31_6;
+        return guclu_yanlarin_31_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "13") {
       if (type == "13_1") {
@@ -7601,7 +7587,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "33_5") {
         return guclu_yanlarin_33_5;
       } else if (type == "33_6") {
-        return guclu_yanlarin_33_6;
+        return guclu_yanlarin_33_6 ?? "";
       }
     }
   };
