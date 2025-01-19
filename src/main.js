@@ -1794,7 +1794,8 @@ export default async ({ req, res, log, error }) => {
     "İş Dünyasında Gücünü Kullanmak Etkileşim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip liderliğinde, derin bağlantılar kurma yeteneğin, uyumlu ve motive bir ekip oluşturur. Müşteri ilişkilerinde, hızla güven ve ilişki kurma becerin, müşteri memnuniyetini ve sadakatini artırır. Ayrıca, yaratıcı rollerde, rahat ve kapsayıcı bir ortam yaratma yeteneğin, yenilikçilik ve işbirliğini teşvik eder.";
   var guclu_yanlarin_6_59_5 =
     "Etkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
-
+  var guclu_yanlarin_6_59_6 = ""
+  
   var guclu_yanlarin_63_4_1 = "“Mantıksal Süreç” Gücü (63-4)";
   var guclu_yanlarin_63_4_2 =
     "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.";
@@ -2088,7 +2089,7 @@ export default async ({ req, res, log, error }) => {
     "İletişim Yetkinliği Geliştirmek Bildiğini basit ve net bir şekilde açıklama yetkinliği geliştirebilirsin. Tanındığında ve davet edildiğin zamanlarda benzersiz içgörülerini paylaşman dahiliğini doğal olarak ortaya çıkarır. Bu güç, öğretim, danışmanlık ve liderlik pozisyonları gibi etkili iletişim ve bilgi transferi gerektiren rollerde özellikle değerlidir. ";
   var guclu_yanlarin_43_23_5 =
     "Verimlilik gücün, iş dünyasında yenilikçi düşünme, keşfetme ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, operasyonel iyileştirmeler sağlayabilir, yeniliği teşvik edebilir ve karmaşık fikirleri başkalarının anlayabileceği ve takdir edebileceği şekilde iletebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
-
+  var guclu_yanlarin_43_23_6 = ""
   var guclu_yanlarin_52_9_1 = "“Konsantrasyon” Gücü (Quantum 52-9)  ";
   var guclu_yanlarin_52_9_2 =
     "Lazer gibi bir odaklanma yeteneğine sahipsin, bu da seni sakin ve ele alınan meseleye odaklanmış tutar. Bu beceri, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma ve dikkat gerektiren roller için değerlidir. Detaylara inme yeteneğin, işinde titizlik ve doğruluk sağlayabilir.  ";
@@ -2318,7 +2319,8 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_14_3 = "İş Başarısını Güvenceye Almak, Katkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun. "
   var guclu_yanlarin_14_4 = "Sözleri Gerçekleştirmek, Sen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin. "
   var guclu_yanlarin_14_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
-
+  var guclu_yanlarin_14_6 = ""
+  
   var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
   var guclu_yanlarin_29_2 =
     "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.   ";
@@ -2334,6 +2336,7 @@ export default async ({ req, res, log, error }) => {
   //   "Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar. ";
   var guclu_yanlarin_29_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
+  var guclu_yanlarin_29_6 = ""
   // var guclu_yanlarin_29_9 =
   //   "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
   var guclu_yanlarin_2_1 = "Yön Belirleyici";
