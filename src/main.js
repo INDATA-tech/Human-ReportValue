@@ -1794,7 +1794,8 @@ export default async ({ req, res, log, error }) => {
     "İş Dünyasında Gücünü Kullanmak Etkileşim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip liderliğinde, derin bağlantılar kurma yeteneğin, uyumlu ve motive bir ekip oluşturur. Müşteri ilişkilerinde, hızla güven ve ilişki kurma becerin, müşteri memnuniyetini ve sadakatini artırır. Ayrıca, yaratıcı rollerde, rahat ve kapsayıcı bir ortam yaratma yeteneğin, yenilikçilik ve işbirliğini teşvik eder.";
   var guclu_yanlarin_6_59_5 =
     "Etkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
-
+  var guclu_yanlarin_6_59_6 = ""
+  
   var guclu_yanlarin_63_4_1 = "“Mantıksal Süreç” Gücü (63-4)";
   var guclu_yanlarin_63_4_2 =
     "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.";
@@ -1944,25 +1945,11 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_34_57_1 = "“Kuvvet” Gücü (Quantum 34-57)";
   var guclu_yanlarin_34_57_2 =
     "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.";
-  var guclu_yanlarin_34_57_3 = "Operasyonel Verimlilik";
-  var guclu_yanlarin_34_57_4 =
-    "İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
-  var guclu_yanlarin_34_57_5 = "“Kuvvet” Gücü (Quantum 34-57)";
-  var guclu_yanlarin_34_57_6 =
-    "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.";
-  var guclu_yanlarin_34_57_7 = "Operasyonel Verimlilik";
-  var guclu_yanlarin_34_57_8 =
-    "İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
-  var guclu_yanlarin_34_57_9 = "Kriz Yönetimi";
-  var guclu_yanlarin_34_57_10 =
-    "Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.";
-  var guclu_yanlarin_34_57_11 = "Proje Liderliği";
-  var guclu_yanlarin_34_57_12 =
-    "Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.";
-  var guclu_yanlarin_34_57_13 = "İş Dünyasında Gücünü Kullanmak";
-  var guclu_yanlarin_34_57_14 =
-    "Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.";
-  var guclu_yanlarin_34_57_15 =
+  var guclu_yanlarin_34_57_3 = "Operasyonel Verimlilik, İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.";
+  var guclu_yanlarin_34_57_4 = "Kriz Yönetimi, Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.";
+  var guclu_yanlarin_34_57_5 = "Proje Liderliği, Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.";
+  var guclu_yanlarin_34_57_6 = "İş Dünyasında Gücünü Kullanmak, Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.";
+  var guclu_yanlarin_34_57_7 =
     "Kuvvet gücün, iş dünyasında güçlü bir özelliktir. Her ana tepki verebilme yeteneğin, başkalarını güven ve amaçla hareket etmeye ilham veren bir rol modeli olmanı sağlar. Sonuç olarak, etrafındaki insanları daha verimli, odaklı ve hedef odaklı olmaya motive edebilir, ekibinde veya organizasyonunda olumlu bir etki yaratabilirsin.";
 
   var guclu_yanlarin_34_20_1 = "“Karizma” Gücü (Quantum 34-20)";
@@ -2094,15 +2081,15 @@ export default async ({ req, res, log, error }) => {
     "Yaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
 
   var guclu_yanlarin_43_23_1 = "“Verimlilik” Gücü (Quantum 43-23) ";
-  var guclu_yanlarin_61_24_2 =
+  var guclu_yanlarin_43_23_2 =
     "Kendini ve başkalarını önemli ölçüde güçlendiren anlık atılımlar ve benzersiz içgörüler sunma yeteneğin var. Bu yetenek, yenilik ve problem çözme gerektiren süreç iyileştirme, proje yönetimi ve stratejik planlama gibi rollerde çok değerlidir. Verimli çözümler bulma yeteneğin, operasyonlar ve üretkenlikte önemli iyileştirmelere yol açabilir. ";
-  var guclu_yanlarin_61_24_3 =
+  var guclu_yanlarin_43_23_3 =
     "Bilinmeyeni Keşfetmek Zihnin sadece bildiklerini değil, aynı zamanda bilinmeyeni de kucaklamak için tasarlanmıştır. Bu merak ve keşfedilmemiş alanlara adım atma isteği, araştırma ve geliştirme, teknoloji ve yaratıcı endüstrilerde özellikle faydalıdır. Geleneksel düşüncenin sınırlarını zorlayarak, başkalarının gözden kaçırabileceği yeni yöntemler ve yaklaşımlar keşfedebilirsin. ";
-  var guclu_yanlarin_61_24_4 =
+  var guclu_yanlarin_43_23_4 =
     "İletişim Yetkinliği Geliştirmek Bildiğini basit ve net bir şekilde açıklama yetkinliği geliştirebilirsin. Tanındığında ve davet edildiğin zamanlarda benzersiz içgörülerini paylaşman dahiliğini doğal olarak ortaya çıkarır. Bu güç, öğretim, danışmanlık ve liderlik pozisyonları gibi etkili iletişim ve bilgi transferi gerektiren rollerde özellikle değerlidir. ";
-  var guclu_yanlarin_61_24_5 =
+  var guclu_yanlarin_43_23_5 =
     "Verimlilik gücün, iş dünyasında yenilikçi düşünme, keşfetme ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, operasyonel iyileştirmeler sağlayabilir, yeniliği teşvik edebilir ve karmaşık fikirleri başkalarının anlayabileceği ve takdir edebileceği şekilde iletebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
-
+  var guclu_yanlarin_43_23_6 = ""
   var guclu_yanlarin_52_9_1 = "“Konsantrasyon” Gücü (Quantum 52-9)  ";
   var guclu_yanlarin_52_9_2 =
     "Lazer gibi bir odaklanma yeteneğine sahipsin, bu da seni sakin ve ele alınan meseleye odaklanmış tutar. Bu beceri, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma ve dikkat gerektiren roller için değerlidir. Detaylara inme yeteneğin, işinde titizlik ve doğruluk sağlayabilir.  ";
@@ -2326,6 +2313,14 @@ export default async ({ req, res, log, error }) => {
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
   var guclu_yanlarin_46_7 =
     "İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
+  var guclu_yanlarin_14_1 = 
+    "Kaynak Yaratıcı"
+  var guclu_yanlarin_14_2 = "Başarı İçin Kaynak Yaratmak, Bir işletmenin başarılı olması için gereken para, insan gücü veya gerekli malzemeler gibi kaynakları çekme ve üretme yeteneğine sahipsin. Varlığın, ekibin taahhütlerini yerine getirebileceği ve sözlerini tutabileceği güvenini verir. Bu yetkinlik, projelerin ilerlemesini ve hedeflerin karşılanmasını garanti eder. "
+  var guclu_yanlarin_14_3 = "İş Başarısını Güvenceye Almak, Katkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun. "
+  var guclu_yanlarin_14_4 = "Sözleri Gerçekleştirmek, Sen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin. "
+  var guclu_yanlarin_14_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
+  var guclu_yanlarin_14_6 = ""
+  
   var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
   var guclu_yanlarin_29_2 =
     "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.   ";
@@ -2341,6 +2336,7 @@ export default async ({ req, res, log, error }) => {
   //   "Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar. ";
   var guclu_yanlarin_29_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
+  var guclu_yanlarin_29_6 = ""
   // var guclu_yanlarin_29_9 =
   //   "İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir. ";
   var guclu_yanlarin_2_1 = "Yön Belirleyici";
@@ -2386,8 +2382,8 @@ export default async ({ req, res, log, error }) => {
     "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
   var guclu_yanlarin_8_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
-  // var guclu_yanlarin_8_6 =
-  //   "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+  var guclu_yanlarin_8_6 =
+     "İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
   var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
   var guclu_yanlarin_7_2 =
     "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
@@ -2420,7 +2416,10 @@ export default async ({ req, res, log, error }) => {
   //   "İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
   var guclu_yanlarin_31_5 =
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+  var guclu_yanlarin_31_6 = "" 
+  
   // var guclu_yanlarin_31_9 =
+  
   //   "İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
   var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
   var guclu_yanlarin_13_2 =
@@ -6967,17 +6966,17 @@ export default async ({ req, res, log, error }) => {
       }
     } else if (guclu_yanlarinData.name == "10-20") {
       if (type == "10_20_1") {
-        return guclu_yanlarin_63_4_1;
+        return guclu_yanlarin_10_20_1;
       } else if (type == "10_20_2") {
-        return guclu_yanlarin_63_4_2;
+        return guclu_yanlarin_10_20_2;
       } else if (type == "10_20_3") {
-        return guclu_yanlarin_63_4_3;
+        return guclu_yanlarin_10_20_3;
       } else if (type == "10_20_4") {
-        return guclu_yanlarin_63_4_4;
+        return guclu_yanlarin_10_20_4;
       } else if (type == "10_20_5") {
-        return guclu_yanlarin_63_4_5;
+        return guclu_yanlarin_10_20_5;
       } else if (type == "10_20_6") {
-        return guclu_yanlarin_63_4_6;
+        return guclu_yanlarin_10_20_6;
       }
     }
      else if (guclu_yanlarinData.name == "45-21") {
@@ -7019,7 +7018,7 @@ export default async ({ req, res, log, error }) => {
         return guclu_yanlarin_5_15_4;
       } else if (type == "5_15_5") {
         return guclu_yanlarin_5_15_5;
-      } else if (type == "3_15_6") {
+      } else if (type == "5_15_6") {
         return guclu_yanlarin_5_15_6;
       }
     } else if (guclu_yanlarinData.name == "64-47") {
@@ -7067,15 +7066,15 @@ export default async ({ req, res, log, error }) => {
     } else if (guclu_yanlarinData.name == "32-54") {
       if (type == "32_54_1") {
         return guclu_yanlarin_32_54_1;
-      } else if (type == "32_50_2") {
+      } else if (type == "32_54_2") {
         return guclu_yanlarin_32_54_2;
-      } else if (type == "32_50_3") {
+      } else if (type == "32_54_3") {
         return guclu_yanlarin_32_54_3;
-      } else if (type == "32_50_4") {
+      } else if (type == "32_54_4") {
         return guclu_yanlarin_32_54_4;
-      } else if (type == "32_50_5") {
+      } else if (type == "32_54_5") {
         return guclu_yanlarin_32_54_5;
-      } else if (type == "32_50_6") {
+      } else if (type == "32_54_6") {
         return guclu_yanlarin_32_54_6;
       }
     } else if (guclu_yanlarinData.name == "19-49") {
@@ -7116,9 +7115,9 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "34_57_4") {
         return guclu_yanlarin_34_57_4;
       } else if (type == "34_57_5") {
-        return guclu_yanlarin_47_57_5;
+        return guclu_yanlarin_34_57_5;
       } else if (type == "34_57_6") {
-        return guclu_yanlarin_47_57_6;
+        return guclu_yanlarin_34_57_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "34-20") {
       if (type == "34_20_1") {
@@ -7272,7 +7271,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "43_23_5") {
         return guclu_yanlarin_43_23_5;
       } else if (type == "43_23_6") {
-        return guclu_yanlarin_43_23_6;
+        return guclu_yanlarin_43_23_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "52-9") {
       if (type == "52_9_1") {
@@ -7482,7 +7481,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "29_5") {
         return guclu_yanlarin_29_5;
       } else if (type == "29_6") {
-        return guclu_yanlarin_29_6;
+        return guclu_yanlarin_29_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "14") {
       if (type == "14_1") {
@@ -7496,7 +7495,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "14_5") {
         return guclu_yanlarin_14_5;
       } else if (type == "14_6") {
-        return guclu_yanlarin_14_6;
+        return guclu_yanlarin_14_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "2") {
       if (type == "2_1") {
@@ -7524,7 +7523,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "1_5") {
         return guclu_yanlarin_1_5;
       } else if (type == "1_6") {
-        return guclu_yanlarin_1_6;
+        return guclu_yanlarin_1_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "8") {
       if (type == "8_1") {
@@ -7552,7 +7551,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "7_5") {
         return guclu_yanlarin_7_5;
       } else if (type == "7_6") {
-        return guclu_yanlarin_7_6;
+        return guclu_yanlarin_7_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "31") {
       if (type == "31_1") {
@@ -7566,7 +7565,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "31_5") {
         return guclu_yanlarin_31_5;
       } else if (type == "31_6") {
-        return guclu_yanlarin_31_6;
+        return guclu_yanlarin_31_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "13") {
       if (type == "13_1") {
@@ -7594,7 +7593,7 @@ export default async ({ req, res, log, error }) => {
       } else if (type == "33_5") {
         return guclu_yanlarin_33_5;
       } else if (type == "33_6") {
-        return guclu_yanlarin_33_6;
+        return guclu_yanlarin_33_6 ?? "";
       }
     }
   };
@@ -7846,227 +7845,2913 @@ export default async ({ req, res, log, error }) => {
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
 
-  var inputs_25_plus = {
-    P1A1: P1A1,
-    P2A1: P2A1,
-    P4A1: P4A1, // Kişilik Özellikleri
-    P4A2: P4A2,
-    P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-    P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-    P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-    P4A6: P4A6,
-    P5A1: P5A1,
-    P5A2: P5A2,
-    P5A3: P5A3,
-    P5A4: P5A4,
-    P5A5: P5A5,
-    P5A6: P5A6,
-    P5A7: P5A7,
-    P5A8: P5A8,
-    P6A1: P6A1, // Kendini Değerlendirme
-    P6A2: P6A2,
-    P6A3: P6A3,
-    P6A4: P6A4,
-    P6A5: P6A5,
-    P6A6: P6A6,
-    P6A7: P6A7,
-    P6A8: P6A8,
 
-    P7A1: P7A1, // Karakter Özelliklerin
-    P7A2: P7A2,
-    P7A3: P7A3,
-    P7A4: P7A4,
-    P7A5: P7A5,
-    P8A1: P8A1,
-    P8A2: P8A2,
-    P8A3: P8A3,
-    P8A4: P8A4,
-    P8A5: P8A5,
-    P8A6: P8A6,
-    P8A7: P8A7,
-    P8A8: P8A8,
-    P8A9: P8A9,
-    P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-    P9A2: P9A2,
-    P9A3: P9A3,
-    P9A4: P9A4,
-    P9A5: P9A5,
-    P9A6: P9A6,
-    P9A7: P9A7,
-    P9A8: P9A8,
+  if (usergates.length === 1) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
 
-    P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-    P12A1: P12A1,
-    P12A2: P12A2,
-    P12A3: P12A3,
-    P12A4: P12A4,
-    P12A5: P12A5,
-    P12A6: P12A6,
-    P12A7: P12A7,
-    P12A8: P12A8,
-    P12A9: P12A9,
-    P12A10: P12A10,
-    P12A11: P12A11,
-    P12A12: P12A12,
-    P13A1: P13A1,
-    P13A2: P13A2,
-    P13A3: P13A3,
-    P13A4: P13A4,
-    P13A5: P13A5,
-    P13A6: P13A6,
-    P13A7: P13A7,
-    P13A8: P13A8,
-    P13A9: P13A9,
-    P13A10: P13A10,
-    P13A11: P13A11,
+    
 
-    P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-    P15A1: P15A1,
-    P15A2: P15A2,
-    P15A3: P15A3,
-    P15A4: P15A4,
-    P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-    P15A6: P15A6,
-    P15A7: P15A7,
-    P15A8: P15A8,
-    P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-    P16A2: P16A2,
-    P16A3: P16A3,
-    P16A4: P16A4,
-    P16A5: P16A5, // Kendine sorabilirsin
-    P16A6: P16A6,
-    P16A7: P16A7,
-    P16A8: P16A8,
-    P16A9: P16A9,
-    P16A10: P16A10,
-    P17A1: P17A1, // Yaşamda İlerleme Tarzın
-    P17A2: P17A2,
-    P17A3: P17A3,
-    P18A1: P18A1,
-    P18A2: P18A2,
-    P18A3: P18A3, // motto
-    P19A1: P19A1,
-    P19A2: P19A2,
-    P19A3: P19A3,
-    P19A4: P19A4,
-    P19A5: P19A5,
-    P19A6: P19A6,
-    P20A1: P20A1,
-    P20A2: P20A2,
-    P20A3: P20A3,
-    P20A4: P20A4,
-    P20A5: P20A5,
-    P20A6: P20A6,
-    P20A7: P20A7,
-    P20A8: P20A8,
-    P20A9: P20A9,
-    P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-    P21A2: P21A2,
-    P21A3: P21A3,
-    P21A4: P21A4,
-    P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-    P22A2: P22A2,
-    P22A3: P22A3,
-    P22A4: P22A4,
-    P22A5: P22A5,
-    P22A6: P22A6,
-    P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-    P24A2: P24A2,
-    P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-    P25A2: P25A2,
-    P25A3: P25A3,
-    P25A4: P25A4,
-    P25A5: P25A5,
-    P25A6: P25A6,
-    P27A1: P27A1, // İş Yaşamında Rolün
-    P27A2: P27A2,
-    P27A3: P27A3,
-    P27A4: P27A4,
-    P27A5: P27A5,
-    P27A6: P27A6,
-    P27A7: P27A7,
-    P28A1: P28A1,
-    P28A2: P28A2,
-    P28A3: P28A3,
-    P28A4: P28A4,
-    P28A5: P28A5,
-    P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
-    P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
-    P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
-    P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
-    P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
-    P30A6: P30A6,
-    P31A1: P31A1,
-    P31A2: P31A2,
-    P31A3: P31A3,
-    P31A4: P31A4,
-    P31A5: P31A5,
-    P31A6: P31A6,
-    P34A1: P34A1, // Senin Karar Verme Stratejin
-    P34A2: P34A2,
-    P34A3: P34A3,
-    P34A4: P34A4,
-    P34A5: P34A5,
-    P35A1: P35A1,
-    P35A2: P35A2,
-    P35A3: P35A3,
-    P35A4: P35A4,
-    P35A5: P35A5,
-    P35A6: P35A6,
-    P35A7: P35A7,
-    P35A8: P35A8,
-    P35A9: P35A9,
-    P35A6: P35A6,
-    P36A1: P36A1,
-    P36A2: P36A2,
-    P36A3: P36A3,
-    P36A4: P36A4,
-    P37A1: P37A1,
-    P37A2: P37A2,
-    P37A3: P37A3,
-    P37A4: P37A4,
-    P37A5: P37A5,
-    P37A6: P37A6,
-    P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
-    P38A2: P38A2,
-    P38A3: P38A3,
-    P38A4: P38A4, // Güncel İşler
-    P38A5: P38A5,
-    P38A6: P38A6,
-    P39A1: P39A1,
-    P39A2: P39A2,
-    P39A3: P39A3,
-    P39A4: P39A4, // Geleceğin İşleri
-    P39A5: P39A5,
-    P39A6: P39A6,
-    P40A1: P40A1, // Sana En uygun kariyer seçenekleri
-    P40A2: P40A2,
-    P40A3: P40A3,
-    P40A4: P40A4,
-    P40A5: P40A5,
-    P40A6: P40A6,
-    P40A7: P40A7,
-    P40A8: P40A8,
-    P40A9: P40A9,
-    P40A10: P40A10,
-    P40A11: P40A11,
-    P40A12: P40A12,
-    P40A13: P40A13,
-    P40A14: P40A14,
-    P40A15: P40A15,
-    P40A16: P40A16,
-    P40A17: P40A17,
-    P40A18: P40A18,
-    P40A19: P40A19,
-    P42A1: P42A1, // SevgiWli Dinçer
-    graphbig: bigdataPercent,
-    graphholland: hollanddataPercent,
-    graphcareer: careerSelectionLastResult,
-    graphai: aiData,
-    graphai: aiData,
-    graphteamwork: teamworkData,
-  };
+  } else if (usergates.length === 2) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
 
+
+  } else if (usergates.length === 3) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else if (usergates.length === 4) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else if (usergates.length === 5) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+
+  } else if (usergates.length === 6) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+
+  } else if (usergates.length === 7) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else if (usergates.length === 8) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else if (usergates.length === 9) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+
+  } else if (usergates.length === 10) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else if (usergates.length === 11) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+
+  } else if (usergates.length === 12) {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+
+
+  } else {
+    var inputs_25_plus = {
+      P1A1: P1A1,
+      P2A1: P2A1,
+      P4A1: P4A1, // Kişilik Özellikleri
+      P4A2: P4A2,
+      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+      P4A6: P4A6,
+      P5A1: P5A1,
+      P5A2: P5A2,
+      P5A3: P5A3,
+      P5A4: P5A4,
+      P5A5: P5A5,
+      P5A6: P5A6,
+      P5A7: P5A7,
+      P5A8: P5A8,
+      P6A1: P6A1, // Kendini Değerlendirme
+      P6A2: P6A2,
+      P6A3: P6A3,
+      P6A4: P6A4,
+      P6A5: P6A5,
+      P6A6: P6A6,
+      P6A7: P6A7,
+      P6A8: P6A8,
+  
+      P7A1: P7A1, // Karakter Özelliklerin
+      P7A2: P7A2,
+      P7A3: P7A3,
+      P7A4: P7A4,
+      P7A5: P7A5,
+      P8A1: P8A1,
+      P8A2: P8A2,
+      P8A3: P8A3,
+      P8A4: P8A4,
+      P8A5: P8A5,
+      P8A6: P8A6,
+      P8A7: P8A7,
+      P8A8: P8A8,
+      P8A9: P8A9,
+      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+      P9A2: P9A2,
+      P9A3: P9A3,
+      P9A4: P9A4,
+      P9A5: P9A5,
+      P9A6: P9A6,
+      P9A7: P9A7,
+      P9A8: P9A8,
+  
+      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+      P12A1: P12A1,
+      P12A2: P12A2,
+      P12A3: P12A3,
+      P12A4: P12A4,
+      P12A5: P12A5,
+      P12A6: P12A6,
+      P12A7: P12A7,
+      P12A8: P12A8,
+      P12A9: P12A9,
+      P12A10: P12A10,
+      P12A11: P12A11,
+      P12A12: P12A12,
+      P13A1: P13A1,
+      P13A2: P13A2,
+      P13A3: P13A3,
+      P13A4: P13A4,
+      P13A5: P13A5,
+      P13A6: P13A6,
+      P13A7: P13A7,
+      P13A8: P13A8,
+      P13A9: P13A9,
+      P13A10: P13A10,
+      P13A11: P13A11,
+  
+      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+      P15A1: P15A1,
+      P15A2: P15A2,
+      P15A3: P15A3,
+      P15A4: P15A4,
+      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+      P15A6: P15A6,
+      P15A7: P15A7,
+      P15A8: P15A8,
+      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+      P16A2: P16A2,
+      P16A3: P16A3,
+      P16A4: P16A4,
+      P16A5: P16A5, // Kendine sorabilirsin
+      P16A6: P16A6,
+      P16A7: P16A7,
+      P16A8: P16A8,
+      P16A9: P16A9,
+      P16A10: P16A10,
+      P17A1: P17A1, // Yaşamda İlerleme Tarzın
+      P17A2: P17A2,
+      P17A3: P17A3,
+      P18A1: P18A1,
+      P18A2: P18A2,
+      P18A3: P18A3, // motto
+      P19A1: P19A1,
+      P19A2: P19A2,
+      P19A3: P19A3,
+      P19A4: P19A4,
+      P19A5: P19A5,
+      P19A6: P19A6,
+      P20A1: P20A1,
+      P20A2: P20A2,
+      P20A3: P20A3,
+      P20A4: P20A4,
+      P20A5: P20A5,
+      P20A6: P20A6,
+      P20A7: P20A7,
+      P20A8: P20A8,
+      P20A9: P20A9,
+      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+      P21A2: P21A2,
+      P21A3: P21A3,
+      P21A4: P21A4,
+      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+      P22A2: P22A2,
+      P22A3: P22A3,
+      P22A4: P22A4,
+      P22A5: P22A5,
+      P22A6: P22A6,
+      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+      P24A2: P24A2,
+      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+      P25A2: P25A2,
+      P25A3: P25A3,
+      P25A4: P25A4,
+      P25A5: P25A5,
+      P25A6: P25A6,
+      P27A1: P27A1, // İş Yaşamında Rolün
+      P27A2: P27A2,
+      P27A3: P27A3,
+      P27A4: P27A4,
+      P27A5: P27A5,
+      P27A6: P27A6,
+      P27A7: P27A7,
+      P28A1: P28A1,
+      P28A2: P28A2,
+      P28A3: P28A3,
+      P28A4: P28A4,
+      P28A5: P28A5,
+      P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
+      P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
+      P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
+      P30A4: P30A4, // is_y_r(is_y_rData[0], 25, "s3_2"), // Hayat Amacını gerçekleştirmek
+      P30A5: P30A5, // is_y_r(is_y_rData[0], 25, "s3_2_1"),
+      P30A6: P30A6,
+      P31A1: P31A1,
+      P31A2: P31A2,
+      P31A3: P31A3,
+      P31A4: P31A4,
+      P31A5: P31A5,
+      P31A6: P31A6,
+      P34A1: P34A1, // Senin Karar Verme Stratejin
+      P34A2: P34A2,
+      P34A3: P34A3,
+      P34A4: P34A4,
+      P34A5: P34A5,
+      P35A1: P35A1,
+      P35A2: P35A2,
+      P35A3: P35A3,
+      P35A4: P35A4,
+      P35A5: P35A5,
+      P35A6: P35A6,
+      P35A7: P35A7,
+      P35A8: P35A8,
+      P35A9: P35A9,
+      P35A6: P35A6,
+      P36A1: P36A1,
+      P36A2: P36A2,
+      P36A3: P36A3,
+      P36A4: P36A4,
+      P37A1: P37A1,
+      P37A2: P37A2,
+      P37A3: P37A3,
+      P37A4: P37A4,
+      P37A5: P37A5,
+      P37A6: P37A6,
+      P38A1: P38A1, // Sana En uygun kariyer Seçenekleri Genel Sektörler
+      P38A2: P38A2,
+      P38A3: P38A3,
+      P38A4: P38A4, // Güncel İşler
+      P38A5: P38A5,
+      P38A6: P38A6,
+      P39A1: P39A1,
+      P39A2: P39A2,
+      P39A3: P39A3,
+      P39A4: P39A4, // Geleceğin İşleri
+      P39A5: P39A5,
+      P39A6: P39A6,
+      P40A1: P40A1, // Sana En uygun kariyer seçenekleri
+      P40A2: P40A2,
+      P40A3: P40A3,
+      P40A4: P40A4,
+      P40A5: P40A5,
+      P40A6: P40A6,
+      P40A7: P40A7,
+      P40A8: P40A8,
+      P40A9: P40A9,
+      P40A10: P40A10,
+      P40A11: P40A11,
+      P40A12: P40A12,
+      P40A13: P40A13,
+      P40A14: P40A14,
+      P40A15: P40A15,
+      P40A16: P40A16,
+      P40A17: P40A17,
+      P40A18: P40A18,
+      P40A19: P40A19,
+      P42A1: P42A1, // SevgiWli Dinçer
+      graphbig: bigdataPercent,
+      graphholland: hollanddataPercent,
+      graphcareer: careerSelectionLastResult,
+      graphai: aiData,
+      graphai: aiData,
+      graphteamwork: teamworkData,
+    };
+  
+  }
+
+  
   log(inputs_25_plus);
 
   const jsonString = JSON.stringify(inputs_25_plus)
