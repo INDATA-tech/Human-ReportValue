@@ -77,7 +77,11 @@ export default async ({ req, res, log, error }) => {
     ); //process.env.APPWRITE_API_KEY)
   var database = new Databases(client);
   //log(req.body);
-  var answers = await database.getDocument("65dc57b1e8322b0426ae", "65e97978db53e3998c12",String(req),);
+  var answers = await database.getDocument(
+    "65dc57b1e8322b0426ae",
+    "65e97978db53e3998c12",
+    String(req),
+  );
   var processedData = JSON.parse(answers.ProcessedData);
   var rawData = JSON.parse(answers.RawData);
 
@@ -2456,8 +2460,8 @@ export default async ({ req, res, log, error }) => {
     "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
   // var guclu_yanlarin_33_9 =
   //   "İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
-  
   //Güçlü Yanların Ingilizce
+
   var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
   var guclu_yanlarin_en2 =
     "You have the ability to “think on your feet” which is very valuable in dynamic business environments. You are great at creating and designing environments that ensure survival and provide protection from future uncertainties. ";
@@ -2971,7 +2975,7 @@ export default async ({ req, res, log, error }) => {
   var krktr_ozl_character_elements_compatibility_s1 = "Uyumluluk düzeyi yüksek olan kişiler, genellikle başkalarına yardım etme ve destek olma isteğiyle hareket ederler. Bu, onları grup çalışmalarında ve sosyal ortamlarda sevilen bireyler haline getirir. Ayrıca, uzlaşmacı yapıları nedeniyle çevreleriyle daha sağlıklı ilişkiler kurar ve işbirliği gerektiren ortamlarda başarılı olurlar. Buna karşın, uyumluluk seviyesi düşük bireyler, daha rekabetçi ve kendi çıkarlarına odaklı olabilir; bu da bazen ekip çalışmasında zorluklar yaşamalarına veya başkalarıyla daha zorlu ilişkiler kurmalarına neden olabilir.";
   var krktr_ozl_strenghts_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. İş yerinde veya okulda diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.";
   var krktr_ozl_weaknesses_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir."; // Burası mantıksız olabilir, düzeltilmesi gerekebilir.
-  var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sözlü,\ntalepkar olmayan,\nfedakar,\nuyumlu,\nalçak gönüllü,\nsempatik,\nşefkatli";
+  var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sözlü,\n talepkar olmayan,\n fedakar,\n uyumlu,\n alçak gönüllü,\n sempatik,\n şefkatli";
   var krktr_ozl_12_25_compatibility_questions_1 = "Sınıf arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda, hangi becerilerim öne çıkıyor? Bu iş birliğini grup projelerinde nasıl daha etkili kullanabilirim?";
   var krktr_ozl_12_25_compatibility_questions_2 = "Başkalarının ihtiyaçlarını anlamak ve onlara destek olmak, sınıf içindeki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi okulda daha fazla nasıl geliştirebilirim?";
   var krktr_ozl_12_25_compatibility_questions_3 = "Anlayışlı ve sabırlı olduğum durumlarda nasıl bir etki yaratıyorum? Bu özellikleri grup çalışmaları veya sınıf içindeki tartışmalarda nasıl daha iyi kullanabilirim?";
@@ -3635,7 +3639,8 @@ export default async ({ req, res, log, error }) => {
   var communication_generator_5_s3 = " • İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin?";
 
   var communication_projector_0 = "Rehber";
-  var communication_projector_1 = "Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir.";
+  var communication_projector_1 = "Senin için etkili iletişimin merkezinde,";
+  var communication_projector_1_1 = "ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir.";
   var communication_projector_2 = "Başkalarıyla başarılı etkileşimlerin anahtarı...";
   var communication_projector_3 = "Katılmadan önce tanınma ve davet bekle:";
   var communication_projector_3_1 = "Tanınma konusunda başarılı olursun. Katılmadan önce, becerilerin, yeteneklerin ve rehberlik etme ve liderlik etme kapasiten için fark edildiğinden ve kabul edildiğinden emin ol. Bu, etkileşimlerinin özgün ve tanınmış bir temele dayanmasını sağlar.";
