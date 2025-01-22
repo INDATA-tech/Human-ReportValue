@@ -2029,79 +2029,80 @@ export default async ({ req, res, log, error }) => {
   var guclu_yanlarin_34_10_5 = "İş Dünyasında Gücünü Kullanmak, İnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.  ";
   var guclu_yanlarin_34_10_6 = "İnanç gücün, otantik bir şekilde liderlik yapmanı, başkalarına inançlarının arkasında durmaları için ilham vermeni ve bütünlük ile kişisel gücün geliştiği bir ortam yaratmanı sağlar. Kendi gerçeğine sarılarak ve bu doğrultuda hareket ederek, ilerleme kaydedebilir ve dayanıklılık ve yenilikçilik kültürü yaratabilirsin.  ";
   
-  var guclu_yanlarin_15_1 = "Güven Kaynağı  ";
-  var guclu_yanlarin_15_2 = "Güven ve İstikrar İnşa Etmek, İnsanları bir araya getirip uyumlu ve güvenilir bir ekip oluşturma konusunda doğal bir yeteneğe sahipsin. Varlığın, gruba istikrar ve güvenlik hissi katar. Farklı bireyleri bağlı ve uyumlu bir ortamda bir araya getirerek, insanların rahat ve desteklenmiş hissettiği bir atmosfer yaratabilirsin.  ";
-  var guclu_yanlarin_15_3 = "Bağlantıyı Güçlendirmek, Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.  ";
-  var guclu_yanlarin_15_4 = "Güvenilir Bir Çevre Yaratmak, Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar.  ";
-  var guclu_yanlarin_15_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
+  //Bu kısımlar 25+'da yok!
+  // var guclu_yanlarin_15_1 = "Güven Kaynağı  ";
+  // var guclu_yanlarin_15_2 = "Güven ve İstikrar İnşa Etmek, İnsanları bir araya getirip uyumlu ve güvenilir bir ekip oluşturma konusunda doğal bir yeteneğe sahipsin. Varlığın, gruba istikrar ve güvenlik hissi katar. Farklı bireyleri bağlı ve uyumlu bir ortamda bir araya getirerek, insanların rahat ve desteklenmiş hissettiği bir atmosfer yaratabilirsin.  ";
+  // var guclu_yanlarin_15_3 = "Bağlantıyı Güçlendirmek, Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.  ";
+  // var guclu_yanlarin_15_4 = "Güvenilir Bir Çevre Yaratmak, Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar.  ";
+  // var guclu_yanlarin_15_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
   
-  var guclu_yanlarin_5_1 = "Kültür Mimarı ";
-  var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
-  var guclu_yanlarin_5_3 = "Grup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.   ";
-  var guclu_yanlarin_5_4 = "Başarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
-  var guclu_yanlarin_5_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
+  // var guclu_yanlarin_5_1 = "Kültür Mimarı ";
+  // var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
+  // var guclu_yanlarin_5_3 = "Grup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.   ";
+  // var guclu_yanlarin_5_4 = "Başarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
+  // var guclu_yanlarin_5_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
   
-  var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
-  var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek, Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın. ";
-  var guclu_yanlarin_46_3 = "Odaklanmak, Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
-  var guclu_yanlarin_46_4 = "Denge ve Uyumu Teşvik Etmek,  Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
-  var guclu_yanlarin_46_5 = "Değişime Uyum Sağlama, Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
-  var guclu_yanlarin_46_6 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
+  // var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı  ";
+  // var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek, Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın. ";
+  // var guclu_yanlarin_46_3 = "Odaklanmak, Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.  ";
+  // var guclu_yanlarin_46_4 = "Denge ve Uyumu Teşvik Etmek,  Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.  ";
+  // var guclu_yanlarin_46_5 = "Değişime Uyum Sağlama, Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.  ";
+  // var guclu_yanlarin_46_6 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
   
-  var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
-  var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.   ";
-  var guclu_yanlarin_29_3 = "Sadakat ve Güven Aşılamak, Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.   ";
-  var guclu_yanlarin_29_4 = "Adanmış Bir Takım Ortamı Yaratma, Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar.  ";
-  var guclu_yanlarin_29_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
+  // var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
+  // var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.   ";
+  // var guclu_yanlarin_29_3 = "Sadakat ve Güven Aşılamak, Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.   ";
+  // var guclu_yanlarin_29_4 = "Adanmış Bir Takım Ortamı Yaratma, Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar.  ";
+  // var guclu_yanlarin_29_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
 
-  var guclu_yanlarin_14_1 = "Kaynak Yaratıcı"
-  var guclu_yanlarin_14_2 = "Başarı İçin Kaynak Yaratmak, Bir işletmenin başarılı olması için gereken para, insan gücü veya gerekli malzemeler gibi kaynakları çekme ve üretme yeteneğine sahipsin. Varlığın, ekibin taahhütlerini yerine getirebileceği ve sözlerini tutabileceği güvenini verir. Bu yetkinlik, projelerin ilerlemesini ve hedeflerin karşılanmasını garanti eder. "
-  var guclu_yanlarin_14_3 = "İş Başarısını Güvenceye Almak, Katkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun. "
-  var guclu_yanlarin_14_4 = "Sözleri Gerçekleştirmek, Sen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin. "
-  var guclu_yanlarin_14_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
+  // var guclu_yanlarin_14_1 = "Kaynak Yaratıcı"
+  // var guclu_yanlarin_14_2 = "Başarı İçin Kaynak Yaratmak, Bir işletmenin başarılı olması için gereken para, insan gücü veya gerekli malzemeler gibi kaynakları çekme ve üretme yeteneğine sahipsin. Varlığın, ekibin taahhütlerini yerine getirebileceği ve sözlerini tutabileceği güvenini verir. Bu yetkinlik, projelerin ilerlemesini ve hedeflerin karşılanmasını garanti eder. "
+  // var guclu_yanlarin_14_3 = "İş Başarısını Güvenceye Almak, Katkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun. "
+  // var guclu_yanlarin_14_4 = "Sözleri Gerçekleştirmek, Sen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin. "
+  // var guclu_yanlarin_14_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
   
-  var guclu_yanlarin_2_1 = "Yön Belirleyici";
-  var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme, Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.   ";
-  var guclu_yanlarin_2_3 = "Büyümeyi Destekleme, Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.   ";
-  var guclu_yanlarin_2_4 = "Kaynak Yönetimi, Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar.  ";
-  var guclu_yanlarin_2_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
+  // var guclu_yanlarin_2_1 = "Yön Belirleyici";
+  // var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme, Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.   ";
+  // var guclu_yanlarin_2_3 = "Büyümeyi Destekleme, Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.   ";
+  // var guclu_yanlarin_2_4 = "Kaynak Yönetimi, Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar.  ";
+  // var guclu_yanlarin_2_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
  
-  var guclu_yanlarin_1_1 = "Satış Ustası  ";
-  var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek, Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
-  var guclu_yanlarin_1_3 = "Satışı Gerçekleştirmek, Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
-  var guclu_yanlarin_1_4 = "Sonuç Odaklı Olmak, Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
-  var guclu_yanlarin_1_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
+  // var guclu_yanlarin_1_1 = "Satış Ustası  ";
+  // var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek, Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.  ";
+  // var guclu_yanlarin_1_3 = "Satışı Gerçekleştirmek, Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.  ";
+  // var guclu_yanlarin_1_4 = "Sonuç Odaklı Olmak, Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.  ";
+  // var guclu_yanlarin_1_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
  
-  var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
-  var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
-  var guclu_yanlarin_8_3 = "Ekibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.  ";
-  var guclu_yanlarin_8_4 = "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
-  var guclu_yanlarin_8_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+  // var guclu_yanlarin_8_1 = "İmaj Yöneticisi  ";
+  // var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
+  // var guclu_yanlarin_8_3 = "Ekibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.  ";
+  // var guclu_yanlarin_8_4 = "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
+  // var guclu_yanlarin_8_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
   
-  var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
-  var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
-  var guclu_yanlarin_7_3 = "Pazar Anlayışı, Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.  ";
-  var guclu_yanlarin_7_4 = "Kaynakların Verimli Kullanımı, Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
-  var guclu_yanlarin_7_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+  // var guclu_yanlarin_7_1 = "Stratejik Planlayıcı ";
+  // var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
+  // var guclu_yanlarin_7_3 = "Pazar Anlayışı, Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.  ";
+  // var guclu_yanlarin_7_4 = "Kaynakların Verimli Kullanımı, Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.  ";
+  // var guclu_yanlarin_7_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
   
-  var guclu_yanlarin_31_1 = "Uygulama Ustası  ";
-  var guclu_yanlarin_31_2 ="Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
-  var guclu_yanlarin_31_3 = "Başarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
-  var guclu_yanlarin_31_4 = "Sistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
-  var guclu_yanlarin_31_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+  // var guclu_yanlarin_31_1 = "Uygulama Ustası  ";
+  // var guclu_yanlarin_31_2 ="Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
+  // var guclu_yanlarin_31_3 = "Başarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
+  // var guclu_yanlarin_31_4 = "Sistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
+  // var guclu_yanlarin_31_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
   
-  var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
-  var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek, Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
-  var guclu_yanlarin_13_3 = "Finansal Büyümeyi Sağlamak, Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
-  var guclu_yanlarin_13_4 = "Detaylı Kayıtları Tutmak, Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
-  var guclu_yanlarin_13_5 = "Verilerle Güveni Sürdürmek, Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
-  var guclu_yanlarin_13_6 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
+  // var guclu_yanlarin_13_1 = "Rakam Stratejisti ";
+  // var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek, Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
+  // var guclu_yanlarin_13_3 = "Finansal Büyümeyi Sağlamak, Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.  ";
+  // var guclu_yanlarin_13_4 = "Detaylı Kayıtları Tutmak, Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.  ";
+  // var guclu_yanlarin_13_5 = "Verilerle Güveni Sürdürmek, Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır. ";
+  // var guclu_yanlarin_13_6 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.  ";
   
-  var guclu_yanlarin_33_1 = "Gözlem Ustası ";
-  var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak, Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
-  var guclu_yanlarin_33_3 = "Geçmişten Ders Çıkarmak, Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
-  var guclu_yanlarin_33_4 = "Sorumluluğu Sağlamak, Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
-  var guclu_yanlarin_33_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
+  // var guclu_yanlarin_33_1 = "Gözlem Ustası ";
+  // var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak, Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.  ";
+  // var guclu_yanlarin_33_3 = "Geçmişten Ders Çıkarmak, Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.  ";
+  // var guclu_yanlarin_33_4 = "Sorumluluğu Sağlamak, Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.  ";
+  // var guclu_yanlarin_33_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır. ";
   
   //Güçlü Yanların Ingilizce
   var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
@@ -3237,307 +3238,188 @@ export default async ({ req, res, log, error }) => {
 
   //Karar Verme Stratejilerin
   var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al";
-  var decision_strategy_s3_1_1 =
-    "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
-  var decision_strategy_s3_1_2 =
-    "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
+  var decision_strategy_s3_1_1 = "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
+  var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
   var decision_strategy_s3_1_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_1_4 =
-    "İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
-  var decision_strategy_s3_1_5 =
-    "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
+  var decision_strategy_s3_1_4 = "İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
+  var decision_strategy_s3_1_5 = "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
 
-  var decision_strategy_s3_2_0 =
-    "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et";
-  var decision_strategy_s3_2_1 =
-    "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin";
-  var decision_strategy_s3_2_2 =
-    "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
+  var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et";
+  var decision_strategy_s3_2_1 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin";
+  var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
   var decision_strategy_s3_2_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_2_4 =
-    "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
-  var decision_strategy_s3_2_5 =
-    "İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya \"ah-huh\" (evet), ya \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.";
+  var decision_strategy_s3_2_4 = "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
+  var decision_strategy_s3_2_5 = "İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya \"ah-huh\" (evet), ya \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.";
 
   var decision_strategy_s3_3_0 = "Tanınma ve Davet Al, Netlik ile Karar Al ";
   var decision_strategy_s3_3_1 = "Tanınma, Davet ve Netlik için Bekle ";
-  var decision_strategy_s3_3_2 =
-    "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
+  var decision_strategy_s3_3_2 = "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
   var decision_strategy_s3_3_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_3_4 =
-    "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
-  var decision_strategy_s3_3_5 =
-    "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
+  var decision_strategy_s3_3_4 = "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
+  var decision_strategy_s3_3_5 = "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
 
   var decision_strategy_s3_4_0 = "Tanınma ve Davet Al, İçgüdülerini Takip Et ";
-  var decision_strategy_s3_4_1 =
-    "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  ";
-  var decision_strategy_s3_4_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
+  var decision_strategy_s3_4_1 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  ";
+  var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
   var decision_strategy_s3_4_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_4_4 =
-    "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
-  var decision_strategy_s3_4_5 =
-    "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
+  var decision_strategy_s3_4_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
+  var decision_strategy_s3_4_5 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
 
-  var decision_strategy_s3_5_0 =
-    "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et ";
+  var decision_strategy_s3_5_0 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et ";
   var decision_strategy_s3_5_1 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et ";
-  var decision_strategy_s3_5_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
+  var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
   var decision_strategy_s3_5_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_5_4 =
-    "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
-  var decision_strategy_s3_5_5 =
-    'İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
+  var decision_strategy_s3_5_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
+  var decision_strategy_s3_5_5 = 'İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
 
   var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle ";
-  var decision_strategy_s3_6_1 =
-    "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
-  var decision_strategy_s3_6_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
+  var decision_strategy_s3_6_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
+  var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
   var decision_strategy_s3_6_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_6_4 =
-    "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
-  var decision_strategy_s3_6_5 =
-    "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
+  var decision_strategy_s3_6_4 = "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
+  var decision_strategy_s3_6_5 = "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
 
-  var decision_strategy_s3_7_0 =
-    "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
-  var decision_strategy_s3_7_1 =
-    "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
-  var decision_strategy_s3_7_2 =
-    "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
+  var decision_strategy_s3_7_0 = "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
+  var decision_strategy_s3_7_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
+  var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
   var decision_strategy_s3_7_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_7_4 =
-    "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
-  var decision_strategy_s3_7_5 =
-    "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
+  var decision_strategy_s3_7_4 = "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
+  var decision_strategy_s3_7_5 = "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
 
   var decision_strategy_s3_8_0 = "Gör, Netlik Bekle ve Bilgi Ver ";
-  var decision_strategy_s3_8_1 =
-    "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir ";
-  var decision_strategy_s3_8_2 =
-    "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. ";
+  var decision_strategy_s3_8_1 = "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir ";
+  var decision_strategy_s3_8_2 = "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. ";
   var decision_strategy_s3_8_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_8_4 =
-    "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
-  var decision_strategy_s3_8_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
+  var decision_strategy_s3_8_4 = "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
+  var decision_strategy_s3_8_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
 
   var decision_strategy_s3_9_0 = "Gör, İç güdülerine Kulak ver ve Bilgi Ver. ";
-  var decision_strategy_s3_9_1 =
-    "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir ";
-  var decision_strategy_s3_9_2 =
-    "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. ";
+  var decision_strategy_s3_9_1 = "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir ";
+  var decision_strategy_s3_9_2 = "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. ";
   var decision_strategy_s3_9_3 = "İki Temel Unsur: ";
-  var decision_strategy_s3_9_4 =
-    "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
-  var decision_strategy_s3_9_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
+  var decision_strategy_s3_9_4 = "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
+  var decision_strategy_s3_9_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
 
   var decision_strategy_s3_10_0 = "Gör, İradeni Dinle ve Bilgi Ver.";
-  var decision_strategy_s3_10_1 =
-    "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme.";
-  var decision_strategy_s3_10_2 =
-    "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin.";
+  var decision_strategy_s3_10_1 = "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme.";
+  var decision_strategy_s3_10_2 = "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin.";
   var decision_strategy_s3_10_3 = "İki Temel Unsur:";
-  var decision_strategy_s3_10_4 =
-    'İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma.';
-  var decision_strategy_s3_10_5 =
-    "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın.";
+  var decision_strategy_s3_10_4 = 'İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma.';
+  var decision_strategy_s3_10_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın.";
 
-  var decision_strategy_s3_11_0 =
-    "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.";
-  var decision_strategy_s3_11_1 =
-    "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış.";
-  var decision_strategy_s3_11_2 =
-    "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
+  var decision_strategy_s3_11_0 = "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.";
+  var decision_strategy_s3_11_1 = "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış.";
+  var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
   var decision_strategy_s3_11_3 = "İki Temel Unsur:";
-  var decision_strategy_s3_11_4 =
-    "Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
-  var decision_strategy_s3_11_5 =
-    "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
+  var decision_strategy_s3_11_4 = "Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
+  var decision_strategy_s3_11_5 = "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
 
   var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_1_text =
-    "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
-  var decision_strategy_s4_1_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
-  var decision_strategy_s4_1_2 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.";
-  var decision_strategy_s4_1_3 =
-    "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
-  var decision_strategy_s4_1_4 =
-    "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
-  var decision_strategy_s4_1_4_e_1 =
-    "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
-  var decision_strategy_s4_1_4_e_2 =
-    "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
-  var decision_strategy_s4_1_5 =
-    "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
+  var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
+  var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
+  var decision_strategy_s4_1_2 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.";
+  var decision_strategy_s4_1_3 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
+  var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
+  var decision_strategy_s4_1_4_e_1 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
+  var decision_strategy_s4_1_4_e_2 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
+  var decision_strategy_s4_1_5 = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 
   var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_2_text =
-    "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
-  var decision_strategy_s4_2_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
-  var decision_strategy_s4_2_2 =
-    "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.";
-  var decision_strategy_s4_2_3 =
-    "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.";
-  var decision_strategy_s4_2_4 =
-    "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
-  var decision_strategy_s4_2_5 =
-    "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
+  var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
+  var decision_strategy_s4_2_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
+  var decision_strategy_s4_2_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.";
+  var decision_strategy_s4_2_3 = "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.";
+  var decision_strategy_s4_2_4 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
+  var decision_strategy_s4_2_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
 
   var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_3_text =
-    "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_3_1 =
-    "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
-  var decision_strategy_s4_3_2 =
-    "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
-  var decision_strategy_s4_3_3 =
-    "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
-  var decision_strategy_s4_3_4 =
-    "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
-  var decision_strategy_s4_3_4_e_1 =
-    "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
+  var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_3_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
+  var decision_strategy_s4_3_2 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
+  var decision_strategy_s4_3_3 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
+  var decision_strategy_s4_3_4 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
+  var decision_strategy_s4_3_4_e_1 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
   var decision_strategy_s4_3_4_e_2 = "";
-  var decision_strategy_s4_3_5 =
-    "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_3_5 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
   var decision_strategy_s4_4_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_4_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_4_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. ";
-  var decision_strategy_s4_4_2 =
-    "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
-  var decision_strategy_s4_4_3 =
-    "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
-  var decision_strategy_s4_4_4 =
-    "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
+  var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_4_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. ";
+  var decision_strategy_s4_4_2 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
+  var decision_strategy_s4_4_3 = "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
+  var decision_strategy_s4_4_4 = "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
   var decision_strategy_s4_4_4_e_1 = "";
   var decision_strategy_s4_4_4_e_2 = "";
-  var decision_strategy_s4_4_5 =
-    "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
+  var decision_strategy_s4_4_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
 
   var decision_strategy_s4_5_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_5_text =
-    "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-  var decision_strategy_s4_5_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-  var decision_strategy_s4_5_2 =
-    "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
-  var decision_strategy_s4_5_3 =
-    "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-  var decision_strategy_s4_5_4 =
-    "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
+  var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
+  var decision_strategy_s4_5_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
+  var decision_strategy_s4_5_2 = "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
+  var decision_strategy_s4_5_3 = "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
+  var decision_strategy_s4_5_4 = "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
   var decision_strategy_s4_5_4_e_1 = "";
   var decision_strategy_s4_5_4_e_2 = "";
-  var decision_strategy_s4_5_5 =
-    "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_5_5 = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
   var decision_strategy_s4_6_5_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_6_5_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
-  var decision_strategy_s4_6_1 =
-    "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-  var decision_strategy_s4_6_2 =
-    "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
-  var decision_strategy_s4_6_3 =
-    "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-  var decision_strategy_s4_6_4 =
-    "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
-  var decision_strategy_s4_6_5 =
-    "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
-  //var decision_strategy_s4_6_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
+  var decision_strategy_s4_6_5_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
+  var decision_strategy_s4_6_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
+  var decision_strategy_s4_6_2 = "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
+  var decision_strategy_s4_6_3 = "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
+  var decision_strategy_s4_6_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
+  var decision_strategy_s4_6_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
 
   var decision_strategy_s4_7_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_7_text =
-    "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
-  var decision_strategy_s4_7_1 =
-    "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
-  var decision_strategy_s4_7_2 =
-    "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-  var decision_strategy_s4_7_3 =
-    "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
-  var decision_strategy_s4_7_4 =
-    "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
+  var decision_strategy_s4_7_1 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
+  var decision_strategy_s4_7_2 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+  var decision_strategy_s4_7_3 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
+  var decision_strategy_s4_7_4 = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
   var decision_strategy_s4_7_4_e_1 = "";
   var decision_strategy_s4_7_4_e_2 = "";
-  var decision_strategy_s4_7_5 =
-    "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
-  //var decision_strategy_s4_7_7 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin."
+  var decision_strategy_s4_7_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
 
   var decision_strategy_s4_8_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_8_text =
-    "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
-  var decision_strategy_s4_8_1 =
-    "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+  var decision_strategy_s4_8_text = "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
+  var decision_strategy_s4_8_1 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
   var decision_strategy_s4_8_2 = "Gör: Başlatılması gereken şeyleri fark et. ";
-  var decision_strategy_s4_8_3 =
-    "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
-  var decision_strategy_s4_8_4 =
-    "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. ";
-  var decision_strategy_s4_8_4_e_1 =
-    "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
-  var decision_strategy_s4_8_4_e_2 =
-    "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
-  var decision_strategy_s4_8_5 =
-    "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_8_3 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
+  var decision_strategy_s4_8_4 = "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. ";
+  var decision_strategy_s4_8_4_e_1 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
+  var decision_strategy_s4_8_4_e_2 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
+  var decision_strategy_s4_8_5 = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
   var decision_strategy_s4_8_4_e_1 = "";
   var decision_strategy_s4_8_4_e_2 = "";
 
   var decision_strategy_s4_9_title = "Karar Verme Stratejini Takip Etmek: ";
-  var decision_strategy_s4_9_text =
-    "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
+  var decision_strategy_s4_9_text = "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
   var decision_strategy_s4_9_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
-  var decision_strategy_s4_9_2 =
-    "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
-  var decision_strategy_s4_9_3 =
-    "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
-  var decision_strategy_s4_9_4 =
-    "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
-  var decision_stragegy_s4_9_5 =
-    "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-  var decision_strategy_s4_9_4_e_1 =
-    "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
+  var decision_strategy_s4_9_2 = "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
+  var decision_strategy_s4_9_3 = "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
+  var decision_strategy_s4_9_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
+  var decision_stragegy_s4_9_5 = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
+  var decision_strategy_s4_9_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
   var decision_strategy_s4_9_4_e_2 = "";
 
   var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek:";
-  var decision_strategy_s4_10_text =
-    "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır.";
+  var decision_strategy_s4_10_text = "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır.";
   var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et.";
-  var decision_strategy_s4_10_2 =
-    "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
-  var decision_strategy_s4_10_3 =
-    "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.";
-  var decision_strategy_s4_10_4 =
-    "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
-  var decision_strategy_s4_10_5 =
-    "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
-  var decision_strategy_s4_10_4_e_1 =
-    "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
+  var decision_strategy_s4_10_2 = "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
+  var decision_strategy_s4_10_3 = "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.";
+  var decision_strategy_s4_10_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
+  var decision_strategy_s4_10_5 = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
+  var decision_strategy_s4_10_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
   var decision_strategy_s4_10_4_e_2 = "";
 
   var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek:";
-  var decision_strategy_s4_11_text =
-    "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
-  var decision_strategy_s4_11_1 =
-    "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.";
-  var decision_strategy_s4_11_2 =
-    "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.";
-  var decision_strategy_s4_11_3 =
-    "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.";
-  var decision_strategy_s4_11_4 =
-    'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver.';
-  var decision_strategy_s4_11_5 =
-    "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
-  var decision_strategy_s4_11_4_e_1 =
-    "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
+  var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
+  var decision_strategy_s4_11_1 = "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.";
+  var decision_strategy_s4_11_2 = "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.";
+  var decision_strategy_s4_11_3 = "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.";
+  var decision_strategy_s4_11_4 = 'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver.';
+  var decision_strategy_s4_11_5 = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
+  var decision_strategy_s4_11_4_e_1 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
   var decision_strategy_s4_11_4_e_2 = "";
 
   // eski hali
@@ -4903,195 +4785,195 @@ export default async ({ req, res, log, error }) => {
   let decision_strategy = (decisionStrategyData, age, type) => {
     if (type == "name") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_0; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_0; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_0; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_0; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_0; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_0; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_0; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_0; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_0; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_0; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_0; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_0; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_0; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_0; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_0; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_0; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s3_9_0; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+        return decision_strategy_s3_9_0; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-        return decision_strategy_s3_10_0; // Gör, İradeni Dinle ve Bilgi Ver
+        return decision_strategy_s3_10_0; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-        return decision_strategy_s3_11_0; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+        return decision_strategy_s3_11_0; 
       }
   } else if (type == "s3_x_1") { // BURASI NEDEN YAZILMIŞ ANLAMADıM TEMPLATE BÖYLE BIR ALAN YOK!
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_1; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_1; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_1; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_1; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_1; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_1; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_1; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_1; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_1; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_1; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_1; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_1; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_1; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_1; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_1; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_1; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_9_1; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+          return decision_strategy_s3_9_1; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-          return decision_strategy_s3_10_1; // Gör, İradeni Dinle ve Bilgi Ver
+          return decision_strategy_s3_10_1; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-          return decision_strategy_s3_11_1; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+          return decision_strategy_s3_11_1; 
       }
   } else if (type == "s3_x_2") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_2; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_2; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_2; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_2; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_2; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_2; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_2; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_2; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_2; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_2; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_2; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_2; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_2; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_2; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_2; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_2; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_9_2; // Gör, İç güdülerine Kulak ver ve Bilgi Versın.
+          return decision_strategy_s3_9_2;
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-          return decision_strategy_s3_10_2; // Gör, İradeni Dinle ve Bilgi Ver
+          return decision_strategy_s3_10_2; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-          return decision_strategy_s3_11_2; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+          return decision_strategy_s3_11_2; 
       }
   } else if (type == "s3_x_3") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_3; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_3; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_3; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_3; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_3; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_3; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_3; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_3; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_3; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_3; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_3; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_3; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_3; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_3; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_3; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_3; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_9_3; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+          return decision_strategy_s3_9_3; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-          return decision_strategy_s3_10_3; // Gör, İradeni Dinle ve Bilgi Ver
+          return decision_strategy_s3_10_3; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-          return decision_strategy_s3_11_3; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+          return decision_strategy_s3_11_3; 
       }
   } else if (type == "s3_x_4") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_4; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_4; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_4; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_4; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_4; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_4; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_4; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_4; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_4; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_4; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_4; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_4; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_4; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_4; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_4; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_4; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_9_4; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+          return decision_strategy_s3_9_4; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-          return decision_strategy_s3_10_4; // Gör, İradeni Dinle ve Bilgi Ver
+          return decision_strategy_s3_10_4; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-          return decision_strategy_s3_11_4; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+          return decision_strategy_s3_11_4; 
       }
   } else if (type == "s3_x_5") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_1_5; // Karar ver ve netlikle karar al
+          return decision_strategy_s3_1_5; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-          return decision_strategy_s3_2_5; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+          return decision_strategy_s3_2_5; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_3_5; // Tanınma ve Davet Al, Netlik ile Karar Al
+          return decision_strategy_s3_3_5; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_4_5; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+          return decision_strategy_s3_4_5; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-          return decision_strategy_s3_5_5; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+          return decision_strategy_s3_5_5; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-          return decision_strategy_s3_6_5; // Tanınma ve Davet Al, Söylediklerini Dinle
+          return decision_strategy_s3_6_5; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-          return decision_strategy_s3_7_5; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+          return decision_strategy_s3_7_5; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-          return decision_strategy_s3_8_5; // Gör, Netlik Bekle ve Bilgi Ver
+          return decision_strategy_s3_8_5; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-          return decision_strategy_s3_9_5; // Gör, İç güdülerine Kulak ver ve Bilgi Ver
+          return decision_strategy_s3_9_5; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-          return decision_strategy_s3_10_5; // Gör, İradeni Dinle ve Bilgi Ver
+          return decision_strategy_s3_10_5; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-          return decision_strategy_s3_11_5; // Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.
+          return decision_strategy_s3_11_5; 
       }
   } else if (type == "s4_x_title") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_1_title; // Karar ver ve netlikle karar al
+        return decision_strategy_s4_1_title; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-        return decision_strategy_s4_2_title; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+        return decision_strategy_s4_2_title; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_3_title; // Tanınma ve Davet Al, Netlik ile Karar Al
+        return decision_strategy_s4_3_title; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_4_title; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+        return decision_strategy_s4_4_title; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-        return decision_strategy_s4_5_title; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+        return decision_strategy_s4_5_title; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-        return decision_strategy_s4_6_title; // Tanınma ve Davet Al, Söylediklerini Dinle
+        return decision_strategy_s4_6_title; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-        return decision_strategy_s4_7_title; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+        return decision_strategy_s4_7_title; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_8_title; // Gör, Netlik Bekle ve Bilgi Ver
+        return decision_strategy_s4_8_title; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_9_title; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+        return decision_strategy_s4_9_title; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-        return decision_strategy_s4_10_title; // Gör, İradeni Dinle ve Bilgi Ver
+        return decision_strategy_s4_10_title; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-        return decision_strategy_s4_11_title; // Yaklaşık bir ay beklemelisin
+        return decision_strategy_s4_11_title; 
       }
   } else if (type == "s4_x_text") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_1_text; // Karar ver ve netlikle karar al
+        return decision_strategy_s4_1_text; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-        return decision_strategy_s4_2_text; // Karşılık Vermek için Bekle ve İçgüdülerini Takip Et
+        return decision_strategy_s4_2_text; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_3_text; // Tanınma ve Davet Al, Netlik ile Karar Al
+        return decision_strategy_s4_3_text; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_4_text; // Tanınma ve Davet Al, İçgüdülerini Takip Et
+        return decision_strategy_s4_4_text; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-        return decision_strategy_s4_5_text; // Tanınma ve Davet Al, İradeli Kararlılığını Takip Et
+        return decision_strategy_s4_5_text; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-        return decision_strategy_s4_6_text; // Tanınma ve Davet Al, Söylediklerini Dinle
+        return decision_strategy_s4_6_text; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-        return decision_strategy_s4_7_text; // Tanınma ve Davet Al, Kendi Söylediklerini Dinle
+        return decision_strategy_s4_7_text; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_8_text; // Gör, Netlik Bekle ve Bilgi Ver
+        return decision_strategy_s4_8_text; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_9_text; // Gör, İçgüdülerine Kulak ver ve Bilgi Ver
+        return decision_strategy_s4_9_text; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-        return decision_strategy_s4_10_text; // Gör, İradeni Dinle ve Bilgi Ver
+        return decision_strategy_s4_10_text; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-        return decision_strategy_s4_11_text; // Yaklaşık bir ay beklemelisin
+        return decision_strategy_s4_11_text; 
       }
   } else if (type == "s4_x_1") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
@@ -7158,6 +7040,7 @@ export default async ({ req, res, log, error }) => {
   var P34A3 = "İki Temel Unsur:";
   var P34A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
   var P34A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+  
   var P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
   var P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
   var P35A3 = "Adımlar:";
@@ -7167,28 +7050,33 @@ export default async ({ req, res, log, error }) => {
   var P35A7 = decision_strategy(decision_strategyData, 25, "s4_x_4");
   var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5");
   var P35A9 = decision_strategy(decision_strategyData, 25, "image");
+  
   var P36A1 = "image"; // Sana uygun kariyer dağılımların
   var P36A2 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P36A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P36A4 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  
   var P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
   var P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P37A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
   var P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
   var P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+  
   var P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
   var P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
   var P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
   var P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
   var P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+  
   var P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
   var P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
   var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
   var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
   var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+  
   var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
   var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
   var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
@@ -7208,7 +7096,9 @@ export default async ({ req, res, log, error }) => {
   var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
   var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
   var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  
   var P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+  
   var graphbig = bigdataPercent;
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
@@ -7435,9 +7325,7 @@ export default async ({ req, res, log, error }) => {
       graphai: aiData,
       graphteamwork: teamworkData,
     };
-
     
-
   } else if (usergates.length === 2) {
     var inputs_25_plus = {
       P1A1: P1A1,
@@ -10119,7 +10007,6 @@ export default async ({ req, res, log, error }) => {
   
   }
 
-  
   log(inputs_25_plus);
 
   const jsonString = JSON.stringify(inputs_25_plus)
