@@ -1142,8 +1142,8 @@ var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
 var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
 var kariyer_secim_s3_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri";
 var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
-var kariyer_secim_s3_10_0 = "Analitik ve Veriye Dayalı Kariyerler";
-var kariyer_secim_s3_10_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
+var kariyer_secim_s3_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
+var kariyer_secim_s3_9_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
 
 var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı (Genişletilmiş Gerçeklik)\nYapay Zeka Tarafından Oluşturulan Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı (Biyoteknoloji Sanatı)\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Geliştirilmiş Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka Tarafından Oluşturulan Hikaye Anlatıcısı\nMetaverse MimarıYapay Zeka Destekli Film Yapımcısı";
@@ -2495,7 +2495,7 @@ var krktr_ozl_openness_to_experience = "Deneyime Açıklık"; //bold
 var krktr_ozl_openness_to_experience_s1 = "Açıklık (deneyime açıklık olarak da bilinir), beş kişilik özelliği arasında en çok hayal gücü ve sezgiyi vurgular. Açıklık düzeyi yüksek olan kişiler genellikle geniş bir ilgi alanına sahiptir. Dünyaya ve diğer insanlara karşı meraklıdırlar, yeni şeyler öğrenmeye ve yeni deneyimlerden keyif almaya isteklidirler.\n\nBu kişilik özelliği yüksek olan insanlar, genellikle daha maceraperest ve yaratıcı olma eğilimindedir. Buna karşılık, bu özelliği düşük olan insanlar daha geleneksel olabilir ve soyut düşünmede zorlanabilirler.";
 var krktr_ozl_strenghts_openness_to_experience_s2_1 = "Deneyime açıklık, yaratıcılığı, esnekliği ve yeni fikirleri benimseme yeteneğini yansıtır. Bu özellik, sanat ve inovasyon alanlarında başarı getirebilir.";
 var krktr_ozl_weaknesses_openness_to_experience_s2_1 = "Deneyime aşırı açık olmak, bazen odak kaybına veya sabit bir kariyer hedefine sahip olmama isteğine neden olabilir.";
-var krktr_ozl_other_attributes_openness_to_experience_s2 = "Meraklı, yaratıcı, estetik (sanatsal), geniş ilgi alanlarına sahip, duygular odaklı, heyecanlı, alışılmadık değerlere sahip";
+var krktr_ozl_other_attributes_openness_to_experience_s2 = "Meraklı,\nyaratıcı,\nestetik (sanatsal),\ngeniş ilgi alanlarına sahip,\nduygular odaklı,\nheyecanlı,\nalışılmadık değerlere sahip";
 var krktr_ozl_12_25_openness_to_experience_questions_1 = "Yeni şeyler öğrendiğimde veya farklı bakış açıları keşfettiğimde kendimi nasıl hissediyorum? Bu merakımı okul projelerinde nasıl daha iyi kullanabilirim?";
 var krktr_ozl_12_25_openness_to_experience_questions_2 = "Farklı konularla ilgili araştırmalar yaparken hangi alanlarda en çok ilham alıyorum? Bu ilhamı derslerimde nasıl daha yaratıcı hale getirebilirim?";
 var krktr_ozl_12_25_openness_to_experience_questions_3 = "Alışılmadık bir düşünce tarzı geliştirdiğimde, bu yaklaşım okul performansımı nasıl etkiliyor? Yaratıcı düşünme becerilerimi hangi projelerde daha çok gösterebilirim?";
@@ -2543,7 +2543,7 @@ var krktr_ozl_emotional_resilience = "Duygusal Dayanıklılık"; //bold
 var krktr_ozl_character_elements_emotional_resilience_s1 = "Duygusal denge, bir kişinin stresi nasıl yönettiğini, duygusal dengeyi nasıl koruduğunu ve sağlıklı bir özgüven sürdürebilme yeteneğini yansıtır. Duygusal dengesi yüksek olan bireyler, baskı altında daha sakin kalır ve zorluklardan çabuk toparlanabilirler.\n\nBuna karşılık, duygusal dengesi düşük olan kişiler, daha güçlü duygusal dalgalanmalar yaşayabilir, stres karşısında kolayca bunalmış hissedebilir ve zor zamanlarda olumlu bir benlik imajını sürdürmekte zorlanabilirler. Bu özellik, hem kişisel refah hem de profesyonel başarı açısından kritik öneme sahiptir ve zorluklarla başa çıkma şeklimizi doğrudan etkiler.";
 var krktr_ozl_strenghts_emotional_resilience_s2_1 = "Duygusal istikrar, stresle başa çıkma yeteneği ve iş yerinde olumsuz durumları tolere etme yeteneğini yansıtır. Bu, kriz anlarında sakin kalma ve etkili kararlar alabilme yeteneğini artırabilir.";
 var krktr_ozl_weaknesses_emotional_resilience_s2_1 = "Bu kişiler, çok fazla stres yaşar ve çeşitli konular hakkında sürekli endişelenir. Ruh hali sık sık değişir, kolayca üzülür ve stresli olaylardan sonra toparlanmakta zorluk çeker.";
-var krktr_ozl_other_attributes_emotional_resilience_s2 = "Sakin,\soğuk kanlı,\nuyumlu,\nkendinden emin,\nesnek,\nmemnuniyetli";
+var krktr_ozl_other_attributes_emotional_resilience_s2 = "Sakin,\nsoğuk kanlı,\nuyumlu,\nkendinden emin,\nesnek,\nmemnuniyetli";
 var krktr_ozl_12_25_emotional_resilience_questions_1 = "Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_2 = "Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_3 = "Zor bir durumu atlattıktan sonra nasıl daha güçlü hissediyorum? Bu dayanıklılığı günlük okul hayatımda nasıl daha fazla kullanabilirim?";
@@ -3315,12 +3315,11 @@ var decision_strategy_s3_11_5 = "Derin ve Ani İçsel Bilgi: Bekleme, düşünme
 
 var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
-var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
-var decision_strategy_s4_1_2 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.";
-var decision_strategy_s4_1_3 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
-var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
-var decision_strategy_s4_1_4_e_1 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
-var decision_strategy_s4_1_4_e_2 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
+var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle";
+var decision_strategy_s4_1_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
+var decision_strategy_s4_1_3 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
+var decision_strategy_s4_1_4 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
+var decision_strategy_s4_1_4_e_1 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
 var decision_strategy_s4_1_5 = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 
 var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
@@ -3568,7 +3567,7 @@ var decision_strategy_s4_11_4_e_2 = "";
         return krktr_ozl_40_plus_openness_to_experience_questions_2;
       }
     } else if (type == "question3") {
-      if (big5Name == "self_discipline") {
+      if (big5Name == "Öz Disiplin") {
         return krktr_ozl_40_plus_self_discipline_questions_3;
       } else if (big5Name == "Dışa Dönüklük") {
         return krktr_ozl_40_plus_extraversion_questions_3;
@@ -3735,7 +3734,7 @@ var decision_strategy_s4_11_4_e_2 = "";
       } else if (aiName == "Yenilikçi ve Girişimci Düşünce") {
         return ai_25_s3_9_1;
       }
-   } else if (type == "s3_x_2") {
+  } else if (type == "s3_x_2") {
       if (aiName == "Dijital Okuryazarlık") {
         return ai_25_s3_1_2;
       } else if (aiName == "Veri Okur Yazarlığı") {
@@ -4294,7 +4293,7 @@ var decision_strategy_s4_11_4_e_2 = "";
         return communication_reflektor_1_s2;
       }
     } else if (type == "2_s2") {
-       if (communicationData == "Generator") {
+      if (communicationData == "Generator") {
         return communication_generator_2_s2;
       } else if (communicationData == "Projector") {
         return communication_projector_2_s2;
@@ -4782,6 +4781,31 @@ var decision_strategy_s4_11_4_e_2 = "";
   };
 
   let decision_strategy = (decisionStrategyData, age, type) => {
+    if (type == "image") {
+      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_1; 
+      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
+        return image_karar_verme_stratejileri_2; 
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_3; 
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
+        return image_karar_verme_stratejileri_4; 
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
+        return image_karar_verme_stratejileri_5; 
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
+        return image_karar_verme_stratejileri_6; 
+      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+        return image_karar_verme_stratejileri_7; 
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
+        return image_karar_verme_stratejileri_8; 
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
+        return image_karar_verme_stratejileri_9; 
+      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
+        return image_karar_verme_stratejileri_10; 
+      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
+        return image_karar_verme_stratejileri_11; 
+      }
+    }
     if (type == "name") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s3_1_0; 
@@ -4996,7 +5020,7 @@ var decision_strategy_s4_11_4_e_2 = "";
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
         return decision_strategy_s4_10_1; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-       return decision_strategy_s4_11_1; 
+      return decision_strategy_s4_11_1; 
       }
   } else if (type == "s4_x_2") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
@@ -5189,7 +5213,7 @@ var decision_strategy_s4_11_4_e_2 = "";
         return kariyer_secim_25_40_s2_2_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
         return kariyer_secim_25_40_s2_3_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerler") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
         return kariyer_secim_25_40_s2_4_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
         return kariyer_secim_25_40_s2_5_2;
@@ -6229,7 +6253,7 @@ var decision_strategy_s4_11_4_e_2 = "";
         return guclu_yanlarin_10_20_6;
       }
     }
-     else if (guclu_yanlarinData.name == "45-21") {
+    else if (guclu_yanlarinData.name == "45-21") {
       if (type == "45_21_1") {
         return guclu_yanlarin_45_21_1;
       } else if (type == "45_21_2") {
@@ -6845,7 +6869,7 @@ var decision_strategy_s4_11_4_e_2 = "";
     //   } else if (type == "33_6") {
     //     return guclu_yanlarin_33_6 ?? "";
     //   }
-     }
+    }
   };
 
   console.log(typeof rawData);
@@ -6875,7 +6899,7 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P5A6 = kslk_ozl(hollandData[0].name, 25, "may_not_like");
   var P5A7 = kslk_ozl(hollandData[1].name, 25, "work_areas");
   var P5A8 = kslk_ozl(hollandData[1].name, 25, "may_not_like");
- 
+
   var P6A1 = kslk_ozl(hollandData[0].name, 25, "name"); // Kendini Değerlendirme
   var P6A2 = kslk_ozl(hollandData[0].name, 25, "question_1");
   var P6A3 = kslk_ozl(hollandData[0].name, 25, "question_2");
@@ -6884,7 +6908,7 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P6A6 = kslk_ozl(hollandData[1].name, 25, "question_1");
   var P6A7 = kslk_ozl(hollandData[1].name, 25, "question_2");
   var P6A8 = kslk_ozl(hollandData[1].name, 25, "question_3");
- 
+
   var P7A1 = "chart"; // Karakter Özelliklerin
   var P7A2 = krktr_ozl(big5Data[0].name, 25, "name").toUpperCase();
   var P7A3 = krktr_ozl(big5Data[1].name, 25, "name").toUpperCase();
@@ -6911,7 +6935,7 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P9A8 = krktr_ozl(big5Data[1].name, 25, "question3");
 
   var P11A1 = "chart"; // Yapay zeka çağı yetkinliklerin
- 
+
   var P12A1 = ai(aiData[0].name, 25, "name");
   var P12A2 = ai(aiData[1].name, 25, "name");
   var P12A3 = ai(aiData[0].name, 25, "s3_x_2");
@@ -6995,7 +7019,7 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P22A4 = communication(communicationData[0], 25, "3_s3");
   var P22A5 = communication(communicationData[0], 25, "4_s3");
   var P22A6 = communication(communicationData[0], 25, "5_s3");
- 
+
   var P24A1 = worklearnstyle(worklearnData[0], 25, "name"); // Çalışma ve Öğrenme Stilin
   var P24A2 = worklearnstyle(worklearnData[0], 25, "context");
   
@@ -10310,7 +10334,7 @@ var decision_strategy_s4_11_4_e_2 = "";
       graphteamwork: teamworkData,
     };
   }
-
+inputs_25_plus.userGates=usergates.length;
   // console.log(inputs_25_plus);
 
   const jsonString = JSON.stringify(inputs_25_plus)
