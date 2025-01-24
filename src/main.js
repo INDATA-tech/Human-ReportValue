@@ -1056,7 +1056,7 @@ var c_o_s_individual_s3_5 = " • Kendi başına çalıştığında, başkaları
 
 var c_o_s_collaborative_titie = "İş Birlikçi";
 var c_o_s_collaborative =
-"Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor.\n\nYalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor.\n\nİş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler.\n\nSenin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun.\n Karar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek.\n\nCanlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir.\n İşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
+"Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor.\n\nYalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor.\n\nİş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler.\n\nSenin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun.\nKarar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek.\n\nCanlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir.\nİşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
 var c_o_s_collaborative_s3_1 = " • Birden fazla kaynaktan bilgi toplarken, bu bilgileri nasıl daha sabırlı bir şekilde sindirebilirsin? ";
 var c_o_s_collaborative_s3_2 = " • Farklı insanlarla etkileşim içinde olduğunda enerjin nasıl artıyor? Bu enerjiyi iş hayatında daha etkin kullanmak için neler yapabilirsin? ";
 var c_o_s_collaborative_s3_3 = " • Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
@@ -2234,20 +2234,14 @@ var guclu_yanlarin_en67 =
 
 // Kişilik Özelliklerin
 
-var kslk_ozl_age_12_25_p1 = "Kariyer seçimi, hayatında vereceğin en önemli kararlardan biri olabilir ve bu karar gelecekteki yaşamını şekillendirecek. Hangi işi yapacağına karar verirken, doğru ve sana en uygun seçimi yapman gerçekten önemli. Yanlış bir seçim, ileride çalışırken mutsuz ve isteksiz hissetmene neden olabilir.";
-var kslk_ozl_age_12_25_p2 = "Bu yüzden kariyerini seçerken, kişiliğine ve ilgi alanlarına en uygun olanı bulmaya çalışmalısın. Çünkü seni yansıtan bir kariyer, hem iş hem de sosyal hayatında daha başarılı ve mutlu olmanı sağlar. Böylece, gerçekten keyif aldığın ve kendini geliştirebileceğin bir işte çalışmak sana tatmin dolu bir yaşam sunar.";
-var kslk_ozl_age_25_plus_p1 = "Kariyer seçimi, hayatının geri kalanını etkileyebilecek en önemli kararlardan biridir ve yaşam tarzını doğrudan şekillendirir. Çalışma hayatında başarılı ve tatmin olmuş hissetmek için, sana en uygun ve doğru seçimi yapman çok önemli. Aksi takdirde, ileride işinden memnuniyetsiz, isteksiz ve verimsiz hissedebilirsin.";
-var kslk_ozl_age_25_plus_p2 = "Bu nedenle, kariyerini seçerken kişiliğine ve profesyonel yetkinliklerine en uygun alanı bulman gerekir. Kişiliğine uygun bir kariyer, iş ve sosyal hayatında daha mutlu ve dengeli bir yaşam sürdürmene olanak tanır. Bu, hem kariyerinde başarıya ulaşmanı hem de yaşamdan daha fazla tatmin almanı sağlayacaktır.";
 var kslk_ozl_chart = "";
 
-var kslk_ozl_realistic_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
 var kslk_ozl_realistic_your_profile = "Gerçekçi";
 var kslk_ozl_realistic_your_profile_ = "Pratik, uygulamalı problemler ve çözümler içeren iş aktivitelerinin tadını çıkarabilirsin. Bitkiler, hayvanlar ve ahşap, aletler ve makineler gibi gerçek dünya malzemeleriyle uğraşmayı sevebilirsin. Dışarıda çalışmaktan hoşlanabilirsin.";
 var kslk_ozl_realistic_your_interests_1 = "Gerçekçi insanlar pratik, kendine güvenen ve mekanik işlere daha eğilimlidir. Gelenekseldirler ve görebildikleri ve dokunabildikleri şeylere değer verirler. Gerçekçi bireyler genellikle aletlerle çalışmak, makineleri çalıştırmak veya tarım ve hayvacılık için iyi gelişmiş becerilere sahiptir.";
 var kslk_ozl_realistic_your_interests_2 = "Açık havada gerçekleşen ve fiziksel aktivite içeren işlerden hoşlanırlar. Somut problem çözmeyi içeren uygulamalı etkinliklerden hoşlandıkları için, insanlarla, soyut fikirlerle ve çok fazla veriyle uğraşmaktan kaçınmayı tercih ederler. Bir sorunla karşılaştıklarında sözel ya da kişilerarası çözümler yerine eylem odaklı çözümler üretirler.";
 var kslk_ozl_realistic_your_work_areas = "Marangozlar, elektrikçiler, tamirciler, tesisatçılar; tarım ve ormancılık; askeriye.";
 var kslk_ozl_realistic_you_may_not_like = "Topluluk önünde konuşma, sosyal etkinlikler, kültürel ve estetik faaliyetler, anlaşmazlıklarda arabuluculuk, yakın kişilerarası ilişkiler içeren çalışmalar.";
-var kslk_ozl_realistic_questions = "Gerçekçi";
 var kslk_ozl_12_25_realistic_questions_1 = "Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
 var kslk_ozl_12_25_realistic_questions_2 = "Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
 var kslk_ozl_12_25_realistic_questions_3 = "Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
@@ -2255,15 +2249,12 @@ var kslk_ozl_25_plus_realistic_questions_1 = " • İşimde ellerimle bir şeyle
 var kslk_ozl_25_plus_realistic_questions_2 = " • Sorunları hızlı ve etkili bir şekilde çözmek, iş verimliliğimi nasıl etkiliyor? Bu yaklaşımı günlük iş akışımda daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_realistic_questions_3 = " • Açık hava veya fiziksel hareket gerektiren bir iş yaptığımda motivasyonumda bir artış oluyor mu? Bu motivasyonu işimde daha çok nasıl artırabilirim?";
 
-var kslk_ozl_researcher_s1_1 =
-  "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
 var kslk_ozl_researcher_your_profile = "Araştırıcı";
 var kslk_ozl_researcher_your_profile_ = "Karmaşık sorunları çözmeyi içeren işlerin tadını çıkarabilirsin. Fikirleri keşfetmeyi, araştırma yapmayı ve teorilere bakmayı sevebilirsin. Yapmaktan çok düşünmeyi tercih edebilir ve verileri ve fikirleri insanlara tercih etme ihtimalin daha fazla olabilir.";
 var kslk_ozl_researcher_your_interests_1 = "Araştırmacı insanlar meraklı, analitik ve entelektüeldir. Bir şeyleri araştırmayı severler ve karmaşık problemleri çözmek. Araştırmacı bireyler fikirleri keşfetmekten, yürütmekten hoşlanırlar.";
 var kslk_ozl_researcher_your_interests_2 = "Tercih ettikleri okuma materyali bilimsel veya teknik dergileri içerir. Ayrıca yalnız çalışmaktan hoşlanabilirler. İnsanlar yerine veri ve fikirlerle çalışmayı tercih edebilirler. Sonuç olarak, liderlik, satış ya da başkalarını ikna gerektiren işlerden kaçınma eğilimindedirler.";
 var kslk_ozl_researcher_your_work_areas = "Biyoloji, kimya, fizik, bilgisayar programlama, bilgisayar mühendisliği, tıp, farmakoloji, psikoloji, veterinerlik bilimi, teknik yazı.";
 var kslk_ozl_researcher_you_may_not_like = "Satış, başkalarını ikna etme, insanları yönlendirme.";
-var kslk_ozl_researcher_questions = "Araştırıcı";
 var kslk_ozl_12_25_researcher_questions_1 = "Zor sorularla karşılaştığımda nasıl bir çözüm yolu buluyorum? Bu problem çözme becerimi derslerde daha sık nasıl kullanabilirim?";
 var kslk_ozl_12_25_researcher_questions_2 = "Yeni şeyler öğrenmek ve araştırmak beni nasıl motive ediyor? Araştırmalarımı projelerde veya ödevlerde nasıl daha etkili kullanabilirim?";
 var kslk_ozl_12_25_researcher_questions_3 = "Zihinsel olarak zorlandığım bir konuda ne kadar derine inip öğrenmeyi seviyorum? Bu merakımı okulda hangi alanlarda daha fazla geliştirebilirim?";
@@ -2271,14 +2262,12 @@ var kslk_ozl_25_plus_researcher_questions_1 = " • Zorlu problemlerle karşıla
 var kslk_ozl_25_plus_researcher_questions_2 = " • Detaylı araştırmalar yaptığımda işimde nasıl bir fark yaratıyorum? Bu merak duygusunu işimde daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_researcher_questions_3 = " • Karmaşık bir sorunu çözmek için derinlemesine düşündüğümde hangi yeteneklerimi geliştiriyorum? Bu problem çözme becerilerimi işimde daha çok nasıl öne çıkarabilirim?";
 
-var kslk_ozl_artistic_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak.";
 var kslk_ozl_artistic_your_profile = "Sanatsal";
 var kslk_ozl_artistic_your_profile_ = "Formlar, tasarımlar ve desenler gibi şeylerin sanatsal yönüyle ilgilenen iş etkinliklerinin tadını çıkarırsın. İşinde kendini ifade etmeyi sevebilirsin. Net bir dizi kurala uymadan işin yapılabileceği ayarları tercih edebilirsin.";
 var kslk_ozl_artistic_your_interests_1 = "Sanatsal insanlar yaratıcı ve yaratıcıdır. Kendilerini yaratıcı bir şekilde ifade etmek için güçlü bir arzuya sahip özgün, bağımsız insanlardır. Sanatsal bireyler estetiğe değer verir ve sanat, drama, yazı, dans ve müzik gibi yaratıcı etkinliklerden hoşlanırlar.";
 var kslk_ozl_artistic_your_interests_2 = "Yeni fikirler geliştirmek için sezgilerini ve özgünlüklerini kullanmayı severler. Bu şekilde Araştırmacı insanlara benzerler. Bununla birlikte, bilimsel olanlardan çok kültürel-estetik arayışlarla ilgilenirler. Sanatsal insanlar, çeşitliliğin ve değişimin olduğu ortamlarda en fazla tatmini bulurlar. Yüksek düzeyde yapılandırılmış veya tekrarlayan iş faaliyetlerinden hoşlanmazlar. Verilerden veya somut şeylerden çok fikirlerle ve insanlarla ilgilenirler.";
 var kslk_ozl_artistic_your_work_areas = "Müzisyenler, sanatçılar, grafik sanatçıları, reklam, tasarım, yazarlar/editörler, yaratıcılık gerektiren tüm alanlar.";
 var kslk_ozl_artistic_you_may_not_like = "Tekrarlayan, yapılandırılmış görevler; çeşitlilik eksikliği; bilgi işleme; sayılarla çalışma.";
-var kslk_ozl_artistic_questions = "Sanatsal";
 var kslk_ozl_12_25_artistic_questions_1 = "Kendimi resim yaparak, yazı yazarak ya da başka yaratıcı yollarla ifade ettiğimde en çok hangi anlarda kendimi özgür hissediyorum? Bu yaratıcılığı ödevlerime nasıl ekleyebilirim?";
 var kslk_ozl_12_25_artistic_questions_2 = "Farklı fikirler bulduğumda arkadaşlarım ve öğretmenlerim nasıl tepkiler veriyor? Yaratıcı düşüncelerimi projelerde daha fazla nasıl gösterebilirim?";
 var kslk_ozl_12_25_artistic_questions_3 = "Sıkıcı bulduğum görevlerde yaratıcı bir dokunuş eklediğimde nasıl bir fark yaratıyorum? Yaratıcılığı günlük okul işlerine nasıl daha çok katabilirim?";
@@ -2286,14 +2275,12 @@ var kslk_ozl_25_plus_artistic_questions_1 = " • Yaratıcı bir çözüm ürett
 var kslk_ozl_25_plus_artistic_questions_2 = " • Rutin işler monotonlaştığında, işime daha yaratıcı bir dokunuş katmak performansımı nasıl etkiliyor? Yaratıcı düşünme tarzımı günlük görevlerde nasıl daha çok kullanabilirim?";
 var kslk_ozl_25_plus_artistic_questions_3 = " • Yeni ve alışılmadık fikirler ürettiğimde, bu fikirlerin iş yerindeki katkılarını nasıl gözlemliyorum? Bu yaratıcı süreçleri projelerime nasıl daha sık entegre edebilirim?";
 
-var kslk_ozl_social_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
 var kslk_ozl_social_your_profile = "Sosyal";
 var kslk_ozl_social_your_profile_ = "Başkalarına yardımcı olan ve öğrenmeyi ve kişisel gelişimi teşvik eden iş etkinliklerinin tadını çıkarabilirsin. Nesnelerle, makinelerle veya verilerle çalışmak yerine insanlarla birlikte olmayı tercih edebilirsin. Öğretmeyi, tavsiye vermeyi, yardım etmeyi veya başka bir şekilde insanlara hizmet etmeyi sevme olasılığın çok yüksek.";
 var kslk_ozl_social_your_interests_1 = "Sosyal insanlar arkadaş canlısı, dışa dönük ve anlayışlıdır. Kişisel etkileşim ve başkalarına yardım edebileceği işlerden hoşlanabilirler. İnsanlarla, veriden ve somut şeylerden çok daha fazla ilgilidirler. Sosyal bireyler yakın kişilerarası ilişkiler ararlar ve öğretmeyi severler. İnsan refahı konusunda endişeli olabilirler.";
 var kslk_ozl_social_your_interests_2 = "Kişilerarası sorunların üstesinden gelmekten ve anlaşmazlıklarda arabuluculuk yapmaktan hoşlanabilirler. Makine veya alet kullanmaktan kaçınmaya eğilimlidirler.Kapsamlı entelektüel veya fiziksel çalışmalardan hoşlanmayabilirler.";
 var kslk_ozl_social_your_work_areas = "Hemşirelik, Danışmanlık, Öğretim, Din";
 var kslk_ozl_social_you_may_not_like = "Fiziksel çalışma; veri ve somut şeylerle uğraşmak; İnşa ve Onarım";
-var kslk_ozl_social_questions = "Sosyal";
 var kslk_ozl_12_25_social_questions_1 = "Bir arkadaşımın problemini çözmesine yardım ettiğimde kendimi nasıl hissediyorum? Bu yardımlaşma yeteneğimi okul etkinliklerinde nasıl daha etkili kullanabilirim? ";
 var kslk_ozl_12_25_social_questions_2 = "Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
 var kslk_ozl_12_25_social_questions_3 = "Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
@@ -2301,14 +2288,12 @@ var kslk_ozl_25_plus_social_questions_1 = " • İş arkadaşlarıma yardım ett
 var kslk_ozl_25_plus_social_questions_2 = " • Ekip çalışmalarında başkalarını motive ettiğimde, işlerin ilerleyişini nasıl etkiliyorum? Bu yeteneğimi daha fazla projeye nasıl yansıtabilirim? ";
 var kslk_ozl_25_plus_social_questions_3 = " • Başkalarının ihtiyaçlarını anlamak ve uygun çözümler sunmak, işimde bana nasıl katkılar sağlıyor? Bu empatiyi iş yerinde daha da güçlendirmek için neler yapabtraditional";
 
-var kslk_ozl_entrepreneur_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
 var kslk_ozl_entrepreneur_your_profile = "Girişimci";
 var kslk_ozl_entrepreneur_your_profile_ = "Projelerin başlatılması ve yürütülmesi, özellikle de ticari girişimler ile ilgili iş faaliyetlerinden daha çok keyif alabilirsin. İnsanları ikna etmeyi, yönlendirmeyi ve karar vermeyi seversin. Kâr için risk almayı tercih edebilirsin. Senin gibi insanlar düşünceden ziyade eylemi tercih edebilirler.";
 var kslk_ozl_entrepreneur_your_interests_1 = "Girişimci insanlar ticari faaliyetlerden ve anlaşma yapmaktan hoşlanırlar. Kendine güvenen, iddialı, ikna edici ve enerjiktirler. Sözel yetenekli, Girişimci bireyler, sözel becerilerini başkalarını desteklemek için kullanan Sosyal bireylerin aksine, bu becerileri insanları ikna etmek için kullanırlar. Bir şeyler satmaktan, fikirleri tanıtmaktan ve insanları etkilemekten hoşlanırlar.";
 var kslk_ozl_entrepreneur_your_interests_2 = "Ayrıca statü ve prestije değer verirler ve bu arzuları karşılayabilecek meslekler ararlar. Girişimci insanlar aynı zamanda rekabetçidir ve risk almaya isteklidir. Sonuç olarak, girişimci bir yapıya sahiptirler ve projeler başlatmayı ve başkalarını gemiye atlamaya ikna etmeyi severler. Girişimci bireyler, somut şeyler ve fikirler yerine, insanlarla ve verilerle çalışmaktan hoşlanırlar.";
-var kslk_ozl_entrepreneur_your_work_areas = "işletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
+var kslk_ozl_entrepreneur_your_work_areas = "İşletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
 var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak";
-var kslk_ozl_entrepreneur_questions = "Girişimci";
 var kslk_ozl_12_25_entrepreneur_questions_1 = "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_2 = "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_3 = "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
@@ -2316,14 +2301,12 @@ var kslk_ozl_25_plus_entrepreneur_questions_1 = " • Karar alma süreçlerinde 
 var kslk_ozl_25_plus_entrepreneur_questions_2 = " • İnsanları motive edip yönlendirdiğimde projelerdeki ilerleme nasıl oluyor? Bu motivasyon becerilerimi iş yerinde daha etkili kullanmak için hangi yolları deneyebilirim? ";
 var kslk_ozl_25_plus_entrepreneur_questions_3 = " • İşimde risk almayı gerektiren durumlarda, hangi stratejileri kullanıyorum ve sonuçları nasıl değerlendiriyorum? Risk yönetimimi daha da geliştirmek için neler yapabilirim? ";
 
-var kslk_ozl_traditional_s1_1 = "En yüksek çıkan 2 kişilik özeliğin burada olacak";
 var kslk_ozl_traditional_your_profile = "Geleneksel";
 var kslk_ozl_traditional_your_profile_ = "Belirlenen prosedürleri ve rutinleri takip eden iş aktivitelerini senin hoşuna gidebilir. Fikirlerden ziyade verilerle ve ayrıntılarla çalışmayı tercih edebilirsin. Yargıda bulunmaktan ziyade kesin standartların olduğu işleri tercih edebilirsin. Muhtemelen sen de diğerleri gibi otorite sınırlarının net olduğu yerlerde çalışmayı seversin.";
 var kslk_ozl_traditional_your_interests_1 = "Geleneksel insanlar metodik, vicdanlı ve verimlidir. Doğrudurlar ve açıkça tanımlanmış prosedürleri takip etmeyi severler. İş yerinde, işlerin sorunsuz yürümesini sağlayan kural ve düzenlemelerden hoşlanırlar. Yapıyı ve düzeni belirsizliğe tercih ederler. Sonuç olarak, sistemler veya büyük kuruluşlar içinde iyi çalışırlar.";
 var kslk_ozl_traditional_your_interests_2 = "Geleneksel insanlar kendileri için yüksek standartlara sahiptir, doğrudur ve ayrıntılara çok dikkat eder. Geleneksel bireyler, insanlardan ziyade verilerle ve şeylerle ilgilenir. Sonuç olarak, bir işletmenin muhasebe, kayıt tutma ve veri işleme gibi kağıt ve bilgisayar tabanlı yönleriyle çalışmayı tercih ederler.";
 var kslk_ozl_traditional_your_work_areas = "Muhasebe, Bankacılık ve Finans, Büro / Sekreterlik, İşletme, Sigorta - Eksper / Sigortacı";
 var kslk_ozl_traditional_you_may_not_like = "Belirsiz, yapılandırılmamış faaliyetler; kişilerarası sorunlarla başa çıkmak; çizim, resim, yaratıcı yazarlık, fotoğrafçılık; İçeren faaliyetler Kendini ifade etme";
-var kslk_ozl_traditional_questions = "Geleneksel";
 var kslk_ozl_12_25_traditional_questions_1 = "Ders çalışırken veya ödev yaparken kendimi ne kadar düzenli hissediyorum? Bu düzenli çalışma alışkanlığını sınav dönemlerinde nasıl daha iyi kullanabilirim?";
 var kslk_ozl_12_25_traditional_questions_2 = "Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
 var kslk_ozl_12_25_traditional_questions_3 = "Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
@@ -2531,7 +2514,7 @@ var krktr_ozl_compatibility = "Uyumluluk"; //bold
 var krktr_ozl_character_elements_compatibility_s1 = "Uyumluluk düzeyi yüksek olan kişiler, genellikle başkalarına yardım etme ve destek olma isteğiyle hareket ederler. Bu, onları grup çalışmalarında ve sosyal ortamlarda sevilen bireyler haline getirir. Ayrıca, uzlaşmacı yapıları nedeniyle çevreleriyle daha sağlıklı ilişkiler kurar ve işbirliği gerektiren ortamlarda başarılı olurlar. Buna karşın, uyumluluk seviyesi düşük bireyler, daha rekabetçi ve kendi çıkarlarına odaklı olabilir; bu da bazen ekip çalışmasında zorluklar yaşamalarına veya başkalarıyla daha zorlu ilişkiler kurmalarına neden olabilir.";
 var krktr_ozl_strenghts_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. İş yerinde veya okulda diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.";
 var krktr_ozl_weaknesses_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir."; // Burası mantıksız olabilir, düzeltilmesi gerekebilir.
-var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sözlü,\n talepkar olmayan,\n fedakar,\n uyumlu,\n alçak gönüllü,\n sempatik,\n şefkatli";
+var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sözlü,\ntalepkar olmayan,\nfedakar,\nuyumlu,\nalçak gönüllü,\nsempatik,\nşefkatli";
 var krktr_ozl_12_25_compatibility_questions_1 = "Sınıf arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda, hangi becerilerim öne çıkıyor? Bu iş birliğini grup projelerinde nasıl daha etkili kullanabilirim?";
 var krktr_ozl_12_25_compatibility_questions_2 = "Başkalarının ihtiyaçlarını anlamak ve onlara destek olmak, sınıf içindeki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi okulda daha fazla nasıl geliştirebilirim?";
 var krktr_ozl_12_25_compatibility_questions_3 = "Anlayışlı ve sabırlı olduğum durumlarda nasıl bir etki yaratıyorum? Bu özellikleri grup çalışmaları veya sınıf içindeki tartışmalarda nasıl daha iyi kullanabilirim?";
@@ -3167,8 +3150,7 @@ var communication_generator_4_s3 = " • İnsanların doğal olarak sana yöneld
 var communication_generator_5_s3 = " • İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin?";
 
 var communication_projector_0 = "Rehber";
-var communication_projector_1 = "Senin için etkili iletişimin merkezinde,";
-var communication_projector_1_1 = "ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir.";
+var communication_projector_1 = "Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir.";
 var communication_projector_2 = "Başkalarıyla başarılı etkileşimlerin anahtarı...";
 var communication_projector_3 = "Katılmadan önce tanınma ve davet bekle:";
 var communication_projector_3_1 = "Tanınma konusunda başarılı olursun. Katılmadan önce, becerilerin, yeteneklerin ve rehberlik etme ve liderlik etme kapasiten için fark edildiğinden ve kabul edildiğinden emin ol. Bu, etkileşimlerinin özgün ve tanınmış bir temele dayanmasını sağlar.";
@@ -3215,7 +3197,7 @@ var communication_reflektor_0 = "Yansıtıcı";
 var communication_reflektor_1 = "Dirençli, ancak çevreyi emmeden örnekleme ve yansıtma yeteneğine sahip bir varlığın var. Sözsüz varlığın sessiz, nazik ve müdahaleci değildir, çevreye ve içindeki insanlara bir ayna görevi görür.";
 var communication_reflektor_2 = "Başkalarıyla Başarılı Etkileşimlerin Anahtarı...";
 var communication_reflektor_3 = "Ne Kadar Eşsiz Olduğunu Fark Etmek ve Etkileşime Girmeden Önce Beklemek, Yansıtmak ve Tartışmak:";
-var communication_reflektor_3 = "Benzersizliğin, seni olağanüstü derecede nadir ve değerli kılan çevreyi yansıtmak ve örneklemektir. Nüfusun sadece %1'ini temsil ettiğini ve dünyayı diğerlerinden farklı gördüğünü kabul etmen gerekiyor. Benzersizliğini kucaklayarak, başkalarıyla güç ve bilgelik dolu bir yerden etkileşime girebilirsin.";
+var communication_reflektor_3_1 = "Benzersizliğin, seni olağanüstü derecede nadir ve değerli kılan çevreyi yansıtmak ve örneklemektir. Nüfusun sadece %1'ini temsil ettiğini ve dünyayı diğerlerinden farklı gördüğünü kabul etmen gerekiyor. Benzersizliğini kucaklayarak, başkalarıyla güç ve bilgelik dolu bir yerden etkileşime girebilirsin.";
 var communication_reflektor_4 = "Yansıtıcı Doğanı Anla:";
 var communication_reflektor_5 = "Etrafındakileri yansıtma ve büyütme yeteneğin, çevrenin sağlığını objektif olarak gözlemlemene ve değerlendirmene olanak tanır. Etkileşime girmeden önce bekleyip düşündüğünde, direnci ortadan kaldırır ve iç görülerinin alınması ve değerlendirilmesi için alan açarsın.";
 var communication_reflektor_6 = "Yansıtıcı İç görülerinden Yararlan:";
@@ -3236,82 +3218,82 @@ var communication_reflektor_5_s3 = " • Çevrenin sağlığını gözlemleme ye
 
 
 //Karar Verme Stratejilerin
-var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al";
+var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al"; 
 var decision_strategy_s3_1_1 = "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
 var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
 var decision_strategy_s3_1_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_1_4 = "İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
-var decision_strategy_s3_1_5 = "Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
+var decision_strategy_s3_1_4 = " • İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
+var decision_strategy_s3_1_5 = " • Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
 
-var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et";
+var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et"; 
 var decision_strategy_s3_2_1 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin";
 var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
 var decision_strategy_s3_2_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_2_4 = "Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
-var decision_strategy_s3_2_5 = "İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya \"ah-huh\" (evet), ya \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.";
+var decision_strategy_s3_2_4 = " • Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
+var decision_strategy_s3_2_5 = " • İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya \"ah-huh\" (evet), ya \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.";
 
-var decision_strategy_s3_3_0 = "Tanınma ve Davet Al, Netlik ile Karar Al ";
+var decision_strategy_s3_3_0 = "Tanınma ve Davet Al, Netlik ile Karar Al "; 
 var decision_strategy_s3_3_1 = "Tanınma, Davet ve Netlik için Bekle ";
 var decision_strategy_s3_3_2 = "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
 var decision_strategy_s3_3_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_3_4 = "Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
-var decision_strategy_s3_3_5 = "Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
+var decision_strategy_s3_3_4 = " • Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
+var decision_strategy_s3_3_5 = " • Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
 
-var decision_strategy_s3_4_0 = "Tanınma ve Davet Al, İçgüdülerini Takip Et ";
-var decision_strategy_s3_4_1 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et  ";
+var decision_strategy_s3_4_0 = "Tanınma ve Davet Al, İçgüdülerini Takip Et "; 
+var decision_strategy_s3_4_1 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et ";
 var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
 var decision_strategy_s3_4_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_4_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
-var decision_strategy_s3_4_5 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
+var decision_strategy_s3_4_4 = " • Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
+var decision_strategy_s3_4_5 = " • İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
 
-var decision_strategy_s3_5_0 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et ";
+var decision_strategy_s3_5_0 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et "; 
 var decision_strategy_s3_5_1 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et ";
 var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
 var decision_strategy_s3_5_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_5_4 = "Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
-var decision_strategy_s3_5_5 = 'İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
+var decision_strategy_s3_5_4 = " • Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
+var decision_strategy_s3_5_5 = ' • İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
 
-var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle ";
+var decision_strategy_s3_6_0 = "Tanınma ve Davet Al, Söylediklerini Dinle "; 
 var decision_strategy_s3_6_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
 var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
 var decision_strategy_s3_6_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_6_4 = "Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
-var decision_strategy_s3_6_5 = "Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
+var decision_strategy_s3_6_4 = " • Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
+var decision_strategy_s3_6_5 = " • Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
 
 var decision_strategy_s3_7_0 = "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
 var decision_strategy_s3_7_1 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
 var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
 var decision_strategy_s3_7_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_7_4 = "Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
-var decision_strategy_s3_7_5 = "Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
+var decision_strategy_s3_7_4 = " • Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
+var decision_strategy_s3_7_5 = " • Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
 
 var decision_strategy_s3_8_0 = "Gör, Netlik Bekle ve Bilgi Ver ";
 var decision_strategy_s3_8_1 = "Duygusal Netlikle Harekete Geçmeden Önce Bekle ve Eylemden Önce Bilgilendir ";
 var decision_strategy_s3_8_2 = "Bir başlatıcı olarak, karar verme stratejin, harekete geçmeden önce duygusal netliği beklemeye ve harekete geçmeden önce diğer insanları bilgilendirmeye dayanır. Eylemlerini duygusal netlikle hizalayarak ve başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını bilinçli ve özenli bir şekilde alabilirsin. ";
 var decision_strategy_s3_8_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_8_4 = "Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
-var decision_strategy_s3_8_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
+var decision_strategy_s3_8_4 = " • Netliği Bekle: Anlık dürtülere yenik düşmek yerine, harekete geçmeden önce duygusal netliği beklemek için kendine zaman ve alan tanı. Duygusal iniş çıkışlar sırasında karar vermekten kaçın ve durumu daha geniş bir perspektifle görebilmek için önce rahatlayarak düşün. ";
+var decision_strategy_s3_8_5 = " • Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için inisiyatif al. Niyetlerini önceden ileterek engelleri ortadan kaldırır, barış, anlayış ve iş birliği ortamı oluşturursun. ";
 
 var decision_strategy_s3_9_0 = "Gör, İç güdülerine Kulak ver ve Bilgi Ver. ";
 var decision_strategy_s3_9_1 = "İçgüdülerine Güven ve Harekete Geçmeden Önce Bilgilendir ";
 var decision_strategy_s3_9_2 = "Karar verme stratejin, içgüdülerine güvenmeye ve harekete geçmeden önce başkalarını bilgilendirmeye dayanır. Anın içinde kalarak ve bedeninin ince sinyallerine uyum sağlayarak, içgüdülerine güvenerek anlık kararlar verebilirsin. Aynı zamanda eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurup etkili iletişimi güçlendirebilirsin. ";
 var decision_strategy_s3_9_3 = "İki Temel Unsur: ";
-var decision_strategy_s3_9_4 = "İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
-var decision_strategy_s3_9_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
+var decision_strategy_s3_9_4 = " • İçgüdülerine Güven: İçinde aniden beliren içsel bilgiyi kucakla. O anın farkında olarak, bedeninin deneyimlediği ince hislere dikkat et ve içgüdülerinin seni yönlendirmesine izin ver. ";
+var decision_strategy_s3_9_5 = " • Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendirmek için zaman ayır. Proaktif iletişim engelleri ortadan kaldırır, barış, anlayış ve iş birliği sağlar. ";
 
 var decision_strategy_s3_10_0 = "Gör, İradeni Dinle ve Bilgi Ver.";
 var decision_strategy_s3_10_1 = "İradene Dayanarak Harekete Geçme ve Bilgilendirerek İlerleme.";
 var decision_strategy_s3_10_2 = "Karar verme stratejin, iradeni harekete geçirip başkalarını bilgilendirerek eyleme geçmene dayanır. Kendi kişisel otoriteni fark ederek ve eylemlerinin başkaları üzerindeki etkisini göz önünde bulundurarak, kararlarını netlik, niyet ve etkili iletişim ile yönetebilirsin.";
 var decision_strategy_s3_10_3 = "İki Temel Unsur:";
-var decision_strategy_s3_10_4 = 'İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma.';
-var decision_strategy_s3_10_5 = "Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın.";
+var decision_strategy_s3_10_4 = ' • İradene Dayanarak Harekete Geç: İradenin gücüne kulak vererek harekete geçmeye hazır olup olmadığını fark et. "Sahibim" ve "Yapacağım" gibi anlık ifadelerin, otoritenin ve kararlılığının göstergesi olduğunu unutma.';
+var decision_strategy_s3_10_5 = " • Harekete Geçmeden Önce Bilgilendir: Eylemlerinin başkalarını etkileyeceğini kabul et ve harekete geçmeden önce onları bilgilendir. İletişim yoluyla engelleri ve direnci ortadan kaldırarak, anlayış ve iş birliği sağlarsın.";
 
 var decision_strategy_s3_11_0 = "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.";
 var decision_strategy_s3_11_1 = "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış.";
 var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
 var decision_strategy_s3_11_3 = "İki Temel Unsur:";
-var decision_strategy_s3_11_4 = "Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
-var decision_strategy_s3_11_5 = "Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
+var decision_strategy_s3_11_4 = " • Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
+var decision_strategy_s3_11_5 = " • Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
 
 var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
@@ -3319,8 +3301,8 @@ var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere 
 var decision_strategy_s4_1_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
 var decision_strategy_s4_1_3 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
 var decision_strategy_s4_1_4 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
-var decision_strategy_s4_1_4_e_1 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
-var decision_strategy_s4_1_5 = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
+var decision_strategy_s4_1_5 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
+var decision_strategy_s4_1_txt = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 
 var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
@@ -3328,17 +3310,15 @@ var decision_strategy_s4_2_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere 
 var decision_strategy_s4_2_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.";
 var decision_strategy_s4_2_3 = "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.";
 var decision_strategy_s4_2_4 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
-var decision_strategy_s4_2_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
+var decision_strategy_s4_2_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
 
 var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_3_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir. ";
-var decision_strategy_s4_3_2 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
-var decision_strategy_s4_3_3 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
-var decision_strategy_s4_3_4 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
-var decision_strategy_s4_3_4_e_1 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
-var decision_strategy_s4_3_4_e_2 = "";
-var decision_strategy_s4_3_5 = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
+var decision_strategy_s4_3_1 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
+var decision_strategy_s4_3_2 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
+var decision_strategy_s4_3_3 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
+var decision_strategy_s4_3_4 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
+var decision_strategy_s4_3_txt = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_4_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
@@ -3346,9 +3326,7 @@ var decision_strategy_s4_4_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve 
 var decision_strategy_s4_4_2 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
 var decision_strategy_s4_4_3 = "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
 var decision_strategy_s4_4_4 = "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
-var decision_strategy_s4_4_4_e_1 = "";
-var decision_strategy_s4_4_4_e_2 = "";
-var decision_strategy_s4_4_5 = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
+var decision_strategy_s4_4_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
 
 var decision_strategy_s4_5_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
@@ -3356,9 +3334,7 @@ var decision_strategy_s4_5_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, g�
 var decision_strategy_s4_5_2 = "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
 var decision_strategy_s4_5_3 = "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
 var decision_strategy_s4_5_4 = "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
-var decision_strategy_s4_5_4_e_1 = "";
-var decision_strategy_s4_5_4_e_2 = "";
-var decision_strategy_s4_5_5 = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
+var decision_strategy_s4_5_txt = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_6_5_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_6_5_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
@@ -3366,29 +3342,24 @@ var decision_strategy_s4_6_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, g�
 var decision_strategy_s4_6_2 = "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
 var decision_strategy_s4_6_3 = "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
 var decision_strategy_s4_6_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
-var decision_strategy_s4_6_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
+var decision_strategy_s4_6_txt = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
 
 var decision_strategy_s4_7_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
-var decision_strategy_s4_7_1 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
-var decision_strategy_s4_7_2 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-var decision_strategy_s4_7_3 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
-var decision_strategy_s4_7_4 = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
-var decision_strategy_s4_7_4_e_1 = "";
-var decision_strategy_s4_7_4_e_2 = "";
-var decision_strategy_s4_7_5 = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
+var decision_strategy_s4_7_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Ortamın doğru hissettirdiğinden emin ol; çevresel ipuçlarına karşı duyarlısın. ";
+var decision_strategy_s4_7_2 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
+var decision_strategy_s4_7_3 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+var decision_strategy_s4_7_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
+var decision_strategy_s4_7_txt = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_8_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_8_text = "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
-var decision_strategy_s4_8_1 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-var decision_strategy_s4_8_2 = "Gör: Başlatılması gereken şeyleri fark et. ";
-var decision_strategy_s4_8_3 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
-var decision_strategy_s4_8_4 = "Karar Ver: Duygusal netliğine göre bir karar ver – evet, hayır ya da şimdi değil. ";
-var decision_strategy_s4_8_4_e_1 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
-var decision_strategy_s4_8_4_e_2 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
-var decision_strategy_s4_8_5 = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-var decision_strategy_s4_8_4_e_1 = "";
-var decision_strategy_s4_8_4_e_2 = "";
+var decision_strategy_s4_8_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
+var decision_strategy_s4_8_2 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
+var decision_strategy_s4_8_3 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
+var decision_strategy_s4_8_4 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
+var decision_strategy_s4_8_5 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
+var decision_strategy_s4_8_txt = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_9_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_9_text = "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
@@ -3396,9 +3367,8 @@ var decision_strategy_s4_9_1 = "Gör: Başlatılması gereken şeyleri fark et. 
 var decision_strategy_s4_9_2 = "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
 var decision_strategy_s4_9_3 = "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
 var decision_strategy_s4_9_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
-var decision_stragegy_s4_9_5 = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-var decision_strategy_s4_9_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
-var decision_strategy_s4_9_4_e_2 = "";
+var decision_strategy_s4_9_5 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
+var decision_stragegy_s4_9_txt = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek:";
 var decision_strategy_s4_10_text = "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır.";
@@ -3406,9 +3376,8 @@ var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et.
 var decision_strategy_s4_10_2 = "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
 var decision_strategy_s4_10_3 = "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.";
 var decision_strategy_s4_10_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
-var decision_strategy_s4_10_5 = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
-var decision_strategy_s4_10_4_e_1 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
-var decision_strategy_s4_10_4_e_2 = "";
+var decision_strategy_s4_10_5 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
+var decision_strategy_s4_10_5_txt = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
 
 var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek:";
 var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
@@ -3416,9 +3385,8 @@ var decision_strategy_s4_11_1 = "Bir Teklif ya da Daveti Bekle: Kendi kendine gi
 var decision_strategy_s4_11_2 = "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.";
 var decision_strategy_s4_11_3 = "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.";
 var decision_strategy_s4_11_4 = 'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver.';
-var decision_strategy_s4_11_5 = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
-var decision_strategy_s4_11_4_e_1 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
-var decision_strategy_s4_11_4_e_2 = "";
+var decision_strategy_s4_11_5 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
+var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
 
   // eski hali
   // var inputs = {
@@ -4830,7 +4798,7 @@ var decision_strategy_s4_11_4_e_2 = "";
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
         return decision_strategy_s3_11_0; 
       }
-  } else if (type == "s3_x_1") { // BURASI NEDEN YAZILMIŞ ANLAMADıM TEMPLATE BÖYLE BIR ALAN YOK!
+  } else if (type == "s3_x_1") { // BURASI WORD'DE VAR AMA TEMPLATE'E YAZILMIYOR!
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s3_1_1; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
@@ -5020,7 +4988,7 @@ var decision_strategy_s4_11_4_e_2 = "";
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
         return decision_strategy_s4_10_1; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-      return decision_strategy_s4_11_1; 
+        return decision_strategy_s4_11_1; 
       }
   } else if (type == "s4_x_2") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
@@ -5118,53 +5086,29 @@ var decision_strategy_s4_11_4_e_2 = "";
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
         return decision_strategy_s4_11_5; 
       }
-  } else if (type == "s4_x_4_e_1") {
+  } else if (type == "s4_x_txt") {
       if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_1_4_e_1; 
+        return decision_strategy_s4_1_txt; 
       } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-        return decision_strategy_s4_2_4_e_1;
+        return decision_strategy_s4_2_txt; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_3_4_e_1; 
+        return decision_strategy_s4_3_txt; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_4_4_e_1; 
+        return decision_strategy_s4_4_txt; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-        return decision_strategy_s4_5_4_e_1; 
+        return decision_strategy_s4_5_txt; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-        return decision_strategy_s4_6_4_e_1; 
+        return decision_strategy_s4_6_txt; 
       } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-        return decision_strategy_s4_7_4_e_1; 
+        return decision_strategy_s4_7_txt; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_8_4_e_1; 
+        return decision_strategy_s4_8_txt; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_9_4_e_1; 
+        return decision_strategy_s4_9_txt; 
       } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-        return decision_strategy_s4_10_4_e_1; 
+        return decision_strategy_s4_10_txt; 
       } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-        return decision_strategy_s4_11_4_e_1; 
-      }
-  } else if (type == "s4_x_4_e_2") {
-      if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_1_4_e_2; 
-      } else if (decisionStrategyData.strategy == "To Respond" && decisionStrategyData.innerAuthority == "Sacral") {
-        return decision_strategy_s4_2_4_e_2; 
-      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_3_4_e_2; 
-      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_4_4_e_2;
-      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Ego Projected") {
-        return decision_strategy_s4_5_4_e_2; 
-      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
-        return decision_strategy_s4_6_4_e_2; 
-      } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
-        return decision_strategy_s4_7_4_e_2; 
-      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
-        return decision_strategy_s4_8_4_e_2; 
-      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
-        return decision_strategy_s4_9_4_e_2; 
-      } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Ego Manifested") {
-        return decision_strategy_s4_10_4_e_2; 
-      } else if (decisionStrategyData.strategy == "Wait a Lunar Cycle" && decisionStrategyData.innerAuthority == "Lunar") {
-        return decision_strategy_s4_11_4_e_2; 
+        return decision_strategy_s4_11_txt; 
       }
     }
   };
@@ -5172,23 +5116,23 @@ var decision_strategy_s4_11_4_e_2 = "";
   let kariyer_secim = (kariyer_secimData, age, type) => {
     if (type == "name") {
       if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
-        return kariyer_secim_12_25_s2_1_1;
+        return kariyer_secim_25_40_s2_1_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
-        return kariyer_secim_12_25_s2_2_1;
+        return kariyer_secim_25_40_s2_2_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
-        return kariyer_secim_12_25_s2_3_1;
+        return kariyer_secim_25_40_s2_3_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
-        return kariyer_secim_12_25_s2_4_1;
+        return kariyer_secim_25_40_s2_4_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
-        return kariyer_secim_12_25_s2_5_1;
+        return kariyer_secim_25_40_s2_5_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
-        return kariyer_secim_12_25_s2_6_1;
+        return kariyer_secim_25_40_s2_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
-        return kariyer_secim_12_25_s2_7_1;
+        return kariyer_secim_25_40_s2_7_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
-        return kariyer_secim_12_25_s2_8_1;
+        return kariyer_secim_25_40_s2_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
-        return kariyer_secim_12_25_s2_9_1;
+        return kariyer_secim_25_40_s2_9_1;
       }
     } else if (type == "sector") {
       if (kariyer_secimData == "tech") {
@@ -6942,12 +6886,12 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P12A4 = ai(aiData[1].name, 25, "s3_x_2");
   var P12A5 = ai(aiData[0].name, 25, "s3_x_3");
   var P12A6 = ai(aiData[1].name, 25, "s3_x_3");
-  var P12A7 = ai(aiData[ai.length - 1].name, 25, "name");
-  var P12A8 = ai(aiData[ai.length - 2].name, 25, "name");
-  var P12A9 = ai(aiData[ai.length - 1].name, 25, "s3_x_2");
-  var P12A10 = ai(aiData[ai.length - 2].name, 25, "s3_x_3");
-  var P12A11 = ai(aiData[ai.length - 1].name, 25, "s3_x_2");
-  var P12A12 = ai(aiData[ai.length - 2].name, 25, "s3_x_3");
+  var P12A7 = ai(aiData[aiData.length - 1].name, 25, "name");
+  var P12A8 = ai(aiData[aiData.length - 2].name, 25, "name");
+  var P12A9 = ai(aiData[aiData.length - 1].name, 25, "s3_x_2");
+  var P12A10 = ai(aiData[aiData.length - 2].name, 25, "s3_x_3");
+  var P12A11 = ai(aiData[aiData.length - 1].name, 25, "s3_x_2");
+  var P12A12 = ai(aiData[aiData.length - 2].name, 25, "s3_x_3");
 
   var P13A1 = ai(aiData[0].name, 25, "name");
   var P13A2 = ai(aiData[0].name, 25, "s4u1_x_2");
@@ -6955,7 +6899,7 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P13A4 = ai(aiData[1].name, 25, "name");
   var P13A5 = ai(aiData[1].name, 25, "s4u1_x_2");
   var P13A6 = ai(aiData[1].name, 25, "s4u1_x_3");
-  var P13A7 = ai(aiData[ai.length - 1].name, 25, "name");
+  var P13A7 = ai(aiData[aiData.length - 1].name, 25, "name");
   var P13A8 = ai(aiData[0].name, 25, "s4u2_x_2");
   var P13A9 = ai(aiData[0].name, 25, "s4u2_x_3");
   var P13A10 = ai(aiData[0].name, 25, "s4u2_x_4");
@@ -7067,17 +7011,18 @@ var decision_strategy_s4_11_4_e_2 = "";
   var P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
   var P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
   var P35A3 = "Adımlar:";
-  var P35A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
-  var P35A5 = decision_strategy(decision_strategyData, 25, "s4_x_2");
-  var P35A6 = decision_strategy(decision_strategyData, 25, "s4_x_3");
-  var P35A7 = decision_strategy(decision_strategyData, 25, "s4_x_4");
-  var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5");
+  var P35A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+  var P35A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+  var P35A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+  var P35A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+  // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+  var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
   var P35A9 = decision_strategy(decision_strategyData, 25, "image");
   
   var P36A1 = "image"; // Sana uygun kariyer dağılımların
-  var P36A2 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
-  var P36A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
-  var P36A4 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  var P36A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+  var P36A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+  var P36A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
   
   var P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
   var P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
@@ -7126,152 +7071,162 @@ var decision_strategy_s4_11_4_e_2 = "";
   var graphholland = hollanddataPercent;
   var graphcareer = careerSelectionLastResult;
 
+  var inputModel={
+    P1A1: P1A1,
+    P2A1: P2A1,
+    P4A1: P4A1, // Kişilik Özellikleri
+    P4A2: P4A2,
+    P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
+    P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
+    P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
+    P4A6: P4A6,
+    P5A1: P5A1,
+    P5A2: P5A2,
+    P5A3: P5A3,
+    P5A4: P5A4,
+    P5A5: P5A5,
+    P5A6: P5A6,
+    P5A7: P5A7,
+    P5A8: P5A8,
+    P6A1: P6A1, // Kendini Değerlendirme
+    P6A2: P6A2,
+    P6A3: P6A3,
+    P6A4: P6A4,
+    P6A5: P6A5,
+    P6A6: P6A6,
+    P6A7: P6A7,
+    P6A8: P6A8,
+
+    P7A1: P7A1, // Karakter Özelliklerin
+    P7A2: P7A2,
+    P7A3: P7A3,
+    P7A4: P7A4,
+    P7A5: P7A5,
+    P8A1: P8A1,
+    P8A2: P8A2,
+    P8A3: P8A3,
+    P8A4: P8A4,
+    P8A5: P8A5,
+    P8A6: P8A6,
+    P8A7: P8A7,
+    P8A8: P8A8,
+    P8A9: P8A9,
+    P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
+    P9A2: P9A2,
+    P9A3: P9A3,
+    P9A4: P9A4,
+    P9A5: P9A5,
+    P9A6: P9A6,
+    P9A7: P9A7,
+    P9A8: P9A8,
+
+    P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
+    P12A1: P12A1,
+    P12A2: P12A2,
+    P12A3: P12A3,
+    P12A4: P12A4,
+    P12A5: P12A5,
+    P12A6: P12A6,
+    P12A7: P12A7,
+    P12A8: P12A8,
+    P12A9: P12A9,
+    P12A10: P12A10,
+    P12A11: P12A11,
+    P12A12: P12A12,
+    P13A1: P13A1,
+    P13A2: P13A2,
+    P13A3: P13A3,
+    P13A4: P13A4,
+    P13A5: P13A5,
+    P13A6: P13A6,
+    P13A7: P13A7,
+    P13A8: P13A8,
+    P13A9: P13A9,
+    P13A10: P13A10,
+    P13A11: P13A11,
+
+    P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+    P15A1: P15A1,
+    P15A2: P15A2,
+    P15A3: P15A3,
+    P15A4: P15A4,
+    P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
+    P15A6: P15A6,
+    P15A7: P15A7,
+    P15A8: P15A8,
+    P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
+    P16A2: P16A2,
+    P16A3: P16A3,
+    P16A4: P16A4,
+    P16A5: P16A5, // Kendine sorabilirsin
+    P16A6: P16A6,
+    P16A7: P16A7,
+    P16A8: P16A8,
+    P16A9: P16A9,
+    P16A10: P16A10,
+    P17A1: P17A1, // Yaşamda İlerleme Tarzın
+    P17A2: P17A2,
+    P17A3: P17A3,
+    P18A1: P18A1,
+    P18A2: P18A2,
+    P18A3: P18A3, // motto
+    P19A1: P19A1,
+    P19A2: P19A2,
+    P19A3: P19A3,
+    P19A4: P19A4,
+    P19A5: P19A5,
+    P19A6: P19A6,
+    P20A1: P20A1,
+    P20A2: P20A2,
+    P20A3: P20A3,
+    P20A4: P20A4,
+    P20A5: P20A5,
+    P20A6: P20A6,
+    P20A7: P20A7,
+    P20A8: P20A8,
+    P20A9: P20A9,
+    P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
+    P21A2: P21A2,
+    P21A3: P21A3,
+    P21A4: P21A4,
+    P22A1: P22A1, // İletişim ve Etkileşim Tarzın
+    P22A2: P22A2,
+    P22A3: P22A3,
+    P22A4: P22A4,
+    P22A5: P22A5,
+    P22A6: P22A6,
+    P24A1: P24A1, // Çalışma ve Öğrenme Stilin
+    P24A2: P24A2,
+    P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+    P25A2: P25A2,
+    P25A3: P25A3,
+    P25A4: P25A4,
+    P25A5: P25A5,
+    P25A6: P25A6,
+    P27A1: P27A1, // İş Yaşamında Rolün
+    P27A2: P27A2,
+    P27A3: P27A3,
+    P27A4: P27A4,
+    P27A5: P27A5,
+    P27A6: P27A6,
+    P27A7: P27A7,
+    P28A1: P28A1,
+    P28A2: P28A2,
+    P28A3: P28A3,
+    P28A4: P28A4,
+    P28A5: P28A5,
+
+    graphbig: bigdataPercent,
+    graphholland: hollanddataPercent,
+    graphcareer: careerSelectionLastResult,
+    graphai: aiData,
+    graphai: aiData,
+    graphteamwork: teamworkData,
+  }
 
   if (usergates.length === 1) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, //Güçlü yanların
       P30A2: P30A2,
       P30A3: P30A3, 
@@ -7345,149 +7300,7 @@ var decision_strategy_s4_11_4_e_2 = "";
     
   } else if (usergates.length === 2) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7565,149 +7378,7 @@ var decision_strategy_s4_11_4_e_2 = "";
     };
   } else if (usergates.length === 3) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7793,149 +7464,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 4) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü Yanlarının 
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -8027,149 +7556,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 5) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A6: P30A6,
       P31A1: P31A1,
       P31A2: P31A2,
@@ -8263,149 +7650,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 6) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -8510,149 +7755,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 7) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+     ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -8762,149 +7865,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 8) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -9020,149 +7981,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 9) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -9285,149 +8104,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 10) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -9555,149 +8232,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 11) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -9832,149 +8367,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else if (usergates.length === 12) {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -10114,149 +8507,7 @@ var decision_strategy_s4_11_4_e_2 = "";
 
   } else {
     var inputs_25_plus = {
-      P1A1: P1A1,
-      P2A1: P2A1,
-      P4A1: P4A1, // Kişilik Özellikleri
-      P4A2: P4A2,
-      P4A3: P4A3, //holland.find(x => x.name == hollandData[0].name).value.description,
-      P4A4: P4A4, //holland.find(x => x.name == hollandData[0].name).value.feature,
-      P4A5: P4A5, //holland.find(x => x.name == hollandData[0].name).value.value,
-      P4A6: P4A6,
-      P5A1: P5A1,
-      P5A2: P5A2,
-      P5A3: P5A3,
-      P5A4: P5A4,
-      P5A5: P5A5,
-      P5A6: P5A6,
-      P5A7: P5A7,
-      P5A8: P5A8,
-      P6A1: P6A1, // Kendini Değerlendirme
-      P6A2: P6A2,
-      P6A3: P6A3,
-      P6A4: P6A4,
-      P6A5: P6A5,
-      P6A6: P6A6,
-      P6A7: P6A7,
-      P6A8: P6A8,
-  
-      P7A1: P7A1, // Karakter Özelliklerin
-      P7A2: P7A2,
-      P7A3: P7A3,
-      P7A4: P7A4,
-      P7A5: P7A5,
-      P8A1: P8A1,
-      P8A2: P8A2,
-      P8A3: P8A3,
-      P8A4: P8A4,
-      P8A5: P8A5,
-      P8A6: P8A6,
-      P8A7: P8A7,
-      P8A8: P8A8,
-      P8A9: P8A9,
-      P9A1: P9A1, // Karakter Özelliklerin üzerine kendini değerlendirme.
-      P9A2: P9A2,
-      P9A3: P9A3,
-      P9A4: P9A4,
-      P9A5: P9A5,
-      P9A6: P9A6,
-      P9A7: P9A7,
-      P9A8: P9A8,
-  
-      P11A1: P11A1, // Yapay zeka çağı yetkinliklerin
-      P12A1: P12A1,
-      P12A2: P12A2,
-      P12A3: P12A3,
-      P12A4: P12A4,
-      P12A5: P12A5,
-      P12A6: P12A6,
-      P12A7: P12A7,
-      P12A8: P12A8,
-      P12A9: P12A9,
-      P12A10: P12A10,
-      P12A11: P12A11,
-      P12A12: P12A12,
-      P13A1: P13A1,
-      P13A2: P13A2,
-      P13A3: P13A3,
-      P13A4: P13A4,
-      P13A5: P13A5,
-      P13A6: P13A6,
-      P13A7: P13A7,
-      P13A8: P13A8,
-      P13A9: P13A9,
-      P13A10: P13A10,
-      P13A11: P13A11,
-  
-      P14A1: P14A1, // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
-      P15A1: P15A1,
-      P15A2: P15A2,
-      P15A3: P15A3,
-      P15A4: P15A4,
-      P15A5: P15A5, // Geliştirmeyi Düşünebilirsin
-      P15A6: P15A6,
-      P15A7: P15A7,
-      P15A8: P15A8,
-      P16A1: P16A1, // Ekip Çalımasına Yatkınlık Kendini Değerlendirme
-      P16A2: P16A2,
-      P16A3: P16A3,
-      P16A4: P16A4,
-      P16A5: P16A5, // Kendine sorabilirsin
-      P16A6: P16A6,
-      P16A7: P16A7,
-      P16A8: P16A8,
-      P16A9: P16A9,
-      P16A10: P16A10,
-      P17A1: P17A1, // Yaşamda İlerleme Tarzın
-      P17A2: P17A2,
-      P17A3: P17A3,
-      P18A1: P18A1,
-      P18A2: P18A2,
-      P18A3: P18A3, // motto
-      P19A1: P19A1,
-      P19A2: P19A2,
-      P19A3: P19A3,
-      P19A4: P19A4,
-      P19A5: P19A5,
-      P19A6: P19A6,
-      P20A1: P20A1,
-      P20A2: P20A2,
-      P20A3: P20A3,
-      P20A4: P20A4,
-      P20A5: P20A5,
-      P20A6: P20A6,
-      P20A7: P20A7,
-      P20A8: P20A8,
-      P20A9: P20A9,
-      P21A1: P21A1, // İş Yerinde Etkili İletişim ve Katılım
-      P21A2: P21A2,
-      P21A3: P21A3,
-      P21A4: P21A4,
-      P22A1: P22A1, // İletişim ve Etkileşim Tarzın
-      P22A2: P22A2,
-      P22A3: P22A3,
-      P22A4: P22A4,
-      P22A5: P22A5,
-      P22A6: P22A6,
-      P24A1: P24A1, // Çalışma ve Öğrenme Stilin
-      P24A2: P24A2,
-      P25A1: P25A1, // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-      P25A2: P25A2,
-      P25A3: P25A3,
-      P25A4: P25A4,
-      P25A5: P25A5,
-      P25A6: P25A6,
-      P27A1: P27A1, // İş Yaşamında Rolün
-      P27A2: P27A2,
-      P27A3: P27A3,
-      P27A4: P27A4,
-      P27A5: P27A5,
-      P27A6: P27A6,
-      P27A7: P27A7,
-      P28A1: P28A1,
-      P28A2: P28A2,
-      P28A3: P28A3,
-      P28A4: P28A4,
-      P28A5: P28A5,
+      ...inputModel,
       P30A1: P30A1, // is_y_r(is_y_rData[0], 25, "s3_1"), // Kariyer Gelişiminde Güçlü Yanlarının Değeri
       P30A2: P30A2, // is_y_r(is_y_rData[0], 25, "s3_1"), // Güçlü Yanların
       P30A3: P30A3, // is_y_r(is_y_rData[0], 25, "s3_1"),
