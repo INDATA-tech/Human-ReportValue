@@ -2245,9 +2245,9 @@ var kslk_ozl_realistic_you_may_not_like = "Topluluk önünde konuşma, sosyal et
 var kslk_ozl_12_25_realistic_questions_1 = "Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
 var kslk_ozl_12_25_realistic_questions_2 = "Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
 var kslk_ozl_12_25_realistic_questions_3 = "Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
-var kslk_ozl_25_plus_realistic_questions_1 = "• İşimde ellerimle bir şeyler ürettiğimde veya somut sonuçlar aldığımda kendimi nasıl hissediyorum? Bu pratik beceriyi iş projelerimde daha iyi nasıl kullanabilirim?";
-var kslk_ozl_25_plus_realistic_questions_2 = "• Sorunları hızlı ve etkili bir şekilde çözmek, iş verimliliğimi nasıl etkiliyor? Bu yaklaşımı günlük iş akışımda daha fazla nasıl kullanabilirim?";
-var kslk_ozl_25_plus_realistic_questions_3 = "• Açık hava veya fiziksel hareket gerektiren bir iş yaptığımda motivasyonumda bir artış oluyor mu? Bu motivasyonu işimde daha çok nasıl artırabilirim?";
+var kslk_ozl_25_plus_realistic_questions_1 = "• Sorunları hızlı ve etkili bir şekilde çözmek, iş verimliliğimi nasıl etkiliyor? Bu yaklaşımı günlük iş akışımda daha fazla nasıl kullanabilirim?";
+var kslk_ozl_25_plus_realistic_questions_2 = "• Açık hava veya fiziksel hareket gerektiren bir iş yaptığımda motivasyonumda bir artış oluyor mu? Bu motivasyonu işimde daha çok nasıl artırabilirim?";
+var kslk_ozl_25_plus_realistic_questions_3 = "• İşimde ellerimle bir şeyler ürettiğimde veya somut sonuçlar aldığımda kendimi nasıl hissediyorum? Bu pratik beceriyi iş projelerimde daha iyi nasıl kullanabilirim?";
 
 var kslk_ozl_researcher_your_profile = "Araştırıcı";
 var kslk_ozl_researcher_your_profile_ = "Karmaşık sorunları çözmeyi içeren işlerin tadını çıkarabilirsin. Fikirleri keşfetmeyi, araştırma yapmayı ve teorilere bakmayı sevebilirsin. Yapmaktan çok düşünmeyi tercih edebilir ve verileri ve fikirleri insanlara tercih etme ihtimalin daha fazla olabilir.";
@@ -2297,9 +2297,9 @@ var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel 
 var kslk_ozl_12_25_entrepreneur_questions_1 = "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_2 = "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_3 = "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
-var kslk_ozl_25_plus_entrepreneur_questions_1 = "• Karar alma süreçlerinde liderlik ettiğimde nasıl bir sonuç elde ediyorum? Bu liderlik becerimi iş yerimde hangi alanlarda daha çok kullanabilirim? ";
-var kslk_ozl_25_plus_entrepreneur_questions_2 = "• İnsanları motive edip yönlendirdiğimde projelerdeki ilerleme nasıl oluyor? Bu motivasyon becerilerimi iş yerinde daha etkili kullanmak için hangi yolları deneyebilirim? ";
-var kslk_ozl_25_plus_entrepreneur_questions_3 = "• İşimde risk almayı gerektiren durumlarda, hangi stratejileri kullanıyorum ve sonuçları nasıl değerlendiriyorum? Risk yönetimimi daha da geliştirmek için neler yapabilirim? ";
+var kslk_ozl_25_plus_entrepreneur_questions_1 = "• İnsanları motive edip yönlendirdiğimde projelerdeki ilerleme nasıl oluyor? Bu motivasyon becerilerimi iş yerinde daha etkili kullanmak için hangi yolları deneyebilirim? ";
+var kslk_ozl_25_plus_entrepreneur_questions_2 = "• İşimde risk almayı gerektiren durumlarda, hangi stratejileri kullanıyorum ve sonuçları nasıl değerlendiriyorum? Risk yönetimimi daha da geliştirmek için neler yapabilirim? ";
+var kslk_ozl_25_plus_entrepreneur_questions_3 = "• Karar alma süreçlerinde liderlik ettiğimde nasıl bir sonuç elde ediyorum? Bu liderlik becerimi iş yerimde hangi alanlarda daha çok kullanabilirim? ";
 
 var kslk_ozl_traditional_your_profile = "Geleneksel";
 var kslk_ozl_traditional_your_profile_ = "Belirlenen prosedürleri ve rutinleri takip eden iş aktivitelerini senin hoşuna gidebilir. Fikirlerden ziyade verilerle ve ayrıntılarla çalışmayı tercih edebilirsin. Yargıda bulunmaktan ziyade kesin standartların olduğu işleri tercih edebilirsin. Muhtemelen sen de diğerleri gibi otorite sınırlarının net olduğu yerlerde çalışmayı seversin.";
@@ -2743,8 +2743,8 @@ var ai_25_s4u1_1_2 = "• Bilgisayar ve teknoloji becerilerinle hangi alanlarda 
 var ai_25_s4u1_1_3 = "• AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını ön görebiliyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin?";
 
 var ai_25_s4u1_2_1 = "Veri Okuryazarlığı";
-var ai_25_s4u1_2_2 = "• Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir. ";
-var ai_25_s4u1_2_3 = "• Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
+var ai_25_s4u1_2_2 = "• Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
+var ai_25_s4u1_2_3 = "• Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir. ";
 
 var ai_25_s4u1_3_1 = "Kodlama ve Programlama";
 var ai_25_s4u1_3_2 = "• Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
@@ -3088,9 +3088,9 @@ var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı";
 var lifestyle_25_plus_manifestor_evaluation_name = "Başlatıcı";
 var lifestyle_25_plus_manifestor_evaluation_1 = "• Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
 var lifestyle_25_plus_manifestor_evaluation_2 = "• Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
-var lifestyle_25_plus_manifestor_evaluation_3 = "• Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
-var lifestyle_25_plus_manifestor_evaluation_4 = "• Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
-var lifestyle_25_plus_manifestor_evaluation_5 = "• Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
+var lifestyle_25_plus_manifestor_evaluation_3 = "• Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
+var lifestyle_25_plus_manifestor_evaluation_4 = "• Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
+var lifestyle_25_plus_manifestor_evaluation_5 = "• Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
 
 var lifestyle_25_plus_generator_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var lifestyle_25_plus_generator_evaluation_0 = "Enerjik";
@@ -3115,9 +3115,9 @@ var lifestyle_25_plus_projektor_evaluation_0 = "Rehber";
 var lifestyle_25_plus_projektor_evaluation_name = "Rehber";
 var lifestyle_25_plus_projektor_evaluation_1 = "• Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
 var lifestyle_25_plus_projektor_evaluation_2 = "• Son zamanlarda güçlü yönlerimle uyumlu olduğunu hissettiğim hangi davetler veya takdirler aldım ve bunlara nasıl yanıt verdim? ";
-var lifestyle_25_plus_projektor_evaluation_3 = "• Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? ";
-var lifestyle_25_plus_projektor_evaluation_4 = "• Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? ";
-var lifestyle_25_plus_projektor_evaluation_5 = "• Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
+var lifestyle_25_plus_projektor_evaluation_3 = "• Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? ";
+var lifestyle_25_plus_projektor_evaluation_4 = "• Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
+var lifestyle_25_plus_projektor_evaluation_5 = "• Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? ";
 
 var lifestyle_25_plus_reflektor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin"
 var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı";
@@ -3143,11 +3143,11 @@ var communication_generator_1_s2 = "Doğal manyetizmandan yararlan: İnsanları 
 var communication_generator_2_s2 = "Niyetle yanıt ver: Harekete geçmek cazip gelse de, gücünün yanıt olarak yattığını unutma. Aktif dinleme pratiği yapabilir ve seni gerçekten heyecanlandıran ve değerlerinle uyumlu projelerle meşgul olabilirsin. Başlatmak yerine yanıt verdiğinde, çabalarının daha etkili olduğu ve temel katkılar olarak kabul edildiği bir dinamik yaratma olasılığın çok daha fazla.";
 var communication_generator_3_s2 = "Net sınırlar oluştur: Görevleri üstlenme kapasiten ve istekliliğin konusunda net ol. Bu, aşırı taahhütte bulunmamanı sağlar ve enerjini en üretken olabileceğin görevlere yönlendirmene olanak tanır. Kapasiten dahilinde çalıştığında, işteki memnuniyetin artar ve bu doğal olarak senin mutluluğunu ve başarını etkiler.";
 var communication_generator_4_s2 = "Katılımda coşku göster: Katılmayı seçtiğinde, bunu belirgin bir coşkuyla göster. Enerjin bulaşıcıdır ve ekibine ilham verebilir ve onları motive edebilir. İş için gerçek heyecanının etkileşimlerine rehberlik etmesine izin ver, bunun ekip dinamiklerin içinde daha da önemli hale geldiğini göreceksiniz.";
-var communication_generator_1_s3 = "• Etkileşimlerde bulunmadan önce yanıt vermek için bekliyor musun? Sezgilerini dinleyip, doğru zamanın gelmesini nasıl fark edebilirsin?";
-var communication_generator_2_s3 = "• Seni gerçekten heyecanlandıran şeylere yanıt veriyor musun? İçgüdülerine güvenip, sadece seninle uyumlu olan fırsatları seçmek için neler yapabilirsin?";
-var communication_generator_3_s3 = "• Etkileşim başlatmadan önce gerçekten yanıt verdiğinden emin oluyor musun? Bu yaklaşımı iş ve sosyal hayatında nasıl daha fazla uygulayabilirsin?";
-var communication_generator_4_s3 = "• İnsanların doğal olarak sana yöneldiğini fark ediyor musun? Doğal manyetizman sayesinde iş yerinde daha verimli etkileşimler yaratmak için hangi yolları izleyebilirsin?";
-var communication_generator_5_s3 = "• İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin?";
+var communication_generator_1_s3 = "• Seni gerçekten heyecanlandıran şeylere yanıt veriyor musun? İçgüdülerine güvenip, sadece seninle uyumlu olan fırsatları seçmek için neler yapabilirsin?";
+var communication_generator_2_s3 = "• Etkileşim başlatmadan önce gerçekten yanıt verdiğinden emin oluyor musun? Bu yaklaşımı iş ve sosyal hayatında nasıl daha fazla uygulayabilirsin?";
+var communication_generator_3_s3 = "• İnsanların doğal olarak sana yöneldiğini fark ediyor musun? Doğal manyetizman sayesinde iş yerinde daha verimli etkileşimler yaratmak için hangi yolları izleyebilirsin?";
+var communication_generator_4_s3 = "• İş yerinde doğru projelere yanıt verip, enerjini doğru yerlere yönlendirdiğinden emin misin? Seni en çok tatmin eden işleri bulmak için hangi stratejileri uygulayabilirsin?";
+var communication_generator_5_s3 = "• Etkileşimlerde bulunmadan önce yanıt vermek için bekliyor musun? Sezgilerini dinleyip, doğru zamanın gelmesini nasıl fark edebilirsin?";
 
 var communication_projector_0 = "Rehber";
 var communication_projector_1 = "Senin için etkili iletişimin merkezinde, ince ama güçlü bir güç olan sözsüz varlığın var. Başkalarını doğal olarak sana çeken açık, odaklanmış ve emici bir varlığın var. Bu manyetik kalite, dikkat talep etmek zorunda kalmadan başkaları tarafından tanınmak üzere tasarlandığın anlamına gelir.";
@@ -3299,8 +3299,8 @@ var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
 var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle";
 var decision_strategy_s4_1_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
-var decision_strategy_s4_1_3 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
-var decision_strategy_s4_1_4 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
+var decision_strategy_s4_1_3 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
+var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
 var decision_strategy_s4_1_5 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
 var decision_strategy_s4_1_txt = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 
@@ -6818,258 +6818,425 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
   console.log(typeof rawData);
 
-  var isim = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",)[1];
-  var soyisim = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",)[1];
+  // var isim = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",)[1];
+  // var soyisim = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",)[1];
 
-  var default2 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",);
-  var default3 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",)[1];
-  var default4 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",);
-  var default5 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",)[1];
+  // var default2 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",);
+  // var default3 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim",)[1];
+  // var default4 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",);
+  // var default5 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim",)[1];
 
-  var P1A1 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + " " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
-  var P2A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ",";
-  var P4A1 = "chart"; // Kişilik Özellikleri
-  var P4A2 = hollandData[0].name + " ve " + hollandData[1].name + " kişilik özelliklerinin baskın, " + hollandData[5].name + " özelliğinin daha geri planda olduğu bir yapın var.";
-  var P4A3 = kslk_ozl(hollandData[0].name, 25, "name"); //holland.find(x => x.name == hollandData[0].name).value.description,
-  var P4A4 = kslk_ozl(hollandData[1].name, 25, "name"); //holland.find(x => x.name == hollandData[0].name).value.feature,
-  var P4A5 = kslk_ozl(hollandData[0].name, 25, "profile"); //holland.find(x => x.name == hollandData[0].name).value.value,
-  var P4A6 = kslk_ozl(hollandData[1].name, 25, "profile");
+  // var P1A1 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + " " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
+  // var P2A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ",";
+  // var P4A1 = "chart"; // Kişilik Özellikleri
+  // var P4A2 = hollandData[0].name + " ve " + hollandData[1].name + " kişilik özelliklerinin baskın, " + hollandData[5].name + " özelliğinin daha geri planda olduğu bir yapın var.";
+  // var P4A3 = kslk_ozl(hollandData[0].name, 25, "name"); //holland.find(x => x.name == hollandData[0].name).value.description,
+  // var P4A4 = kslk_ozl(hollandData[1].name, 25, "name"); //holland.find(x => x.name == hollandData[0].name).value.feature,
+  // var P4A5 = kslk_ozl(hollandData[0].name, 25, "profile"); //holland.find(x => x.name == hollandData[0].name).value.value,
+  // var P4A6 = kslk_ozl(hollandData[1].name, 25, "profile");
   
-  var P5A1 = kslk_ozl(hollandData[0].name, 25, "interest_1");
-  var P5A2 = kslk_ozl(hollandData[1].name, 25, "interest_1");
-  var P5A3 = kslk_ozl(hollandData[0].name, 25, "interest_2");
-  var P5A4 = kslk_ozl(hollandData[1].name, 25, "interest_2");
-  var P5A5 = kslk_ozl(hollandData[0].name, 25, "work_areas");
-  var P5A6 = kslk_ozl(hollandData[0].name, 25, "may_not_like");
-  var P5A7 = kslk_ozl(hollandData[1].name, 25, "work_areas");
-  var P5A8 = kslk_ozl(hollandData[1].name, 25, "may_not_like");
+  // var P5A1 = kslk_ozl(hollandData[0].name, 25, "interest_1");
+  // var P5A2 = kslk_ozl(hollandData[1].name, 25, "interest_1");
+  // var P5A3 = kslk_ozl(hollandData[0].name, 25, "interest_2");
+  // var P5A4 = kslk_ozl(hollandData[1].name, 25, "interest_2");
+  // var P5A5 = kslk_ozl(hollandData[0].name, 25, "work_areas");
+  // var P5A6 = kslk_ozl(hollandData[0].name, 25, "may_not_like");
+  // var P5A7 = kslk_ozl(hollandData[1].name, 25, "work_areas");
+  // var P5A8 = kslk_ozl(hollandData[1].name, 25, "may_not_like");
 
-  var P6A1 = kslk_ozl(hollandData[0].name, 25, "name"); // Kendini Değerlendirme
-  var P6A2 = kslk_ozl(hollandData[0].name, 25, "question_1");
-  var P6A3 = kslk_ozl(hollandData[0].name, 25, "question_2");
-  var P6A4 = kslk_ozl(hollandData[0].name, 25, "question_3");
-  var P6A5 = kslk_ozl(hollandData[1].name, 25, "name");
-  var P6A6 = kslk_ozl(hollandData[1].name, 25, "question_1");
-  var P6A7 = kslk_ozl(hollandData[1].name, 25, "question_2");
-  var P6A8 = kslk_ozl(hollandData[1].name, 25, "question_3");
+  // var P6A1 = kslk_ozl(hollandData[0].name, 25, "name"); // Kendini Değerlendirme
+  // var P6A2 = kslk_ozl(hollandData[0].name, 25, "question_1");
+  // var P6A3 = kslk_ozl(hollandData[0].name, 25, "question_2");
+  // var P6A4 = kslk_ozl(hollandData[0].name, 25, "question_3");
+  // var P6A5 = kslk_ozl(hollandData[1].name, 25, "name");
+  // var P6A6 = kslk_ozl(hollandData[1].name, 25, "question_1");
+  // var P6A7 = kslk_ozl(hollandData[1].name, 25, "question_2");
+  // var P6A8 = kslk_ozl(hollandData[1].name, 25, "question_3");
 
-  var P7A1 = "chart"; // Karakter Özelliklerin
-  var P7A2 = krktr_ozl(big5Data[0].name, 25, "name").toUpperCase();
-  var P7A3 = krktr_ozl(big5Data[1].name, 25, "name").toUpperCase();
-  var P7A4 = krktr_ozl(big5Data[0].name, 25, "character_elements");
-  var P7A5 = krktr_ozl(big5Data[1].name, 25, "character_elements");
+  // var P7A1 = "chart"; // Karakter Özelliklerin
+  // var P7A2 = krktr_ozl(big5Data[0].name, 25, "name").toUpperCase();
+  // var P7A3 = krktr_ozl(big5Data[1].name, 25, "name").toUpperCase();
+  // var P7A4 = krktr_ozl(big5Data[0].name, 25, "character_elements");
+  // var P7A5 = krktr_ozl(big5Data[1].name, 25, "character_elements");
   
-  var P8A1 = krktr_ozl(big5Data[0].name, 25, "strength");
-  var P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness");
-  var P8A3 = krktr_ozl(big5Data[1].name, 25, "strength");
-  var P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness");
-  var P8A5 = krktr_ozl(big5Data[2].name, 25, "strength");
-  var P8A6 = krktr_ozl(big5Data[2].name, 25, "weakness");
-  var P8A7 = krktr_ozl(big5Data[0].name, 25, "other_attributes");
-  var P8A8 = krktr_ozl(big5Data[1].name, 25, "other_attributes");
-  var P8A9 = krktr_ozl(big5Data[2].name, 25, "other_attributes");
+  // var P8A1 = krktr_ozl(big5Data[0].name, 25, "strength");
+  // var P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness");
+  // var P8A3 = krktr_ozl(big5Data[1].name, 25, "strength");
+  // var P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness");
+  // var P8A5 = krktr_ozl(big5Data[2].name, 25, "strength");
+  // var P8A6 = krktr_ozl(big5Data[2].name, 25, "weakness");
+  // var P8A7 = krktr_ozl(big5Data[0].name, 25, "other_attributes");
+  // var P8A8 = krktr_ozl(big5Data[1].name, 25, "other_attributes");
+  // var P8A9 = krktr_ozl(big5Data[2].name, 25, "other_attributes");
   
-  var P9A1 = krktr_ozl(big5Data[0].name, 25, "name"); // Karakter Özelliklerin üzerine kendini değerlendirme.
-  var P9A2 = krktr_ozl(big5Data[0].name, 25, "question1");
-  var P9A3 = krktr_ozl(big5Data[0].name, 25, "question2");
-  var P9A4 = krktr_ozl(big5Data[0].name, 25, "question3");
-  var P9A5 = krktr_ozl(big5Data[1].name, 25, "name");
-  var P9A6 = krktr_ozl(big5Data[1].name, 25, "question1");
-  var P9A7 = krktr_ozl(big5Data[1].name, 25, "question2");
-  var P9A8 = krktr_ozl(big5Data[1].name, 25, "question3");
+  // var P9A1 = krktr_ozl(big5Data[0].name, 25, "name"); // Karakter Özelliklerin üzerine kendini değerlendirme.
+  // var P9A2 = krktr_ozl(big5Data[0].name, 25, "question1");
+  // var P9A3 = krktr_ozl(big5Data[0].name, 25, "question2");
+  // var P9A4 = krktr_ozl(big5Data[0].name, 25, "question3");
+  // var P9A5 = krktr_ozl(big5Data[1].name, 25, "name");
+  // var P9A6 = krktr_ozl(big5Data[1].name, 25, "question1");
+  // var P9A7 = krktr_ozl(big5Data[1].name, 25, "question2");
+  // var P9A8 = krktr_ozl(big5Data[1].name, 25, "question3");
 
-  var P11A1 = "chart"; // Yapay zeka çağı yetkinliklerin
+  // var P11A1 = "chart"; // Yapay zeka çağı yetkinliklerin
 
-  var P12A1 = ai(aiData[0].name, 25, "name");
-  var P12A2 = ai(aiData[1].name, 25, "name");
-  var P12A3 = ai(aiData[0].name, 25, "s3_x_2");
-  var P12A4 = ai(aiData[1].name, 25, "s3_x_2");
-  var P12A5 = ai(aiData[0].name, 25, "s3_x_3");
-  var P12A6 = ai(aiData[1].name, 25, "s3_x_3");
-  var P12A7 = ai(aiData[aiData.length - 1].name, 25, "name");
-  var P12A8 = ai(aiData[aiData.length - 2].name, 25, "name");
-  var P12A9 = ai(aiData[aiData.length - 1].name, 25, "s3_x_2");
-  var P12A10 = ai(aiData[aiData.length - 2].name, 25, "s3_x_2");
-  var P12A11 = ai(aiData[aiData.length - 1].name, 25, "s3_x_3");
-  var P12A12 = ai(aiData[aiData.length - 2].name, 25, "s3_x_3");
+  // var P12A1 = ai(aiData[0].name, 25, "name");
+  // var P12A2 = ai(aiData[1].name, 25, "name");
+  // var P12A3 = ai(aiData[0].name, 25, "s3_x_2");
+  // var P12A4 = ai(aiData[1].name, 25, "s3_x_2");
+  // var P12A5 = ai(aiData[0].name, 25, "s3_x_3");
+  // var P12A6 = ai(aiData[1].name, 25, "s3_x_3");
+  // var P12A7 = ai(aiData[aiData.length - 1].name, 25, "name");
+  // var P12A8 = ai(aiData[aiData.length - 2].name, 25, "name");
+  // var P12A9 = ai(aiData[aiData.length - 1].name, 25, "s3_x_2");
+  // var P12A10 = ai(aiData[aiData.length - 2].name, 25, "s3_x_2");
+  // var P12A11 = ai(aiData[aiData.length - 1].name, 25, "s3_x_3");
+  // var P12A12 = ai(aiData[aiData.length - 2].name, 25, "s3_x_3");
 
-  var P13A1 = ai(aiData[0].name, 25, "name");
-  var P13A2 = ai(aiData[0].name, 25, "s4u1_x_2");
-  var P13A3 = ai(aiData[0].name, 25, "s4u1_x_3");
-  var P13A4 = ai(aiData[1].name, 25, "name");
-  var P13A5 = ai(aiData[1].name, 25, "s4u1_x_2");
-  var P13A6 = ai(aiData[1].name, 25, "s4u1_x_3");
-  var P13A7 = ai(aiData[aiData.length - 1].name, 25, "name");
-  var P13A8 = ai(aiData[0].name, 25, "s4u2_x_2");
-  var P13A9 = ai(aiData[0].name, 25, "s4u2_x_3");
-  var P13A10 = ai(aiData[0].name, 25, "s4u2_x_4");
-  var P13A11 = ai(aiData[0].name, 25, "s4u2_x_5");
+  // var P13A1 = ai(aiData[0].name, 25, "name");
+  // var P13A2 = ai(aiData[0].name, 25, "s4u1_x_2");
+  // var P13A3 = ai(aiData[0].name, 25, "s4u1_x_3");
+  // var P13A4 = ai(aiData[1].name, 25, "name");
+  // var P13A5 = ai(aiData[1].name, 25, "s4u1_x_2");
+  // var P13A6 = ai(aiData[1].name, 25, "s4u1_x_3");
+  // var P13A7 = ai(aiData[aiData.length - 1].name, 25, "name");
+  // var P13A8 = ai(aiData[0].name, 25, "s4u2_x_2");
+  // var P13A9 = ai(aiData[0].name, 25, "s4u2_x_3");
+  // var P13A10 = ai(aiData[0].name, 25, "s4u2_x_4");
+  // var P13A11 = ai(aiData[0].name, 25, "s4u2_x_5");
 
-  var P14A1 = "chart"; // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+  // var P14A1 = "chart"; // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
 
-  var P15A1 = teamwork(teamworkData[0].name, 25, "name");
-  var P15A2 = teamwork(teamworkData[1].name, 25, "name");
-  var P15A3 = teamwork(teamworkData[0].name, 25, "best");
-  var P15A4 = teamwork(teamworkData[1].name, 25, "best");
-  var P15A5 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"); // Geliştirmeyi Düşünebilirsin
-  var P15A6 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "name");
-  var P15A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "best");
-  var P15A8 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "best");
+  // var P15A1 = teamwork(teamworkData[0].name, 25, "name");
+  // var P15A2 = teamwork(teamworkData[1].name, 25, "name");
+  // var P15A3 = teamwork(teamworkData[0].name, 25, "best");
+  // var P15A4 = teamwork(teamworkData[1].name, 25, "best");
+  // var P15A5 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"); // Geliştirmeyi Düşünebilirsin
+  // var P15A6 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "name");
+  // var P15A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "best");
+  // var P15A8 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "best");
   
-  var P16A1 = teamwork(teamworkData[0].name, 25, "name"); // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
-  var P16A2 = teamwork(teamworkData[0].name, 25, "s3u1_x_1");
-  var P16A3 = teamwork(teamworkData[0].name, 25, "s3u1_x_2");
-  var P16A4 = teamwork(teamworkData[1].name, 25, "name");
-  var P16A5 = teamwork(teamworkData[1].name, 25, "s3u1_x_1");
-  var P16A6 = teamwork(teamworkData[1].name, 25, "s3u1_x_2");
-  var P16A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name");
-  var P16A8 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_1",);
-  var P16A9 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_2",);
-  var P16A10 = teamwork(teamworkData[teamworkData.length - 1].name,25, "s3u2_x_3",);
+  // var P16A1 = teamwork(teamworkData[0].name, 25, "name"); // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
+  // var P16A2 = teamwork(teamworkData[0].name, 25, "s3u1_x_1");
+  // var P16A3 = teamwork(teamworkData[0].name, 25, "s3u1_x_2");
+  // var P16A4 = teamwork(teamworkData[1].name, 25, "name");
+  // var P16A5 = teamwork(teamworkData[1].name, 25, "s3u1_x_1");
+  // var P16A6 = teamwork(teamworkData[1].name, 25, "s3u1_x_2");
+  // var P16A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name");
+  // var P16A8 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_1",);
+  // var P16A9 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_2",);
+  // var P16A10 = teamwork(teamworkData[teamworkData.length - 1].name,25, "s3u2_x_3",);
   
-  var P17A1 = lifestyle(lifestyleData[0], 25, "name"); // Yaşamda İlerleme Tarzın
-  var P17A2 = lifestyle(lifestyleData[0], 25, "p1");
-  var P17A3 = lifestyle(lifestyleData[0], 25, "image");
+  // var P17A1 = lifestyle(lifestyleData[0], 25, "name"); // Yaşamda İlerleme Tarzın
+  // var P17A2 = lifestyle(lifestyleData[0], 25, "p1");
+  // var P17A3 = lifestyle(lifestyleData[0], 25, "image");
   
-  var P18A1 = lifestyle(lifestyleData[0], 25, "p2");
-  var P18A2 = lifestyle(lifestyleData[0], 25, "p3");
-  var P18A3 = lifestyle(lifestyleData[0], 25, "motto").toUpperCase(); // motto
+  // var P18A1 = lifestyle(lifestyleData[0], 25, "p2");
+  // var P18A2 = lifestyle(lifestyleData[0], 25, "p3");
+  // var P18A3 = lifestyle(lifestyleData[0], 25, "motto").toUpperCase(); // motto
   
-  var P19A1 = lifestyle(lifestyleData[0], 25, "name");
-  var P19A2 = lifestyle(lifestyleData[0], 25, "evaluation_1");
-  var P19A3 = lifestyle(lifestyleData[0], 25, "evaluation_2");
-  var P19A4 = lifestyle(lifestyleData[0], 25, "evaluation_3");
-  var P19A5 = lifestyle(lifestyleData[0], 25, "evaluation_4");
-  var P19A6 = lifestyle(lifestyleData[0], 25, "evaluation_5");
+  // var P19A1 = lifestyle(lifestyleData[0], 25, "name");
+  // var P19A2 = lifestyle(lifestyleData[0], 25, "evaluation_1");
+  // var P19A3 = lifestyle(lifestyleData[0], 25, "evaluation_2");
+  // var P19A4 = lifestyle(lifestyleData[0], 25, "evaluation_3");
+  // var P19A5 = lifestyle(lifestyleData[0], 25, "evaluation_4");
+  // var P19A6 = lifestyle(lifestyleData[0], 25, "evaluation_5");
   
-  var P20A1 = communication(communicationData[0], 25, "name").toUpperCase();
-  var P20A2 = communication(communicationData[0], 25, "1");
-  var P20A3 = communication(communicationData[0], 25, "2");
-  var P20A4 = communication(communicationData[0], 25, "3");
-  var P20A5 = communication(communicationData[0], 25, "4");
-  var P20A6 = communication(communicationData[0], 25, "5");
-  var P20A7 = communication(communicationData[0], 25, "6");
-  var P20A8 = communication(communicationData[0], 25, "7");
-  var P20A9 = communication(communicationData[0], 25, "8");
+  // var P20A1 = communication(communicationData[0], 25, "name").toUpperCase();
+  // var P20A2 = communication(communicationData[0], 25, "1");
+  // var P20A3 = communication(communicationData[0], 25, "2");
+  // var P20A4 = communication(communicationData[0], 25, "3");
+  // var P20A5 = communication(communicationData[0], 25, "4");
+  // var P20A6 = communication(communicationData[0], 25, "5");
+  // var P20A7 = communication(communicationData[0], 25, "6");
+  // var P20A8 = communication(communicationData[0], 25, "7");
+  // var P20A9 = communication(communicationData[0], 25, "8");
   
-  var P21A1 = communication(communicationData[0], 25, "1_s2"); // İş Yerinde Etkili İletişim ve Katılım
-  var P21A2 = communication(communicationData[0], 25, "2_s2");
-  var P21A3 = communication(communicationData[0], 25, "3_s2");
-  var P21A4 = communication(communicationData[0], 25, "4_s2");
+  // var P21A1 = communication(communicationData[0], 25, "1_s2"); // İş Yerinde Etkili İletişim ve Katılım
+  // var P21A2 = communication(communicationData[0], 25, "2_s2");
+  // var P21A3 = communication(communicationData[0], 25, "3_s2");
+  // var P21A4 = communication(communicationData[0], 25, "4_s2");
   
-  var P22A1 = communication(communicationData[0], 25, "name"); // İletişim ve Etkileşim Tarzın
-  var P22A2 = communication(communicationData[0], 25, "1_s3");
-  var P22A3 = communication(communicationData[0], 25, "2_s3");
-  var P22A4 = communication(communicationData[0], 25, "3_s3");
-  var P22A5 = communication(communicationData[0], 25, "4_s3");
-  var P22A6 = communication(communicationData[0], 25, "5_s3");
+  // var P22A1 = communication(communicationData[0], 25, "name"); // İletişim ve Etkileşim Tarzın
+  // var P22A2 = communication(communicationData[0], 25, "1_s3");
+  // var P22A3 = communication(communicationData[0], 25, "2_s3");
+  // var P22A4 = communication(communicationData[0], 25, "3_s3");
+  // var P22A5 = communication(communicationData[0], 25, "4_s3");
+  // var P22A6 = communication(communicationData[0], 25, "5_s3");
 
-  var P24A1 = worklearnstyle(worklearnData[0], 25, "name"); // Çalışma ve Öğrenme Stilin
-  var P24A2 = worklearnstyle(worklearnData[0], 25, "context");
+  // var P24A1 = worklearnstyle(worklearnData[0], 25, "name"); // Çalışma ve Öğrenme Stilin
+  // var P24A2 = worklearnstyle(worklearnData[0], 25, "context");
   
-  var P25A1 = worklearnstyle(worklearnData[0], 25, "name"); // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
-  var P25A2 = worklearnstyle(worklearnData[0], 25, "s3_1");
-  var P25A3 = worklearnstyle(worklearnData[0], 25, "s3_2");
-  var P25A4 = worklearnstyle(worklearnData[0], 25, "s3_3");
-  var P25A5 = worklearnstyle(worklearnData[0], 25, "s3_4");
-  var P25A6 = worklearnstyle(worklearnData[0], 25, "s3_5");
+  // var P25A1 = worklearnstyle(worklearnData[0], 25, "name"); // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+  // var P25A2 = worklearnstyle(worklearnData[0], 25, "s3_1");
+  // var P25A3 = worklearnstyle(worklearnData[0], 25, "s3_2");
+  // var P25A4 = worklearnstyle(worklearnData[0], 25, "s3_3");
+  // var P25A5 = worklearnstyle(worklearnData[0], 25, "s3_4");
+  // var P25A6 = worklearnstyle(worklearnData[0], 25, "s3_5");
   
-  var P27A1 = is_y_r(is_y_rData[0], 25, "name"); // İş Yaşamında Rolün
-  var P27A2 = is_y_r(is_y_rData[0], 25, "s2_1_1");
-  var P27A3 = is_y_r(is_y_rData[0], 25, "s2_2");
-  var P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1");
-  var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
-  var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
-  var P27A7 = is_y_r(is_y_rData[0], 25, "image");
+  // var P27A1 = is_y_r(is_y_rData[0], 25, "name"); // İş Yaşamında Rolün
+  // var P27A2 = is_y_r(is_y_rData[0], 25, "s2_1_1");
+  // var P27A3 = is_y_r(is_y_rData[0], 25, "s2_2");
+  // var P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1");
+  // var P27A5 = is_y_r(is_y_rData[0], 25, "s2_3");
+  // var P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1");
+  // var P27A7 = is_y_r(is_y_rData[0], 25, "image");
   
-  var P28A1 = is_y_r(is_y_rData[0], 25, "name");
-  var P28A2 = is_y_r(is_y_rData[0], 25, "s3_1");
-  var P28A3 = is_y_r(is_y_rData[0], 25, "s3_1_1");
-  var P28A4 = is_y_r(is_y_rData[0], 25, "s3_2");
-  var P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1");
+  // var P28A1 = is_y_r(is_y_rData[0], 25, "name");
+  // var P28A2 = is_y_r(is_y_rData[0], 25, "s3_1");
+  // var P28A3 = is_y_r(is_y_rData[0], 25, "s3_1_1");
+  // var P28A4 = is_y_r(is_y_rData[0], 25, "s3_2");
+  // var P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1");
   
-  var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
-  var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
-  var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
-  var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
-  var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
-  var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+  // var P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+  // var P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+  // var P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+  // var P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+  // var P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+  // var P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
   
-  var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
-  var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
-  var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
-  var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
-  var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
-  var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+  // var P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+  // var P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+  // var P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+  // var P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+  // var P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+  // var P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
   
-  var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
-  var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
-  var P34A3 = "İki Temel Unsur:";
-  var P34A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
-  var P34A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+  // var P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+  // var P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+  // var P34A3 = "İki Temel Unsur:";
+  // var P34A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+  // var P34A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
   
-  var P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
-  var P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
-  var P35A3 = "Adımlar:";
-  var P35A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-  var P35A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-  var P35A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-  var P35A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-  // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-  var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-  var P35A9 = decision_strategy(decision_strategyData, 25, "image");
+  // var P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+  // var P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+  // var P35A3 = "Adımlar:";
+  // var P35A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+  // var P35A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+  // var P35A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+  // var P35A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+  // // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+  // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+  // var P35A9 = decision_strategy(decision_strategyData, 25, "image");
   
-  var P36A1 = "image"; // Sana uygun kariyer dağılımların
-  var P36A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
-  var P36A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
-  var P36A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  // var P36A1 = "image"; // Sana uygun kariyer dağılımların
+  // var P36A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+  // var P36A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+  // var P36A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
   
-  var P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
-  var P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
-  var P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
-  var P37A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
-  var P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
-  var P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+  // var P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+  // var P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+  // var P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+  // var P37A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+  // var P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  // var P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
   
-  var P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
-  var P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
-  var P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
-  var P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
-  var P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
-  var P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+  // var P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+  // var P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+  // var P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  // var P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+  // var P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+  // var P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
   
-  var P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
-  var P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
-  var P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
-  var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
-  var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
-  var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+  // var P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+  // var P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+  // var P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+  // var P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+  // var P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+  // var P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
   
-  var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
-  var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
-  var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
-  var P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
-  var P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
-  var P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
-  var P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
-  var P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
-  var P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
-  var P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
-  var P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
-  var P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
-  var P40A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
-  var P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
-  var P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
-  var P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
-  var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
-  var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
-  var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  // var P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+  // var P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  // var P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  // var P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  // var P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  // var P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  // var P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  // var P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  // var P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  // var P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  // var P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  // var P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  // var P40A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+  // var P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+  // var P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+  // var P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+  // var P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+  // var P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+  // var P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
   
-  var P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+  // var P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
   
-  var graphbig = bigdataPercent;
-  var graphholland = hollanddataPercent;
-  var graphcareer = careerSelectionLastResult;
+  
+
+  var first28Variables = [
+  
+    P1A1 = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + " " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1],
+    P2A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ",",
+    P4A1 = "chart", // Kişilik Özellikleri
+    P4A2 = hollandData[0].name + " ve " + hollandData[1].name + " kişilik özelliklerinin baskın, " + hollandData[5].name + " özelliğinin daha geri planda olduğu bir yapın var.",
+    P4A3 = kslk_ozl(hollandData[0].name, 25, "name"), //holland.find(x => x.name == hollandData[0].name).value.description,
+    P4A4 = kslk_ozl(hollandData[1].name, 25, "name"), //holland.find(x => x.name == hollandData[0].name).value.feature,
+    P4A5 = kslk_ozl(hollandData[0].name, 25, "profile"), //holland.find(x => x.name == hollandData[0].name).value.value,
+    P4A6 = kslk_ozl(hollandData[1].name, 25, "profile"),
+    
+    P5A1 = kslk_ozl(hollandData[0].name, 25, "interest_1"),
+    P5A2 = kslk_ozl(hollandData[1].name, 25, "interest_1"),
+    P5A3 = kslk_ozl(hollandData[0].name, 25, "interest_2"),
+    P5A4 = kslk_ozl(hollandData[1].name, 25, "interest_2"),
+    P5A5 = kslk_ozl(hollandData[0].name, 25, "work_areas"),
+    P5A6 = kslk_ozl(hollandData[0].name, 25, "may_not_like"),
+    P5A7 = kslk_ozl(hollandData[1].name, 25, "work_areas"),
+    P5A8 = kslk_ozl(hollandData[1].name, 25, "may_not_like"),
+  
+    P6A1 = kslk_ozl(hollandData[0].name, 25, "name"), // Kendini Değerlendirme
+    P6A2 = kslk_ozl(hollandData[0].name, 25, "question_1"),
+    P6A3 = kslk_ozl(hollandData[0].name, 25, "question_2"),
+    P6A4 = kslk_ozl(hollandData[0].name, 25, "question_3"),
+    P6A5 = kslk_ozl(hollandData[1].name, 25, "name"),
+    P6A6 = kslk_ozl(hollandData[1].name, 25, "question_1"),
+    P6A7 = kslk_ozl(hollandData[1].name, 25, "question_2"),
+    P6A8 = kslk_ozl(hollandData[1].name, 25, "question_3"),
+  
+    P7A1 = "chart", // Karakter Özelliklerin
+    P7A2 = krktr_ozl(big5Data[0].name, 25, "name").toUpperCase(),
+    P7A3 = krktr_ozl(big5Data[1].name, 25, "name").toUpperCase(),
+    P7A4 = krktr_ozl(big5Data[0].name, 25, "character_elements"),
+    P7A5 = krktr_ozl(big5Data[1].name, 25, "character_elements"),
+    
+    P8A1 = krktr_ozl(big5Data[0].name, 25, "strength"),
+    P8A2 = krktr_ozl(big5Data[0].name, 25, "weakness"),
+    P8A3 = krktr_ozl(big5Data[1].name, 25, "strength"),
+    P8A4 = krktr_ozl(big5Data[1].name, 25, "weakness"),
+    P8A5 = krktr_ozl(big5Data[2].name, 25, "strength"),
+    P8A6 = krktr_ozl(big5Data[2].name, 25, "weakness"),
+    P8A7 = krktr_ozl(big5Data[0].name, 25, "other_attributes"),
+    P8A8 = krktr_ozl(big5Data[1].name, 25, "other_attributes"),
+    P8A9 = krktr_ozl(big5Data[2].name, 25, "other_attributes"),
+    
+    P9A1 = krktr_ozl(big5Data[0].name, 25, "name"), // Karakter Özelliklerin üzerine kendini değerlendirme.
+    P9A2 = krktr_ozl(big5Data[0].name, 25, "question1"),
+    P9A3 = krktr_ozl(big5Data[0].name, 25, "question2"),
+    P9A4 = krktr_ozl(big5Data[0].name, 25, "question3"),
+    P9A5 = krktr_ozl(big5Data[1].name, 25, "name"),
+    P9A6 = krktr_ozl(big5Data[1].name, 25, "question1"),
+    P9A7 = krktr_ozl(big5Data[1].name, 25, "question2"),
+    P9A8 = krktr_ozl(big5Data[1].name, 25, "question3"),
+  
+    P11A1 = "chart", // Yapay zeka çağı yetkinliklerin
+  
+    P12A1 = ai(aiData[0].name, 25, "name"),
+    P12A2 = ai(aiData[1].name, 25, "name"),
+    P12A3 = ai(aiData[0].name, 25, "s3_x_2"),
+    P12A4 = ai(aiData[1].name, 25, "s3_x_2"),
+    P12A5 = ai(aiData[0].name, 25, "s3_x_3"),
+    P12A6 = ai(aiData[1].name, 25, "s3_x_3"),
+    P12A7 = ai(aiData[aiData.length - 1].name, 25, "name"),
+    P12A8 = ai(aiData[aiData.length - 2].name, 25, "name"),
+    P12A9 = ai(aiData[aiData.length - 1].name, 25, "s3_x_2"),
+    P12A10 = ai(aiData[aiData.length - 2].name, 25, "s3_x_2"),
+    P12A11 = ai(aiData[aiData.length - 1].name, 25, "s3_x_3"),
+    P12A12 = ai(aiData[aiData.length - 2].name, 25, "s3_x_3"),
+  
+    P13A1 = ai(aiData[0].name, 25, "name"),
+    P13A2 = ai(aiData[0].name, 25, "s4u1_x_2"),
+    P13A3 = ai(aiData[0].name, 25, "s4u1_x_3"),
+    P13A4 = ai(aiData[1].name, 25, "name"),
+    P13A5 = ai(aiData[1].name, 25, "s4u1_x_2"),
+    P13A6 = ai(aiData[1].name, 25, "s4u1_x_3"),
+    P13A7 = ai(aiData[aiData.length - 1].name, 25, "name"),
+    P13A8 = ai(aiData[0].name, 25, "s4u2_x_2"),
+    P13A9 = ai(aiData[0].name, 25, "s4u2_x_3"),
+    P13A10 = ai(aiData[0].name, 25, "s4u2_x_4"),
+    P13A11 = ai(aiData[0].name, 25, "s4u2_x_5"),
+
+    P14A1 = "chart", // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
+  
+    P15A1 = teamwork(teamworkData[0].name, 25, "name"),
+    P15A2 = teamwork(teamworkData[1].name, 25, "name"),
+    P15A3 = teamwork(teamworkData[0].name, 25, "best"),
+    P15A4 = teamwork(teamworkData[1].name, 25, "best"),
+    P15A5 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"), // Geliştirmeyi Düşünebilirsin
+    P15A6 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "name"),
+    P15A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "best"),
+    P15A8 = teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
+    
+    P16A1 = teamwork(teamworkData[0].name, 25, "name"), // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
+    P16A2 = teamwork(teamworkData[0].name, 25, "s3u1_x_1"),
+    P16A3 = teamwork(teamworkData[0].name, 25, "s3u1_x_2"),
+    P16A4 = teamwork(teamworkData[1].name, 25, "name"),
+    P16A5 = teamwork(teamworkData[1].name, 25, "s3u1_x_1"),
+    P16A6 = teamwork(teamworkData[1].name, 25, "s3u1_x_2"),
+    P16A7 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"),
+    P16A8 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_1",),
+    P16A9 = teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_2",),
+    P16A10 = teamwork(teamworkData[teamworkData.length - 1].name,25, "s3u2_x_3",),
+    
+    P17A1 = lifestyle(lifestyleData[0], 25, "name"), // Yaşamda İlerleme Tarzın
+    P17A2 = lifestyle(lifestyleData[0], 25, "p1"),
+    P17A3 = lifestyle(lifestyleData[0], 25, "image"),
+    
+    P18A1 = lifestyle(lifestyleData[0], 25, "p2"),
+    P18A2 = lifestyle(lifestyleData[0], 25, "p3"),
+    P18A3 = lifestyle(lifestyleData[0], 25, "motto").toUpperCase(), // motto
+    
+    P19A1 = lifestyle(lifestyleData[0], 25, "name"),
+    P19A2 = lifestyle(lifestyleData[0], 25, "evaluation_1"),
+    P19A3 = lifestyle(lifestyleData[0], 25, "evaluation_2"),
+    P19A4 = lifestyle(lifestyleData[0], 25, "evaluation_3"),
+    P19A5 = lifestyle(lifestyleData[0], 25, "evaluation_4"),
+    P19A6 = lifestyle(lifestyleData[0], 25, "evaluation_5"),
+    
+    P20A1 = communication(communicationData[0], 25, "name").toUpperCase(),
+    P20A2 = communication(communicationData[0], 25, "1"),
+    P20A3 = communication(communicationData[0], 25, "2"),
+    P20A4 = communication(communicationData[0], 25, "3"),
+    P20A5 = communication(communicationData[0], 25, "4"),
+    P20A6 = communication(communicationData[0], 25, "5"),
+    P20A7 = communication(communicationData[0], 25, "6"),
+    P20A8 = communication(communicationData[0], 25, "7"),
+    P20A9 = communication(communicationData[0], 25, "8"),
+    
+    P21A1 = communication(communicationData[0], 25, "1_s2"), // İş Yerinde Etkili İletişim ve Katılım
+    P21A2 = communication(communicationData[0], 25, "2_s2"),
+    P21A3 = communication(communicationData[0], 25, "3_s2"),
+    P21A4 = communication(communicationData[0], 25, "4_s2"),
+    
+    P22A1 = communication(communicationData[0], 25, "name"), // İletişim ve Etkileşim Tarzın
+    P22A2 = communication(communicationData[0], 25, "1_s3"),
+    P22A3 = communication(communicationData[0], 25, "2_s3"),
+    P22A4 = communication(communicationData[0], 25, "3_s3"),
+    P22A5 = communication(communicationData[0], 25, "4_s3"),
+    P22A6 = communication(communicationData[0], 25, "5_s3"),
+  
+    P24A1 = worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin
+    P24A2 = worklearnstyle(worklearnData[0], 25, "context"),
+    
+    P25A1 = worklearnstyle(worklearnData[0], 25, "name"), // Çalışma ve Öğrenme Stilin Kendini Değerlendirme
+    P25A2 = worklearnstyle(worklearnData[0], 25, "s3_1"),
+    P25A3 = worklearnstyle(worklearnData[0], 25, "s3_2"),
+    P25A4 = worklearnstyle(worklearnData[0], 25, "s3_3"),
+    P25A5 = worklearnstyle(worklearnData[0], 25, "s3_4"),
+    P25A6 = worklearnstyle(worklearnData[0], 25, "s3_5"),
+    
+    P27A1 = is_y_r(is_y_rData[0], 25, "name"), // İş Yaşamında Rolün
+    P27A2 = is_y_r(is_y_rData[0], 25, "s2_1_1"),
+    P27A3 = is_y_r(is_y_rData[0], 25, "s2_2"),
+    P27A4 = is_y_r(is_y_rData[0], 25, "s2_2_1"),
+    P27A5 = is_y_r(is_y_rData[0], 25, "s2_3"),
+    P27A6 = is_y_r(is_y_rData[0], 25, "s2_3_1"),
+    P27A7 = is_y_r(is_y_rData[0], 25, "image"),
+    
+    P28A1 = is_y_r(is_y_rData[0], 25, "name"),
+    P28A2 = is_y_r(is_y_rData[0], 25, "s3_1"),
+    P28A3 = is_y_r(is_y_rData[0], 25, "s3_1_1"),
+    P28A4 = is_y_r(is_y_rData[0], 25, "s3_2"),
+    P28A5 = is_y_r(is_y_rData[0], 25, "s3_2_1"),
+
+    graphbig = bigdataPercent,
+    graphholland = hollanddataPercent,
+    graphcareer = careerSelectionLastResult,
+  ]
 
   var inputModel={
     P1A1: P1A1,
@@ -7220,13 +7387,91 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
     graphai: aiData,
-    graphai: aiData,
     graphteamwork: teamworkData,
   }
 
+  // -------
+
   if (usergates.length === 1) {
+
+    firs28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P33A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P33A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P33A3 = "İki Temel Unsur:";
+    P33A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P33A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P34A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P34A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P34A3 = "Adımlar:";
+    P34A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P34A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P34A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P34A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P34A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P34A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P34A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P35A1 = "image"; // Sana uygun kariyer dağılımların
+    P35A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P35A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P35A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P36A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P36A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P36A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P36A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P36A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P36A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P37A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P37A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P37A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P37A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P39A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P39A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P39A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P39A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P39A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P39A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P39A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P39A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P39A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P39A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P39A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P39A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P39A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P39A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P39A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P39A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P39A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P39A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P41A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, //Güçlü yanların
       P30A2: P30A2,
       P30A3: P30A3, 
@@ -7293,8 +7538,92 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     };
     
   } else if (usergates.length === 2) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+    
+    P34A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P34A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P34A3 = "İki Temel Unsur:";
+    P34A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P34A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+    
+    P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P35A3 = "Adımlar:",
+    P35A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P35A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P35A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P35A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P35A9 = decision_strategy(decision_strategyData, 25, "image");
+    
+    P36A1 = "image"; // Sana uygun kariyer dağılımların
+    P36A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P36A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P36A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    
+    P37A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P37A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P37A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P37A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P37A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P37A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+    
+    P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P38A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P38A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P38A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P38A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+    
+    P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+    
+    P40A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P40A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P40A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P40A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P40A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P40A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P40A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P40A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P40A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P40A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P40A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P40A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P40A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P40A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P40A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P40A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P40A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    
+    P42A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7365,8 +7694,99 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P42A1: P42A1, // SevgiWli Dinçer
     };
   } else if (usergates.length === 3) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+    
+    P35A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P35A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P35A3 = "İki Temel Unsur:";
+    P35A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P35A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P36A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P36A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P36A3 = "Adımlar:";
+    P36A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P36A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P36A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P36A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P36A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P36A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P36A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P37A1 = "image"; // Sana uygun kariyer dağılımların
+    P37A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P37A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P37A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P38A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P38A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P38A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P38A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P38A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P38A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P39A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P39A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P39A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P39A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P40A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P40A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P40A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P40A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P40A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P41A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P41A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P41A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P41A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P41A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P41A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P41A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P41A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P41A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P41A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P41A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P41A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P41A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P41A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P41A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P41A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P41A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P41A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P41A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    
+    P43A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7445,8 +7865,106 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 4) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+    
+    P36A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P36A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P36A3 = "İki Temel Unsur:";
+    P36A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P36A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+    
+    P37A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P37A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P37A3 = "Adımlar:";
+    P37A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P37A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P37A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P37A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P37A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P37A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P37A9 = decision_strategy(decision_strategyData, 25, "image");
+    
+    P38A1 = "image"; // Sana uygun kariyer dağılımların
+    P38A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P38A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P38A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    
+    P39A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P39A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P39A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P39A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P39A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P39A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+    
+    P40A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P40A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P40A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P40A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P40A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P40A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+    
+    P41A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P41A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P41A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P41A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P41A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P41A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");    
+
+    P42A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P42A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P42A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P42A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P42A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P42A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P42A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P42A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P42A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P42A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P42A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P42A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P42A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P42A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P42A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P42A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P42A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P42A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P42A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P44A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü Yanlarının 
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7531,8 +8049,113 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 5) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+    
+    P37A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P37A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P37A3 = "İki Temel Unsur:";
+    P37A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P37A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P38A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P38A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P38A3 = "Adımlar:";
+    P38A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P38A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P38A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P38A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P38A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P38A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P38A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P39A1 = "image"; // Sana uygun kariyer dağılımların
+    P39A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P39A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P39A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P40A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P40A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P40A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P40A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P40A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P40A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P41A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P41A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P41A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P41A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P41A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P41A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P42A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P42A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P42A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P42A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P42A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P42A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P43A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P43A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P43A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P43A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P43A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P43A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P43A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P43A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P43A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P43A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P43A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P43A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P43A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P43A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P43A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P43A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P43A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P43A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P43A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P45A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A6: P30A6,
       P31A1: P31A1,
       P31A2: P31A2,
@@ -7619,8 +8242,120 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 6) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+    
+    P38A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P38A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P38A3 = "İki Temel Unsur:";
+    P38A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P38A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P39A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P39A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P39A3 = "Adımlar:";
+    P39A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P39A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P39A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P39A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P39A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P39A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P39A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P40A1 = "image"; // Sana uygun kariyer dağılımların
+    P40A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P40A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P40A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P41A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P41A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P41A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P41A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P41A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P41A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P42A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P42A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P42A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P42A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P42A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P42A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P43A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P43A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P43A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P43A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P43A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P43A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P44A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P44A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P44A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P44A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P44A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P44A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P44A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P44A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P44A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P44A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P44A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P44A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P44A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P44A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P44A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P44A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P44A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P44A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P44A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P46A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7718,8 +8453,127 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 7) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+    
+    P39A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P39A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P39A3 = "İki Temel Unsur:";
+    P39A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P39A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P40A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P40A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P40A3 = "Adımlar:";
+    P40A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P40A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P40A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P40A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P40A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P40A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P40A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P41A1 = "image"; // Sana uygun kariyer dağılımların
+    P41A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P41A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P41A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P42A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P42A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P42A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P42A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P42A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P42A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P43A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P43A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P43A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P43A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P43A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P43A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P44A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P44A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P44A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P44A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P44A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P44A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P45A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P45A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P45A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P45A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P45A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P45A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P45A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P45A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P45A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P45A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P45A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P45A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P45A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P45A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P45A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P45A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P45A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P45A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P45A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");    
+
+    P47A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1]+","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
      ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -7822,6 +8676,130 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 8) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+
+    P37A1 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_1",);
+    P37A2 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_2",);
+    P37A3 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_3",);
+    P37A4 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_4",);
+    P37A5 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_5",);
+    P37A6 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_6",);
+    
+    P40A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P40A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P40A3 = "İki Temel Unsur:";
+    P40A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P40A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+    
+    P41A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P41A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P41A3 = "Adımlar:";
+    P41A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P41A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P41A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P41A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P41A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P41A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P41A9 = decision_strategy(decision_strategyData, 25, "image");
+    
+    P42A1 = "image"; // Sana uygun kariyer dağılımların
+    P42A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P42A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P42A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    
+    P43A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P43A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P43A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P43A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P43A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P43A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+    
+    P44A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P44A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P44A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P44A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P44A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P44A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+    
+    P45A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P45A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P45A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P45A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P45A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P45A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");    
+
+    P46A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P46A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P46A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P46A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P46A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P46A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P46A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P46A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P46A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P46A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P46A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P46A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P46A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P46A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P46A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P46A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P46A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P46A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P46A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P48A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ","; // Sevgili Dinçer
+
     var inputs_25_plus = {
       ...inputModel,
       P30A1: P30A1, // Güçlü yanların
@@ -7932,7 +8910,139 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 9) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+
+    P37A1 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_1",);
+    P37A2 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_2",);
+    P37A3 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_3",);
+    P37A4 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_4",);
+    P37A5 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_5",);
+    P37A6 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_6",);
+
+    P38A1 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_1",);
+    P38A2 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_2",);
+    P38A3 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_3",);
+    P38A4 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_4",);
+    P38A5 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_5",);
+    P38A6 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_6",);
+    
+    P41A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P41A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P41A3 = "İki Temel Unsur:";
+    P41A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P41A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P42A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P42A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P42A3 = "Adımlar:";
+    P42A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P42A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P42A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P42A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P42A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P42A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P42A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P43A1 = "image"; // Sana uygun kariyer dağılımların
+    P43A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P43A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P43A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P44A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P44A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P44A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P44A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P44A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P44A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P45A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P45A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P45A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P45A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P45A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P45A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P46A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P46A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P46A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P46A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P46A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P46A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P47A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P47A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P47A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P47A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P47A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P47A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P47A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P47A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P47A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P47A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P47A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P47A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P47A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P47A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P47A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P47A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P47A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P47A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P47A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P49A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
@@ -8049,8 +9159,148 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 10) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+
+    P37A1 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_1",);
+    P37A2 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_2",);
+    P37A3 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_3",);
+    P37A4 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_4",);
+    P37A5 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_5",);
+    P37A6 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_6",);
+
+    P38A1 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_1",);
+    P38A2 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_2",);
+    P38A3 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_3",);
+    P38A4 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_4",);
+    P38A5 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_5",);
+    P38A6 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_6",);
+
+    P39A1 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_1",);
+    P39A2 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_2",);
+    P39A3 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_3",);
+    P39A4 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_4",);
+    P39A5 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_5",);
+    P39A6 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_6",);
+    
+    P42A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P42A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P42A3 = "İki Temel Unsur:";
+    P42A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P42A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P43A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P43A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P43A3 = "Adımlar:";
+    P43A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P43A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P43A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P43A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P43A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P43A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P43A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P44A1 = "image"; // Sana uygun kariyer dağılımların
+    P44A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P44A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P44A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P45A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P45A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P45A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P45A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P45A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P45A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P46A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P46A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P46A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P46A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P46A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P46A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P47A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P47A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P47A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P47A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P47A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P47A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P48A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P48A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P48A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P48A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P48A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P48A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P48A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P48A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P48A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P48A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P48A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P48A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P48A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P48A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P48A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P48A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P48A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P48A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P48A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P50A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -8171,8 +9421,155 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 11) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+
+    P37A1 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_1",);
+    P37A2 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_2",);
+    P37A3 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_3",);
+    P37A4 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_4",);
+    P37A5 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_5",);
+    P37A6 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_6",);
+
+    P38A1 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_1",);
+    P38A2 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_2",);
+    P38A3 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_3",);
+    P38A4 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_4",);
+    P38A5 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_5",);
+    P38A6 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_6",);
+
+    P39A1 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_1",);
+    P39A2 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_2",);
+    P39A3 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_3",);
+    P39A4 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_4",);
+    P39A5 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_5",);
+    P39A6 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_6",);
+
+    P40A1 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_1",);
+    P40A2 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_2",);
+    P40A3 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_3",);
+    P40A4 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_4",);
+    P40A5 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_5",);
+    P40A6 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_6",);
+    
+    P43A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    P43A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P43A3 = "İki Temel Unsur:";
+    P43A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P43A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P44A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P44A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P44A3 = "Adımlar:";
+    P44A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P44A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P44A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P44A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    // var P44A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    P44A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P44A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P45A1 = "image"; // Sana uygun kariyer dağılımların
+    P45A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P45A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P45A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P46A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P46A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P46A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P46A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P46A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P46A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P47A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P47A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P47A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P47A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P47A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P47A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P48A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P48A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P48A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P48A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P48A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P48A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P49A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P49A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P49A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P49A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P49A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P49A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P49A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P49A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P49A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P49A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P49A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P49A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P49A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P49A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P49A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P49A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P49A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P49A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P49A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P51A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
@@ -8300,8 +9697,160 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
 
   } else if (usergates.length === 12) {
+
+    first28Variables,
+
+    P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
+    P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    
+    P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
+    P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+
+    P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
+    P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+
+    P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
+    P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+
+    P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
+    P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+
+    P35A1 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_1",);
+    P35A2 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_2",);
+    P35A3 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_3",);
+    P35A4 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_4",);
+    P35A5 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_5",);
+    P35A6 = guclu_yanlarin(guclu_yanlarinData[5], 25, guclu_yanlarinData[5].name + "_6",);
+
+    P36A1 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_1",);
+    P36A2 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_2",);
+    P36A3 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_3",);
+    P36A4 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_4",);
+    P36A5 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_5",);
+    P36A6 = guclu_yanlarin(guclu_yanlarinData[6], 25, guclu_yanlarinData[6].name + "_6",);
+
+    P37A1 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_1",);
+    P37A2 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_2",);
+    P37A3 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_3",);
+    P37A4 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_4",);
+    P37A5 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_5",);
+    P37A6 = guclu_yanlarin(guclu_yanlarinData[7], 25, guclu_yanlarinData[7].name + "_6",);
+
+    P38A1 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_1",);
+    P38A2 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_2",);
+    P38A3 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_3",);
+    P38A4 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_4",);
+    P38A5 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_5",);
+    P38A6 = guclu_yanlarin(guclu_yanlarinData[8], 25, guclu_yanlarinData[8].name + "_6",);
+
+    P39A1 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_1",);
+    P39A2 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_2",);
+    P39A3 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_3",);
+    P39A4 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_4",);
+    P39A5 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_5",);
+    P39A6 = guclu_yanlarin(guclu_yanlarinData[9], 25, guclu_yanlarinData[9].name + "_6",);
+
+    P40A1 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_1",);
+    P40A2 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_2",);
+    P40A3 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_3",);
+    P40A4 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_4",);
+    P40A5 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_5",);
+    P40A6 = guclu_yanlarin(guclu_yanlarinData[10], 25, guclu_yanlarinData[10].name + "_6",);
+
+    P41A1 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_1",);
+    P41A2 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_2",);
+    P41A3 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_3",);
+    P41A4 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_4",);
+    P41A5 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_5",);
+    P41A6 = guclu_yanlarin(guclu_yanlarinData[11], 25, guclu_yanlarinData[11].name + "_6",);
+    
+    P44A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
+    P44A3 = "İki Temel Unsur:";
+    P44A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
+    P44A5 = decision_strategy(decision_strategyData, 25, "s3_x_5");
+
+    P45A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
+    P45A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
+    P45A3 = "Adımlar:";
+    P45A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    P45A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
+    P45A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
+    P45A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
+    P45A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    P45A9 = decision_strategy(decision_strategyData, 25, "image");
+
+    P46A1 = "image"; // Sana uygun kariyer dağılımların
+    P46A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P46A3 = "2." + kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P46A4 = "3." + kariyer_secim(careerSelectionLastResult[2], 25, "name");
+
+    P47A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P47A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s2_x_2");
+    P47A3 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P47A4 = kariyer_secim(careerSelectionLastResult[1], 25, "s2_x_2");
+    P47A5 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P47A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s2_x_2");
+
+    P48A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name"); // Sana En uygun kariyer Seçenekleri Genel Sektörler
+    P48A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P48A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P48A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s3_x_1"); // Güncel İşler
+    P48A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s3_x_1");
+    P48A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s3_x_1");
+
+    P49A1 = kariyer_secim(careerSelectionLastResult[0], 25, "name");
+    P49A2 = kariyer_secim(careerSelectionLastResult[1], 25, "name");
+    P49A3 = kariyer_secim(careerSelectionLastResult[2], 25, "name");
+    P49A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s4_x_1"); // Geleceğin İşleri
+    P49A5 = kariyer_secim(careerSelectionLastResult[1], 25, "s4_x_1");
+    P49A6 = kariyer_secim(careerSelectionLastResult[2], 25, "s4_x_1");
+
+    P50A1 = kariyer_secim(decision_strategyData.sectorName, 25, "sector"); // Sana En uygun kariyer seçenekleri
+    P50A2 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P50A3 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P50A4 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P50A5 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P50A6 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P50A7 = kariyer_secim(careerSelectionLastResult[0], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P50A8 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P50A9 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P50A10 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P50A11 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P50A12 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P50A13 = kariyer_secim(careerSelectionLastResult[1], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+    P50A14 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_1");
+    P50A15 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_3");
+    P50A16 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_4");
+    P50A17 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_5");
+    P50A18 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_6");
+    P50A19 = kariyer_secim(careerSelectionLastResult[2], 25, "s7_" + decision_strategyData.sectorName + "_x_7");
+
+    P52A1 = "Sevgili " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + ","; // Sevgili Dinçer
+
     var inputs_25_plus = {
+
       ...inputModel,
+
       P30A1: P30A1, // Güçlü yanların
       P30A2: P30A2, 
       P30A3: P30A3, 
