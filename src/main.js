@@ -79,7 +79,7 @@ export default async ({ req, res, log, error }) => {
   var answers = await database.getDocument(
     "65dc57b1e8322b0426ae",
     "65e97978db53e3998c12",
-    String(req),
+    String(req.body),
   );
   var processedData = JSON.parse(answers.ProcessedData);
   var rawData = JSON.parse(answers.RawData);
@@ -496,7 +496,7 @@ export default async ({ req, res, log, error }) => {
       value: `Şu anda, kim olduğunun gerçeğini ifade etme potansiyeline sahipsin. Tanındığında ve davet edildiğinde, çevrendekilere yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilecek daha yüksek ilkeli davranışların savunucusu olmak için buradasın.  Bireysellik yoluyla liderlik potansiyeline sahipsin.`,
     },
     {
-      name: "28-38", //Burası 28-38'di  38-28 olarak değiştirdim. test için
+      name: "28-38", 
       title: "Azim",
       value: `Kendini ve çevrendekileri, işin ve yaşamın doğal bir parçası olan mücadelelerde anlam ve amaç bulmaları için yüreklendirip güçlendirebilirsin. En zor ihtimallere karşı bile kendi yolunda gitmek için inatçı ve kararlı olman sağlıklı. Anlamlı olduğunu düşündüğün bir amaç için savaşmak senin için değerli. Çevrendekileri daha derin bir kariyer ve yaşam amacı sürdürmeye teşvik ederek onları güçlendirebilirsin.`,
     },
@@ -577,7 +577,7 @@ export default async ({ req, res, log, error }) => {
       value: `Çevrendekileri geleceğe güvenli bir şekilde götürme potansiyeline sahipsin. Bu, kesin olarak takip edilebilecek test edilmiş ve yerleşik kalıplara dayanan mantıklı bir liderlik türüdür. Liderlik etmek için önce güven kazanmalısın. Mevcut kalıpları kavrayan, eğilimleri anlayan ve insanların ihtiyaçlarıyla temas halinde olan biri olarak tanınmalısın. Sesin çevrendekilerde bir etki yaratır, ancak liderlik etmek için çoğunluk tarafından davet edilmen gerekir. Ayrıca nüfuz ederek perdenin arkasından da liderlik etme yeteneğine de sahipsin.`,
     },
     {
-      name: "18-58", // Burası 18-58'di 58-18 olarak değiştirdim. test için
+      name: "18-58", 
       title: "Yargılama",
       value: `Herhangi bir kalıbı yargılamak, meydan okumak, düzeltmek ve mükemmelleştirmek için doyumsuz bir dürtüye sahipsin. Sadece en iyi cevaplara sahip olduğunu kanıtlamayı amaçlayan mantığın için hiçbir zorluk çok büyük değil. Hataları görüp düzeltebilirsin. Düzeltmelerini isteyenler, cevaplarına hazırlıklı ve açık olan kişilerdir.`,
     },
@@ -1126,42 +1126,42 @@ var kariyer_secim_25_40_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler ";
 var kariyer_secim_25_40_s2_9_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
 
 var kariyer_secim_s3_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\nIllustrator\nMüzisyen\nYönetmenSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
+var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\İllüstratör\nMüzisyen\nYönetmen\nSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
 var kariyer_secim_s3_2_0 = "Liderlik ve Yönetim Kariyerleri";
-var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra DirektörüKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
+var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra Direktörü\nKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
 var kariyer_secim_s3_3_0 = "Yardım ve Sosyal Kariyerler";
-var kariyer_secim_s3_3_1 = "Sosyal Hizmet UzmanıDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
+var kariyer_secim_s3_3_1 = "Sosyal Hizmet Uzmanı\nDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
 var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler";
 var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
 var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler";
 var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
 var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler";
-var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nYönetici Asistanı\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
+var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
 var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
 var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
-var kariyer_secim_s3_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri";
+var kariyer_secim_s3_8_0 = "Öğretim ve Mentorluk Kariyerleri"; 
 var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
 var kariyer_secim_s3_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
 var kariyer_secim_s3_9_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
 
 var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı (Genişletilmiş Gerçeklik)\nYapay Zeka Tarafından Oluşturulan Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı (Biyoteknoloji Sanatı)\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Geliştirilmiş Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka Tarafından Oluşturulan Hikaye Anlatıcısı\nMetaverse MimarıYapay Zeka Destekli Film Yapımcısı";
+var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı\nYapay Zeka ile Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka ile Hikaye Anlatıcısı\nMetaverse Mimarı";
 var kariyer_secim_s4_2_0 = "Liderlik ve Yönetim Kariyerleri";
-var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nBaş İnovasyon Sorumlusu\nESG (Çevresel, Sosyal ve Yönetişim) YöneticisiVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
+var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nESG Yöneticisi\nVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
 var kariyer_secim_s4_3_0 = "Yardım ve Sosyal Kariyerler";
-var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYapay Zeka Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı Yapay Zeka Koçu\nGerontolog (yaşlı bakımında uzmanlaşmış)\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYapay Zeka Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYapay Zeka ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu";
+var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYZ Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı YZ Koçu\nGerontolog\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYZ Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYZ ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu"; // sonuncuda silinebilir.
 var kariyer_secim_s4_4_0 = "Teknik ve Mühendislik Kariyerler";
-var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYapay Zeka (AI) Etik Uzmanı\nRobotik Proses Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nSağlık Mühendisi için Yapay Zeka\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi (Sürdürülebilir Altyapı)\nUzaktan Drone Teknisyeni";
+var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYZ Etik Uzmanı\nRobotik Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi\nUzaktan Drone Teknisyeni";
 var kariyer_secim_s4_5_0 = "Satış ve İlişkisel Kariyerler";
-var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYapay Zeka Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nE-ticaret Müdürü\nSosyal Ticaret Uzmanı\nYapay Zeka Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi Yapay Zeka Tasarımcısı";
+var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYZ Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nSosyal Ticaret Uzmanı\nYZ Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi YZ Tasarımcısı";
 var kariyer_secim_s4_6_0 = "Organizasyonel ve İdari Kariyerler";
-var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Süreç Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
+var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
 var kariyer_secim_s4_7_0 = "Yenilikçi ve Girişimci Kariyerler";
-var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Arcade Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Turizm Operatörü\nYeşil Teknoloji Yenilikçisi\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
-var kariyer_secim_s4_8_0 = "Öğretmenlik ve Mentorluk Kariyerleri";
-var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYapay Zeka Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\nÇevrimiçi Öğrenme Deneyimi Tasarımcısı\nArtırılmış Gerçeklik Eğitmeni\nHayat Boyu Öğrenme Kolaylaştırıcısı\nSanal Dünyalarda Gençlik Mentoru\nYapay Zeka Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYapay Zeka Destekli Dil Eğitmeni";
+var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Alan Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Operatörü\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
+var kariyer_secim_s4_8_0 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYZ Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\NArtırılmış Gerçeklik Eğitmeni\nSanal Dünyalarda Gençlik Mentoru\nYZ Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYZ Destekli Dil Eğitmeni";
 var kariyer_secim_s4_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
-var kariyer_secim_s4_9_1 = "Veri Bilimcisi, Makine Öğrenimi Mühendisi, Yapay Zeka (AI) Etikçisi, Veri Gizliliği Görevlisi, Blockchain Veri Analisti, Baş Veri Sorumlusu, Tahmine Dayalı Analitik Modelleyici, Artırılmış Analitik Uzmanı, Siber Güvenlik Veri Analisti, Kuantum Veri Analisti, Sağlık Bilişiminde Veri Bilimcisi, Veriye Dayalı Pazarlama Uzmanı, Sürdürülebilirlik Veri Analisti, İnsan Kaynakları Analisti için Yapay Zeka, IoT (Nesnelerin İnterneti) Veri Analisti";
+var kariyer_secim_s4_9_1 = "Veri Bilimcisi\nMakine Öğrenimi Mühendisi\nYapay Zeka (AI) Etikçisi\nVeri Gizliliği Görevlisi\nBlockchain Veri Analisti\nVeri Sorumlusu\nAnalitik Modelleyici\nArtırılmış Analitik Uzmanı\nSiber Güvenlik Veri Analisti\nKuantum Veri Analisti\nSağlık Bilişiminde Veri Bilimcisi\nVeriye Dayalı Pazarlama Uzmanı\nSürdürülebilirlik Veri Analisti\nIoT (Nesnelerin İnterneti) Veri Analisti";
 
 var kariyer_secim_12_25_s5_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s5_1_2 = "Grafik Tasarımı";
@@ -1953,12 +1953,12 @@ var guclu_yanlarin_52_9_4 = "Detay Odaklı Değerlendirme Kendini adadığın he
 var guclu_yanlarin_52_9_5 = "Odaklanma Odaklanacak değerli bir şey olmadığında kendini huzursuz ve depresif hissedebilirsin. Bu güçlü enerjiyi birçok şeyle uğraşarak dağıtmanız sağlıklı olmayabilir. İçgüdüsel tepkilerin neye odaklanacağını, neyi mükemmelleştireceğini ve ne zaman paylaşacağını ortaya çıkarır. Bir seferde tek bir şeye derinlemesine odaklanma yeteneğin, seçtiğin alanda uzman olmanı sağlayabilirr ve derin bilgi ve uzmanlık sunar.  ";
 var guclu_yanlarin_52_9_6 = "Konsantrasyon gücün, işine odaklanmış ve adanmış bir yaklaşım sunmanı sağlar, bu da seni titizlik, detay ve eksiksizlik gerektiren her profesyonel ortamda değerli bir varlık haline getirir. Bu gücü kullanarak, derin odaklanma, kritik değerlendirme ve adanmış uzmanlık gerektiren rollerde mükemmel olabilir, katkılarının etkili ve yüksek değerli olmasını sağlayabilirsin.  ";
 
-var guclu_yanlarin_18_58_1 = "“Mantıklı Yargı” Gücü Quantum 58-18  ";
-var guclu_yanlarin_18_58_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.  ";
-var guclu_yanlarin_18_58_3 = "Ustalık ve İyileştirme Ustalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.  ";
-var guclu_yanlarin_18_58_4 = "Davet Edilen Fikir Neşe Getirir Sorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.  ";
-var guclu_yanlarin_18_58_5 = "İş Dünyasında Gücünü Kullanmak İş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.  ";
-var guclu_yanlarin_18_58_6 = "Mantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
+var guclu_yanlarin_58_18_1 = "“Mantıklı Yargı” Gücü Quantum 58-18  ";
+var guclu_yanlarin_58_18_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.  ";
+var guclu_yanlarin_58_18_3 = "Ustalık ve İyileştirme Ustalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.  ";
+var guclu_yanlarin_58_18_4 = "Davet Edilen Fikir Neşe Getirir Sorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.  ";
+var guclu_yanlarin_58_18_5 = "İş Dünyasında Gücünü Kullanmak İş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.  ";
+var guclu_yanlarin_58_18_6 = "Mantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
 
 var guclu_yanlarin_48_16_1 = "“Yetenek” Gücü Quantum 48-16  ";
 var guclu_yanlarin_48_16_2 = "Sezgisel içgörülerini tekrarlayan deneyimler ve pratik ile birleştirebilirsin. Bu süreç, içsel bir yeteneği mükemmelleştirmene yardımcı olur ve tutkuyla bağlı olduğun herhangi bir alanda yenilikçi çözümler ve rafine teknikler geliştirmene olanak tanır.  ";
@@ -1983,12 +1983,12 @@ var guclu_yanlarin_53_42_6 = "Beklentisiz yaşamak, deneyimlere önceden belirle
 var guclu_yanlarin_53_42_7 = "İş dünyasında gücünü kullanmak, İş dünyasında, döngüleri anlamak ve kucaklamak, daha stratejik planlama ve yürütmeye imkan tanır. Projelerin ve girişimlerin doğal akışını tanıyarak, kaynakları ve beklentileri daha iyi yönetebilirsin. Geçmişteki başarıları ve başarısızlıkları yansıtmak, gelecekteki girişimler için değerli içgörüler sağlar. Karar verme süreçlerinde içgüdülerine güvenmek, tuzaklardan kaçınmana ve sürekli ilerleme sağlamana yardımcı olabilir.  ";
 var guclu_yanlarin_53_42_8 = "Döngüler gücün, büyüme ve gelişim üzerinde benzersiz bir bakış açısı sunan güçlü bir yetenektir. Bu gücü kullanarak, hayatın zorluklarını zarafet ve dirençle yönetebilir, kişisel ve profesyonel başarıya katkıda bulunabilirsin. Hayatın döngüsel doğasını kucaklamak, daha tatmin edici ve etkili bir yolculuğa yol açabilir.  ";
 
-var guclu_yanlarin_29_46_1 = "“Keşif” Gücü Quantum 29-46  ";
-var guclu_yanlarin_29_46_2 = "Keşif Gücü, yeni farkındalıklara dalmana ve bir deneyim tamamlanana kadar azimle devam etmene olanak tanır. Bu güç, doğru zamanda doğru yerde olmanı sağlayan içgüdüsel yanıtın aracılığıyla erişilen derin bir dayanıklılık ile beslenir. Keşif sürecinden elde edebileceğin memnuniyet ve bilgelik için net bir bağlılık çok önemlidir. Bir deneyim o anda anlamlı gelmese de tamamen kendini kaybedebilir, arkana bakmadan devam edebilirsin. Döngünün sonu, nihai keşfini bulacağın yerdir. İçgüdüsel yanıtını takip etmek ve beklentilerini bırakmak, başkalarının başarısız olduğu yerlerde başarılı olma potansiyelini artırır.  ";
-var guclu_yanlarin_29_46_3 = "Farkındalıkları ve Azmi Kucaklamak. Bir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.";
-var guclu_yanlarin_29_46_4 = "Bağlılık ve Memnuniyet, Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.  ";
-var guclu_yanlarin_29_46_5 = "Deneyime Dalmak, Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir ";
-var guclu_yanlarin_29_46_6 = "Keşif Gücü, azim, bağlılık ve sezgiyi birleştiren güçlü bir özelliktir. Bu gücü kullanarak yenilikçi çözümler üretebilir, gizli gerçekleri ortaya çıkarabilir ve başkalarının tökezleyebileceği alanlarda başarı elde edebilirsin.   ";
+var guclu_yanlarin_46_29_1 = "“Keşif” Gücü Quantum 29-46";
+var guclu_yanlarin_46_29_2 = "Keşif Gücü, yeni farkındalıklara dalmana ve bir deneyim tamamlanana kadar azimle devam etmene olanak tanır. Bu güç, doğru zamanda doğru yerde olmanı sağlayan içgüdüsel yanıtın aracılığıyla erişilen derin bir dayanıklılık ile beslenir. Keşif sürecinden elde edebileceğin memnuniyet ve bilgelik için net bir bağlılık çok önemlidir. Bir deneyim o anda anlamlı gelmese de tamamen kendini kaybedebilir, arkana bakmadan devam edebilirsin. Döngünün sonu, nihai keşfini bulacağın yerdir. İçgüdüsel yanıtını takip etmek ve beklentilerini bırakmak, başkalarının başarısız olduğu yerlerde başarılı olma potansiyelini artırır.";
+var guclu_yanlarin_46_29_3 = "Farkındalıkları ve Azmi Kucaklamak. Bir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.";
+var guclu_yanlarin_46_29_4 = "Bağlılık ve Memnuniyet, Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.  ";
+var guclu_yanlarin_46_29_5 = "Deneyime Dalmak, Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir ";
+var guclu_yanlarin_46_29_6 = "Keşif Gücü, azim, bağlılık ve sezgiyi birleştiren güçlü bir özelliktir. Bu gücü kullanarak yenilikçi çözümler üretebilir, gizli gerçekleri ortaya çıkarabilir ve başkalarının tökezleyebileceği alanlarda başarı elde edebilirsin.   ";
 
 var guclu_yanlarin_13_33_1 = "“Tanıklık” Gücü (Kuantum 13-33)  ";
 var guclu_yanlarin_13_33_2 = "Dikkatle dinleme, duyduğun bilgileri ve sırları saklama ve ders çıkarılabilecek anılar toplama yeteneğine sahipsin. Tanık olduğun deneyimlere çekilip, yüzeyin altındaki daha derin bir gerçeğin ortaya çıkmasını sabırla bekleyerek bu deneyimleri yansıtabilirsin. Bu bilgi toplama ve yansıtma yeteneği, dikkatli gözlem ve analiz gerektiren rollerde çok değerlidir.  ";
@@ -2284,15 +2284,15 @@ var kslk_ozl_12_25_social_questions_1 = "Bir arkadaşımın problemini çözmesi
 var kslk_ozl_12_25_social_questions_2 = "Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
 var kslk_ozl_12_25_social_questions_3 = "Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
 var kslk_ozl_25_plus_social_questions_1 = "• İş arkadaşlarıma yardım ettiğimde ya da onlara rehberlik ettiğimde, hangi becerilerim öne çıkıyor? Bu yardımseverliği iş hayatımda daha fazla nasıl kullanabilirim?";
-var kslk_ozl_25_plus_social_questions_2 = "• Ekip çalışmalarında başkalarını motive ettiğimde, işlerin ilerleyişini nasıl etkiliyorum? Bu yeteneğimi daha fazla projeye nasıl yansıtabilirim? ";
-var kslk_ozl_25_plus_social_questions_3 = "• Başkalarının ihtiyaçlarını anlamak ve uygun çözümler sunmak, işimde bana nasıl katkılar sağlıyor? Bu empatiyi iş yerinde daha da güçlendirmek için neler yapabtraditional";
+var kslk_ozl_25_plus_social_questions_2 = "• Başkalarının ihtiyaçlarını anlamak ve uygun çözümler sunmak, işimde bana nasıl katkılar sağlıyor? Bu empatiyi iş yerinde daha da güçlendirmek için neler yapabtraditional";
+var kslk_ozl_25_plus_social_questions_3 = "• Ekip çalışmalarında başkalarını motive ettiğimde, işlerin ilerleyişini nasıl etkiliyorum? Bu yeteneğimi daha fazla projeye nasıl yansıtabilirim? ";
 
 var kslk_ozl_entrepreneur_your_profile = "Girişimci";
 var kslk_ozl_entrepreneur_your_profile_ = "Projelerin başlatılması ve yürütülmesi, özellikle de ticari girişimler ile ilgili iş faaliyetlerinden daha çok keyif alabilirsin. İnsanları ikna etmeyi, yönlendirmeyi ve karar vermeyi seversin. Kâr için risk almayı tercih edebilirsin. Senin gibi insanlar düşünceden ziyade eylemi tercih edebilirler.";
 var kslk_ozl_entrepreneur_your_interests_1 = "Girişimci insanlar ticari faaliyetlerden ve anlaşma yapmaktan hoşlanırlar. Kendine güvenen, iddialı, ikna edici ve enerjiktirler. Sözel yetenekli, Girişimci bireyler, sözel becerilerini başkalarını desteklemek için kullanan Sosyal bireylerin aksine, bu becerileri insanları ikna etmek için kullanırlar. Bir şeyler satmaktan, fikirleri tanıtmaktan ve insanları etkilemekten hoşlanırlar.";
 var kslk_ozl_entrepreneur_your_interests_2 = "Ayrıca statü ve prestije değer verirler ve bu arzuları karşılayabilecek meslekler ararlar. Girişimci insanlar aynı zamanda rekabetçidir ve risk almaya isteklidir. Sonuç olarak, girişimci bir yapıya sahiptirler ve projeler başlatmayı ve başkalarını gemiye atlamaya ikna etmeyi severler. Girişimci bireyler, somut şeyler ve fikirler yerine, insanlarla ve verilerle çalışmaktan hoşlanırlar.";
 var kslk_ozl_entrepreneur_your_work_areas = "İşletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
-var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak";
+var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak.";
 var kslk_ozl_12_25_entrepreneur_questions_1 = "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_2 = "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
 var kslk_ozl_12_25_entrepreneur_questions_3 = "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
@@ -2310,8 +2310,8 @@ var kslk_ozl_12_25_traditional_questions_1 = "Ders çalışırken veya ödev yap
 var kslk_ozl_12_25_traditional_questions_2 = "Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
 var kslk_ozl_12_25_traditional_questions_3 = "Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_traditional_questions_1 = "• Düzenli ve sistematik bir şekilde çalıştığımda işlerimi ne kadar daha verimli yapıyorum? Bu düzenli çalışma alışkanlığımı daha büyük projelere nasıl yayabilirim? ";
-var kslk_ozl_25_plus_traditional_questions_2 = "• Detaylara gösterdiğim özen, iş yerimde hangi farkları yaratıyor? Bu dikkatimi projelerimde daha etkili nasıl kullanabilirim? ";
-var kslk_ozl_25_plus_traditional_questions_3 = "• Planlı ve organize olduğumda iş yerindeki zamanımı nasıl daha iyi yönetiyorum? Bu planlama becerisini iş hayatımda nasıl daha geniş çapta uygulayabilirim? ";
+var kslk_ozl_25_plus_traditional_questions_2 = "• Planlı ve organize olduğumda iş yerindeki zamanımı nasıl daha iyi yönetiyorum? Bu planlama becerisini iş hayatımda nasıl daha geniş çapta uygulayabilirim? ";
+var kslk_ozl_25_plus_traditional_questions_3 = "• Detaylara gösterdiğim özen, iş yerimde hangi farkları yaratıyor? Bu dikkatimi projelerimde daha etkili nasıl kullanabilirim? ";
 
 // İş Yaşamında Rolün
 var is_y_r_1_s2_0 = "Otorite/Öncü";
@@ -2518,8 +2518,8 @@ var krktr_ozl_12_25_compatibility_questions_1 = "Sınıf arkadaşlarıma yardım
 var krktr_ozl_12_25_compatibility_questions_2 = "Başkalarının ihtiyaçlarını anlamak ve onlara destek olmak, sınıf içindeki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi okulda daha fazla nasıl geliştirebilirim?";
 var krktr_ozl_12_25_compatibility_questions_3 = "Anlayışlı ve sabırlı olduğum durumlarda nasıl bir etki yaratıyorum? Bu özellikleri grup çalışmaları veya sınıf içindeki tartışmalarda nasıl daha iyi kullanabilirim?";
 var krktr_ozl_40_plus_compatibility_questions_1 = "• İş arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda hangi becerilerim öne çıkıyor? Bu iş birliğini projelerimde daha etkili nasıl kullanabilirim?";
-var krktr_ozl_40_plus_compatibility_questions_2 = "• Çalışma arkadaşlarımın ihtiyaçlarını anlamak ve onlara destek olmak, iş ortamındaki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi iş hayatımda nasıl daha da geliştirebilirim?";
-var krktr_ozl_40_plus_compatibility_questions_3 = "• Anlayışlı ve sabırlı olduğumda iş yerinde nasıl bir etki yaratıyorum? Bu özellikleri zorlu projelerde ve ekip çalışmalarında nasıl daha iyi kullanabilirim?";
+var krktr_ozl_40_plus_compatibility_questions_2 = "• Anlayışlı ve sabırlı olduğumda iş yerinde nasıl bir etki yaratıyorum? Bu özellikleri zorlu projelerde ve ekip çalışmalarında nasıl daha iyi kullanabilirim?";
+var krktr_ozl_40_plus_compatibility_questions_3 = "• Çalışma arkadaşlarımın ihtiyaçlarını anlamak ve onlara destek olmak, iş ortamındaki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi iş hayatımda nasıl daha da geliştirebilirim?";
 
 var krktr_ozl_emotional_resilience = "Duygusal Dayanıklılık"; //bold
 var krktr_ozl_character_elements_emotional_resilience_s1 = "Duygusal denge, bir kişinin stresi nasıl yönettiğini, duygusal dengeyi nasıl koruduğunu ve sağlıklı bir özgüven sürdürebilme yeteneğini yansıtır. Duygusal dengesi yüksek olan bireyler, baskı altında daha sakin kalır ve zorluklardan çabuk toparlanabilirler.\n\nBuna karşılık, duygusal dengesi düşük olan kişiler, daha güçlü duygusal dalgalanmalar yaşayabilir, stres karşısında kolayca bunalmış hissedebilir ve zor zamanlarda olumlu bir benlik imajını sürdürmekte zorlanabilirler. Bu özellik, hem kişisel refah hem de profesyonel başarı açısından kritik öneme sahiptir ve zorluklarla başa çıkma şeklimizi doğrudan etkiler.";
@@ -2529,9 +2529,9 @@ var krktr_ozl_other_attributes_emotional_resilience_s2 = "Sakin,\nsoğuk kanlı,
 var krktr_ozl_12_25_emotional_resilience_questions_1 = "Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_2 = "Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_3 = "Zor bir durumu atlattıktan sonra nasıl daha güçlü hissediyorum? Bu dayanıklılığı günlük okul hayatımda nasıl daha fazla kullanabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_1 = "• İşte stresli durumlarla karşılaştığımda sakin kalmayı başardığımda nasıl sonuçlar elde ediyorum? Bu duygusal dayanıklılığı yoğun iş dönemlerinde nasıl daha iyi kullanabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_2 = "• Hata yaptığımda, bu hatalardan nasıl ders çıkarıyorum? Öğrenme sürecimi iş hayatımda daha verimli hale getirmek için neler yapabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_3 = "• Zor bir projeyi tamamladıktan sonra kendimi nasıl daha güçlü hissediyorum? Bu dayanıklılığı işimde sürekli başarı sağlamak için nasıl daha fazla kullanabilirim?";
+var krktr_ozl_40_plus_emotional_resilience_questions_1 = "• Hata yaptığımda, bu hatalardan nasıl ders çıkarıyorum? Öğrenme sürecimi iş hayatımda daha verimli hale getirmek için neler yapabilirim?";
+var krktr_ozl_40_plus_emotional_resilience_questions_2 = "• Zor bir projeyi tamamladıktan sonra kendimi nasıl daha güçlü hissediyorum? Bu dayanıklılığı işimde sürekli başarı sağlamak için nasıl daha fazla kullanabilirim?";
+var krktr_ozl_40_plus_emotional_resilience_questions_3 = "• İşte stresli durumlarla karşılaştığımda sakin kalmayı başardığımda nasıl sonuçlar elde ediyorum? Bu duygusal dayanıklılığı yoğun iş dönemlerinde nasıl daha iyi kullanabilirim?";
 
 // İletişim
 //12-25
@@ -2730,48 +2730,50 @@ var ai_25_s3_7_2 = "• AI Etikleri: Yapay zekanın toplumsal etkileri, karar al
 var ai_25_s3_7_3 = "• Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
 
 var ai_25_s3_8_1 = "Duygusal Zeka (EQ)";
-var ai_25_s3_8_2 = "• Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir.";
+var ai_25_s3_8_2 = "• Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir.";
 var ai_25_s3_8_3 = "• Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
 
 var ai_25_s3_9_1 = "Yenilikçi ve Girişimci Düşünce";
 var ai_25_s3_9_2 = "• Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
 var ai_25_s3_9_3 = "• Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
 
+//---
+
 var ai_25_s4u1_1_1 = "Dijital Okuryazarlık";
 var ai_25_s4u1_1_2 = "• Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin?";
 var ai_25_s4u1_1_3 = "• AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını ön görebiliyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin?";
 
 var ai_25_s4u1_2_1 = "Veri Okuryazarlığı";
-var ai_25_s4u1_2_2 = "• Veri Gizliliği ve Güvenlik: Gençlerin veri güvenliğinin ve gizliliğin önemini anlamaları, kişisel verilerin nasıl korunacağını bilmeleri gereklidir.";
-var ai_25_s4u1_2_3 = "• Veri Analizi: Verileri toplama, analiz etme ve bu verilerden anlamlı sonuçlar çıkarabilme yeteneği. Günümüz dünyasında kararlar veri odaklı alındığı için bu beceri çok değerlidir. ";
+var ai_25_s4u1_2_2 = "• Verileri analiz etme yeteneğini, okul projelerinde ya da iş hayatında nasıl kullanabilirsin? Verilere dayalı kararlar almanın sana nasıl avantaj sağlayacağını düşünüyorsun?";
+var ai_25_s4u1_2_3 = "• Veri güvenliği ve gizliliği konusunda ne kadar bilinçlisin? Bu bilgini ileride çalışacağın bir şirkette ya da kendi girişiminde nasıl kullanabilirsin?";
 
 var ai_25_s4u1_3_1 = "Kodlama ve Programlama";
-var ai_25_s4u1_3_2 = "• Programlama Dilleri: Python, JavaScript gibi temel programlama dillerini öğrenmek, AI geliştirme ve teknolojiyle ilgili işlerde başarılı olmak için önemlidir.";
-var ai_25_s4u1_3_3 = "• Algoritmik Düşünme: Problemleri çözmek için sistematik ve mantıklı yollar geliştirmek, AI çağında temel bir beceridir.";
+var ai_25_s4u1_3_2 = "• Programlama becerilerini iş hayatında nasıl kullanabilir ve bu sayede farklı projelerde nasıl liderlik yapabilirsin? Hangi programlama dillerini öğrenmenin kariyer hedeflerine ulaşmada sana yardımcı olacağını düşünüyorsun?";
+var ai_25_s4u1_3_3 = "•	Algoritmik düşünme yeteneğinle karşılaştığın problemleri nasıl daha sistematik çözümlerle çözebilirsin? Bu beceriyi ileride hangi mesleklerde avantaj olarak kullanabilirsin?";
 
 var ai_25_s4u1_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-var ai_25_s4u1_4_2 = "• Analitik Düşünme: Verilerden veya olaylardan anlam çıkarma, çözüm yolları geliştirme yeteneği. AI araçlarını doğru ve etkili bir şekilde kullanabilmek için bu beceri hayati önem taşır.";
-var ai_25_s4u1_4_3 = "• Yaratıcı Problem Çözme: Yenilikçi ve yaratıcı yollarla çözümler üretebilme, özellikle AI ve teknoloji alanlarında avantaj sağlar.";
+var ai_25_s4u1_4_2 = "•	Analitik düşünme becerinle verilerden ya da olaylardan anlam çıkarma yeteneğini hangi alanlarda geliştirebilir ve kullanabilirsin? Bu becerinin sana ileride hangi kariyer fırsatlarını sunacağını düşünüyorsun?";
+var ai_25_s4u1_4_3 = "•	Yaratıcı problem çözme yeteneğini kullanarak hangi projelerde ya da iş alanlarında fark yaratabileceğini düşünüyorsun? Bu beceriyi nasıl daha fazla geliştirebilirsin?";
 
 var ai_25_s4u1_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-var ai_25_s4u1_5_2 = "• Esneklik: Sürekli değişen teknoloji ve iş dünyasına hızla adapte olabilmek. Yeni AI araçlarını, sistemlerini öğrenme yeteneği önemlidir. ";
-var ai_25_s4u1_5_3 = "• Yaşam Boyu Öğrenme: Teknoloji geliştikçe, yeni beceriler öğrenme ve mevcut becerileri güncelleme yeteneği daha da önem kazanıyor.";
+var ai_25_s4u1_5_2 = "•	Hızla değişen teknoloji dünyasında nasıl adapte olabilirsin? Esnek olma yeteneğinle hangi mesleklerde daha başarılı olabileceğini düşünüyorsun?";
+var ai_25_s4u1_5_3 = "•	Yaşam boyu öğrenme anlayışınla hangi yeni teknolojileri öğrenmeyi planlıyorsun? Bu öğrenme sürecini kariyerin boyunca nasıl sürdürebilirsin?";
 
 var ai_25_s4u1_6_1 = "İletişim ve İşbirliği";
-var ai_25_s4u1_6_2 = "• Teknik ve İnsan Dili Arasındaki Köprü: AI ve teknoloji alanında çalışırken karmaşık bilgileri sade bir şekilde açıklayabilme yeteneği önemlidir.";
-var ai_25_s4u1_6_3 = "• Takım Çalışması: Özellikle çok disiplinli projelerde işbirliği yapabilmek, AI projelerinde başarıya ulaşmanın anahtarlarından biridir.";
+var ai_25_s4u1_6_2 = "•	Karmaşık teknik bilgileri sade bir şekilde açıklayabilme yeteneğinle hangi projelerde liderlik yapabilir ya da takım arkadaşlarına rehberlik edebilirsin? Bu beceriyi hangi iş alanlarında kullanabileceğini düşünüyorsun?";
+var ai_25_s4u1_6_3 = "•	Takım çalışması becerinle hangi disiplinler arası projelerde başarılı olabilirsin? AI projelerinde işbirliği yaparak hangi hedeflere ulaşmayı planlıyorsun?";
 
 var ai_25_s4u1_7_1 = "Etik ve Sosyal Sorumluluk";
-var ai_25_s4u1_7_2 = "• AI Etikleri: Yapay zekanın toplumsal etkileri, karar alma süreçlerindeki rolü ve insanlara olan etkileri konusunda bilinçli olmak. ";
-var ai_25_s4u1_7_3 = "• Sosyal Sorumluluk: AI'nın etkilerini anlamak ve bu teknolojiyi sosyal fayda yaratacak şekilde kullanmak, gençlerin sadece teknik anlamda değil, etik anlamda da gelişmiş bireyler olmalarını sağlar.";
+var ai_25_s4u1_7_2 = "•	Yapay zekanın etik kullanımı hakkında sahip olduğun bilinçle hangi alanlarda fark yaratabilirsin? AI'nın sosyal etkilerini göz önünde bulundurarak, hangi projelerde yer almayı planlıyorsun?";
+var ai_25_s4u1_7_3 = "•	AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin?";
 
 var ai_25_s4u1_8_1 = "Duygusal Zeka (EQ)";
-var ai_25_s4u1_8_2 = "• Empati ve Duygusal Anlayış: AI ve teknolojik araçlarla yoğun bir şekilde çalışırken, insan ilişkilerini ve duygusal farkındalığı kaybetmemek önemlidir. Liderlik ve yönetim becerileri için duygusal zeka oldukça kıymetlidir. ";
-var ai_25_s4u1_8_3 = "• Stres Yönetimi: AI ve dijital dünyada sürekli öğrenme ve adaptasyonun getirdiği stresle başa çıkma becerileri de gelişmelidir.";
+var ai_25_s4u1_8_2 = "•	Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin?";
+var ai_25_s4u1_8_3 = "•	Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin?";
 
 var ai_25_s4u1_9_1 = "Yenilikçi ve Girişimci Düşünce";
-var ai_25_s4u1_9_2 = "• Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
-var ai_25_s4u1_9_3 = "• Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
+var ai_25_s4u1_9_2 = "•	Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun?";
+var ai_25_s4u1_9_3 = "•	Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin?";
 
 var ai_25_s4u2_1_1 = "Dijital Okuryazarlık";
 var ai_25_s4u2_1_2 = "• Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
@@ -2826,97 +2828,6 @@ var ai_25_s4u2_9_2 = "• Yapay zeka ile ilgili yenilikçi iş fikirleri gelişt
 var ai_25_s4u2_9_3 = "• Girişimcilik becerilerimi geliştirmek için hangi fırsatları değerlendiriyorum? AI projelerinde hangi iş fırsatlarını görebiliyorum?";
 var ai_25_s4u2_9_4 = "• Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
 var ai_25_s4u2_9_5 = "• Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
-
-//5. sayfa yok neden yazılmış anlamadım!
-var ai_25_s5u2_1_1 = "Dijital Okuryazarlık";
-var ai_25_s5u2_1_2 = "• Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
-var ai_25_s5u2_1_3 = "• Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum? ";
-var ai_25_s5u2_1_4 = "• Yapay zeka hakkında neler biliyorum? AI'nın hayatımı nasıl etkilediğini anlamaya ne kadar zaman ayırdım? ";
-var ai_25_s5u2_1_5 = "• Yapay zeka ve onun sunduğu fırsatlar hakkında bilgi edinmek beni heyecanlandırıyor mu? Bu alanda kendimi geliştirmek için hangi adımları atabilirim? ";
-
-var ai_25_s5u2_2_1 = "Veri Okuryazarlığı";
-var ai_25_s5u2_2_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_2_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_2_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_2_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_3_1 = "Kodlama ve Programlama ";
-var ai_25_s5u2_3_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_3_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_3_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_3_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-var ai_25_s5u2_4_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_4_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_4_3 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_4_4 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-var ai_25_s5u2_5_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_5_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_5_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_5_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_6_1 = "İletişim ve İşbirliği";
-var ai_25_s5u2_6_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_6_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_6_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_6_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_7_1 = "Etik ve Sosyal Sorumluluk";
-var ai_25_s5u2_7_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_7_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_7_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_7_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_7_1 = "Duygusal Zeka (EQ)";
-var ai_25_s5u2_7_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_7_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_7_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_7_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u2_8_1 = "Yenilikçi ve Girişimci Düşünce";
-var ai_25_s5u2_8_2 = "• Bir sorunla karşılaştığımda verilerden nasıl yararlanıyorum? Verilere dayalı kararlar almak işimi nasıl kolaylaştırıyor?";
-var ai_25_s5u2_8_3 = "• Kişisel verilerimi nasıl koruyorum? İnternette gizliliğimi sağlamak için hangi adımları atıyorum? ";
-var ai_25_s5u2_8_4 = "• Çevrim içi güvenlik ve veri gizliliği konularında ne kadar bilgi sahibiyim? Güvenlik açıkları konusunda farkındalığımı nasıl artırabilirim? ";
-var ai_25_s5u2_8_5 = "• Kişisel ve başkalarına ait verileri koruma sorumluluğumun bilincinde miyim? Bu konuda geliştirmem gereken davranışlar neler? ";
-
-var ai_25_s5u1_1_1 = "Dijital Okuryazarlık";
-var ai_25_s5u1_1_2 = "• Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin? ";
-var ai_25_s5u1_1_3 = "• AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını düşünüyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin? ";
-
-var ai_25_s5u1_2_1 = "Veri Okuryazarlığı";
-var ai_25_s5u1_2_2 = "• Verileri analiz etme yeteneğini, okul projelerinde ya da iş hayatında nasıl kullanabilirsin? Verilere dayalı kararlar almanın sana nasıl avantaj sağlayacağını düşünüyorsun? ";
-var ai_25_s5u1_2_3 = "• Veri güvenliği ve gizliliği konusunda ne kadar bilinçlisin? Bu bilgini ileride çalışacağın bir şirkette ya da kendi girişiminde nasıl kullanabilirsin? ";
-
-var ai_25_s5u1_3_1 = "Kodlama ve Programlama";
-var ai_25_s5u1_3_2 = "•  Programlama becerilerini okul projelerinde nasıl kullanabilir ve bu sayede farklı projelerde liderlik yapabilirsin? Hangi programlama dillerini öğrenmenin kariyer hedeflerine ulaşmada sana yardımcı olacağını düşünüyorsun? ";
-var ai_25_s5u1_3_3 = "• Algoritmik düşünme yeteneğinle karşılaştığın problemleri nasıl daha sistematik çözümlerle çözebilirsin? Bu beceriyi ileride hangi mesleklerde avantaj olarak kullanabilirsin? ";
-
-var ai_25_s5u1_4_1 = "Eleştirel Düşünme ve Problem Çözme";
-var ai_25_s5u1_4_2 = "• Analitik düşünme becerinle verilerden ya da olaylardan anlam çıkarma yeteneğini hangi alanlarda geliştirebilir ve kullanabilirsin? Bu becerinin sana ileride hangi kariyer fırsatlarını sunacağını düşünüyorsun? ";
-var ai_25_s5u1_4_3 = "• Yaratıcı problem çözme yeteneğini kullanarak hangi projelerde ya da iş alanlarında fark yaratabileceğini düşünüyorsun? Bu beceriyi nasıl daha fazla geliştirebilirsin? ";
-
-var ai_25_s5u1_5_1 = "Uyarlanabilirlik ve Sürekli Öğrenme";
-var ai_25_s5u1_5_2 = "• Hızla değişen teknoloji dünyasında nasıl adapte olabilirsin? Esnek olma yeteneğinle hangi mesleklerde daha başarılı olabileceğini düşünüyorsun? ";
-var ai_25_s5u1_5_3 = "• Yaşam boyu öğrenme anlayışınla hangi yeni teknolojileri öğrenmeyi planlıyorsun? Bu öğrenme sürecini kariyerin boyunca nasıl sürdürebilirsin? ";
-
-var ai_25_s5u1_6_1 = "İletişim ve İşbirliği";
-var ai_25_s5u1_6_2 = "• Karmaşık teknik bilgileri sade bir şekilde açıklayabilme yeteneğinle hangi projelerde liderlik yapabilir ya da takım arkadaşlarına rehberlik edebilirsin? Bu beceriyi hangi iş alanlarında kullanabileceğini düşünüyorsun? ";
-var ai_25_s5u1_6_3 = "• Takım çalışması becerinle hangi disiplinler arası projelerde başarılı olabilirsin? AI projelerinde işbirliği yaparak hangi hedeflere ulaşmayı planlıyorsun? ";
-
-var ai_25_s5u1_7_1 = "Etik ve Sosyal Sorumluluk";
-var ai_25_s5u1_7_2 = "• Yapay zekanın etik kullanımı hakkında sahip olduğun bilinçle hangi alanlarda fark yaratabilirsin? AI'nın sosyal etkilerini göz önünde bulundurarak, hangi projelerde yer almayı planlıyorsun? ";
-var ai_25_s5u1_7_3 = "• AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin? ";
-
-var ai_25_s5u1_8_1 = "Duygusal Zeka (EQ)";
-var ai_25_s5u1_8_2 = "• Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin? ";
-var ai_25_s5u1_8_3 = "• Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin? ";
-
-var ai_25_s5u1_9_1 = "Yenilikçi ve Girişimci Düşünce ";
-var ai_25_s5u1_9_2 = "• Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun? ";
-var ai_25_s5u1_9_3 = "• Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin? ";
 
 //Ekip çalışmasına yatkınlık
 var teamwork_1 = "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
@@ -3176,16 +3087,11 @@ var communication_manifestor_4 = "Başlatıcı Varlığını Yönet:";
 var communication_manifestor_5 = "Başlatıcı enerjinin bazen başkalarını savunmaya geçirebileceğini anlamalısın. İş birliği içinde bir ortam yaratmak için, çevrendekilere niyetlerin ve eylemlerin hakkında önceden bilgi vermeyi öğren. Bu açıklık, insanların motivasyonlarını daha iyi anlamalarına yardımcı olacak ve yanlış anlaşılmaların önüne geçecektir.";
 var communication_manifestor_6 = "Eşsiz Rolünü Kucakla:";
 var communication_manifestor_7 = 'Başka hiçbir türün yapamayacağı şekilde "Dışarı Çık ve Gerçekleşmesini Sağla" için benzersiz bir şekilde tasarlandın. Bunu benimse ve başlatma kapasitenin, farkındalıkla ve karar verme stratejinizle uzun süre kullanıldığında en büyük gücün olduğunu unutma.';
-var communication_manifestor_1_s2 = "Bilgilendirmeyi Bir Alışkanlık Olarak Geliştir:";
-var communication_manifestor_1_1_s2 = "İş yerinde, ekibini ve üstlerini planların ve eylemlerin hakkında bilgilendirme alışkanlığını uygulamayı unutma. Bu şeffaflık güven yaratır ve başkalarının girişimlerini daha etkili bir şekilde desteklemesine olanak tanır.";
-var communication_manifestor_2_s2 = "Başlatma Gücünü Akıllıca Kullan:";
-var communication_manifestor_2_1_s2 = "Başlatma gücünün değişim ve ilerleme için bir katalizör olduğunu kabul et. Projelere liderlik etmek ve harekete geçmek için bu yeteneği kullan, ancak her zaman ekibinin girdilerini ve katkılarını dikkate alan dikkatli bir yaklaşımla.";
-var communication_manifestor_3_s2 = "Kontrol Edilme Korkusunun Üstesinden Gelmeye Çalış:";
-var communication_manifestor_3_1_s2 = "Bir özerklik ortamı yaratarak altta yatan kontrol edilme korkunu gidermeye çalış. Hareket etme özgürlüğüne sahip olduğunda ve diğerleri bilgilendirildiğinde, direncin azaldığını ve üretkenliğin arttığını göreceksin.";
-var communication_manifestor_4_s2 = "Direnci İşbirliğine Dönüştür:";
-var communication_manifestor_4_1_s2 = "Direnç fark ettiğinde, bunu bilgilendirme sürecini iyileştirmek için bir fırsat olarak kullanmaya çalış. Açık iletişim, muhalefeti işbirliğine dönüştürebilir, vizyonunu ve yönünün gelişebileceği bir işyerini teşvik edebilir.";
-var communication_manifestor_5_s2 = "Pratik Yap, Pratik Yap, Pratik Yap:";
-var communication_manifestor_5_1_s2 = "Bilgilendirme sana doğal olarak gelmez, bu yüzden kendini bu beceride ustalaşmaya adaman lazım. Sürtünme olmadan liderlik etme yeteneğinin kilidini açacak ve çevrendekilerin desteği ve iş birliği ile hedeflerini ortaya koyacak olan kilit noktadır.";
+var communication_manifestor_1_s2 = "Bilgilendirmeyi Bir Alışkanlık Olarak Geliştir: İş yerinde, ekibini ve üstlerini planların ve eylemlerin hakkında bilgilendirme alışkanlığını uygulamayı unutma. Bu şeffaflık güven yaratır ve başkalarının girişimlerini daha etkili bir şekilde desteklemesine olanak tanır.";
+var communication_manifestor_2_s2 = "Başlatma Gücünü Akıllıca Kullan: Başlatma gücünün değişim ve ilerleme için bir katalizör olduğunu kabul et. Projelere liderlik etmek ve harekete geçmek için bu yeteneği kullan, ancak her zaman ekibinin girdilerini ve katkılarını dikkate alan dikkatli bir yaklaşımla.";
+var communication_manifestor_3_s2 = "Kontrol Edilme Korkusunun Üstesinden Gelmeye Çalış: Bir özerklik ortamı yaratarak altta yatan kontrol edilme korkunu gidermeye çalış. Hareket etme özgürlüğüne sahip olduğunda ve diğerleri bilgilendirildiğinde, direncin azaldığını ve üretkenliğin arttığını göreceksin.";
+var communication_manifestor_4_s2 = "Direnci İşbirliğine Dönüştür: Direnç fark ettiğinde, bunu bilgilendirme sürecini iyileştirmek için bir fırsat olarak kullanmaya çalış. Açık iletişim, muhalefeti işbirliğine dönüştürebilir, vizyonunu ve yönünün gelişebileceği bir işyerini teşvik edebilir.";
+var communication_manifestor_5_s2 = "Pratik Yap, Pratik Yap, Pratik Yap: Bilgilendirme sana doğal olarak gelmez, bu yüzden kendini bu beceride ustalaşmaya adaman lazım. Sürtünme olmadan liderlik etme yeteneğinin kilidini açacak ve çevrendekilerin desteği ve iş birliği ile hedeflerini ortaya koyacak olan kilit noktadır.";
 var communication_manifestor_1_s3 = "• Harekete geçmeden önce çevrendekileri bilgilendiriyor musun? Bu bilgilendirme süreci, iş yerinde ve sosyal çevrende direnci azaltmak için nasıl etkili olabilir?";
 var communication_manifestor_2_s3 = "• Başlatıcı enerjinin başkalarını nasıl etkilediğini fark ediyor musun? Proaktif yapını daha işbirlikçi bir ortam yaratmak için nasıl kullanabilirsin?";
 var communication_manifestor_3_s3 = "• Kontrol edilme korkunu yenmek için hangi adımları atıyorsun? Özerkliğini koruyarak direnci nasıl işbirliğine dönüştürebilirsin?";
@@ -3201,14 +3107,10 @@ var communication_reflektor_4 = "Yansıtıcı Doğanı Anla:";
 var communication_reflektor_5 = "Etrafındakileri yansıtma ve büyütme yeteneğin, çevrenin sağlığını objektif olarak gözlemlemene ve değerlendirmene olanak tanır. Etkileşime girmeden önce bekleyip düşündüğünde, direnci ortadan kaldırır ve iç görülerinin alınması ve değerlendirilmesi için alan açarsın.";
 var communication_reflektor_6 = "Yansıtıcı İç görülerinden Yararlan:";
 var communication_reflektor_7 = "Bir Değerlendirici olarak, sana stratejik bir bakış açısı sağlayan kalıpları ve döngüleri gözlemleme konusunda doğuştan gelen bir yeteneğe sahipsin. Çeşitli durumlar üzerinde düşünmek ve düşünceli tartışmalara katılmak için gereken zamanı ayır. İyi düşünülmüş iç görülerinin ekibine ve projelerine katkılarını bilgilendirmesine izin ver.";
-var communication_reflektor_1_s2 = "İletişimde Sabır ve Derinlik Geliştir:";
-var communication_reflektor_1_1_s2 = "İş yerinde, çevrendeki etkileşimler ve dinamikler üzerinde düşünmek için zaman ayır. Dikkatli değerlendirmen ve benzersiz bakış açın, ekibine ve projelerine fayda sağlayabilecek derin iç görülere yol açabilir.";
-var communication_reflektor_2_s2 = "İç görülerin İçin Alan Yarat:";
-var communication_reflektor_2_1_s2 = "Başkalarının kendilerini rahatça açabilecekleri bir alan yaratmak için nazik varlığını kullan. Gösterişsiz doğan dürüst diyaloğu teşvik eder, görüşleri örneklemene ve tartışmaların özünü geri yansıtmana olanak tanır, bu da ekibi netlik ve fikir birliğine yönlendirebilir.";
-var communication_reflektor_3_s2 = "Harekete Geçmeden Önce Bekle, Düşün ve Tartış:";
-var communication_reflektor_3_1_s2 = "Önemli kararlar vermeden önce düşünceli tartışmalara katılmayı alışkanlık haline getirmen gerekir. Düşüncelerin hemen ortaya çıkmaz ve en iyi katkıların, resmin tamamını işlemek ve anlamak için zamanın olduğunda gelir.";
-var communication_reflektor_4_s2 = "Doğuştan Gelen Bilgeliğinden Yararlan:";
-var communication_reflektor_4_1_s2 = "İç görülerinin ve içsel bilgeliğinin işteki katkılarına rehberlik etmesine izin ver. Bu derin anlayış yerinden konuştuğunuzda, sözlerin ağırlık taşır ve genellikle ekibinin ve kuruluşun için dönüştürücü sonuçlara yol açabilir.";
+var communication_reflektor_1_s2 = "İletişimde Sabır ve Derinlik Geliştir: İş yerinde, çevrendeki etkileşimler ve dinamikler üzerinde düşünmek için zaman ayır. Dikkatli değerlendirmen ve benzersiz bakış açın, ekibine ve projelerine fayda sağlayabilecek derin iç görülere yol açabilir.";
+var communication_reflektor_2_s2 = "İç görülerin İçin Alan Yarat: Başkalarının kendilerini rahatça açabilecekleri bir alan yaratmak için nazik varlığını kullan. Gösterişsiz doğan dürüst diyaloğu teşvik eder, görüşleri örneklemene ve tartışmaların özünü geri yansıtmana olanak tanır, bu da ekibi netlik ve fikir birliğine yönlendirebilir.";
+var communication_reflektor_3_s2 = "Harekete Geçmeden Önce Bekle, Düşün ve Tartış: Önemli kararlar vermeden önce düşünceli tartışmalara katılmayı alışkanlık haline getirmen gerekir. Düşüncelerin hemen ortaya çıkmaz ve en iyi katkıların, resmin tamamını işlemek ve anlamak için zamanın olduğunda gelir.";
+var communication_reflektor_4_s2 = "Doğuştan Gelen Bilgeliğinden Yararlan: İç görülerinin ve içsel bilgeliğinin işteki katkılarına rehberlik etmesine izin ver. Bu derin anlayış yerinden konuştuğunuzda, sözlerin ağırlık taşır ve genellikle ekibinin ve kuruluşun için dönüştürücü sonuçlara yol açabilir.";
 var communication_reflektor_1_s3 = "• Etrafındaki insanları ve ortamları objektif bir şekilde yansıttığını fark ediyor musun? Bu yansıtma gücünü iş yerinde veya sosyal çevrende nasıl daha etkili kullanabilirsin?";
 var communication_reflektor_2_s3 = "• Etkileşime girmeden önce bekleyip düşünmek sana nasıl bir içgörü sağlıyor? Bu bekleme sürecini hangi durumlarda daha iyi uygulayabilirsin?";
 var communication_reflektor_3_s3 = "• Nazik ve sessiz varlığın, başkalarının kendilerini rahatça ifade etmelerine nasıl yardımcı oluyor? Bu özelliğini ekip çalışmalarında daha fazla nasıl kullanabilirsin?";
@@ -5164,7 +5066,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_25_40_s2_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_25_40_s2_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_25_40_s2_8_2;
       }else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_25_40_s2_9_2;
@@ -5184,7 +5086,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_s3_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_s3_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_s3_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_s3_9_1;
@@ -5204,16 +5106,16 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_s4_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_s4_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_s4_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_s4_9_1;
       }
     } else if (type == "s7_x") {
       if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
-        return kariyer_secim_25_40_s7_1_1;
+        return kariyer_secim_25_40_s2_1_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
-        return kariyer_secim_25_40_s7_2_1;
+        return kariyer_secim_25_40_s2_2_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
         return kariyer_secim_25_40_s2_3_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
@@ -5244,7 +5146,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_1;
@@ -5264,7 +5166,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_2;
       } if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_2;
@@ -5284,7 +5186,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_3;
@@ -5304,7 +5206,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_4;
@@ -5324,7 +5226,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_5;
@@ -5344,7 +5246,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_6;
@@ -5364,7 +5266,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_7;
@@ -5384,7 +5286,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_retail_6_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_retail_7_8;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_retail_8_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_retail_9_8;
@@ -5404,7 +5306,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_1;
@@ -5424,7 +5326,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_2;
@@ -5444,7 +5346,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_3;
@@ -5464,7 +5366,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_4;
@@ -5486,7 +5388,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_7_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_8_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_9_5;
       }
     } else if (type == "s7_health_x_6") {
@@ -5504,7 +5406,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_6;
@@ -5524,7 +5426,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_7;
@@ -5544,7 +5446,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_health_6_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_health_7_8;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_health_8_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_health_9_8;
@@ -5564,7 +5466,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_1;
@@ -5584,7 +5486,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_2;
@@ -5604,7 +5506,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_3;
@@ -5624,7 +5526,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_4;
@@ -5644,7 +5546,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_5;
@@ -5664,7 +5566,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_6;
@@ -5684,7 +5586,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_7;
@@ -5704,7 +5606,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_tech_6_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_tech_7_8;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_tech_8_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_tech_9_8;
@@ -5724,7 +5626,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_1;
@@ -5744,7 +5646,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_2;
@@ -5764,7 +5666,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_3;
@@ -5784,7 +5686,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_4;
@@ -5804,7 +5706,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_5;
@@ -5824,7 +5726,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_6;
@@ -5844,7 +5746,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_dress_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_dress_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_dress_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_dress_9_7;
@@ -5864,7 +5766,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_1;
@@ -5884,7 +5786,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_2;
@@ -5904,7 +5806,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_3;
@@ -5924,7 +5826,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_4;
@@ -5944,7 +5846,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_5;
@@ -5964,7 +5866,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_6;
       } else  if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_6;
@@ -5984,7 +5886,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_auto_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_auto_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_auto_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_auto_9_7;
@@ -6004,7 +5906,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_1;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_1;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_1;
@@ -6024,7 +5926,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_2;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_2;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_2;
@@ -6044,7 +5946,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_3;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_3;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_3;
@@ -6064,7 +5966,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_4;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_4;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_4;
@@ -6084,7 +5986,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_5;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_5;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_5;
@@ -6104,7 +6006,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_6;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_6;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_6;
@@ -6124,7 +6026,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_7;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_7;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_7;
@@ -6144,7 +6046,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return kariyer_secim_12_25_s7_meal_6_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
         return kariyer_secim_12_25_s7_meal_7_8;
-      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretmenlik ve Mentorluk Kariyerleri") {
+      } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
         return kariyer_secim_12_25_s7_meal_8_8;
       } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
         return kariyer_secim_12_25_s7_meal_9_8;
@@ -6153,18 +6055,18 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
   };
 
   let guclu_yanlarin = (guclu_yanlarinData, age, type) => {
-    if (guclu_yanlarinData.name == "57_10") {
-      if (type == "57_10_1") {
+    if (guclu_yanlarinData.name == "57-10") {
+      if (type == "57-10_1") {
         return guclu_yanlarin_57_10_1;
-      } else if (type == "57_10_2") {
+      } else if (type == "57-10_2") {
         return guclu_yanlarin_57_10_2;
-      } else if (type == "57_10_3") {
+      } else if (type == "57-10_3") {
         return guclu_yanlarin_57_10_3;
-      } else if (type == "57_10_4") {
+      } else if (type == "57-10_4") {
         return guclu_yanlarin_57_10_4;
-      } else if (type == "57_10_5") {
+      } else if (type == "57-10_5") {
         return guclu_yanlarin_57_10_5;
-      } else if (type == "57_10_6") {
+      } else if (type == "57-10_6") {
         return guclu_yanlarin_57_10_6;
       } 
     } else if (guclu_yanlarinData.name == "10-20") {
@@ -6182,195 +6084,195 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_10_20_6;
       }
     } else if (guclu_yanlarinData.name == "6-59") {
-      if (type == "6_59_1") {
+      if (type == "6-59_1") {
         return guclu_yanlarin_6_59_1;
-      } else if (type == "6_59_2") {
+      } else if (type == "6-59_2") {
         return guclu_yanlarin_6_59_2;
-      } else if (type == "6_59_3") {
+      } else if (type == "6-59_3") {
         return guclu_yanlarin_6_59_3;
-      } else if (type == "6_59_4") {
+      } else if (type == "6-59_4") {
         return guclu_yanlarin_6_59_4;
-      } else if (type == "6_59_5") {
+      } else if (type == "6-59_5") {
         return guclu_yanlarin_6_59_5;
       } 
     } else if (guclu_yanlarinData.name == "63-4") {
-      if (type == "63_4_1") {
+      if (type == "63-4_1") {
         return guclu_yanlarin_63_4_1;
-      } else if (type == "63_4_2") {
+      } else if (type == "63-4_2") {
         return guclu_yanlarin_63_4_2;
-      } else if (type == "63_4_3") {
+      } else if (type == "63-4_3") {
         return guclu_yanlarin_63_4_3;
-      } else if (type == "63_4_4") {
+      } else if (type == "63-4_4") {
         return guclu_yanlarin_63_4_4;
-      } else if (type == "63_4_5") {
+      } else if (type == "63-4_5") {
         return guclu_yanlarin_63_4_5;
-      } else if (type == "63_4_6") {
+      } else if (type == "63-4_6") {
         return guclu_yanlarin_63_4_6;
-      } else if (type == "63_4_7") {
+      } else if (type == "63-4_7") {
         return guclu_yanlarin_63_4_7;
       }
     } else if (guclu_yanlarinData.name == "45-21") {
-      if (type == "45_21_1") {
+      if (type == "45-21_1") {
         return guclu_yanlarin_45_21_1;
-      } else if (type == "45_21_2") {
+      } else if (type == "45-21_2") {
         return guclu_yanlarin_45_21_2;
-      } else if (type == "45_21_3") {
+      } else if (type == "45-21_3") {
         return guclu_yanlarin_45_21_3;
-      } else if (type == "45_21_4") {
+      } else if (type == "45-21_4") {
         return guclu_yanlarin_45_21_4;
-      } else if (type == "45_21_5") {
+      } else if (type == "45-21_5") {
         return guclu_yanlarin_45_21_5;
-      } else if (type == "45_21_6") {
+      } else if (type == "45-21_6") {
         return guclu_yanlarin_45_21_6;
-      }  else if (type == "45_21_7") {
+      }  else if (type == "45-21_7") {
         return guclu_yanlarin_45_21_7;
-      }  else if (type == "45_21_8") {
+      }  else if (type == "45-21_8") {
         return guclu_yanlarin_45_21_8;
       }
     } else if (guclu_yanlarinData.name == "3-60") {
-      if (type == "3_60_1") {
+      if (type == "3-60_1") {
         return guclu_yanlarin_3_60_1;
-      } else if (type == "3_60_2") {
+      } else if (type == "3-60_2") {
         return guclu_yanlarin_3_60_2;
-      } else if (type == "3_60_3") {
+      } else if (type == "3-60_3") {
         return guclu_yanlarin_3_60_3;
-      } else if (type == "3_60_4") {
+      } else if (type == "3-60_4") {
         return guclu_yanlarin_3_60_4;
-      } else if (type == "3_60_5") {
+      } else if (type == "3-60_5") {
         return guclu_yanlarin_3_60_5;
-      } else if (type == "3_60_6") {
+      } else if (type == "3-60_6") {
         return guclu_yanlarin_3_60_6;
       }
     } else if (guclu_yanlarinData.name == "5-15") {
-      if (type == "5_15_1") {
+      if (type == "5-15_1") {
         return guclu_yanlarin_5_15_1;
-      } else if (type == "5_15_2") {
+      } else if (type == "5-15_2") {
         return guclu_yanlarin_5_15_2;
-      } else if (type == "5_15_3") {
+      } else if (type == "5-15_3") {
         return guclu_yanlarin_5_15_3;
-      } else if (type == "5_15_4") {
+      } else if (type == "5-15_4") {
         return guclu_yanlarin_5_15_4;
-      } else if (type == "5_15_5") {
+      } else if (type == "5-15_5") {
         return guclu_yanlarin_5_15_5;
-      } else if (type == "5_15_6") {
+      } else if (type == "5-15_6") {
         return guclu_yanlarin_5_15_6;
-      } else if (type == "5_15_7") {
+      } else if (type == "5-15_7") {
         return guclu_yanlarin_5_15_7;
-      } else if (type == "5_15_8") {
+      } else if (type == "5-15_8") {
         return guclu_yanlarin_5_15_8;
       }
     } else if (guclu_yanlarinData.name == "47-64") {
-      if (type == "47_64_1") {
+      if (type == "47-64_1") {
         return guclu_yanlarin_47_64_1;
-      } else if (type == "47_64_2") {
+      } else if (type == "47-64_2") {
         return guclu_yanlarin_47_64_2;
-      } else if (type == "47_64_3") {
+      } else if (type == "47-64_3") {
         return guclu_yanlarin_47_64_3;
-      } else if (type == "47_64_4") {
+      } else if (type == "47-64_4") {
         return guclu_yanlarin_47_64_4;
-      } else if (type == "47_64_5") {
+      } else if (type == "47-64_5") {
         return guclu_yanlarin_47_64_5;
-      } else if (type == "47_64_6") {
+      } else if (type == "47-64_6") {
         return guclu_yanlarin_47_64_6;
-      } else if (type == "47_64_7") {
+      } else if (type == "47-64_7") {
         return guclu_yanlarin_47_64_7;
       }
     } else if (guclu_yanlarinData.name == "27-50") {
-      if (type == "27_50_1") {
+      if (type == "27-50_1") {
         return guclu_yanlarin_27_50_1;
-      } else if (type == "27_50_2") {
+      } else if (type == "27-50_2") {
         return guclu_yanlarin_27_50_2;
-      } else if (type == "27_50_3") {
+      } else if (type == "27-50_3") {
         return guclu_yanlarin_27_50_3;
-      } else if (type == "27_50_4") {
+      } else if (type == "27-50_4") {
         return guclu_yanlarin_27_50_4;
-      } else if (type == "27_50_5") {
+      } else if (type == "27-50_5") {
         return guclu_yanlarin_27_50_5;
-      } else if (type == "27_50_6") {
+      } else if (type == "27-50_6") {
         return guclu_yanlarin_27_50_6;
-      } else if (type == "27_50_7") {
+      } else if (type == "27-50_7") {
         return guclu_yanlarin_27_50_7;
-      } else if (type == "27_50_8") {
+      } else if (type == "27-50_8") {
         return guclu_yanlarin_27_50_8;
       }
     } else if (guclu_yanlarinData.name == "26-44") {
-      if (type == "26_44_1") {
+      if (type == "26-44_1") {
         return guclu_yanlarin_26_44_1;
-      } else if (type == "26_44_2") {
+      } else if (type == "26-44_2") {
         return guclu_yanlarin_26_44_2;
-      } else if (type == "26_44_3") {
+      } else if (type == "26-44_3") {
         return guclu_yanlarin_26_44_3;
-      } else if (type == "26_44_4") {
+      } else if (type == "26-44_4") {
         return guclu_yanlarin_26_44_4;
-      } else if (type == "26_44_5") {
+      } else if (type == "26-44_5") {
         return guclu_yanlarin_26_44_5;
-      } else if (type == "26_44_6") {
+      } else if (type == "26-44_6") {
         return guclu_yanlarin_26_44_6;
-      } else if (type == "26_44_7") {
+      } else if (type == "26-44_7") {
         return guclu_yanlarin_26_44_7;
       }
     } else if (guclu_yanlarinData.name == "32-54") {
-      if (type == "32_54_1") {
+      if (type == "32-54_1") {
         return guclu_yanlarin_32_54_1;
-      } else if (type == "32_54_2") {
+      } else if (type == "32-54_2") {
         return guclu_yanlarin_32_54_2;
-      } else if (type == "32_54_3") {
+      } else if (type == "32-54_3") {
         return guclu_yanlarin_32_54_3;
-      } else if (type == "32_54_4") {
+      } else if (type == "32-54_4") {
         return guclu_yanlarin_32_54_4;
-      } else if (type == "32_54_5") {
+      } else if (type == "32-54_5") {
         return guclu_yanlarin_32_54_5;
-      } else if (type == "32_54_6") {
+      } else if (type == "32-54_6") {
         return guclu_yanlarin_32_54_6;
-      } else if (type == "32_54_7") {
+      } else if (type == "32-54_7") {
         return guclu_yanlarin_32_54_7;
       }
     } else if (guclu_yanlarinData.name == "19-49") {
-      if (type == "19_49_1") {
+      if (type == "19-49_1") {
         return guclu_yanlarin_19_49_1;
-      } else if (type == "19_49_2") {
+      } else if (type == "19-49_2") {
         return guclu_yanlarin_19_49_2;
-      } else if (type == "19_49_3") {
+      } else if (type == "19-49_3") {
         return guclu_yanlarin_19_49_3;
-      } else if (type == "19_49_4") {
+      } else if (type == "19-49_4") {
         return guclu_yanlarin_19_49_4;
-      } else if (type == "19_49_5") {
+      } else if (type == "19-49_5") {
         return guclu_yanlarin_19_49_5;
-      } else if (type == "19_49_6") {
+      } else if (type == "19-49_6") {
         return guclu_yanlarin_19_49_6;
-      } else if (type == "19_49_7") {
+      } else if (type == "19-49_7") {
         return guclu_yanlarin_19_49_7;
       }
     } else if (guclu_yanlarinData.name == "37-40") {
-      if (type == "37_40_1") {
+      if (type == "37-40_1") {
         return guclu_yanlarin_37_40_1;
-      } else if (type == "37_40_2") {
+      } else if (type == "37-40_2") {
         return guclu_yanlarin_37_40_2;
-      } else if (type == "37_40_3") {
+      } else if (type == "37-40_3") {
         return guclu_yanlarin_37_40_3;
-      } else if (type == "37_40_4") {
+      } else if (type == "37-40_4") {
         return guclu_yanlarin_37_40_4;
-      } else if (type == "37_40_5") {
+      } else if (type == "37-40_5") {
         return guclu_yanlarin_37_40_5;
-      } else if (type == "37_40_6") {
+      } else if (type == "37-40_6") {
         return guclu_yanlarin_37_40_6;
-      } else if (type == "37_40_7") {
+      } else if (type == "37-40_7") {
         return guclu_yanlarin_37_40_7;
       }
     } else if (guclu_yanlarinData.name == "34-57") {
-      if (type == "34_57_1") {
+      if (type == "34-57_1") {
         return guclu_yanlarin_34_57_1;
-      } else if (type == "34_57_2") {
+      } else if (type == "34-57_2") {
         return guclu_yanlarin_34_57_2;
-      } else if (type == "34_57_3") {
+      } else if (type == "34-57_3") {
         return guclu_yanlarin_34_57_3;
-      } else if (type == "34_57_4") {
+      } else if (type == "34-57_4") {
         return guclu_yanlarin_34_57_4;
-      } else if (type == "34_57_5") {
+      } else if (type == "34-57_5") {
         return guclu_yanlarin_34_57_5;
-      } else if (type == "34_57_6") {
+      } else if (type == "34-57_6") {
         return guclu_yanlarin_34_57_6;
-      } else if (type == "34_57_7") {
+      } else if (type == "34-57_7") {
         return guclu_yanlarin_34_57_7;
       }
     } else if (guclu_yanlarinData.name == "20-34") {
@@ -6390,33 +6292,33 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_20_34_7;
       }
     } else if (guclu_yanlarinData.name == "51-25") {
-      if (type == "51_25_1") {
+      if (type == "51-25_1") {
         return guclu_yanlarin_51_25_1;
-      } else if (type == "51_25_2") {
+      } else if (type == "51-25_2") {
         return guclu_yanlarin_51_25_2;
-      } else if (type == "51_25_3") {
+      } else if (type == "51-25_3") {
         return guclu_yanlarin_51_25_3;
-      } else if (type == "51_25_4") {
+      } else if (type == "51-25_4") {
         return guclu_yanlarin_51_25_4;
-      } else if (type == "51_25_5") {
+      } else if (type == "51-25_5") {
         return guclu_yanlarin_51_25_5;
-      } else if (type == "51_25_6") {
+      } else if (type == "51-25_6") {
         return guclu_yanlarin_51_25_6;
-      } else if (type == "51_25_7") {
+      } else if (type == "51-25_7") {
         return guclu_yanlarin_51_25_7;
       }
     } else if (guclu_yanlarinData.name == "1-8") {
-      if (type == "1_8_1") {
+      if (type == "1-8_1") {
         return guclu_yanlarin_1_8_1;
-      } else if (type == "1_8_2") {
+      } else if (type == "1-8_2") {
         return guclu_yanlarin_1_8_2;
-      } else if (type == "1_8_3") {
+      } else if (type == "1-8_3") {
         return guclu_yanlarin_1_8_3;
-      } else if (type == "1_8_4") {
+      } else if (type == "1-8_4") {
         return guclu_yanlarin_1_8_4;
-      } else if (type == "1_8_5") {
+      } else if (type == "1-8_5") {
         return guclu_yanlarin_1_8_5;
-      } else if (type == "1_8_6") {
+      } else if (type == "1-8_6") {
         return guclu_yanlarin_1_8_6;
       }
     } else if (guclu_yanlarinData.name == "28-38") {
@@ -6434,49 +6336,49 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_28_38_6;
       }
     } else if (guclu_yanlarinData.name == "7-31") {
-      if (type == "7_31_1") {
+      if (type == "7-31_1") {
         return guclu_yanlarin_7_31_1;
-      } else if (type == "7_31_2") {
+      } else if (type == "7-31_2") {
         return guclu_yanlarin_7_31_2;
-      } else if (type == "7_31_3") {
+      } else if (type == "7-31_3") {
         return guclu_yanlarin_7_31_3;
-      } else if (type == "7_31_4") {
+      } else if (type == "7-31_4") {
         return guclu_yanlarin_7_31_4;
-      } else if (type == "7_31_5") {
+      } else if (type == "7-31_5") {
         return guclu_yanlarin_7_31_5;
-      } else if (type == "7_31_6") {
+      } else if (type == "7-31_6") {
         return guclu_yanlarin_7_31_6;
-      } else if (type == "7_31_7") {
+      } else if (type == "7-31_7") {
         return guclu_yanlarin_7_31_7;
-      } else if (type == "7_31_8") {
+      } else if (type == "7-31_8") {
         return guclu_yanlarin_7_31_8;
       }
     } else if (guclu_yanlarinData.name == "57-20") {
-      if (type == "57_20_1") {
+      if (type == "57-20_1") {
         return guclu_yanlarin_57_20_1;
-      } else if (type == "57_20_2") {
+      } else if (type == "57-20_2") {
         return guclu_yanlarin_57_20_2;
-      } else if (type == "57_20_3") {
+      } else if (type == "57-20_3") {
         return guclu_yanlarin_57_20_3;
-      } else if (type == "57_20_4") {
+      } else if (type == "57-20_4") {
         return guclu_yanlarin_57_20_4;
-      } else if (type == "57_20_5") {
+      } else if (type == "57-20_5") {
         return guclu_yanlarin_57_20_5;
-      } else if (type == "57_20_6") {
+      } else if (type == "57-20_6") {
         return guclu_yanlarin_57_20_6;
       }
     } else if (guclu_yanlarinData.name == "39-55") {
-      if (type == "39_55_1") {
+      if (type == "39-55_1") {
         return guclu_yanlarin_39_55_1;
-      } else if (type == "39_55_2") {
+      } else if (type == "39-55_2") {
         return guclu_yanlarin_39_55_2;
-      } else if (type == "39_55_3") {
+      } else if (type == "39-55_3") {
         return guclu_yanlarin_39_55_3;
-      } else if (type == "39_55_4") {
+      } else if (type == "39-55_4") {
         return guclu_yanlarin_39_55_4;
-      } else if (type == "39_55_5") {
+      } else if (type == "39-55_5") {
         return guclu_yanlarin_39_55_5;
-      } else if (type == "39_55_6") {
+      } else if (type == "39-55_6") {
         return guclu_yanlarin_39_55_6;
       }
     } else if (guclu_yanlarinData.name == "2-14") {
@@ -6493,18 +6395,18 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "2-14_6") {
         return guclu_yanlarin_2_14_6;
       }
-    } else if (guclu_yanlarinData.name == "22-12") {
-      if (type == "22_12_1") {
+    } else if (guclu_yanlarinData.name == "12-22") {
+      if (type == "12-22_1") {
         return guclu_yanlarin_22_12_1;
-      } else if (type == "22_12_2") {
+      } else if (type == "12-22_2") {
         return guclu_yanlarin_22_12_2;
-      } else if (type == "22_12_3") {
+      } else if (type == "12-22_3") {
         return guclu_yanlarin_22_12_3;
-      } else if (type == "22_12_4") {
+      } else if (type == "12-22_4") {
         return guclu_yanlarin_22_12_4;
-      } else if (type == "22_12_5") {
+      } else if (type == "12-22_5") {
         return guclu_yanlarin_22_12_5;
-      } else if (type == "22_12_6") {
+      } else if (type == "12-22_6") {
         return guclu_yanlarin_22_12_6;
       }
     } else if (guclu_yanlarinData.name == "61-24") {
@@ -6524,177 +6426,177 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_61_24_7;
       }
     } else if (guclu_yanlarinData.name == "43-23") {
-      if (type == "43_23_1") {
+      if (type == "43-23_1") {
         return guclu_yanlarin_43_23_1;
-      } else if (type == "43_23_2") {
+      } else if (type == "43-23_2") {
         return guclu_yanlarin_43_23_2;
-      } else if (type == "43_23_3") {
+      } else if (type == "43-23_3") {
         return guclu_yanlarin_43_23_3;
-      } else if (type == "43_23_4") {
+      } else if (type == "43-23_4") {
         return guclu_yanlarin_43_23_4;
-      } else if (type == "43_23_5") {
+      } else if (type == "43-23_5") {
         return guclu_yanlarin_43_23_5;
       }
     } else if (guclu_yanlarinData.name == "52-9") {
-      if (type == "52_9_1") {
+      if (type == "52-9_1") {
         return guclu_yanlarin_52_9_1;
-      } else if (type == "52_9_2") {
+      } else if (type == "52-9_2") {
         return guclu_yanlarin_52_9_2;
-      } else if (type == "52_9_3") {
+      } else if (type == "52-9_3") {
         return guclu_yanlarin_52_9_3;
-      } else if (type == "52_9_4") {
+      } else if (type == "52-9_4") {
         return guclu_yanlarin_52_9_4;
-      } else if (type == "52_9_5") {
+      } else if (type == "52-9_5") {
         return guclu_yanlarin_52_9_5;
-      } else if (type == "52_9_6") {
+      } else if (type == "52-9_6") {
         return guclu_yanlarin_52_9_6;
       }
     } else if (guclu_yanlarinData.name == "18-58") {
       if (type == "18-58_1") {
-        return guclu_yanlarin_18_58_1;
+        return guclu_yanlarin_58_18_1;
       } else if (type == "18-58_2") {
-        return guclu_yanlarin_18_58_2;
+        return guclu_yanlarin_58_18_2;
       } else if (type == "18-58_3") {
-        return guclu_yanlarin_18_58_3;
+        return guclu_yanlarin_58_18_3;
       } else if (type == "18-58_4") {
-        return guclu_yanlarin_18_58_4;
+        return guclu_yanlarin_58_18_4;
       } else if (type == "18-58_5") {
-        return guclu_yanlarin_18_58_5;
+        return guclu_yanlarin_58_18_5;
       } else if (type == "18-58_6") {
-        return guclu_yanlarin_18_58_6;
+        return guclu_yanlarin_58_18_6;
       }
     } else if (guclu_yanlarinData.name == "48-16") {
-      if (type == "48_16_1") {
+      if (type == "48-16_1") {
         return guclu_yanlarin_48_16_1;
-      } else if (type == "48_16_2") {
+      } else if (type == "48-16_2") {
         return guclu_yanlarin_48_16_2;
-      } else if (type == "48_16_3") {
+      } else if (type == "48-16_3") {
         return guclu_yanlarin_48_16_3;
-      } else if (type == "48_16_4") {
+      } else if (type == "48-16_4") {
         return guclu_yanlarin_48_16_4;
-      } else if (type == "48_16_5") {
+      } else if (type == "48-16_5") {
         return guclu_yanlarin_48_16_5;
       }
     } else if (guclu_yanlarinData.name == "17-62") {
-      if (type == "17_62_1") {
+      if (type == "17-62_1") {
         return guclu_yanlarin_17_62_1;
-      } else if (type == "17_62_2") {
+      } else if (type == "17-62_2") {
         return guclu_yanlarin_17_62_2;
-      } else if (type == "17_62_3") {
+      } else if (type == "17-62_3") {
         return guclu_yanlarin_17_62_3;
-      } else if (type == "17_62_4") {
+      } else if (type == "17-62_4") {
         return guclu_yanlarin_17_62_4;
-      } else if (type == "17_62_5") {
+      } else if (type == "17-62_5") {
         return guclu_yanlarin_17_62_5;
-      } else if (type == "17_62_6") {
+      } else if (type == "17-62_6") {
         return guclu_yanlarin_17_62_6;
-      } else if (type == "17_62_7") {
+      } else if (type == "17-62_7") {
         return guclu_yanlarin_17_62_7;
       }
     } else if (guclu_yanlarinData.name == "53-42") {
-      if (type == "53_42_1") {
+      if (type == "53-42_1") {
         return guclu_yanlarin_53_42_1;
-      } else if (type == "53_42_2") {
+      } else if (type == "53-42_2") {
         return guclu_yanlarin_53_42_2;
-      } else if (type == "53_42_3") {
+      } else if (type == "53-42_3") {
         return guclu_yanlarin_53_42_3;
-      } else if (type == "53_42_4") {
+      } else if (type == "53-42_4") {
         return guclu_yanlarin_53_42_4;
-      } else if (type == "53_42_5") {
+      } else if (type == "53-42_5") {
         return guclu_yanlarin_53_42_5;
-      } else if (type == "53_42_6") {
+      } else if (type == "53-42_6") {
         return guclu_yanlarin_53_42_6;
-      } else if (type == "53_42_7") {
+      } else if (type == "53-42_7") {
         return guclu_yanlarin_53_42_7;
-      } else if (type == "53_42_8") {
+      } else if (type == "53-42_8") {
         return guclu_yanlarin_53_42_8;
       }
-    } else if (guclu_yanlarinData.name == "29-46") {
-      if (type == "29_46_1") {
-        return guclu_yanlarin_29_46_1;
-      } else if (type == "29_46_2") {
-        return guclu_yanlarin_29_46_2;
-      } else if (type == "29_46_3") {
-        return guclu_yanlarin_29_46_3;
-      } else if (type == "29_46_4") {
-        return guclu_yanlarin_29_46_4;
-      } else if (type == "29_46_5") {
-        return guclu_yanlarin_29_46_5;
-      } else if (type == "29_46_6") {
-        return guclu_yanlarin_29_46_6;
+    } else if (guclu_yanlarinData.name == "46-29") {
+      if (type == "46-29_1") {
+        return guclu_yanlarin_46_29_1;
+      } else if (type == "46-29_2") {
+        return guclu_yanlarin_46_29_2;
+      } else if (type == "46-29_3") {
+        return guclu_yanlarin_46_29_3;
+      } else if (type == "46-29_4") {
+        return guclu_yanlarin_46_29_4;
+      } else if (type == "46-29_5") {
+        return guclu_yanlarin_46_29_5;
+      } else if (type == "46-29_6") {
+        return guclu_yanlarin_46_29_6;
       }
     } else if (guclu_yanlarinData.name == "13-33") {
-      if (type == "13_33_1") {
+      if (type == "13-33_1") {
         return guclu_yanlarin_13_33_1;
-      } else if (type == "13_33_2") {
+      } else if (type == "13-33_2") {
         return guclu_yanlarin_13_33_2;
-      } else if (type == "13_33_3") {
+      } else if (type == "13-33_3") {
         return guclu_yanlarin_13_33_3;
-      } else if (type == "13_33_4") {
+      } else if (type == "13-33_4") {
         return guclu_yanlarin_13_33_4;
-      } else if (type == "13_33_5") {
+      } else if (type == "13-33_5") {
         return guclu_yanlarin_13_33_5;
-      } else if (type == "13_33_6") {
+      } else if (type == "13-33_6") {
         return guclu_yanlarin_13_33_6;
       }
     } else if (guclu_yanlarinData.name == "41-30") {
-      if (type == "41_30_1") {
+      if (type == "41-30_1") {
         return guclu_yanlarin_41_30_1;
-      } else if (type == "41_30_2") {
+      } else if (type == "41-30_2") {
         return guclu_yanlarin_41_30_2;
-      } else if (type == "41_30_3") {
+      } else if (type == "41-30_3") {
         return guclu_yanlarin_41_30_3;
-      } else if (type == "41_30_4") {
+      } else if (type == "41-30_4") {
         return guclu_yanlarin_41_30_4;
-      } else if (type == "41_30_5") {
+      } else if (type == "41-30_5") {
         return guclu_yanlarin_41_30_5;
-      } else if (type == "41_30_6") {
+      } else if (type == "41-30_6") {
         return guclu_yanlarin_41_30_6;
-      } else if (type == "41_30_7") {
+      } else if (type == "41-30_7") {
         return guclu_yanlarin_41_30_7;
       }
     } else if (guclu_yanlarinData.name == "36-35") {
-      if (type == "36_35_1") {
+      if (type == "36-35_1") {
         return guclu_yanlarin_36_35_1;
-      } else if (type == "36_35_2") {
+      } else if (type == "36-35_2") {
         return guclu_yanlarin_36_35_2;
-      } else if (type == "36_35_3") {
+      } else if (type == "36-35_3") {
         return guclu_yanlarin_36_35_3;
-      } else if (type == "36_35_4") {
+      } else if (type == "36-35_4") {
         return guclu_yanlarin_36_35_4;
-      } else if (type == "36_35_5") {
+      } else if (type == "36-35_5") {
         return guclu_yanlarin_36_35_5;
-      } else if (type == "36_35_6") {
+      } else if (type == "36-35_6") {
         return guclu_yanlarin_36_35_6;
       }
     } else if (guclu_yanlarinData.name == "11-56") {
-      if (type == "11_56_1") {
+      if (type == "11-56_1") {
         return guclu_yanlarin_11_56_1;
-      } else if (type == "11_56_2") {
+      } else if (type == "11-56_2") {
         return guclu_yanlarin_11_56_2;
-      } else if (type == "11_56_3") {
+      } else if (type == "11-56_3") {
         return guclu_yanlarin_11_56_3;
-      } else if (type == "11_56_4") {
+      } else if (type == "11-56_4") {
         return guclu_yanlarin_11_56_4;
-      } else if (type == "11_56_5") {
+      } else if (type == "11-56_5") {
         return guclu_yanlarin_11_56_5;
-      } else if (type == "11_56_6") {
+      } else if (type == "11-56_6") {
         return guclu_yanlarin_11_56_6;
-      } else if (type == "11_56_7") {
+      } else if (type == "11-56_7") {
         return guclu_yanlarin_11_56_7;
       }
     } else if (guclu_yanlarinData.name == "34-10") {
-      if (type == "34_10_1") {
+      if (type == "34-10_1") {
         return guclu_yanlarin_34_10_1;
-      } else if (type == "34_10_2") {
+      } else if (type == "34-10_2") {
         return guclu_yanlarin_34_10_2;
-      } else if (type == "34_10_3") {
+      } else if (type == "34-10_3") {
         return guclu_yanlarin_34_10_3;
-      } else if (type == "34_10_4") {
+      } else if (type == "34-10_4") {
         return guclu_yanlarin_34_10_4;
-      } else if (type == "34_10_5") {
+      } else if (type == "34-10_5") {
         return guclu_yanlarin_34_10_5;
-      } else if (type == "34_10_6") {
+      } else if (type == "34-10_6") {
         return guclu_yanlarin_34_10_6;
       }
     } else if (guclu_yanlarinData.name == "15") {
@@ -6708,8 +6610,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_15_4;
       } else if (type == "15_5") {
         return guclu_yanlarin_15_5;
-      } else if (type == "15_6") {
-        return guclu_yanlarin_15_6;
       }
     } else if (guclu_yanlarinData.name == "5") {
       if (type == "5_1") {
@@ -6748,8 +6648,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_29_4;
       } else if (type == "29_5") {
         return guclu_yanlarin_29_5;
-      } else if (type == "29_6") {
-        return guclu_yanlarin_29_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "14") {
       if (type == "14_1") {
@@ -6762,8 +6660,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_14_4;
       } else if (type == "14_5") {
         return guclu_yanlarin_14_5;
-      } else if (type == "14_6") {
-        // return guclu_yanlarin_14_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "2") {
       if (type == "2_1") {
@@ -6800,8 +6696,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_8_4;
       } else if (type == "8_5") {
         return guclu_yanlarin_8_5;
-      } else if (type == "8_6") {
-        return guclu_yanlarin_8_6;
       }
     } else if (guclu_yanlarinData.name == "7") {
       if (type == "7_1") {
@@ -6814,8 +6708,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_7_4;
       } else if (type == "7_5") {
         return guclu_yanlarin_7_5;
-      } else if (type == "7_6") {
-        return guclu_yanlarin_7_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "31") {
       if (type == "31_1") {
@@ -6828,8 +6720,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_31_4;
       } else if (type == "31_5") {
         return guclu_yanlarin_31_5;
-      } else if (type == "31_6") {
-        // return guclu_yanlarin_31_6 ?? "";
       }
     } else if (guclu_yanlarinData.name == "13") {
       if (type == "13_1") {
@@ -7034,7 +6924,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
   }
 
   var inputModel={
-    
+
     P1A1: allVariables.P1A1,
     P2A1: allVariables.P2A1,
     P4A1: allVariables.P4A1, // Kişilik Özellikleri
