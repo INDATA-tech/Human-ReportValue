@@ -1755,7 +1755,11 @@ var kariyer_secim_12_25_s7_meal_9_7 = "• Gıda Güvenliği Analisti: Gıda gü
 
 //Güçlü Yanların + 25
 var guclu_yanlarin_57_10_1 = "Mükemmelleştirilmiş Form” Gücü (57-10)";
-var guclu_yanlarin_57_10_2 = "Hızlı düşünme yeteneğin dinamik iş ortamlarında çok değerli. Yaratıcılığın ile hayatta kalmayı garanti eden ve gelecekteki belirsizliklerden koruma sağlayan ortamlar yaratma ve tasarlama kabiliyetin var.\nFormu Mükemmelleştirmek Kendini, sanatı, müziği, yazıyı, iç tasarımı, yiyeceği, bahçeciliği, mimariyi – kendi ve başkalarının davranışlarını içeren her şeyi mükemmelleştirmeyi seversin. Bu detaylara gösterdiğin özen ve mükemmellik arzusu, herhangi bir profesyonel alanda yüksek kaliteli çıktılar üretmene yardımcı olur.\nKendin Olmak Sadece kendin olarak yaşayarak sağlıklı ve güzel bir şey yaratırsın. Bu otantiklik başkalarına ilham verebilir ve olumlu ve üretken bir çalışma ortamı yaratabilir. Rolün, kendin ve hayatın da dahil olmak üzere, sevdiğin şeyi yaratmak ve yarattığın şeyi sevmektir.\nİş Dünyasında Gücünü Kullanmak Yaratıcılık ve tasarım gerektiren rollerde, detaylara gösterdiğin özen ve sezgisel yaklaşım, yenilikçi ve estetik açıdan hoş sonuçlara doğurur. Liderlikte, işinin her yönünü kucaklama ve mükemmelleştirme yeteneğin, ekibini mükemmellik için çabalamaya teşvik edebilir.\nMükemmelleştirilmiş form gücün, iş dünyasında sezgi, yaratıcılık ve mükemmelik arzusu açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak yaratıcı olabilir, üretkenliği artırabilir, olumlu bir çalışma ortamı yaratabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemen ve geliştirmen, anlamlı ve etkili bir kariyere vesile olabilir.";
+var guclu_yanlarin_57_10_2 = "Hızlı düşünme yeteneğin dinamik iş ortamlarında çok değerli. Yaratıcılığın ile hayatta kalmayı garanti eden ve gelecekteki belirsizliklerden koruma sağlayan ortamlar yaratma ve tasarlama kabiliyetin var.";
+var guclu_yanlarin_57_10_3 = "Formu Mükemmelleştirmek Kendini, sanatı, müziği, yazıyı, iç tasarımı, yiyeceği, bahçeciliği, mimariyi – kendi ve başkalarının davranışlarını içeren her şeyi mükemmelleştirmeyi seversin. Bu detaylara gösterdiğin özen ve mükemmellik arzusu, herhangi bir profesyonel alanda yüksek kaliteli çıktılar üretmene yardımcı olur.";
+var guclu_yanlarin_57_10_4 = "Kendin Olmak Sadece kendin olarak yaşayarak sağlıklı ve güzel bir şey yaratırsın. Bu otantiklik başkalarına ilham verebilir ve olumlu ve üretken bir çalışma ortamı yaratabilir. Rolün, kendin ve hayatın da dahil olmak üzere, sevdiğin şeyi yaratmak ve yarattığın şeyi sevmektir.";
+var guclu_yanlarin_57_10_5 = "İş Dünyasında Gücünü Kullanmak Yaratıcılık ve tasarım gerektiren rollerde, detaylara gösterdiğin özen ve sezgisel yaklaşım, yenilikçi ve estetik açıdan hoş sonuçlara doğurur. Liderlikte, işinin her yönünü kucaklama ve mükemmelleştirme yeteneğin, ekibini mükemmellik için çabalamaya teşvik edebilir.";
+var guclu_yanlarin_57_10_6 = "Mükemmelleştirilmiş form gücün, iş dünyasında sezgi, yaratıcılık ve mükemmelik arzusu açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak yaratıcı olabilir, üretkenliği artırabilir, olumlu bir çalışma ortamı yaratabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemen ve geliştirmen, anlamlı ve etkili bir kariyere vesile olabilir.";
 
 var guclu_yanlarin_10_20_1 = "Yüksek İlkeler” Gücü (10-20)";
 var guclu_yanlarin_10_20_2 = "Yüksek ilkeli davranışların savunucusu olmak için buradasın ve bu davranışlar tanındığında ve davet edildiğinde, etrafındaki insanlara yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilirsin.";
@@ -1771,7 +1775,12 @@ var guclu_yanlarin_6_59_4 = "İş Dünyasında Gücünü Kullanmak Etkileşim g�
 var guclu_yanlarin_6_59_5 = "Etkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
 
 var guclu_yanlarin_63_4_1 = "“Mantıksal Süreç” Gücü (63-4)";
-var guclu_yanlarin_63_4_2 = "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.\nŞüpheyi Kucaklamak Şüphe, mantıksal sürecin vazgeçilmez bir parçasıdır çünkü mantık kusursuz bir şekilde formüle edilebilir ve yine de yanlış olabilir. Şüpheyi kucaklamak, düşünceni sürekli olarak rafine etmeni ve rahatlığa kapılmamanı sağlar. Bu eleştirel yaklaşım, analizlerinde ve kararlarında titiz ve dikkatli olmanı, sürekli olarak doğrulama ve iyileştirme arayışında olmanı sağlar.\nAktif Zihin Çok aktif bir zihne sahipsin ve sürekli olarak kalıpları süzerek tutarlı olup olmadıklarını kontrol ediyorsun. Bu dikkat, tutarsızlıkları ve potansiyel sorunları erken tespit etmene yardımcı olur, böylece proaktif bir şekilde sorun çözebilirsin. Hızlı bir şekilde tutarsızlıkları tespit etme yeteneğin ile kalite kontrol, risk yönetimi ve operasyonel verimlilikte önemli rol oynayabilirsin.\nBaskı ve Sorular Bir kalıp tutarsız hale geldiğinde, baskı yoğunlaşır ve nihayetinde bir soru haline gelir, bu da bir cevap gerektirir. Bu tutarsızlıkları çözme dürtüsü, doğruluk ve güvenilirlik arayışında hiçbir taşı çevirmeden bırakmamanı sağlar. Bu amansız cevap arayışı, seni analist, denetçi veya araştırmacı olarak mükemmel kılar, bu rollerde hassasiyet ve titizlik çok önemlidir.\nİş Dünyasında Gücünü Kullanmak Mantıksal süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Stratejik planlamada, eğitimli tahminler yapma yeteneğin, gerçekçi hedefler belirlemeye ve pazar trendlerini öngörmeye yardımcı olur. Veri analizinde, kalıpları ve tutarsızlıkları tanıma becerin, doğru ve uygulanabilir içgörüler sağlar. Ayrıca, kalite güvence ve risk yönetiminde, titiz yaklaşımın yüksek standartları sağlar ve potansiyel riskleri azaltır.\nMantıksal süreç gücün, iş dünyasında analitik titizlik, eleştirel düşünme ve tahmin edici doğruluk açısından benzersiz bir karışım sunan güçlü bir özelliktir. Mantıksal yeteneklerini dış zorluklar ve fırsatlara odaklayarak, organizasyonel başarıyı sağlayacak paha biçilmez içgörüler ve çözümler sunabilirsin, bilinçli karar alma süreçlerini yönlendirebilir, operasyonel mükemmeliyet sağlayabilir ve organizasyonunun stratejik başarısına katkıda bulunabilirsin.";
+var guclu_yanlarin_63_4_2 = "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.";
+var guclu_yanlarin_63_4_3 = "Şüpheyi Kucaklamak Şüphe, mantıksal sürecin vazgeçilmez bir parçasıdır çünkü mantık kusursuz bir şekilde formüle edilebilir ve yine de yanlış olabilir. Şüpheyi kucaklamak, düşünceni sürekli olarak rafine etmeni ve rahatlığa kapılmamanı sağlar. Bu eleştirel yaklaşım, analizlerinde ve kararlarında titiz ve dikkatli olmanı, sürekli olarak doğrulama ve iyileştirme arayışında olmanı sağlar.";
+var guclu_yanlarin_63_4_4 = "Aktif Zihin Çok aktif bir zihne sahipsin ve sürekli olarak kalıpları süzerek tutarlı olup olmadıklarını kontrol ediyorsun. Bu dikkat, tutarsızlıkları ve potansiyel sorunları erken tespit etmene yardımcı olur, böylece proaktif bir şekilde sorun çözebilirsin. Hızlı bir şekilde tutarsızlıkları tespit etme yeteneğin ile kalite kontrol, risk yönetimi ve operasyonel verimlilikte önemli rol oynayabilirsin.";
+var guclu_yanlarin_63_4_5 = "Baskı ve Sorular Bir kalıp tutarsız hale geldiğinde, baskı yoğunlaşır ve nihayetinde bir soru haline gelir, bu da bir cevap gerektirir. Bu tutarsızlıkları çözme dürtüsü, doğruluk ve güvenilirlik arayışında hiçbir taşı çevirmeden bırakmamanı sağlar. Bu amansız cevap arayışı, seni analist, denetçi veya araştırmacı olarak mükemmel kılar, bu rollerde hassasiyet ve titizlik çok önemlidir.";
+var guclu_yanlarin_63_4_6 = "İş Dünyasında Gücünü Kullanmak Mantıksal süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Stratejik planlamada, eğitimli tahminler yapma yeteneğin, gerçekçi hedefler belirlemeye ve pazar trendlerini öngörmeye yardımcı olur. Veri analizinde, kalıpları ve tutarsızlıkları tanıma becerin, doğru ve uygulanabilir içgörüler sağlar. Ayrıca, kalite güvence ve risk yönetiminde, titiz yaklaşımın yüksek standartları sağlar ve potansiyel riskleri azaltır.";
+var guclu_yanlarin_63_4_7 = "Mantıksal süreç gücün, iş dünyasında analitik titizlik, eleştirel düşünme ve tahmin edici doğruluk açısından benzersiz bir karışım sunan güçlü bir özelliktir. Mantıksal yeteneklerini dış zorluklar ve fırsatlara odaklayarak, organizasyonel başarıyı sağlayacak paha biçilmez içgörüler ve çözümler sunabilirsin, bilinçli karar alma süreçlerini yönlendirebilir, operasyonel mükemmeliyet sağlayabilir ve organizasyonunun stratejik başarısına katkıda bulunabilirsin.";
 
 var guclu_yanlarin_45_21_1 = "“Liderlik” Gücü (45-21) ";
 var guclu_yanlarin_45_21_2 = "Çevrendekileri güvenle geleceğe yönlendirebilirsin. Liderlik tarzın mantıklıdır, test edilmiş ve kesinlikle takip edilebilecek yerleşik kalıplara dayanır. İş ortamında, bu mantıksal liderlik tarzı, ekibinde güven ve güvence uyandıran net, uygulanabilir planlar oluşturmanı sağlar. ";
@@ -1841,7 +1850,12 @@ var guclu_yanlarin_19_49_6 = "İş Dünyasında Gücünü Kullanmak Kaynaklar g�
 var guclu_yanlarin_19_49_7 = "Kaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
 
 var guclu_yanlarin_37_40_1 = "“Topluluk” Gücü (Quantum 37-40)";
-var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
+var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.";
+var guclu_yanlarin_37_40_3 = "Güçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.";
+var guclu_yanlarin_37_40_4 = "Destekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.";
+var guclu_yanlarin_37_40_5 = "Sadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.";
+var guclu_yanlarin_37_40_6 = "İş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.";
+var guclu_yanlarin_37_40_7 = "Topluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
 
 var guclu_yanlarin_34_57_1 = "“Kuvvet” Gücü (Quantum 34-57)";
 var guclu_yanlarin_34_57_2 = "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.";
@@ -1919,7 +1933,12 @@ var guclu_yanlarin_22_12_5 = "Açık Medyayı Kullanma Konuşma, oyunculuk, şii
 var guclu_yanlarin_22_12_6 = "Sosyallik gücün, iş dünyasında uyum sağlama, duygusal zeka ve ilham verici iletişim açısından güçlü bir özelliktir. Bu gücü kullanarak, başkalarıyla etkili bir şekilde etkileşime geçebilir ve onları etkileyebilir, anlamlı bağlantılar kurabilir ve olumlu değişimi teşvik edebilirsin. ";
 
 var guclu_yanlarin_61_24_1 = "“Yaratıcı Süreç” Gücü (Quantum 61-24) ";
-var guclu_yanlarin_61_24_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren bir ilham gücün, içsel hakikat ve bireysel biliş içeren zihinsel kapasiteye sahipsin.\nİlham ve İçsel Hakikat İlham, içsel hakikat ve bireysel biliş için zihinsel kapasiten, sana benzersiz içgörüler ve perspektifler sunma gücü verir. Bu güç, stratejik planlama, araştırma ve geliştirme ve yaratıcı endüstriler gibi yenilikçi düşünme ve vizyoner liderlik gerektiren rollerde çok değerlidir. Çığır açan fikirler ve çözümler sunabilir.\nSpontane Yaratıcı Süreç Bireysel yaratıcılık sürecin oldukça spontane olabilir. Bazen başka bir yerden bir şey duyuyormuş gibi hissetmek, hayatı tamamen yeni bir şekilde görme potansiyeli sunar. Bu spontanelik, teknoloji, pazarlama ve tasarım gibi yenilik ve uyum sağlama üzerine kurulu alanlarda özellikle değerlidir.\nBaşkalarına İlham Verme Zihnin yeni realizasyonlarla başkalarına ilham vermek için tasarlanmıştır. Benzersiz perspektiflerini ve içgörülerini paylaşarak, çevrendeki insanları motive edebilir ve etkileyebilirsin. İlham verme yeteneği, rehberlik ve başkalarını yükseltmenin anahtar olduğu mentorluk, öğretim ve liderlik pozisyonları gibi rollerde kullanılabilir.\nİçsel Hakikate Teslim Olma Zihnin, kendi zamanında kendini gösterecek yeniliklere teslim olduğunda güçlenir. Bu sürece güvenmek, yeni fikirlere ve içgörülere açık kalmana olanak tanır ve dinamik ve duyarlı bir problem çözme yaklaşımını teşvik eder. Bu, esneklik ve değişime açıklığın değerli olduğu herhangi bir ortamda faydalıdır.\nYaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
+var guclu_yanlarin_61_24_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren bir ilham gücün, içsel hakikat ve bireysel biliş içeren zihinsel kapasiteye sahipsin. ";
+var guclu_yanlarin_61_24_3 = "İlham ve İçsel Hakikat İlham, içsel hakikat ve bireysel biliş için zihinsel kapasiten, sana benzersiz içgörüler ve perspektifler sunma gücü verir. Bu güç, stratejik planlama, araştırma ve geliştirme ve yaratıcı endüstriler gibi yenilikçi düşünme ve vizyoner liderlik gerektiren rollerde çok değerlidir. Çığır açan fikirler ve çözümler sunabilir. ";
+var guclu_yanlarin_61_24_4 = "Spontane Yaratıcı Süreç Bireysel yaratıcılık sürecin oldukça spontane olabilir. Bazen başka bir yerden bir şey duyuyormuş gibi hissetmek, hayatı tamamen yeni bir şekilde görme potansiyeli sunar. Bu spontanelik, teknoloji, pazarlama ve tasarım gibi yenilik ve uyum sağlama üzerine kurulu alanlarda özellikle değerlidir. ";
+var guclu_yanlarin_61_24_5 = "Başkalarına İlham Verme Zihnin yeni realizasyonlarla başkalarına ilham vermek için tasarlanmıştır. Benzersiz perspektiflerini ve içgörülerini paylaşarak, çevrendeki insanları motive edebilir ve etkileyebilirsin. İlham verme yeteneği, rehberlik ve başkalarını yükseltmenin anahtar olduğu mentorluk, öğretim ve liderlik pozisyonları gibi rollerde kullanılabilir. ";
+var guclu_yanlarin_61_24_6 = "İçsel Hakikate Teslim Olma Zihnin, kendi zamanında kendini gösterecek yeniliklere teslim olduğunda güçlenir. Bu sürece güvenmek, yeni fikirlere ve içgörülere açık kalmana olanak tanır ve dinamik ve duyarlı bir problem çözme yaklaşımını teşvik eder. Bu, esneklik ve değişime açıklığın değerli olduğu herhangi bir ortamda faydalıdır. ";
+var guclu_yanlarin_61_24_7 = "Yaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
 
 var guclu_yanlarin_43_23_1 = "“Verimlilik” Gücü (Quantum 43-23) ";
 var guclu_yanlarin_43_23_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren anlık atılımlar ve benzersiz içgörüler sunma yeteneğin var. Bu yetenek, yenilik ve problem çözme gerektiren süreç iyileştirme, proje yönetimi ve stratejik planlama gibi rollerde çok değerlidir. Verimli çözümler bulma yeteneğin, operasyonlar ve üretkenlikte önemli iyileştirmelere yol açabilir. ";
@@ -1935,7 +1954,11 @@ var guclu_yanlarin_52_9_5 = "Odaklanma Odaklanacak değerli bir şey olmadığı
 var guclu_yanlarin_52_9_6 = "Konsantrasyon gücün, işine odaklanmış ve adanmış bir yaklaşım sunmanı sağlar, bu da seni titizlik, detay ve eksiksizlik gerektiren her profesyonel ortamda değerli bir varlık haline getirir. Bu gücü kullanarak, derin odaklanma, kritik değerlendirme ve adanmış uzmanlık gerektiren rollerde mükemmel olabilir, katkılarının etkili ve yüksek değerli olmasını sağlayabilirsin.  ";
 
 var guclu_yanlarin_58_18_1 = "“Mantıklı Yargı” Gücü Quantum 58-18  ";
-var guclu_yanlarin_58_18_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.\n\nUstalık ve İyileştirme Ustalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.\n\nDavet Edilen Fikir Neşe Getirir Sorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.\n\nİş Dünyasında Gücünü Kullanmak İş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.\n\nMantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
+var guclu_yanlarin_58_18_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.  ";
+var guclu_yanlarin_58_18_3 = "Ustalık ve İyileştirme Ustalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.  ";
+var guclu_yanlarin_58_18_4 = "Davet Edilen Fikir Neşe Getirir Sorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.  ";
+var guclu_yanlarin_58_18_5 = "İş Dünyasında Gücünü Kullanmak İş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.  ";
+var guclu_yanlarin_58_18_6 = "Mantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
 
 var guclu_yanlarin_48_16_1 = "“Yetenek” Gücü Quantum 48-16  ";
 var guclu_yanlarin_48_16_2 = "Sezgisel içgörülerini tekrarlayan deneyimler ve pratik ile birleştirebilirsin. Bu süreç, içsel bir yeteneği mükemmelleştirmene yardımcı olur ve tutkuyla bağlı olduğun herhangi bir alanda yenilikçi çözümler ve rafine teknikler geliştirmene olanak tanır.  ";
@@ -2012,7 +2035,10 @@ var guclu_yanlarin_15_4 = "Güvenilir Bir Çevre Yaratmak, Ekip içinde güven d
 var guclu_yanlarin_15_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
 
 var guclu_yanlarin_5_1 = "Kültür Mimarı";
-var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur.\nGrup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.\nBaşarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir.\nİş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
+var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur. ";
+var guclu_yanlarin_5_3 = "Grup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.   ";
+var guclu_yanlarin_5_4 = "Başarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir. ";
+var guclu_yanlarin_5_5 = "İş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
 
 var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı";
 var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek, Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın. ";
@@ -2046,7 +2072,10 @@ var guclu_yanlarin_1_4 = "Sonuç Odaklı Olmak, Senin gücün, planların ve pro
 var guclu_yanlarin_1_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
 
 var guclu_yanlarin_8_1 = "İmaj Yöneticisi";
-var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.\nEkibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.\nRol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
+var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.  ";
+var guclu_yanlarin_8_3 = "Ekibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.  ";
+var guclu_yanlarin_8_4 = "Rol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.  ";
+var guclu_yanlarin_8_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.  ";
 
 var guclu_yanlarin_7_1 = "Stratejik Planlayıcı";
 var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.  ";
@@ -2055,7 +2084,10 @@ var guclu_yanlarin_7_4 = "Kaynakların Verimli Kullanımı, Zaman çizelgelerini
 var guclu_yanlarin_7_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
 
 var guclu_yanlarin_31_1 = "Uygulama Ustası";
-var guclu_yanlarin_31_2 = "Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.\nBaşarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.\nSistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
+var guclu_yanlarin_31_2 ="Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.  ";
+var guclu_yanlarin_31_3 = "Başarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.  ";
+var guclu_yanlarin_31_4 = "Sistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.  ";
+var guclu_yanlarin_31_5 = "İş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.  ";
 
 var guclu_yanlarin_13_1 = "Rakam Stratejisti";
 var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek, Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.  ";
@@ -6028,12 +6060,28 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_57_10_1;
       } else if (type == "57-10_2") {
         return guclu_yanlarin_57_10_2;
-      }
+      } else if (type == "57-10_3") {
+        return guclu_yanlarin_57_10_3;
+      } else if (type == "57-10_4") {
+        return guclu_yanlarin_57_10_4;
+      } else if (type == "57-10_5") {
+        return guclu_yanlarin_57_10_5;
+      } else if (type == "57-10_6") {
+        return guclu_yanlarin_57_10_6;
+      } 
     } else if (guclu_yanlarinData.name == "10-20") {
       if (type == "10_20_1") {
         return guclu_yanlarin_10_20_1;
       } else if (type == "10_20_2") {
         return guclu_yanlarin_10_20_2;
+      } else if (type == "10_20_3") {
+        return guclu_yanlarin_10_20_3;
+      } else if (type == "10_20_4") {
+        return guclu_yanlarin_10_20_4;
+      } else if (type == "10_20_5") {
+        return guclu_yanlarin_10_20_5;
+      } else if (type == "10_20_6") {
+        return guclu_yanlarin_10_20_6;
       }
     } else if (guclu_yanlarinData.name == "6-59") {
       if (type == "6-59_1") {
@@ -6366,6 +6414,16 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_61_24_1;
       } else if (type == "61-24_2") {
         return guclu_yanlarin_61_24_2;
+      } else if (type == "61-24_3") {
+        return guclu_yanlarin_61_24_3;
+      } else if (type == "61-24_4") {
+        return guclu_yanlarin_61_24_4;
+      } else if (type == "61-24_5") {
+        return guclu_yanlarin_61_24_5;
+      } else if (type == "61-24_6") {
+        return guclu_yanlarin_61_24_6;
+      } else if (type == "61-24_7") {
+        return guclu_yanlarin_61_24_7;
       }
     } else if (guclu_yanlarinData.name == "43-23") {
       if (type == "43-23_1") {
@@ -6398,6 +6456,14 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_58_18_1;
       } else if (type == "18-58_2") {
         return guclu_yanlarin_58_18_2;
+      } else if (type == "18-58_3") {
+        return guclu_yanlarin_58_18_3;
+      } else if (type == "18-58_4") {
+        return guclu_yanlarin_58_18_4;
+      } else if (type == "18-58_5") {
+        return guclu_yanlarin_58_18_5;
+      } else if (type == "18-58_6") {
+        return guclu_yanlarin_58_18_6;
       }
     } else if (guclu_yanlarinData.name == "48-16") {
       if (type == "48-16_1") {
@@ -6624,6 +6690,12 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_8_1;
       } else if (type == "8_2") {
         return guclu_yanlarin_8_2;
+      } else if (type == "8_3") {
+        return guclu_yanlarin_8_3;
+      } else if (type == "8_4") {
+        return guclu_yanlarin_8_4;
+      } else if (type == "8_5") {
+        return guclu_yanlarin_8_5;
       }
     } else if (guclu_yanlarinData.name == "7") {
       if (type == "7_1") {
@@ -6642,6 +6714,12 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return guclu_yanlarin_31_1;
       } else if (type == "31_2") {
         return guclu_yanlarin_31_2;
+      } else if (type == "31_3") {
+        return guclu_yanlarin_31_3;
+      } else if (type == "31_4") {
+        return guclu_yanlarin_31_4;
+      } else if (type == "31_5") {
+        return guclu_yanlarin_31_5;
       }
     } else if (guclu_yanlarinData.name == "13") {
       if (type == "13_1") {
@@ -7507,12 +7585,30 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
     allVariables.P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
     allVariables.P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
+    allVariables.P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    allVariables.P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    allVariables.P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    allVariables.P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    allVariables.P30A7 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_7",);
+    allVariables.P30A8 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_8",);
     
     allVariables.P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
     allVariables.P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    allVariables.P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    allVariables.P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    allVariables.P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    allVariables.P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+    allVariables.P31A7 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_7",);
+    allVariables.P31A8 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_8",);
 
     allVariables.P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
     allVariables.P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    allVariables.P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    allVariables.P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    allVariables.P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    allVariables.P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+    allVariables.P32A7 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_7",);
+    allVariables.P32A8 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_8",);
 
     allVariables.P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
     allVariables.P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
@@ -7594,15 +7690,39 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
       P30A1: allVariables.P30A1, // Güçlü yanların
       P30A2: allVariables.P30A2, 
+      P30A3: allVariables.P30A3, 
+      P30A4: allVariables.P30A4, 
+      P30A5: allVariables.P30A5, 
+      P30A6: allVariables.P30A6,
+      P30A7: allVariables.P30A7,
+      P30A8: allVariables.P30A8,
 
       P31A1: allVariables.P31A1,
       P31A2: allVariables.P31A2,
+      P31A3: allVariables.P31A3,
+      P31A4: allVariables.P31A4,
+      P31A5: allVariables.P31A5,
+      P31A6: allVariables.P31A6,
+      P31A7: allVariables.P31A7,
+      P31A8: allVariables.P31A8,
 
       P32A1: allVariables.P32A1,
       P32A2: allVariables.P32A2,
+      P32A3: allVariables.P32A3,
+      P32A4: allVariables.P32A4,
+      P32A5: allVariables.P32A5,
+      P32A6: allVariables.P32A6,
+      P32A7: allVariables.P3276,
+      P32A8: allVariables.P3286,
 
       P33A1: allVariables.P33A1,
       P33A2: allVariables.P33A2,
+      P33A3: allVariables.P33A3,
+      P33A4: allVariables.P33A4,
+      P33A5: allVariables.P33A5,
+      P33A6: allVariables.P33A6,
+      P33A7: allVariables.P33A7,
+      P33A8: allVariables.P33A8,
 
       P36A1: allVariables.P36A1, // Senin Karar Verme Stratejin
       P36A2: allVariables.P36A2,
@@ -7665,18 +7785,48 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
     allVariables.P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
     allVariables.P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
-
+    allVariables.P30A3 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_3",); 
+    allVariables.P30A4 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_4",); 
+    allVariables.P30A5 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_5",); 
+    allVariables.P30A6 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_6",);
+    allVariables.P30A7 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_7",);
+    allVariables.P30A8 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_8",);
+    
     allVariables.P31A1 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_1",);
     allVariables.P31A2 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_2",);
+    allVariables.P31A3 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_3",);
+    allVariables.P31A4 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_4",);
+    allVariables.P31A5 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_5",);
+    allVariables.P31A6 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_6",);
+    allVariables.P31A7 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_7",);
+    allVariables.P31A8 = guclu_yanlarin(guclu_yanlarinData[1], 25, guclu_yanlarinData[1].name + "_8",);
 
     allVariables.P32A1 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_1",);
     allVariables.P32A2 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_2",);
+    allVariables.P32A3 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_3",);
+    allVariables.P32A4 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_4",);
+    allVariables.P32A5 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_5",);
+    allVariables.P32A6 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_6",);
+    allVariables.P32A7 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_7",);
+    allVariables.P32A8 = guclu_yanlarin(guclu_yanlarinData[2], 25, guclu_yanlarinData[2].name + "_8",);
 
     allVariables.P33A1 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_1",);
-    allVariables.P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);;
+    allVariables.P33A2 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_2",);
+    allVariables.P33A3 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_3",);
+    allVariables.P33A4 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_4",);
+    allVariables.P33A5 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_5",);
+    allVariables.P33A6 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_6",);
+    allVariables.P33A7 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_7",);
+    allVariables.P33A8 = guclu_yanlarin(guclu_yanlarinData[3], 25, guclu_yanlarinData[3].name + "_8",);
 
     allVariables.P34A1 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_1",);
     allVariables.P34A2 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_2",);
+    allVariables.P34A3 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_3",);
+    allVariables.P34A4 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_4",);
+    allVariables.P34A5 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_5",);
+    allVariables.P34A6 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_6",);
+    allVariables.P34A7 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_7",);
+    allVariables.P34A8 = guclu_yanlarin(guclu_yanlarinData[4], 25, guclu_yanlarinData[4].name + "_8",);
     
     allVariables.P37A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
     allVariables.P37A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
