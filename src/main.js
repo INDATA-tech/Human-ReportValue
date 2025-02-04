@@ -10058,5 +10058,5 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
   const jsonString = JSON.stringify(inputs_25_plus)
 
   log(inputs_25_plus)
-  return inputs_25_plus;
+  return res.send(inputs_25_plus);
 };
