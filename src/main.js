@@ -87,9 +87,7 @@ export default async ({ req, res, log, error }) => {
   var api = processedData.api;
   var usergates = getAllGates(api);
 
-  //log(api)
   var hollandData = processedData.holland;
-  //log(hollandData);
   var big5Data = processedData.big5;
   var aiData = processedData.ai;
   var teamworkData = processedData.teamwork;
@@ -110,7 +108,7 @@ export default async ({ req, res, log, error }) => {
       )[1],
     ),
   };
-  //log(big5Data);
+
   hollandData.sort((a, b) => b.value - a.value);
   big5Data.sort((a, b) => b.value - a.value);
   var type = [
@@ -1386,7 +1384,7 @@ var kariyer_secim_12_25_s7_retail_9_7 = "• Müşteri Analitiği Uzmanı: Müş
 var kariyer_secim_12_25_s7_retail_9_8 = "Perakende sektöründe geniş bir yelpazede kariyer seçenekleri bulunuyor ve her kariyer tipi için uygun fırsatlar mevcut.";
 
 
-// var kariyer_secim_12_25_s7_9_9 = "sağlık ve ilaç sektöründe yapılabilecek işler: "
+//sağlık ve ilaç sektöründe yapılabilecek işler: 
 var kariyer_secim_12_25_s7_health_1_1 = "Yaratıcı ve Sanatsal Kariyerler ";
 var kariyer_secim_12_25_s7_health_1_2 = "Sağlık ve ilaç sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
 var kariyer_secim_12_25_s7_health_1_3 = "• Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. ";
@@ -1787,8 +1785,8 @@ var guclu_yanlarin_26_44_2 = "Hayati bilgileri net ve etkili bir şekilde aktarm
 var guclu_yanlarin_32_54_1 = "“Tutku” Gücü (Quantum 32-54) ";
 var guclu_yanlarin_32_54_2 = "Hedeflerine ve arzularına ulaşmak için bitmeyen bir azime sahipsin. Bu kararlılık, engeller ve zorluklarla karşılaştığında seni ileriye taşır. İş dünyasında bu güç, girişimcilik, satış ve liderlik gibi azim, dayanıklılık ve güçlü bir iş etiği gerektiren rollerde çok değerlidir.\n\nHedef Odaklı Tutkun, hedefler belirleme ve bu hedeflere ulaşma konusunda güçlü bir odaklanma ile karakterizedir. Ne başarmak istediğin konusunda net bir vizyona sahipsin ve bunu gerçekleştirmek için gerekli çabayı göstermeye hazırsın. Bu hedef odaklı yaklaşım hedeflerine doğru ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar Kendine yüksek standartlar koyar ve yaptığın her şeyde mükemmellik için çaba gösterirsin. Bu kalite ve gelişim taahhüdü, becerilerini sürekli olarak geliştirmeni ve olağanüstü sonuçlar elde etmeni sağlar. Profesyonel ortamlarda, yüksek standartların başkalarını da mükemmellik için çaba göstermeye teşvik eder.\n\nBaşkalarını Motive Etme Hırslı doğan, çevrendekileri de motive edebilir ve ilham verebilir. Yoğun çalışma ve özveri örneği göstererek ekip üyelerini sınırlarını zorlamaya ve başarıya ulaşmaya teşvik edersin. Bu, liderlik rollerinde, tutku kültürü oluşturarak önemli organizasyonel başarılar elde etmeyi sağlayan bir yetenek olarak özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Tutku gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Girişimcilikte, bitmeyen azmin ve hedef odaklı yaklaşımın, fikirleri başarılı girişimlere dönüştürmene yardımcı olabilir. Satışta, ısrarcılığın ve yüksek standartların, olağanüstü performans ve müşteri memnuniyeti sağlayabilir. Ayrıca, liderlik rollerinde, ekibini motive etme ve ilham verme yeteneğin, genel organizasyonel başarıyı artırabilir.\n\nTutku gücün, iş dünyasında güçlü bir varlıktır ve kararlılık, yüksek standartlar ve motivasyon yeteneğinin benzersiz bir karışımını sağlar. Bu güçten yararlanarak hedeflerine ulaşabilir, çevrendekilere ilham verebilir ve organizasyonunu daha büyük başarılara yönlendirebilirsin.  ";
 
-var guclu_yanlarin_19_49_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
-var guclu_yanlarin_19_49_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
+var guclu_yanlarin_49_19_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
+var guclu_yanlarin_49_19_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
 
 var guclu_yanlarin_37_40_1 = "“Topluluk” Gücü (Quantum 37-40)";
 var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
@@ -2750,16 +2748,16 @@ var teamwork_s3u2_10_3 = "• Örnek olarak liderlik ediyor muyum ve başkaları
 var teamwork_s3u2_10_4 = "• Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
 
 //Yaşamda İlerleme Tarzın
-var lifestyle_25_plus_manifesting_generator_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_manifesting_generator_0 = "Manifesting Generator";
+var lifestyle_25_plus_manifesting_generator_image_w = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+var lifestyle_25_plus_manifesting_generator_image_m = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var lifestyle_25_plus_manifesting_generator_name = "Enerjik";
 var lifestyle_25_plus_manifesting_generator_1 = "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz. Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.\n\nUyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.\nRolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.\n\n Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
 var lifestyle_25_plus_manifesting_generator_2 = "İçgüdülerine ne kadar güvenir ve doğru anı beklersen, hayatın o kadar tatmin edici ve keyifli hale gelir.Kendini bir mıknatıs gibi düşünebilirsin, enerjinin fırsatları doğal olarak sana çektiğini gözlemleyebilirsin.";
 var lifestyle_25_plus_manifesting_generator_3 = "Eforsuz ve doğal olan yolun, anda hayatın sunduklarına cevap verdiğinde kendini gösterecektir.Enerjin, hayatın sana getirdiklerine cevap vermek aracılığıyla taahhüt ettiğin şeyde ustalaşmana yardımcı olmak için burada.Doğru yolda olduğunun işareti, işlerin doğal olarak yerine oturmaya başlaması ve içinde bir tatmin hissi.\n\nÇok büyük bir enerjin olduğu için seni gerçekten ilgilendirmeyen veya seni tatmin etmeyen şeylere evet dememeye ve bağlanmamaya dikkat etmelisin.İç pusulan içgüdülerin aracılığıyla seninle iletişim kurar.Hayatı doğru yaşamak için stratejin hayatın sana getirmesini beklemek ve gelene cevap vermektir.Önce içgüdülerini dinle ve başkalarının ne yapman gerektiğini dikte etmesine izin verme.\n\nSen monoton bir rutin için yaratılmadın.Üretmeye, inşa etmeye devam et ve inanılmaz enerjine her zaman güven.";
 var lifestyle_25_plus_manifesting_generator_motto = "Hayat tatmini için benimseyeceğin slogan: Yaptığın işi sev ve sevdiğin işi yap!";
 
-var lifestyle_25_plus_generator_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_generator_0 = "Generator";
+var lifestyle_25_plus_generator_image_w = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+var lifestyle_25_plus_generator_image_m = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var lifestyle_25_plus_generator_name = "Enerjik";
 var lifestyle_25_plus_generator_1 = "İş dünyasında ve kariyerinde kendine has ve benzersiz bir enerjin var. İşleri halletmede, bir şeyler inşa etmede ve büyütmede harikasın. Enerjini yapmayı sevdiğin işlere kullandıktan sonra başını yastığa koyduğunda tatmin hissi ile uyuyabilirsin.\n\nHayatta ve işte tatmininin anahtarı sadece çok çalışmak değil, enerjini nasıl etkili ve verimli kullandığın. Yaptığın iş refahın ve esenliğin için çok önemli. İçinde harekete geçmene ve bir şeyler yaratmana yardımcı olan güçlü bir enerji kaynağın var.\n\nDikkat etmen gereken başlamak ya da başlatmak zorunda olmadığını bilmek. Gücün, içgüdülerine dayanarak hayata cevap vermekte ve doğru ipuçlarını beklemekte yatıyor.";
 var lifestyle_25_plus_generator_2 = "İçgüdülerine ne kadar güvenir ve doğru anı beklersen, hayatın o kadar tatmin edici ve keyifli hale gelir. Kendini bir mıknatıs gibi düşünebilirsin, enerjinin fırsatları doğal olarak sana çektiğini gözlemleyebilirsin.";
@@ -2767,7 +2765,6 @@ var lifestyle_25_plus_generator_3 = "Eforsuz ve doğal olan yolun, anda hayatın
 var lifestyle_25_plus_generator_motto = "Hayat tatmini için benimseyeceğin slogan: Yaptığın işi sev ve sevdiğin işi yap!";
 
 var lifestyle_25_plus_projektor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/projector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_projektor_0 = "Projektor";
 var lifestyle_25_plus_projektor_name = "Rehber";
 var lifestyle_25_plus_projektor_1 = "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz. Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın. Uyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.\n\nKariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin. Rolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.\n\nEnerji dinamiklerine dikkat etmen çok önemli. Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin. Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir. Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
 var lifestyle_25_plus_projektor_2 = "Tanınmayı ve doğru davetleri beklemek, başarının anahtarıdır.  Enerjini ve bilgeliğini en anlamlı ve etkili şekilde yönlendirmeni sağlar. Senin için doğru davetleri kabul etme konusunda seçici ol. Bu süreçte sana rehberlik etmesi için sezgilerine güven.";
@@ -2775,7 +2772,6 @@ var lifestyle_25_plus_projektor_3 = "Doğuştan gelen yeteneklerinden biri, baş
 var lifestyle_25_plus_projektor_motto = "Çevrendekiler için bilge ve zeki bir rehber olabilirsin. Bilgeliğini sadece sana davet verenler ile paylaş.";
 
 var lifestyle_25_plus_manifestor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/manifestor/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_manifestor_0 = "Manifestor";
 var lifestyle_25_plus_manifestor_name = "Başlatıcı";
 var lifestyle_25_plus_manifestor_1 = "Benzersiz ve güçlü bir yeteneğe sahipsin - Çevrendeki bir çok kişiden farklı olarak, bir şeyleri başlatmak  için doğuştan gelen bir beceriye sahipsin.Rolün çok önemli, çünkü ilk adımı atmazsan, işler olması gerektiği gibi gelişmez.Kendi kendine yetebilirsin, bağımsız çalışmak ve hareket etmek için buradasın, yaptıklarınla başkalarını etkilersin.\n\nİlişkiler ve işler alanında da, başlatıcı rolünü oynarsın – ilk hamleyi yapan kişi sen olmalısın.Kendini sık sık geleceğe bakarken, başkalarının vizyonunu yakalamasını beklerken bulabilirsin.Çevrendekiler senin enerjini kapalı ve dışarı doğru kuvvetlice iten bir güç gibi algılayabilir.";
 var lifestyle_25_plus_manifestor_2 = "Senin için başarılı etkileşimlerin anahtarı, bir şeyler yapmak ve başlatmak için tasarlanmış biri olduğunu kabul etmekte yatar.Bir şeyleri başlatırken, etkilenecek tüm kişileri bilgilendirebilirsen, senin ve etrafındakiler için güzel bir etkileşimi sağlayabilirsin.";
@@ -2783,51 +2779,41 @@ var lifestyle_25_plus_manifestor_3 = "Kontrol edilmekten hiç hoşlanmadığın 
 var lifestyle_25_plus_manifestor_motto = "Başlatma gücün ile bilgilendirme sanatı arasındaki dengeyi anlamak ve uygulamak iş yaşamındaki başarının ve içsel huzurunun kaynağı olacaktır.";
 
 var lifestyle_25_plus_reflektor_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_reflektor_0 = "Reflektor";
 var lifestyle_25_plus_reflektor_name = "Yansıtıcı";
 var lifestyle_25_plus_reflektor_1 = "Doğru ortamda, insanların, toplulukların ve işletmelerin objektif bir değerlendirmesini sağlayan bir kişi olarak parlayabilirsin.Bakış açın tamamen benzersiz ve ilerlemeyi veya dikkat edilmesi gereken alanları doğru bir şekilde değerlendirerek düşünmene ve genel bir bakış açısı kazanmana olanak tanır.\n\nBaşkalarını kabul etme, doğru gitmeyen şeyleri vurgulayarak onları işbirliğine, barışa ve eşitliğe doğru yönlendirme konusunda olağanüstü bir yeteneğe sahipsin.Bir işletmenin, topluluğun veya bir grubun merkezinde olduğunda, özgürce hareket ettiğinde ve işlerin bir bütün olarak nasıl yürüdüğünü yansıtmak için buradasın.\n\nÇevrendekilere çeşitliliği kucaklamanın önemini öğreterek özellikle etkili olabilirsin.";
 var lifestyle_25_plus_reflektor_2 = "Objektif bir bakış açısı sunarak etrafındaki her şeyi ve herkesi yansıtmak yeteneklerin arasında. Varlığın sessizlik, nezaket ve müdahaleci olmama ile tanımlanabilir. Çevreyi bir bütün olarak yansıtırsın ve diğerleri kim olduğunu tam olarak anlamakta zorlanabilir. ";
 var lifestyle_25_plus_reflektor_3 = "Karar verirken acele etmemelisin.Önemli konuları değerlendir ve güvendiğin kişiler ile konuyu konuş.Başkalarıyla etkileşim kurarken, yanlış ortamda olmak veya herkese uymaya çalışmak gibi tuzakların farkında ol.Başkalarına aşırı bağımlı olmaktan veya görünmez hissetmekten kaçın, gerçek benliğinden ödün verme.\n\nBir şeyleri başlatma, hayata geçirme veya olmaya zorlama dürtüsüne diren, çünkü bu başkalarında dirence neden olabilir ve hayal kırıklığına yol açabilir.Başkalarının korkularına, duygularına, stresine ve kaygılarına kapılmaktan kaçın.Etrafındakilerle sağlıklı bir mesafeyi her zaman koru ve acele etmekten veya karar vermek için baskı altında kalmaktan kaçın.\n\nKendin için doğru seçimleri yapabilmen ve iyi hissetmen için bulunduğun ortamın senin için doğru olması çok önemli.Çünkü sen bulunduğun ortamların enerjisini yansıtma yeteneğine sahipsin.Gerek özel yaşamında gerek iş yaşamında ortamına hep önem ver.";
 var lifestyle_25_plus_reflektor_motto = "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!";
 
-var lifestyle_25_plus_manifestor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/manifestor/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_manifestor_evaluation_0 = "Başlatıcı";
-var lifestyle_25_plus_manifestor_evaluation_name = "Başlatıcı";
-var lifestyle_25_plus_manifestor_evaluation_1 = "• Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
-var lifestyle_25_plus_manifestor_evaluation_2 = "• Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
-var lifestyle_25_plus_manifestor_evaluation_3 = "• Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
-var lifestyle_25_plus_manifestor_evaluation_4 = "• Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
-var lifestyle_25_plus_manifestor_evaluation_5 = "• Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
+//sayfa 3 - sorular
+var lifestyle_25_plus_starter_question_name = "Başlatıcı";
+var lifestyle_25_plus_starter_evaluation_1 = "• Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
+var lifestyle_25_plus_starter_evaluation_2 = "• Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
+var lifestyle_25_plus_starter_evaluation_3 = "• Bir başlatıcı olarak doğal rolüme adım attığımda başkalarının tepkisiyle nasıl başa çıkabilirim ve olası çatışmayı hafifletmek için ne yapabilirim? ";
+var lifestyle_25_plus_starter_evaluation_4 = "• Büyük projelere veya değişikliklere başladıktan sonra enerjimi yönetmek ve tükenmişliği önlemek için hangi stratejileri kullanıyorum? ";
+var lifestyle_25_plus_starter_evaluation_5 = "• Hayatımın hangi alanlarında yeni şeylere başlamak için en çok güçlenmiş hissediyorum ve bu enerjiyi daha bilinçli bir şekilde nasıl kullanabilirim? ";
 
-var lifestyle_25_plus_generator_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_generator_evaluation_0 = "Enerjik";
-var lifestyle_25_plus_generator_evaluation_name = "Enerjik";
-var lifestyle_25_plus_generator_evaluation_1 = "• Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? ";
-var lifestyle_25_plus_generator_evaluation_2 = "• Fırsatlara yanıt verdiğimde ve beklemeden harekete geçtiğimde bedenimde nasıl hissediyorum? ";
-var lifestyle_25_plus_generator_evaluation_3 = "• Hayatımın hangi alanlarında bir şeyleri olmaya zorluyorum ve daha duyarlı bir yaklaşıma nasıl geçebilirim? ";
-var lifestyle_25_plus_generator_evaluation_4 = "• Sakral (içgüdüsel tepkim) doğru yolda olduğumda bana hangi sinyalleri veriyor ve onlara nasıl daha tutarlı bir şekilde güvenebilir ve takip edebilirim? ";
-var lifestyle_25_plus_generator_evaluation_5 = "• Hayal kırıklığına uğradığımda veya sıkışmış hissettiğimde enerjimi nasıl yeniden şarj ederim ve bu zamanlarda daha fazla sabır geliştirmek için ne yapabilirim? ";
+var lifestyle_25_plus_energetic_question_name = "Enerjik";
+var lifestyle_25_plus_energetic_evaluation_1 = "• Hangi aktiviteler beni en çok tatmin ediyor ve günlük hayatımın daha fazlasını bu aktivitelerle nasıl uyumlu hale getirebilirim? ";
+var lifestyle_25_plus_energetic_evaluation_2 = "• Fırsatlara yanıt verdiğimde ve beklemeden harekete geçtiğimde bedenimde nasıl hissediyorum? ";
+var lifestyle_25_plus_energetic_evaluation_3 = "• Hayatımın hangi alanlarında bir şeyleri olmaya zorluyorum ve daha duyarlı bir yaklaşıma nasıl geçebilirim? ";
+var lifestyle_25_plus_energetic_evaluation_4 = "• Sakral (içgüdüsel tepkim) doğru yolda olduğumda bana hangi sinyalleri veriyor ve onlara nasıl daha tutarlı bir şekilde güvenebilir ve takip edebilirim? ";
+var lifestyle_25_plus_energetic_evaluation_5 = "• Hayal kırıklığına uğradığımda veya sıkışmış hissettiğimde enerjimi nasıl yeniden şarj ederim ve bu zamanlarda daha fazla sabır geliştirmek için ne yapabilirim? ";
 
-var lifestyle_25_plus_manifesting_generator_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_manifesting_generator_evaluation_0 = "Başlatıcı Enerjik";
-var lifestyle_25_plus_manifesting_generator_name = "Başlatıcı Enerjik";
-var lifestyle_25_plus_manifesting_generator_evaluation_1 = "• Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
-var lifestyle_25_plus_manifesting_generator_evaluation_2 = "• Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
-var lifestyle_25_plus_manifesting_generator_evaluation_3 = "• Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
-var lifestyle_25_plus_manifesting_generator_evaluation_4 = "• Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
-var lifestyle_25_plus_manifesting_generator_evaluation_5 = "• Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
+var lifestyle_25_plus_starter_energetic_question_name = "Başlatıcı Enerjik";
+var lifestyle_25_plus_starter_energetic_evaluation_1 = "• Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
+var lifestyle_25_plus_starter_energetic_evaluation_2 = "• Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_3 = "• Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_4 = "• Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_5 = "• Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
 
-var lifestyle_25_plus_projektor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/projector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
-var lifestyle_25_plus_projektor_evaluation_0 = "Rehber";
-var lifestyle_25_plus_projektor_evaluation_name = "Rehber";
+var lifestyle_25_plus_projektor_question_name = "Rehber";
 var lifestyle_25_plus_projektor_evaluation_1 = "• Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
 var lifestyle_25_plus_projektor_evaluation_2 = "• Son zamanlarda güçlü yönlerimle uyumlu olduğunu hissettiğim hangi davetler veya takdirler aldım ve bunlara nasıl yanıt verdim? ";
 var lifestyle_25_plus_projektor_evaluation_3 = "• Enerjimi nasıl korurum ve tükenmişliği nasıl önlerim, özellikle de tanınmadığımı veya takdir edilmediğimi hissettiğimde? ";
 var lifestyle_25_plus_projektor_evaluation_4 = "• Önüme çıkan doğru fırsatlara ve davetlere daha fazla sabır ve güven geliştirmek için ne yapabilirim? ";
 var lifestyle_25_plus_projektor_evaluation_5 = "• Hayatımın hangi alanlarında benzersiz bakış açım için en çok görüldüğümü ve değer verildiğini hissediyorum ve oraya nasıl daha fazla enerji odaklayabilirim? ";
 
-var lifestyle_25_plus_reflektor_evaluation_image = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/reflector/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin"
-var lifestyle_25_plus_reflektor_evaluation_0 = "Yansıtıcı";
 var lifestyle_25_plus_reflektor_evaluation_name = "Yansıtıcı";
 var lifestyle_25_plus_reflektor_evaluation_1 = "• Şu anki ortamımda nasıl hissediyorum ve etrafımdaki insanlar ve alanlar hakkında ne yansıtıyor? ";
 var lifestyle_25_plus_reflektor_evaluation_2 = "• Ay döngüsünün doğal ritmine güvenerek önemli kararlar almak için kendime nasıl daha fazla zaman verebilirim? ";
@@ -3721,6 +3707,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     }
   };
 
+
   let lifestyle = (lifestyleData, age, type) => {
     if (type == "name") {
       if (lifestyleData == "Manifesting Generator") {
@@ -3782,77 +3769,96 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_motto;
       }
+    }  else if (type == "questions") {
+      if (lifestyleData == "Manifesting Generator") {
+        return lifestyle_25_plus_starter_energetic_question_name;
+      } else if (lifestyleData == "Generator") {
+        return lifestyle_25_plus_energetic_question_name;
+      } else if (lifestyleData == "Projector") {
+        return lifestyle_25_plus_projektor_question_name;
+      } else if (lifestyleData == "Manifestor") {
+        return lifestyle_25_plus_starter_question_name;
+      } else if (lifestyleData == "Reflector") {
+        return lifestyle_25_plus_reflektor_evaluation_name;
+      }
     } else if (type == "evaluation_1") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_1;
+        
+        return lifestyle_25_plus_starter_energetic_evaluation_1;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_1;
+        return lifestyle_25_plus_energetic_evaluation_1;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_1;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_1;
+        return lifestyle_25_plus_starter_evaluation_1;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_1;
       }
     } else if (type == "evaluation_2") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_2;
+        return lifestyle_25_plus_starter_energetic_evaluation_2;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_2;
+        return lifestyle_25_plus_energetic_evaluation_2;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_2;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_2;
+        return lifestyle_25_plus_starter_evaluation_2;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_2;
       }
     } else if (type == "evaluation_3") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_3;
+        return lifestyle_25_plus_starter_energetic_evaluation_3;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_3;
+        return lifestyle_25_plus_energetic_evaluation_3;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_3;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_3;
+        return lifestyle_25_plus_starter_evaluation_3;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_3;
       }
     } else if (type == "evaluation_4") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_4;
+        return lifestyle_25_plus_starter_energetic_evaluation_4;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_4;
+        return lifestyle_25_plus_energetic_evaluation_4;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_4;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_4;
+        return lifestyle_25_plus_starter_evaluation_4;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_4;
       }
     } else if (type == "evaluation_5") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_5;
+        return lifestyle_25_plus_starter_energetic_evaluation_5;
       } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_5;
+        return lifestyle_25_plus_energetic_evaluation_5;
       } else if (lifestyleData == "Projector") {
         return lifestyle_25_plus_projektor_evaluation_5;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_5;
+        return lifestyle_25_plus_starter_evaluation_5;
       } else if (lifestyleData == "Reflector") {
         return lifestyle_25_plus_reflektor_evaluation_5;
       }
     } else if( type == "image") {
       if (lifestyleData == "Manifesting Generator") {
-        return lifestyle_25_plus_manifesting_generator_evaluation_image;
-      } else if (lifestyleData == "Generator") {
-        return lifestyle_25_plus_generator_evaluation_image;
+        if(cinsiyet == "Erkek")
+          return lifestyle_25_plus_manifesting_generator_image_m;
+        else
+        return lifestyle_25_plus_manifesting_generator_image_w;
+      }   else if (lifestyleData == "Generator") {
+        if(cinsiyet == "Erkek")
+          return lifestyle_25_plus_generator_image_m
+        else
+          return lifestyle_25_plus_generator_image_w
       } else if (lifestyleData == "Projector") {
-        return lifestyle_25_plus_projektor_evaluation_image;
+        return lifestyle_25_plus_projektor_image;
       } else if (lifestyleData == "Manifestor") {
-        return lifestyle_25_plus_manifestor_evaluation_image;
+        return lifestyle_25_plus_manifestor_image;
       } else if (lifestyleData == "Reflector") {
-        return lifestyle_25_plus_reflektor_evaluation_image;
+        return lifestyle_25_plus_reflektor_image;
       }
     }
   };
@@ -5919,11 +5925,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "32-54_2") {
         return guclu_yanlarin_32_54_2;
       }
-    } else if (guclu_yanlarinData.name == "19-49") {
-      if (type == "19-49_1") {
-        return guclu_yanlarin_19_49_1;
-      } else if (type == "19-49_2") {
-        return guclu_yanlarin_19_49_2;
+    } else if (guclu_yanlarinData.name == "49-19") {
+      if (type == "49-19_1") {
+        return guclu_yanlarin_49_19_1;
+      } else if (type == "49-19_2") {
+        return guclu_yanlarin_49_19_2;
       }
     } else if (guclu_yanlarinData.name == "37-40") {
       if (type == "37-40_1") {
@@ -6147,7 +6153,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
   };
 
   // console.log(typeof rawData);
-  
+
+  var cinsiyet =  Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / cinsiyet")[1]
+
   var allVariables = { // Burada sadece değişmeyen ilk 28'i tanımlı. alt tarafda gelen güçlü yanlarına göre diğer alanlar objeye push ediliyor.
   
     P1A1 : Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + " " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1],
@@ -6178,8 +6186,8 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P6A8 : kslk_ozl(hollandData[1].name, 25, "question_3"),
   
     P7A1 : "chart", // Karakter Özelliklerin
-    P7A2 : krktr_ozl(big5Data[0].name, 25, "name").toUpperCase(),
-    P7A3 : krktr_ozl(big5Data[1].name, 25, "name").toUpperCase(),
+    P7A2 : krktr_ozl(big5Data[0].name, 25, "name").toLocaleUpperCase('tr-TR'),
+    P7A3 : krktr_ozl(big5Data[1].name, 25, "name").toLocaleUpperCase('tr-TR'),
     P7A4 : krktr_ozl(big5Data[0].name, 25, "character_elements"),
     P7A5 : krktr_ozl(big5Data[1].name, 25, "character_elements"),
     
@@ -6257,16 +6265,16 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     
     P18A1 : lifestyle(lifestyleData[0], 25, "p2"),
     P18A2 : lifestyle(lifestyleData[0], 25, "p3"),
-    P18A3 : lifestyle(lifestyleData[0], 25, "motto").toUpperCase(), // motto
+    P18A3 : lifestyle(lifestyleData[0], 25, "motto").toLocaleUpperCase('tr-TR'), // motto
   
-    P19A1 : lifestyle(lifestyleData[0], 25, "name"),
+    P19A1 : lifestyle(lifestyleData[0], 25, "questions"),
     P19A2 : lifestyle(lifestyleData[0], 25, "evaluation_1"),
     P19A3 : lifestyle(lifestyleData[0], 25, "evaluation_2"),
     P19A4 : lifestyle(lifestyleData[0], 25, "evaluation_3"),
     P19A5 : lifestyle(lifestyleData[0], 25, "evaluation_4"),
     P19A6 : lifestyle(lifestyleData[0], 25, "evaluation_5"),
     
-    P20A1 : communication(communicationData[0], 25, "name").toUpperCase(),
+    P20A1 : communication(communicationData[0], 25, "name").toLocaleUpperCase('tr-TR'),
     P20A2 : communication(communicationData[0], 25, "1"),
     P20A3 : communication(communicationData[0], 25, "2"),
     P20A4 : communication(communicationData[0], 25, "3"),
