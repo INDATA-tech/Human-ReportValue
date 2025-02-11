@@ -1789,7 +1789,7 @@ var guclu_yanlarin_49_19_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
 var guclu_yanlarin_49_19_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
 
 var guclu_yanlarin_37_40_1 = "“Topluluk” Gücü (Quantum 37-40)";
-var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
+var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\n\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\n\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\n\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\n\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
 
 var guclu_yanlarin_34_57_1 = "“Kuvvet” Gücü (Quantum 34-57)";
 var guclu_yanlarin_34_57_2 = "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.\n\nOperasyonel Verimlilik, İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.\n\nKriz Yönetimi, Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.\n\nProje Liderliği, Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.\n\nİş Dünyasında Gücünü Kullanmak, Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.\n\nKuvvet gücün, iş dünyasında güçlü bir özelliktir. Her ana tepki verebilme yeteneğin, başkalarını güven ve amaçla hareket etmeye ilham veren bir rol modeli olmanı sağlar. Sonuç olarak, etrafındaki insanları daha verimli, odaklı ve hedef odaklı olmaya motive edebilir, ekibinde veya organizasyonunda olumlu bir etki yaratabilirsin.";
@@ -1883,7 +1883,7 @@ var guclu_yanlarin_1_1 = "Satış Ustası";
 var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek, Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.\n\nSatışı Gerçekleştirmek, Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.\n\nSonuç Odaklı Olmak, Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
 
 var guclu_yanlarin_8_1 = "İmaj Yöneticisi";
-var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.\n\nEkibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.\n\nRol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
+var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.\n\nEkibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.\n\nRol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
 
 var guclu_yanlarin_7_1 = "Stratejik Planlayıcı";
 var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.\n\nPazar Anlayışı, Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.\n\nKaynakların Verimli Kullanımı, Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
@@ -2978,98 +2978,60 @@ var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan
 var decision_strategy_s3_11_3 = "İki Temel Unsur:";
 var decision_strategy_s3_11_4 = "• Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
 var decision_strategy_s3_11_5 = "• Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
-
+//---
 var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
-var decision_strategy_s4_1_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle";
-var decision_strategy_s4_1_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".";
-var decision_strategy_s4_1_3 = "Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.";
-var decision_strategy_s4_1_4 = "Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.";
-var decision_strategy_s4_1_5 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
+var decision_strategy_s4_1_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle\n2.Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".\n3.Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.\n4.Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.\n5.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
 var decision_strategy_s4_1_txt = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 
 var decision_strategy_s4_2_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
-var decision_strategy_s4_2_1 = "Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.";
-var decision_strategy_s4_2_2 = "Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.";
-var decision_strategy_s4_2_3 = "Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.";
-var decision_strategy_s4_2_4 = "Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
+var decision_strategy_s4_2_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.\n2.Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.\n3.Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.\n4.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
 var decision_strategy_s4_2_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
 
 var decision_strategy_s4_3_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_3_1 = "Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol. ";
-var decision_strategy_s4_3_2 = "Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle. ";
-var decision_strategy_s4_3_3 = "Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.";
-var decision_strategy_s4_3_4 = "Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
+var decision_strategy_s4_3_1 = "1.Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol.\n2.Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle.\n3.Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.\n4.Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
 var decision_strategy_s4_3_txt = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_4_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_4_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol. ";
-var decision_strategy_s4_4_2 = "İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır. ";
-var decision_strategy_s4_4_3 = "Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun. ";
-var decision_strategy_s4_4_4 = "Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
+var decision_strategy_s4_4_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol.\n2.İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. Unutma, içgüdüsel bilgi çoğu zaman sessiz ve ince bir şekilde, gürültü ve hareketin ortasında konuşur. Ne kadar yoğun bir anda olursan ol, bu rehberliğe açık kal. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver. Pratik yaptıkça, nerede olursan ol içgüdüsel bilginin gücünü kullanmayı öğrenirsin ve bu da sana daha fazla netlik ve güven kazandırır.\n3.Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun.\n4.Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
 var decision_strategy_s4_4_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
 
 var decision_strategy_s4_5_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_5_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-var decision_strategy_s4_5_2 = "İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.";
-var decision_strategy_s4_5_3 = "Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-var decision_strategy_s4_5_4 = "Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
+var decision_strategy_s4_5_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran.\n2.İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.\n3.Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın.\n4.Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
 var decision_strategy_s4_5_txt = "Bu karar verme stratejisine sadık kalarak, sabır, güven ve öz farkındalıkla seçimlerini yönlendirebilir, gerçek arzularınla uyum içinde hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
-var decision_strategy_s4_6_5_title = "Karar Verme Stratejini Takip Etmek: ";
-var decision_strategy_s4_6_5_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
-var decision_strategy_s4_6_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran. ";
-var decision_strategy_s4_6_2 = "Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.";
-var decision_strategy_s4_6_3 = "Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın. ";
-var decision_strategy_s4_6_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
+var decision_strategy_s4_6_title = "Karar Verme Stratejini Takip Etmek: ";
+var decision_strategy_s4_6_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
+var decision_strategy_s4_6_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran.\n2.Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.\n3.Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
 var decision_strategy_s4_6_txt = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
 
 var decision_strategy_s4_7_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
-var decision_strategy_s4_7_1 = "Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Ortamın doğru hissettirdiğinden emin ol; çevresel ipuçlarına karşı duyarlısın. ";
-var decision_strategy_s4_7_2 = "Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun. ";
-var decision_strategy_s4_7_3 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-var decision_strategy_s4_7_4 = "Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
+var decision_strategy_s4_7_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Ortamın doğru hissettirdiğinden emin ol; çevresel ipuçlarına karşı duyarlısın.\n2.Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının mutluluğunla, kendini ifade etme şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun.\n3.Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
 var decision_strategy_s4_7_txt = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_8_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_8_text = "Zihinden hareket etmek, dürtüsel eylemler, kaygı ve başkaları üzerinde olumsuz etkiler yaratabilir. Oysa harekete geçmeden önce bilgilendirmek, duygusal netliği beklemeyi ve başkaları üzerindeki olası etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
-var decision_strategy_s4_8_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
-var decision_strategy_s4_8_2 = "Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan. ";
-var decision_strategy_s4_8_3 = "Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver. ";
-var decision_strategy_s4_8_4 = "Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir. ";
-var decision_strategy_s4_8_5 = "Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
+var decision_strategy_s4_8_1 = "1.Gör: Başlatılması gereken şeyleri fark et.\n2.Duygusal Netlikle Harekete Geçmeyi Bekle: Rahatla ve sinirlerin yatışmasına izin ver. Duygusal dalgalarını gözlemleyerek eylem planın hakkında netlik kazan.\n3.Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver.\n4.Bilgilendir: Harekete geçmeden önce kararının kimleri etkileyeceğini düşün ve onları bilgilendir. Bu proaktif iletişim, direnci ortadan kaldırır ve anlayışı güçlendirir.\n5.Harekete Geç: Seçtiğin eylemi hayata geçirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücüne güven. ";
 var decision_strategy_s4_8_txt = "Bu karar verme stratejisine uyarak, bilinçli, özenli ve etkili iletişim ile kararlarını yönetebilir, iş birliklerini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
 
 var decision_strategy_s4_9_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_9_text = "Zihinden hareket etmek, içgüdülerini sorgulamaya, dürtüsel davranışlara ve başkaları üzerinde olumsuz etkilere yol açabilir. Oysa, harekete geçmeden önce bilgilendirmek, içgüdülerine güvenmeyi ve başkaları üzerindeki potansiyel etkileri dikkate almayı içerir, böylece etkili iletişim ve iş birliğini güçlendirirsin. ";
-var decision_strategy_s4_9_1 = "Gör: Başlatılması gereken şeyleri fark et. ";
-var decision_strategy_s4_9_2 = "İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.";
-var decision_strategy_s4_9_3 = "Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil. ";
-var decision_strategy_s4_9_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır. ";
-var decision_strategy_s4_9_5 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
-var decision_stragegy_s4_9_txt = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
-
+var decision_strategy_s4_9_1 = "1.Gör: Başlatılması gereken şeyleri fark et.\n2.İçgüdülerin Tarafından Hareket Ettirilmeyi Bekle: O an içinde hisset ve içsel sezgilerine güven.\n3.Karar Ver: İçgüdüsel bilginle bir karar ver – evet, hayır ya da şimdi değil.\n4.Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.\n5.Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan. ";
+var decision_strategy_s4_9_txt = "Bu karar verme stratejisine uyarak, anlık, bilinçli ve etkili iletişim ile kararlarını yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin. ";
+    
 var decision_strategy_s4_10_title = "Karar Verme Stratejini Takip Etmek:";
 var decision_strategy_s4_10_text = "Zihinden hareket etmek şüphelere, dürtüsel eylemlere ve başkaları üzerinde olumsuz etkilere neden olabilir. Oysa, harekete geçmeden önce bilgilendirmek, iradeni tanımanı ve başkalarına olan etkileri düşünmeni gerektirir, böylece etkili iletişim ve iş birliği sağlanır.";
-var decision_strategy_s4_10_1 = "Gör: Başlatılması gereken şeyleri fark et.";
-var decision_strategy_s4_10_2 = "İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.";
-var decision_strategy_s4_10_3 = "Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.";
-var decision_strategy_s4_10_4 = "Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.";
-var decision_strategy_s4_10_5 = "Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
-var decision_strategy_s4_10_5_txt = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
+var decision_strategy_s4_10_1 = "1.Gör: Başlatılması gereken şeyleri fark et.\n2.İradene Göre Harekete Geçmeye Hazır Ol: Eyleme geçmek için yeterli irade ve arzunun olup olmadığını değerlendir. Sana ne getireceğini ve kalbinin gerçekten işin içinde olup olmadığını düşün.\n3.Karar Ver: İradene göre bir karar ver – evet, hayır ya da şimdi değil.\n4.Bilgilendir: Kararının kimleri etkileyeceğini düşün ve harekete geçmeden önce onları bilgilendir. Bu, direnci ortadan kaldırır ve anlayışı artırır.\n5.Harekete Geç: Seçtiğin eylemi gerçekleştirirken, başkaları üzerindeki etkiye duyarlı ol ve bilgilendirilmiş iletişimin gücünü kullan.";
+var decision_strategy_s4_10_txt = "Bu karar verme stratejisine uyarak, kararlılık, netlik ve etkili iletişim ile seçimlerini yönetebilir, iş birliğini güçlendirerek daha büyük başarıya ulaşabilirsin.";
 
 var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek:";
 var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
-var decision_strategy_s4_11_1 = "Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.";
-var decision_strategy_s4_11_2 = "Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.";
-var decision_strategy_s4_11_3 = "Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.";
-var decision_strategy_s4_11_4 = 'Karar Ver: Düşüncelerin ve tartışmaların ışığında, "evet," "hayır" ya da "şimdi değil" şeklinde, netliğine dayanan bir karar ver.';
-var decision_strategy_s4_11_5 = "Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
+var decision_strategy_s4_11_1 = "1.Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.\n2.Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.\n3.Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.\n4.Karar Ver: Düşüncelerin ve tartışmaların ışığında, \"evet,\" \"hayır\" ya da \"şimdi değil\" şeklinde net bir karar ver.\n5.Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
 var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
 
   // eski hali
@@ -6306,7 +6268,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P25A5 : worklearnstyle(worklearnData[0], 25, "s3_4"),
     P25A6 : worklearnstyle(worklearnData[0], 25, "s3_5"),
     
-    P27A1 : is_y_r(is_y_rData[0], 25, "name"), // İş Yaşamında Rolün
+    P27A1 : is_y_r(is_y_rData[0], 25, "s2_1"), // İş Yaşamında Rolün
     P27A2 : is_y_r(is_y_rData[0], 25, "s2_1_1"),
     P27A3 : is_y_r(is_y_rData[0], 25, "s2_2"),
     P27A4 : is_y_r(is_y_rData[0], 25, "s2_2_1"),
@@ -6498,13 +6460,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P34A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P34A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P34A3 = "Adımlar:";
-    allVariables.P34A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P34A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P34A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P34A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P34A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P34A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P34A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P34A4 = + decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P34A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P34A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P35A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P35A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -6572,9 +6530,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P34A4: allVariables.P34A4,
       P34A5: allVariables.P34A5,
       P34A6: allVariables.P34A6,
-      P34A7: allVariables.P34A7,
-      P34A8: allVariables.P34A8,
-      P34A9: allVariables.P34A9,
       P35A1: allVariables.P35A1,
       P35A2: allVariables.P35A2,
       P35A3: allVariables.P35A3,
@@ -6638,13 +6593,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P35A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P35A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P35A3 = "Adımlar:",
-    allVariables.P35A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P35A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P35A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P35A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P35A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P35A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P35A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P35A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P35A6 = decision_strategy(decision_strategyData, 25, "image");
     
     allVariables.P36A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P36A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -6715,9 +6666,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P35A4: allVariables.P35A4,
       P35A5: allVariables.P35A5,
       P35A6: allVariables.P35A6,
-      P35A7: allVariables.P35A7,
-      P35A8: allVariables.P35A8,
-      P35A9: allVariables.P35A9,
       P36A1: allVariables.P36A1,
       P36A2: allVariables.P36A2,
       P36A3: allVariables.P36A3,
@@ -6783,13 +6731,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P36A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P36A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P36A3 = "Adımlar:";
-    allVariables.P36A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P36A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P36A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P36A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P36A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P36A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P36A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P36A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P36A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P36A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P37A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P37A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -6863,9 +6807,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P36A4: allVariables.P36A4,
       P36A5: allVariables.P36A5,
       P36A6: allVariables.P36A6,
-      P36A7: allVariables.P36A7,
-      P36A8: allVariables.P36A8,
-      P36A9: allVariables.P36A9,
       P37A1: allVariables.P37A1,
       P37A2: allVariables.P37A2,
       P37A3: allVariables.P37A3,
@@ -6942,13 +6883,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P37A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P37A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P37A3 = "Adımlar:";
-    allVariables.P37A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P37A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P37A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P37A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P37A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P37A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P37A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P37A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P37A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P37A6 = decision_strategy(decision_strategyData, 25, "image");
     
     allVariables.P38A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P38A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7025,9 +6962,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P37A4: allVariables.P37A4,
       P37A5: allVariables.P37A5,
       P37A6: allVariables.P37A6,
-      P37A7: allVariables.P37A7,
-      P37A8: allVariables.P37A8,
-      P37A9: allVariables.P37A9,
       P38A1: allVariables.P38A1,
       P38A2: allVariables.P38A2,
       P38A3: allVariables.P38A3,
@@ -7097,13 +7031,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P38A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P38A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P38A3 = "Adımlar:";
-    allVariables.P38A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P38A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P38A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P38A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P38A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P38A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P38A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P38A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P38A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P38A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P39A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P39A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7183,9 +7113,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P38A4: allVariables.P38A4,
       P38A5: allVariables.P38A5,
       P38A6: allVariables.P38A6,
-      P38A7: allVariables.P38A7,
-      P38A8: allVariables.P38A8,
-      P38A9: allVariables.P38A9,
       P39A1: allVariables.P39A1,
       P39A2: allVariables.P39A2,
       P39A3: allVariables.P39A3,
@@ -7261,13 +7188,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P39A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P39A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P39A3 = "Adımlar:";
-    allVariables.P39A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P39A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P39A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P39A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P39A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P39A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P39A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P39A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P39A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P39A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P40A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P40A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7350,9 +7273,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P39A4: allVariables.P39A4,
       P39A5: allVariables.P39A5,
       P39A6: allVariables.P39A6,
-      P39A7: allVariables.P39A7,
-      P39A8: allVariables.P39A8,
-      P39A9: allVariables.P39A9,
       P40A1: allVariables.P40A1,
       P40A2: allVariables.P40A2,
       P40A3: allVariables.P40A3,
@@ -7430,13 +7350,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P40A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P40A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P40A3 = "Adımlar:";
-    allVariables.P40A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P40A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P40A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P40A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P40A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P40A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P40A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P40A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P40A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P40A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P41A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P41A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7522,9 +7438,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
      P40A4: allVariables.P40A4,
      P40A5: allVariables.P40A5,
      P40A6: allVariables.P40A6,
-     P40A7: allVariables.P40A7,
-     P40A8: allVariables.P40A8,
-     P40A9: allVariables.P40A9,
      P41A1: allVariables.P41A1,
      P41A2: allVariables.P41A2,
      P41A3: allVariables.P41A3,
@@ -7607,13 +7520,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P41A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P41A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P41A3 = "Adımlar:";
-    allVariables.P41A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P41A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P41A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P41A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P41A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P41A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P41A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P41A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P41A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P41A6 = decision_strategy(decision_strategyData, 25, "image");
     
     allVariables.P42A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P42A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7702,9 +7611,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P41A4: allVariables.P41A4,
       P41A5: allVariables.P41A5,
       P41A6: allVariables.P41A6,
-      P41A7: allVariables.P41A7,
-      P41A8: allVariables.P41A8,
-      P41A9: allVariables.P41A9,
       P42A1: allVariables.P42A1,
       P42A2: allVariables.P42A2,
       P42A3: allVariables.P42A3,
@@ -7790,13 +7696,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P42A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P42A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P42A3 = "Adımlar:";
-    allVariables.P42A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P42A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P42A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P42A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P42A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P42A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P42A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P42A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P42A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P42A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P43A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P43A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -7888,9 +7790,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P42A4: allVariables.P42A4,
       P42A5: allVariables.P42A5,
       P42A6: allVariables.P42A6,
-      P42A7: allVariables.P42A7,
-      P42A8: allVariables.P42A8,
-      P42A9: allVariables.P42A9,
       P43A1: allVariables.P43A1,
       P43A2: allVariables.P43A2,
       P43A3: allVariables.P43A3,
@@ -7977,13 +7876,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P43A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P43A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P43A3 = "Adımlar:";
-    allVariables.P43A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P43A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P43A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P43A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P43A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
-    allVariables.P43A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P43A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P43A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P43A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P43A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P44A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P44A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -8078,9 +7973,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P43A4: allVariables.P43A4,
       P43A5: allVariables.P43A5,
       P43A6: allVariables.P43A6,
-      P43A7: allVariables.P43A7,
-      P43A8: allVariables.P43A8,
-      P43A9: allVariables.P43A9,
       P44A1: allVariables.P44A1,
       P44A2: allVariables.P44A2,
       P44A3: allVariables.P44A3,
@@ -8172,11 +8064,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P44A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P44A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P44A3 = "Adımlar:";
-    allVariables.P44A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P44A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P44A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P44A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    // var P44A8 = decision_strategy(decision_strategyData, 25, "s4_x_5"); Bazılarında 5 özellik var.
+    allVariables.P44A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
     allVariables.P44A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
     allVariables.P44A9 = decision_strategy(decision_strategyData, 25, "image");
 
@@ -8276,9 +8164,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P44A4: allVariables.P44A4,
       P44A5: allVariables.P44A5,
       P44A6: allVariables.P44A6,
-      P44A7: allVariables.P44A7,
-      P44A8: allVariables.P44A8,
-      P44A9: allVariables.P44A9,
       P45A1: allVariables.P45A1,
       P45A2: allVariables.P45A2,
       P45A3: allVariables.P45A3,
@@ -8373,12 +8258,9 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P45A1 = decision_strategy(decision_strategyData, 25, "s4_x_title");
     allVariables.P45A2 = decision_strategy(decision_strategyData, 25, "s4_x_text");
     allVariables.P45A3 = "Adımlar:";
-    allVariables.P45A4 = "1." + decision_strategy(decision_strategyData, 25, "s4_x_1");
-    allVariables.P45A5 = "2." + decision_strategy(decision_strategyData, 25, "s4_x_2");
-    allVariables.P45A6 = "3." + decision_strategy(decision_strategyData, 25, "s4_x_3");
-    allVariables.P45A7 = "4." + decision_strategy(decision_strategyData, 25, "s4_x_4");
-    allVariables.P45A8 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
-    allVariables.P45A9 = decision_strategy(decision_strategyData, 25, "image");
+    allVariables.P45A4 = decision_strategy(decision_strategyData, 25, "s4_x_1");
+    allVariables.P45A5 = decision_strategy(decision_strategyData, 25, "s4_x_txt");
+    allVariables.P45A6 = decision_strategy(decision_strategyData, 25, "image");
 
     allVariables.P46A1 = "image"; // Sana uygun kariyer dağılımların
     allVariables.P46A2 = "1." + kariyer_secim(careerSelectionLastResult[0], 25, "name");
@@ -8479,9 +8361,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       P45A4: allVariables.P45A4,
       P45A5: allVariables.P45A5,
       P45A6: allVariables.P45A6,
-      P45A7: allVariables.P45A7,
-      P45A8: allVariables.P45A8,
-      P45A9: allVariables.P45A9,
       P46A1: allVariables.P46A1,
       P46A2: allVariables.P46A2,
       P46A3: allVariables.P46A3,
