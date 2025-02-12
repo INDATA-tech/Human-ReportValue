@@ -1052,8 +1052,7 @@ var c_o_s_individual_s3_4 = "• Ekibinle iş birliği yaparken farklı bakış 
 var c_o_s_individual_s3_5 = "• Kendi başına çalıştığında, başkalarından gelebilecek potansiyel katkıları göz ardı etmeden nasıl dengeli hareket edebilirsin? ";
 
 var c_o_s_collaborative_titie = "İş Birlikçi";
-var c_o_s_collaborative =
-"Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor.\n\nYalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor.\n\nİş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler.\n\nSenin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun.\nKarar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek.\n\nCanlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir.\nİşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
+var c_o_s_collaborative = "Senin İşbirlikçi çalışma ve öğrenme tarzın sayesinde, başkalarıyla bir aradayken en parlak halini sergiliyorsun. Diğer insanlarla çalışırken, ortaya çıkan enerji ve fikirler seni canlandırıyor, doğal enerjin iş birliği içinde güçleniyor. Sadece düşünceleri paylaşmıyorsun; başka biriyle çalışmak ya da grup ortamında olmak, en iyi yanlarını ortaya çıkarmana yardımcı oluyor. Takım çalışması senin için adeta bir 'güç artışı' gibi, kendi yeteneklerini ve fikirlerini yükseltiyor. Bu yüzden, başkalarıyla çalışmakta gerçekten başarılısın çünkü herkes bir araya geldiğinde, bilgiyi anlama ve işleme yeteneğin hızla gelişiyor.\n\nYalnız çalışırken bazen işleri tamamlayamama hissine kapılabilirsin. Bu bir eksiklik değil, tam potansiyelinin iş birliği yoluyla ortaya çıktığının bir göstergesi. Başkalarının varlığı, senin bilgi işleme gücünü tamamlıyor ve bilgiyi uyumlaştırma yeteneğini harekete geçiriyor.\n\nİş dünyasında, ortaklıklar kurmak senin için özellikle faydalı olabilir. Bu bir bağımlılık değil, diğer insanlarla yaratıcı bir alanı paylaşmanın getirdiği canlı bir değişimdir. İçgörülerinin derinliği, doğal olarak senin yeteneklerini tamamlayan becerilere ve güçlü yönlere sahip insanları kendine çektiğin için genişler.\n\nSenin tarzın, bilgiyi sindirip tam anlamıyla işlemeye daha fazla zaman ayırmanı gerektirebilir.Bu, konuları derinlemesine keşfetmeni ve bir sorun ya da fırsatın farklı yönlerini değerlendirmeni sağlar.İşte bu yaklaşımın büyük avantajı: Bir şeyi tam olarak anladığında, onu her açıdan incelediğin için bu sadece anlamış olmak değil, adeta içini dışını bilmek anlamına gelir.Bu derin anlayış, iş dünyasında senin için bir süper güçtür.Bir karar ya da projeye ilerlemeye hazır olduğunda, sağlam bir temel ve ayrıntılı bir kavrayışla hareket ediyorsun.\nKarar verirken içgüdüsel olarak hemen sonuca ulaşmak isteyebilirsin.Bunun yerine, doğal ritmini kucakla ve karar verme sürecinin başkalarının varlığıyla gelişmesine izin ver.Doğru kişilerle birlikte olduğunda, açık fikirlerin aktığı bir ortamda, bütünlük ve kesinlik duyguların ortaya çıkacak ve seni doğru sonuca yönlendirecek.\n\nCanlı bir ortamda olmak — hareketli bir ofis, işbirlikçi bir atölye ya da halka açık bir toplantı yeri fark etmez — senin uyum sürecin için bir katalizör görevi görür. Bu ortamların enerjisi, bilgi işleme yeteneğini artırır ve zihinsel keskinliğini yükseltir.\nİşbirlikçi alanların enerjisini ve başkalarıyla çalışma eğilimini kullanarak iş dünyasında başarıya ulaşabilirsin.";
 var c_o_s_collaborative_s3_1 = "• Birden fazla kaynaktan bilgi toplarken, bu bilgileri nasıl daha sabırlı bir şekilde sindirebilirsin? ";
 var c_o_s_collaborative_s3_2 = "• Farklı insanlarla etkileşim içinde olduğunda enerjin nasıl artıyor? Bu enerjiyi iş hayatında daha etkin kullanmak için neler yapabilirsin? ";
 var c_o_s_collaborative_s3_3 = "• Kararlarını aceleye getirmek yerine, düşünmek ve farklı açılardan bakmak için yeterince zaman ayırıyor musun? ";
@@ -1084,7 +1083,18 @@ var c_o_s_objective_s3_3 = "• Ortamın duygusal ve fiziksel sağlığını sez
 var c_o_s_objective_s3_4 = "• İş yerinde bir ayna gibi davranarak başkalarına hangi farkındalıkları kazandırıyorsun ve bu süreçte nasıl bir değişim yarattığını düşünüyorsun? ";
 var c_o_s_objective_s3_5 = "• Tarafsız değerlendirmen sayesinde işletmenin misyonuna daha sadık kalmasını nasıl sağlıyorsun? ";
 
+//Çalışma ve Öğrenme Stilin İngilizce
+var c_o_s_indivudal_eng_title = "Individual"
+var c_o_s_individual_eng = "With Independent Assimilation, you carry the unique capability to process information and work autonomously. Your professional demeanor is marked by an innate sense of completeness, needing no external confirmation to feel secure in your understanding and actions. Your focus allows you to digest and assimilate information swiftly, giving you the edge in rapidly evolving business situations. This fast-paced cognitive approach enables you to act decisively, making you an invaluable asset in high-stakes environments where time is of the essence.\n\nWith your consistent and independent way of processing, you could move fast. While your ability to process rapidly is a strength, it's vital to temper it with patience. The business world often operates on collective rhythms that require synchronization. Slowing down allows others to catch up to your pace, ensuring that when you act on your insights, the timing is aligned with both individual and organizational readiness.";
+var c_o_s_individual_eng_s3_1 = "How confident are you in making decisions, and how much do you rely on external approval?";
+var c_o_s_individual_eng_s3_2 = "When making quick decisions, how can you be patient to allow others to keep up with your pace?";
+var c_o_s_individual_eng_s3_3 = "Processing information quickly is your natural talent, but in which situations do you recognize the need to slow down and think more deeply?";
+var c_o_s_individual_eng_s3_4 = "How can you make more room for different perspectives when collaborating with your team?";
+var c_o_s_individual_eng_s3_5 = "When working independently, how can you maintain a balanced approach without overlooking potential contributions from others?";
+
+
 //Kariyer Seçim
+//12-25
 var kariyer_secim_12_25_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s2_1_2 = "Görünen o ki geniş bir hayal gücün var ve kendini ifade etmeyi seviyorsun. Bu kariyerler tam sana göre olabilir. Tasarım, moda, müzik, resim ya da yazarlık gibi alanlarda yaratıcılığını kullanarak özgün projeler geliştirebilirsin. Örneğin, bir grafik tasarımcı olup yeni bir marka için logo tasarlayabilir ya da müzikle uğraşıp kendi bestelerini yapabilirsin. Bu tür kariyerlerde fikirlerini hayata geçirerek fark yaratma şansın çok yüksek.";
 var kariyer_secim_12_25_s2_2_1 = "Liderlik ve Yönetim Kariyerleri ";
@@ -1103,63 +1113,6 @@ var kariyer_secim_12_25_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
 var kariyer_secim_12_25_s2_8_2 = "Bilgini başkalarıyla paylaşmaktan hoşlanıyorsun, öğretim ve mentorluk kariyerleri tam sana göre.  Öğretmenlik, eğitmenlik ya da koçluk yaparak, başkalarına rehberlik edebilir ve onların gelişimine katkıda bulunabilirsin. Mesela, bir öğretmen olarak öğrencilere ders verebilir ya da bir koç olarak kişisel gelişimlerine destek olabilirsin. ";
 var kariyer_secim_12_25_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler";
 var kariyer_secim_12_25_s2_9_2 = "Sayılarla ve analizlerle aranın iyi olduğunu görüyoruz, veri bilimi ya da iş analitiği gibi kariyerlerde başarılı olabilirsin. Bu tür kariyerler, büyük miktarda veriyi analiz edip kararlar almaya yardımcı olmayı içerir. Örneğin, bir veri bilimcisi olarak bir şirketin satış verilerini analiz edebilir ve gelecekte nasıl daha iyi performans gösterebileceklerini belirleyebilirsin.";
-
-var kariyer_secim_25_40_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
-var kariyer_secim_25_40_s2_1_2 = "Eğer yaratıcı yönünüzü iş hayatında kullanmak istiyorsanız, bu alanlar size uygun olabilir. Reklamcılık, grafik tasarım, moda, müzik, sinema ya da yazarlık gibi alanlarda kariyer yapmak, estetik anlayışınızı ve özgün fikirlerinizi profesyonel projelere yansıtmanızı sağlar. Örneğin, bir marka için yenilikçi reklam kampanyaları tasarlayabilir ya da bir içerik yazarı olarak yaratıcı projelere imza atabilirsiniz. Sanatın her dalında kariyer fırsatları geniş ve esnektir, freelance çalışabilir ya da bir ajansla iş birliği yapabilirsiniz. ";
-var kariyer_secim_25_40_s2_2_1 = "Liderlik ve Yönetim Kariyerleri";
-var kariyer_secim_25_40_s2_2_2 = "Doğal bir liderlik yeteneğiniz var, ekip yönetimi ve stratejik karar alma konularında başarılı olabilirsiniz.  Proje yönetimi, takım liderliği, operasyon yönetimi veya üst düzey yöneticilik pozisyonları, sorumluluk alarak hedeflere ulaşmanızı gerektirir. Örneğin, bir işletme müdürü olarak organizasyonun tüm süreçlerini yönetebilir, yeni stratejiler geliştirerek büyümeye katkı sağlayabilirsiniz. Bu kariyerler, uzun vadeli başarı ve kariyer ilerlemesi için güçlü liderlik becerileri gerektirir.";
-var kariyer_secim_25_40_s2_3_1 = "Yardım ve Sosyal Kariyerler";
-var kariyer_secim_25_40_s2_3_2 = "İnsanlara yardım etme tutkunuzu görebiliyoruz. Sağlık, sosyal hizmetler ya da kar amacı gütmeyen organizasyonlarda tatmin edici bir kariyer bulabilirsiniz.  Sosyal sorumluluk projelerinde yer almak, bir terapist ya da sağlık çalışanı olarak insanların hayatlarını iyileştirmek gibi meslekler bu alanda öne çıkar. Örneğin, bir sosyal hizmet uzmanı olarak dezavantajlı gruplara yardım edebilir ya da bir sağlık yöneticisi olarak sağlık hizmetlerinin daha verimli işlemesini sağlayabilirsiniz.";
-var kariyer_secim_25_40_s2_4_1 = "Teknik ve Mühendislik Kariyerleri";
-var kariyer_secim_25_40_s2_4_2 = "Teknik becerileriniz ve analitik düşünce yapınızla, mühendislik ya da teknoloji alanlarında uzmanlaşabilirsiniz.  Yazılım geliştirme, makine mühendisliği ya da siber güvenlik gibi alanlarda çalışarak iş dünyasının sürekli değişen taleplerine yanıt verebilirsiniz. Örneğin, bir yazılım mühendisi olarak yeni uygulamalar geliştirebilir ya da bir ağ güvenliği uzmanı olarak şirketlerin dijital altyapılarını koruyabilirsiniz. Bu alanlar, hızla gelişen teknolojilere ayak uydurma ve sürekli öğrenmeyi gerektirir.";
-var kariyer_secim_25_40_s2_5_1 = "Satış ve İlişki Kurma Kariyerleri";
-var kariyer_secim_25_40_s2_5_2 = "İletişim becerileriniz ve insan ilişkilerini yönetme yeteneğiniz sayesinde satış ve müşteri ilişkileri alanlarında başarılı olabilirsiniz. Satış yönetimi, iş geliştirme ya da müşteri hizmetleri gibi alanlarda çalışarak, şirketin büyümesine doğrudan katkı sağlayabilirsiniz. Örneğin, bir satış yöneticisi olarak ekiplerinizi hedeflere yönlendirebilir ya da bir iş geliştirme uzmanı olarak yeni müşteriler kazanabilirsiniz. Bu kariyerler, ikna kabiliyetinizi ve ilişki yönetimi yetkinliklerinizi ön plana çıkarır. ";
-var kariyer_secim_25_40_s2_6_1 = "Organizasyonel ve İdari Kariyerler";
-var kariyer_secim_25_40_s2_6_2 = "Düzen, planlama ve organizasyon becerileriniz güçlü, idari yönetim ve organizasyon alanlarında kariyer yapabilirsiniz. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi roller, iş süreçlerinin düzenli ve etkili şekilde yürümesini sağlar. Örneğin, bir insan kaynakları yöneticisi olarak işe alım süreçlerini yönetebilir ya da bir proje yöneticisi olarak farklı ekiplerin aynı hedefe ulaşması için çalışabilirsiniz. Bu alanlarda detaylara hakimiyet ve çok yönlü düşünme önemlidir.";
-var kariyer_secim_25_40_s2_7_1 = "Yenilikçi ve Girişimci Kariyerler";
-var kariyer_secim_25_40_s2_7_2 = "Girişimci bir ruha sahipsiniz, yenilikçi fikirlerinizi hayata geçirme fırsatını bulabileceğiniz alanlar mevcuttur. Kendi işinizi kurabilir, bir start-up'ı yönlendirebilir ya da yeni ürün ve hizmetler geliştirerek piyasada fark yaratabilirsiniz. Örneğin, teknoloji alanında bir start-up kurarak yeni bir mobil uygulama geliştirebilir ya da e-ticaret sektöründe yenilikçi bir iş modeli hayata geçirebilirsiniz. Bu kariyerler risk almayı ve yaratıcılığı birleştirir. ";
-var kariyer_secim_25_40_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
-var kariyer_secim_25_40_s2_8_2 = "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
-var kariyer_secim_25_40_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler ";
-var kariyer_secim_25_40_s2_9_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
-
-var kariyer_secim_s3_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\İllüstratör\nMüzisyen\nYönetmen\nSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
-var kariyer_secim_s3_2_0 = "Liderlik ve Yönetim Kariyerleri";
-var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra Direktörü\nKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
-var kariyer_secim_s3_3_0 = "Yardım ve Sosyal Kariyerler";
-var kariyer_secim_s3_3_1 = "Sosyal Hizmet Uzmanı\nDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
-var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler";
-var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
-var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler";
-var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
-var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler";
-var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
-var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
-var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
-var kariyer_secim_s3_8_0 = "Öğretim ve Mentorluk Kariyerleri"; 
-var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
-var kariyer_secim_s3_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
-var kariyer_secim_s3_9_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
-
-var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
-var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı\nYapay Zeka ile Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka ile Hikaye Anlatıcısı\nMetaverse Mimarı";
-var kariyer_secim_s4_2_0 = "Liderlik ve Yönetim Kariyerleri";
-var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nESG Yöneticisi\nVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
-var kariyer_secim_s4_3_0 = "Yardım ve Sosyal Kariyerler";
-var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYZ Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı YZ Koçu\nGerontolog\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYZ Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYZ ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu"; // sonuncuda silinebilir.
-var kariyer_secim_s4_4_0 = "Teknik ve Mühendislik Kariyerler";
-var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYZ Etik Uzmanı\nRobotik Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi\nUzaktan Drone Teknisyeni";
-var kariyer_secim_s4_5_0 = "Satış ve İlişkisel Kariyerler";
-var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYZ Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nSosyal Ticaret Uzmanı\nYZ Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi YZ Tasarımcısı";
-var kariyer_secim_s4_6_0 = "Organizasyonel ve İdari Kariyerler";
-var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
-var kariyer_secim_s4_7_0 = "Yenilikçi ve Girişimci Kariyerler";
-var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Alan Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Operatörü\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
-var kariyer_secim_s4_8_0 = "Öğretim ve Mentorluk Kariyerleri";
-var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYZ Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\NArtırılmış Gerçeklik Eğitmeni\nSanal Dünyalarda Gençlik Mentoru\nYZ Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYZ Destekli Dil Eğitmeni";
-var kariyer_secim_s4_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
-var kariyer_secim_s4_9_1 = "Veri Bilimcisi\nMakine Öğrenimi Mühendisi\nYapay Zeka (AI) Etikçisi\nVeri Gizliliği Görevlisi\nBlockchain Veri Analisti\nVeri Sorumlusu\nAnalitik Modelleyici\nArtırılmış Analitik Uzmanı\nSiber Güvenlik Veri Analisti\nKuantum Veri Analisti\nSağlık Bilişiminde Veri Bilimcisi\nVeriye Dayalı Pazarlama Uzmanı\nSürdürülebilirlik Veri Analisti\nIoT (Nesnelerin İnterneti) Veri Analisti";
 
 var kariyer_secim_12_25_s5_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s5_1_2 = "Grafik Tasarımı";
@@ -1310,6 +1263,65 @@ var kariyer_secim_12_25_s6_9_5 = "Pazarlama Analitiği: Dijital pazarlama araçl
 var kariyer_secim_12_25_s6_9_6 = "Staj ve Sertifikalar: Veri analitiği alanında staj yaparak ya da online sertifika programlarıyla uzmanlık kazanabilirsiniz.";
 var kariyer_secim_12_25_s6_9_7 = "Bu yollar, üniversite diploması olmadan da farklı kariyer alanlarında deneyim kazanmanızı ve yeteneklerinizi geliştirmenizi sağlar.";
 
+//25+
+var kariyer_secim_25_40_s2_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_40_s2_1_2 = "Eğer yaratıcı yönünüzü iş hayatında kullanmak istiyorsanız, bu alanlar size uygun olabilir. Reklamcılık, grafik tasarım, moda, müzik, sinema ya da yazarlık gibi alanlarda kariyer yapmak, estetik anlayışınızı ve özgün fikirlerinizi profesyonel projelere yansıtmanızı sağlar. Örneğin, bir marka için yenilikçi reklam kampanyaları tasarlayabilir ya da bir içerik yazarı olarak yaratıcı projelere imza atabilirsiniz. Sanatın her dalında kariyer fırsatları geniş ve esnektir, freelance çalışabilir ya da bir ajansla iş birliği yapabilirsiniz. ";
+var kariyer_secim_25_40_s2_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_40_s2_2_2 = "Doğal bir liderlik yeteneğiniz var, ekip yönetimi ve stratejik karar alma konularında başarılı olabilirsiniz.  Proje yönetimi, takım liderliği, operasyon yönetimi veya üst düzey yöneticilik pozisyonları, sorumluluk alarak hedeflere ulaşmanızı gerektirir. Örneğin, bir işletme müdürü olarak organizasyonun tüm süreçlerini yönetebilir, yeni stratejiler geliştirerek büyümeye katkı sağlayabilirsiniz. Bu kariyerler, uzun vadeli başarı ve kariyer ilerlemesi için güçlü liderlik becerileri gerektirir.";
+var kariyer_secim_25_40_s2_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_40_s2_3_2 = "İnsanlara yardım etme tutkunuzu görebiliyoruz. Sağlık, sosyal hizmetler ya da kar amacı gütmeyen organizasyonlarda tatmin edici bir kariyer bulabilirsiniz.  Sosyal sorumluluk projelerinde yer almak, bir terapist ya da sağlık çalışanı olarak insanların hayatlarını iyileştirmek gibi meslekler bu alanda öne çıkar. Örneğin, bir sosyal hizmet uzmanı olarak dezavantajlı gruplara yardım edebilir ya da bir sağlık yöneticisi olarak sağlık hizmetlerinin daha verimli işlemesini sağlayabilirsiniz.";
+var kariyer_secim_25_40_s2_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_40_s2_4_2 = "Teknik becerileriniz ve analitik düşünce yapınızla, mühendislik ya da teknoloji alanlarında uzmanlaşabilirsiniz.  Yazılım geliştirme, makine mühendisliği ya da siber güvenlik gibi alanlarda çalışarak iş dünyasının sürekli değişen taleplerine yanıt verebilirsiniz. Örneğin, bir yazılım mühendisi olarak yeni uygulamalar geliştirebilir ya da bir ağ güvenliği uzmanı olarak şirketlerin dijital altyapılarını koruyabilirsiniz. Bu alanlar, hızla gelişen teknolojilere ayak uydurma ve sürekli öğrenmeyi gerektirir.";
+var kariyer_secim_25_40_s2_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_40_s2_5_2 = "İletişim becerileriniz ve insan ilişkilerini yönetme yeteneğiniz sayesinde satış ve müşteri ilişkileri alanlarında başarılı olabilirsiniz. Satış yönetimi, iş geliştirme ya da müşteri hizmetleri gibi alanlarda çalışarak, şirketin büyümesine doğrudan katkı sağlayabilirsiniz. Örneğin, bir satış yöneticisi olarak ekiplerinizi hedeflere yönlendirebilir ya da bir iş geliştirme uzmanı olarak yeni müşteriler kazanabilirsiniz. Bu kariyerler, ikna kabiliyetinizi ve ilişki yönetimi yetkinliklerinizi ön plana çıkarır. ";
+var kariyer_secim_25_40_s2_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_40_s2_6_2 = "Düzen, planlama ve organizasyon becerileriniz güçlü, idari yönetim ve organizasyon alanlarında kariyer yapabilirsiniz. İnsan kaynakları, ofis yönetimi ya da proje koordinasyonu gibi roller, iş süreçlerinin düzenli ve etkili şekilde yürümesini sağlar. Örneğin, bir insan kaynakları yöneticisi olarak işe alım süreçlerini yönetebilir ya da bir proje yöneticisi olarak farklı ekiplerin aynı hedefe ulaşması için çalışabilirsiniz. Bu alanlarda detaylara hakimiyet ve çok yönlü düşünme önemlidir.";
+var kariyer_secim_25_40_s2_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_40_s2_7_2 = "Girişimci bir ruha sahipsiniz, yenilikçi fikirlerinizi hayata geçirme fırsatını bulabileceğiniz alanlar mevcuttur. Kendi işinizi kurabilir, bir start-up'ı yönlendirebilir ya da yeni ürün ve hizmetler geliştirerek piyasada fark yaratabilirsiniz. Örneğin, teknoloji alanında bir start-up kurarak yeni bir mobil uygulama geliştirebilir ya da e-ticaret sektöründe yenilikçi bir iş modeli hayata geçirebilirsiniz. Bu kariyerler risk almayı ve yaratıcılığı birleştirir. ";
+var kariyer_secim_25_40_s2_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_40_s2_8_2 = "Bilginizi ve deneyimlerinizi başkalarıyla paylaşmaktan keyif alıyorsunuz, öğretim ve mentorluk alanında kariyer yapabilirsiniz.  Eğitim sektöründe öğretmenlik, akademik danışmanlık ya da koçluk yaparak, bireylerin gelişimine katkı sağlayabilirsiniz. Örneğin, bir eğitmen olarak yetişkinlere mesleki beceriler kazandırabilir ya da bir mentor olarak genç profesyonellere rehberlik edebilirsiniz. Bu kariyerlerde etkili iletişim ve rehberlik becerileri ön plandadır. ";
+var kariyer_secim_25_40_s2_9_1 = "Analitik ve Veri Odaklı Kariyerler ";
+var kariyer_secim_25_40_s2_9_2 = "Veri analizi ve problem çözme yetenekleriniz güçlü görünüyor, analitik ve veri odaklı kariyerler size uygun olabilir. Veri bilimi, iş zekası ya da finansal analiz gibi alanlarda çalışarak, şirketlerin stratejik kararlar almasına yardımcı olabilirsiniz. Örneğin, bir veri analisti olarak büyük verileri analiz edip şirketlerin pazarlama stratejilerini iyileştirebilir ya da bir iş zekası uzmanı olarak yönetime raporlar sunabilirsiniz. Bu kariyerler, sayısal analiz yeteneği ve detaylara dikkat gerektirir. ";
+
+var kariyer_secim_s3_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_s3_1_1 = "Grafik Tasarımcı\nİçerik Yazarı\nFotoğrafçı\İllüstratör\nMüzisyen\nYönetmen\nSanat Yönetmeni\nAnimatör\nReklam Sanat Yönetmeni\nİç MimarModa Tasarımcısı\nWeb Tasarımcısı\nVideo Düzenleyici\nSes Mühendisi\nKreatif Direktör";
+var kariyer_secim_s3_2_0 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_s3_2_1 = "Proje Yöneticisi\nİnsan Kaynakları Müdürü\nPazarlama Müdürü\nFinans Müdürü\nOperasyon Müdürü\nTedarik Zinciri Yöneticisi\nGenel Müdür\nSatış Müdürü\nÜretim Müdürü\nİcra Direktörü\nKalite Güvence Müdürü\nBilgi İşlem Müdürü\nAğırlama Müdürü\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı";
+var kariyer_secim_s3_3_0 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_s3_3_1 = "Sosyal Hizmet Uzmanı\nDanışman/Psikolog\nHemşire\nÖğretmen\nEvlilik ve Aile Terapisti\nMadde Bağımlılığı Danışmanı\nKlinik Psikolog\nOkul Danışmanı\nRehabilitasyon Danışmanı\nKâr Amacı Gütmeyen Program Yöneticisi\nGeriatrik Bakım Müdürü\nÇocuk Esirgeme Kurumu Çalışanı\nRuh Sağlığı Teknisyeni\nDarülaceze Çalışanı\nToplum Sağlığı Çalışanı";
+var kariyer_secim_s3_4_0 = "Teknik ve Mühendislik Kariyerler";
+var kariyer_secim_s3_4_1 = "Yazılım Mühendisi\nMakina Mühendisi\nElektrik Mühendisi\nİnşaat Mühendisi\nHavacılık ve Uzay Mühendisi\nBiyomedikal Mühendisi\nÇevre Mühendisi\nKimya Mühendisi\nVeri Bilimcisi\nAğ Yöneticisi\nSistem Mühendisi\nKalite Kontrol Mühendisi\nEndüstri Mühendisi\nProses Mühendisi\nTelekomünikasyon Mühendisi";
+var kariyer_secim_s3_5_0 = "Satış ve İlişkisel Kariyerler";
+var kariyer_secim_s3_5_1 = "Satış Temsilcisi\nMuhasebe Müdürü\nİş Geliştirme Müdürü\nEmlakçı\nPazarlama Koordinatörü\nMüşteri İlişkileri Yöneticisi\nReklam Satış Temsilcisi\nMarka Elçisi\nKilit Müşteri Yöneticisi\nİç Satış Temsilcisi\nHalkla İlişkiler Uzmanı\nSatış Operasyonları Analisti\nPerakende Mağaza Müdürü\nEtkinlik Planlayıcısı\nAğırlama Müdürü";
+var kariyer_secim_s3_6_0 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_s3_6_1 = "Yönetici Asistanı\nOfis Müdürü\nProje Koordinatörü\nEtkinlik Planlayıcısı\nOfis Yöneticisi\nKayıt Yöneticisi\nİnsan Kaynakları Koordinatörü\nVeri Giriş Uzmanı\nHukuk Sekreteri\nTesis Müdürü\nSatınalma Uzmanı\nSeyahat Koordinatörü\nMüşteri Hizmetleri Sorumlusu\nFaturalandırma Uzmanı";
+var kariyer_secim_s3_7_0 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_s3_7_1 = "Girişimci/Startup Kurucusu\nGirişim Kapitalisti\nÜrün Müdürü\nİş Geliştirme Uzmanı\nİnovasyon Danışmanı\nGrowth Hacker\nFranchise Sahibi\nTasarım Odaklı Düşünme Kolaylaştırıcısı\nİnovasyon Koçu\nSosyal Girişimci\nPatent Analisti\nBaş İnovasyon Sorumlusu\nSürdürülebilirlik Danışmanı\nBiyolojik korsan\nESG (Çevresel, Sosyal ve Yönetişim) Uzmanı";
+var kariyer_secim_s3_8_0 = "Öğretim ve Mentorluk Kariyerleri"; 
+var kariyer_secim_s3_8_1 = "Öğretmen/Eğitimci\nProfesör\nOkul Müdürü\nMüfredat Geliştirici\nÖğretim Tasarımcısı\nEğitim Danışmanı\nÇevrimiçi Eğitmen\nÖzel Eğitim Öğretmeni\nESL Öğretmeni\nOkul Danışmanı\nKütüphaneci\nMentor/Koç\nKariyer Danışmanı\nEğitim Teknoloğu\nGençlik Mentoru";
+var kariyer_secim_s3_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
+var kariyer_secim_s3_9_1 = "Veri Analisti\nFinansal Analist\nPazar Araştırması Analisti\nİstatistikçi\nYöneylem Araştırması Analisti\nAktüerya\nKantitatif Analist\nRisk Analisti\nİş Zekası Analisti\nTedarik Zinciri Analisti\nKredi Analisti\nFiyatlandırma Analisti\nKalite Güvence Analisti\nSağlık Veri Analisti\nUyumluluk Analisti";
+
+var kariyer_secim_s4_1_0 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_s4_1_1 = "Sanal Gerçeklik Tasarımcısı\nArtırılmış Gerçeklik Sanatçısı\nNFT Sanatçısı\nXR Deneyim Tasarımcısı\nYapay Zeka ile Sanat Geliştiricisi\nHolografik Sanatçı\nSosyal Medya İçerik Üreticisi\nBiyo-Sanatçı\nSanal Moda Tasarımcısı\n3D Baskı Sanatçısı\nYapay Zeka ile Müzik Bestecisi\nOyun Anlatı Tasarımcısı\nYapay Zeka ile Hikaye Anlatıcısı\nMetaverse Mimarı";
+var kariyer_secim_s4_2_0 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_s4_2_1 = "Sürdürülebilirlik Direktörü\nDijital Dönüşüm Yöneticisi\nUzaktan Çalışma Koordinatörü\nYapay Zeka Strateji Direktörü\nBlockchain Proje Yöneticisi\nESG Yöneticisi\nVeri Yönetişimi Sorumlusu\nSiber Güvenlik Yöneticisi\nAI Etik Görevlisi\nYapay Zeka Benimseme Stratejisti\nSanal Ekip Lideri\nKriz Yönetimi Koordinatörü\nTedarik Zinciri Dayanıklılık Yöneticisi\nUzay Turizmi Operasyon Direktörü";
+var kariyer_secim_s4_3_0 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_s4_3_1 = "Telesağlık Uzmanı\nYZ Terapisti\nSanal Gerçeklik Terapisti\nTeletıp Koordinatörü\nRuh Sağlığı YZ Koçu\nGerontolog\nDijital Sağlık Koçu\nTopluluk Dayanıklılık Görevlisi\nYZ Destekli Özel İhtiyaç Eğitimcisi\nAfet Müdahale Koordinatörü\nYZ ile Geliştirilmiş Yaşlı Refakatçi\nRobotik Rehabilitasyon Terapisti\nUzaktan Ruh Sağlığı Danışmanı\nKriz İletişimi Müdürü\nÇevre Adaleti Savunucusu"; // sonuncuda silinebilir.
+var kariyer_secim_s4_4_0 = "Teknik ve Mühendislik Kariyerler";
+var kariyer_secim_s4_4_1 = "Kuantum Bilişim Mühendisi\nYZ Etik Uzmanı\nRobotik Otomasyon Mühendisi\n3D Baskı Mühendisi\nUzay Araştırmaları Mühendisi\nYenilenebilir Enerji Mühendisi\nOtonom Araç Mühendisi\nArtırılmış Gerçeklik Mühendisi\nBlockchain Geliştiricisi\nSiber Güvenlik Analisti\nNanoteknoloji Mühendisi\nBiyoinformatik Bilimcisi\nSu Kaynakları Mühendisi\nUzaktan Drone Teknisyeni";
+var kariyer_secim_s4_5_0 = "Satış ve İlişkisel Kariyerler";
+var kariyer_secim_s4_5_1 = "Dijital Satış Stratejisti\nYZ Satış Uzmanı\nSanal Gerçeklik Satış Müdürü\nSürdürülebilirlik Satış Danışmanı\nChatbot Satış Temsilcisi\nMüşteri Deneyimi Direktörü\nVeriye Dayalı Satış Analisti\nSosyal Ticaret Uzmanı\nYZ Destekli Kişisel Alışverişçi\nInfluencer Pazarlama Müdürü\nBlockchain Satış Danışmanı\nArtırılmış Gerçeklik Satış Uzmanı\nUzaktan Satış Koçu\nMüşteri Deneyimi YZ Tasarımcısı";
+var kariyer_secim_s4_6_0 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_s4_6_1 = "Sanal Asistan\nAI Ofis Müdürü\nİşyeri Refahı Koordinatörü\nBlok Zinciri Yöneticisi\nDijital Etkinlik Yöneticisi\nSürdürülebilirlik Yöneticisi\nSiber Güvenlik Yöneticisi\nVeri Yönetişimi Uzmanı\nUzak Ekip Koordinatörü\nYapay Zeka Destekli İK Koordinatörü\nRobotik Otomasyonu Yöneticisi\nAkıllı Ofis Danışmanı\nUzay Turizmi Operasyon Koordinatörü\nUzak Etkinlik Planlayıcısı\nNFT Sanat Galerisi Yöneticisi";
+var kariyer_secim_s4_7_0 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_s4_7_1 = "Blockchain Girişimcisi\nAI Startup Kurucusu\nUzay Turizmi Girişimcisi\nSürdürülebilir Ürün Yenilikçisi\nDijital Sağlık Yenilikçisi\nDrone Hizmetleri Girişimcisi\nNFT Startup Kurucusu\nSanal Gerçeklik Alan Sahibi\nUzay Madenciliği Girişimcisi\nArtırılmış Gerçeklik Operatörü\nSosyal Etki Girişimcisi için Yapay Zeka\nKuantum Bilişim Girişimcisi\nKişisel Markalaşma Koçu\nMetaverse Deneyim Tasarımcısı";
+var kariyer_secim_s4_8_0 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_s4_8_1 = "Sanal Gerçeklik Eğitim Uzmanı\nYZ Eğitim Koçu\nEğitim Teknolojisi Geliştiricisi\NArtırılmış Gerçeklik Eğitmeni\nSanal Dünyalarda Gençlik Mentoru\nYZ Mentorluk Koordinatörü\nUzaktan Eğitim Uzmanı\nDijital Sağlık Eğitimcisi\nMetaverse Öğrenme Deneyimi Tasarımcısı\nBlockchain Eğitim Uzmanı\nOyun ve Espor Danışmanı\nSiber Güvenlik Eğitim Uzmanı\nYZ Destekli Dil Eğitmeni";
+var kariyer_secim_s4_9_0 = "Analitik ve Veriye Dayalı Kariyerler";
+var kariyer_secim_s4_9_1 = "Veri Bilimcisi\nMakine Öğrenimi Mühendisi\nYapay Zeka (AI) Etikçisi\nVeri Gizliliği Görevlisi\nBlockchain Veri Analisti\nVeri Sorumlusu\nAnalitik Modelleyici\nArtırılmış Analitik Uzmanı\nSiber Güvenlik Veri Analisti\nKuantum Veri Analisti\nSağlık Bilişiminde Veri Bilimcisi\nVeriye Dayalı Pazarlama Uzmanı\nSürdürülebilirlik Veri Analisti\nIoT (Nesnelerin İnterneti) Veri Analisti";
+
+//perakende
 var kariyer_secim_12_25_s7_retail_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s7_retail_1_2 = "Perakende sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir:";
 var kariyer_secim_12_25_s7_retail_1_3 = "• Vitrin Tasarımcısı: Mağazaların dış görünüşlerini ve vitrinlerini tasarlayarak yaratıcı vizyonunuzu sergileyebilirsiniz.";
@@ -1383,8 +1395,7 @@ var kariyer_secim_12_25_s7_retail_9_6 = "• E-Ticaret Analitiği Uzmanı: Onlin
 var kariyer_secim_12_25_s7_retail_9_7 = "• Müşteri Analitiği Uzmanı: Müşteri verilerini analiz ederek müşteri segmentasyonları ve hedeflemeleri yapabilirsiniz."; 
 var kariyer_secim_12_25_s7_retail_9_8 = "Perakende sektöründe geniş bir yelpazede kariyer seçenekleri bulunuyor ve her kariyer tipi için uygun fırsatlar mevcut.";
 
-
-//sağlık ve ilaç sektöründe yapılabilecek işler: 
+//sağlık
 var kariyer_secim_12_25_s7_health_1_1 = "Yaratıcı ve Sanatsal Kariyerler ";
 var kariyer_secim_12_25_s7_health_1_2 = "Sağlık ve ilaç sektöründe yaratıcı becerilerinizi kullanabileceğiniz işler şunlar olabilir: ";
 var kariyer_secim_12_25_s7_health_1_3 = "• Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsiniz. ";
@@ -1457,6 +1468,7 @@ var kariyer_secim_12_25_s7_health_9_5 = "• Sağlık Ekonomisi Analisti: Sağl�
 var kariyer_secim_12_25_s7_health_9_6 = "• Biyoinformatik Uzmanı: Genom ve biyomedikal verileri analiz ederek ilaç geliştirme süreçlerine katkıda bulunabilirsiniz.";
 var kariyer_secim_12_25_s7_health_9_7 = "• Kalite Kontrol Analisti: İlaç üretim süreçlerinin kalitesini analiz ederek, güvenli ve etkili ürünler üretilmesini sağlayabilirsiniz.";
 
+//teknoloji
 var kariyer_secim_12_25_s7_tech_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s7_tech_1_2 = "Teknoloji sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:";
 var kariyer_secim_12_25_s7_tech_1_3 = "• UX/UI Tasarımcısı: Web siteleri ve mobil uygulamaların kullanıcı deneyimini ve arayüzünü tasarlayarak kullanıcı dostu çözümler üretebilirsiniz.";
@@ -1530,6 +1542,7 @@ var kariyer_secim_12_25_s7_tech_9_6 = "• SEO Uzmanı: Web sitelerinin arama mo
 var kariyer_secim_12_25_s7_tech_9_7 = "• Blockchain Analisti: Blockchain teknolojisi ile ilgili verileri analiz ederek, güvenli ve şeffaf dijital çözümler üretebilirsiniz.";
 var kariyer_secim_12_25_s7_tech_9_8 = "• Teknoloji sektörü, her kariyer tipine uygun geniş bir yelpazede iş fırsatları sunuyor. Bu sektör, yenilikçi, teknik, yaratıcı ve organizasyonel becerilere sahip kişiler için oldukça uygun kariyer seçenekleri barındırıyor.";
 
+//hazır giyim ve mode
 var kariyer_secim_12_25_s7_dress_1_1 = "Yaratıcı ve Sanatsal Kariyerler "; 
 var kariyer_secim_12_25_s7_dress_1_2 = "Hazır giyim sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir: "; 
 var kariyer_secim_12_25_s7_dress_1_3 = "• Moda Tasarımcısı: Kendi kıyafet koleksiyonlarınızı tasarlayarak veya bir moda markası için özgün tasarımlar geliştirerek yaratıcı yönünüzü ortaya koyabilirsiniz. "; 
@@ -1601,7 +1614,6 @@ var kariyer_secim_12_25_s7_dress_9_4 = "• E-Ticaret Veri Analisti: Online giyi
 var kariyer_secim_12_25_s7_dress_9_5 = "• Stok Analisti: Giyim ürünlerinin satış ve stok hareketlerini analiz ederek tedarik zincirinin daha verimli işlemesine yardımcı olabilirsiniz. "; 
 var kariyer_secim_12_25_s7_dress_9_6 = "• Fiyatlandırma Uzmanı: Moda ürünlerinin fiyatlandırılmasında veri odaklı analizler yaparak şirketin kar marjını optimize edebilirsiniz. "; 
 var kariyer_secim_12_25_s7_dress_9_7 = "• Müşteri Analitiği Uzmanı: Müşteri alışkanlıklarını ve geri bildirimlerini analiz ederek, markaların müşteri deneyimini geliştirmelerine yardımcı olabilirsiniz. ";
-
 
 // otomotiv
 var kariyer_secim_12_25_s7_auto_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
@@ -1676,7 +1688,6 @@ var kariyer_secim_12_25_s7_auto_9_5 = "• Veri Bilimci (Telemetri): Araçların
 var kariyer_secim_12_25_s7_auto_9_6 = "• Müşteri Analitiği Uzmanı: Otomotiv müşterilerinin tercih ve satın alma davranışlarını analiz ederek, kişiselleştirilmiş müşteri deneyimi stratejileri oluşturabilirsiniz.";
 var kariyer_secim_12_25_s7_auto_9_7 = "• Üretim Analisti: Araç üretim süreçlerindeki verileri analiz ederek, üretim verimliliğini ve kaliteyi artıracak iyileştirmeler yapabilirsiniz.";
 
-
 // mutfak sanatları
 var kariyer_secim_12_25_s7_meal_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_12_25_s7_meal_1_2 = "Mutfak sanatları sektöründe yaratıcılığınızı kullanabileceğiniz işler şunlar olabilir:";
@@ -1750,13 +1761,96 @@ var kariyer_secim_12_25_s7_meal_9_5 = "• Müşteri Deneyimi Analisti: Restoran
 var kariyer_secim_12_25_s7_meal_9_6 = "• Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsiniz.";
 var kariyer_secim_12_25_s7_meal_9_7 = "• Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsiniz.";
 
+//Kariyer Seçim İngilizce
+var kariyer_secim_25_40_eng_s2_1_1 = "Creative and Artistic Careers"
+var kariyer_secim_25_40_eng_s2_1_2 = "If you want to use your creativity in your professional life, these fields might be a great fit for you. Careers in advertising, graphic design, fashion, music, film, or writing allow you to reflect your aesthetic sense and original ideas in professional projects. For example, you could design innovative ad campaigns for a brand or work as a content writer on creative projects. Artistic careers offer broad and flexible opportunities—whether you choose to work freelance or collaborate with an agency.";
+
+var kariyer_secim_25_40_eng_s2_2_1 = "Leadership and Management Careers"
+var kariyer_secim_25_40_eng_s2_2_2 = "You have a natural ability for leadership and can excel in managing teams and making strategic decisions. Careers in project management, team leadership, operations management, or senior executive roles require taking responsibility and achieving goals. For example, as a business manager, you could oversee the entire operations of an organization and develop new strategies to contribute to its growth. These careers demand strong leadership skills for long-term success and career advancement.";
+
+
+
+
+
+var kariyer_secim_eng_s3_1_0 = "Creative and Artistic Careers"
+var kariyer_secim_eng_s3_1_1 = "Graphic Designer\nContent Creator\nPhotographer\nIllustrator\nMusician\nDirector\nArt Director\nAnimator\nAdvertising Art Director\nInterior Designer\nFashion Designer\nWeb Designer\nVideo Editor\nSound Engineer\nCreative Director";
+
+
+
+var kariyer_secim_eng_s4_1_0 = "Creative and Artistic Careers"
+var kariyer_secim_eng_s4_1_1 = "Virtual Reality Designer\nAugmented Reality Artist\nNFT Artist\nXR (Extended Reality)\nExperience Designer\nAI-Generated Art Developer\nHolographic Artist\nSocial Media Content Producer\nBio-Artist (Biotechnology Art)\nVirtual Fashion Designer\nChief Artist\nAI-Enhanced Music Composer\nGame Story Designer\nAI-Generated Storyteller\nMetaverse Architect";
+
+
+//perakende
+var kariyer_secim_12_25_s7_eng_retail_1_1 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_retail_1_2 = "Jobs Available in the Retail Sector:";
+var kariyer_secim_12_25_s7_eng_retail_1_3 = "• Window Display Designer: Showcase your creative vision by designing the exterior displays of stores.";
+var kariyer_secim_12_25_s7_eng_retail_1_4 = "• Visual Merchandiser: Plan how products are presented in-store to attract customers with aesthetic arrangements.";
+var kariyer_secim_12_25_s7_eng_retail_1_5 = "• Graphic Designer: Design promotional materials (posters, brochures, social media visuals) for retail companies";
+var kariyer_secim_12_25_s7_eng_retail_1_6 = "• Fashion Consultant: Provide creative style advice to customers in clothing stores.";
+var kariyer_secim_12_25_s7_eng_retail_1_7 = "• Interior Decorator: Use your creativity to design and arrange store interiors in the retail space.";
+
+
+//sağlık
+var kariyer_secim_12_25_s7_eng_health_1_1 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_health_1_2 = "Jobs in the Healthcare and Pharmaceutical Sector:";
+var kariyer_secim_12_25_s7_eng_health_1_3 = "• Health Communication Specialist: You can promote health campaigns and create creative content for brochures, websites, and social media.";
+var kariyer_secim_12_25_s7_eng_health_1_4 = "• Medical Illustrator: By making visual illustrations of medical topics and procedures, you can provide information for doctors, patients, and students.";
+var kariyer_secim_12_25_s7_eng_health_1_5 = "• Graphic Designer: You can offer creative solutions by designing promotional materials for healthcare institutions or pharmaceutical companies.";
+var kariyer_secim_12_25_s7_eng_health_1_6 = "• Advertising and Promotion Specialist: You can manage the marketing strategies of pharmaceutical companies and healthcare services and develop creative campaigns.";
+var kariyer_secim_12_25_s7_eng_health_1_7 = "• Content Creator: By creating health-related blogs, videos, or social media content, you can raise awareness in the sector.";
+
+
+//teknoloji
+var kariyer_secim_12_25_s7_eng_tech_1_1 = "Jobs Available in the Technology Sector";
+var kariyer_secim_12_25_s7_eng_tech_1_2 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_tech_1_3 = "• UX/UI Designer: You can design user experiences and interfaces for websites and mobile apps, creating user-friendly solutions.";
+var kariyer_secim_12_25_s7_eng_tech_1_4 = "• Game Designer: Develop concepts and visuals for video games, creating imaginative worlds and characters.";
+var kariyer_secim_12_25_s7_eng_tech_1_5 = "• Digital Graphic Designer: Design visuals for digital marketing materials and web graphics for tech companies.";
+var kariyer_secim_12_25_s7_eng_tech_1_6 = "• Web Designer: Shape the aesthetics and functionality of websites, offering creative solutions.";
+var kariyer_secim_12_25_s7_eng_tech_1_7 = "• Animation Specialist: Produce 3D models, animations, and digital effects for ads, games, or films.";
+
+
+//hazır giyim ve moda
+var kariyer_secim_12_25_s7_eng_dress_1_1 = "Fashion Industry";
+var kariyer_secim_12_25_s7_eng_dress_1_2 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_dress_1_3 = "• Fashion Designer: You can express your creative side by designing your own clothing collections or creating original designs for a fashion brand.";
+var kariyer_secim_12_25_s7_eng_dress_1_4 = "• Stylist: You can select outfits and offer styling advice for celebrities, brands, or fashion shoots.";
+var kariyer_secim_12_25_s7_eng_dress_1_5 = "• Visual Merchandiser: By designing store windows and interior displays, you can help make products more appealing.";
+var kariyer_secim_12_25_s7_eng_dress_1_6 = "• Fashion Illustrator: You can visually express designs by sketching fashion collections.";
+var kariyer_secim_12_25_s7_eng_dress_1_7 = "• Costume Designer: You can use your creativity in clothing by designing costumes for theater, film, or TV productions.";
+
+
+//otomotiv
+var kariyer_secim_12_25_s7_eng_auto_1_1 = "Automotive Industry";
+var kariyer_secim_12_25_s7_eng_auto_1_2 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_auto_1_3 = "• Automotive Designer: Add aesthetic value to the automotive world by designing exterior or interior layouts of vehicles. ";
+var kariyer_secim_12_25_s7_eng_auto_1_4 = "• Industrial Designer: Develop designs that ensure vehicles are user-friendly and aesthetically pleasing.";
+var kariyer_secim_12_25_s7_eng_auto_1_5 = "• Graphic Designer: Create graphics such as advertisements, logos, or product promotions for automotive brands.";
+var kariyer_secim_12_25_s7_eng_auto_1_6 = "• Color and Material Designer: Contribute to the aesthetic appeal of vehicles by selecting color palettes and materials.";
+var kariyer_secim_12_25_s7_eng_auto_1_7 = "• Visual Presentation Specialist: Prepare visual presentations and concept designs for car shows, advertising campaigns, and launches.";
+
+
+//mutfak sanatları
+var kariyer_secim_12_25_s7_eng_meal_1_1 = "Culinary Arts";
+var kariyer_secim_12_25_s7_eng_meal_1_2 = "Creative and Artistic Careers";
+var kariyer_secim_12_25_s7_eng_meal_1_3 = "• Chef: You can design menus, prepare creative dishes, and perform culinary arts at a high level in restaurants or hotels.";
+var kariyer_secim_12_25_s7_eng_meal_1_4 = "• Pastry Chef: By preparing special cakes, desserts, and sweets, you can bring creative touches to the world of desserts.";
+var kariyer_secim_12_25_s7_eng_meal_1_5 = "• Food Designer: You can design the visual presentation of dishes, prepare elegant and aesthetic plates, and enhance the visual appeal of the food.";
+var kariyer_secim_12_25_s7_eng_meal_1_6 = "• Food Photographer: Capture impressive photos of food and create visual content for promoting dishes";
+var kariyer_secim_12_25_s7_eng_meal_1_7 = "• Food Stylist: Professionally arrange the presentation and plate layout of dishes for photo shoots and food presentations.";
+
+
+
+
+
 
 //Güçlü Yanların + 25
 var guclu_yanlarin_57_10_1 = "Mükemmelleştirilmiş Form” Gücü (57-10)";
 var guclu_yanlarin_57_10_2 = "Hızlı düşünme yeteneğin dinamik iş ortamlarında çok değerli. Yaratıcılığın ile hayatta kalmayı garanti eden ve gelecekteki belirsizliklerden koruma sağlayan ortamlar yaratma ve tasarlama kabiliyetin var.\nFormu Mükemmelleştirmek Kendini, sanatı, müziği, yazıyı, iç tasarımı, yiyeceği, bahçeciliği, mimariyi – kendi ve başkalarının davranışlarını içeren her şeyi mükemmelleştirmeyi seversin. Bu detaylara gösterdiğin özen ve mükemmellik arzusu, herhangi bir profesyonel alanda yüksek kaliteli çıktılar üretmene yardımcı olur.\n\nKendin Olmak Sadece kendin olarak yaşayarak sağlıklı ve güzel bir şey yaratırsın. Bu otantiklik başkalarına ilham verebilir ve olumlu ve üretken bir çalışma ortamı yaratabilir. Rolün, kendin ve hayatın da dahil olmak üzere, sevdiğin şeyi yaratmak ve yarattığın şeyi sevmektir.\n\nİş Dünyasında Gücünü Kullanmak Yaratıcılık ve tasarım gerektiren rollerde, detaylara gösterdiğin özen ve sezgisel yaklaşım, yenilikçi ve estetik açıdan hoş sonuçlara doğurur. Liderlikte, işinin her yönünü kucaklama ve mükemmelleştirme yeteneğin, ekibini mükemmellik için çabalamaya teşvik edebilir.\n\nMükemmelleştirilmiş form gücün, iş dünyasında sezgi, yaratıcılık ve mükemmelik arzusu açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak yaratıcı olabilir, üretkenliği artırabilir, olumlu bir çalışma ortamı yaratabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemen ve geliştirmen, anlamlı ve etkili bir kariyere vesile olabilir.";
 
-var guclu_yanlarin_10_20_1 = "Yüksek İlkeler” Gücü (10-20)";
-var guclu_yanlarin_10_20_2 = "Yüksek ilkeli davranışların savunucusu olmak için buradasın ve bu davranışlar tanındığında ve davet edildiğinde, etrafındaki insanlara yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilirsin.\n\nLiderliğin Sesis: Sadece kendin olarak başkalarına ilham verebilirsin. Herkesin kendisi olmasını savunabilir, organizasyonunda otantiklik ve bireysel ilkeler kültürünü teşvik edebilirsin.\n\nTercih Edilen Ortam Kendi gerçeğine duyarlı ve bireysel ilkelere bağlı olanlarla birlikte olmayı tercih edersin. Bu ortam, senin gelişmeni sağlar ve başkalarını bütünlüklerini ve benzersiz bakış açılarını korumaya teşvik eder.\n\nİş Dünyasında Gücünü Kullanmak Liderlik ve savunuculuk rollerinde, bütünlüğün ve ilkelere olan bağlılığın ile, etik kararlar almayı sağlayabilir ve başkalarına ilham verebilirsin. Ekip ortamlarında, otantikliğin güven ve iş birliği sağlar, daha uyumlu ve motive bir ekip oluşmasına yardımcı olur.\n\nYüksek ilkeler gücün, iş dünyasında otantiklik ve bütünlük açısından benzersiz bir karışım sunan güçlü bir liderlik özelliğidir. Bu gücü kullanarak, başkalarına ilham verebilir, etik uygulamaları teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.";
+var guclu_yanlarin_20_10_1 = "Yüksek İlkeler” Gücü (10-20)";
+var guclu_yanlarin_20_10_2 = "Yüksek ilkeli davranışların savunucusu olmak için buradasın ve bu davranışlar tanındığında ve davet edildiğinde, etrafındaki insanlara yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilirsin.\n\nLiderliğin Sesis: Sadece kendin olarak başkalarına ilham verebilirsin. Herkesin kendisi olmasını savunabilir, organizasyonunda otantiklik ve bireysel ilkeler kültürünü teşvik edebilirsin.\n\nTercih Edilen Ortam Kendi gerçeğine duyarlı ve bireysel ilkelere bağlı olanlarla birlikte olmayı tercih edersin. Bu ortam, senin gelişmeni sağlar ve başkalarını bütünlüklerini ve benzersiz bakış açılarını korumaya teşvik eder.\n\nİş Dünyasında Gücünü Kullanmak Liderlik ve savunuculuk rollerinde, bütünlüğün ve ilkelere olan bağlılığın ile, etik kararlar almayı sağlayabilir ve başkalarına ilham verebilirsin. Ekip ortamlarında, otantikliğin güven ve iş birliği sağlar, daha uyumlu ve motive bir ekip oluşmasına yardımcı olur.\n\nYüksek ilkeler gücün, iş dünyasında otantiklik ve bütünlük açısından benzersiz bir karışım sunan güçlü bir liderlik özelliğidir. Bu gücü kullanarak, başkalarına ilham verebilir, etik uygulamaları teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.";
 
 var guclu_yanlarin_6_59_1 = "“Etkileşim” Gücü (6-59)";
 var guclu_yanlarin_6_59_2 = "Başkalarının savunmalarını kolayca aşma kapasitesine sahipsin, bu da son derece destekleyici ve üretken hale gelebilecek derin, anlamlı bağlar kurmana olanak tanır. Başkalarıyla hızlı ve kolay bir şekilde iletişim kurabilirsin, bu da seni mükemmel bir iletişimci ve ağ kurucu yapar. Bu beceri, sosyal ve profesyonel ortamlarda kolayca gezinmeni sağlar, geniş bir iletişim ağı ve çevre oluşturmanı mümkün kılar. Bu derin seviyede bağlantı kurma yeteneği, ekip çalışmasında, müşteri ilişkilerinde ve liderlik rollerinde çok değerlidir. Hızla güven inşa ederek, başarıyı artıran güçlü, işbirlikçi ilişkiler geliştirebilirsin.\n\nYaratıcılığı Kolaylaştırmak Bir rahatlık ve konfor hissi yaratarak, herhangi bir yaratıcı girişimde verimlilik sağlarsın. Kapsayıcı ve davetkar bir atmosfer yaratma yeteneğin, yaratıcı düşünmeyi ve işbirliğini teşvik eder. Bu da seni beyin fırtınası oturumlarında, proje ekiplerinde ve inovasyonun önemli olduğu her ortamda değerli bir varlık haline getirir.\n\nİş Dünyasında Gücünü Kullanmak Etkileşim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip liderliğinde, derin bağlantılar kurma yeteneğin, uyumlu ve motive bir ekip oluşturur. Müşteri ilişkilerinde, hızla güven ve ilişki kurma becerin, müşteri memnuniyetini ve sadakatini artırır. Ayrıca, yaratıcı rollerde, rahat ve kapsayıcı bir ortam yaratma yeteneğin, yenilikçilik ve işbirliğini teşvik eder.\n\nEtkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
@@ -1773,8 +1867,8 @@ var guclu_yanlarin_3_60_2 = "Kendini ve çevrendekileri değişim ve yenilik pot
 var guclu_yanlarin_5_15_1 = "“Kalıplar ve Ritim” Gücü (5-15) ";
 var guclu_yanlarin_5_15_2 = "Bu güç, akışın ve ritminle uyum sağladığında, yaptığın her şeyin zahmetsiz ve doğal hissettirmesini sağlar. Bu uyum hali, işinde en iyi performansı göstermene, üretkenliğini ve yaratıcılığını artırmana olanak tanır. Doğal ritimlerini kucaklaman, iş tatminine ve etkinliğini sağlar.\n\nRutinlere Bağlı Kalmak Sana hizmet eden kalıplara veya rutinlere bağlı kalma yeteneğine sahipsin. Bu rutinler, yapı ve istikrar sağlar, görevlerini kolaylıkla ve tutarlılıkla yürütmene olanak tanır. Profesyonel bir ortamda, bu yetenek, verimliliği artıran ve stresi azaltan güvenilir süreçler ve iş akışları oluşturmanı sağlar.\n\nÇeşitliliği Kucaklamak Ayrıca çevrendekilerin sabit olandan aşırıya kadar çeşitlilik gösteren rutinlerini tanımlama ve kucaklama yeteneğine sahipsin. Bu anlayış, çevrendekiler ile etkili bir şekilde çalışmana, onların benzersizliklerini ve ritimlerini takdir etmene olanak tanır. Bu farklılıkları tanıyarak ve bunlara uyum sağlayarak, daha uyumlu ve işbirlikçi bir çalışma ortamı oluşturabilirsin.\n\nKişisel Zamanlama ve Akış Kişisel iç ritmin tarafından tamamen belirlenen kendi zamanlama ve akış anlayışına sahipsin. Hiçbir şeyin veya hiç kimsenin akışına müdahale etmesine izin vermemeye dikkat et. Ritmini korumak, üretkenliğini ve esenliğini sürdürmek için çok önemlidir. Doğal kalıplarına saygı gösteren destekleyici bir ortam yaratmak ve sınırlar koymak, en optimal performansta kalmana yardımcı olabilir.\n\nBaşkalarına Fayda Sağlamak Çevrendekilere doğru ritim ve zamanlamaya uyum sağlamalarında yardım ederek, onları da dolaylı olarak faydalandırabilirsin. Başkalarının ritimlerini tanımlama ve onlarla uyum sağlama yeteneğin, daha uyumlu ve üretken bir ekip dinamiği yaratabilir. Herkes için daha etkili ve tatmin edici bir çalışma ortamı oluşturabilirsin.\n\nİş Dünyasında Gücünü Kullanmak Kalıplar ve ritim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, etkili rutinler oluşturma ve sürdürme yeteneğin, zamanında ve tutarlı ilerleme sağlar. Ekip liderliğinde, çeşitliliği anlama yeteneğin, çok değişik yelpazede kişileri yönetmene ve motive etmene yardımcı olabilir. Ayrıca, yaratıcı problem çözme gerektiren rollerde, doğal akışın yenilikçi ve verimli çözümler üretmene yol açabilir.\n\nKalıplar ve ritim gücün, iş dünyasında uyum, yapı ve uyarlanabilirlik açısından benzersiz bir karışım sunan güçlü bir özelliktir.Bu gücü kullanarak, üretkenliği artırabilir, işbirliğini teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
-var guclu_yanlarin_47_64_1 = "“Deneyimsel Süreç” Gücü (64-47) ";
-var guclu_yanlarin_47_64_2 = "Doğrudan deneyim yoluyla öğrenme ve içgörüler kazanma yeteneğine sahipsin. Bu pratik yaklaşım, karmaşık durumları derinlemesine ve pratik bir şekilde anlamanı sağlar. İş dünyasında bu güç, sahada problem çözme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nPaternleri ve Süreçleri Anlamak Deneyimleyip bu deneyimleri yansıtarak paternleri ve süreçleri etkili bir şekilde anlama yeteneğine sahipsin. Bu içgörü, bilinçli kararlar almanı ve geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Deneyimsel öğrenme yaklaşımın, çözümlerin gerçeklik ve pratiklikle temellendirilmesini sağlar.\n\nUyum Sağlama ve Dayanıklılık Deneyimsel öğrenme, uyum sağlama ve dayanıklılık geliştirir. Zorluklarla doğrudan etkileşimde bulunarak, değişen koşullara uyum sağlama ve yanıt verme esnekliğini geliştirirsin. Bu uyum sağlama yeteneği, koşulların hızla değişebileceği dinamik iş ortamlarında çok önemlidir.\n\nİçgörüleri Etkili Bir Şekilde Anlatmak İçgörülerini ve deneyimlerini başkalarına etkili bir şekilde aktarma yeteneğine sahipsin, karmaşık kavramları pratik örneklerle anlamalarına yardımcı olursun. Bu beceri, özellikle eğitim ve mentorluk rollerinde faydalıdır, çünkü pratik bilgi aktarmak, öğrenme ve gelişimi önemli ölçüde artırabilir.\n\nİş Dünyasında Gücünü Kullanmak Deneyimsel süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, deneyimlerden öğrenme ve uyum sağlama yeteneğin, projelerin tahmin edilemeyen koşullarda bile etkili bir şekilde yönetilmesini sağlar. Operasyonlarda, pratik yaklaşımın, verimliliği artırır ve sorun çözme yeteneklerini geliştirir. Ayrıca, eğitim ve gelişim gerektiren rollerde, deneyimsel içgörüler, öğrenme deneyimini önemli ölçüde artırabilir.\n\nDeneyimsel süreç gücün, iş dünyasında pratik anlayış, uyum sağlama ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, sürekli iyileştirmeyi sürükleyebilir, dayanıklılığı artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.  ";
+var guclu_yanlarin_64_47_1 = "“Deneyimsel Süreç” Gücü (64-47) ";
+var guclu_yanlarin_64_47_2 = "Doğrudan deneyim yoluyla öğrenme ve içgörüler kazanma yeteneğine sahipsin. Bu pratik yaklaşım, karmaşık durumları derinlemesine ve pratik bir şekilde anlamanı sağlar. İş dünyasında bu güç, sahada problem çözme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nPaternleri ve Süreçleri Anlamak Deneyimleyip bu deneyimleri yansıtarak paternleri ve süreçleri etkili bir şekilde anlama yeteneğine sahipsin. Bu içgörü, bilinçli kararlar almanı ve geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Deneyimsel öğrenme yaklaşımın, çözümlerin gerçeklik ve pratiklikle temellendirilmesini sağlar.\n\nUyum Sağlama ve Dayanıklılık Deneyimsel öğrenme, uyum sağlama ve dayanıklılık geliştirir. Zorluklarla doğrudan etkileşimde bulunarak, değişen koşullara uyum sağlama ve yanıt verme esnekliğini geliştirirsin. Bu uyum sağlama yeteneği, koşulların hızla değişebileceği dinamik iş ortamlarında çok önemlidir.\n\nİçgörüleri Etkili Bir Şekilde Anlatmak İçgörülerini ve deneyimlerini başkalarına etkili bir şekilde aktarma yeteneğine sahipsin, karmaşık kavramları pratik örneklerle anlamalarına yardımcı olursun. Bu beceri, özellikle eğitim ve mentorluk rollerinde faydalıdır, çünkü pratik bilgi aktarmak, öğrenme ve gelişimi önemli ölçüde artırabilir.\n\nİş Dünyasında Gücünü Kullanmak Deneyimsel süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, deneyimlerden öğrenme ve uyum sağlama yeteneğin, projelerin tahmin edilemeyen koşullarda bile etkili bir şekilde yönetilmesini sağlar. Operasyonlarda, pratik yaklaşımın, verimliliği artırır ve sorun çözme yeteneklerini geliştirir. Ayrıca, eğitim ve gelişim gerektiren rollerde, deneyimsel içgörüler, öğrenme deneyimini önemli ölçüde artırabilir.\n\nDeneyimsel süreç gücün, iş dünyasında pratik anlayış, uyum sağlama ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, sürekli iyileştirmeyi sürükleyebilir, dayanıklılığı artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.  ";
 
 var guclu_yanlarin_27_50_1 = "“Koruyuculuk” Gücü (Quantum 27-50) ";
 var guclu_yanlarin_27_50_2 = "Kaynakları, ortamları ve toplulukları koruma ve sürdürme gücün var.\n\nBesleme ve Sürdürme Kaynakları, ister insanlar, projeler, ister fiziksel varlıklar olsun, doğal olarak besleyip sürdürme yeteneğine sahipsin. Bu rol gözetimin altındaki her şeyin gelişmesini ve değerini korumasını sağlar. İş dünyasında, bu güç uzun vadeli planlama ve bakım gerektiren rollerde çok değerlidir.\n\nSorumluluk ve Yöneticilik Sorumluluk ve yöneticilik anlayışın, kaynakları etkili bir şekilde koruma ve yönetme konusunda seni yönlendirir. Kaynakların akıllıca kullanılmasını ve gelecekteki kullanım için korunmasını sağlama konusunda kararlılık sergileyebilirsin. Bu da seni sürdürülebilirlik, çevre yönetimi ve kaynak tahsisi içeren rollere mükemmel bir aday yapar.\n\nTopluluk Oluşturma Güçlü ve destekleyici topluluklar oluşturma yeteneğine sahipsin. İnsanların değerli hissettiği ortamlar yaratarak, ekip uyumunu ve üretkenliğini artırabilirsin. Bu beceri, pozitif bir organizasyon kültürü oluşturmanın önemli olduğu liderlik rollerinde özellikle faydalıdır.\n\nDeğeri Koruma ve Artırma Koruyuculuk rolün, kaynakların değerinin korunmasını ve zamanla artırılmasını sağlar. Kaynakları iyileştirme ve optimize etme yollarını belirleme konusunda yeteneklisin ve bu, kaynakların uzun vadede fayda sağlamaya devam etmesini sağlar. Bu, varlık yönetimi ve optimizasyon gerektiren rollerde seni değerli bir varlık yapar.\n\nİş Dünyasında Gücünü Kullanmak Koruyuculuk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Büyük organizasyonlarda yönetici rollerine davet edilebilirsin. Tesis yönetiminde, fiziksel varlıkları koruma ve geliştirme yeteneğin, uzun vadeli operasyonel verimliliği sağlayabilir. İnsan kaynaklarında, besleyici yaklaşımın, çalışanların refahını ve bağlılığını artırabilir. Ayrıca, sürdürülebilirlik rollerinde, sorumlu yöneticilik anlayışın, çevresel etkiyi azaltma ve sürdürülebilirliği teşvik etme çabalarını yönlendirebilir.\n\nKoruyuculuk gücün, iş dünyasında sorumlu yönetim ve uzun vadeli sürdürülebilirlik sunan güçlü bir özelliktir. Bu gücü kullanarak kaynakların refahını ve uzun ömürlülüğünü sağlayabilir, güçlü topluluklar oluşturabilir ve organizasyonunu sürdürülebilir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
@@ -1785,8 +1879,8 @@ var guclu_yanlarin_26_44_2 = "Hayati bilgileri net ve etkili bir şekilde aktarm
 var guclu_yanlarin_32_54_1 = "“Tutku” Gücü (Quantum 32-54) ";
 var guclu_yanlarin_32_54_2 = "Hedeflerine ve arzularına ulaşmak için bitmeyen bir azime sahipsin. Bu kararlılık, engeller ve zorluklarla karşılaştığında seni ileriye taşır. İş dünyasında bu güç, girişimcilik, satış ve liderlik gibi azim, dayanıklılık ve güçlü bir iş etiği gerektiren rollerde çok değerlidir.\n\nHedef Odaklı Tutkun, hedefler belirleme ve bu hedeflere ulaşma konusunda güçlü bir odaklanma ile karakterizedir. Ne başarmak istediğin konusunda net bir vizyona sahipsin ve bunu gerçekleştirmek için gerekli çabayı göstermeye hazırsın. Bu hedef odaklı yaklaşım hedeflerine doğru ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar Kendine yüksek standartlar koyar ve yaptığın her şeyde mükemmellik için çaba gösterirsin. Bu kalite ve gelişim taahhüdü, becerilerini sürekli olarak geliştirmeni ve olağanüstü sonuçlar elde etmeni sağlar. Profesyonel ortamlarda, yüksek standartların başkalarını da mükemmellik için çaba göstermeye teşvik eder.\n\nBaşkalarını Motive Etme Hırslı doğan, çevrendekileri de motive edebilir ve ilham verebilir. Yoğun çalışma ve özveri örneği göstererek ekip üyelerini sınırlarını zorlamaya ve başarıya ulaşmaya teşvik edersin. Bu, liderlik rollerinde, tutku kültürü oluşturarak önemli organizasyonel başarılar elde etmeyi sağlayan bir yetenek olarak özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Tutku gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Girişimcilikte, bitmeyen azmin ve hedef odaklı yaklaşımın, fikirleri başarılı girişimlere dönüştürmene yardımcı olabilir. Satışta, ısrarcılığın ve yüksek standartların, olağanüstü performans ve müşteri memnuniyeti sağlayabilir. Ayrıca, liderlik rollerinde, ekibini motive etme ve ilham verme yeteneğin, genel organizasyonel başarıyı artırabilir.\n\nTutku gücün, iş dünyasında güçlü bir varlıktır ve kararlılık, yüksek standartlar ve motivasyon yeteneğinin benzersiz bir karışımını sağlar. Bu güçten yararlanarak hedeflerine ulaşabilir, çevrendekilere ilham verebilir ve organizasyonunu daha büyük başarılara yönlendirebilirsin.  ";
 
-var guclu_yanlarin_49_19_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
-var guclu_yanlarin_49_19_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
+var guclu_yanlarin_19_49_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
+var guclu_yanlarin_19_49_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
 
 var guclu_yanlarin_37_40_1 = "“Topluluk” Gücü (Quantum 37-40)";
 var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\n\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\n\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\n\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\n\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
@@ -1803,8 +1897,8 @@ var guclu_yanlarin_51_25_2 = "Başkalarını geride bırakma ve mükemmelliğe u
 var guclu_yanlarin_1_8_1 = "“İlham” Gücü (Quantum 1-8)";
 var guclu_yanlarin_1_8_2 = "Farklı bir perspektifi yaratıcı bir şekilde ifade etme konusunda benzersiz bir yeteneğe sahipsin. Bu, varlığınla veya başkalarının deneyimleyip takdir edebileceği çeşitli araçlarla kendini gösterebilir. İş dünyasında bu nitelik, yenilikçilik, satış, pazarlama ve yaratıcı liderlik gerektiren roller için çok değerlidir.\n\nYaratıcı Öz-İfadeyi Modellemek Kendini ifade eden, yaratıcı bir birey olmanın ne anlama geldiğini modellemek üzere tasarladın. Bu güç, başkalarının dikkatini ve hayranlığını doğal olarak çeker, seni yaratıcı bir rol model yapar. Bu mentorluk, takım liderliği ve yaratıcı yönlendirme içeren rollerde kritik önemdedir.\n\nÖne Çıkma Cesareti Kalabalıktan sıyrılmak cesaret ister ve bunu yapma yeteneğin, başkalarını da aynı derecede cesur olmaya teşvik eder. Farklı olma ve risk alma isteğin, yenilikçiliği teşvik edebilir ve organizasyonun içinde bir yaratıcılık kültürü geliştirebilir. Bu cesaret, özellikle girişimcilik, ürün geliştirme ve stratejik planlama alanlarında değerlidir.\n\nAlgıları Değiştirme Otantik ve yaratıcı bir şekilde yaşayarak, algıları değiştirme ve başkalarını kendi benzersizliklerini ifade etmeleri için özgürleştirme potansiyeline sahipsin. Etkin daha kapsayıcı ve dinamik bir işyeri yaratabilir ve burada çeşitli fikirler değerli görülür ve keşfedilir. Bu yetenek, çeşitlilik ve kapsayıcılık girişimleri, satış, halkla ilişkiler ve organizasyonel gelişim içeren rollerde çok önemlidir.\n\nİlham gücün, iş dünyasında yaratıcı ifade, cesaret ve etki açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, yenilikçiliği teşvik edebilir, ekibine ilham verebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
-var guclu_yanlarin_28_38_1 = "“Azim” Gücü (Quantum 38-28)";
-var guclu_yanlarin_28_38_2 = "Engelleri aşmanı ve hedeflerine odaklanmanı sağlayan sarsılmaz bir kararlılığa sahipsin. Bu azim, proje yönetimi, satış ve girişimcilik gibi dayanıklılık ve ısrar gerektiren rollerde çok değerlidir.\n\nZorlukların Üstesinden Gelme Azimli doğan, önemli zorluklarla yüzleşmeni ve bunların üstesinden gelmeni sağlar. Geri çekilmelerden kolayca yılmazsın ve bunları öğrenme ve büyüme fırsatları olarak görürsün. Bu güç yüksek riskli ortamlarda, zorlukların üstesinden gelmenin başarı için anahtar olduğu durumlarda kritiktir.\n\nTutarlı Çaba Azmin hedeflerine yönelik tutarlı çaba göstermeni sağlar. İşine bağlısın ve hedeflerine ulaşmak için ekstra çaba göstermeye hazırsın. Bu düzeydeki adanmışlık, uzun vadeli bağlılık ve sürekli çaba gerektiren araştırma ve geliştirme, stratejik planlama ve operasyon yönetimi gibi rollerinde esastır.\n\nBaşkalarına İlham Verme Azim ve kararlılığın, çevrendekilere ilham verip motive edebilir. Sarsılmaz bağlılık ve sıkı çalışmanın bir örneğini göstererek, ekip üyelerini benzer bir zihniyet benimsemeye teşvik edersin. Bu ilham verici yetenek, liderlik ve mentorluk rollerinde özellikle değerlidir.\n\nAzim gücün, iş dünyasında kararlılık, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, zorlukların üstesinden gelebilir, hedeflerine ulaşabilir ve ekibini de aynısını yapmaya teşvik edebilirsin.";
+var guclu_yanlarin_38_28_1 = "“Azim” Gücü (Quantum 38-28)";
+var guclu_yanlarin_38_28_2 = "Engelleri aşmanı ve hedeflerine odaklanmanı sağlayan sarsılmaz bir kararlılığa sahipsin. Bu azim, proje yönetimi, satış ve girişimcilik gibi dayanıklılık ve ısrar gerektiren rollerde çok değerlidir.\n\nZorlukların Üstesinden Gelme Azimli doğan, önemli zorluklarla yüzleşmeni ve bunların üstesinden gelmeni sağlar. Geri çekilmelerden kolayca yılmazsın ve bunları öğrenme ve büyüme fırsatları olarak görürsün. Bu güç yüksek riskli ortamlarda, zorlukların üstesinden gelmenin başarı için anahtar olduğu durumlarda kritiktir.\n\nTutarlı Çaba Azmin hedeflerine yönelik tutarlı çaba göstermeni sağlar. İşine bağlısın ve hedeflerine ulaşmak için ekstra çaba göstermeye hazırsın. Bu düzeydeki adanmışlık, uzun vadeli bağlılık ve sürekli çaba gerektiren araştırma ve geliştirme, stratejik planlama ve operasyon yönetimi gibi rollerinde esastır.\n\nBaşkalarına İlham Verme Azim ve kararlılığın, çevrendekilere ilham verip motive edebilir. Sarsılmaz bağlılık ve sıkı çalışmanın bir örneğini göstererek, ekip üyelerini benzer bir zihniyet benimsemeye teşvik edersin. Bu ilham verici yetenek, liderlik ve mentorluk rollerinde özellikle değerlidir.\n\nAzim gücün, iş dünyasında kararlılık, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, zorlukların üstesinden gelebilir, hedeflerine ulaşabilir ve ekibini de aynısını yapmaya teşvik edebilirsin.";
 
 var guclu_yanlarin_7_31_1 = "“Liderlik” Gücü (Quantum 7-31)";
 var guclu_yanlarin_7_31_2 = "Çevrendekilere net ve vizyoner rehberlik sağlama yeteneğine sahipsin. Bu güç, çekici bir yön belirlemeni ve başkalarına bu yönde ilham vermeni sağlar. Bu, iş dünyasında nitelik, stratejik planlama ve liderlik gerektiren roller için çok değerlidir.\n\nGüven Kazanmak Etkili bir lider olabilmek için önce liderlik ettiğin kişilerin güvenini kazanmalısın. Liderlik gücün, dürüstlük, güvenilirlik ve ekibinin refahına gerçek bir ilgi göstererek güven inşa etme yeteneğinle karakterizedir. Bu güven, güçlü ve uyumlu ekipler için temel oluşturur.\n\nOtorite ile Etkilemek Sesin, etki ve otorite niteliği taşır, ve lider olmak için davet edilmen veya seçilmen gerekir. Bu, liderliğinin dayatılmadığı, aksine memnuniyetle karşılandığı anlamına gelir, bu da etkini daha sürdürülebilir kılar. Bu, yön, müzakere, ekip liderliği ve üst düzey yönetim içeren rollerde kritik önemdedir.\n\nPerde Arkası Liderliği Perde arkasından liderlik yapma yeteneğine sahipsin, her zaman ön planda olmasan bile karar vericileri yönlendirir ve stratejileri şekillendirirsin. Bu liderlik biçimi, önemli değişiklikler ve ilerlemeler sağlarken başkalarının harekete geçmesini ve tanınmasını sağlar.\n\nYön Vermek Buradaki rolün, her şeyi kendin yapmak değil, yolu göstermek ve başkalarına harekete geçmeleri ve karar vermeleri için güç vermektir. Bu yaklaşım, etkini maksimize eder ve ekip üyeleri arasında sahiplenme ve sorumluluk duygusunu geliştirir.\n\nİş Dünyasında Gücünü Kullanmak Liderlik gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yönetim rollerinde, vizyoner rehberliğin, organizasyonu uzun vadeli başarıya yönlendirebilir. Proje yönetiminde, güven kazanma ve net yön verme yeteneğin, projelerin stratejik hedeflerle uyumlu olmasını ve etkili bir şekilde uygulanmasını sağlar. Ayrıca, danışmanlık rollerinde, perde arkası liderliğin stratejik kararları yönlendirebilir ve sürekli iyileştirme kültürünü teşvik edebilir.\n\nLiderlik gücün, iş dünyasında vizyoner rehberlik, güven inşa etme ve etkili otorite açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, organizasyonunu güvenli bir şekilde geleceğe yönlendirebilir, ekibine ilham verebilir ve sürdürülebilir başarıyı sağlayabilirsin.";
@@ -1851,8 +1945,8 @@ var guclu_yanlarin_13_33_2 = "Dikkatle dinleme, duyduğun bilgileri ve sırları
 var guclu_yanlarin_41_30_1 = "“Hayal Etme” Gücü (Kuantum 41-30)  ";
 var guclu_yanlarin_41_30_2 = "Odaklanmış enerjini kullanarak olabilecek sayısız senaryoyu hayal etme yeteneğine sahipsin. Bu farklı olasılıkları hayal etme kapasitesi, yenilikçi çözümler ve yaratıcı atılımlar sağlayabilir. Hayal gücün, seni mevcut durumun ötesine ve potansiyel dolu bir geleceğe bakmaya teşvik eden güçlü bir araçtır.\n\nYeni Deneyimler Yeni deneyimler edinmek için bitmek bilmeyen bir özlemle, hayallerin ve arzuların beklentiler yaratabilir ve bu beklentiler gerçekleşebilir ya da gerçekleşmeyebilir. Bu yeni deneyimler arayışı, yaratıcılığını besler ve keşfedilmemiş alanları keşfetme motivasyonunu sağlar. Bu beklentileri yönetmek, hayal kırıklığını önlemek ve gerçeklikte kalmak için önemlidir.\n\nİsteği Dengelemek Yeni deneyimlere olan açıklığın, sabır ve özdenetim geliştirerek, net kararlar almak için yeterli zaman ayırarak en iyi şekilde dengelenir. Harekete geçmeden önce durup düşünmek, hayal gücünün enerjisini üretken ve iyi düşünülmüş eylemlere yönlendirmene olanak tanır. Bu denge, hayallerini ulaşılabilir hedeflere dönüştürmek için önemlidir.\n\nGücünü Kullanmak Gücünü kullanmanın sırrı, sadece hayallerinin ve her deneyimin kendisinden zevk almak ve beklentilerin baskısına boyun eğmemektir. Yolculuğun ve yaratıcı sürecin tadını çıkararak, ilhama açık kalabilir ve karşılanmayan beklentilerin getirdiği stresten kaçınabilirsin. Bu zihniyet, hayal gücüyle ortaya çıkan fikirlerine tam anlamıyla katılmanı ve onları hayata geçirmeni sağlar.\n\nİş Dünyasında Gücünü Kullanmak Hayal etme gücün, iş dünyasının çeşitli alanlarında kullanılabilir. Yaratıcı problem çözme gerektiren rollerde, birden fazla senaryo hayal etme yeteneğin, yenilikçi çözümler sağlayabilir. Pazarlama ve ürün geliştirmede, hayal gücün, ilgi çekici hikayeler ve benzersiz teklifler oluşturulmasına yardımcı olabilir. Liderlikte, vizyoner düşüncen, ekibini yeni olasılıkları keşfetmeye ve organizasyonu ileriye taşımaya ilham verebilir ve motive edebilir.\n\nHayal etme gücün, iş dünyasında yaratıcılık, vizyon ve büyük hayaller kurma yeteneğini birleştiren güçlü bir özelliktir. Bu gücü kullanarak, yenilik yapma, ilham verme ve anlamlı bağlantılar kurmayı artırabilirsin.";
 
-var guclu_yanlarin_36_35_1 = "“Deneyimleyen” Gücü (Quantum 36-35)";
-var guclu_yanlarin_36_35_2 = "İş ve hayatında ilerlemeyi sağlamak için birçok şeyi denemeye gönüllü olabilirsin. Büyüme ve yenilik vaat eden toplu deneyimlerden bilgelik toplama konusunda motive oluyorsun. Çeşitli deneyimlerin birikimi olan değerli içgörülerini etrafındakiler ile paylaşabilirsin. Çevrenizdeki insanlara her anı değerlendirmeleri ve 'anı yaşamaları' için ilham verebilirsin.\n\nYeni Deneyimleri Kucaklamak, Yeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.\n\nBaşkalarına İlham Vermek, Çok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.\n\nİş Dünyasında Gücünü kullanmak, Deneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.\n\nBu gücün, karmaşık projeleri ve hızlı hareket eden endüstrileri yönetmene yardımcı olur ve seni dinamik ortamlarda liderlik pozisyonlarına uygun hale getirir. Keşiflerini paylaşarak ilerlemeyi teşvik edersin ve çevrendekilere de aynı keşif ve büyüme zihniyetini benimsemeleri için ilham verebilirsin.";
+var guclu_yanlarin_35_36_1 = "“Deneyimleyen” Gücü (Quantum 36-35)";
+var guclu_yanlarin_35_36_2 = "İş ve hayatında ilerlemeyi sağlamak için birçok şeyi denemeye gönüllü olabilirsin. Büyüme ve yenilik vaat eden toplu deneyimlerden bilgelik toplama konusunda motive oluyorsun. Çeşitli deneyimlerin birikimi olan değerli içgörülerini etrafındakiler ile paylaşabilirsin. Çevrenizdeki insanlara her anı değerlendirmeleri ve 'anı yaşamaları' için ilham verebilirsin.\n\nYeni Deneyimleri Kucaklamak, Yeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.\n\nBaşkalarına İlham Vermek, Çok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.\n\nİş Dünyasında Gücünü kullanmak, Deneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.\n\nBu gücün, karmaşık projeleri ve hızlı hareket eden endüstrileri yönetmene yardımcı olur ve seni dinamik ortamlarda liderlik pozisyonlarına uygun hale getirir. Keşiflerini paylaşarak ilerlemeyi teşvik edersin ve çevrendekilere de aynı keşif ve büyüme zihniyetini benimsemeleri için ilham verebilirsin.";
 
 var guclu_yanlarin_11_56_1 = "“Merak” Gücü (11-56)";
 var guclu_yanlarin_11_56_2 = "Sürekli zihinsel uyarımlar aramaya, yeni fikirleri ve etrafındaki dünyayı görmenin yollarını keşfetmeye meraklısın. Spesifik bir şey bulmayı amaçlamazsın, daha ziyade “Bakın ne keşfettim!” diyerek paylaşımda bulunmak sana daha uygun olabilir.\n\nYaratıcılığı Serbest Bırakmak, Felsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.\n\nHikayeler Yaratmak, Soyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.\n\nVizyonuna İnanmak, Bir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.\n\nİş Dünyasında Gücünü Kullanmak, Merak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir.\n\nMerak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
@@ -1897,148 +1991,69 @@ var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek, Bir işin
 var guclu_yanlarin_33_1 = "Gözlem Ustası";
 var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak, Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.\n\nGeçmişten Ders Çıkarmak, Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.\n\nSorumluluğu Sağlamak, Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır.";
 
-//Güçlü Yanların Ingilizce
-var guclu_yanlarin_57_10_en1 = "The Strength of “Perfected Form” (57-10) ";
-var guclu_yanlarin_en2 =
-  "You have the ability to “think on your feet” which is very valuable in dynamic business environments. You are great at creating and designing environments that ensure survival and provide protection from future uncertainties. ";
-var guclu_yanlarin_en3 =
-  "Perfecting the Form You enjoy perfecting the form of things: yourself, art, music, writing, interior design, food, gardening, architecture – anything that comes into your realm, including your own and others’ behavior. This attention to detail and drive for perfection can lead to high-quality outputs in any professional field.  ";
-var guclu_yanlarin_en4 =
-  "Living True to Yourself By simply living true to yourself, you create something healthy and beautiful with your life. This authenticity can inspire others and foster a positive and productive work environment. Your role is to create what you love and love what you create – including yourself and your life.  ";
-var guclu_yanlarin_en5 =
-  "Utilizing Your Strength in Business In roles that require creativity and design, your attention to detail and intuitive approach can lead to innovative and aesthetically pleasing outcomes. In leadership, your ability to embrace and perfect every aspect of your work can inspire your team to strive for excellence.  ";
-var guclu_yanlarin_en6 =
-  "Your strength of perfected form is a powerful asset in the business world, providing a unique blend of intuition, creativity, and a drive for perfection. By harnessing this strength, you can enhance productivity, foster a positive work environment, and drive your organization towards greater success. Embracing and developing this strength can lead to a fulfilling and impactful career.  ";
-var guclu_yanlarin_en7 = "The Strength of “Higher Principles” (10-20)  ";
-var guclu_yanlarin_en8 =
-  "You are here to be an advocate of higher principled behaviors that, when recognized and invited, can guide those around you to be successfully aligned to their higher truth. Your need for self-integrity and voice of individual leadership can inspire others simply by being yourself.  ";
-var guclu_yanlarin_en9 =
-  "Voice of Leadership You have a need for self-integrity and can be a voice of individual leadership simply by being yourself. Speaking on behalf of everyone being themselves fosters a culture of authenticity and individual principles within your organization.  ";
-var guclu_yanlarin_en10 =
-  "Preferred Environment You prefer to be around others that share the same sensitivity to self-truth and a commitment to individual principles. This environment allows you to thrive and encourages others to maintain their integrity and unique perspectives.  ";
-var guclu_yanlarin_en11 =
-  "Utilizing Your Strength in Business Your strength of higher principles can be utilized in various domains within the business world. In leadership and advocacy roles, your integrity and commitment to principles can drive ethical decision-making and inspire others. In team settings, your authenticity fosters trust and collaboration, leading to a more cohesive and motivated team.  ";
-var guclu_yanlarin_en12 =
-  "Your strength of higher principles is a powerful asset in the business world, providing a unique blend of authenticity, integrity, and leadership. By harnessing this strength, you can inspire others, drive ethical practices, and lead your organization towards greater success. Embracing and developing this strength can lead to a fulfilling and impactful career.  ";
-var guclu_yanlarin_en13 = "The Strength of “Interaction” (6-59)  ";
-var guclu_yanlarin_en14 =
-  "You have the capacity to easily penetrate the defenses of others, allowing you to create deep, meaningful bonds that can become highly supportive and productive. You can quickly and easily connect with others, making you an excellent communicator and networker. This ability to connect on a profound level is invaluable in team settings, client relationships, and leadership roles. By building trust quickly, you can foster strong, collaborative relationships that drive success. Your ease in connecting with people can open doors to new opportunities and partnerships.  ";
-var guclu_yanlarin_en15 =
-  "Facilitating Creativity By facilitating a sense of coziness and comfort, you pave the way for fertility in any creative endeavor. Your ability to create a welcoming and inclusive atmosphere encourages creative thinking and collaboration. This makes you an asset in brainstorming sessions, project teams, and any environment where innovation is key.  ";
-var guclu_yanlarin_en16 =
-  "Utilizing Your Strength in Business Your strength of interaction can be utilized across various domains in the business world. In team leadership, your ability to build deep connections fosters a cohesive and motivated team. In client relations, your skill in quickly establishing trust and rapport enhances customer satisfaction and loyalty. Additionally, in creative roles, your talent for facilitating a cozy, inclusive environment can drive innovation and collaboration.";
+//Güçlü Yanların İngilizce
+var guclu_yanlarin_57_10_eng_1 = "The Strength of “Perfected Form” (57-10) ";
+var guclu_yanlarin_57_10_eng_2 = "You have the ability to “think on your feet” which is very valuable in dynamic business environments. You are great at creating and designing environments that ensure survival and provide protection from future uncertainties.\n\nPerfecting the Form You enjoy perfecting the form of things: yourself, art, music, writing, interior design, food, gardening, architecture – anything that comes into your realm, including your own and others’ behavior. This attention to detail and drive for perfection can lead to high-quality outputs in any professional field.\n\nLiving True to Yourself By simply living true to yourself, you create something healthy and beautiful with your life. This authenticity can inspire others and foster a positive and productive work environment. Your role is to create what you love and love what you create – including yourself and your life.\n\nUtilizing Your Strength in Business In roles that require creativity and design, your attention to detail and intuitive approach can lead to innovative and aesthetically pleasing outcomes. In leadership, your ability to embrace and perfect every aspect of your work can inspire your team to strive for excellence.\n\nYour strength of perfected form is a powerful asset in the business world, providing a unique blend of intuition, creativity, and a drive for perfection. By harnessing this strength, you can enhance productivity, foster a positive work environment, and drive your organization towards greater success. Embracing and developing this strength can lead to a fulfilling and impactful career.";
 
-var guclu_yanlarin_en17 =
-  "Your strength of logical process is a powerful asset in the business world, providing a unique blend of analytical rigor, critical thinking, and predictive accuracy. By harnessing this strength, you can provide invaluable insights and solutions that drive organizational success, you can drive informed decision-making, ensure operational excellence, and contribute to the strategic success of your organization.";
-var guclu_yanlarin_en18 = "The Strength of “Leadership” (45-21)";
-var guclu_yanlarin_en19 =
-  "You have the ability to guide those around you safely into the future. Your leadership style is logical, based on tested and established patterns that can be followed with certainty. In a business setting, this logical leadership style helps you create clear, actionable plans that inspire confidence and trust in your team.";
-var guclu_yanlarin_en20 =
-  "Earning Trust To lead effectively, you must first earn trust. Trust is the foundation of your leadership, enabling you to build strong, cohesive teams. By demonstrating integrity, competence, and a genuine understanding of your team's needs and aspirations, you establish yourself as a trusted leader.";
-var guclu_yanlarin_en21 =
-  "Recognizing Patterns and Trends You must be recognized as someone who grasps present patterns, understands trends, and is in touch with the needs of the people. This ability allows you to stay ahead of the curve, anticipating changes and preparing your team for future challenges. Your keen insight into patterns and trends ensures that your leadership is both proactive and adaptive.";
-var guclu_yanlarin_en22 =
-  "Influential Voice Your voice carries a quality of influence, and you must be invited by the majority to lead. Being elected to lead by your peers signifies their trust and confidence in your abilities.";
-var guclu_yanlarin_en23 =
-  "Leading Behind the Throne You also have the ability to lead with influence “behind the throne.” This subtle form of leadership allows you to guide and inspire without always being in the spotlight. By influencing decision-makers and shaping strategies from behind the scenes, you can drive significant change and progress.";
-var guclu_yanlarin_en24 =
-  "Pointing the Way Forward You are here to point the way forward – not do it yourself – this is key to your success and maintaining a sense of well-being. Your role as a leader is to provide vision and direction, empowering others to take action. This approach not only maximizes your impact but also fosters a sense of ownership and responsibility among your team members.";
-var guclu_yanlarin_en25 =
-  "Utilizing Your Strength in Business Your strength of leadership can be utilized across various domains in the business world. In executive roles, your logical and trustworthy approach can steer your organization towards long-term success. In project management, your ability to recognize patterns and trends ensures that projects are aligned with future demands. Additionally, in advisory roles, your influence behind the throne can guide strategic decisions and foster a culture of continuous improvement.";
-var guclu_yanlarin_en26 =
-  "Your strength of leadership is a powerful asset in the business world, providing a unique blend of logical reasoning, trustworthiness, and influential guidance. By harnessing this strength, you can lead your organization safely into the future, inspire your team, and drive sustainable success. Embracing and developing this strength can lead to a fulfilling and impactful career, making a significant difference in any professional setting.";
-var guclu_yanlarin_en27 = "The Strength of “Innovation” (3-60)";
-var guclu_yanlarin_en28 =
-  "This empowers you and those around you with the potential for change and something new. Blind faith is necessary in order to embrace this level of change, as it can happen suddenly and feel like a quantum leap. Your motto for life is “change happens when it’s meant to happen.”";
-var guclu_yanlarin_en29 =
-  "Moving from Chaos to Order Embrace the movement from chaos to order that is the inherent nature of innovation. This process of transformation requires patience and trust in the timing of events. Your ability to navigate and facilitate this transition is crucial in driving innovative projects and initiatives.";
-var guclu_yanlarin_en30 =
-  "Creative and Melancholic Process You are designed to move through a creative and melancholic process, a moodiness that comes and goes. It’s best for you to embrace your moods and simply watch where they take you. Your timing operates through a gut response, which is what will help lead you towards what is truly satisfying.";
-var guclu_yanlarin_en31 =
-  "Utilizing Your Strength in Business Your strength of innovation can be utilized across various domains in the business world. In product development, your ability to bring about significant changes can lead to groundbreaking innovations. In project management, your skill in moving from chaos to order ensures that projects are completed efficiently and creatively. Additionally, in roles that require problem-solving and strategic thinking, your innovative approach can drive the organization towards new and successful directions.";
-var guclu_yanlarin_en32 =
-  "Your strength of innovation is a powerful asset in the business world, providing a unique blend of creativity, resilience, and transformative potential. By harnessing this strength, you can drive significant changes, foster creative environments, and lead your organization towards new and innovative directions.";
-var guclu_yanlarin_en33 = "The Strength of “Patterns & Rhythm” (5-15)";
-var guclu_yanlarin_en34 =
-  "This allows you to align with your flow and rhythm, making everything you do feel effortless and natural. This state of harmony allows you to perform at your best without strain, enhancing productivity and creativity in your work. Embracing your natural rhythms can lead to greater job satisfaction and effectiveness.";
-var guclu_yanlarin_en35 =
-  "Holding to Fixed Patterns You have the ability to hold to fixed patterns or routines that serve you. These routines provide structure and stability, enabling you to navigate your tasks with ease and consistency. In a professional setting, this ability helps you establish reliable processes and workflows that enhance efficiency and reduce stress.";
-var guclu_yanlarin_en36 =
-  "Embracing Diversity in Patterns You also have the ability to identify and embrace the diversity of patterns in those around you, from fixed to extreme. This understanding allows you to work effectively with a variety of colleagues, appreciating their uniqueness. By recognizing and adapting to these differences, you can foster a more cohesive and collaborative work environment.";
-var guclu_yanlarin_en37 =
-  "Personal Timing and Flow You have your own sense of timing and flow that is determined entirely by your personal inner rhythm. Be sure to not allow anything or anyone to interfere with your flow. Maintaining your rhythm is crucial for sustaining your productivity and well-being. Establishing boundaries and creating a supportive environment that respects your natural patterns can help you stay in your optimal state of performance.";
-var guclu_yanlarin_en38 =
-  "Benefiting Others You can subtly benefit those around you by bringing them into a correct rhythm and timing as well. Your ability to identify and align with the rhythms of others can create a more harmonious and productive team dynamic. By helping colleagues find their flow, you contribute to a more effective and satisfying work environment for everyone.";
-var guclu_yanlarin_en39 =
-  "Utilizing Your Strength in Business Your strength of patterns and rhythm can be utilized across various domains in the business world. In project management, your ability to establish and maintain effective routines can ensure timely and consistent progress. In team leadership, your understanding of diverse patterns can help you manage and motivate a diverse group of individuals. Additionally, in roles that require creative problem-solving, your natural flow can lead to innovative and efficient solutions.";
-var guclu_yanlarin_en40 =
-  "Your strength of patterns and rhythm is a powerful asset in the business world, providing a unique blend of harmony, structure, and adaptability. By harnessing this strength, you can enhance productivity, foster collaboration, and lead your organization towards greater success.";
-var guclu_yanlarin_en41 = "The Strength of “Experiential Process” (64-47)";
-var guclu_yanlarin_en42 =
-  "You have the ability to learn and gain insights through direct experience. This hands-on approach allows you to understand complex situations deeply and practically. In the business world, this strength is invaluable in roles that require on-the-ground problem solving and adaptive learning.";
-var guclu_yanlarin_en43 =
-  "Understanding Patterns and Processes Your ability to experience and then reflect on those experiences helps you understand patterns and processes effectively. This insight allows you to make informed decisions and improve systems based on real-world feedback. Your experiential learning approach ensures that solutions are grounded in reality and practicality.";
-var guclu_yanlarin_en44 =
-  "Adaptability and Resilience Experiential learning fosters adaptability and resilience. By engaging directly with challenges, you develop the flexibility to adjust and respond to changing circumstances. This adaptability is crucial in dynamic business environments where conditions can shift rapidly.";
-var guclu_yanlarin_en45 =
-  "Effective Communication of Insights You can communicate your insights and experiences effectively to others, helping them understand complex concepts through practical examples. This skill is particularly useful in training and mentorship roles, where conveying practical knowledge can significantly enhance learning and development.";
-var guclu_yanlarin_en46 =
-  "Utilizing Your Strength in Business Your strength of experiential process can be utilized across various domains in the business world. In project management, your ability to adapt and learn from experience ensures that projects are managed effectively, even in unpredictable conditions. In operations, your hands-on approach can improve efficiency and problem-solving capabilities. Additionally, in roles that require training and development, your experiential insights can significantly enhance the learning experience.";
-var guclu_yanlarin_en47 =
-  "Your strength of experiential process is a powerful asset in the business world, providing a unique blend of practical understanding, adaptability, and effective communication. By harnessing this strength, you can drive continuous improvement, foster resilience, and lead your organization towards greater success.";
-var guclu_yanlarin_en48 = "The Strength of “Custodianship” (Quantum 27-50)";
-var guclu_yanlarin_en49 =
-  "You have a natural ability to nurture and sustain resources, whether they are people, projects, or physical assets. This caretaking role ensures that everything under your supervision thrives and maintains its value. In the business world, this strength is valuable in roles that require long-term planning and maintenance.";
+var guclu_yanlarin_20_10_eng_1 = "The Strength of “Higher Principles” (10-20)  ";
+var guclu_yanlarin_20_10_eng_2 = "You are here to be an advocate of higher principled behaviors that, when recognized and invited, can guide those around you to be successfully aligned to their higher truth. Your need for self-integrity and voice of individual leadership can inspire others simply by being yourself.\n\nVoice of Leadership You have a need for self-integrity and can be a voice of individual leadership simply by being yourself. Speaking on behalf of everyone being themselves fosters a culture of authenticity and individual principles within your organization.\n\nPreferred Environment You prefer to be around others that share the same sensitivity to self-truth and a commitment to individual principles. This environment allows you to thrive and encourages others to maintain their integrity and unique perspectives.\n\nUtilizing Your Strength in Business Your strength of higher principles can be utilized in various domains within the business world. In leadership and advocacy roles, your integrity and commitment to principles can drive ethical decision-making and inspire others. In team settings, your authenticity fosters trust and collaboration, leading to a more cohesive and motivated team.\n\nYour strength of higher principles is a powerful asset in the business world, providing a unique blend of authenticity, integrity, and leadership. By harnessing this strength, you can inspire others, drive ethical practices, and lead your organization towards greater success. Embracing and developing this strength can lead to a fulfilling and impactful career.  ";
 
-var guclu_yanlarin_en50 =
-  "Responsibility and Stewardship: Your sense of responsibility and stewardship drives you to protect and manage resources effectively; You are committed to ensuring that resources are used wisely and preserved for future use; This makes you an excellent candidate for roles that involve sustainability, environmental management, and resource allocation.";
-var guclu_yanlarin_en51 =
-  "Community Building: You have the ability to foster strong, supportive communities; By creating environments where people feel valued and cared for, you enhance team cohesion and productivity; This skill is particularly useful in leadership roles, where building a positive organizational culture is essential.";
-var guclu_yanlarin_en52 =
-  "Utilizing Your Strength in Business: Your strength of custodianship can be utilized across various domains in the business world; You may be called to executive roles in large organizations; In facility management, your ability to maintain and improve physical assets ensures long-term operational efficiency; In human resources, your nurturing approach can enhance employee well-being and retention; Additionally, in sustainability roles, your commitment to responsible stewardship can drive organizational efforts to reduce environmental impact and promote sustainability.";
-var guclu_yanlarin_en53 =
-  "Your strength of custodianship is a powerful asset in the business world, providing a unique blend of nurturing care, responsible management, and long-term sustainability; By harnessing this strength, you can ensure the well-being and longevity of resources, foster strong communities, and lead your organization towards sustainable success; Embracing and developing this strength can lead to a fulfilling and impactful career, making a significant difference in any professional setting.";
-var guclu_yanlarin_en54 =
-  "The Strength of “Sales and Marketing” (Quantum 26-44)";
-var guclu_yanlarin_en55 =
-  "You have a natural ability to convey and communicate vital information clearly and effectively; This skill is crucial in roles that require constant interaction and information exchange, such as sales, marketing, and customer relations; Your ability to transmit messages accurately ensures that everyone is on the same page and that misunderstandings are minimized.";
-var guclu_yanlarin_en56 =
-  "Emotional Connection: Your strength allows you to connect emotionally with others, making your communication more impactful; By understanding and conveying emotions effectively, you can build strong relationships and foster a sense of trust and empathy; This is particularly valuable in leadership and team-building roles, where emotional intelligence is key.";
-var guclu_yanlarin_en57 =
-  "Energy and Motivation: As a transmitter, you have the ability to convey energy and motivation to those around you; Your enthusiasm and passion can inspire and energize your team, driving them towards their goals; This ability to motivate others is essential in roles that require leadership and team management.";
-var guclu_yanlarin_en58 =
-  "Influence and Persuasion: Your communication skills give you a powerful ability to influence and persuade others; Whether you are presenting a new idea, negotiating a deal, or leading a team, your persuasive abilities can help you achieve positive outcomes; This makes you a valuable asset in roles that involve negotiation, sales, and leadership.";
-var guclu_yanlarin_en59 =
-  "Utilizing Your Strength in Business: Your strength of sales and marketing can be utilized across various domains in the business world; In sales and marketing, your ability to communicate effectively and persuasively can drive customer engagement and sales growth; In leadership roles, your capacity to convey energy and motivation can inspire your team and foster a positive work environment; Additionally, in customer relations, your skill in building emotional connections can enhance customer satisfaction and loyalty.";
-var guclu_yanlarin_en60 =
-  "Your strength of sales and marketing is a powerful asset in the business world, providing a unique blend of effective communication, emotional intelligence, and motivational ability; By harnessing this strength, you can drive engagement, foster strong relationships, and lead your organization towards greater success.";
-var guclu_yanlarin_en61 = "The Strength of “Ambition” (Quantum 32-54)";
-var guclu_yanlarin_en62 =
-  "You possess a relentless drive to achieve your goals and aspirations; This determination propels you forward, even in the face of obstacles and challenges; In the business world, this strength is invaluable in roles that require persistence, resilience, and a strong work ethic, such as entrepreneurship, sales, and leadership.";
-var guclu_yanlarin_en63 =
-  "Goal-Oriented: Your ambition is characterized by a strong focus on setting and achieving goals; You have a clear vision of what you want to accomplish and are willing to put in the necessary effort to make it happen; This goal-oriented approach ensures that you stay on track and maintain momentum towards your objectives.";
-var guclu_yanlarin_en64 =
-  "High Standards: You set high standards for yourself and strive for excellence in everything you do; This commitment to quality and improvement drives you to continually refine your skills and achieve outstanding results; In professional settings, your high standards inspire others to also aim for excellence.";
-var guclu_yanlarin_en65 =
-  "Motivating Others: Your ambitious nature can inspire and motivate those around you; By setting an example of hard work and dedication, you encourage your colleagues and team members to push their limits and strive for success; This ability to motivate others is particularly valuable in leadership roles, where fostering a culture of ambition can lead to significant organizational achievements.";
-var guclu_yanlarin_en66 =
-  "Utilizing Your Strength in Business: Your strength of ambition can be utilized across various domains in the business world; In entrepreneurship, your relentless drive and goal-oriented approach can help you turn ideas into successful ventures; In sales, your persistence and high standards can lead to exceptional performance and client satisfaction; Additionally, in leadership roles, your ability to motivate and inspire your team can drive overall organizational success.";
-var guclu_yanlarin_en67 =
-  "Your strength of ambition is a powerful asset in the business world, providing a unique blend of determination, high standards, and motivational ability; By harnessing this strength, you can achieve your goals, inspire those around you, and lead your organization towards greater success.";
+var guclu_yanlarin_6_59_eng_1 = "The Strength of “Interaction” (6-59)  ";
+var guclu_yanlarin_6_59_eng_2 = "You have the capacity to easily penetrate the defenses of others, allowing you to create deep, meaningful bonds that can become highly supportive and productive. You can quickly and easily connect with others, making you an excellent communicator and networker. This ability to connect on a profound level is invaluable in team settings, client relationships, and leadership roles. By building trust quickly, you can foster strong, collaborative relationships that drive success. Your ease in connecting with people can open doors to new opportunities and partnerships.\n\nFacilitating Creativity By facilitating a sense of coziness and comfort, you pave the way for fertility in any creative endeavor. Your ability to create a welcoming and inclusive atmosphere encourages creative thinking and collaboration. This makes you an asset in brainstorming sessions, project teams, and any environment where innovation is key.\n\nUtilizing Your Strength in Business Your strength of interaction can be utilized across various domains in the business world. In team leadership, your ability to build deep connections fosters a cohesive and motivated team. In client relations, your skill in quickly establishing trust and rapport enhances customer satisfaction and loyalty. Additionally, in creative roles, your talent for facilitating a cozy, inclusive environment can drive innovation and collaboration.\n\nYour strength of logical process is a powerful asset in the business world, providing a unique blend of analytical rigor, critical thinking, and predictive accuracy. By harnessing this strength, you can provide invaluable insights and solutions that drive organizational success, you can drive informed decision-making, ensure operational excellence, and contribute to the strategic success of your organization.";
+
+var guclu_yanlarin_45_21_eng_1 = "The Strength of “Leadership” (45-21)";
+var guclu_yanlarin_45_21_eng_2 = "You have the ability to guide those around you safely into the future. Your leadership style is logical, based on tested and established patterns that can be followed with certainty. In a business setting, this logical leadership style helps you create clear, actionable plans that inspire confidence and trust in your team.\n\nEarning Trust To lead effectively, you must first earn trust. Trust is the foundation of your leadership, enabling you to build strong, cohesive teams. By demonstrating integrity, competence, and a genuine understanding of your team's needs and aspirations, you establish yourself as a trusted leader.\n\nRecognizing Patterns and Trends You must be recognized as someone who grasps present patterns, understands trends, and is in touch with the needs of the people. This ability allows you to stay ahead of the curve, anticipating changes and preparing your team for future challenges. Your keen insight into patterns and trends ensures that your leadership is both proactive and adaptive.\n\nInfluential Voice Your voice carries a quality of influence, and you must be invited by the majority to lead. Being elected to lead by your peers signifies their trust and confidence in your abilities.\n\nLeading Behind the Throne You also have the ability to lead with influence “behind the throne.” This subtle form of leadership allows you to guide and inspire without always being in the spotlight. By influencing decision-makers and shaping strategies from behind the scenes, you can drive significant change and progress.\n\nPointing the Way Forward You are here to point the way forward – not do it yourself – this is key to your success and maintaining a sense of well-being. Your role as a leader is to provide vision and direction, empowering others to take action. This approach not only maximizes your impact but also fosters a sense of ownership and responsibility among your team members.\n\nUtilizing Your Strength in Business Your strength of leadership can be utilized across various domains in the business world. In executive roles, your logical and trustworthy approach can steer your organization towards long-term success. In project management, your ability to recognize patterns and trends ensures that projects are aligned with future demands. Additionally, in advisory roles, your influence behind the throne can guide strategic decisions and foster a culture of continuous improvement.\n\nYour strength of leadership is a powerful asset in the business world, providing a unique blend of logical reasoning, trustworthiness, and influential guidance. By harnessing this strength, you can lead your organization safely into the future, inspire your team, and drive sustainable success. Embracing and developing this strength can lead to a fulfilling and impactful career, making a significant difference in any professional setting.";
+
+var guclu_yanlarin_3_60_eng_1 = "The Strength of “Innovation” (3-60)";
+var guclu_yanlarin_3_60_eng_2 = "This empowers you and those around you with the potential for change and something new. Blind faith is necessary in order to embrace this level of change, as it can happen suddenly and feel like a quantum leap. Your motto for life is “change happens when it’s meant to happen.”\n\nMoving from Chaos to Order Embrace the movement from chaos to order that is the inherent nature of innovation. This process of transformation requires patience and trust in the timing of events. Your ability to navigate and facilitate this transition is crucial in driving innovative projects and initiatives.\n\nCreative and Melancholic Process You are designed to move through a creative and melancholic process, a moodiness that comes and goes. It’s best for you to embrace your moods and simply watch where they take you. Your timing operates through a gut response, which is what will help lead you towards what is truly satisfying.\n\nUtilizing Your Strength in Business Your strength of innovation can be utilized across various domains in the business world. In product development, your ability to bring about significant changes can lead to groundbreaking innovations. In project management, your skill in moving from chaos to order ensures that projects are completed efficiently and creatively. Additionally, in roles that require problem-solving and strategic thinking, your innovative approach can drive the organization towards new and successful directions.\n\nYour strength of innovation is a powerful asset in the business world, providing a unique blend of creativity, resilience, and transformative potential. By harnessing this strength, you can drive significant changes, foster creative environments, and lead your organization towards new and innovative directions.";
+
+var guclu_yanlarin_5_15_eng_1 = "The Strength of “Patterns & Rhythm” (5-15)";
+var guclu_yanlarin_5_15_eng_2 = "This allows you to align with your flow and rhythm, making everything you do feel effortless and natural. This state of harmony allows you to perform at your best without strain, enhancing productivity and creativity in your work. Embracing your natural rhythms can lead to greater job satisfaction and effectiveness.\n\nHolding to Fixed Patterns You have the ability to hold to fixed patterns or routines that serve you. These routines provide structure and stability, enabling you to navigate your tasks with ease and consistency. In a professional setting, this ability helps you establish reliable processes and workflows that enhance efficiency and reduce stress.\n\nEmbracing Diversity in Patterns You also have the ability to identify and embrace the diversity of patterns in those around you, from fixed to extreme. This understanding allows you to work effectively with a variety of colleagues, appreciating their uniqueness. By recognizing and adapting to these differences, you can foster a more cohesive and collaborative work environment.\n\nPersonal Timing and Flow You have your own sense of timing and flow that is determined entirely by your personal inner rhythm. Be sure to not allow anything or anyone to interfere with your flow. Maintaining your rhythm is crucial for sustaining your productivity and well-being. Establishing boundaries and creating a supportive environment that respects your natural patterns can help you stay in your optimal state of performance.\n\nBenefiting Others You can subtly benefit those around you by bringing them into a correct rhythm and timing as well. Your ability to identify and align with the rhythms of others can create a more harmonious and productive team dynamic. By helping colleagues find their flow, you contribute to a more effective and satisfying work environment for everyone.\n\nUtilizing Your Strength in Business Your strength of patterns and rhythm can be utilized across various domains in the business world. In project management, your ability to establish and maintain effective routines can ensure timely and consistent progress. In team leadership, your understanding of diverse patterns can help you manage and motivate a diverse group of individuals. Additionally, in roles that require creative problem-solving, your natural flow can lead to innovative and efficient solutions.\n\nYour strength of patterns and rhythm is a powerful asset in the business world, providing a unique blend of harmony, structure, and adaptability. By harnessing this strength, you can enhance productivity, foster collaboration, and lead your organization towards greater success.";
+
+var guclu_yanlarin_64_47_eng_1 = "The Strength of “Experiential Process” (64-47)";
+var guclu_yanlarin_64_47_eng_2 = "You have the ability to learn and gain insights through direct experience. This hands-on approach allows you to understand complex situations deeply and practically. In the business world, this strength is invaluable in roles that require on-the-ground problem solving and adaptive learning.\n\nUnderstanding Patterns and Processes Your ability to experience and then reflect on those experiences helps you understand patterns and processes effectively. This insight allows you to make informed decisions and improve systems based on real-world feedback. Your experiential learning approach ensures that solutions are grounded in reality and practicality.\n\nAdaptability and Resilience Experiential learning fosters adaptability and resilience. By engaging directly with challenges, you develop the flexibility to adjust and respond to changing circumstances. This adaptability is crucial in dynamic business environments where conditions can shift rapidly.\n\nEffective Communication of Insights You can communicate your insights and experiences effectively to others, helping them understand complex concepts through practical examples. This skill is particularly useful in training and mentorship roles, where conveying practical knowledge can significantly enhance learning and development.\n\nUtilizing Your Strength in Business Your strength of experiential process can be utilized across various domains in the business world. In project management, your ability to adapt and learn from experience ensures that projects are managed effectively, even in unpredictable conditions. In operations, your hands-on approach can improve efficiency and problem-solving capabilities. Additionally, in roles that require training and development, your experiential insights can significantly enhance the learning experience.\n\nYour strength of experiential process is a powerful asset in the business world, providing a unique blend of practical understanding, adaptability, and effective communication. By harnessing this strength, you can drive continuous improvement, foster resilience, and lead your organization towards greater success.";
+
+var guclu_yanlarin_27_50_eng_1 = "The Strength of “Custodianship” (Quantum 27-50)";
+var guclu_yanlarin_27_50_eng_2 = "You have a natural ability to nurture and sustain resources, whether they are people, projects, or physical assets. This caretaking role ensures that everything under your supervision thrives and maintains its value. In the business world, this strength is valuable in roles that require long-term planning and maintenance.\n\nResponsibility and Stewardship: Your sense of responsibility and stewardship drives you to protect and manage resources effectively; You are committed to ensuring that resources are used wisely and preserved for future use; This makes you an excellent candidate for roles that involve sustainability, environmental management, and resource allocation.\n\nCommunity Building: You have the ability to foster strong, supportive communities; By creating environments where people feel valued and cared for, you enhance team cohesion and productivity; This skill is particularly useful in leadership roles, where building a positive organizational culture is essential.\n\nUtilizing Your Strength in Business: Your strength of custodianship can be utilized across various domains in the business world; You may be called to executive roles in large organizations; In facility management, your ability to maintain and improve physical assets ensures long-term operational efficiency; In human resources, your nurturing approach can enhance employee well-being and retention; Additionally, in sustainability roles, your commitment to responsible stewardship can drive organizational efforts to reduce environmental impact and promote sustainability.\n\nYour strength of custodianship is a powerful asset in the business world, providing a unique blend of nurturing care, responsible management, and long-term sustainability; By harnessing this strength, you can ensure the well-being and longevity of resources, foster strong communities, and lead your organization towards sustainable success; Embracing and developing this strength can lead to a fulfilling and impactful career, making a significant difference in any professional setting.";
+
+var guclu_yanlarin_26_44_eng_1 = "The Strength of “Sales and Marketing” (Quantum 26-44)";
+var guclu_yanlarin_26_44_eng_2 = "You have a natural ability to convey and communicate vital information clearly and effectively; This skill is crucial in roles that require constant interaction and information exchange, such as sales, marketing, and customer relations; Your ability to transmit messages accurately ensures that everyone is on the same page and that misunderstandings are minimized.\n\nEmotional Connection: Your strength allows you to connect emotionally with others, making your communication more impactful; By understanding and conveying emotions effectively, you can build strong relationships and foster a sense of trust and empathy; This is particularly valuable in leadership and team-building roles, where emotional intelligence is key.\n\nEnergy and Motivation: As a transmitter, you have the ability to convey energy and motivation to those around you; Your enthusiasm and passion can inspire and energize your team, driving them towards their goals; This ability to motivate others is essential in roles that require leadership and team management.\n\nInfluence and Persuasion: Your communication skills give you a powerful ability to influence and persuade others; Whether you are presenting a new idea, negotiating a deal, or leading a team, your persuasive abilities can help you achieve positive outcomes; This makes you a valuable asset in roles that involve negotiation, sales, and leadership.\n\nUtilizing Your Strength in Business: Your strength of sales and marketing can be utilized across various domains in the business world; In sales and marketing, your ability to communicate effectively and persuasively can drive customer engagement and sales growth; In leadership roles, your capacity to convey energy and motivation can inspire your team and foster a positive work environment; Additionally, in customer relations, your skill in building emotional connections can enhance customer satisfaction and loyalty.\n\nYour strength of sales and marketing is a powerful asset in the business world, providing a unique blend of effective communication, emotional intelligence, and motivational ability; By harnessing this strength, you can drive engagement, foster strong relationships, and lead your organization towards greater success.";
+
+var guclu_yanlarin_32_54_eng_1 = "The Strength of “Ambition” (Quantum 32-54)";
+var guclu_yanlarin_32_54_eng_2 = "You possess a relentless drive to achieve your goals and aspirations; This determination propels you forward, even in the face of obstacles and challenges; In the business world, this strength is invaluable in roles that require persistence, resilience, and a strong work ethic, such as entrepreneurship, sales, and leadership.\n\nGoal-Oriented: Your ambition is characterized by a strong focus on setting and achieving goals; You have a clear vision of what you want to accomplish and are willing to put in the necessary effort to make it happen; This goal-oriented approach ensures that you stay on track and maintain momentum towards your objectives.\n\nHigh Standards: You set high standards for yourself and strive for excellence in everything you do; This commitment to quality and improvement drives you to continually refine your skills and achieve outstanding results; In professional settings, your high standards inspire others to also aim for excellence.\n\nMotivating Others: Your ambitious nature can inspire and motivate those around you; By setting an example of hard work and dedication, you encourage your colleagues and team members to push their limits and strive for success; This ability to motivate others is particularly valuable in leadership roles, where fostering a culture of ambition can lead to significant organizational achievements.\n\nUtilizing Your Strength in Business: Your strength of ambition can be utilized across various domains in the business world; In entrepreneurship, your relentless drive and goal-oriented approach can help you turn ideas into successful ventures; In sales, your persistence and high standards can lead to exceptional performance and client satisfaction; Additionally, in leadership roles, your ability to motivate and inspire your team can drive overall organizational success.\n\nYour strength of ambition is a powerful asset in the business world, providing a unique blend of determination, high standards, and motivational ability; By harnessing this strength, you can achieve your goals, inspire those around you, and lead your organization towards greater success.";
+
+var guclu_yanlarin_19_49_eng_1 = "The Strength of “Resources” (Quantum 19-49)";
+var guclu_yanlarin_19_49_eng_2 = "You possess a natural ability to manage and allocate resources efficiently. This skill ensures that resources are used optimally and that all needs within the organization are met.\n\nEffective Resource Management Your strength in resource management helps to ensure that operations run smoothly and efficiently. By effectively distributing resources, you minimize waste and maximize productivity. This focus on efficiency is crucial in operational roles, where the goal is to streamline processes and improve overall performance.\n\nMeeting Needs You have an innate understanding of how to balance and meet the diverse needs of different stakeholders. This ability allows you to prioritize resource allocation in a way that supports the organization’s goals while addressing individual requirements. In customer service and project management, this skill is essential for maintaining satisfaction and delivering successful outcomes.\n\nAdaptability Your resourcefulness makes you adaptable to changing circumstances. You can quickly assess new situations and reallocate resources as needed to address emerging challenges. This adaptability is particularly valuable in dynamic environments where flexibility and quick thinking are required.\n\nUtilizing Your Strength in Business Your strength of resources can be utilized across various domains in the business world. In operations, your ability to manage resources efficiently can enhance productivity and reduce costs. In finance, your skill in budgeting and resource allocation ensures that funds are used effectively to support business objectives. Additionally, in project management, your understanding of resource needs and priorities can lead to the successful completion of projects.\n\nYour strength of resources is a powerful asset in the business world, providing a unique blend of efficiency, adaptability, and effective management. By harnessing this strength, you can ensure that resources are used optimally, operations run smoothly, and organizational goals are met."
+
+var guclu_yanlarin_37_40_eng_1 = "The Strength of “Community” (Quantum 37-40)";
+var guclu_yanlarin_37_40_eng_2 = "You have a natural ability to build and nurture strong, supportive networks. This skill is invaluable in roles that require teamwork, collaboration, and relationship management. By fostering a sense of community, you create environments where people feel valued and connected.\n\nBuilding Strong Networks Your strength in building community enhances collaboration and cooperation among team members. By creating a sense of belonging and mutual respect, you facilitate effective teamwork and improve overall productivity. This ability is crucial in leadership and project management roles where team cohesion is essential for success.\n\nSupportive Environment You excel at creating supportive environments where individuals can thrive. By understanding and addressing the needs of others, you ensure that everyone has the resources and support they need to succeed. This nurturing approach is particularly valuable in human resources and mentorship roles.\n\nFostering Loyalty Your ability to build strong communities fosters loyalty and commitment among team members and stakeholders. By creating a positive and inclusive culture, you encourage long-term engagement and dedication. This is essential in roles that require maintaining high levels of employee satisfaction and retention.\n\nUtilizing Your Strength in Business Your strength of community can be utilized across various domains in the business world. In team management, your ability to build supportive networks can enhance collaboration and productivity. In human resources, your focus on creating supportive environments can improve employee well-being and retention. Additionally, in customer relations, your skill in building strong relationships can enhance customer loyalty and satisfaction.\n\nYour strength of community is a powerful asset in the business world, providing a unique blend of relationship-building, collaboration, and support. By harnessing this strength, you can create environments where individuals and teams thrive, drive productivity, and foster loyalty."
+
+var guclu_yanlarin_34_57_eng_1 = "The Strength of “Power” (Quantum 34-57)";
+var guclu_yanlarin_34_57_eng_2 = "You have a natural ability to respond swiftly and decisively to challenges, which is a crucial skill in high-pressure business environments. Your intuition and body consciousness work together to guide you in making clear, quick decisions that are essential for leading teams and driving projects forward.\n\nOperational Efficiency You have a natural drive to keep things running smoothly, which may be valuable in operations management. You can swiftly identify issues and take immediate action to resolve them, ensuring that processes and systems are optimized and operational delays are minimized.\n\nCrisis Management Your acute sense of awareness allows you to remain composed and take action in crisis situations. This makes you a strong candidate for roles involving risk management, where timely responses to unpredictable circumstances are essential.\n\nProject Leadership In project management roles, your strength in power ensures that projects move forward efficiently. You can cut through distractions, make tough calls, and keep your team focused on the goal. This helps ensure deadlines are met, and results are delivered effectively.\n\nUtilizing Your Strength in Business Your strength of power can be leveraged to deliver significant impact. Your quick action capability is a key asset in fast-moving industries or environments where quick and clear responses are vital for success. By relying on your intuitive clarity and your ability to take fast action, you can drive major projects to completion, lead teams to victory, and keep the organization agile in the face of competition.\n\nYour strength of power is a powerful asset in the business world. Your ability to stay grounded and respond to each moment also makes you an excellent role model for inspiring others to act with confidence and purpose. As a result, you can motivate those around you to be more efficient, focused, and goal-oriented, creating a positive ripple effect across your team or organization.\n\n"
+
+var guclu_yanlarin_34_20_eng_1 = "The Strength of “Charisma” (Quantum 34-20)";
+var guclu_yanlarin_34_20_eng_2 = "You have a natural ability to captivate and influence those around you with your magnetic presence. This charisma draws people to you, making it easier to build strong relationships and gain support for your ideas. In the business world, this strength is invaluable in roles that require persuasion, networking, and leadership.\n\nInfluence and Persuasion Your charismatic nature allows you to influence and persuade others effectively. Whether you are leading a team, negotiating a deal, or presenting a new idea, your ability to connect with people and gain their trust is crucial. This makes you a valuable asset in sales, marketing, and executive leadership roles.\n\nBuilding Strong Relationships Charisma helps you build strong, lasting relationships with colleagues, clients, and stakeholders. By making others feel valued and understood, you create a positive and inclusive environment that fosters collaboration and loyalty. This relationship-building skill is essential in customer relations and team management.\n\nInspiring Others Your charisma can inspire and motivate those around you. By setting a positive example and demonstrating enthusiasm and confidence, you encourage others to strive for excellence and achieve their goals. This inspirational ability is particularly valuable in leadership roles, where motivating a team is key to success.\n\nUtilizing Your Strength in Business Your strength of charisma can be utilized across various domains in the business world. In sales and marketing, your persuasive abilities can drive customer engagement and sales growth. In leadership roles, your ability to inspire and motivate can lead to higher team performance and morale. Additionally, in networking and business development, your magnetic presence can open doors and create new opportunities.\n\nYour strength of charisma is a powerful asset in the business world, providing a unique blend of influence, relationship-building, and inspiration. By harnessing this strength, you can build strong networks, drive engagement, and lead your organization towards greater success."
+
+var guclu_yanlarin_51_25_eng_1 = "The Strength of “Competitiveness” (Quantum 51-25)";
+var guclu_yanlarin_51_25_eng_2 = "You possess a strong drive to excel and outperform others. This competitive spirit pushes you to continually strive for better performance and higher standards. In the business world, this strength is invaluable in roles that require high achievement and a focus on results, such as sales, marketing, and executive leadership.\n\nPursuit of Excellence Your competitiveness translates into a relentless pursuit of excellence. You set ambitious goals and are determined to achieve them, often pushing beyond conventional limits. This drive ensures that you and your team are always aiming for top-tier performance and continuous improvement.\n\nResilience and Determination Competitiveness fosters resilience and determination. You thrive in challenging environments and are not easily discouraged by setbacks. This resilience is crucial in roles that involve high stakes and constant pressure, enabling you to maintain focus and drive even in tough situations.\n\nInspiring Others Your competitive nature can inspire and motivate those around you. By setting high standards and demonstrating a commitment to excellence, you encourage your colleagues and team members to elevate their performance. This ability to inspire others is particularly valuable in leadership roles, where fostering a culture of high performance is key.\n\nUtilizing Your Strength in Business Your strength of competitiveness can be utilized across various domains in the business world. In sales and marketing, your drive to excel can lead to exceptional performance and market success. In leadership roles, your pursuit of excellence can set the tone for your organization, driving overall success. Additionally, in project management, your resilience and determination ensure that projects are completed successfully, even in the face of challenges.\n\nYour strength of competitiveness is a powerful asset in the business world, providing a unique blend of drive, resilience, and inspiration. By harnessing this strength, you can achieve high levels of performance, inspire your team, and lead your organization towards greater success.";
+
+var guclu_yanlarin_1_8_eng_1 = "The Strength of “Inspiration” (Quantum 1-8)";
+var guclu_yanlarin_1_8_eng_2 = "You have a unique ability to creatively express different perspectives. This can manifest through your presence or through various mediums that others can experience and appreciate. In the business world, this quality is invaluable for roles that require innovation, sales, marketing, and creative leadership.\n\nModeling Creative Self-Expression You are designed to model what it means to be a self-expressed, creative individual. This strength naturally attracts attention and admiration, making you a role model for creative empowerment. This is crucial in roles involving mentorship, team leadership, and creative direction.\n\nCourage to Stand Out It takes courage to stand out from the crowd, and your ability to do so inspires others to be equally bold. Your willingness to be different and take risks can drive innovation and encourage a culture of creativity within your organization. This courage is especially valuable in entrepreneurial ventures, product development, and strategic planning.\n\nChanging Perceptions Living authentically and creatively has the potential to change perceptions and free others to express their own uniqueness. Your influence can lead to a more inclusive and dynamic workplace where diverse ideas are valued and explored. This ability is vital in roles involving diversity and inclusion initiatives, public relations, and organizational development.\n\nYour strength of inspiration is a powerful asset in the business world, offering a blend of creative expression, courage, and influence. By harnessing this strength, you can drive innovation, inspire your team, and lead your organization towards greater success.\n\n";
+
+var guclu_yanlarin_38_28_eng_1 = "The Strength of “Tenaciousness” (Quantum 38-28)";
+var guclu_yanlarin_38_28_eng_2 = "You possess an unwavering determination that enables you to push through obstacles and stay focused on your goals. This tenacity is invaluable in roles that require resilience and persistence, such as project management, sales, and entrepreneurial ventures.\n\nOvercoming Challenges Your tenacious nature allows you to face and overcome significant challenges. You are not easily discouraged by setbacks and view them as opportunities to learn and grow. This strength is crucial in high-stakes environments where overcoming adversity is key to success.\n\nConsistent Effort Tenaciousness drives you to put in consistent effort towards your objectives. You are committed to your work and are willing to go the extra mile to achieve your goals. This level of dedication is essential in roles that require long-term commitment and sustained effort, such as research and development, strategic planning, and operations management.\n\nInspiring Others Your perseverance and determination can inspire and motivate those around you. By setting an example of unwavering commitment and hard work, you encourage your colleagues and team members to adopt a similar mindset. This ability to inspire is particularly valuable in leadership and mentorship roles.\n\nYour strength of tenaciousness is a powerful asset in the business world, providing a unique blend of determination, resilience, and inspiration. By harnessing this strength, you can overcome challenges, achieve your goals, and inspire your team to do the same."
+
 
 // Kişilik Özelliklerin
-
-var kslk_ozl_chart = "";
-
 var kslk_ozl_realistic_your_profile = "Gerçekçi";
 var kslk_ozl_realistic_your_profile_ = "Pratik, uygulamalı problemler ve çözümler içeren iş aktivitelerinin tadını çıkarabilirsin. Bitkiler, hayvanlar ve ahşap, aletler ve makineler gibi gerçek dünya malzemeleriyle uğraşmayı sevebilirsin. Dışarıda çalışmaktan hoşlanabilirsin.";
 var kslk_ozl_realistic_your_interests_1 = "Gerçekçi insanlar pratik, kendine güvenen ve mekanik işlere daha eğilimlidir. Gelenekseldirler ve görebildikleri ve dokunabildikleri şeylere değer verirler. Gerçekçi bireyler genellikle aletlerle çalışmak, makineleri çalıştırmak veya tarım ve hayvacılık için iyi gelişmiş becerilere sahiptir.";
 var kslk_ozl_realistic_your_interests_2 = "Açık havada gerçekleşen ve fiziksel aktivite içeren işlerden hoşlanırlar. Somut problem çözmeyi içeren uygulamalı etkinliklerden hoşlandıkları için, insanlarla, soyut fikirlerle ve çok fazla veriyle uğraşmaktan kaçınmayı tercih ederler. Bir sorunla karşılaştıklarında sözel ya da kişilerarası çözümler yerine eylem odaklı çözümler üretirler.";
 var kslk_ozl_realistic_your_work_areas = "Marangozlar, elektrikçiler, tamirciler, tesisatçılar; tarım ve ormancılık; askeriye.";
 var kslk_ozl_realistic_you_may_not_like = "Topluluk önünde konuşma, sosyal etkinlikler, kültürel ve estetik faaliyetler, anlaşmazlıklarda arabuluculuk, yakın kişilerarası ilişkiler içeren çalışmalar.";
-var kslk_ozl_12_25_realistic_questions_1 = "Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
-var kslk_ozl_12_25_realistic_questions_2 = "Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
-var kslk_ozl_12_25_realistic_questions_3 = "Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
+var kslk_ozl_12_25_realistic_questions_1 = "• Ellerimle bir şeyler yaptığımda (örneğin, bir proje hazırlarken ya da bir deney yaparken) kendimi nasıl hissediyorum? Bu yeteneğimi derslerde daha etkili kullanabilir miyim?";
+var kslk_ozl_12_25_realistic_questions_2 = "• Pratik çözümler bulduğumda işlerimi daha kolay ve hızlı halledebiliyor muyum? Bu becerimi grup çalışmalarında nasıl öne çıkarabilirim?";
+var kslk_ozl_12_25_realistic_questions_3 = "• Fiziksel aktiviteler yaptığımda veya açık havada çalıştığımda daha motive olduğumu fark ediyor muyum? Bu motivasyonu okul projelerine nasıl yansıtabilirim?";
 var kslk_ozl_25_plus_realistic_questions_1 = "• Sorunları hızlı ve etkili bir şekilde çözmek, iş verimliliğimi nasıl etkiliyor? Bu yaklaşımı günlük iş akışımda daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_realistic_questions_2 = "• Açık hava veya fiziksel hareket gerektiren bir iş yaptığımda motivasyonumda bir artış oluyor mu? Bu motivasyonu işimde daha çok nasıl artırabilirim?";
 var kslk_ozl_25_plus_realistic_questions_3 = "• İşimde ellerimle bir şeyler ürettiğimde veya somut sonuçlar aldığımda kendimi nasıl hissediyorum? Bu pratik beceriyi iş projelerimde daha iyi nasıl kullanabilirim?";
@@ -2049,9 +2064,9 @@ var kslk_ozl_researcher_your_interests_1 = "Araştırmacı insanlar meraklı, an
 var kslk_ozl_researcher_your_interests_2 = "Tercih ettikleri okuma materyali bilimsel veya teknik dergileri içerir. Ayrıca yalnız çalışmaktan hoşlanabilirler. İnsanlar yerine veri ve fikirlerle çalışmayı tercih edebilirler. Sonuç olarak, liderlik, satış ya da başkalarını ikna gerektiren işlerden kaçınma eğilimindedirler.";
 var kslk_ozl_researcher_your_work_areas = "Biyoloji, kimya, fizik, bilgisayar programlama, bilgisayar mühendisliği, tıp, farmakoloji, psikoloji, veterinerlik bilimi, teknik yazı.";
 var kslk_ozl_researcher_you_may_not_like = "Satış, başkalarını ikna etme, insanları yönlendirme.";
-var kslk_ozl_12_25_researcher_questions_1 = "Zor sorularla karşılaştığımda nasıl bir çözüm yolu buluyorum? Bu problem çözme becerimi derslerde daha sık nasıl kullanabilirim?";
-var kslk_ozl_12_25_researcher_questions_2 = "Yeni şeyler öğrenmek ve araştırmak beni nasıl motive ediyor? Araştırmalarımı projelerde veya ödevlerde nasıl daha etkili kullanabilirim?";
-var kslk_ozl_12_25_researcher_questions_3 = "Zihinsel olarak zorlandığım bir konuda ne kadar derine inip öğrenmeyi seviyorum? Bu merakımı okulda hangi alanlarda daha fazla geliştirebilirim?";
+var kslk_ozl_12_25_researcher_questions_1 = "• Zor sorularla karşılaştığımda nasıl bir çözüm yolu buluyorum? Bu problem çözme becerimi derslerde daha sık nasıl kullanabilirim?";
+var kslk_ozl_12_25_researcher_questions_2 = "• Yeni şeyler öğrenmek ve araştırmak beni nasıl motive ediyor? Araştırmalarımı projelerde veya ödevlerde nasıl daha etkili kullanabilirim?";
+var kslk_ozl_12_25_researcher_questions_3 = "• Zihinsel olarak zorlandığım bir konuda ne kadar derine inip öğrenmeyi seviyorum? Bu merakımı okulda hangi alanlarda daha fazla geliştirebilirim?";
 var kslk_ozl_25_plus_researcher_questions_1 = "• Zorlu problemlerle karşılaştığımda, hangi çözüm yollarını kullanıyorum? Bu analitik düşünme becerimi iş yerinde daha sık nasıl uygulayabilirim?";
 var kslk_ozl_25_plus_researcher_questions_2 = "• Detaylı araştırmalar yaptığımda işimde nasıl bir fark yaratıyorum? Bu merak duygusunu işimde daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_researcher_questions_3 = "• Karmaşık bir sorunu çözmek için derinlemesine düşündüğümde hangi yeteneklerimi geliştiriyorum? Bu problem çözme becerilerimi işimde daha çok nasıl öne çıkarabilirim?";
@@ -2062,9 +2077,9 @@ var kslk_ozl_artistic_your_interests_1 = "Sanatsal insanlar yaratıcı ve yarat�
 var kslk_ozl_artistic_your_interests_2 = "Yeni fikirler geliştirmek için sezgilerini ve özgünlüklerini kullanmayı severler. Bu şekilde Araştırmacı insanlara benzerler. Bununla birlikte, bilimsel olanlardan çok kültürel-estetik arayışlarla ilgilenirler. Sanatsal insanlar, çeşitliliğin ve değişimin olduğu ortamlarda en fazla tatmini bulurlar. Yüksek düzeyde yapılandırılmış veya tekrarlayan iş faaliyetlerinden hoşlanmazlar. Verilerden veya somut şeylerden çok fikirlerle ve insanlarla ilgilenirler.";
 var kslk_ozl_artistic_your_work_areas = "Müzisyenler, sanatçılar, grafik sanatçıları, reklam, tasarım, yazarlar/editörler, yaratıcılık gerektiren tüm alanlar.";
 var kslk_ozl_artistic_you_may_not_like = "Tekrarlayan, yapılandırılmış görevler; çeşitlilik eksikliği; bilgi işleme; sayılarla çalışma.";
-var kslk_ozl_12_25_artistic_questions_1 = "Kendimi resim yaparak, yazı yazarak ya da başka yaratıcı yollarla ifade ettiğimde en çok hangi anlarda kendimi özgür hissediyorum? Bu yaratıcılığı ödevlerime nasıl ekleyebilirim?";
-var kslk_ozl_12_25_artistic_questions_2 = "Farklı fikirler bulduğumda arkadaşlarım ve öğretmenlerim nasıl tepkiler veriyor? Yaratıcı düşüncelerimi projelerde daha fazla nasıl gösterebilirim?";
-var kslk_ozl_12_25_artistic_questions_3 = "Sıkıcı bulduğum görevlerde yaratıcı bir dokunuş eklediğimde nasıl bir fark yaratıyorum? Yaratıcılığı günlük okul işlerine nasıl daha çok katabilirim?";
+var kslk_ozl_12_25_artistic_questions_1 = "• Kendimi resim yaparak, yazı yazarak ya da başka yaratıcı yollarla ifade ettiğimde en çok hangi anlarda kendimi özgür hissediyorum? Bu yaratıcılığı ödevlerime nasıl ekleyebilirim?";
+var kslk_ozl_12_25_artistic_questions_2 = "• Farklı fikirler bulduğumda arkadaşlarım ve öğretmenlerim nasıl tepkiler veriyor? Yaratıcı düşüncelerimi projelerde daha fazla nasıl gösterebilirim?";
+var kslk_ozl_12_25_artistic_questions_3 = "• Sıkıcı bulduğum görevlerde yaratıcı bir dokunuş eklediğimde nasıl bir fark yaratıyorum? Yaratıcılığı günlük okul işlerine nasıl daha çok katabilirim?";
 var kslk_ozl_25_plus_artistic_questions_1 = "• Yaratıcı bir çözüm ürettiğimde ya da özgün bir fikir sunduğumda iş yerinde nasıl geri bildirimler alıyorum? Bu yaratıcı bakış açısını projelerime daha fazla nasıl katabilirim?";
 var kslk_ozl_25_plus_artistic_questions_2 = "• Rutin işler monotonlaştığında, işime daha yaratıcı bir dokunuş katmak performansımı nasıl etkiliyor? Yaratıcı düşünme tarzımı günlük görevlerde nasıl daha çok kullanabilirim?";
 var kslk_ozl_25_plus_artistic_questions_3 = "• Yeni ve alışılmadık fikirler ürettiğimde, bu fikirlerin iş yerindeki katkılarını nasıl gözlemliyorum? Bu yaratıcı süreçleri projelerime nasıl daha sık entegre edebilirim?";
@@ -2075,9 +2090,9 @@ var kslk_ozl_social_your_interests_1 = "Sosyal insanlar arkadaş canlısı, dı�
 var kslk_ozl_social_your_interests_2 = "Kişilerarası sorunların üstesinden gelmekten ve anlaşmazlıklarda arabuluculuk yapmaktan hoşlanabilirler. Makine veya alet kullanmaktan kaçınmaya eğilimlidirler.Kapsamlı entelektüel veya fiziksel çalışmalardan hoşlanmayabilirler.";
 var kslk_ozl_social_your_work_areas = "Hemşirelik, Danışmanlık, Öğretim, Din";
 var kslk_ozl_social_you_may_not_like = "Fiziksel çalışma; veri ve somut şeylerle uğraşmak; İnşa ve Onarım";
-var kslk_ozl_12_25_social_questions_1 = "Bir arkadaşımın problemini çözmesine yardım ettiğimde kendimi nasıl hissediyorum? Bu yardımlaşma yeteneğimi okul etkinliklerinde nasıl daha etkili kullanabilirim? ";
-var kslk_ozl_12_25_social_questions_2 = "Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
-var kslk_ozl_12_25_social_questions_3 = "Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
+var kslk_ozl_12_25_social_questions_1 = "• Bir arkadaşımın problemini çözmesine yardım ettiğimde kendimi nasıl hissediyorum? Bu yardımlaşma yeteneğimi okul etkinliklerinde nasıl daha etkili kullanabilirim? ";
+var kslk_ozl_12_25_social_questions_2 = "• Grup çalışmasında arkadaşlarımı motive ettiğimde işler nasıl ilerliyor? Bu motivasyon gücümü okul projelerinde daha fazla nasıl kullanabilirim?";
+var kslk_ozl_12_25_social_questions_3 = "• Başkalarının neye ihtiyacı olduğunu anlamak, benim okul hayatımda nasıl avantajlar sağlıyor? Bu empatiyi daha çok nasıl geliştirebilirim?";
 var kslk_ozl_25_plus_social_questions_1 = "• İş arkadaşlarıma yardım ettiğimde ya da onlara rehberlik ettiğimde, hangi becerilerim öne çıkıyor? Bu yardımseverliği iş hayatımda daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_social_questions_2 = "• Başkalarının ihtiyaçlarını anlamak ve uygun çözümler sunmak, işimde bana nasıl katkılar sağlıyor? Bu empatiyi iş yerinde daha da güçlendirmek için neler yapabtraditional";
 var kslk_ozl_25_plus_social_questions_3 = "• Ekip çalışmalarında başkalarını motive ettiğimde, işlerin ilerleyişini nasıl etkiliyorum? Bu yeteneğimi daha fazla projeye nasıl yansıtabilirim? ";
@@ -2088,9 +2103,9 @@ var kslk_ozl_entrepreneur_your_interests_1 = "Girişimci insanlar ticari faaliye
 var kslk_ozl_entrepreneur_your_interests_2 = "Ayrıca statü ve prestije değer verirler ve bu arzuları karşılayabilecek meslekler ararlar. Girişimci insanlar aynı zamanda rekabetçidir ve risk almaya isteklidir. Sonuç olarak, girişimci bir yapıya sahiptirler ve projeler başlatmayı ve başkalarını gemiye atlamaya ikna etmeyi severler. Girişimci bireyler, somut şeyler ve fikirler yerine, insanlarla ve verilerle çalışmaktan hoşlanırlar.";
 var kslk_ozl_entrepreneur_your_work_areas = "İşletme yönetimi, satış, politika, küçük işletme sahibi, emlak";
 var kslk_ozl_entrepreneur_you_may_not_like = "Yalnız çalışmak, entelektüel uğraşlara odaklanmak, karmaşık hesaplamalar yapmak, bilimsel ve matematiksel faaliyetler yapmak.";
-var kslk_ozl_12_25_entrepreneur_questions_1 = "Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
-var kslk_ozl_12_25_entrepreneur_questions_2 = "İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
-var kslk_ozl_12_25_entrepreneur_questions_3 = "Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
+var kslk_ozl_12_25_entrepreneur_questions_1 = "• Bir grup çalışmasında liderlik yapıp yönlendirdiğimde kendimi nasıl hissediyorum? Bu liderlik becerimi okulda hangi projelerde daha çok kullanabilirim?";
+var kslk_ozl_12_25_entrepreneur_questions_2 = "• İnsanları ikna ettiğimde ve onları harekete geçirdiğimde neler başarıyorum? Bu ikna yeteneğimi okul aktivitelerinde daha sık nasıl kullanabilirim?";
+var kslk_ozl_12_25_entrepreneur_questions_3 = "• Zor bir karar aldığımda, bu kararın sonuçları beni nasıl etkiliyor? Okulda risk almayı daha iyi nasıl yönetebilirim?";
 var kslk_ozl_25_plus_entrepreneur_questions_1 = "• İnsanları motive edip yönlendirdiğimde projelerdeki ilerleme nasıl oluyor? Bu motivasyon becerilerimi iş yerinde daha etkili kullanmak için hangi yolları deneyebilirim? ";
 var kslk_ozl_25_plus_entrepreneur_questions_2 = "• İşimde risk almayı gerektiren durumlarda, hangi stratejileri kullanıyorum ve sonuçları nasıl değerlendiriyorum? Risk yönetimimi daha da geliştirmek için neler yapabilirim? ";
 var kslk_ozl_25_plus_entrepreneur_questions_3 = "• Karar alma süreçlerinde liderlik ettiğimde nasıl bir sonuç elde ediyorum? Bu liderlik becerimi iş yerimde hangi alanlarda daha çok kullanabilirim? ";
@@ -2101,12 +2116,28 @@ var kslk_ozl_traditional_your_interests_1 = "Geleneksel insanlar metodik, vicdan
 var kslk_ozl_traditional_your_interests_2 = "Geleneksel insanlar kendileri için yüksek standartlara sahiptir, doğrudur ve ayrıntılara çok dikkat eder. Geleneksel bireyler, insanlardan ziyade verilerle ve şeylerle ilgilenir. Sonuç olarak, bir işletmenin muhasebe, kayıt tutma ve veri işleme gibi kağıt ve bilgisayar tabanlı yönleriyle çalışmayı tercih ederler.";
 var kslk_ozl_traditional_your_work_areas = "Muhasebe, Bankacılık ve Finans, Büro / Sekreterlik, İşletme, Sigorta - Eksper / Sigortacı";
 var kslk_ozl_traditional_you_may_not_like = "Belirsiz, yapılandırılmamış faaliyetler; kişilerarası sorunlarla başa çıkmak; çizim, resim, yaratıcı yazarlık, fotoğrafçılık; İçeren faaliyetler Kendini ifade etme";
-var kslk_ozl_12_25_traditional_questions_1 = "Ders çalışırken veya ödev yaparken kendimi ne kadar düzenli hissediyorum? Bu düzenli çalışma alışkanlığını sınav dönemlerinde nasıl daha iyi kullanabilirim?";
-var kslk_ozl_12_25_traditional_questions_2 = "Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
-var kslk_ozl_12_25_traditional_questions_3 = "Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
+var kslk_ozl_12_25_traditional_questions_1 = "• Ders çalışırken veya ödev yaparken kendimi ne kadar düzenli hissediyorum? Bu düzenli çalışma alışkanlığını sınav dönemlerinde nasıl daha iyi kullanabilirim?";
+var kslk_ozl_12_25_traditional_questions_2 = "• Detaylara dikkat ettiğimde işlerimi daha iyi mi yapıyorum? Bu dikkatimi projelerde ve ödevlerde nasıl daha çok kullanabilirim?";
+var kslk_ozl_12_25_traditional_questions_3 = "• Planlı olduğumda zamanımı daha iyi yönetebiliyor muyum? Bu planlama becerisini okul hayatımda daha fazla nasıl kullanabilirim?";
 var kslk_ozl_25_plus_traditional_questions_1 = "• Düzenli ve sistematik bir şekilde çalıştığımda işlerimi ne kadar daha verimli yapıyorum? Bu düzenli çalışma alışkanlığımı daha büyük projelere nasıl yayabilirim? ";
 var kslk_ozl_25_plus_traditional_questions_2 = "• Planlı ve organize olduğumda iş yerindeki zamanımı nasıl daha iyi yönetiyorum? Bu planlama becerisini iş hayatımda nasıl daha geniş çapta uygulayabilirim? ";
 var kslk_ozl_25_plus_traditional_questions_3 = "• Detaylara gösterdiğim özen, iş yerimde hangi farkları yaratıyor? Bu dikkatimi projelerimde daha etkili nasıl kullanabilirim? ";
+
+//Kişilik Özelliklerin İngilizce
+var kslk_ozl_realistic_eng_your_profile = "Realistic"
+var kslk_ozl_realistic_eng_your_profile_ = "Enjoy work activities that include practical, hands-on problems and solutions. You may like dealing with plants, animals, and real-world materials, like wood, tools, and machinery. You may enjoy outside work.";
+var kslk_ozl_realistic_eng_your_interests_1 = "Realistic people are practical, self-reliant, and mechanically inclined. They tend to be traditional and value things they can see and touch. Realistic individuals usually have well developed skills for working with tools, operating machines or raising animals. They enjoy work that happens outdoors and involves physical activity.";
+var kslk_ozl_realistic_eng_your_interests_2 = "They also like adventurous activities such as riding roller coasters or sky diving. Since they enjoy hands-on activities that involve concrete problem solving, they would rather avoid dealing with people, abstract ideas and lots of data. When faced with a problem, they come up with action oriented solutions instead of verbal or interpersonal ones.";
+var kslk_ozl_realistic_eng_your_work_areas = "trades people – carpenters, electricians, mechanics, plumbers; agriculture and forestry; engineering; military";
+var kslk_ozl_artistic_eng_you_may_not_like = "public speaking, social events, cultural and aesthetic activities, mediating disputes, work that involves close interpersonal relationships";
+var kslk_ozl_12_25_realistic_eng_questions_1 = "• How do I feel when I work with my hands (e.g., when preparing a project or conducting an experiment)? Can I use this skill more effectively in class?";
+var kslk_ozl_12_25_realistic_eng_questions_2 = "• Do I finish tasks more quickly and easily when I find practical solutions? How can I highlight this ability during group work?";
+var kslk_ozl_12_25_realistic_eng_questions_3 = "• Do I notice that I feel more motivated when doing physical activities or working outdoors? How can I bring this motivation into school projects?";
+var kslk_ozl_25_plus_realistic_eng_questions_1 = "• How do I feel when I produce something with my hands or achieve tangible results at work? How can I better utilize this practical skill in my work projects?";
+var kslk_ozl_25_plus_realistic_eng_questions_2 = "• How does solving problems quickly and effectively impact my work efficiency? How can I incorporate this approach more into my daily workflow?";
+var kslk_ozl_25_plus_realistic_eng_questions_3 = "• Do I experience increased motivation when working outdoors or engaging in physical activities? How can I boost this motivation more in my work?";
+
+
 
 // İş Yaşamında Rolün
 var is_y_r_1_s2_0 = "Otorite/Öncü";
@@ -2267,8 +2298,24 @@ var is_y_r_image_2_4 = "https://appwrite.anahtarsensin.com/v1/storage/buckets/67
 var is_y_r_image_5_1 = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322d20033d27b4f32/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var is_y_r_image_6_3 = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/673322ea0023c9901d57/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 
+//İş Yaşamında Rolün İngilizce
+var is_y_r_eng_1_s2_0 = "Otorite/Öncü";
+var is_y_r_eng_1_s2_1 = "The Expert Explorer";
+var is_y_r_eng_1_s2_1_1 = "Your life is a journey of discovery and digging deep on things that interest you where you continuously learn through experience. You naturally develop expertise by exploring what works and what doesn’t through trial and error. This hands-on approach makes you uniquely qualified to become an authority in your chosen field. Whether you’re just starting out or are well-established in your career, you’re driven by a desire to understand the details, build a strong foundation, and master your craft through real-world experience.";
+var is_y_r_eng_1_s2_2 = "Strengths in Business and Career";
+var is_y_r_eng_1_s2_2_1 = "Your greatest strength lies in your ability to investigate and experiment until you find solutions that work. In any job or career, you approach problems with curiosity and persistence, always eager to dig deeper and discover the best way forward. This ability to navigate challenges and learn from mistakes sets you apart, making you someone others turn to for advice and insights. Over time, you develop a deep understanding of your field, which positions you as an authority or expert, regardless of your age or experience level.";
+var is_y_r_eng_1_s2_3 = "Strengths in Business and Career";
+var is_y_r_eng_1_s2_3_1 = "Your greatest strength lies in your ability to investigate and experiment until you find solutions that work. In any job or career, you approach problems with curiosity and persistence, always eager to dig deeper and discover the best way forward. This ability to navigate challenges and learn from mistakes sets you apart, making you someone others turn to for advice and insights. Over time, you develop a deep understanding of your field, which positions you as an authority or expert, regardless of your age or experience level.";
+var is_y_r_eng_1_s3_1 = "Opportunities and Challenges";
+var is_y_r_eng_1_s3_1_1 = "Your opportunities come from your willingness to face challenges head-on. You thrive in situations where you can explore, test, and refine new ideas or processes. There may be times when you feel insecure, especially if you don’t yet have a solid foundation to stand on. Recognize that this feeling is part of your growth process—your role is to build that foundation through experience. Over time, these challenges will become the steppingstones to your expertise.";
+var is_y_r_eng_1_s3_2 = "Fulfilling Your Life Purpose";
+var is_y_r_eng_1_s3_2_1 = "Your Role is about using your experience to build a life and career that aligns with your strengths. As you navigate the ups and downs of your journey, you’ll continue to develop mastery in your field. By sharing what you’ve learned and standing firm in your understanding, you’ll naturally fulfill your life purpose by contributing valuable insights to others. Whether you’re just starting out or well into your career, embracing your Role will lead to greater confidence, satisfaction, and success.";
+
+
+
+
 // Karakter Özellikleri
-var krktr_ozl_openness_to_experience = "Deneyime Açıklık"; //bold
+var krktr_ozl_openness_to_experience = "Deneyime Açıklık"; 
 var krktr_ozl_openness_to_experience_s1 = "Açıklık (deneyime açıklık olarak da bilinir), beş kişilik özelliği arasında en çok hayal gücü ve sezgiyi vurgular. Açıklık düzeyi yüksek olan kişiler genellikle geniş bir ilgi alanına sahiptir. Dünyaya ve diğer insanlara karşı meraklıdırlar, yeni şeyler öğrenmeye ve yeni deneyimlerden keyif almaya isteklidirler.\n\nBu kişilik özelliği yüksek olan insanlar, genellikle daha maceraperest ve yaratıcı olma eğilimindedir. Buna karşılık, bu özelliği düşük olan insanlar daha geleneksel olabilir ve soyut düşünmede zorlanabilirler.";
 var krktr_ozl_strenghts_openness_to_experience_s2_1 = "Deneyime açıklık, yaratıcılığı, esnekliği ve yeni fikirleri benimseme yeteneğini yansıtır. Bu özellik, sanat ve inovasyon alanlarında başarı getirebilir.";
 var krktr_ozl_weaknesses_openness_to_experience_s2_1 = "Deneyime aşırı açık olmak, bazen odak kaybına veya sabit bir kariyer hedefine sahip olmama isteğine neden olabilir.";
@@ -2276,11 +2323,11 @@ var krktr_ozl_other_attributes_openness_to_experience_s2 = "Meraklı,\nyaratıc�
 var krktr_ozl_12_25_openness_to_experience_questions_1 = "Yeni şeyler öğrendiğimde veya farklı bakış açıları keşfettiğimde kendimi nasıl hissediyorum? Bu merakımı okul projelerinde nasıl daha iyi kullanabilirim?";
 var krktr_ozl_12_25_openness_to_experience_questions_2 = "Farklı konularla ilgili araştırmalar yaparken hangi alanlarda en çok ilham alıyorum? Bu ilhamı derslerimde nasıl daha yaratıcı hale getirebilirim?";
 var krktr_ozl_12_25_openness_to_experience_questions_3 = "Alışılmadık bir düşünce tarzı geliştirdiğimde, bu yaklaşım okul performansımı nasıl etkiliyor? Yaratıcı düşünme becerilerimi hangi projelerde daha çok gösterebilirim?";
-var krktr_ozl_40_plus_openness_to_experience_questions_1 = "• İşimde yeni fikirler ve farklı bakış açıları keşfettiğimde nasıl hissediyorum? Bu merak ve yaratıcılığı projelerimde nasıl daha etkili kullanabilirim?";
-var krktr_ozl_40_plus_openness_to_experience_questions_2 = "• Farklı sorunları çözmek için alışılmadık yöntemler denediğimde hangi sonuçları alıyorum? Bu yenilikçi yaklaşımları işimde daha fazla nasıl uygulayabilirim?";
-var krktr_ozl_40_plus_openness_to_experience_questions_3 = "• Çalışmalarımda yeniliğe açık olduğumda motivasyonum nasıl değişiyor? Yaratıcı düşünme tarzımı iş hayatımda daha geniş alanlara nasıl yayabilirim?";
+var krktr_ozl_25_plus_openness_to_experience_questions_1 = "• İşimde yeni fikirler ve farklı bakış açıları keşfettiğimde nasıl hissediyorum? Bu merak ve yaratıcılığı projelerimde nasıl daha etkili kullanabilirim?";
+var krktr_ozl_25_plus_openness_to_experience_questions_2 = "• Farklı sorunları çözmek için alışılmadık yöntemler denediğimde hangi sonuçları alıyorum? Bu yenilikçi yaklaşımları işimde daha fazla nasıl uygulayabilirim?";
+var krktr_ozl_25_plus_openness_to_experience_questions_3 = "• Çalışmalarımda yeniliğe açık olduğumda motivasyonum nasıl değişiyor? Yaratıcı düşünme tarzımı iş hayatımda daha geniş alanlara nasıl yayabilirim?";
 
-var krktr_ozl_self_discipline = "Öz Disiplin"; //bold
+var krktr_ozl_self_discipline = "Öz Disiplin"; 
 var krktr_ozl_character_elements_self_discipline_s1 = "Her bir kişilik özelliği arasında, öz disiplin; yüksek seviyede düşüncelilik, iyi dürtü kontrolü ve hedef odaklı davranışlarla tanımlanır. Öz Disiplin duygusu yüksek olan kişiler genellikle düzenli ve ayrıntılara dikkat eden bireylerdir. Önceden plan yapar, davranışlarının başkalarını nasıl etkilediğini düşünür ve son teslim tarihlerine özen gösterirler.\n\nBu temel kişilik özelliğinden düşük puan alan bir kişi ise daha az yapısal ve daha düzensiz olabilir. İşleri son ana bırakabilir ve bazen teslim tarihlerini tamamen kaçırabilir.";
 var krktr_ozl_strenghts_self_discipline_s2_1 = "Öz Disiplinli olma, disiplini, organizasyon becerilerini ve sorumluluk hissini yansıtır. Bu, zaman yönetimi ve verimlilik açısından avantaj sağlayabilir.";
 var krktr_ozl_weaknesses_self_discipline_s2_1 = "Aşırı öz disiplinli olmak, esneklik eksikliğine yol açabilir ve iş yerinde aşırı mükemmeliyetçiliğe neden olabilir.";
@@ -2288,11 +2335,11 @@ var krktr_ozl_other_attributes_self_discipline_s2 = "Verimli,\norganize,\ngörev
 var krktr_ozl_12_25_self_discipline_questions_1 = "Ödevlerimi planlı ve düzenli bir şekilde yaptığımda sonuçlarım nasıl oluyor? Bu planlama becerimi sınav dönemlerinde nasıl daha etkili hale getirebilirim?";
 var krktr_ozl_12_25_self_discipline_questions_2 = "Hedeflerime ulaştığımda, bu başarıyı sağlayan en önemli alışkanlıklarım neler? Bu alışkanlıkları ders çalışmamda ve diğer görevlerimde nasıl daha da geliştirebilirim?";
 var krktr_ozl_12_25_self_discipline_questions_3 = "Sorumluluklarımı yerine getirdiğimde kendimi nasıl motive ediyorum? Bu motivasyonu, uzun vadeli projelerimde daha sürdürülebilir hale nasıl getirebilirim?";
-var krktr_ozl_40_plus_self_discipline_questions_1 = "• Görevlerimi planlı ve organize bir şekilde tamamladığımda nasıl sonuçlar alıyorum? Bu planlama becerisini daha büyük projelere nasıl yansıtabilirim?";
-var krktr_ozl_40_plus_self_discipline_questions_2 = "• Koyduğum hedeflere ulaşmak için hangi alışkanlıklarımı daha sık kullanıyorum? Bu başarı alışkanlıklarını iş hayatımda nasıl daha fazla güçlendirebilirim?";
-var krktr_ozl_40_plus_self_discipline_questions_3 = "• Sorumluluklarımı yerine getirdiğimde hangi içsel motivasyon kaynaklarından yararlanıyorum? Bu motivasyonu uzun vadeli projelerde nasıl daha sürdürülebilir hale getirebilirim?";
+var krktr_ozl_25_plus_self_discipline_questions_1 = "• Görevlerimi planlı ve organize bir şekilde tamamladığımda nasıl sonuçlar alıyorum? Bu planlama becerisini daha büyük projelere nasıl yansıtabilirim?";
+var krktr_ozl_25_plus_self_discipline_questions_2 = "• Koyduğum hedeflere ulaşmak için hangi alışkanlıklarımı daha sık kullanıyorum? Bu başarı alışkanlıklarını iş hayatımda nasıl daha fazla güçlendirebilirim?";
+var krktr_ozl_25_plus_self_discipline_questions_3 = "• Sorumluluklarımı yerine getirdiğimde hangi içsel motivasyon kaynaklarından yararlanıyorum? Bu motivasyonu uzun vadeli projelerde nasıl daha sürdürülebilir hale getirebilirim?";
 
-var krktr_ozl_extraversion = "Dışa Dönüklük"; //bold
+var krktr_ozl_extraversion = "Dışa Dönüklük"; 
 var krktr_ozl_character_elements_extraversion_s1 = 'Dışadönüklük, heyecanlı olma, sosyallik, konuşkanlık, kendine güven ve yüksek duygusal ifade ile karakterize edilen bir kişilik özelliğidir. Dışadönüklük seviyesi yüksek olan kişiler, dışa dönük olup sosyal ortamlarda enerji kazanma eğilimindedir. Başkalarıyla bir arada olmak, onların kendilerini enerjik ve heyecanlı hissetmelerine yardımcı olur.\n\nBu kişilik özelliği düşük olan ya da içedönük kişiler ise genellikle daha sakindirler. Sosyal ortamlarda harcayacak daha az enerjileri vardır ve sosyal etkinlikler onları yorabilir. İçedönük bireyler genellikle \"yeniden şarj olmak\" için yalnızlığa ve sessizliğe ihtiyaç duyarlar.';
 var krktr_ozl_strenghts_extraversion_s2_1 = "Sosyal etkileşimlere yatkınlık, liderlik pozisyonlarına uygunluk ve ekip çalışması yeteneği gibi dışa dönüklük özellikleri, iş birligi ve iletişim becerilerini geliştirebilir. Diğer insanların yanındayken enerjik hisseder.";
 var krktr_ozl_weaknesses_extraversion_s2_1 = "İş yerinde fazla dışa dönük olmak, odak kaybına neden olabilir ve bazen kişinin kendi görevlerine odaklanmasını zorlaştırabilir.";
@@ -2300,11 +2347,11 @@ var krktr_ozl_other_attributes_extraversion_s2 = "Girişken,\nenerjik,\ngüçlü
 var krktr_ozl_12_25_extraversion_questions_1 = "Grup çalışmalarında ya da sınıf etkinliklerinde aktif rol aldığımda nasıl hissediyorum? Bu enerjiyi okulda daha fazla hangi etkinliklerde kullanabilirim?";
 var krktr_ozl_12_25_extraversion_questions_2 = "Arkadaşlarımla etkileşim kurarak öğrenmek beni nasıl etkiliyor? Grup çalışmalarında nasıl daha fazla liderlik yapabilirim?";
 var krktr_ozl_12_25_extraversion_questions_3 = "Sosyal ortamlarda bulunmak ve konuşmak, okul başarımı nasıl etkiliyor? Bu becerilerimi derslerde ya da projelerde daha sık nasıl gösterebilirim?";
-var krktr_ozl_40_plus_extraversion_questions_1 = "• İş yerinde grup çalışmalarına katıldığımda ya da liderlik yaptığımda nasıl hissediyorum? Bu enerjiyi ekip projelerinde daha etkili nasıl kullanabilirim?";
-var krktr_ozl_40_plus_extraversion_questions_2 = "• İş arkadaşlarımla etkileşim kurarak çalışmak, performansımı nasıl etkiliyor? Bu sosyal becerilerimi daha fazla iş fırsatında nasıl gösterebilirim?";
-var krktr_ozl_40_plus_extraversion_questions_3 = "• Toplantılarda veya sosyal ortamlarda aktif olduğumda, iş yerindeki başarıma nasıl katkı sağlıyorum? Bu beceriyi iş ortamında daha fazla nasıl kullanabilirim?";
+var krktr_ozl_25_plus_extraversion_questions_1 = "• İş yerinde grup çalışmalarına katıldığımda ya da liderlik yaptığımda nasıl hissediyorum? Bu enerjiyi ekip projelerinde daha etkili nasıl kullanabilirim?";
+var krktr_ozl_25_plus_extraversion_questions_2 = "• İş arkadaşlarımla etkileşim kurarak çalışmak, performansımı nasıl etkiliyor? Bu sosyal becerilerimi daha fazla iş fırsatında nasıl gösterebilirim?";
+var krktr_ozl_25_plus_extraversion_questions_3 = "• Toplantılarda veya sosyal ortamlarda aktif olduğumda, iş yerindeki başarıma nasıl katkı sağlıyorum? Bu beceriyi iş ortamında daha fazla nasıl kullanabilirim?";
 
-var krktr_ozl_compatibility = "Uyumluluk"; //bold
+var krktr_ozl_compatibility = "Uyumluluk"; 
 var krktr_ozl_character_elements_compatibility_s1 = "Uyumluluk düzeyi yüksek olan kişiler, genellikle başkalarına yardım etme ve destek olma isteğiyle hareket ederler. Bu, onları grup çalışmalarında ve sosyal ortamlarda sevilen bireyler haline getirir. Ayrıca, uzlaşmacı yapıları nedeniyle çevreleriyle daha sağlıklı ilişkiler kurar ve işbirliği gerektiren ortamlarda başarılı olurlar. Buna karşın, uyumluluk seviyesi düşük bireyler, daha rekabetçi ve kendi çıkarlarına odaklı olabilir; bu da bazen ekip çalışmasında zorluklar yaşamalarına veya başkalarıyla daha zorlu ilişkiler kurmalarına neden olabilir.";
 var krktr_ozl_strenghts_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. İş yerinde veya okulda diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir.";
 var krktr_ozl_weaknesses_compatibility_s2_1 = "Uyumluluk, işbirliği, empati ve iletişim becerilerini yansıtır. iş yerinde diğer insanlarla iyi geçinme yeteneği için avantaj saglayabilir."; // Burası mantıksız olabilir, düzeltilmesi gerekebilir.
@@ -2312,11 +2359,11 @@ var krktr_ozl_other_attributes_compatibility_s2 = "Bağışlayıcı,\naçık sö
 var krktr_ozl_12_25_compatibility_questions_1 = "Sınıf arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda, hangi becerilerim öne çıkıyor? Bu iş birliğini grup projelerinde nasıl daha etkili kullanabilirim?";
 var krktr_ozl_12_25_compatibility_questions_2 = "Başkalarının ihtiyaçlarını anlamak ve onlara destek olmak, sınıf içindeki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi okulda daha fazla nasıl geliştirebilirim?";
 var krktr_ozl_12_25_compatibility_questions_3 = "Anlayışlı ve sabırlı olduğum durumlarda nasıl bir etki yaratıyorum? Bu özellikleri grup çalışmaları veya sınıf içindeki tartışmalarda nasıl daha iyi kullanabilirim?";
-var krktr_ozl_40_plus_compatibility_questions_1 = "• İş arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda hangi becerilerim öne çıkıyor? Bu iş birliğini projelerimde daha etkili nasıl kullanabilirim?";
-var krktr_ozl_40_plus_compatibility_questions_2 = "• Anlayışlı ve sabırlı olduğumda iş yerinde nasıl bir etki yaratıyorum? Bu özellikleri zorlu projelerde ve ekip çalışmalarında nasıl daha iyi kullanabilirim?";
-var krktr_ozl_40_plus_compatibility_questions_3 = "• Çalışma arkadaşlarımın ihtiyaçlarını anlamak ve onlara destek olmak, iş ortamındaki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi iş hayatımda nasıl daha da geliştirebilirim?";
+var krktr_ozl_25_plus_compatibility_questions_1 = "• İş arkadaşlarıma yardım ettiğimde veya onlarla iş birliği yaptığımda hangi becerilerim öne çıkıyor? Bu iş birliğini projelerimde daha etkili nasıl kullanabilirim?";
+var krktr_ozl_25_plus_compatibility_questions_2 = "• Anlayışlı ve sabırlı olduğumda iş yerinde nasıl bir etki yaratıyorum? Bu özellikleri zorlu projelerde ve ekip çalışmalarında nasıl daha iyi kullanabilirim?";
+var krktr_ozl_25_plus_compatibility_questions_3 = "• Çalışma arkadaşlarımın ihtiyaçlarını anlamak ve onlara destek olmak, iş ortamındaki ilişkilerimi nasıl güçlendiriyor? Bu empatiyi iş hayatımda nasıl daha da geliştirebilirim?";
 
-var krktr_ozl_emotional_resilience = "Duygusal Dayanıklılık"; //bold
+var krktr_ozl_emotional_resilience = "Duygusal Dayanıklılık"; 
 var krktr_ozl_character_elements_emotional_resilience_s1 = "Duygusal denge, bir kişinin stresi nasıl yönettiğini, duygusal dengeyi nasıl koruduğunu ve sağlıklı bir özgüven sürdürebilme yeteneğini yansıtır. Duygusal dengesi yüksek olan bireyler, baskı altında daha sakin kalır ve zorluklardan çabuk toparlanabilirler.\n\nBuna karşılık, duygusal dengesi düşük olan kişiler, daha güçlü duygusal dalgalanmalar yaşayabilir, stres karşısında kolayca bunalmış hissedebilir ve zor zamanlarda olumlu bir benlik imajını sürdürmekte zorlanabilirler. Bu özellik, hem kişisel refah hem de profesyonel başarı açısından kritik öneme sahiptir ve zorluklarla başa çıkma şeklimizi doğrudan etkiler.";
 var krktr_ozl_strenghts_emotional_resilience_s2_1 = "Duygusal istikrar, stresle başa çıkma yeteneği ve iş yerinde olumsuz durumları tolere etme yeteneğini yansıtır. Bu, kriz anlarında sakin kalma ve etkili kararlar alabilme yeteneğini artırabilir.";
 var krktr_ozl_weaknesses_emotional_resilience_s2_1 = "Bu kişiler, çok fazla stres yaşar ve çeşitli konular hakkında sürekli endişelenir. Ruh hali sık sık değişir, kolayca üzülür ve stresli olaylardan sonra toparlanmakta zorluk çeker.";
@@ -2324,9 +2371,24 @@ var krktr_ozl_other_attributes_emotional_resilience_s2 = "Sakin,\nsoğuk kanlı,
 var krktr_ozl_12_25_emotional_resilience_questions_1 = "Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_2 = "Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?";
 var krktr_ozl_12_25_emotional_resilience_questions_3 = "Zor bir durumu atlattıktan sonra nasıl daha güçlü hissediyorum? Bu dayanıklılığı günlük okul hayatımda nasıl daha fazla kullanabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_1 = "• Hata yaptığımda, bu hatalardan nasıl ders çıkarıyorum? Öğrenme sürecimi iş hayatımda daha verimli hale getirmek için neler yapabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_2 = "• Zor bir projeyi tamamladıktan sonra kendimi nasıl daha güçlü hissediyorum? Bu dayanıklılığı işimde sürekli başarı sağlamak için nasıl daha fazla kullanabilirim?";
-var krktr_ozl_40_plus_emotional_resilience_questions_3 = "• İşte stresli durumlarla karşılaştığımda sakin kalmayı başardığımda nasıl sonuçlar elde ediyorum? Bu duygusal dayanıklılığı yoğun iş dönemlerinde nasıl daha iyi kullanabilirim?";
+var krktr_ozl_25_plus_emotional_resilience_questions_1 = "• Hata yaptığımda, bu hatalardan nasıl ders çıkarıyorum? Öğrenme sürecimi iş hayatımda daha verimli hale getirmek için neler yapabilirim?";
+var krktr_ozl_25_plus_emotional_resilience_questions_2 = "• Zor bir projeyi tamamladıktan sonra kendimi nasıl daha güçlü hissediyorum? Bu dayanıklılığı işimde sürekli başarı sağlamak için nasıl daha fazla kullanabilirim?";
+var krktr_ozl_25_plus_emotional_resilience_questions_3 = "• İşte stresli durumlarla karşılaştığımda sakin kalmayı başardığımda nasıl sonuçlar elde ediyorum? Bu duygusal dayanıklılığı yoğun iş dönemlerinde nasıl daha iyi kullanabilirim?";
+
+//Karakter Özellikleri İngilizce
+var krktr_ozl_eng_openness_to_experience = "Openness to Experience";
+var krktr_ozl_openness_to_experience_eng_s1 = "Openness (also referred to as openness to experience) emphasizes imagination and insight the most out of all five personality traits. People who are high in openness tend to have a broad range of interests. They are curious about the world and other people and are eager to learn new things and enjoy new experiences.\n\nPeople who are high in this personality trait also tend to be more adventurous and creative. Conversely, people low in this personality trait are often much more traditional and may struggle with abstract thinking.";
+var krktr_ozl_strenghts_openness_to_experience_eng_s2_1 = "Very creative, open to trying new things, focused on tackling new challenges, happy to think about abstract concepts.";
+var krktr_ozl_weaknesses_openness_to_experience_eng_s2_1 = "Dislikes change, does not enjoy new things, resists new ideas, not very imaginative, dislikes abstract or theoretical concepts.";
+var krktr_ozl_other_attributes_openness_to_experience_eng_s2 = "Ideas (curious)\nFantasy (imaginative)\n Aesthetics (artistic)\nActions (wide interests)\nFeelings (excitable)\nValues (unconventional)";
+var krktr_ozl_12_25_openness_to_experience_questions_eng_1 = "• How do I feel when I learn new things or discover different perspectives? How can I use this curiosity more effectively in my school projects?";
+var krktr_ozl_12_25_openness_to_experience_questions_eng_2 = "• When researching various topics, which areas inspire me the most? How can I bring this inspiration into my schoolwork to make it more creative?";
+var krktr_ozl_12_25_openness_to_experience_questions_eng_3 = "• When I develop an unconventional way of thinking, how does it affect my school performance? In which projects can I show my creative thinking skills more?";
+var krktr_ozl_25_plus_openness_to_experience_questions_eng_1 = "• How do I feel when I explore new ideas and different perspectives in my work? How can I use this curiosity and creativity more effectively in my projects?";
+var krktr_ozl_25_plus_openness_to_experience_questions_eng_2 = "• What results do I get when I try unconventional methods to solve different problems? How can I apply these innovative approaches more in my work?";
+var krktr_ozl_25_plus_openness_to_experience_questions_eng_3 = "• How does my motivation change when I’m open to new experiences in my tasks? How can I expand my creative thinking style to broader areas of my work?";
+
+
 
 // İletişim
 //12-25
@@ -2495,7 +2557,7 @@ var ai_iletisim_ve_etkilesim_87 =
 var ai_iletisim_ve_etkilesim_88 =
   "Bu içsel bilgeliği iş yerinde daha etkili bir şekilde nasıl ortaya koyabilirsin? ";
 
-// 25+
+//Yapay Zeka Çağı Yetkinliklerin
 var ai_25_s3_1_1 = "Dijital Okuryazarlık ";
 var ai_25_s3_1_2 = "• Temel Bilgisayar ve Teknoloji Becerileri: Bilgisayar kullanımını, yazılım ve donanım bilgilerini kapsar. Gençler teknolojiyi etkili ve verimli bir şekilde kullanabilmelidir. ";
 var ai_25_s3_1_3 = "• Yapay Zeka Temelleri: AI'nın ne olduğu, nasıl çalıştığı ve hayatımızı nasıl şekillendirdiği hakkında temel bilgilere sahip olmak giderek önem kazanıyor.";
@@ -2532,8 +2594,7 @@ var ai_25_s3_9_1 = "Yenilikçi ve Girişimci Düşünce";
 var ai_25_s3_9_2 = "• Girişimcilik: AI çağında yenilikçi iş fikirleri geliştirip bu fikirleri hayata geçirme becerisi.";
 var ai_25_s3_9_3 = "• Risk Alma ve Deney Yapma: AI ve teknolojik inovasyonlar genellikle belirsizlik içerir. Bu yüzden gençlerin risk almaya istekli ve deneysel düşünceye açık olmaları gerekir.";
 
-//---
-
+//gücünü kullan
 var ai_25_s4u1_1_1 = "Dijital Okuryazarlık";
 var ai_25_s4u1_1_2 = "• Bilgisayar ve teknoloji becerilerinle hangi alanlarda fark yaratabilirsin? Bu becerilerini okul projelerinde ya da gelecekteki kariyerinde nasıl daha etkin kullanabilirsin?";
 var ai_25_s4u1_1_3 = "• AI hakkında sahip olduğun temel bilgileri derinleştirip, yapay zekanın gelecekte hangi mesleklerde önemli olacağını ön görebiliyor musun? Bu alanlarda nasıl bir kariyer planlayabilirsin?";
@@ -2570,6 +2631,7 @@ var ai_25_s4u1_9_1 = "Yenilikçi ve Girişimci Düşünce";
 var ai_25_s4u1_9_2 = "•	Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun?";
 var ai_25_s4u1_9_3 = "•	Risk alma ve deney yapma konusunda ne kadar cesaretlisin? Bu cesareti okul projelerinde ya da iş hayatında nasıl fırsatlara dönüştürebilirsin?";
 
+//kendine sorabilirsin
 var ai_25_s4u2_1_1 = "Dijital Okuryazarlık";
 var ai_25_s4u2_1_2 = "• Hangi temel bilgisayar becerilerine sahibim ve bu becerileri daha ileriye taşımak için neler yapabilirim?";
 var ai_25_s4u2_1_3 = "• Teknolojiyi günlük yaşantımda nasıl kullanıyorum? Teknolojiyi sadece tüketici olarak mı kullanıyorum, yoksa üretici de olabiliyor muyum?";
@@ -2624,7 +2686,27 @@ var ai_25_s4u2_9_3 = "• Girişimcilik becerilerimi geliştirmek için hangi f�
 var ai_25_s4u2_9_4 = "• Deneysel düşünce yapısına ne kadar açığım? Yeni fikirleri test etmek için hangi stratejileri uyguluyorum? ";
 var ai_25_s4u2_9_5 = "• Belirsizliklerle başa çıkarken nasıl kararlar alıyorum? Risk almanın getirdiği fırsatları nasıl değerlendirebilirim?";
 
-//Ekip çalışmasına yatkınlık
+//Yapay Zeka Çağı Yetkinliklerin İngilizce
+var ai_25_eng_s3_1_1 = "Digital Literacy";
+var ai_25_eng_s3_1_2 = "Fundamental Computer and Technology Skills: This encompasses computer usage, as well as knowledge of software and hardware. You should be able to use technology effectively and efficiently.";
+var ai_25_eng_s3_1_3 = "Basics of Artificial Intelligence: Having foundational knowledge about what AI is, how it works, and how it shapes our lives.";
+
+
+//gücünü kullan
+var ai_25_eng_s4u1_1_1 = "Digital Literacy";
+var ai_25_eng_s4u1_1_2 = "• In what areas can you make an impact with your computer and technology skills? How can you utilize these skills more effectively in school projects or your future career?";
+var ai_25_eng_s4u1_1_3 = "• Do you think deepening your foundational knowledge about AI will help you understand which professions will be important in the future? How can you plan a career in these fields?";
+
+
+//kendine sorabilirsin
+var ai_25_eng_s4u2_1_1 = "Digital Literacy";
+var ai_25_eng_s4u2_1_2 = "• What basic computer skills do I possess, and what can I do to advance these skills further? ";
+var ai_25_eng_s4u2_1_3 = "• How do I use technology in my daily life? Am I using technology only as a consumer, or can I also be a producer? ";
+var ai_25_eng_s4u2_1_4 = "• What do I know about artificial intelligence? How much time have I devoted to understanding how AI impacts my life? ";
+var ai_25_eng_s4u2_1_5 = "• Am I excited about learning more about AI and the opportunities it presents? What steps can I take to develop myself in this field?";
+
+
+//Ekip Çalışmasına Yatkınlık
 var teamwork_1 = "Herhangi bir profesyonel ortamda, ekip çalışması başarının merkezinde yer alır. İster bir sağlık ekibinin, ister bir satış biriminin veya yaratıcı bir ajansın parçası olun, başkalarıyla etkili bir şekilde işbirliği yapma yeteneğiniz hem bireysel hem de kolektif başarılarda büyük rol oynar.  Ekip oluşturma becerileri, çalışanların uyumlu bir şekilde birlikte çalışmasına, çatışmaları çözmesine ve ortak hedefler peşinde koşmasına olanak tanıyan çok çeşitli davranışları, zihniyetleri ve yetkinlikleri kapsar.Günümüzün dinamik işyerinde, bir ekibin parçası olmak sadece teknik uzmanlıktan daha fazlasını gerektirir - duygusal zeka, uyarlanabilirlik ve insan davranışının derinlemesine anlaşılmasını gibi. Bu takım oluşturma becerileri, kişiliğini ve karakter özelliklerini özümseyerek değerlendirilebilir ve geliştirilebilir.Her iki modele birlikte bakarak, farklı bireylerin bir ekibe nasıl katkıda bulunabileceğine ve sorunsuz ekip çalışması için gerekli becerileri nasıl geliştirebileceklerine dair bütünsel bir resim elde etme şansımız var.";
 
 var teamwork_best_1_1 = "Aktif Dinleme ve Empati";
@@ -2657,6 +2739,7 @@ var teamwork_best_9_2 = "Mesleki gelişim, sadece kendi becerilerini geliştirme
 var teamwork_best_10_1 = "Liderlik";
 var teamwork_best_10_2 = "Vizyon, iletişim ve başkalarına harekete geçmeleri için ilham verme yeteneğinin bir kombinasyonunu gerektirir. Kararlıdırlar, motive edicidirler ve ekiplerini bu hedeflere ulaşmaya yönlendirirken net hedefler belirleme yeteneğine sahiptirler. ";
 
+//gücünü kullan
 var teamwork_s3u1_1_1 = "Aktif Dinleme ve Empati";
 var teamwork_s3u1_1_2 = "• Müşteri ihtiyaçlarını daha iyi anlamak ve çözümleri daha etkili bir şekilde uyarlamak için güçlü dinleme becerilerini nasıl kullanabilirsin? ";
 var teamwork_s3u1_1_3 = "• Empati yeteneğin, daha iyi sonuçlar elde etmek için hem müşterilerle hem de ekip üyeleriyle daha güçlü ilişkiler geliştirmene nasıl yardımcı olabilir? ";
@@ -2697,6 +2780,7 @@ var teamwork_s3u1_10_1 = "Liderlik";
 var teamwork_s3u1_10_2 = "• Liderlik gücün, ekibin satış veya müşteri hizmetleri hedeflerini aşmasına nasıl yardımcı olabilir? ";
 var teamwork_s3u1_10_3 = "• Sürekli olarak güçlü sonuçlar elde eden yüksek performanslı bir kültür oluşturmak için liderliğini nasıl daha fazla kullanabilirsin? ";
 
+//kendine sorabilirsin
 var teamwork_s3u2_1_1 = "Aktif Dinleme ve Empati";
 var teamwork_s3u2_1_2 = "• Ne sıklıkla başkalarının konuştuklarında duygularını ve bakış açılarını anlamaya gerçekten odaklanıyorum? ";
 var teamwork_s3u2_1_3 = "• Hangi durumlarda konuşmalar sırasında dikkatim dağılıyor veya sabırsız oluyorum? ";
@@ -2723,32 +2807,67 @@ var teamwork_s3u2_5_2 = "• Gergin durumlarda ne kadar sakin ve sakin kalıyoru
 var teamwork_s3u2_5_3 = "• Çatışma çözümüne hem kendi bakış açıma hem de başkalarının bakış açısına saygı duyacak şekilde nasıl daha iyi yaklaşabilirim?";
 
 var teamwork_s3u2_6_1 = "Girişim";
-var teamwork_s3u2_6_2 = "• İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim? ";
+var teamwork_s3u2_6_2 = "• İyileştirme fırsatlarını belirlemede veya işte yeni zorlukların üstesinden gelmede ne kadar proaktifim?";
 var teamwork_s3u2_6_3 = "• Ne zaman inisiyatif almaktan çekiniyorum ve hangi korkular veya engeller beni engelliyor? ";
 var teamwork_s3u2_6_4 = "• Risk olsa bile yeni fikirler veya çözümler önerme konusunda kendime daha fazla güvenmek için ne yapabilirim?";
 
 var teamwork_s3u2_7_1 = "Geri Bildirim";
-var teamwork_s3u2_7_2 = "• Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim? ";
+var teamwork_s3u2_7_2 = "• Geri bildirim aldığımda nasıl tepki veririm ve yapıcı bir şekilde yanıt verdiğimden nasıl emin olabilirim?";
 var teamwork_s3u2_7_3 = "• Başkalarına geri bildirim verme konusunda tutarlı mıyım ve bunun hem zamanında hem de yardımcı olduğundan nasıl emin olabilirim? ";
 var teamwork_s3u2_7_4 = "• Başkalarından gelen geri bildirimlere daha açık olmak ve bunu kişisel ve profesyonel gelişim için bir araç olarak kullanmak için hangi adımları atabilirim?";
 
 var teamwork_s3u2_8_1 = "Takım Oluşturma";
-var teamwork_s3u2_8_2 = "• Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim? ";
+var teamwork_s3u2_8_2 = "• Ekibim içinde olumlu ilişkiler geliştirmek için ne yapmalıyım ve nereleri geliştirebilirim?";
 var teamwork_s3u2_8_3 = "• Daha kapsayıcı ve destekleyici bir ekip kültürü oluşturmaya nasıl yardımcı olabilirim? ";
 var teamwork_s3u2_8_4 = "• Takım arkadaşlarımın güçlü ve zayıf yönlerini anlamak için çaba sarf ediyor muyum ve onları nasıl daha iyi destekleyebilirim? ";
 
 var teamwork_s3u2_9_1 = "Mesleki Gelişim";
-var teamwork_s3u2_9_2 = "• Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir? ";
-var teamwork_s3u2_9_3 = "• Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim? ";
-var teamwork_s3u2_9_4 = "• Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim? ";
+var teamwork_s3u2_9_2 = "• Aktif olarak yeni beceriler geliştirmek için fırsatlar arıyor muyum ve eğer değilse, beni engelleyen nedir?";
+var teamwork_s3u2_9_3 = "• Mesleki gelişimimi mevcut iş yükümle nasıl dengelerim ve büyümeye nasıl öncelik verebilirim?";
+var teamwork_s3u2_9_4 = "• Ekibimdeki diğer kişileri kendi gelişimlerine yatırım yapmaya teşvik etmek için ne yapabilirim?";
 
 var teamwork_s3u2_10_1 = "Liderlik";
-var teamwork_s3u2_10_2 = "• Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim? ";
-var teamwork_s3u2_10_3 = "• Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim? ";
-var teamwork_s3u2_10_4 = "• Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim? ";
+var teamwork_s3u2_10_2 = "• Kendim ve başkaları için net hedefler ve beklentiler ne kadar iyi belirlerim ve bu alanda nasıl gelişebilirim?";
+var teamwork_s3u2_10_3 = "• Örnek olarak liderlik ediyor muyum ve başkalarına daha etkili bir şekilde ilham vermek ve motive etmek için hangi davranışları modelleyebilirim?";
+var teamwork_s3u2_10_4 = "• Daha güçlü karar verme ve delegasyon becerileri geliştirmek için hangi adımları atabilirim?";
+
+
+//Ekip Çalışmasına Yatkınlık İngilizce
+var teamwork_best_eng_1_1 = "Active Listening and Empathy";
+var teamwork_best_eng_1_2 = "Active listening and empathy are crucial for building trust within a team. It’s not just about hearing words but also understanding the emotions and intentions behind them. These individuals are approachable, emotionally available, and responsive to the needs of others, making them excellent team players in any collaborative environment.";
+
+var teamwork_best_eng_2_1 = "Effective Communication";
+var teamwork_best_eng_2_2 = "Communication goes beyond exchanging information—it involves clarity and emotional intelligence. It reflects the ability to convey thoughts in a way that others can easily understand. Employees who are strong in this skill help reduce misunderstandings, increase productivity, and foster positive working relationships.";
+
+var teamwork_best_eng_3_1 = "Collaboration";
+var teamwork_best_eng_3_2 = "Working well with others involves sharing ideas and responsibilities to achieve common goals. These individuals naturally excel in collaboration. They are eager to work as part of a cooperative, friendly, and cohesive unit, contributing to an inclusive team environment where everyone feels valued.";
+
+
+//gücünü kullan
+var teamwork_eng_s3u1_1_1 = "Active Listening and Empathy";
+var teamwork_eng_s3u1_1_2 = "• How can you use your strong listening skills to better understand customer needs and tailor solutions more effectively?";
+var teamwork_eng_s3u1_1_3 = "• How can your ability to empathize help you build stronger relationships with both customers and team members, leading to better outcomes?";
+
+var teamwork_eng_s3u1_2_1 = "Effective Communication";
+var teamwork_eng_s3u1_2_2 = "• How can you further enhance the clarity of your communication to inspire action and alignment within your team?";
+var teamwork_eng_s3u1_2_3 = "• How can you adapt your communication style to be more effective in negotiations or when dealing with difficult stakeholders?";
+
+
+//kendine sorabilirsin
+var teamwork_eng_s3u2_1_1 = "Active Listening and Empathy";
+var teamwork_eng_s3u2_1_2 = "• How often do I genuinely focus on understanding the emotions and perspectives of others when they speak?";
+var teamwork_eng_s3u2_1_3 = "• In which situations do I get distracted or impatient during conversations?";
+var teamwork_eng_s3u2_1_4 = "• How can I improve my ability to respond with empathy and compassion, even when I disagree?";
+
+var teamwork_eng_s3u2_2_1 = "Effective Communication"
+var teamwork_eng_s3u2_2_2 = "• Do I adapt my communication style based on who I’m talking to, and if not, how can I improve this?";
+var teamwork_eng_s3u2_2_3 = "• How often do I ask for clarification to ensure my message is understood, and what stops me from doing so?";
+var teamwork_eng_s3u2_2_4 = "• What can I do to communicate more clearly, concisely, and effectively, both in writing and verbally?";
+
+
 
 //Yaşamda İlerleme Tarzın
-var lifestyle_25_plus_manifesting_generator_image_w = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
+var lifestyle_25_plus_manifesting_generator_image_w = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-w/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var lifestyle_25_plus_manifesting_generator_image_m = "https://appwrite.anahtarsensin.com/v1/storage/buckets/6708de8e00054cee7bd1/files/generator-m/view?project=665474aa001cd7ecbebd&project=665474aa001cd7ecbebd&mode=admin";
 var lifestyle_25_plus_manifesting_generator_name = "Enerjik";
 var lifestyle_25_plus_manifesting_generator_1 = "Kariyer ve liderlik dünyasındaki yolculuğun benzersiz. Çevrendekiler yeteneklerini fark ettiğinde, bireyleri, grupları ve sistemleri organize etmeyi ve yönetmeyi içeren rollerde gerçekten parlarsın.\n\nUyumlu bir sonuç için tüm unsurları yöneten bir orkestranın şefi gibisin.Kariyerinde yetenekli bir organizatör, yönetici, ağ oluşturucu veya arabulucu olma potansiyeline sahipsin.\nRolün, enerji kaynaklarını en verimli şekilde kullanmak için diğerlerine rehberlik etmek etrafında döner.Enerji dinamiklerine dikkat etmen çok önemli.\n\n Çevrendekilerin enerjilerinden beslenir ve bu enerjiyi katlayarak büyütebilirsin.Enerjin iyi yönetilmezse, ileriki yaşlarda tükenmişliğe ve bitkinliğe yol açabilir.Durmayı bilmek ve dinlenmek sağlığını korumak için çok önemli.";
@@ -2785,7 +2904,7 @@ var lifestyle_25_plus_reflektor_2 = "Objektif bir bakış açısı sunarak etraf
 var lifestyle_25_plus_reflektor_3 = "Karar verirken acele etmemelisin.Önemli konuları değerlendir ve güvendiğin kişiler ile konuyu konuş.Başkalarıyla etkileşim kurarken, yanlış ortamda olmak veya herkese uymaya çalışmak gibi tuzakların farkında ol.Başkalarına aşırı bağımlı olmaktan veya görünmez hissetmekten kaçın, gerçek benliğinden ödün verme.\n\nBir şeyleri başlatma, hayata geçirme veya olmaya zorlama dürtüsüne diren, çünkü bu başkalarında dirence neden olabilir ve hayal kırıklığına yol açabilir.Başkalarının korkularına, duygularına, stresine ve kaygılarına kapılmaktan kaçın.Etrafındakilerle sağlıklı bir mesafeyi her zaman koru ve acele etmekten veya karar vermek için baskı altında kalmaktan kaçın.\n\nKendin için doğru seçimleri yapabilmen ve iyi hissetmen için bulunduğun ortamın senin için doğru olması çok önemli.Çünkü sen bulunduğun ortamların enerjisini yansıtma yeteneğine sahipsin.Gerek özel yaşamında gerek iş yaşamında ortamına hep önem ver.";
 var lifestyle_25_plus_reflektor_motto = "Dünyaya benzersiz bir bakış açısı getirmek için buradasın. Bulunduğun ortamın senin için doğru olduğuna emin ol!";
 
-//sayfa 3 - sorular
+//gücünü kullan
 var lifestyle_25_plus_starter_question_name = "Başlatıcı";
 var lifestyle_25_plus_starter_evaluation_1 = "• Harekete geçmem için bana ne ilham veriyor ve direnci azaltmak için bunu yapmadan önce başkalarını nasıl bilgilendirebilirim? ";
 var lifestyle_25_plus_starter_evaluation_2 = "• Dışarıdan izin veya onay beklemeden liderlik ettiğimde nasıl hissediyorum? ";
@@ -2821,6 +2940,21 @@ var lifestyle_25_plus_reflektor_evaluation_3 = "• Hangi durumlarda gerçek ben
 var lifestyle_25_plus_reflektor_evaluation_4 = "• Başkalarının duygularını ve enerjilerini nasıl idare ederim ve kendi iyiliğimi korumak için hangi sınırları belirlemem gerekir? ";
 var lifestyle_25_plus_reflektor_evaluation_5 = "• Eşsiz duyarlılığımı ve çevremin gerçeğini bunalmış hissetmeden yansıtma yeteneğimi onurlandırmak için ne yapabilirim? ";
 
+//Yaşamda İlerleme Tarzın İngilizce
+var lifestyle_25_plus_eng_manifesting_generator_name = "Initiator";
+var lifestyle_25_plus_eng_manifesting_generator_1 = "In the professional world and your career, you possess a unique and distinctive energy. You're excellent at managing tasks, building things, and growing them. When you use your energy for the work you love, you can rest your head on the pillow with a sense of satisfaction.\n\nThe key to finding satisfaction in life and work isn't just about working hard; it’s about how effectively and efficiently you use your energy. The work you do is crucial for your well-being and prosperity. You have a powerful source of energy that helps you take action and create.\n\nBe mindful that you don’t always have to start or initiate things. Your strength lies in responding to life based on your instincts and waiting for the right cues.";
+var lifestyle_25_plus_eng_manifesting_generator_2 = "Trusting your instincts and waiting for the right moment will make your life more fulfilling and enjoyable. Think of yourself as a magnet; you may notice that your energy naturally attracts opportunities to you.";
+var lifestyle_25_plus_eng_manifesting_generator_3 = "Your effortless and natural path will reveal itself when you respond to what life offers in the present moment. Your energy is here to help you master what you commit to by responding to what life brings you. A sign that you are on the right track is when things start to fall into place naturally and you feel a sense of satisfaction.\n\nGiven your immense energy, be cautious about saying 'yes' or getting involved in things that don’t genuinely interest or satisfy you. Your inner compass communicates through your gut feeling. To live life correctly, your strategy should be to wait for what life brings and respond to it. Listen to your gut feeling first and don’t let others dictate what you should do.\n\nYou weren’t created for a monotonous routine. Continue to create and build, and always trust in your incredible energy.";
+var lifestyle_25_plus_eng_manifesting_generator_motto = "For life satisfaction, embrace the slogan: Love what you do and do what you love!";
+
+
+//gücünü kullan
+var lifestyle_25_plus_eng_starter_question_name = "Initiator";
+var lifestyle_25_plus_eng_starter_evaluation_1 = "• What inspires me to initiate action, and how can I inform others before doing so to reduce resistance?";
+var lifestyle_25_plus_eng_starter_evaluation_2 = "• How do I feel when I take the lead without waiting for external permission or approval?";
+var lifestyle_25_plus_eng_starter_evaluation_3 = "• In what areas of my life do I feel most empowered to start new things, and how can I use this energy more intentionally?";
+var lifestyle_25_plus_eng_starter_evaluation_4 = "• How do I handle the reaction of others when I step into my natural role as an initiator, and what could I do to ease potential conflict?";
+var lifestyle_25_plus_eng_starter_evaluation_5 = "• What strategies do I use to manage my energy and avoid burnout after initiating major projects or changes?";
 
 //İletişim Ve Etkileşim Tarzın
 var communication_generator_0 = "Enerjik";
@@ -3034,67 +3168,6 @@ var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtü
 var decision_strategy_s4_11_1 = "1.Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.\n2.Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.\n3.Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.\n4.Karar Ver: Düşüncelerin ve tartışmaların ışığında, \"evet,\" \"hayır\" ya da \"şimdi değil\" şeklinde net bir karar ver.\n5.Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
 var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
 
-  // eski hali
-  // var inputs = {
-  //     p1a4: rawData.find(x => x.name == "kisiselbilgi / isim").string + " " + rawData.find(x => x.name == "kisiselbilgi / soyisim").string,
-  //     p2a3: rawData.find(x => x.name == "kisiselbilgi / isim").string,
-  //     p3a3: hollandData[0].name + " ve " + hollandData[1].name + " kişilik özelliklerinin baskın, " + hollandData[5].name + " özelliğinin daha geri planda olduğu bir yapın var.",
-  //     p3a5: holland.find(x => x.name == hollandData[0].name).nameBig,
-  //     p3a7: holland.find(x => x.name == hollandData[0].name).value.description,
-  //     p3a9: holland.find(x => x.name == hollandData[0].name).value.feature,
-  //     p3a6: holland.find(x => x.name == hollandData[1].name).nameBig,
-  //     p3a8: holland.find(x => x.name == hollandData[1].name).value.description,
-  //     p3a10: holland.find(x => x.name == hollandData[1].name).value.feature,
-  //     p4a2: big5.find(x => x.name == big5Data[0].name).value.karakter + "\n" + big5.find(x => x.name == big5Data[1].name).value.karakter + "\n" + big5.find(x => x.name == big5Data[2].name).value.karakter,//"des",
-  //     p4a3: big5.find(x => x.name == big5Data[0].name).value.arti + "\n" + big5.find(x => x.name == big5Data[1].name).value.arti + "\n" + big5.find(x => x.name == big5Data[2].name).value.arti,//"+",
-  //     p4a4: big5.find(x => x.name == big5Data[0].name).value.eksi + "\n" + big5.find(x => x.name == big5Data[1].name).value.eksi + "\n" + big5.find(x => x.name == big5Data[2].name).value.eksi,//"-"
-  //     p5a2: type.find(x => x.name == api.Properties.Type[0]).value,
-  //     p5b1: rawData.find(x => x.name == "kisiselbilgi / cinsiyet").string == "Erkek" ? type.find(x => x.name == api.Properties.Type[0]).images[1] : type.find(x => x.name == api.Properties.Type[0]).images[0],
-  //     p6a5: definition.find(x => x.name == api.Properties.Definition[0]).title,
-  //     p6a6: definition.find(x => x.name == api.Properties.Definition[0]).value,
-  //     p7a2: profile.find(x => x.name == api.Properties.Profile[0]).value1,
-  //     p7a3: profile.find(x => x.name == api.Properties.Profile[0]).value2,
-  //     p7b1: profile.find(x => x.name == api.Properties.Profile[0]).image,
-  //     p9a4: strategy?.find(x => x.name === api.Properties.Strategy[0])?.value?.find(y => y.name === api.Properties.InnerAuthority[0])?.value ?? api.Properties.Strategy[0] + " " + api.Properties.InnerAuthority[0],
-  //     p8a2: sortedUsageGate[1]?.value ?? "",
-  //     p8b2: sortedUsageGate[1]?.title ?? "",
-  //     p8a3: sortedUsageGate[2]?.value ?? "",
-  //     p8b3: sortedUsageGate[2]?.title ?? "",
-  //     p8a4: sortedUsageGate[4]?.value ?? "",
-  //     p8b4: sortedUsageGate[4]?.title ?? "",
-  //     p8a5: sortedUsageGate[5]?.value ?? "",
-  //     p8b5: sortedUsageGate[5]?.title ?? "",
-  //     p8a10: sortedUsageGate[6]?.value ?? "",
-  //     p8b10: sortedUsageGate[6]?.title ?? "",
-  //     p8a6: sortedUsageGate[0]?.value ?? "",
-  //     p8b6: sortedUsageGate[0]?.title ?? "",
-  //     p8a7: sortedUsageGate[3]?.value ?? "",
-  //     p8b7: sortedUsageGate[3]?.title ?? "",
-  //     p8a8: sortedUsageGate[7]?.value ?? "",
-  //     p8b8: sortedUsageGate[7]?.title ?? "",
-  //     p8a11: sortedUsageGate[8]?.value ?? "",
-  //     p8b11: sortedUsageGate[8]?.title ?? "",
-  //     p8a12: sortedUsageGate[9]?.value ?? "",
-  //     p8b12: sortedUsageGate[9]?.title ?? "",
-  //     p10a3: careerSelectionData.find(x => x.id == careerSelectionLastResult[0].id).value,//"",
-  //     p10a4: careerSelectionData.find(x => x.id == careerSelectionLastResult[1].id).value,//"",
-  //     p10a5: careerSelectionData.find(x => x.id == careerSelectionLastResult[2].id).value,//"",
-  //     p11a3: "Geleneksel",
-  //     p11a4: "Futurist",
-  //     p11a5: careerSelectionData2.find(x => x.id == careerSelectionLastResult[0].id).name,
-  //     p11a6: careerSelectionData2.find(x => x.id == careerSelectionLastResult[1].id).name,
-  //     p11a7: careerSelectionData2.find(x => x.id == careerSelectionLastResult[2].id).name,
-  //     p11a8: careerSelectionData2.find(x => x.id == careerSelectionLastResult[0].id).geleneksel,
-  //     p11a9: careerSelectionData2.find(x => x.id == careerSelectionLastResult[1].id).geleneksel,
-  //     p11a10: careerSelectionData2.find(x => x.id == careerSelectionLastResult[2].id).geleneksel,
-  //     p11a11: careerSelectionData2.find(x => x.id == careerSelectionLastResult[0].id).futurist,
-  //     p11a12: careerSelectionData2.find(x => x.id == careerSelectionLastResult[1].id).futurist,
-  //     p11a13: careerSelectionData2.find(x => x.id == careerSelectionLastResult[2].id).futurist,
-  //     graphbig: bigdataPercent,
-  //     graphholland: hollanddataPercent,
-  //     graphcareer: careerSelectionLastResult
-  // }
-
   let krktr_ozl = (big5Name, age, type) => {
     if (type == "name") {
       if (big5Name == "Öz Disiplin") {
@@ -3158,39 +3231,39 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       }
     } else if (type == "question1") {
       if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_40_plus_self_discipline_questions_1;
+        return krktr_ozl_25_plus_self_discipline_questions_1;
       } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_40_plus_extraversion_questions_1;
+        return krktr_ozl_25_plus_extraversion_questions_1;
       } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_40_plus_compatibility_questions_1;
+        return krktr_ozl_25_plus_compatibility_questions_1;
       } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_40_plus_emotional_resilience_questions_1;
+        return krktr_ozl_25_plus_emotional_resilience_questions_1;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_questions_1;
+        return krktr_ozl_25_plus_openness_to_experience_questions_1;
       }
     } else if (type == "question2") {
       if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_40_plus_self_discipline_questions_2;
+        return krktr_ozl_25_plus_self_discipline_questions_2;
       } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_40_plus_extraversion_questions_2;
+        return krktr_ozl_25_plus_extraversion_questions_2;
       } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_40_plus_compatibility_questions_2;
+        return krktr_ozl_25_plus_compatibility_questions_2;
       } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_40_plus_emotional_resilience_questions_2;
+        return krktr_ozl_25_plus_emotional_resilience_questions_2;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_questions_2;
+        return krktr_ozl_25_plus_openness_to_experience_questions_2;
       }
     } else if (type == "question3") {
       if (big5Name == "Öz Disiplin") {
-        return krktr_ozl_40_plus_self_discipline_questions_3;
+        return krktr_ozl_25_plus_self_discipline_questions_3;
       } else if (big5Name == "Dışa Dönüklük") {
-        return krktr_ozl_40_plus_extraversion_questions_3;
+        return krktr_ozl_25_plus_extraversion_questions_3;
       } else if (big5Name == "Uyumluluk") {
-        return krktr_ozl_40_plus_compatibility_questions_3;
+        return krktr_ozl_25_plus_compatibility_questions_3;
       } else if (big5Name == "Duygusal Dayanıklılık") {
-        return krktr_ozl_40_plus_emotional_resilience_questions_3;
+        return krktr_ozl_25_plus_emotional_resilience_questions_3;
       } else if (big5Name == "Deneyime Açıklık") {
-        return krktr_ozl_40_plus_openness_to_experience_questions_3; 
+        return krktr_ozl_25_plus_openness_to_experience_questions_3; 
       }
     }
   };
@@ -3809,7 +3882,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         if(cinsiyet == "Erkek")
           return lifestyle_25_plus_manifesting_generator_image_m;
         else
-        return lifestyle_25_plus_manifesting_generator_image_w;
+          return lifestyle_25_plus_manifesting_generator_image_w;
       }   else if (lifestyleData == "Generator") {
         if(cinsiyet == "Erkek")
           return lifestyle_25_plus_generator_image_m
@@ -3827,7 +3900,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
 
   let communication = (communicationData, age, type) => {
     if (type == "name") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_0;
       } else if (communicationData == "Projector") {
         return communication_projector_0;
@@ -3837,7 +3910,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_0;
       }
     } else if (type == "1") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_1;
       } else if (communicationData == "Projector") {
         return communication_projector_1;
@@ -3847,7 +3920,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_1;
       }
     } else if (type == "2") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_2;
       } else if (communicationData == "Projector") {
         return communication_projector_2;
@@ -3857,7 +3930,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_2;
       }
     } else if (type == "3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_3;
       } else if (communicationData == "Projector") {
         return communication_projector_3;
@@ -3867,7 +3940,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_3;
       }
     }  else if (type == "4") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_3_1;
       } else if (communicationData == "Projector") {
         return communication_projector_3_1;
@@ -3877,7 +3950,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_3_1;
       }
     } else if (type == "5") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_4;
       } else if (communicationData == "Projector") {
         return communication_projector_4;
@@ -3887,7 +3960,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_4;
       }
     } else if (type == "6") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_5;
       } else if (communicationData == "Projector") {
         return communication_projector_5;
@@ -3897,7 +3970,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_5;
       }
     } else if (type == "7") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_6;
       } else if (communicationData == "Projector") {
         return communication_projector_6;
@@ -3907,7 +3980,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_6;
       }
     } else if (type == "8") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_7;
       } else if (communicationData == "Projector") {
         return communication_projector_7;
@@ -3917,7 +3990,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_7;
       }
     } else if (type == "1_s2") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_1_s2;
       } else if (communicationData == "Projector") {
         return communication_projector_1_s2;
@@ -3927,7 +4000,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_1_s2;
       }
     } else if (type == "2_s2") {
-      if (communicationData == "Generator") {
+      if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_2_s2;
       } else if (communicationData == "Projector") {
         return communication_projector_2_s2;
@@ -3937,7 +4010,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_2_s2;
       }
     } else if (type == "3_s2") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_3_s2;
       } else if (communicationData == "Projector") {
         return communication_projector_3_s2;
@@ -3947,7 +4020,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_3_s2;
       }
     } else if (type == "4_s2") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_4_s2;
       } else if (communicationData == "Projector") {
         return communication_projector_4_s2;
@@ -3957,7 +4030,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_4_s2;
       }
     } else if (type == "1_s3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_1_s3;
       } else if (communicationData == "Projector") {
         return communication_projector_1_s3;
@@ -3967,7 +4040,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_1_s3;
       }
     } else if (type == "2_s3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_2_s3;
       } else if (communicationData == "Projector") {
         return communication_projector_2_s3;
@@ -3977,7 +4050,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_2_s3;
       }
     } else if (type == "3_s3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_3_s3;
       } else if (communicationData == "Projector") {
         return communication_projector_3_s3;
@@ -3987,7 +4060,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_3_s3;
       }
     } else if (type == "4_s3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_4_s3;
       } else if (communicationData == "Projector") {
         return communication_projector_4_s3;
@@ -3997,7 +4070,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
         return communication_reflektor_4_s3;
       }
     } else if (type == "5_s3") {
-        if (communicationData == "Generator") {
+        if (communicationData == "Generator" || communicationData == "Manifesting Generator") {
         return communication_generator_5_s3;
       } else if (communicationData == "Projector") {
         return communication_projector_5_s3;
@@ -5826,11 +5899,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "57-10_2") {
         return guclu_yanlarin_57_10_2;
       }
-    } else if (guclu_yanlarinData.name == "10-20") {
-      if (type == "10_20_1") {
-        return guclu_yanlarin_10_20_1;
-      } else if (type == "10_20_2") {
-        return guclu_yanlarin_10_20_2;
+    } else if (guclu_yanlarinData.name == "20-10") {
+      if (type == "20-10_1") {
+        return guclu_yanlarin_20_10_1;
+      } else if (type == "20-10_2") {
+        return guclu_yanlarin_20_10_2;
       }
     } else if (guclu_yanlarinData.name == "6-59") {
       if (type == "6-59_1") {
@@ -5862,11 +5935,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "5-15_2") {
         return guclu_yanlarin_5_15_2;
       }
-    } else if (guclu_yanlarinData.name == "47-64") {
-      if (type == "47-64_1") {
-        return guclu_yanlarin_47_64_1;
-      } else if (type == "47-64_2") {
-        return guclu_yanlarin_47_64_2;
+    } else if (guclu_yanlarinData.name == "64-47") {
+      if (type == "64-47_1") {
+        return guclu_yanlarin_64_47_1;
+      } else if (type == "64-47_2") {
+        return guclu_yanlarin_64_47_2;
       }
     } else if (guclu_yanlarinData.name == "27-50") {
       if (type == "27-50_1") {
@@ -5887,11 +5960,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "32-54_2") {
         return guclu_yanlarin_32_54_2;
       }
-    } else if (guclu_yanlarinData.name == "49-19") {
-      if (type == "49-19_1") {
-        return guclu_yanlarin_49_19_1;
-      } else if (type == "49-19_2") {
-        return guclu_yanlarin_49_19_2;
+    } else if (guclu_yanlarinData.name == "19-49") {
+      if (type == "19-49_1") {
+        return guclu_yanlarin_19_49_1;
+      } else if (type == "19-49_2") {
+        return guclu_yanlarin_19_49_2;
       }
     } else if (guclu_yanlarinData.name == "37-40") {
       if (type == "37-40_1") {
@@ -5923,11 +5996,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "1-8_2") {
         return guclu_yanlarin_1_8_2;
       }
-    } else if (guclu_yanlarinData.name == "28-38") {
-      if (type == "28-38_1") {
-        return guclu_yanlarin_28_38_1;
-      } else if (type == "28-38_2") {
-        return guclu_yanlarin_28_38_2;
+    } else if (guclu_yanlarinData.name == "38-28") {
+      if (type == "38-28_1") {
+        return guclu_yanlarin_38_28_1;
+      } else if (type == "38-28_2") {
+        return guclu_yanlarin_38_28_2;
       }
     } else if (guclu_yanlarinData.name == "7-31") {
       if (type == "7-31_1") {
@@ -6021,11 +6094,11 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
       } else if (type == "41-30_2") {
         return guclu_yanlarin_41_30_2;
       }
-    } else if (guclu_yanlarinData.name == "36-35") {
-      if (type == "36-35_1") {
-        return guclu_yanlarin_36_35_1;
-      } else if (type == "36-35_2") {
-        return guclu_yanlarin_36_35_2;
+    } else if (guclu_yanlarinData.name == "35-36") {
+      if (type == "35-36_1") {
+        return guclu_yanlarin_35_36_1;
+      } else if (type == "35-36_2") {
+        return guclu_yanlarin_35_36_2;
       }
     } else if (guclu_yanlarinData.name == "11-56") {
       if (type == "11-56_1") {
