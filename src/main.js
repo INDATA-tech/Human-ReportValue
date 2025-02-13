@@ -6221,8 +6221,8 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P6A8 : kslk_ozl(hollandData[1].name, 25, "question_3"),
   
     P7A1 : "chart", // Karakter Özelliklerin
-    P7A2 : krktr_ozl(big5Data[0].name, 25, "name").toLocaleUpperCase('tr-TR'),
-    P7A3 : krktr_ozl(big5Data[1].name, 25, "name").toLocaleUpperCase('tr-TR'),
+    P7A2 : krktr_ozl(big5Data[0].name || "", 25, "name").toLocaleUpperCase('tr-TR'),
+    P7A3 : krktr_ozl(big5Data[0].name || "", 25, "name").toLocaleUpperCase('tr-TR'),
     P7A4 : krktr_ozl(big5Data[0].name, 25, "character_elements"),
     P7A5 : krktr_ozl(big5Data[1].name, 25, "character_elements"),
     
@@ -6300,7 +6300,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     
     P18A1 : lifestyle(lifestyleData[0], 25, "p2"),
     P18A2 : lifestyle(lifestyleData[0], 25, "p3"),
-    P18A3 : lifestyle(lifestyleData[0], 25, "motto").toLocaleUpperCase('tr-TR'), // motto
+    P18A3 : lifestyle(lifestyleData[0] || "", 25, "motto").toLocaleUpperCase('tr-TR'), // motto
   
     P19A1 : lifestyle(lifestyleData[0], 25, "questions"),
     P19A2 : lifestyle(lifestyleData[0], 25, "evaluation_1"),
@@ -6310,7 +6310,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P19A6 : lifestyle(lifestyleData[0], 25, "evaluation_5"),
     
     P20A1 : communication(communicationData[0], 25, "name").toLocaleUpperCase('tr-TR'),
-    P20A2 : communication(communicationData[0], 25, "1"),
+    P20A2 : communication(communicationData[0] || "", 25, "1"),
     P20A3 : communication(communicationData[0], 25, "2"),
     P20A4 : communication(communicationData[0], 25, "3"),
     P20A5 : communication(communicationData[0], 25, "4"),

@@ -3034,6 +3034,26 @@ var communication_reflektor_3_s3 = "• Nazik ve sessiz varlığın, başkaları
 var communication_reflektor_4_s3 = "• Yansıtıcı içgörülerini başkalarıyla paylaşmadan önce değerlendirme yapmak için yeterince zaman ayırıyor musun? Stratejik bakış açını daha derinleştirmek için ne tür tartışmalar sana faydalı olabilir?";
 var communication_reflektor_5_s3 = "• Çevrenin sağlığını gözlemleme yeteneğin, ekip arkadaşlarına ve projelerine nasıl katkıda bulunuyor? Bu içsel bilgeliği iş yerinde daha etkili bir şekilde nasıl ortaya koyabilirsin?";
 
+//İletişim Ve Etkileşim Tarzın İngilizce
+var communication_generator_eng_0 = "Energetic";
+var communication_generator_eng_1 = "Central to effective communication is your non-verbal presence, which acts as a silent communicator, attracting others and opportunities to you. Your open and enveloping presence acts like a magnet, naturally drawing people towards you and paving the way for fruitful interactions.";
+var communication_generator_eng_2 = "The Key to Successful Interactions with Others is…";
+var communication_generator_eng_3 = "Wait to Respond Before Engaging: ";
+var communication_generator_eng_3_1 = "By refraining from initiating interactions and instead waiting to respond, you open the channels of communication and remove resistance. Practice opening your awareness, observing opportunities as they present themselves, and listening to your intuition before engaging with others.";
+var communication_generator_eng_4 = "Respond to What Feels Right:";
+var communication_generator_eng_5 = "Trust your instincts and respond to situations based on what resonates with you. Pay attention to what excites you and aligns with your values, allowing your genuine enthusiasm to guide your interactions.";
+var communication_generator_eng_6 = "Don’t Initiate - Only Engage After You Have Responded First:";
+var communication_generator_eng_7 = "Rather than initiating interactions, focus on responding to invitations and opportunities that align with your personal preferences and objectives. By allowing interactions to unfold organically, you create authentic connections that are rooted in mutual understanding and respect.";
+var communication_generator_eng_1_s2 = "Leverage Your Natural Magnetism: Your innate ability to draw people in with your presence is a great asset. In the workplace, let this magnetism work for you by being consistently approachable. Your colleagues will naturally gravitate towards you, seeking your input and support on projects, recognizing your ability to provide the energy that moves initiatives forward.";
+var communication_generator_eng_2_s2 = "Respond with Intention: While it's tempting to jump into action, remember that your power lies in response. Practice active listening and engage with projects that genuinely excite you and align with your values. When you respond rather than initiate, you create a dynamic where your efforts are more effective and recognized as essential contributions.";
+var communication_generator_eng_3_s2 = "Establish Clear Boundaries: Be clear about your capacity and willingness to take on tasks. This ensures that you do not overcommit and allows you to channel your energy into tasks where you can be most productive. When you operate within your capacity, your satisfaction in work increases, and this is naturally communicated through the quality and timeliness of your output.";
+var communication_generator_eng_4_s2 = "Showcase Enthusiasm in Engagement: When you do choose to engage, do so with evident enthusiasm. Your energy is contagious and can inspire and motivate your team. Let your genuine excitement for the work guide your interactions, and you’ll find that you become even more pivotal within your team dynamics.";
+var communication_generator_eng_1_s3 = "• Do you wait to respond before engaging in interactions? How can you listen to your instincts and recognize when the right time comes?"; 
+var communication_generator_eng_2_s3 = "• Are you responding to things that truly excite you? What can you do to trust your instincts and choose only the opportunities that align with you?"; 
+var communication_generator_eng_3_s3 = "• Are you making sure you're truly responding before initiating interactions? How can you apply this approach more in your work and social life?"; 
+var communication_generator_eng_4_s3 = "• Do you notice that people naturally gravitate towards you? What steps can you take to create more effective interactions at work thanks to your natural magnetism?"; 
+var communication_generator_eng_5_s3 = "• Are you responding to the right projects at work and ensuring your energy is directed towards the right areas? What strategies can you use to find the tasks that bring you the most satisfaction?"; 
+
 
 //Karar Verme Stratejilerin
 var decision_strategy_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al"; 
@@ -3112,7 +3132,7 @@ var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan
 var decision_strategy_s3_11_3 = "İki Temel Unsur:";
 var decision_strategy_s3_11_4 = "• Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
 var decision_strategy_s3_11_5 = "• Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
-//---
+//----
 var decision_strategy_s4_1_title = "Karar Verme Stratejini Takip Etmek: ";
 var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
 var decision_strategy_s4_1_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle\n2.Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".\n3.Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.\n4.Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.\n5.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
@@ -3167,6 +3187,22 @@ var decision_strategy_s4_11_title = "Karar Verme Stratejini Takip Etmek:";
 var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur, böylece daha bilinçli bir karar sürecine girersin.";
 var decision_strategy_s4_11_1 = "1.Bir Teklif ya da Daveti Bekle: Kendi kendine girişimde bulunma isteğine diren. Diğerlerinin sana bir teklif ya da davet sunmasını bekle, bu doğal eğiliminle uyumludur.\n2.Bekle, Düşün, Tartış: Karar üzerinde düşünmek ve başkalarıyla tartışmak için yaklaşık bir ayını ayır. Bu konuşmaları tavsiye almak için değil, düşüncelerini ifade etmek ve potansiyel gerçeğini duymak için kullan.\n3.Derin ve Ani Bir İçsel Bilgi Hissini Bekle: İçsel rehberliğine güven, bir kararın senin gerçeğinle derin bir şekilde örtüştüğünü fark ettiğinde bunu kabul et.\n4.Karar Ver: Düşüncelerin ve tartışmaların ışığında, \"evet,\" \"hayır\" ya da \"şimdi değil\" şeklinde net bir karar ver.\n5.Harekete Geç: Kararının düşünceli bir değerlendirme ve diyalogla desteklendiğinden emin olarak, kendine güvenle ilerle.";
 var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimlerini sabır, netlik ve derin bir anlayışla yönetebilir, böylece hayatında daha fazla uyum ve tatmin sağlayabilirsin.";
+
+//Karar Verme Stratejilerin İngilizce
+var decision_strategy_eng_s3_1_0 = "Karşılık Ver ve Netlikle Karar Al";
+var decision_strategy_eng_s3_1_1 = "Wait to Respond then Wait for Clarity";
+var decision_strategy_eng_s3_1_2 = "Your decision-making strategy revolves around two key aspects: listening to your gut response and then patiently waiting for clarity to emerge. Your gut serves as a valuable guide, signaling whether you have the energy to commit to a particular course of action. However, it's essential to recognize that responses can be influenced by the mind, especially when feelings of urgency or pressure arise. Therefore, it's crucial to wait for these pressures to subside and seeking clarity.";
+var decision_strategy_eng_s3_1_3 = "Gut Response: Once life has brought something to you, your gut response will manifest as either an \"ah-huh\" (yes), a \"uhn-un\" (no), or a \"hmmmmm\" (no for now or ask me in another way). Pay attention to these subtle signals, but be cautious of making decisions solely based on immediate gut reactions.";
+var decision_strategy_eng_s3_1_4 = "Wait for Clarity: Rather than rushing into action, allow yourself the time and space to wait for clarity to emerge. Avoid making decisions during emotional highs or lows and instead sleep on it before making important choices. This patience allows you to discern with a calm, certain confidence.";
+
+
+//---
+var decision_strategy_eng_s4_1_text = "Acting from the mind can lead to second-guessing your gut responses, feeling anxious, and missing out on opportunities. In contrast, acting from response and clarity involves actively waiting for life to come towards you and trusting your gut's guidance while also seeking emotional clarity before making decisions.";
+var decision_strategy_eng_s4_1_1 = "1.Actively Wait: Be receptive to life's cues and signals, allowing yourself to observe without immediate action.\nRespond: Listen for your gut's response – an \"ah-huh\" for yes, a \"uhn-un\" for no, or a \"hmmmmm\" for not now.\nWait for Clarity: Sleep on it and allow yourself to feel out your emotional wave. Avoid making decisions during heightened emotional states.\nDecide: Based on your gut response and emotional clarity, make a decision – yes, no, or not now.\nAct or Not: Finally, take action or refrain from action based on your decision, trusting in the wisdom of your gut instincts and emotional clarity.";
+var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strategy, you can navigate through choices with patience, discernment, and confidence, leading to greater success and fulfillment in your career and business endeavors.";
+
+
+//----
 
   let krktr_ozl = (big5Name, age, type) => {
     if (type == "name") {
@@ -6221,8 +6257,8 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P6A8 : kslk_ozl(hollandData[1].name, 25, "question_3"),
   
     P7A1 : "chart", // Karakter Özelliklerin
-    P7A2 : krktr_ozl(big5Data[0].name, 25, "name").toLocaleUpperCase('tr-TR'),
-    P7A3 : krktr_ozl(big5Data[1].name, 25, "name").toLocaleUpperCase('tr-TR'),
+    P7A2 : krktr_ozl(big5Data[0].name || "", 25, "name").toLocaleUpperCase('tr-TR'),
+    P7A3 : krktr_ozl(big5Data[1].name || "", 25, "name").toLocaleUpperCase('tr-TR'),
     P7A4 : krktr_ozl(big5Data[0].name, 25, "character_elements"),
     P7A5 : krktr_ozl(big5Data[1].name, 25, "character_elements"),
     
@@ -6300,7 +6336,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     
     P18A1 : lifestyle(lifestyleData[0], 25, "p2"),
     P18A2 : lifestyle(lifestyleData[0], 25, "p3"),
-    P18A3 : lifestyle(lifestyleData[0], 25, "motto").toLocaleUpperCase('tr-TR'), // motto
+    P18A3 : lifestyle(lifestyleData[0] || "", 25, "motto").toLocaleUpperCase('tr-TR'), // motto
   
     P19A1 : lifestyle(lifestyleData[0], 25, "questions"),
     P19A2 : lifestyle(lifestyleData[0], 25, "evaluation_1"),
@@ -6309,7 +6345,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     P19A5 : lifestyle(lifestyleData[0], 25, "evaluation_4"),
     P19A6 : lifestyle(lifestyleData[0], 25, "evaluation_5"),
     
-    P20A1 : communication(communicationData[0], 25, "name").toLocaleUpperCase('tr-TR'),
+    P20A1 : communication(communicationData[0] || "", 25, "name").toLocaleUpperCase('tr-TR'),
     P20A2 : communication(communicationData[0], 25, "1"),
     P20A3 : communication(communicationData[0], 25, "2"),
     P20A4 : communication(communicationData[0], 25, "3"),
@@ -6515,8 +6551,6 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     graphteamwork: teamworkData,
   }
 
-  // -------
-
   if (usageGate.length === 1) {
 
     allVariables,
@@ -6524,7 +6558,7 @@ var decision_strategy_s4_11_txt = "Bu karar verme stratejisine uyarak, seçimler
     allVariables.P30A1 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_1",); 
     allVariables.P30A2 = guclu_yanlarin(guclu_yanlarinData[0], 25, guclu_yanlarinData[0].name + "_2",); 
     
-    allVariables.P33A1 = decision_strategy(decision_strategyData, 25, "name"); // Senin Karar Verme Stratejin
+    allVariables.P33A1 = decision_strategy(decision_strategyData, 25, "s3_x_1"); // Senin Karar Verme Stratejin
     allVariables.P33A2 = decision_strategy(decision_strategyData, 25, "s3_x_2");
     allVariables.P33A3 = "İki Temel Unsur:";
     allVariables.P33A4 = decision_strategy(decision_strategyData, 25, "s3_x_4");
