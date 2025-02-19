@@ -6444,7 +6444,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
     P27A6 : is_y_r(is_y_rData[0], 25, "s2_3_1"),
     P27A7 : is_y_r(is_y_rData[0], 25, "image"),
     
-    P28A1 : is_y_r(is_y_rData[0], 25, "name"),
+    P28A1 : is_y_r(is_y_rData[0], 25, "s2_1"),
     P28A2 : is_y_r(is_y_rData[0], 25, "s3_1"),
     P28A3 : is_y_r(is_y_rData[0], 25, "s3_1_1"),
     P28A4 : is_y_r(is_y_rData[0], 25, "s3_2"),
