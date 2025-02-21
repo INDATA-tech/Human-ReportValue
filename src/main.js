@@ -109,6 +109,14 @@ export default async ({ req, res, log, error }) => {
     ),
   };
 
+  var sortedaiData = aiData.sort(function(a, b) {
+    return b.value - a.value;
+  });
+  
+  var sortedTeamWorkData = teamworkData.sort(function(a, b) {
+    return b.value - a.value;
+  });
+
   hollandData.sort((a, b) => b.value - a.value);
   big5Data.sort((a, b) => b.value - a.value);
   var type = [
@@ -2684,8 +2692,8 @@ var ai_25_s4u1_7_2 = "•	Yapay zekanın etik kullanımı hakkında sahip olduğ
 var ai_25_s4u1_7_3 = "•	AI teknolojilerini sosyal sorumluluk bilinciyle kullanarak toplumda nasıl bir etki yaratabilirsin? Bu farkındalığı okul ve kariyer hayatında nasıl kullanabilirsin?";
 
 var ai_25_s4u1_8_1 = "Duygusal Zeka (EQ)";
-var ai_25_s4u1_8_2 = "•	Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin?";
-var ai_25_s4u1_8_3 = "•	Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin?";
+var ai_25_s4u1_8_2 = "• Empati yeteneğinle iş arkadaşların ya da müşterilerin ihtiyaçlarını nasıl daha iyi anlayabilirsin? Bu beceriyi liderlik ya da yönetim pozisyonlarında nasıl kullanabilirsin?";
+var ai_25_s4u1_8_3 = "• Stres yönetimi konusunda sahip olduğun yetkinliklerle yoğun ve zorlu projelerde nasıl başarılı olabilirsin? Bu beceriyi kariyer hayatında nasıl geliştirebilirsin?";
 
 var ai_25_s4u1_9_1 = "Yenilikçi ve Girişimci Düşünce";
 var ai_25_s4u1_9_2 = "•	Girişimci düşünme yeteneğinle AI çağında hangi yenilikçi iş fikirlerini hayata geçirebilirsin? Bu fikirleri gerçekleştirmek için hangi adımları atmayı düşünüyorsun?";
@@ -2981,10 +2989,10 @@ var lifestyle_25_plus_energetic_evaluation_5 = "• Hayal kırıklığına uğra
 
 var lifestyle_25_plus_starter_energetic_question_name = "Başlatıcı Enerjik";
 var lifestyle_25_plus_starter_energetic_evaluation_1 = "• Harekete geçmeden önce hem başlatma arzumu hem de çevremdeki dünyaya yanıt verme ihtiyacımı nasıl onurlandırabilirim?";
-var lifestyle_25_plus_starter_energetic_evaluation_2 = "• Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
-var lifestyle_25_plus_starter_energetic_evaluation_3 = "• Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
-var lifestyle_25_plus_starter_energetic_evaluation_4 = "• Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
-var lifestyle_25_plus_starter_energetic_evaluation_5 = "• Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_2 = "• Hayal kırıklığı veya sabırsızlık anlarıyla nasıl başa çıkabilirim ve şu anki yaklaşımım hakkında bu duygulardan ne öğrenebilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_3 = "• Yön değiştirme konusunda suçluluk hissetmeden hayatımda esnekliği ve deneyselliği hangi yollarla kucaklayabilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_4 = "• Hayatımın hangi alanları çoklu görev yeteneğimden yararlanır ve gereksiz dikkat dağıtıcı şeylerden kaçınmak için odağımı nasıl düzeltebilirim? ";
+var lifestyle_25_plus_starter_energetic_evaluation_5 = "• Yeni bir şeye başlama dürtüsünü hissettiğimde, bir sonraki adımın doğru olduğundan emin olmak için bağırsaklarımı (Sakral tepki) nasıl kontrol edebilirim? ";
 
 var lifestyle_25_plus_projektor_question_name = "Rehber";
 var lifestyle_25_plus_projektor_evaluation_1 = "• Görülmek veya duyulmak için zorlamak yerine davetiyeleri beklemem gerektiğini nasıl anlarım? ";
@@ -3495,7 +3503,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
 
     return null;
   };
-
+  
   let ai = (aiName, age, type) => {
     if (type == "name") {
       if (aiName == "Dijital Okuryazarlık") {
@@ -3506,7 +3514,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s3_3_1;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s3_4_1;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s3_5_1;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s3_6_1;
@@ -3526,7 +3534,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s3_3_2;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s3_4_2;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s3_5_2;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s3_6_2;
@@ -3546,7 +3554,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s3_3_3;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s3_4_3;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s3_5_3;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s3_6_3;
@@ -3566,7 +3574,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u1_3_2;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u1_4_2;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u1_5_2;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u1_6_2;
@@ -3586,7 +3594,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u1_3_3;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u1_4_3;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u1_5_3;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u1_6_3;
@@ -3606,7 +3614,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u2_3_2;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u2_4_2;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u2_5_2;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u2_6_2;
@@ -3626,7 +3634,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u2_3_3;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u2_4_3;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u2_5_3;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u2_6_3;
@@ -3646,7 +3654,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u2_3_4;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u2_4_4;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u2_5_4;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u2_6_4;
@@ -3666,7 +3674,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
         return ai_25_s4u2_3_5;
       } else if (aiName == "Eleştirel Düşünme ve Problem Çözme") {
         return ai_25_s4u2_4_5;
-      } else if (aiName == "Uyarlabilirlik ve Sürekli Öğrenme") {
+      } else if (aiName == "Uyarlanabilirlik ve Sürekli Öğrenme") {
         return ai_25_s4u2_5_5;
       } else if (aiName == "İletişim ve İşbirliği") {
         return ai_25_s4u2_6_5;
@@ -6309,7 +6317,7 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
     P6A1 : kslk_ozl(hollandData[0].name, 25, "name"), // Kendini Değerlendirme
     P6A2 : kslk_ozl(hollandData[0].name, 25, "question_1"),
     P6A3 : kslk_ozl(hollandData[0].name, 25, "question_2"),
-    P6A4 :kslk_ozl(hollandData[0].name, 25, "question_3"),
+    P6A4 : kslk_ozl(hollandData[0].name, 25, "question_3"),
     P6A5 : kslk_ozl(hollandData[1].name, 25, "name"),
     P6A6 : kslk_ozl(hollandData[1].name, 25, "question_1"),
     P6A7 : kslk_ozl(hollandData[1].name, 25, "question_2"),
@@ -6342,52 +6350,52 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
   
     P11A1 : "chart", // Yapay zeka çağı yetkinliklerin
   
-    P12A1 : ai(aiData[0].name, 25, "name"),
-    P12A2 : ai(aiData[1].name, 25, "name"),
-    P12A3 : ai(aiData[0].name, 25, "s3_x_2"),
-    P12A4 : ai(aiData[1].name, 25, "s3_x_2"),
-    P12A5 : ai(aiData[0].name, 25, "s3_x_3"),
-    P12A6 : ai(aiData[1].name, 25, "s3_x_3"),
-    P12A7 : ai(aiData[aiData.length - 1].name, 25, "name"),
-    P12A8 : ai(aiData[aiData.length - 2].name, 25, "name"),
-    P12A9 : ai(aiData[aiData.length - 1].name, 25, "s3_x_2"),
-    P12A10 : ai(aiData[aiData.length - 2].name, 25, "s3_x_2"),
-    P12A11 : ai(aiData[aiData.length - 1].name, 25, "s3_x_3"),
-    P12A12 : ai(aiData[aiData.length - 2].name, 25, "s3_x_3"),
+    P12A1 : ai(sortedaiData[0].name, 25, "name"),
+    P12A2 : ai(sortedaiData[1].name, 25, "name"),
+    P12A3 : ai(sortedaiData[0].name, 25, "s3_x_2"),
+    P12A4 : ai(sortedaiData[1].name, 25, "s3_x_2"),
+    P12A5 : ai(sortedaiData[0].name, 25, "s3_x_3"),
+    P12A6 : ai(sortedaiData[1].name, 25, "s3_x_3"),
+    P12A7 : ai(sortedaiData[sortedaiData.length - 1].name, 25, "name"),
+    P12A8 : ai(sortedaiData[sortedaiData.length - 2].name, 25, "name"),
+    P12A9 : ai(sortedaiData[sortedaiData.length - 1].name, 25, "s3_x_2"),
+    P12A10 : ai(sortedaiData[sortedaiData.length - 2].name, 25, "s3_x_2"),
+    P12A11 : ai(sortedaiData[sortedaiData.length - 1].name, 25, "s3_x_3"),
+    P12A12 : ai(sortedaiData[sortedaiData.length - 2].name, 25, "s3_x_3"),
   
-    P13A1 : ai(aiData[0].name, 25, "name"),
-    P13A2 : ai(aiData[0].name, 25, "s4u1_x_2"),
-    P13A3 : ai(aiData[0].name, 25, "s4u1_x_3"),
-    P13A4 : ai(aiData[1].name, 25, "name"),
-    P13A5 : ai(aiData[1].name, 25, "s4u1_x_2"),
-    P13A6 : ai(aiData[1].name, 25, "s4u1_x_3"),
-    P13A7 : ai(aiData[aiData.length - 1].name, 25, "name"),
-    P13A8 : ai(aiData[0].name, 25, "s4u2_x_2"),
-    P13A9 : ai(aiData[0].name, 25, "s4u2_x_3"),
-    P13A10 : ai(aiData[0].name, 25, "s4u2_x_4"),
-    P13A11 : ai(aiData[0].name, 25, "s4u2_x_5"),
+    P13A1 : ai(sortedaiData[0].name, 25, "name"),
+    P13A2 : ai(sortedaiData[0].name, 25, "s4u1_x_2"),
+    P13A3 : ai(sortedaiData[0].name, 25, "s4u1_x_3"),
+    P13A4 : ai(sortedaiData[1].name, 25, "name"),
+    P13A5 : ai(sortedaiData[1].name, 25, "s4u1_x_2"),
+    P13A6 : ai(sortedaiData[1].name, 25, "s4u1_x_3"),
+    P13A7 : ai(sortedaiData[sortedaiData.length - 1].name, 25, "name"),
+    P13A8 : ai(sortedaiData[0].name, 25, "s4u2_x_2"),
+    P13A9 : ai(sortedaiData[0].name, 25, "s4u2_x_3"),
+    P13A10 : ai(sortedaiData[0].name, 25, "s4u2_x_4"),
+    P13A11 : ai(sortedaiData[0].name, 25, "s4u2_x_5"),
 
     P14A1 : "chart", // Ekip Çalışmasına Yatkınlık -- en iyi oldukların
   
-    P15A1 : teamwork(teamworkData[0].name, 25, "name"),
-    P15A2 : teamwork(teamworkData[1].name, 25, "name"),
-    P15A3 : teamwork(teamworkData[0].name, 25, "best"),
-    P15A4 : teamwork(teamworkData[1].name, 25, "best"),
-    P15A5 : teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"), // Geliştirmeyi Düşünebilirsin
-    P15A6 : teamwork(teamworkData[teamworkData.length - 2].name, 25, "name"),
-    P15A7 : teamwork(teamworkData[teamworkData.length - 1].name, 25, "best"),
-    P15A8 : teamwork(teamworkData[teamworkData.length - 2].name, 25, "best"),
+    P15A1 : teamwork(sortedTeamWorkData[0].name, 25, "name"),
+    P15A2 : teamwork(sortedTeamWorkData[1].name, 25, "name"),
+    P15A3 : teamwork(sortedTeamWorkData[0].name, 25, "best"),
+    P15A4 : teamwork(sortedTeamWorkData[1].name, 25, "best"),
+    P15A5 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name, 25, "name"), // Geliştirmeyi Düşünebilirsin
+    P15A6 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 2].name, 25, "name"),
+    P15A7 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name, 25, "best"),
+    P15A8 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 2].name, 25, "best"),
     
-    P16A1 : teamwork(teamworkData[0].name, 25, "name"), // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
-    P16A2 : teamwork(teamworkData[0].name, 25, "s3u1_x_1"),
-    P16A3 : teamwork(teamworkData[0].name, 25, "s3u1_x_2"),
-    P16A4 : teamwork(teamworkData[1].name, 25, "name"),
-    P16A5 : teamwork(teamworkData[1].name, 25, "s3u1_x_1"),
-    P16A6 : teamwork(teamworkData[1].name, 25, "s3u1_x_2"),
-    P16A7 : teamwork(teamworkData[teamworkData.length - 1].name, 25, "name"),
-    P16A8 : teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_1",),
-    P16A9 : teamwork(teamworkData[teamworkData.length - 1].name, 25, "s3u2_x_2",),
-    P16A10 : teamwork(teamworkData[teamworkData.length - 1].name,25, "s3u2_x_3",),
+    P16A1 : teamwork(sortedTeamWorkData[0].name, 25, "name"), // Ekip Çalımasına Yatkınlık Kendini Değerlendirme Gücünü kullan
+    P16A2 : teamwork(sortedTeamWorkData[0].name, 25, "s3u1_x_1"),
+    P16A3 : teamwork(sortedTeamWorkData[0].name, 25, "s3u1_x_2"),
+    P16A4 : teamwork(sortedTeamWorkData[1].name, 25, "name"),
+    P16A5 : teamwork(sortedTeamWorkData[1].name, 25, "s3u1_x_1"),
+    P16A6 : teamwork(sortedTeamWorkData[1].name, 25, "s3u1_x_2"),
+    P16A7 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name, 25, "name"),
+    P16A8 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name, 25, "s3u2_x_1",),
+    P16A9 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name, 25, "s3u2_x_2",),
+    P16A10 : teamwork(sortedTeamWorkData[sortedTeamWorkData.length - 1].name,25, "s3u2_x_3",),
     
     P17A1 : lifestyle(lifestyleData[0], 25, "name"), // Yaşamda İlerleme Tarzın
     P17A2 : lifestyle(lifestyleData[0], 25, "p1"),
@@ -6453,8 +6461,8 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
     graphbig : bigdataPercent,
     graphholland : hollanddataPercent,
     graphcareer : careerSelectionLastResult,
-    graphai: aiData,
-    graphteamwork: teamworkData
+    graphai: sortedaiData,
+    graphteamwork: sortedTeamWorkData
   }
 
   var inputModel={
@@ -6606,8 +6614,8 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
     graphbig: bigdataPercent,
     graphholland: hollanddataPercent,
     graphcareer: careerSelectionLastResult,
-    graphai: aiData,
-    graphteamwork: teamworkData,
+    graphai: sortedaiData,
+    graphteamwork: sortedTeamWorkData,
   }
 
   if (usageGate.length === 1) {
