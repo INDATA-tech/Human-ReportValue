@@ -6064,10 +6064,10 @@ var decision_strategy_eng_s4_1_txt = "By adhering to this decision-making strate
       } else if (type == "54-32_2") {
         return guclu_yanlarin_54_32_2;
       }
-    } else if (guclu_yanlarinData.name == "19-49") {
-      if (type == "19-49_1") {
+    } else if (guclu_yanlarinData.name == "49-19") {
+      if (type == "49-19_1") {
         return guclu_yanlarin_49_19_1;
-      } else if (type == "19-49_2") {
+      } else if (type == "49-19_2") {
         return guclu_yanlarin_49_19_2;
       }
     } else if (guclu_yanlarinData.name == "37-40") {
