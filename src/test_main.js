@@ -2817,8 +2817,8 @@ var teamwork_s3u1_2_2 = "• Ekibinin içinde eyleme ve uyuma ilham vermek için
 var teamwork_s3u1_2_3 = "• Müzakerelerde veya zor paydaşlarla uğraşırken daha etkili olmak için iletişim tarzını nasıl uyarlayabilirsin?";
 
 var teamwork_s3u1_3_1 = "İşbirliği";
-var teamwork_s3u1_3_2 = "• İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? ";
-var teamwork_s3u1_3_3 = "• İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? ";
+var teamwork_s3u1_3_2 = "• İşbirlikçi ekip çalışması yoluyla daha yaratıcı problem çözmeyi teşvik etmek için hangi adımları atabilirsin? ";
+var teamwork_s3u1_3_3 = "• İşbirliği becerilerini işlevler arası projelere nasıl taşıyabilir ve tüm ekip üyelerinin duyulduğunu hissetmelerini ve etkili bir şekilde katkıda bulunmalarını nasıl sağlayabilirsin? ";
 
 var teamwork_s3u1_4_1 = "Uyumluluk";
 var teamwork_s3u1_4_2 = "• Pazardaki veya endüstri trendlerindeki değişikliklerden daha iyi yararlanmak için uyumluluğunu nasıl kullnabilirsin? ";
