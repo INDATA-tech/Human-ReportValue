@@ -2716,7 +2716,7 @@ var ai_25_s4u2_3_1 = "Kodlama ve Programlama";
 var ai_25_s4u2_3_2 = "• Programlama dilleri öğrenmeye olan ilgim ne düzeyde? Yeni bir dil öğrenmeyi düşündüğümde nereden başlamalıyım? ";
 var ai_25_s4u2_3_3 = "• Hangi alanlarda programlama bilgimi daha da geliştirebilirim? Mevcut projelerimde daha etkin olmak için hangi dilleri öğrenmeliyim?";
 var ai_25_s4u2_3_4 = "• Problemleri çözmek için hangi adımları izliyorum? Mantıksal düşünme becerilerim ne kadar gelişmiş?";
-var ai_25_s4u2_3_4 = "• Algoritmik düşünme yeteneğimi geliştirmek için hangi araçlardan faydalanabilirim? Bu beceriyi iş veya eğitim hayatımda nasıl daha iyi kullanabilirim? ";
+var ai_25_s4u2_3_5 = "• Algoritmik düşünme yeteneğimi geliştirmek için hangi araçlardan faydalanabilirim? Bu beceriyi iş veya eğitim hayatımda nasıl daha iyi kullanabilirim? ";
 
 var ai_25_s4u2_4_1 = "Eleştirel Düşünme ve Problem Çözme ";
 var ai_25_s4u2_4_2 = "• Karar verirken olaylara nasıl yaklaşırım? Farklı seçenekleri değerlendirme konusunda ne kadar analitik düşünüyorum? ";
