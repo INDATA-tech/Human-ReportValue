@@ -11,7 +11,7 @@ export default async ({ req, res, log, error }) => {
   //         // Burada istediğiniz satırı `satirlar[index]` ile alabilirsiniz
   //     })
   //     .catch(error => console.error('Dosya okunamadı:', error));
-  console.log(req)
+  console.log(req.body)
   function getAllGates(jsonData) {
     let gates = [];
 
@@ -64,7 +64,7 @@ export default async ({ req, res, log, error }) => {
 
     // 3. Adım: Sıralanmış dizine göre orijinal veriyi sıralayalım
     const siraliGates = gates.sort((a, b) => {
-      const aIndex = valueSiralama.indexOf(a.value.length);
+      const aIndex = valueSiralama.indexOf(a.value.length);""
       const bIndex = valueSiralama.indexOf(b.value.length);
       return bIndex - aIndex;
     });
