@@ -1,6 +1,6 @@
 import test_main from "../src/test_main.js";
 
-var req = `67b5b830707abe35f143`;
+var req = `681202495c5eb534a6a9`;
 
 var res = "";
 var log = "";
