@@ -11,7 +11,7 @@ export default async ({ req, res, log, error }) => {
   //         // Burada istediğiniz satırı `satirlar[index]` ile alabilirsiniz
   //     })
   //     .catch(error => console.error('Dosya okunamadı:', error));
-  console.log(req.body)
+  // log(req)
   function getAllGates(jsonData) {
     let gates = [];
 
@@ -41,6 +41,24 @@ export default async ({ req, res, log, error }) => {
       return "health";
     else if (sektorName == "Mutfak Sanatları")
       return "meal";
+    else if (sektorName == "Eğitim ve EdTech")
+      return "edTech";
+    else if (sektorName == "Finans ve FinTech")
+      return "finTech";
+    else if (sektorName == "Enerji ve Yenilenebilir Enerji")
+      return "energy";
+    else if (sektorName == "Danışmanlık, Koçluk ve Mentörlük")
+      return "mentor";
+    else if (sektorName == "Turizm ve Misafirperverlik")
+      return "tourism";
+    else if (sektorName == "Tarım ve Tarım Teknolojileri")
+      return "agroTech";
+    else if (sektorName == "Lojistik ve Ulaşım")
+      return "logistic";
+    else if (sektorName == "Medya, Yazılı ve Görsel Basın")
+      return "media";
+    else if (sektorName == "Bunların Dışında Bir Şey - Genel Kariyer")
+      return "other";
     else if (sektorName == "Technology")
       return "tech";
     else if (sektorName == "Retail")
@@ -64,7 +82,7 @@ export default async ({ req, res, log, error }) => {
 
     // 3. Adım: Sıralanmış dizine göre orijinal veriyi sıralayalım
     const siraliGates = gates.sort((a, b) => {
-      const aIndex = valueSiralama.indexOf(a.value.length);""
+      const aIndex = valueSiralama.indexOf(a.value.length);
       const bIndex = valueSiralama.indexOf(b.value.length);
       return bIndex - aIndex;
     });
@@ -1133,7 +1151,7 @@ var kariyer_secim_12_25_s6_2_3 = "• Süpervizör veya Takım Lideri: Perakende
 
 var kariyer_secim_12_25_s6_3_1 = "Yardım ve Sosyal Kariyerler";
 var kariyer_secim_12_25_s6_3_2 = "Üniversite okumadan da yardım ve sosyal kariyerlerde çalışabilirsin:";
-var kariyer_secim_12_25_s6_3_3 = "• Hasta Bakıcı: Sağlık meslek liselerinde hasta bakım eğitimi aldıktan sonra sağlık sektöründe çalışabilirsin.\n\n• •	Sosyal Yardım Çalışanı: Sosyal yardım kurumlarında gönüllü çalışarak, deneyim kazandıktan sonra profesyonel olarak bu alanda çalışabilirsin.\n\n• Rehabilitasyon ve Huzurevi Çalışanı: Yaşlı bakımı ya da engelli bireylerle ilgili kurumlarda iş bulabilir, topluma katkı sağlayabilirsin.\n\n• Özel Eğitim Yardımcısı: Özel eğitim alanında eğitim yardımcısı olarak, bireylere destek sağlayabilirsin.";
+var kariyer_secim_12_25_s6_3_3 = "• Hasta Bakıcı: Sağlık meslek liselerinde hasta bakım eğitimi aldıktan sonra sağlık sektöründe çalışabilirsin.\n\n• Sosyal Yardım Çalışanı: Sosyal yardım kurumlarında gönüllü çalışarak, deneyim kazandıktan sonra profesyonel olarak bu alanda çalışabilirsin.\n\n• Rehabilitasyon ve Huzurevi Çalışanı: Yaşlı bakımı ya da engelli bireylerle ilgili kurumlarda iş bulabilir, topluma katkı sağlayabilirsin.\n\n• Özel Eğitim Yardımcısı: Özel eğitim alanında eğitim yardımcısı olarak, bireylere destek sağlayabilirsin.";
 
 var kariyer_secim_12_25_s6_4_1 = "Teknik ve Mühendislik Kariyerleri";
 var kariyer_secim_12_25_s6_4_2 = "Teknik ve mühendislik kariyerlerinde, meslek lisesi ya da doğrudan iş deneyimiyle başarılı olabilirsin:";
@@ -1145,7 +1163,7 @@ var kariyer_secim_12_25_s6_5_3 = "• Satış Temsilcisi: Doğrudan satış veya
 
 var kariyer_secim_12_25_s6_6_1 = "Organizasyonel ve İdari Kariyerler";
 var kariyer_secim_12_25_s6_6_2 = "Düzen ve organizasyon becerilerini iş hayatında kullanarak, bu alanlarda ilerleyebilirsin:";
-var kariyer_secim_12_25_s6_6_3 = "•	Ofis Asistanı: Bir ofiste sekreterlik veya idari asistanlık yaparak organizasyonel becerilerini geliştirebilirsin.\n\n• Proje Asistanı: Proje yönetim ekiplerinde asistan olarak başlayıp, deneyim kazandıkça daha sorumlu pozisyonlara geçebilirsin.\n\n• İnsan Kaynakları Asistanı: İnsan kaynakları departmanlarında yardımcı pozisyonlarda çalışarak deneyim kazanabilirsin.\n\n• Lojistik veya Stok Yönetimi: Lojistik sektöründe ya da depo yönetiminde çalışarak, organizasyonel süreçleri öğrenebilirsin.";
+var kariyer_secim_12_25_s6_6_3 = "• Ofis Asistanı: Bir ofiste sekreterlik veya idari asistanlık yaparak organizasyonel becerilerini geliştirebilirsin.\n\n• Proje Asistanı: Proje yönetim ekiplerinde asistan olarak başlayıp, deneyim kazandıkça daha sorumlu pozisyonlara geçebilirsin.\n\n• İnsan Kaynakları Asistanı: İnsan kaynakları departmanlarında yardımcı pozisyonlarda çalışarak deneyim kazanabilirsin.\n\n• Lojistik veya Stok Yönetimi: Lojistik sektöründe ya da depo yönetiminde çalışarak, organizasyonel süreçleri öğrenebilirsin.";
 
 var kariyer_secim_12_25_s6_7_1 = "Yenilikçi ve Girişimci Kariyerler";
 var kariyer_secim_12_25_s6_7_2 = "Girişimcilik ve yenilikçilik için üniversite diplomasına ihtiyaç duymadan da birçok adım atabilirsin:";
@@ -1289,17 +1307,17 @@ var kariyer_secim_25_plus_s7_retail_9_2 = "Perakende sektöründe analitik düş
 var kariyer_secim_25_plus_s7_retail_9_3 = "• Stok ve Envanter Analisti: Mağazanın stok hareketlerini analiz ederek, envanter yönetimini optimize edebilirsin."; 
 var kariyer_secim_25_plus_s7_retail_9_4 = "• Satış Veri Analisti: Satış verilerini analiz edip, mağaza performansını artırmak için stratejik kararlar verebilirsin."; 
 var kariyer_secim_25_plus_s7_retail_9_5 = "• Pazarlama Analitiği Uzmanı: Pazarlama kampanyalarının etkisini ölçüp, veri odaklı pazarlama stratejileri geliştirebilirsin."; 
-var kariyer_secim_25_plus_s7_retail_9_6 = "• E-Ticaret Analitiği Uzmanı: Online mağaza verilerini analiz ederek müşteri davranışlarını anlamaya yönelik çözümler geliştirebilirsin."; 
-var kariyer_secim_25_plus_s7_retail_9_7 = "• Müşteri Analitiği Uzmanı: Müşteri verilerini analiz ederek müşteri segmentasyonları ve hedeflemeleri yapabilirsin."; 
+var kariyer_secim_25_plus_s7_retail_9_6 = "• Müşteri Analitiği Uzmanı: Müşteri verilerini analiz ederek müşteri segmentasyonları ve hedeflemeleri yapabilirsin."; 
+var kariyer_secim_25_plus_s7_retail_9_7 = "• E-Ticaret Analitiği Uzmanı: Online mağaza verilerini analiz ederek müşteri davranışlarını anlamaya yönelik çözümler geliştirebilirsin."; 
 
 //sağlık
 var kariyer_secim_25_plus_s7_health_1_1 = "Yaratıcı ve Sanatsal Kariyerler ";
 var kariyer_secim_25_plus_s7_health_1_2 = "Sağlık ve ilaç sektöründe yaratıcı becerilerini kullanabileceğin işler şunlar olabilir:";
 var kariyer_secim_25_plus_s7_health_1_3 = "• Sağlık İletişimi Uzmanı: Sağlık kampanyalarının tanıtımını yapabilir, broşür, web sitesi ve sosyal medya için yaratıcı içerikler üretebilirsin.";
-var kariyer_secim_25_plus_s7_health_1_4 = "• Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsin.";
-var kariyer_secim_25_plus_s7_health_1_5 = "• Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsin.";
-var kariyer_secim_25_plus_s7_health_1_6 = "• Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsin. ";
-var kariyer_secim_25_plus_s7_health_1_7 = "• İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsin.";
+var kariyer_secim_25_plus_s7_health_1_4 = "• Grafik Tasarımcı: Sağlık kuruluşlarının ya da ilaç firmalarının tanıtım materyallerini tasarlayarak yaratıcı çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_health_1_5 = "• Reklam ve Tanıtım Uzmanı: İlaç firmalarının ve sağlık hizmetlerinin pazarlama stratejilerini yönetebilir, yaratıcı kampanyalar geliştirebilirsin. ";
+var kariyer_secim_25_plus_s7_health_1_6 = "• İçerik Üreticisi: Sağlıkla ilgili bloglar, videolar ya da sosyal medya içerikleri oluşturarak sektörel farkındalık yaratabilirsin.";
+var kariyer_secim_25_plus_s7_health_1_7 = "• Medikal İllüstratör: Tıbbi konuları ve prosedürleri görsel olarak açıklayan çizimler yaparak doktorlar, hastalar ve öğrenciler için bilgi sağlayabilirsin.";
 
 var kariyer_secim_25_plus_s7_health_2_1 = "Liderlik ve Yönetim Kariyerleri ";
 var kariyer_secim_25_plus_s7_health_2_2 = "Sağlık ve ilaç sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
@@ -1557,16 +1575,16 @@ var kariyer_secim_25_plus_s7_auto_6_2 = "Otomotiv sektöründe organizasyon ve i
 var kariyer_secim_25_plus_s7_auto_6_3 = "• Ofis Yöneticisi: Otomobil firmalarında idari süreçleri yönetebilir, personel ve günlük operasyonları organize edebilirsin.";
 var kariyer_secim_25_plus_s7_auto_6_4 = "• İnsan Kaynakları Uzmanı: Otomotiv sektöründe çalışan personelin alım süreçlerini, eğitimlerini ve performans değerlendirmelerini yapabilirsin.";
 var kariyer_secim_25_plus_s7_auto_6_5 = "• Stok Yönetimi Uzmanı: Bayilerde ya da üretim tesislerinde araç ve parça stoklarını yönetebilir, taleplere göre stok seviyelerini optimize edebilirsin.";
-var kariyer_secim_25_plus_s7_auto_6_6 = "• Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsin.";
-var kariyer_secim_25_plus_s7_auto_6_7 = "• Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsin.";
+var kariyer_secim_25_plus_s7_auto_6_6 = "• Lojistik ve Dağıtım Uzmanı: Üretilen araçların bayilere veya distribütörlere zamanında teslim edilmesi için lojistik süreçlerini organize edebilirsin.";
+var kariyer_secim_25_plus_s7_auto_6_7 = "• Satış Operasyonları Yöneticisi: Otomobil satış süreçlerinin operasyonel detaylarını yönetebilir, bayi ve distribütörler arasındaki iletişimi koordine edebilirsin.";
 
 var kariyer_secim_25_plus_s7_auto_7_1 = "Yenilikçi ve Girişimci Kariyerler";
 var kariyer_secim_25_plus_s7_auto_7_2 = "Otomotiv sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
 var kariyer_secim_25_plus_s7_auto_7_3 = "• Elektrikli Araç Girişimcisi: Elektrikli otomobil üretimi veya şarj altyapısı geliştirme üzerine bir girişim başlatabilirsin.";
-var kariyer_secim_25_plus_s7_auto_7_4 = "• Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsin.";
-var kariyer_secim_25_plus_s7_auto_7_5 = "• Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsin.";
-var kariyer_secim_25_plus_s7_auto_7_6 = "• İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsin.";
-var kariyer_secim_25_plus_s7_auto_7_7 = "• Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsin.";
+var kariyer_secim_25_plus_s7_auto_7_4 = "• Start-up Kurucusu (Otomobil Paylaşımı): Araç paylaşımı veya kiralama üzerine bir platform geliştirebilir, mobilite çözümleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_auto_7_5 = "• İnovasyon Danışmanı: Otomotiv firmalarına yeni teknoloji ve trendler hakkında danışmanlık yaparak, yenilikçi stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_auto_7_6 = "• Ar-Ge Yöneticisi: Yeni araç teknolojileri geliştirmek üzere Ar-Ge projeleri yönetebilir ve sektördeki yenilikleri takip edebilirsin.";
+var kariyer_secim_25_plus_s7_auto_7_7 = "• Otomotiv Teknoloji Girişimcisi: Otonom sürüş, yapay zeka veya bağlantılı araç teknolojileri üzerine yenilikçi çözümler sunan bir girişim kurabilirsin.";
 
 var kariyer_secim_25_plus_s7_auto_8_1 = "Öğretim ve Mentorluk Kariyerleri";
 var kariyer_secim_25_plus_s7_auto_8_2 = "Otomotiv sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
@@ -1603,19 +1621,19 @@ var kariyer_secim_25_plus_s7_meal_2_7 = "• Catering Müdürü: Büyük etkinli
 
 var kariyer_secim_25_plus_s7_meal_3_1 = "Yardım ve Sosyal Kariyerler";
 var kariyer_secim_25_plus_s7_meal_3_2 = "Mutfak sanatları sektöründe yardımsever yönlerini kullanabileceğin işler şunlar olabilir::";
-var kariyer_secim_25_plus_s7_meal_3_3 = "• Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsin.";
-var kariyer_secim_25_plus_s7_meal_3_4 = "• Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsin.";
-var kariyer_secim_25_plus_s7_meal_3_5 = "• Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsin.";
-var kariyer_secim_25_plus_s7_meal_3_6 = "• Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsin.";
-var kariyer_secim_25_plus_s7_meal_3_7 = "• Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsin.";
+var kariyer_secim_25_plus_s7_meal_3_3 = "• Gıda Güvenliği Eğitmeni: Restoran ve mutfaklarda gıda güvenliği ve hijyen konularında eğitimler vererek sağlığı koruyabilirsin.";
+var kariyer_secim_25_plus_s7_meal_3_4 = "• Aşçılık Eğitmeni: Genç aşçılara veya yemek meraklılarına mutfak becerileri ve tarifler hakkında eğitim verebilirsin.";
+var kariyer_secim_25_plus_s7_meal_3_5 = "• Sosyal Yardım Projeleri Koordinatörü: Gıda bağışları veya mutfak destek projelerinde görev alarak, toplumsal yardımlaşmayı destekleyebilirsin.";
+var kariyer_secim_25_plus_s7_meal_3_6 = "• Gıda Danışmanı: Sağlıklı yemek planları ve beslenme konularında rehberlik yaparak bireylerin yaşam kalitesini artırabilirsin.";
+var kariyer_secim_25_plus_s7_meal_3_7 = "• Topluluk Mutfakları Yöneticisi: Gıda yardımı sağlayan organizasyonlarda, ihtiyaç sahiplerine yemek hizmetleri sunabilir ve topluma katkıda bulunabilirsin.";
 
 var kariyer_secim_25_plus_s7_meal_4_1 = "Teknik ve Mühendislik Kariyerleri";
 var kariyer_secim_25_plus_s7_meal_4_2 = "Mutfak sanatları sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
-var kariyer_secim_25_plus_s7_meal_4_3 = "• Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsin.";
-var kariyer_secim_25_plus_s7_meal_4_4 = "• Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsin.";
-var kariyer_secim_25_plus_s7_meal_4_5 = "• Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsin.";
-var kariyer_secim_25_plus_s7_meal_4_6 = "• Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsin.";
-var kariyer_secim_25_plus_s7_meal_4_7 = "• Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsin.";
+var kariyer_secim_25_plus_s7_meal_4_3 = "• Gıda Teknologu: Gıda ürünlerinin üretim süreçlerini denetleyebilir, kalite kontrol ve ürün geliştirme üzerine çalışabilirsin.";
+var kariyer_secim_25_plus_s7_meal_4_4 = "• Mutfak Tasarımcısı: Profesyonel mutfak alanlarının planlanması ve tasarımı konusunda çalışmalar yapabilirsin.";
+var kariyer_secim_25_plus_s7_meal_4_5 = "• Yemek Üretim Süreçleri Mühendisi: Gıda üretim süreçlerini analiz ederek, verimlilik ve kaliteyi artırmak için teknik çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_meal_4_6 = "• Gıda Paketleme Uzmanı: Gıda ürünlerinin paketleme süreçlerini optimize ederek, ürünlerin güvenliğini ve tazeliğini koruyabilirsin.";
+var kariyer_secim_25_plus_s7_meal_4_7 = "• Mutfak Ekipmanları Mühendisi: Mutfak ekipmanlarının tasarımını yapabilir, yeni teknolojiler geliştirebilir ve mevcut ekipmanları optimize edebilirsin.";
 
 var kariyer_secim_25_plus_s7_meal_5_1 = "Satış ve İlişki Kurma Kariyerleri";
 var kariyer_secim_25_plus_s7_meal_5_2 = "Mutfak sanatları sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
@@ -1656,6 +1674,663 @@ var kariyer_secim_25_plus_s7_meal_9_4 = "• Müşteri Deneyimi Analisti: Restor
 var kariyer_secim_25_plus_s7_meal_9_5 = "• Satış Verileri Analisti: Restoran satış verilerini analiz ederek, satış stratejilerini optimize edebilir ve iş kararlarını destekleyebilirsin.";
 var kariyer_secim_25_plus_s7_meal_9_6 = "• Gıda Güvenliği Analisti: Gıda güvenliği verilerini analiz ederek, hijyen standartlarının ve kalite kontrol süreçlerinin iyileştirilmesine katkıda bulunabilirsin.";
 var kariyer_secim_25_plus_s7_meal_9_7 = "• Gıda Ürünleri Veri Analisti: Gıda ürünlerinin pazar trendlerini ve müşteri tercihlerine dair verileri analiz ederek, ürün geliştirme stratejileri oluşturabilirsin.";
+
+// Eğitim ve EdTech 
+var kariyer_secim_25_plus_s7_edTech_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_edTech_1_2 = "Eğitim ve eğitim teknolojileri sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_1_3 = "• Eğitim İçeriği Tasarımcısı: Eğitim materyallerini, öğretici videoları, animasyonları ve dijital ders içeriklerini tasarlayarak eğitici ve ilgi çekici içerikler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_1_4 = "• Multimedya Eğitim Tasarımcısı: Eğitim sürecini zenginleştirecek multimedya içerikleri (grafik, animasyon) tasarlayarak öğrencilerin daha etkili öğrenmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_1_5 = "• E-Öğrenme Tasarımcısı: Çevrimiçi öğrenme platformları için etkileşimli eğitim modülleri tasarlayarak öğrencilerin dijital öğrenme deneyimlerini geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_1_6 = "• Oyunlaştırma Uzmanı (Gamification Specialist): Eğitim süreçlerine oyunlaştırma yöntemlerini entegre ederek öğrencilerin ilgisini ve motivasyonunu artıracak yaratıcı çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_1_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_edTech_2_2 = "Eğitim sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_2_3 = "• Eğitim Teknolojileri Proje Yöneticisi: Eğitim projelerini dijitalleştirmek ve yenilikçi eğitim çözümleri geliştirmek için projeleri ve ekipleri yönetebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_2_4 = "• EdTech CEO veya CTO: Eğitim teknolojileri şirketinin vizyonunu belirleyebilir, yenilikçi ürünlerin geliştirilmesinde liderlik edebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_2_5 = "• Okul Yönetici (Digital School Principal): Okul içindeki dijital dönüşümü yönetebilir, eğitim teknolojilerinin kullanımını artırarak eğitim süreçlerini iyileştirebilirsin";
+var kariyer_secim_25_plus_s7_edTech_2_6 = "• Eğitim Programı Yöneticisi: Çevrimiçi eğitim platformlarında kursları ve öğretim programlarını organize edebilir, içeriklerin öğretim hedeflerine uygun olmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_2_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_edTech_3_2 = "Eğitim sektörü içinde sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_3_3 = "• Eğitim Teknolojisi Danışmanı: Eğitim kurumlarına dijital dönüşüm süreçlerinde rehberlik ederek en uygun eğitim teknolojilerini seçmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_3_4 = "• Çevrimiçi Öğrenci Destek Uzmanı: Öğrencilerin çevrimiçi öğrenme süreçlerinde karşılaştığı zorluklarla başa çıkabilmeleri için rehberlik edebilir, destek sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_3_5 = "• Dijital Erişilebilirlik Uzmanı: Engelli bireyler için dijital eğitim materyalleri ve platformları geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_3_6 = "• Eğitim Teknolojisi Eğitmeni: Öğretmenlere, okul yöneticilerine veya öğrencilere teknoloji ve dijital araçları öğretmek, eğitim teknolojilerinin verimli kullanımlarını sağlamak için eğitim verebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_3_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_edTech_4_2 = "Eğitim ve eğitim teknolojileri sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_4_3 = "• Eğitim Yazılım Geliştiricisi: Eğitim amaçlı yazılımlar, mobil uygulamalar veya oyunlar geliştirerek dijital eğitim araçlarını tasarlayabilir ve hayata geçirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_4_4 = "• Eğitim Teknolojileri Mühendisi: Eğitim yazılımlarının altyapısını kurabilir, dijital platformların güvenli ve verimli bir şekilde çalışmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_4_5 = "• Veri Analisti (Eğitim Verisi): Eğitim süreçlerini analiz etmek ve iyileştirmek için öğrenci performans verilerini toplayıp analiz edebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_4_6 = "• E-Öğrenme Platformu Geliştiricisi: Çevrimiçi öğrenme platformları için backend ve frontend geliştirmeleri yaparak kullanıcı dostu, etkili öğrenme araçları oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_4_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_edTech_5_2 = "Eğitim ve eğitim teknolojileri sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_5_3 = "• Dijital Eğitim Pazarlama Uzmanı: Eğitim platformlarının dijital pazarlama stratejilerini geliştirebilir, çevrimiçi kampanyalarla potansiyel öğrencilere ulaşabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_5_4 = "• Eğitim İçeriği Satış Müdürü: Eğitim içeriği sağlayıcıları için içerik satışlarını yönetebilir, okullara veya kurumlara uygun eğitim materyalleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_5_5 = "• Kurumsal Eğitim Satış Müdürü: Büyük şirketlere kurumsal eğitim programları sunarak çalışanlarının dijital becerilerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_5_6 = "• Eğitim Teknolojileri Satış Uzmanı: Eğitim kurumlarına ya da bireylere eğitim teknolojisi yazılımları ve platformları satabilir, ihtiyaçlarına uygun dijital eğitim çözümleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_5_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_edTech_6_2 = "Eğitim sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_6_3 = "• Eğitim Teknolojileri Operasyon Yöneticisi: Eğitim projelerinin günlük işleyişini yönetebilir, platformların ve içeriklerin sorunsuz şekilde çalışmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_6_4 = "• Eğitim Yönetici Asistanı: Eğitim yöneticilerinin programlarını organize edebilir, çevrimiçi kurs içeriklerinin düzenli ve güncel olmasını takip edebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_6_5 = "• Okul İdari Destek Uzmanı: Eğitim kurumlarının dijital altyapılarının yönetimini destekleyerek eğitim sisteminin düzgün işlemesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_6_6 = "• İnsan Kaynakları Uzmanı (Eğitim): Eğitim sektörü içindeki personel alımlarını yönetebilir, dijital eğitim becerilerine sahip eğitmenleri ve yöneticileri işe alabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_6_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_edTech_7_2 = "Eğitim sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_7_3 = "• Eğitim Teknolojileri Girişimcisi: Yeni eğitim yazılımları, platformları ya da dijital çözümler geliştirebilir, eğitim dünyasında yenilikçi bir değişim yaratabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_7_4 = "• Çevrimiçi Eğitim Platformu Kurucusu: Kendi çevrimiçi eğitim platformunu kurarak öğrencilere dünya çapında eğitim fırsatları sunabilir, eğitimde erişimi artırabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_7_5 = "• Eğitim ve Teknoloji İnovasyon Danışmanı: Eğitim sektörüne inovasyon önerileri sunarak, okullara ve eğitim kurumlarına dijitalleşme sürecinde yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_7_6 = "• Eğitim Başarıları Girişimcisi: Eğitimde başarıyı ölçen yeni metrikler ve sistemler geliştirebilir, öğrenci ve öğretmenler için daha etkili bir öğrenme deneyimi yaratabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_7_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_edTech_8_2 = "Eğitim ve eğitim teknolojileri sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_8_3 = "• Eğitim Teknolojileri Koçu: Eğitimciler ve öğretmenlere teknoloji destekli öğretim konusunda rehberlik edebilir, dijital eğitim becerilerini geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_8_4 = "• Dijital Öğrenme Danışmanı: Eğitimciler ve öğrenciler için dijital öğrenme stratejileri geliştirebilir, çevrimiçi eğitimin etkinliğini artırabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_8_5 = "• Eğitim Mentor (Online Eğitim): Eğitimdeki kariyer gelişimi için öğrencilere rehberlik edebilir, çevrimiçi eğitim deneyimlerinin daha verimli hale gelmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_8_6 = "• STEM Eğitmeni (Eğitim Teknolojisi Odaklı): Fen, teknoloji, mühendislik ve matematik alanlarında eğitim veren kurslarda öğretmenlik yapabilir, öğrencilere STEM alanlarında dijital beceriler kazandırabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_8_7 = "";
+
+var kariyer_secim_25_plus_s7_edTech_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_edTech_9_2 = "Eğitim ve eğitim teknolojileri sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_edTech_9_3 = "• Eğitim Veri Analisti: Öğrenci başarıları, kurs performansı ve öğrenme davranışları üzerine veri analizleri yaparak eğitim sistemlerini optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_9_4 = "• Öğrenme Analitiği Uzmanı: Eğitim süreçlerini veri odaklı bir şekilde değerlendirerek iyileştirme önerileri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_9_5 = "• Eğitim Teknolojisi UX/UI Analisti: Eğitim platformları ve uygulamalarının kullanıcı deneyimini analiz ederek, daha etkili ve kullanıcı dostu arayüzler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_edTech_9_6 = "• Dijital Eğitim Performans Analisti: Çevrimiçi eğitim platformlarında öğrencilerin ilerleme ve başarılarını izleyebilir, öğrenme süreçlerini iyileştirmek için stratejik veriler sunabilirsin.";
+var kariyer_secim_25_plus_s7_edTech_9_7 = "";
+
+// Finans ve FinTech 
+var kariyer_secim_25_plus_s7_finTech_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_finTech_1_2 = "Finans ve FinTech sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_1_3 = "• FinTech UI/UX Tasarımcısı: FinTech uygulamaları ve dijital ödeme sistemlerinin kullanıcı dostu arayüzlerini tasarlayarak kullanıcı deneyimini iyileştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_1_4 = "• Finansal Eğitim Video Yapımcısı: Finansal eğitimleri ve online kursları yaratıcı bir şekilde video formatında hazırlayarak öğrenmeyi eğlenceli hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_1_5 = "• Marka Tasarımcısı (FinTech): FinTech şirketlerinin markalaşma süreçlerinde kreatif çözümler üreterek şirketin dijital kimliğini güçlendirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_1_6 = "• Dijital Finansal İçerik Tasarımcısı: Finansal içerikler, infografikler, eğitim materyalleri ve reklam kampanyaları hazırlayarak kullanıcıları finansal okuryazarlık konusunda bilgilendirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_1_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_finTech_2_2 = "Finans ve FinTech sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_2_3 = "• FinTech CEO veya COO: FinTech startup'larının yönetiminde liderlik edebilir, stratejik vizyon belirleyerek şirketin büyümesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_2_4 = "• Finansal Hizmetler Yöneticisi: Bankalar, sigorta şirketleri veya fintech firmalarında finansal hizmetlerin stratejik yönetimini üstlenebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_2_5 = "• Risk Yönetimi Müdürü: Finansal riskleri belirleyip analiz ederek şirketin risk yönetim stratejilerini geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_2_6 = "• Ürün Yöneticisi (FinTech): Dijital finansal ürünlerin tasarım, geliştirme ve pazara sunulma süreçlerini yöneterek, müşteri ihtiyaçlarına uygun ürünler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_2_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_finTech_3_2 = "Finans ve FinTech sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_3_3 = "• Finansal Danışman (Sosyal Etki): Düşük gelirli bireylere finansal planlama, tasarruf ve yatırım konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_3_4 = "• Kredi Danışmanı (FinTech): Kredi almak isteyen müşterilere uygun finansal çözümler sunarak onlara rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_3_5 = "• Sosyal Girişimci (FinTech): Dijital finansal çözümler aracılığıyla toplumsal sorunlara çözüm üretebilir, finansal erişimi artırabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_3_6 = "• Dijital Finans Eğitmeni: Bireyler ve şirketler için dijital finansal araçlar ve çözümler hakkında eğitim vererek finansal okuryazarlığı artırabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_3_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_finTech_4_2 = "Finans ve FinTech sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_4_3 = "• Yapay Zeka Mühendisi (FinTech): Yapay zeka ve makine öğrenmesi algoritmalarını kullanarak finansal analizler ve karar destek sistemleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_4_4 = "• Dijital Ödeme Sistemleri Geliştiricisi: Ödeme sistemleri ve dijital cüzdan uygulamaları geliştirebilir, finansal işlemleri güvenli hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_4_5 = "• Siber Güvenlik Uzmanı (FinTech): Finansal sistemlerin güvenliğini sağlayarak, dijital ödemeler ve bankacılık işlemleri için yüksek güvenlik önlemleri alabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_4_6 = "• Blockchain Geliştiricisi: Blockchain teknolojileri kullanarak finansal uygulamalar geliştirebilir, kripto para sistemleri veya dijital sözleşmeler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_4_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_finTech_5_2 = "Finans ve FinTech sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_5_3 = "• FinTech Satış Uzmanı: Dijital finansal ürünler ve hizmetler satabilir, müşterilere finansal teknoloji çözümleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_5_4 = "• Finansal Ürün Satış Müdürü: Finansal ürünlerin pazarlama stratejilerini oluşturup satış ekiplerini yönetebilir, hedef kitlelere yönelik kampanyalar geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_5_5 = "• İş Geliştirme Uzmanı (FinTech): Yeni müşteri ve iş fırsatları geliştirebilir, dijital finansal çözümleri daha geniş bir müşteri kitlesine ulaştırabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_5_6 = "• Müşteri Başarı Yöneticisi (FinTech): Dijital finansal ürünlerin kullanıcılarının ürünleri etkili bir şekilde kullanmalarını sağlamak ve müşteri memnuniyetini artırmak için destek verebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_5_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_finTech_6_2 = "Finans ve FinTech sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_6_3 = "• Finansal Operasyon Yöneticisi: Finansal işlemlerin günlük işleyişini organize ederek, dijital finansal çözümlerin düzgün bir şekilde çalışmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_6_4 = "• Finansal İdari Asistan: Finansal kurumların iç işleyişinde yer alarak, yönetici asistanlığı yapabilir, günlük idari görevleri üstlenebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_6_5 = "• İnsan Kaynakları Uzmanı (FinTech): FinTech şirketlerinde personel alımı, çalışan eğitimleri ve performans yönetimi gibi süreçleri organize edebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_6_6 = "• Finansal Danışmanlık Asistanı: Finansal danışmanların iş süreçlerini takip edebilir, müşterilerle ilgili finansal bilgileri düzenleyebilir ve analiz edebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_6_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_finTech_7_2 = "Finans ve FinTech sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_7_3 = "• FinTech Girişimcisi: Yeni bir dijital finansal ürün veya platform kurarak, finansal hizmetlere yenilikçi çözümler getirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_7_4 = "• Blockchain Girişimcisi: Blockchain teknolojisini kullanarak yeni finansal çözümler geliştirebilir, sektöre yenilikçi bir yaklaşım getirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_7_5 = "• Finansal Teknoloji İnovasyon Danışmanı: Şirketlere finansal teknoloji çözümleri sunarak, finansal süreçleri daha verimli hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_7_6 = "• Dijital Ödeme Girişimcisi: Dijital ödeme sistemleri üzerine girişimler başlatarak, ödeme çözümlerine yönelik yenilikçi bir yaklaşım geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_7_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_finTech_8_2 = "Finans ve FinTech sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_8_3 = "• Finansal Teknolojiler Eğitmeni: Dijital finansal sistemleri, blockchain veya fintech uygulamalarını öğretmek için eğitimler verebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_8_4 = "• Dijital Finans Eğitmeni: Çevrimiçi kurslar veya eğitim programları oluşturabilir, bireylerin dijital finansal becerilerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_8_5 = "• Mentor (FinTech): FinTech alanında yeni başlayan profesyonellere kariyer rehberliği yapabilir, sektördeki gelişmeleri onlara aktarabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_8_6 = "• Finansal Danışmanlık Koçu: Bireylerin finansal okuryazarlıklarını geliştirmek için rehberlik edebilir, yatırım stratejileri veya dijital finans araçlarını öğretici olarak sunabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_8_7 = "";
+
+var kariyer_secim_25_plus_s7_finTech_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_finTech_9_2 = "Finans ve FinTech sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_finTech_9_3 = "• Finansal Veri Analisti: Finansal verileri analiz ederek, şirketlerin stratejik kararlarını destekleyebilir ve finansal süreçleri iyileştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_9_4 = "• Risk Analisti (FinTech): Finansal riskleri analiz ederek, yatırımcılar ve finansal kurumlar için stratejik risk azaltma önerileri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_finTech_9_5 = "• Blockchain Veri Analisti: Blockchain sistemlerinden elde edilen verileri analiz ederek, finansal işlemlerin güvenliğini ve şeffaflığını artırabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_9_6 = "• Makine Öğrenmesi Uzmanı (FinTech): Finansal piyasa verilerini analiz etmek için makine öğrenmesi algoritmaları geliştirebilir, tahminsel modelleme yapabilirsin.";
+var kariyer_secim_25_plus_s7_finTech_9_7 = "";
+
+// Enerji ve Yenilenebilir Enerji 
+var kariyer_secim_25_plus_s7_energy_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_energy_1_2 = "Enerji ve yenilenebilir enerji sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_1_3 = "• Enerji Tasarımı Danışmanı: Yeşil bina tasarımı, enerji verimliliği ve sürdürülebilir yaşam alanları oluşturmak için yaratıcı projeler geliştirebilir, yenilikçi enerji çözümleri önerbilirsin.";
+var kariyer_secim_25_plus_s7_energy_1_4 = "• Yenilenebilir Enerji Markalaşma Uzmanı: Yenilenebilir enerji şirketlerinin marka kimliklerini güçlendirerek, çevre dostu ürün ve hizmetlerin tanıtımını yapabilirsin.";
+var kariyer_secim_25_plus_s7_energy_1_5 = "• Sürdürülebilirlik İletişimi Uzmanı: Yenilenebilir enerji projelerinin tanıtılması için yaratıcı medya içerikleri ve sosyal medya stratejileri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_1_6 = "• Enerji Eğitimi İçeriği Tasarımcısı: Enerji verimliliği, yenilenebilir enerji kaynakları ve çevre dostu yaşam tarzları hakkında eğitim materyalleri, video içerikleri ve interaktif dijital platformlar oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_energy_1_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_energy_2_2 = "Enerji ve yenilenebilir enerji sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_2_3 = "• Yenilenebilir Enerji Proje Yöneticisi: Güneş, rüzgar, hidroelektrik veya biyokütle enerji projelerinin tasarım, inşa ve işletme aşamalarını yönetebilirsin.";
+var kariyer_secim_25_plus_s7_energy_2_4 = "• Enerji Eğitimi İçeriği Tasarımcısı: Yenilenebilir enerji kaynakları ve çevre dostu yaşam hakkında eğitim ve video içerikleri, dijital platformlar oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_energy_2_5 = "• Çevre ve Enerji Direktörü: Şirketlerin sürdürülebilirlik politikalarını yönlendirebilir, çevre dostu enerji çözümleri ve projeleri planlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_2_6 = "• Yenilenebilir Enerji Stratejisti: Yenilenebilir enerji stratejilerinin geliştirilmesi ve uygulanması konusunda liderlik edebilir, projelerin finansmanını ve yönetimini üstlenebilirsin.";
+var kariyer_secim_25_plus_s7_energy_2_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_energy_3_2 = "Enerji ve yenilenebilir enerji sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_3_3 = "• Sosyal Sorumluluk Uzmanı (Enerji): Yenilenebilir enerji projeleri aracılığıyla çevresel sürdürülebilirliği artırarak toplumsal fayda sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_3_4 = "• Enerji Eğitim Uzmanı: Okullarda ve topluluklarda yenilenebilir enerji konularında eğitimler vererek, çevre dostu enerji kullanımını yaygınlaştırabilirsin.";
+var kariyer_secim_25_plus_s7_energy_3_5 = "• Çevre Aktivisti (Enerji): Çevre dostu enerji çözümleri konusunda farkındalık yaratmak ve toplumu bilinçlendirmek için kampanyalar düzenleyebilirsin.";
+var kariyer_secim_25_plus_s7_energy_3_6 = "• Enerji Erişimi Danışmanı: Yenilenebilir enerji çözümleri aracılığıyla düşük gelirli bölgelere elektrik ve enerji erişimi sağlamak için projeler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_3_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_energy_4_2 = "Enerji ve yenilenebilir enerji sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_4_3 = "• Enerji Verimliliği Mühendisi: Enerji verimliliği artırma projeleri için mühendislik çözümleri geliştirebilir, enerji tasarrufunu optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_energy_4_4 = "• Elektrik Mühendisi (Yenilenebilir Enerji): Yenilenebilir enerji kaynaklarının entegrasyonu ve bu enerjinin üretimi konusunda teknik çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_4_5 = "• Hidroelektrik Mühendisi: Hidroelektrik santralleri için tasarım, kurulum ve bakım süreçlerini yönetebilir, su kaynaklarını enerjiye dönüştürme projeleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_4_6 = "• Yenilenebilir Enerji Mühendisi: Güneş enerjisi, rüzgar enerjisi veya biyokütle enerjisi gibi yenilenebilir kaynaklardan enerji üretim sistemleri geliştirebilir, tesislerin verimli çalışmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_4_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_energy_5_2 = "Enerji ve yenilenebilir enerji sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_5_3 = "• Sürdürülebilirlik Danışmanı: Kuruluşlara yenilenebilir enerji çözümleri sunarak, onların çevre dostu çözümler benimsemelerini sağlayabilirsin";
+var kariyer_secim_25_plus_s7_energy_5_4 = "• Enerji Ürünleri Satış Müdürü: Yenilenebilir enerji teknolojilerinin satışlarını yönetebilir, stratejik pazarlama kampanyaları ile hedef kitleye ulaşabilirsin.";
+var kariyer_secim_25_plus_s7_energy_5_5 = "• Kurumsal Satış Uzmanı (Enerji): Büyük şirketlere enerji yönetimi çözümleri ve yenilenebilir enerji projeleri sunarak, uzun vadeli iş ilişkileri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_5_6 = "• Yenilenebilir Enerji Satış Uzmanı: Güneş enerjisi, rüzgar enerjisi veya diğer yenilenebilir enerji çözümlerini satışa sunarak, müşterilerin ihtiyaçlarına en uygun enerji çözümlerini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_5_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_energy_6_2 = "Enerji ve yenilenebilir enerji sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_6_3 = "• Enerji Operasyon Yöneticisi: Enerji üretim tesislerinin günlük operasyonlarını yönetebilir, üretim süreçlerini izleyerek verimliliği artırabilirsin.";
+var kariyer_secim_25_plus_s7_energy_6_4 = "• Enerji Proje Koordinatörü: Yenilenebilir enerji projelerinde ekipler arasında koordinasyon sağlayarak, projelerin verimliliğini artırabilirsin.";
+var kariyer_secim_25_plus_s7_energy_6_5 = "• İdari Destek Uzmanı (Enerji): Yenilenebilir enerji projeleri ve tesislerinin idari süreçlerini destekleyebilir, gerekli raporları ve belgeleri hazırlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_6_6 = "• İnsan Kaynakları Uzmanı (Enerji): Enerji sektöründeki kurumlarda insan kaynakları süreçlerini organize edebilirsin.";
+var kariyer_secim_25_plus_s7_energy_6_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_energy_7_2 = "Enerji ve yenilenebilir enerji sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_7_3 = "• Yenilenebilir Enerji Girişimcisi: Yenilenebilir enerji çözümleri sunan bir startup kurarak, sektördeki yenilikçi çözümlerle fark yaratabilirsin.";
+var kariyer_secim_25_plus_s7_energy_7_4 = "• Enerji Depolama Çözümleri Girişimcisi: Enerji kaynaklarının etkin kullanımını artırmak için enerji depolama teknolojilerinde yeni ürünler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_7_5 = "• Sürdürülebilir Enerji İnovasyon Danışmanı: Şirketlere yenilikçi sürdürülebilir enerji çözümleri sunarak, çevre dostu projelerin geliştirilmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_energy_7_6 = "• Elektrikli Araç Girişimcisi: Elektrikli araçlar için şarj altyapıları veya yenilikçi enerji çözümleri geliştirebilir, ulaşım sektöründe sürdürülebilirlik sağlamak için yeni iş fırsatları yaratabilirsin.";
+var kariyer_secim_25_plus_s7_energy_7_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_energy_8_2 = "Enerji ve yenilenebilir enerji sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_8_3 = "• Yenilenebilir Enerji Eğitmeni: Eğitim kurumlarında yenilenebilir enerji sistemleri hakkında dersler verebilirsin.";
+var kariyer_secim_25_plus_s7_energy_8_4 = "• Sürdürülebilirlik Mentoru: Genç profesyonellere veya öğrencilere sürdürülebilir enerji çözümleri hakkında rehberlik edebilir, kariyer gelişimlerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_energy_8_5 = "• Çevre Eğitmeni: Çevre dostu enerji kullanımı ve sürdürülebilirlik konusunda topluluklarda veya organizasyonlarda eğitimler verebilirsin.";
+var kariyer_secim_25_plus_s7_energy_8_6 = "• Mentor (Enerji ve Yenilenebilir Enerji): Yenilenebilir enerji alanında kariyer yapan profesyonellere iş geliştirme, proje yönetimi veya enerji verimliliği konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_energy_8_7 = "";
+
+var kariyer_secim_25_plus_s7_energy_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_energy_9_2 = "Enerji ve yenilenebilir enerji sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_energy_9_3 = "• Enerji Veri Analisti: Yenilenebilir enerji üretimi ve tüketimi verilerini analiz ederek, enerji verimliliğini artırmak için stratejik öneriler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_9_4 = "• Sistem Mühendisi (Enerji Verisi): Yenilenebilir enerji sistemlerinin izlenmesi ve yönetilmesi için veri sistemleri kurarak, operasyonel verimliliği artırabilirsin.";
+var kariyer_secim_25_plus_s7_energy_9_5 = "• Enerji Piyasası Analisti: Enerji ticareti ve fiyatlandırma stratejileri geliştirebilir, piyasaların geleceğini tahmin edebilirsin.";
+var kariyer_secim_25_plus_s7_energy_9_6 = "• Yenilenebilir Enerji Performans Analisti: Enerji santrallerinin ve yenilenebilir enerji sistemlerinin verimliliğini ölçerek, süreçleri optimize edebilir ve performans artırıcı çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_energy_9_7 = "";
+
+// Danışmanlık, Koçluk ve Mentörlük
+var kariyer_secim_25_plus_s7_mentor_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_mentor_1_2 = "Danışmanlık, koçluk ve mentorluk sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_1_3 = "• Kariyer Koçu: Bireylerin kariyer hedeflerini belirlemeleri ve potansiyellerini en iyi şekilde kullanmaları için kişisel ve yaratıcı rehberlik sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_1_4 = "• Kişisel Gelişim Eğitmeni: Bireylerin yaratıcılıklarını ve içsel potansiyellerini ortaya çıkarmalarına yardımcı olacak eğitim programları oluşturabilirsin";
+var kariyer_secim_25_plus_s7_mentor_1_5 = "• Yaşam Koçu (Life Coach): İnsanların yaşamları üzerinde daha fazla kontrol sahibi olmalarına yardımcı olarak, onları daha tatmin edici bir yaşam sürmeye teşvik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_1_6 = "• Eğitim ve İçerik Tasarımcısı (Koçluk ve Danışmanlık): Koçluk ve danışmanlık sürecine uygun yaratıcı eğitim materyalleri, video içerikler veya interaktif dijital platformlar tasarlayarak sürecin verimliliğini artırabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_1_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_mentor_2_2 = "Danışmanlık, koçluk ve mentorluk sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_2_3 = "• Yönetici Koçu (Executive Coach): Üst düzey yöneticilere, liderlik becerilerini geliştirmek, stratejik kararlar almak ve daha etkili liderlik yapmak için koçluk hizmeti verebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_2_4 = "• Kurumsal Koçluk Yöneticisi: Kurumlara organizasyonel gelişimi ve çalışan performansını iyileştirmeye yönelik koçluk yapabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_2_5 = "• İş Dönüşümü Danışmanı: Şirketlerin dijital dönüşüm süreçlerine rehberlik edebilir, stratejik değişikliklere adapte olmalarına yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_2_6 = "• İnsan Kaynakları Danışmanı: Organizasyonların insan kaynakları süreçlerini optimize edebilir, şirket içi liderlik, performans yönetimi ve çalışan motivasyonu konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_2_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_mentor_3_2 = "Danışmanlık, koçluk ve mentorluk sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_3_3 = "• Hayat Koçu (Life Coach): Bireylerin kişisel hedeflerine ulaşmalarına yardımcı olarak, onların yaşam kalitelerini iyileştirmeye yönelik rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_3_4 = "• Aile Danışmanı: Aile içi ilişkilerdeki problemleri çözmek, aile bireylerinin sağlıklı ilişkiler kurmalarına yardımcı olmak için danışmanlık verebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_3_5 = "• Sosyal Sorumluluk Koçu: Bireylerin toplumsal sorumluluklarını yerine getirmeleri ve çevresel/sosyal etki yaratmaları için rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_3_6 = "• Sosyal Girişimci Koçu: Sosyal girişimcilerin etkili projeler geliştirmelerine yardımcı olarak, toplumları olumlu yönde değiştirebilecek stratejiler oluşturmalarına katkı sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_3_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_mentor_4_2 = "Danışmanlık, koçluk ve mentorluk sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_4_3 = "• Teknoloji Koçu: Şirketlere veya bireylere dijital teknolojik gelişmelere adapte olmalarına yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_4_4 = "• Yazılım Geliştirme Koçu: Yazılım geliştirme ve teknoloji projeleri konusunda bireylere koçluk yapabilir, teknik becerilerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_4_5 = "• Siber Güvenlik Danışmanı: Şirketlere siber güvenlik stratejileri geliştirmeleri ve dijital dünyada güvenliği sağlamaları konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_4_6 = "• Veri Analitiği Danışmanı: Veri analizi, raporlama ve iş zekası konularında şirketlere rehberlik edebilir, karar alma süreçlerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_4_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_mentor_5_2 = "Danışmanlık, koçluk ve mentorluk sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_5_3 = "• Kurumsal Eğitim ve Koçluk Satış Uzmanı: Kurumsal koçluk programları ve eğitim materyallerinin satışını yapabilir, şirketlerin ihtiyaçlarına yönelik çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_5_4 = "• Koçluk Hizmetleri Satış Yöneticisi: Koçluk hizmetlerinin tanıtımı, pazarlama stratejileri oluşturulması ve müşteri ilişkilerinin yönetilmesi konusunda liderlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_5_5 = "• Müşteri İlişkileri Koordinatörü: Danışmanlık ve koçluk hizmeti sağlayan firmaların müşteri ilişkilerini yönetebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_5_6 = "• İş Geliştirme Danışmanı: Şirketlerin yeni iş fırsatları keşfetmelerine yardımcı olabilir, koçluk ve danışmanlık hizmetlerinin pazarlanmasında stratejik iş geliştirme çalışmaları yapabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_5_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_mentor_6_2 = "Danışmanlık, koçluk ve mentorluk sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_6_3 = "• Eğitim ve Koçluk Organizasyon Yöneticisi: Eğitim ve koçluk programlarının planlanması, uygulanması ve izlenmesi için operasyonel süreçleri yönetebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_6_4 = "• Koçluk Hizmetleri Operasyon Yöneticisi: Koçluk hizmetlerinin etkinliğini artırmak ve hizmet kalitesini iyileştirmek için operasyonel stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_6_5 = "• İnsan Kaynakları ve Eğitim Koordinatörü: Şirket içi eğitim programlarını ve koçluk seanslarını koordine edebilir, çalışanların gelişimini takip edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_6_6 = "• Koçluk İdari Destek Uzmanı: Koçların ve danışmanların günlük operasyonlarını organize edebilir, randevular, toplantılar ve etkinliklerin düzenlenmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_6_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_mentor_7_2 = "Danışmanlık, koçluk ve mentorluk sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_7_3 = "• Kariyer Koçluğu Girişimcisi: Kendi kariyer koçluğu işini kurarak, bireylerin kariyer yolculuklarını destekleyebilir, kişisel marka oluşturarak alanında liderlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_7_4 = "• Sosyal Girişimcilik Koçu: Sosyal girişimcilik alanında rehberlik ederek, girişimcilerin toplumsal etki yaratmalarına yardımcı olabilir, yenilikçi projeler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_7_5 = "• Dijital Koçluk Platformu Kurucusu: Çevrimiçi koçluk platformları kurarak, bireylere veya şirketlere dijital ortamda koçluk hizmetleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_7_6 = "• Koçluk Danışmanlık Ajansı Kurucusu: Kendi danışmanlık ajansını kurarak, geniş bir müşteri kitlesine koçluk hizmeti sağlayabilir, iş dünyasındaki liderlerin gelişimine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_7_7 = "";
+
+var kariyer_secim_25_plus_s7_mentor_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_mentor_8_2 = "Danışmanlık, koçluk ve mentorluk sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_8_3 = "• Koçluk Eğitmeni: Başka koçları eğiterek, onları profesyonel birer koç yapabilir ve koçluk becerilerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_8_4 = "• Kariyer Mentoru: Genç profesyonellere kariyer gelişimi, iş bulma stratejileri ve iş dünyasına adaptasyon konusunda mentorluk yapabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_8_5 = "• İş Geliştirme Mentoru: Girişimcilere ve yeni iş sahiplerine iş geliştirme stratejileri, pazarlama ve satış konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_8_6 = "• Sosyal Sorumluluk Koçu (Mentorluk): Sosyal sorumluluk projelerinde yer almak isteyen bireylere rehberlik edebilir, toplumsal etki yaratacak projelere mentorluk yapabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_8_7 = ""; 
+
+var kariyer_secim_25_plus_s7_mentor_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_mentor_9_2 = "Danışmanlık, koçluk ve mentorluk sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_mentor_9_3 = "• İş Performansı Analisti (Koçluk ve Danışmanlık): Organizasyonel gelişim süreçlerini analiz ederek, verimlilik arttırıcı koçluk ve danışmanlık çözümleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_9_4 = "• Koçluk Süreç Analisti: Koçluk seanslarının etkililiğini analiz edebilir, müşteri başarı oranlarını izleyerek iyileştirmeler önerebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_9_5 = "• Kariyer Gelişimi Veri Analisti: Bireylerin kariyer gelişim süreçlerini takip ederek, veriler üzerinden gelişim stratejileri ve kişisel hedefler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_mentor_9_6 = "• Veri Analitiği Danışmanı: Koçluk ve danışmanlık hizmetlerinin verimliliğini ölçerek, gelişim süreçlerini veri odaklı analizlerle destekleyebilir ve stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_9_7 = "";
+
+// Turizm ve Misafirperverlik
+var kariyer_secim_25_plus_s7_tourism_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_tourism_1_2 = "Turizm ve misafirperverlik sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_1_3 = "• Turizm İçeriği Tasarımcısı: Seyahat blogları, turizm broşürleri, reklam materyalleri, dijital platformlar için içerikler tasarlayarak destinasyonların tanıtımına katkı sağlayabilirsin."; //burası
+var kariyer_secim_25_plus_s7_tourism_1_4 = "• Deneyim Tasarımcısı: Müşterilere unutulmaz turistik deneyimler sunmak için turizm sektörüne yaratıcı programlar, etkinlikler ve temalar tasarlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_1_5 = "• Seyahat Yazarı: Seyahat deneyimlerini ve destinasyonları yazılı içeriklerde anlatabilir, seyahat rehberleri veya bloglar aracılığıyla geniş kitlelere ulaşabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_1_6 = "• Turizm Fotoğrafçısı/Videografi: Turistik yerlerin, otellerin veya etkinliklerin tanıtımını yapmak amacıyla fotoğraf ve video içerikleri hazırlayabilir, görsel anlatım yoluyla seyahat deneyimlerini aktarabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_1_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_tourism_2_2 = "Turizm ve misafirperverlik sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_2_3 = "• Otel Müdürü (Hotel Manager): Bir otel veya tatil köyünün tüm operasyonlarını yönetebilir, müşteri memnuniyetini artırmaya yönelik stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_2_4 = "• Misafirperverlik Yöneticisi: Konukların konaklama deneyimlerini en üst düzeye çıkarmak için süreçleri optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_2_5 = "• Turizm Direktörü: Turistik destinasyonlarda yönetim ve strateji geliştirme konularında liderlik edebilir, bölgesel turizm politikalarını yönlendirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_2_6 = "• Etkinlik ve Konferans Yöneticisi: Büyük organizasyonlar, kongreler ve etkinlikler düzenleyerek katılımcıların memnuniyetini sağlamak için tüm organizasyonel süreçleri yönetebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_2_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_tourism_3_2 = "Turizm ve misafirperverlik sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_3_3 = "• Müşteri Hizmetleri Temsilcisi: Müşterilere tatil, seyahat ve konaklama süreçlerinde yardımcı olarak, sorunlarını çözebilir ve onların beklentilerini karşılayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_3_4 = "• Çevre Dostu Turizm Koordinatörü: Sürdürülebilir turizm çözümleri geliştirebilir, çevre dostu projeler için oteller, tatil köyleri veya tur şirketleriyle işbirliği yapabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_3_5 = "• Yardımcı Seyahat Danışmanı: Engelli bireylere, yaşlılara veya özel ihtiyaçları olan kişiler için seyahat planlaması ve danışmanlık hizmetleri sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_3_6 = "• Sosyal Sorumluluk Koordinatörü (Turizm): Turizm sektöründeki işletmelerin çevresel ve sosyal sorumluluklarını yerine getirmelerini sağlamak için stratejiler geliştirebilir, topluma faydalı projeler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_3_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_tourism_4_2 = "Turizm ve misafirperverlik sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_4_3 = "• Otel Teknoloji Yöneticisi (Hotel IT Manager): Otellerin dijital altyapılarını yönetebilir, otel yönetim yazılımlarını ve dijital çözümleri uygulayarak verimliliği artırabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_4_4 = "• Turizm Yazılım Geliştiricisi: Bu sektöre özel yazılımlar (rezervasyon sistemleri, dijital müşteri hizmetleri) geliştirebilir, dijital dönüşüme katkı sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_4_5 = "• Turistik Altyapı Mühendisi: Turistik alanlarda altyapı projeleri geliştirebilir, otellerin, tatil köylerinin ve diğer konaklama alanlarının inşaat süreçlerini yönetebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_4_6 = "• Enerji Verimliliği Uzmanı (Turizm): Otellerde, tatil köylerinde veya diğer turizm alanlarında enerji verimliliği artırıcı çözümler geliştirebilir, sürdürülebilir enerji kullanımını optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_4_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_tourism_5_2 = "Turizm ve misafirperverlik sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_5_3 = "• Turizm Satış Yöneticisi: Seyahat acenteleri, oteller veya tatil köyleri için satış stratejileri geliştirebilir, yeni müşteri ve iş fırsatları yaratabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_5_4 = "• İş Geliştirme Yöneticisi (Turizm): Yurt içi ve yurt dışında yeni iş fırsatları geliştirebilir, turistik hizmetlerin satışını artırmak için pazarlama stratejileri oluşturabilirsin."; //bu 2'si
+var kariyer_secim_25_plus_s7_tourism_5_5 = "• Müşteri İlişkileri Yöneticisi (Misafirperverlik): Otellerde veya tatil köylerinde konukların deneyimlerini izleyebilir, memnuniyetlerini artırmak için kişisel ilişkiler kurabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_5_6 = "• Dijital Pazarlama Uzmanı (Turizm): Seyahat ve turizm sektörüne yönelik dijital pazarlama stratejileri oluşturabilir, sosyal medya, SEO ve diğer dijital kanallar üzerinden tanıtım yapabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_5_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_tourism_6_2 = "Turizm ve misafirperverlik sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_6_3 = "• Otel Operasyon Yöneticisi: Otelin günlük operasyonlarını yönetebilir, çalışanları organize ederek müşteri memnuniyetini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_6_4 = "• Rezervasyon ve İptal Koordinatörü: Konukların rezervasyon süreçlerini yönetebilir, otel veya tatil köyü rezervasyon sistemlerini düzenli bir şekilde çalıştırabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_6_5 = "• İnsan Kaynakları Uzmanı (Turizm): Turizm sektöründe çalışan personelin işe alım süreçlerini yönetebilir, eğitim ve gelişim programları düzenleyebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_6_6 = "• Finans Yöneticisi (Turizm): Otel veya tatil köylerinin mali işlemlerini denetleyebilir, bütçeleme, mali raporlama ve verimlilik artırıcı stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_6_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_tourism_7_2 = "Turizm ve misafirperverlik sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_7_3 = "• Turizm Girişimcisi: Kendi turizm acentanı veya seyahat şirketini kurarak, yeni destinasyonlar veya deneyimler sunabilir, sektördeki boşlukları doldurabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_7_4 = "• Sürdürülebilir Turizm Girişimcisi: Sürdürülebilir turizm çözümleri sunan yeni projeler geliştirebilir, doğal kaynakları koruyarak bu alanda fark yaratabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_7_5 = "• Lüks Turizm ve Deneyim Girişimcisi: Yüksek bütçeli müşterilere özel lüks tatil paketleri, VIP seyahat deneyimleri veya özel etkinlikler düzenleyebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_7_6 = "• Seyahat Teknolojisi Girişimcisi: Seyahat endüstrisine yönelik dijital platformlar, mobil uygulamalar veya yenilikçi çözümler geliştirebilir, sektördeki dijital dönüşüme katkı sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_7_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_tourism_8_2 = "• Turizm ve misafirperverlik sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_8_3 = "• Turizm Eğitmeni: Turizm ve otelcilik okullarında eğitimler vererek, öğrencilere sektörle ilgili beceriler kazandırabilir, onları iş dünyasına hazırlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_8_4 = "• Seyahat Koçu: Bireylere kişisel seyahat planları ve rotalar oluşturma konusunda yardımcı olabilir, onların seyahat deneyimlerini kişiye özel hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_8_5 = "• Yönetici Koçu (Turizm): Otellerde veya turizm şirketlerinde yönetici pozisyonlarında çalışanlara liderlik, zaman yönetimi ve karar alma becerileri konusunda koçluk yapabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_8_6 = "• Misafirperverlik Mentoru: Yeni başlayan profesyonellere misafirperverlik sektöründe rehberlik edebilir, sektördeki iş süreçleri ve müşteri hizmetleri konusunda bilgi verebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_8_7 = "";
+
+var kariyer_secim_25_plus_s7_tourism_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_tourism_9_2 = "Turizm ve misafirperverlik sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_tourism_9_3 = "• Turizm Pazarlama Analisti: Seyahat ve turizm sektöründeki pazarlama verilerini analiz ederek, pazarlama stratejilerinin daha verimli hale gelmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_9_4 = "• Müşteri Deneyimi Analisti: Konuk geri bildirimlerini toplayarak, otel ve tatil köylerinin müşteri deneyimlerini iyileştirecek veriler sunabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_9_5 = "• Turizm Trendleri Analisti: Seyahat endüstrisindeki yeni trendleri analiz ederek, turizm sektöründeki işletmelere stratejik önerilerde bulunabilirsin.";
+var kariyer_secim_25_plus_s7_tourism_9_6 = "• Rezervasyon ve Satış Analisti: Otel veya tatil köyü rezervasyon verilerini analiz ederek, satış stratejilerini optimize edebilir ve gelir artırıcı çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_tourism_9_7 = "";
+
+// Tarım ve Tarım Teknolojileri (AgroTech)
+var kariyer_secim_25_plus_s7_agroTech_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_agroTech_1_2 = "Tarım ve tarım teknolojileri sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_1_3 = "• Tarım Teknolojileri Markalaşma Uzmanı: Tarım sektörü odaklı ürün ve hizmetlerin marka stratejilerini geliştirerek, hedef kitleye yönelik etkili kampanyalar oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_1_4 = "• Sosyal Medya Yöneticisi (Tarım): Tarım sektöründeki ürünlerin dijital platformlarda tanıtılmasına yardımcı olarak, sosyal medya üzerinden bilgi ve ürün satışı yapabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_1_5 = "• Gıda Tasarımcısı: Tarım ürünlerinin ambalaj tasarımlarını geliştirebilir, ürünlerin daha çekici hale gelmesine yönelik görsel çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_1_6 = "• Tarım İçeriği Yaratıcıları: Çiftçiler ve tarım sektörü profesyonelleri için yaratıcı eğitim içerikleri, blog yazıları, video serileri ve infografikler hazırlayarak, bilgiyi görsel ve yazılı yollarla aktarabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_1_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_agroTech_2_2 = "Tarım ve tarım teknolojileri sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_2_3 = "• Üst Düzey Yönetici - CEO: Tarım teknolojileri şirketlerinde stratejik kararlar alabilir, ürün geliştirme, pazarlama ve operasyonu yönlendirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_2_4 = "• Tarım Projeleri Yöneticisi: Tarım projelerinin tüm aşamalarını yönetebilir, ekipleri organize ederek projelerin verimli ve zamanında tamamlanmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_2_5 = "• Tarım Sektörü Danışmanı: Tarım işletmelerine stratejik danışmanlık yaparak, üretim verimliliğini artırabilir ve sürdürülebilir tarım uygulamaları önerileri sunabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_2_6 = "• Tarım Tedarik Zinciri Yöneticisi: Tarım ürünlerinin üretiminden, depolanmasına ve dağıtımına kadar olan süreci yönetebilir, verimliliği artıracak stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_2_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_agroTech_3_2 = "Tarım ve tarım teknolojileri sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_3_3 = "• Tarım Eğitmeni: Çiftçilere modern tarım yöntemleri, biyoteknoloji ve tarım makineleri gibi konularda eğitim verebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_3_4 = "• Sosyal Tarım Girişimcisi: Tarımsal üretimi sosyal amaçlarla birleştirerek, yerel topluluklara katkı sağlayabilir, sürdürülebilir tarım projeleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_3_5 = "• Gıda Güvenliği Danışmanı: Gıda güvenliğini sağlamak için çiftçilere tavsiyelerde bulunabilir, tarım ürünlerinin sağlıklı üretimini ve işlenmesini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_3_6 = "• Kırsal Kalkınma Danışmanı: Kırsal bölgelerdeki çiftçilere ve girişimcilere eğitim, finansal destek ve yerel kalkınmayı teşvik etmek amacıyla rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_3_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_agroTech_4_2 = "Tarım ve tarım teknolojileri sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_4_3 = "• Tarım Mühendisi: Tarım süreçlerini geliştirebilir, sulama sistemleri, gübreleme ve bitki sağlığı ile ilgili mühendislik çözümleri üretebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_4_4 = "• Biyoteknoloji Mühendisi (Tarım): Genetik mühendislik ve biyoteknolojik çözümlerle, daha dayanıklı ve verimli tarım ürünleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_4_5 = "• Sulama Sistemleri Mühendisi: Verimli sulama sistemleri tasarlayarak, su kaynaklarını daha verimli kullanmaya yönelik projeler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_4_6 = "• Tarım Teknolojileri Geliştiricisi: Akıllı tarım uygulamaları ve sensörler geliştirebilir, çiftçilerin daha verimli üretim yapmalarını sağlayan dijital araçlar üretebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_4_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_agroTech_5_2 = "Tarım ve tarım teknolojileri sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_5_3 = "• Tarım Ürünleri Satış Yöneticisi: Tarım makineleri, gübreler, tohumlar veya bitki koruma ürünlerini satabilir, çiftçilere bu ürünleri tanıtarak satışları artırabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_5_4 = "• arım Teknolojileri Satış Uzmanı: Çiftçilere yönelik tarım teknolojileri, akıllı cihazlar ve yazılımlar hakkında danışmanlık yapabilir, satış süreçlerini yönetebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_5_5 = "• Müşteri İlişkileri Yöneticisi (Tarım): Tarım sektöründeki firmaların müşterileriyle uzun vadeli ilişkiler kurarak, müşteri memnuniyetini ve sadakatini artırabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_5_6 = "• İş Geliştirme Yöneticisi (AgriTech): Tarım ve tarım teknolojileri sektöründeki yeni iş fırsatlarını keşfedebilir, stratejik iş ortaklıkları kurarak pazarlama ve satış ağlarını genişletebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_5_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_agroTech_6_2 = "Tarım ve tarım teknolojileri sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_6_3 = "• Tarım Operasyon Yöneticisi: Tarım üretim süreçlerini organize ederek, ekipleri yönlendirebilir ve verimlilik artırıcı çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_6_4 = "• arım Üretimi Koordinatörü: Tarım ürünlerinin üretim süreçlerini koordine edebilir, ürünlerin kalitesini kontrol edebilir ve sürdürülebilir üretim tekniklerini uygulayabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_6_5 = "• İnsan Kaynakları Uzmanı (Tarım): Tarım sektöründeki işletmelerde çalışan personel alımını organize edebilir, eğitimi ve gelişimi konusunda stratejiler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_6_6 = "• Finans Yöneticisi (Tarım): Tarım sektöründeki işletmelerin mali süreçlerini yönetebilir, bütçeleme, finansal raporlama ve verimlilik artırıcı stratejiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_6_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_agroTech_7_2 = "Tarım ve tarım teknolojileri sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_7_3 = "• AgriTech Girişimcisi: Tarım teknolojileri konusunda yenilikçi bir iş kurarak, çiftçilerin üretim verimliliğini artırmalarını sağlayacak dijital çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_7_4 = "• Sürdürülebilir Tarım Girişimcisi: Organik tarım veya çevre dostu üretim yöntemleri üzerine bir iş kurarak, çevre dostu çözümler sunabilir ve sektörde fark yaratabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_7_5 = "• Yararlı Biyoteknoloji Girişimcisi: Tarım sektöründe biyoteknolojik çözümler üreten bir girişim başlatarak, bitki hastalıklarına karşı dayanıklı ürünler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_7_6 = "• Dijital Tarım Girişimcisi: Çiftçilerin üretim süreçlerini dijitalleştiren bir yazılım veya platform geliştirebilir, çiftçilerin daha verimli ve sürdürülebilir üretim yapmalarını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_7_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_agroTech_8_2 = "Tarım ve tarım teknolojileri sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_8_3 = "• Tarım Eğitmeni: Çiftçilere ve tarım sektörü profesyonellerine tarım teknikleri, modern makineler, biyoteknoloji ve sürdürülebilir tarım konularında eğitimler verebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_8_4 = "• Tarım Koçu: Bireylere veya çiftçilere, tarımda daha verimli olabilmeleri için rehberlik edebilir, onlara gelişmiş üretim teknikleri öğretebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_8_5 = "• Tarım ve Teknolojileri Danışmanı: İşletmelere sektördeki en iyi uygulamalar ve yenilikçi çözümler konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_8_6 = "• Sosyal Tarım Mentoru: Kırsal kalkınma ve sürdürülebilir tarım konularında, çiftçilere ve yerel girişimcilere mentorluk yapabilir, toplulukların güçlenmesine katkı sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_8_7 = "";
+
+var kariyer_secim_25_plus_s7_agroTech_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_agroTech_9_2 = "• Tarım ve tarım teknolojileri sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_agroTech_9_3 = "• Tarım Veri Analisti: Tarım üretim süreçlerini analiz ederek, verimlilik artışı sağlamak için stratejik öneriler geliştirebilir ve veri odaklı çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_9_4 = "• Tarım Piyasası Analisti: Tarım ürünlerinin fiyatlandırma, talep ve arz verilerini analiz ederek, üreticiler ve tüccarlar için pazar öngörüleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_9_5 = "• Tarım Teknolojileri Veri Yöneticisi: Sektöre yönelik veri toplama ve analiz yaparak, çiftçilerin bilgiye dayalı kararlar almasına yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_9_6 = "• Sürdürülebilir Tarım Analisti: Tarımın çevresel etkilerini analiz ederek, sürdürülebilir tarım uygulamalarının etkinliğini değerlendirebilir ve iyileştirme önerileri sunabilirsin.";
+var kariyer_secim_25_plus_s7_agroTech_9_7 = "";
+
+// Lojistik ve Ulaşım 
+var kariyer_secim_25_plus_s7_logistic_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_logistic_1_2 = "Lojistik ve ulaşım sektöründe yaratıcı becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_1_3 = "• Paketleme Tasarımcısı: Ürünlerin korunması için yaratıcı paketleme çözümleri geliştirebilir, sürdürülebilirlik stratejilerini göz önünde bulundurabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_1_4 = "• Dijital Pazarlama Uzmanı: Dijital pazarlama stratejilerini geliştirebilir, SEO, dijital reklamlar ve sosyal medya platformları üzerinden müşteri ilişkileri kurabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_1_5 = "• Görsel İletişim Tasarımcısı: Trafik yönetimi için bilgilendirme işaretleri, görsel materyaller tasarlayarak şehir içi ulaşımda navigasyon çözümleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_1_6 = "• Lojistik İçeriği Tasarımcısı: Lojistik süreçler ve taşıma hizmetlerinin tanıtımını yapmak için görsel ve yazılı içerikler tasarlayabilir, infografikler, reklam materyalleri ve dijital içerikler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_1_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_logistic_2_2 = "Lojistik ve ulaşım sektöründe liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_2_3 = "• Lojistik Yöneticisi: Tedarik zincirinin her aşamasını yönetebilir, depolama, taşıma, envanter kontrolü ve dağıtım süreçlerini optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_2_4 = "• Tedarik Zinciri Yöneticisi: Tedarik zincirindeki tüm süreçleri denetleyerek, lojistik süreçlerin verimliliğini artırabilir, tedarikçi ilişkilerini yönetebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_2_5 = "• Lojistik Operasyon Direktörü: Lojistik ve ulaşım süreçlerini geliştirebilir, yönetim stratejileri belirleyerek operasyonların sorunsuz bir şekilde işleyişini sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_2_6 = "• Ulaşım Yöneticisi: Şehir içi ulaşım ağlarını yönetebilir, otobüs, tren ve diğer ulaşım araçlarının verimli ve zamanında çalışmasını sağlayabilir, taşıma çözümlerini geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_2_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_logistic_3_2 = "Lojistik ve ulaşım sektöründe sosyal ve yardımsever yönlerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_3_3 = "• Toplu Taşıma Geliştirme Danışmanı: Şehirlerdeki toplu taşıma sistemlerinin iyileştirilmesi için öneriler geliştirebilir, yenilikçi çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_3_4 = "• Lojistik ve Ulaşım Eğitmeni: Lojistik ve ulaşım alanındaki çalışanlara yeni teknolojiler, düzenlemeler veya verimli ulaşım stratejileri hakkında eğitim verebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_3_5 = "• Ulaşım Hizmetleri Koordinatörü: Engelli bireylerin şehir içi ulaşımda karşılaştığı engelleri ortadan kaldırmak için çözümler geliştirebilirsin";
+var kariyer_secim_25_plus_s7_logistic_3_6 = "• Çevre Dostu Ulaşım Koordinatörü: Sürdürülebilir ulaşım çözümleri oluşturabilir, elektrikli araçlar, bisiklet yolları ve yeşil taşıma projeleri ile çevre dostu taşımacılığı teşvik edebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_3_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_logistic_4_2 = "Lojistik ve ulaşım sektöründe teknik ve mühendislik becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_4_3 = "• Otonom Araç Mühendisi: Otonom taşıma araçları ve robotlar için yazılım ve donanım geliştirebilir, lojistik sektöründeki otomasyon çözümlerinin verimliliğini artırabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_4_4 = "• Akıllı Ulaşım Sistemleri Mühendisi: Şehir içi ulaşımı iyileştirecek akıllı trafik yönetim sistemleri geliştirebilir, trafik akışını optimize etmek için algoritmalar oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_4_5 = "• Lojistik Altyapı Mühendisi: Depolama alanları, lojistik merkezler, ulaşım yolları gibi altyapı projeleri için mühendislik çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_4_6 = "• Lojistik Teknolojileri Geliştiricisi: Lojistik süreçlerini dijitalleştirecek yazılımlar geliştirebilir, akıllı depolama, otomatik taşıma ve takip sistemleri gibi çözümler tasarlayabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_4_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_logistic_5_2 = "Lojistik ve ulaşım sektöründe satış ve ilişki yönetimi becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_5_3 = "• Lojistik Satış Yöneticisi: Lojistik hizmetleri sunan firmaların satışlarını yönetebilir, yeni müşteri ve iş fırsatları geliştirerek sektördeki büyümeyi sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_5_4 = "• Müşteri İlişkileri Yöneticisi: Müşteri memnuniyetini artırmak için lojistik süreçleri optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_5_5 = "• Lojistik İnovasyon ve Satış Danışmanı: Yeni lojistik çözümler ve teknolojiler konusunda müşterilere rehberlik edebilir, bu çözümleri kurumlara tanıtabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_5_6 = "• Ulaşım Çözümleri Satış Uzmanı: Şirketlere veya kamu kuruluşlarına taşıma sistemleri ve ulaşım çözümleri satabilir, ulaşım altyapısını geliştirmek için önerilerde bulunabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_5_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_logistic_6_2 = "Lojistik ve ulaşım sektöründe organizasyon ve idari becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_6_3 = "• Lojistik Operasyon Asistanı: Lojistik operasyonlarını organize edebilir, sevkiyat, teslimat ve envanter takibi gibi süreçlerde idari destek sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_6_4 = "• İnsan Kaynakları Uzmanı (Lojistik): Lojistik sektöründeki işletmelerde personel alımını yönetebilir, eğitim ve gelişim süreçlerini organize edebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_6_5 = "• Tedarik Zinciri Koordinatörü: Ürünlerin tedarik zincirinde takip edilmesini, taşınmasını ve teslimatını koordine ederek verimliliği artırabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_6_6 = "• Ulaşım Planlama Koordinatörü: Ulaşım projelerini planlayabilir, toplu taşıma hatlarının optimizasyonu, güzergah değişiklikleri ve ulaşım altyapısı ile ilgili idari çalışmalar yapabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_6_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_logistic_7_2 = "Lojistik ve ulaşım sektöründe yenilikçi düşünceler ve girişimcilik ruhunu kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_7_3 = "• Lojistik ve Ulaşım Girişimcisi: Yeni lojistik çözümleri veya ulaşım uygulamaları geliştirebilir, sektördeki geleneksel yöntemlere yenilikçi yaklaşımlar getirerek girişim başlatabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_7_4 = "• Elektrikli Araç Girişimcisi: Elektrikli araçlar için şarj altyapıları, batarya çözümleri veya sürdürülebilir ulaşım çözümleri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_7_5 = "• Lojistik Dijitalleşme Girişimcisi: Dijital çözümlerle lojistik sektörünü dönüştürmek için bir startup kurabilir, taşıma ve dağıtım süreçlerini hızlandıran teknolojiler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_7_6 = "• Akıllı Ulaşım Girişimcisi: Akıllı ulaşım sistemleri, otonom araçlar veya trafik yönetim teknolojileri üzerine girişim kurarak, şehir içi ulaşımı daha verimli hale getiren çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_7_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_logistic_8_2 = "Lojistik ve ulaşım sektöründe öğretim ve mentorluk becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_8_3 = "• Lojistik Eğitmeni: Lojistik ve ulaşım alanındaki profesyonellere eğitimler verebilir, sektöre yeni katılan kişilere eğitim programları hazırlayabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_8_4 = "• Ulaşım Koçu: Şehir içi ulaşımda verimlilik ve sürdürülebilirlik konusunda rehberlik yaparak, profesyonellere bu alandaki stratejiler hakkında koçluk verebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_8_5 = "• Mentor (Lojistik): Lojistik sektöründeki yeni başlayanlara rehberlik edebilir, tedarik zinciri yönetimi ve lojistik süreçler hakkında bilgi verebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_8_6 = "• Ulaşım ve Lojistik Proje Yöneticisi (Mentorluk): Proje yönetimi süreçlerinde deneyimli kişilere mentorluk yapabilir, onlara lojistik ve ulaşım projelerinin yönetimi konusunda rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_8_7 = "";
+
+var kariyer_secim_25_plus_s7_logistic_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_logistic_9_2 = "Lojistik ve ulaşım sektöründe analitik düşünce ve veri becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_logistic_9_3 = "• Ulaşım Performans Analisti: Şehir içi ulaşım sistemlerini analiz ederek, trafik akışını iyileştirecek veri odaklı öneriler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_9_4 = "• Akıllı Ulaşım Veri Analisti: Akıllı ulaşım sistemlerinin verilerini analiz ederek, trafik yönetimini optimize edebilir ve araç akışını daha verimli hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_9_5 = "• Lojistik İnovasyon Analisti: Lojistik sektöründeki yenilikçi çözümleri analiz ederek, sektördeki dijital dönüşümün hızlanmasına katkıda bulunabilirsin.";
+var kariyer_secim_25_plus_s7_logistic_9_6 = "• Lojistik Veri Analisti: Lojistik süreçlerinin verimliliğini analiz edebilir, taşıma ve teslimat süreçlerinin optimize edilmesine yardımcı olacak veri tabanlı çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_logistic_9_7 = "";
+
+// Medya, Yazılı ve Görsel Basın
+var kariyer_secim_25_plus_s7_media_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_media_1_2 = "";
+var kariyer_secim_25_plus_s7_media_1_3 = "• Medya Tasarımcısı (Graphic Designer): Medya sektöründe reklamlar, dijital içerikler ve broşürler gibi materyaller için görsel tasarımlar hazırlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_1_4 = "• Video Prodüksiyon Uzmanı: TV, dijital medya veya sosyal medya için video çekimlerini yönetebilir, editörlük yapabilir ve video içeriği yaratabilirsin.";
+var kariyer_secim_25_plus_s7_media_1_5 = "• Yaratıcı Yönetmen (Creative Director): Bir medya projesinin yaratıcı yönünü yönetebilir, hikayelerin görsel ve işitsel açıdan en etkili şekilde sunulmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_1_6 = "• İçerik Yaratıcısı (Content Creator): Dijital platformlar için video, yazı, grafik veya diğer medya içeriklerini yaratabilir, sosyal medya ve video platformlarında etkileşim oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_media_1_7 = "";
+
+var kariyer_secim_25_plus_s7_media_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_media_2_2 = "";
+var kariyer_secim_25_plus_s7_media_2_3 = "• Gazetecilik ve Yayıncılık Yönetmeni: Basın organlarında haber içeriğinin ve gazetecilerin yönetilmesi, editoryal süreçlerin denetlenmesi gibi görevlerde yer alabilirsin.";
+var kariyer_secim_25_plus_s7_media_2_4 = "• Yayın Programı Yöneticisi: TV, radyo veya dijital medya platformlarında yayın akışlarını planlayabilir, izleyici kitlesine en uygun programları hazırlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_2_5 = "• Sosyal Medya Yönetmeni: Dijital platformlar için strateji geliştirebilir, sosyal medya takımlarını yönetebilir ve marka imajını güçlendirebilirsin.";
+var kariyer_secim_25_plus_s7_media_2_6 = "• Medya Yöneticisi: TV, radyo veya dijital medya platformlarında içeriğin yayınlanması, izleyici kitlesine uygun içeriklerin hazırlanması ve bütçelerin yönetilmesi gibi yönetsel görevler üstlenebilirsin.";
+var kariyer_secim_25_plus_s7_media_2_7 = "";
+
+var kariyer_secim_25_plus_s7_media_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_media_3_2 = "";
+var kariyer_secim_25_plus_s7_media_3_3 = "• Gazetecilik Eğitmeni: Gazetecilik alanında eğitimler vererek, yazılı ve görsel medya alanlarında meslek edinmek isteyen kişilere eğitim verebilirsin.";
+var kariyer_secim_25_plus_s7_media_3_4 = "• Sosyal Medya Eğitmeni: Bireylere ve şirketlere sosyal medya stratejileri, içerik yönetimi ve çevrimiçi etkileşim konularında eğitimler verebilirsin.";
+var kariyer_secim_25_plus_s7_media_3_5 = "• Medya Etik Danışmanı: Medyanın etik kurallarına uygun içerik üretimi ve haber sunumu konusunda medya kuruluşlarına rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_media_3_6 = "• Halkla İlişkiler Uzmanı (PR): Şirketler veya bireyler için medya ile etkili iletişim kurabilir, marka imajını yönetebilir ve medya ile ilişkileri geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_media_3_7 = "";
+
+var kariyer_secim_25_plus_s7_media_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_media_4_2 = "";
+var kariyer_secim_25_plus_s7_media_4_3 = "• Ses ve Görüntü Teknikeri: Medya prodüksiyonlarında, ses ve görüntü kaydını gerçekleştirebilir, düzenleyebilir ve yayımlanabilir hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_media_4_4 = "• Yayın Mühendisi: TV ve radyo yayınlarının teknik altyapısını oluşturabilir, yayın ekipmanlarını kurabilir ve optimizasyonunu yapabilirsin.";
+var kariyer_secim_25_plus_s7_media_4_5 = "• Dijital Medya Yazılım Geliştiricisi: Medya ve içerik dağıtım sistemleri geliştirebilir, içerik yönetim yazılımları ve dijital platformlar için uygulamalar tasarlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_4_6 = "• Medya Teknolojileri Uzmanı: TV, radyo, dijital platformlar veya sosyal medya için yeni teknolojik araçlar ve yazılımlar geliştirebilir, medya içeriklerinin dağıtımını dijital ortamda optimize edebilirsin.";
+var kariyer_secim_25_plus_s7_media_4_7 = "";
+
+var kariyer_secim_25_plus_s7_media_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_media_5_2 = "";
+var kariyer_secim_25_plus_s7_media_5_3 = "• Medya Satış Uzmanı: Medya ve reklam satışları yapabilir, markaların medya platformlarında tanıtım yapmalarını sağlayacak fırsatlar sunabilirsin.";
+var kariyer_secim_25_plus_s7_media_5_4 = "• Reklam Satış Yöneticisi: Medya organlarının reklam satışlarını yönetebilir, reklamverenlerle ilişkileri güçlendirebilir ve stratejik reklam çözümleri sunabilirsin.";
+var kariyer_secim_25_plus_s7_media_5_5 = "• Hedef Kitle Analisti: İzleyici, dinleyici veya okuyucu kitlesi analizleri yaparak, medya içeriğini hedef kitleye uygun hale getirebilirsin.";
+var kariyer_secim_25_plus_s7_media_5_6 = "• Marka İletişimi Yöneticisi: Bir markanın medya organları aracılığıyla doğru şekilde iletişim kurmasını sağlayabilir, marka mesajlarının yayılmasına yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_media_5_7 = "";
+
+var kariyer_secim_25_plus_s7_media_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_media_6_2 = "";
+var kariyer_secim_25_plus_s7_media_6_3 = "• Yayın Koordinatörü: Yayın süreçlerini koordine edebilir, program akışlarını organize edebilir ve medya içeriklerinin düzgün bir şekilde sunulmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_6_4 = "• Medya Planlama Uzmanı: Medya içeriklerinin ne zaman ve nasıl yayınlanacağına karar verebilir, içerik takvimlerini organize edebilirsin.";
+var kariyer_secim_25_plus_s7_media_6_5 = "• Basın Sözcüsü: Kurumların medya ile ilişkilerini yönetebilir, şirketin haber ve duyurularını basına iletebilir, şirketin kamu imajını yönetebilirsin.";
+var kariyer_secim_25_plus_s7_media_6_6 = "• Editör: Gazete, dergi, blog, haber sitesinde içeriklerin dil ve anlam bakımından düzgün olup olmadığını kontrol edebilir, yazılı materyallerin doğru şekilde yayımlanmasını sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_6_7 = "";
+
+var kariyer_secim_25_plus_s7_media_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_media_7_2 = "";
+var kariyer_secim_25_plus_s7_media_7_3 = "• Medya Girişimcisi: Kendi dijital medya platformunu kurarak, bağımsız haber kuruluşu veya içerik üreticisi olabilir, medya sektöründe kendi markanı oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_media_7_4 = "• Dijital İçerik Girişimcisi: Dijital içerikler yaratıp platformlarda yayınlayarak, sosyal medya ve blog yazarlığı gibi alanlarda girişimler başlatabilirsin.";
+var kariyer_secim_25_plus_s7_media_7_5 = "• Bağımsız Gazeteci: Bağımsız haber ve içerik üreticisi olarak kendi içeriklerini oluşturabilir, dijital platformlar ve sosyal medya üzerinden bu içerikleri paylaşabilirsin.";
+var kariyer_secim_25_plus_s7_media_7_6 = "• İçerik Üretim Ajansı Kurucusu: Medya içeriği üreten bir ajans kurarak, farklı sektörlere yönelik video, yazılı içerik ve sosyal medya materyalleri üretebilir, markaların dijital varlıklarını yönetebilirsin.";
+var kariyer_secim_25_plus_s7_media_7_7 = "";
+
+var kariyer_secim_25_plus_s7_media_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_media_8_2 = "";
+var kariyer_secim_25_plus_s7_media_8_3 = "• İçerik Yaratıcılığı Mentoru: İçerik üretme süreçlerinde tecrübe kazanan kişilere rehberlik edebilir, onların yaratıcı düşünme becerilerini geliştirmelerine yardımcı olabilirsin.";
+var kariyer_secim_25_plus_s7_media_8_4 = "• Dijital Medya Koçu: İçerik üreticileriyle çalışarak, onların kariyerlerini geliştirmelerine yardımcı olabilir, sosyal medya stratejileri hakkında rehberlik edebilirsin.";
+var kariyer_secim_25_plus_s7_media_8_5 = "• Medya ve İletişim Mentoru: Medya sektöründe kariyer yapmak isteyen kişilere kariyer geliştirme konusunda rehberlik edebilir, onlara sektöre yönelik stratejiler sunabilirsin.";
+var kariyer_secim_25_plus_s7_media_8_6 = "• Gazetecilik Eğitmeni: Gazetecilik okullarında veya online eğitim platformlarında eğitim vererek, öğrencilere haber yazımı, araştırmacı gazetecilik veya medya etiği konularında bilgi verebilirsin.";
+var kariyer_secim_25_plus_s7_media_8_7 = "";
+
+var kariyer_secim_25_plus_s7_media_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_media_9_2 = "";
+var kariyer_secim_25_plus_s7_media_9_3 = "• Medya Analisti: Medya içeriğinin izlenme oranlarını, okuyucu yorumlarını ve sosyal medya etkileşimlerini analiz edebilir, medya stratejilerini geliştirmek için veri sağlayabilirsin.";
+var kariyer_secim_25_plus_s7_media_9_4 = "• Sosyal Medya Veri Analisti: İçerik etkileşimlerini analiz edebilir, marka stratejilerine yönelik raporlar hazırlayabilir ve veri odaklı çözümler sunabilirsin.";
+var kariyer_secim_25_plus_s7_media_9_5 = "• Reklam Performansı Analisti: Yayınlanan reklamların performansını takip edebilir, etkileşim oranlarını analiz ederek daha verimli reklam stratejileri oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_media_9_6 = "• İzleyici ve Dinleyici Araştırma Uzmanı: TV, radyo veya dijital medya platformları için hedef kitle araştırmaları yapabilir, bu verileri kullanarak içerik ve reklam stratejilerini iyileştirebilirsin.";
+var kariyer_secim_25_plus_s7_media_9_7 = "";
+
+// Bunların Dışında Bir Şey - Genel Kariyer Alanları
+var kariyer_secim_25_plus_s7_other_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_25_plus_s7_other_1_2 = "Yaratıcılığını kullanabileceğin, belirli bir sektöre bağlı kalmadan geniş bir yelpazede iş fırsatları sunan alanlar şunlar olabilir:";
+var kariyer_secim_25_plus_s7_other_1_3 = "• İçerik Yaratıcılığı: Yazılı, görsel veya video içerik üretmek, farklı platformlarda özgün içerikler oluşturmak.";
+var kariyer_secim_25_plus_s7_other_1_4 = "• Sanat Direktörlüğü: Farklı endüstrilerde görsel tasarımlar ve estetik yönleri yönlendirecek projelerde çalışmak.";
+var kariyer_secim_25_plus_s7_other_1_5 = "• Dijital Sanatçılık: Grafik tasarım, dijital çizimler ve multimedya içeriği oluşturmak.";
+var kariyer_secim_25_plus_s7_other_1_6 = "• Moda ve Tasarım: Kendi tasarımlarını yaratmak, butik koleksiyonlar hazırlamak veya tasarım ajanslarında çalışmak.";
+var kariyer_secim_25_plus_s7_other_1_7 = "";
+
+var kariyer_secim_25_plus_s7_other_2_1 = "Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_25_plus_s7_other_2_2 = "Farklı sektörlerde liderlik ve yönetim becerilerini kullanabileceğin işler şunlar olabilir:";
+var kariyer_secim_25_plus_s7_other_2_3 = "• Proje Yönetimi: İleri düzeyde organizasyon ve yöneticilik gerektiren her türlü projede liderlik edebilmek.";
+var kariyer_secim_25_plus_s7_other_2_4 = "• İş Geliştirme ve Strateji: Şirketlerin büyüme stratejilerini geliştirecek, yeni iş fırsatları yaratacak kariyerler.";
+var kariyer_secim_25_plus_s7_other_2_5 = "• Yönetim Danışmanlığı: Çeşitli sektörlerde organizasyonel değişim, yönetim süreçleri ve strateji geliştirmek.";
+var kariyer_secim_25_plus_s7_other_2_6 = "• Kuruluş Yönetimi: Küçük ve orta ölçekli işletmelerde liderlik yaparak operasyonel süreçleri yönetmek.";
+var kariyer_secim_25_plus_s7_other_2_7 = "";
+
+var kariyer_secim_25_plus_s7_other_3_1 = "Yardım ve Sosyal Kariyerler";
+var kariyer_secim_25_plus_s7_other_3_2 = "Toplumları, bireyleri desteklemek ve yardım sağlamak için genel kariyer alanları şunlar olabilir:";
+var kariyer_secim_25_plus_s7_other_3_3 = "• Topluluk Yöneticiliği: Farklı toplulukları desteklemek, etkinlikler organize etmek ve sosyal bağlantılar kurmak.";
+var kariyer_secim_25_plus_s7_other_3_4 = "• Sosyal Sorumluluk Projeleri: Organizasyonlar için sosyal sorumluluk projeleri geliştirmek ve uygulamak.";
+var kariyer_secim_25_plus_s7_other_3_5 = "• Danışmanlık ve Mentorluk: Bireylere kariyerlerinde rehberlik etmek, kişisel gelişimlerine destek sağlamak.";
+var kariyer_secim_25_plus_s7_other_3_6 = "• Psikolojik Destek ve Danışmanlık: Bireylerin mental sağlığını destekleyecek rehberlik ve terapötik hizmetler sunmak.";
+var kariyer_secim_25_plus_s7_other_3_7 = "";
+
+var kariyer_secim_25_plus_s7_other_4_1 = "Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_25_plus_s7_other_4_2 = "Teknik becerilerinizi, mühendislik yeteneklerinizi kullanabileceğiniz genel kariyer alanları:";
+var kariyer_secim_25_plus_s7_other_4_3 = "• Yazılım Geliştirme: Her türlü yazılım çözümünü geliştirebilir, programlama dillerini kullanarak projeler oluşturabilirsin.";
+var kariyer_secim_25_plus_s7_other_4_4 = "• Veri Analitiği: Büyük veri kümelerini analiz ederek, organizasyonlara veri odaklı stratejik tavsiyeler verebilirsin.";
+var kariyer_secim_25_plus_s7_other_4_5 = "• Sistem Mühendisliği: Çeşitli endüstrilerde sistem altyapıları kurmak ve sürdürmek.";
+var kariyer_secim_25_plus_s7_other_4_6 = "• İnovasyon Yönetimi: Teknolojik gelişmeleri takip ederek, farklı alanlarda yenilikçi çözümler geliştirebilirsin.";
+var kariyer_secim_25_plus_s7_other_4_7 = "";
+
+var kariyer_secim_25_plus_s7_other_5_1 = "Satış ve İlişki Kurma Kariyerleri";
+var kariyer_secim_25_plus_s7_other_5_2 = "İnsanlarla ilişki kurma, satış yapma ve etkili iletişim becerileri kullanabileceğiniz genel kariyer alanları şunlar olabilir:";
+var kariyer_secim_25_plus_s7_other_5_3 = "• İş Geliştirme: Yeni iş fırsatları yaratma, şirketlerin hedeflerine ulaşmasını sağlamak.";
+var kariyer_secim_25_plus_s7_other_5_4 = "• B2B Satış: Kurumsal satış süreçleri yönetmek, büyük müşterilerle anlaşmalar yapmak.";
+var kariyer_secim_25_plus_s7_other_5_5 = "• İnsan Kaynakları: Organizasyonlarda işe alım, eğitimin ve çalışan yönetimini organize etmek.";
+var kariyer_secim_25_plus_s7_other_5_6 = "• İletişim ve Halkla İlişkiler: Organizasyonların iç ve dış iletişim süreçlerini yönetmek, marka imajını güçlendirmek.";
+var kariyer_secim_25_plus_s7_other_5_7 = "";
+
+var kariyer_secim_25_plus_s7_other_6_1 = "Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_25_plus_s7_other_6_2 = "Organizasyonel beceriler ve idari görevlerde çalışma fırsatları:";
+var kariyer_secim_25_plus_s7_other_6_3 = "• Ofis Yöneticiliği: Çeşitli endüstrilerde ofis operasyonlarını yönetmek, çalışanların iş akışlarını optimize etmek.";
+var kariyer_secim_25_plus_s7_other_6_4 = "• İdari Destek: Yöneticilere ve takımlara idari destek sağlayarak, organizasyonların verimli çalışmasına katkıda bulunmak.";
+var kariyer_secim_25_plus_s7_other_6_5 = "• Veri Yönetimi ve Dokümantasyon: Veri akışını düzenlemek, belgelerin yönetilmesi ve arşivlenmesi konusunda sorumluluk almak.";
+var kariyer_secim_25_plus_s7_other_6_6 = "• İnsan Kaynakları Yönetimi: Organizasyonlarda personel süreçlerini yönetmek, çalışan memnuniyetini sağlamak.";
+var kariyer_secim_25_plus_s7_other_6_7 = "";
+
+var kariyer_secim_25_plus_s7_other_7_1 = "Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_25_plus_s7_other_7_2 = "Yenilikçi fikirleri hayata geçirebileceğiniz ve girişimcilik ruhunu kullanabileceğiniz kariyer alanları:";
+var kariyer_secim_25_plus_s7_other_7_3 = "• Start-up Kuruculuğu: Kendi işini kurarak, yeni bir iş fikrini hayata geçirmek.";
+var kariyer_secim_25_plus_s7_other_7_4 = "• İnovasyon ve Ar-Ge: Yeni ürünler, hizmetler ve çözümler geliştirmek için araştırma ve geliştirme süreçlerine liderlik etmek.";
+var kariyer_secim_25_plus_s7_other_7_5 = "• Yatırım ve Risk Sermayesi: Yatırımcı olarak start-up'lar ve küçük işletmelere finansal destek sağlamak.";
+var kariyer_secim_25_plus_s7_other_7_6 = "• İş Stratejisi ve Yönetimi: Şirketlere stratejik yönlendirmeler sağlayarak, büyüme ve başarı yolunda rehberlik etmek.";
+var kariyer_secim_25_plus_s7_other_7_7 = "";
+
+var kariyer_secim_25_plus_s7_other_8_1 = "Öğretim ve Mentorluk Kariyerleri";
+var kariyer_secim_25_plus_s7_other_8_2 = "Bireyleri eğitmek, rehberlik sağlamak ve gelişimlerini desteklemek için genel kariyer alanları:";
+var kariyer_secim_25_plus_s7_other_8_3 = "• Eğitim Koçluğu: Öğrenciler, çalışanlar veya girişimciler için eğitim süreçlerini yönetmek ve gelişimlerini desteklemek.";
+var kariyer_secim_25_plus_s7_other_8_4 = "• Kariyer Koçluğu: Bireylerin kariyer yolculuklarında onları rehberlik etmek, hedeflerine ulaşmalarını sağlamak.";
+var kariyer_secim_25_plus_s7_other_8_5 = "• Kişisel Gelişim Eğitmeni: Bireylerin kişisel becerilerini geliştirmeleri ve potansiyellerini keşfetmeleri için eğitimler vermek.";
+var kariyer_secim_25_plus_s7_other_8_6 = "• Mentorluk: Başkalarına profesyonel gelişim konusunda destek sağlayarak onların kariyerlerinde ilerlemelerini sağlamak.";
+var kariyer_secim_25_plus_s7_other_8_7 = "";
+
+var kariyer_secim_25_plus_s7_other_9_1 = "Analitik ve Veri Odaklı Kariyerler";
+var kariyer_secim_25_plus_s7_other_9_2 = "Veri analizi, raporlama ve stratejik planlama gibi işlerde çalışabileceğiniz genel kariyer alanları:";
+var kariyer_secim_25_plus_s7_other_9_3 = "• Veri Bilimcisi: Verileri analiz ederek, organizasyonlar için stratejik kararlar almalarına yardımcı olacak içgörüler oluşturmak.";
+var kariyer_secim_25_plus_s7_other_9_4 = "• İstatistiksel Analiz ve Modelleme: Veri setlerini analiz ederek, organizasyonlara iş süreçlerini iyileştirecek çözümler sunmak.";
+var kariyer_secim_25_plus_s7_other_9_5 = "• Risk Analisti: Organizasyonların karşılaştığı riskleri analiz ederek, stratejik risk yönetim planları oluşturmak.";
+var kariyer_secim_25_plus_s7_other_9_6 = "• İş Zekası Analisti: Şirketlere pazar eğilimleri, satış performansı ve operasyonel verimlilik konusunda analizler sağlayarak karar alma süreçlerini optimize etmek.";
+var kariyer_secim_25_plus_s7_other_9_7 = "";
 
 //özet
 var kariyer_secim_ozet_1_1 = "Sana En Uygun Kariyer Alanı: Yaratıcı ve Sanatsal Kariyerler";
@@ -2188,295 +2863,295 @@ var kariyer_secim_25_plus_s7_eng_meal_9_7 = "• Food Safety Analyst: Analyze fo
 
 //Güçlü Yanların 12-25
 var guclu_yanlarin2_57_10_1 = "Mükemmelleştirilmiş Form Gücü (57-10)";
-var guclu_yanlarin2_57_10_2 = "Hızlı Düşünme Yeteneği Sen, hızlı düşünme konusunda iyisin. Bu yetenek, hızla değişen durumlarda çok faydalıdır. İnsanların güvende hissetmesini sağlayan ve onları her şeye hazırlayan ortamlar yaratabilirsin.\n\nMükemmelliğe Ulaştırma Bir şeyleri daha iyi hale getirmeyi seviyorsun. Bu, kendin, sanat, müzik, yazı ya da etrafındaki düzen olabilir. Detaylara verdiğin önem, yaptığın her işte harika sonuçlar çıkarmana yardımcı olur.\n\nKendin Olmak Kendin olduğunda, sağlıklı ve güzel bir yaşam yaratırsın. Gerçek kendin olmak, başkalarına ilham verebilir ve gittiğin her yerde pozitif bir ortam oluşturabilir. Rolün, sevdiğin şeyi yapmak ve yaptığın şeyi sevmektir, buna kendini sevmek de dahil.\n\nHayatta Gücünü Kullanmak Yaratıcılık gerektiren işlerde, senin detaylara olan dikkatin ve doğal tarzın harika sonuçlar ortaya çıkarabilir. Liderlikte ise, her şeyi mükemmel hale getirme isteğin, diğer insanları da daha iyi olmaya teşvik eder. Mükemmeliyetçi yapın, iş dünyasında büyük bir güçtür ve bu hem senin hem de etrafındakilerin başarıya ulaşmasına yardımcı olur.";
+var guclu_yanlarin2_57_10_2 = "Hızlı Düşünme Yeteneği\nSen, hızlı düşünme konusunda iyisin. Bu yetenek, hızla değişen durumlarda çok faydalıdır. İnsanların güvende hissetmesini sağlayan ve onları her şeye hazırlayan ortamlar yaratabilirsin.\n\nMükemmelliğe Ulaştırma\nBir şeyleri daha iyi hale getirmeyi seviyorsun. Bu, kendin, sanat, müzik, yazı ya da etrafındaki düzen olabilir. Detaylara verdiğin önem, yaptığın her işte harika sonuçlar çıkarmana yardımcı olur.\n\nKendin Olmak\nKendin olduğunda, sağlıklı ve güzel bir yaşam yaratırsın. Gerçek kendin olmak, başkalarına ilham verebilir ve gittiğin her yerde pozitif bir ortam oluşturabilir. Rolün, sevdiğin şeyi yapmak ve yaptığın şeyi sevmektir, buna kendini sevmek de dahil.\n\nHayatta Gücünü Kullanmak\nYaratıcılık gerektiren işlerde, senin detaylara olan dikkatin ve doğal tarzın harika sonuçlar ortaya çıkarabilir. Liderlikte ise, her şeyi mükemmel hale getirme isteğin, diğer insanları da daha iyi olmaya teşvik eder. Mükemmeliyetçi yapın, iş dünyasında büyük bir güçtür ve bu hem senin hem de etrafındakilerin başarıya ulaşmasına yardımcı olur.";
 
 var guclu_yanlarin2_20_10_1 = "“Yüksek İlkeler” Gücü (10-20)";
-var guclu_yanlarin2_20_10_2 = "Liderlik Sesi Doğru olanı yapmaya ve kendin olmaya çok önem verirsin. Sadece kendin olarak, liderlik yapabilir ve başkalarına da kendileri olmaları konusunda örnek olabilirsin. Bu, herkesin kendini olduğu gibi kabul ettiği bir ortam yaratır.\n\nTercih Ettiğin Ortam Sen, tıpkı senin gibi, kendine sadık kalan insanlarla birlikte olmayı seversin. Bu tür bir ortam hem senin hem de diğer insanların büyümesine ve inançlarına sadık kalmasına yardımcı olur.\n\nHayatta Gücünü Kullanmak Senin doğruyu yapma isteğin, okulda ve iş dünyasında çok değerlidir. Lider olarak, insanların adil ve iyi kararlar almasını sağlarsın. Takımda, kendin olman, başkalarının sana güvenmesini ve birlikte daha iyi çalışmasını sağlar. Bu, ekibi daha güçlü ve başarılı hale getirir.\n\nDeğerlerine bağlı kalman, iş dünyasında büyük bir güçtür. Dürüstlükle liderlik yapar ve başkalarına rehber olursun. Bu gücü kullanarak, şirketinin iyi kararlar almasına ve başarıya ulaşmasına yardımcı olabilirsin.";
+var guclu_yanlarin2_20_10_2 = "Liderlik Sesi\nDoğru olanı yapmaya ve kendin olmaya çok önem verirsin. Sadece kendin olarak, liderlik yapabilir ve başkalarına da kendileri olmaları konusunda örnek olabilirsin. Bu, herkesin kendini olduğu gibi kabul ettiği bir ortam yaratır.\n\nTercih Ettiğin Ortam\nSen, tıpkı senin gibi, kendine sadık kalan insanlarla birlikte olmayı seversin. Bu tür bir ortam hem senin hem de diğer insanların büyümesine ve inançlarına sadık kalmasına yardımcı olur.\n\nHayatta Gücünü Kullanmak\nSenin doğruyu yapma isteğin, okulda ve iş dünyasında çok değerlidir. Lider olarak, insanların adil ve iyi kararlar almasını sağlarsın. Takımda, kendin olman, başkalarının sana güvenmesini ve birlikte daha iyi çalışmasını sağlar. Bu, ekibi daha güçlü ve başarılı hale getirir.\n\nDeğerlerine bağlı kalman, iş dünyasında büyük bir güçtür. Dürüstlükle liderlik yapar ve başkalarına rehber olursun. Bu gücü kullanarak, şirketinin iyi kararlar almasına ve başarıya ulaşmasına yardımcı olabilirsin.";
 
 var guclu_yanlarin2_59_6_1 = "Etkileşim Gücü (6-59)";
-var guclu_yanlarin2_59_6_2 = "Anlamlı Bağlar Kurmak Başkalarıyla hızla derin bağlar kurma konusunda özel bir yeteneğe sahipsin. Bu, hem destekleyici hem de verimli ilişkiler kurmanı sağlar. İster bir takımda, ister müşterilerle olsun, bağlantı kurma becerin seni güvenilen ve değer verilen bir kişi yapar.\n\nRahat Ortamlar Yaratmak İnsanlara kendilerini rahat ve kabul edilmiş hissettirecek sıcak bir atmosfer yaratmayı biliyorsun. Bu, insanların kendilerini güvende hissetmesini ve dâhil olduklarını hissetmesini sağlar. Bu becerin, yaratıcılığı ve ekip çalışmasını artırır, böylece herkesin fikirlerini paylaşması daha kolay hale gelir.\n\nYaratıcılığı Kolaylaştırmak İnsanlara kendilerini rahat hissettirme gücün, yaratıcı düşünceyi teşvik eder. İster beyin fırtınası yaparken ister bir proje üzerinde çalışırken, senin sayende yeni fikirler yeşerir. Bu seni, yeniliklerin ön planda olduğu her ekipte kilit bir oyuncu yapar.\n\nHayatta Gücünü Kullanmak Bağlar kurma yeteneğin, hayatın birçok alanında işe yarar. Lider olarak, motive olmuş ve birleşmiş takımlar oluşturursun. Kişisel ilişkilerinde de insanlara değerli ve anlaşıldıklarını hissettirirsin. Etkileşim gücünü kullanarak, yeni fırsatların kapısını aralayabilir, ortaklıkları güçlendirebilir ve insanlarda güven uyandırabilirsin.\n\nBu güç sadece iş hayatında değil, yaşamın her alanında sana başarı getirecektir. Bağlantı kurma yeteneğini kucaklayarak, güçlü ve kalıcı ilişkiler inşa edebilir ve her alanda başarıya ulaşabilirsin.";
+var guclu_yanlarin2_59_6_2 = "Anlamlı Bağlar Kurmak\nBaşkalarıyla hızla derin bağlar kurma konusunda özel bir yeteneğe sahipsin. Bu, hem destekleyici hem de verimli ilişkiler kurmanı sağlar. İster bir takımda, ister müşterilerle olsun, bağlantı kurma becerin seni güvenilen ve değer verilen bir kişi yapar.\n\nRahat Ortamlar Yaratmak\nİnsanlara kendilerini rahat ve kabul edilmiş hissettirecek sıcak bir atmosfer yaratmayı biliyorsun. Bu, insanların kendilerini güvende hissetmesini ve dâhil olduklarını hissetmesini sağlar. Bu becerin, yaratıcılığı ve ekip çalışmasını artırır, böylece herkesin fikirlerini paylaşması daha kolay hale gelir.\n\nYaratıcılığı Kolaylaştırmak\nİnsanlara kendilerini rahat hissettirme gücün, yaratıcı düşünceyi teşvik eder. İster beyin fırtınası yaparken ister bir proje üzerinde çalışırken, senin sayende yeni fikirler yeşerir. Bu seni, yeniliklerin ön planda olduğu her ekipte kilit bir oyuncu yapar.\n\nHayatta Gücünü Kullanmak\nBağlar kurma yeteneğin, hayatın birçok alanında işe yarar. Lider olarak, motive olmuş ve birleşmiş takımlar oluşturursun. Kişisel ilişkilerinde de insanlara değerli ve anlaşıldıklarını hissettirirsin. Etkileşim gücünü kullanarak, yeni fırsatların kapısını aralayabilir, ortaklıkları güçlendirebilir ve insanlarda güven uyandırabilirsin.\n\nBu güç sadece iş hayatında değil, yaşamın her alanında sana başarı getirecektir. Bağlantı kurma yeteneğini kucaklayarak, güçlü ve kalıcı ilişkiler inşa edebilir ve her alanda başarıya ulaşabilirsin.";
 
 var guclu_yanlarin2_63_4_1 = "Mantıksal Süreç Gücü (63-4)";
-var guclu_yanlarin2_63_4_2 = "Şüpheyi Kucaklamak Şüphe, düşünme sürecinde büyük bir rol oynar. En iyi mantığın bile yanlış olabileceğini anlarsın ve her şeyi sorgulayarak düşüncelerini ve kararlarını sürekli geliştirirsin. Bu, seni her zaman dikkatli ve hatalardan uzak tutar.\n\nAktif Zihin Zihnin sürekli çalışır, kalıpları inceler ve tutarlı olup olmadıklarını kontrol eder. Bu yetenek, sorunları erkenden fark etmene ve onları büyümeden çözmene yardımcı olur. Bu beceri, işlerin sorunsuz yürümesini sağlar ve hataları önceden yakalamanda etkilidir.\n\nBaskı ve Sorular Bir şeyler kalıba uymadığında, cevap bulma ihtiyacı hissedersin. Bu sorunları çözme dürtüsü, seni derinlemesine incelemeye iter ve her şeyin doğru ve güvenilir olmasını sağlar. Gerçekleri bulana kadar durmayan doğal bir problem çözücüsün.\n\nHayatta Gücünü Kullanmak Sorgulama, kalıpları kontrol etme ve geleceği tahmin etme yeteneğin, hayatın birçok alanında işe yarar. İşte, takımının daha iyi planlar yapmasına ve daha akıllıca seçimler yapmasına yardımcı olursun. Sorunları büyümeden fark eder ve her şeyin sorunsuz işlemesini sağlarsın. Mantıksal sürecini kullanarak, çevrendeki insanların iyi kararlar vermesine ve başarılı olmasına yardımcı olabilirsin.Mantıksal düşünme gücün, her durumda başarılı olmanı sağlar. Bu yetenekle hem kişisel hem de profesyonel hayatında yararlı içgörüler sunar ve başarıya ulaşmana katkıda bulunursun.";
+var guclu_yanlarin2_63_4_2 = "Şüpheyi Kucaklamak\nŞüphe, düşünme sürecinde büyük bir rol oynar. En iyi mantığın bile yanlış olabileceğini anlarsın ve her şeyi sorgulayarak düşüncelerini ve kararlarını sürekli geliştirirsin. Bu, seni her zaman dikkatli ve hatalardan uzak tutar.\n\nAktif Zihin\nZihnin sürekli çalışır, kalıpları inceler ve tutarlı olup olmadıklarını kontrol eder. Bu yetenek, sorunları erkenden fark etmene ve onları büyümeden çözmene yardımcı olur. Bu beceri, işlerin sorunsuz yürümesini sağlar ve hataları önceden yakalamanda etkilidir.\n\nBaskı ve Sorular\nBir şeyler kalıba uymadığında, cevap bulma ihtiyacı hissedersin. Bu sorunları çözme dürtüsü, seni derinlemesine incelemeye iter ve her şeyin doğru ve güvenilir olmasını sağlar. Gerçekleri bulana kadar durmayan doğal bir problem çözücüsün.\n\nHayatta Gücünü Kullanmak\nSorgulama, kalıpları kontrol etme ve geleceği tahmin etme yeteneğin, hayatın birçok alanında işe yarar. İşte, takımının daha iyi planlar yapmasına ve daha akıllıca seçimler yapmasına yardımcı olursun. Sorunları büyümeden fark eder ve her şeyin sorunsuz işlemesini sağlarsın. Mantıksal sürecini kullanarak, çevrendeki insanların iyi kararlar vermesine ve başarılı olmasına yardımcı olabilirsin.Mantıksal düşünme gücün, her durumda başarılı olmanı sağlar. Bu yetenekle hem kişisel hem de profesyonel hayatında yararlı içgörüler sunar ve başarıya ulaşmana katkıda bulunursun.";
 
 var guclu_yanlarin2_45_21_1 = "Liderlik Gücü (45-21)";
-var guclu_yanlarin2_45_21_2 = "Güveni Kazanmak Bir lider olarak ilk görevin, çevrendekilerin güvenini kazanmaktır. Dürüstlük, beceri ve ekibinin ihtiyaçlarını gerçekten anladığını göstererek, güçlü ve uyumlu ekipler oluşturmanı sağlayacak güveni kazanırsın. Güven, liderliğinin temelidir.\n\nKalıpları ve Trendleri Tanımak Mevcut kalıpları ve trendleri tanıma yeteneğin var. Bu beceri, gelecekteki değişiklikleri öngörmene ve ekibini bu zorluklara hazırlamana yardımcı olur. Lider olarak, yaklaşan zorluklara karşı ekibini hazırlıklı hale getirirsin.\n\nEtkileyici Ses Sesin etkileyici bir güç taşır, ancak liderlik yapman için başkalarının seni davet etmesi gerekir. Ekip arkadaşların tarafından lider olarak seçilmek, onlara duyulan güveni ve senin liderliğine olan inancı gösterir.\n\nPerde Arkasında Liderlik Ayrıca sahnenin arkasından da liderlik yapma yeteneğin vardır. Her zaman ön planda olmadan da başkalarını etkileyebilir ve yönlendirebilirsin. Karar vericilere rehberlik ederek ve stratejileri perde arkasından şekillendirerek önemli ilerlemeler kaydedebilirsin.\n\nHayatta Gücünü Kullanmak Çevrendekileri geleceğe yönlendirme ve onların güvenini kazanma yeteneğin hayatın birçok alanında değerlidir. Liderlik rollerinde, ekibinin kendini güvende ve hazırlıklı hissetmesini sağlarsın. Kalıpları ve trendleri tanıyarak, grubunun karşılaşacağı zorluklara önceden hazırlık yaparsın. Sahne önünde ya da arkasında liderlik yaparak, kalıcı bir etki bırakırsın.Bu liderlik gücü, uzun vadeli başarıyı sağlamak ve güçlü ilişkiler kurmak için hem iş hayatında hem de yaşamda sana rehberlik edecektir.";
+var guclu_yanlarin2_45_21_2 = "Güveni Kazanmak\nBir lider olarak ilk görevin, çevrendekilerin güvenini kazanmaktır. Dürüstlük, beceri ve ekibinin ihtiyaçlarını gerçekten anladığını göstererek, güçlü ve uyumlu ekipler oluşturmanı sağlayacak güveni kazanırsın. Güven, liderliğinin temelidir.\n\nKalıpları ve Trendleri Tanımak\nMevcut kalıpları ve trendleri tanıma yeteneğin var. Bu beceri, gelecekteki değişiklikleri öngörmene ve ekibini bu zorluklara hazırlamana yardımcı olur. Lider olarak, yaklaşan zorluklara karşı ekibini hazırlıklı hale getirirsin.\n\nEtkileyici Ses\nSesin etkileyici bir güç taşır, ancak liderlik yapman için başkalarının seni davet etmesi gerekir. Ekip arkadaşların tarafından lider olarak seçilmek, onlara duyulan güveni ve senin liderliğine olan inancı gösterir.\n\nPerde Arkasında Liderlik\nAyrıca sahnenin arkasından da liderlik yapma yeteneğin vardır. Her zaman ön planda olmadan da başkalarını etkileyebilir ve yönlendirebilirsin. Karar vericilere rehberlik ederek ve stratejileri perde arkasından şekillendirerek önemli ilerlemeler kaydedebilirsin.\n\nHayatta Gücünü Kullanmak\nÇevrendekileri geleceğe yönlendirme ve onların güvenini kazanma yeteneğin hayatın birçok alanında değerlidir. Liderlik rollerinde, ekibinin kendini güvende ve hazırlıklı hissetmesini sağlarsın. Kalıpları ve trendleri tanıyarak, grubunun karşılaşacağı zorluklara önceden hazırlık yaparsın. Sahne önünde ya da arkasında liderlik yaparak, kalıcı bir etki bırakırsın.Bu liderlik gücü, uzun vadeli başarıyı sağlamak ve güçlü ilişkiler kurmak için hem iş hayatında hem de yaşamda sana rehberlik edecektir.";
 
 var guclu_yanlarin2_60_3_1 = "Yenilik Gücü (3-60)";
-var guclu_yanlarin2_60_3_2 = "Değişimi Kucaklamak Hem kendin hem de çevrendekiler için değişim gerçekleştirme gücüne sahipsin. Değişim ani olabilir ve ileriye doğru büyük bir sıçrama gibi hissedilebilir. Bu sürece inanmak önemlidir. Senin inancın basittir: \"Değişim, olması gerektiğinde olur.\"\n\nKaostan Düzene Geçiş Yenilik genellikle kaosla başlar, ancak sen bu kaosu düzene çevirmeyi bilirsin. Bu süreç zaman ve doğru ana güven gerektirir. Bu geçişi yönetme yeteneğin, projeleri kaotik başlangıçlardan başarılı sonuçlara taşır.\n\nYaratıcı Akış ve Ruh Halleri Yaratıcılığın inişli çıkışlı bir süreçten geçer ve bazen düşük ya da melankolik hissedebilirsin. Bu ruh hallerini kabul eder ve onların seni yönlendirmesine izin verirsin. İçsel tepkilerin, seni gerçekten tatmin eden şeylere yönlendirir.\n\nHayatta Gücünü Kullanmak Yenilik gücün, yeni fikirler ve değişiklikler getirmeni sağlar. Okul ve iş hayatında, insanları kaostan düzene yönlendirir ve büyük fikirleri gerçek sonuçlara dönüştürürsün. Sürece güvenme ve değişimi kucaklama yeteneğin, seni yaratıcı ve stratejik rollerin kilit oyuncusu yapar.Bu gücünü kullanarak, değişim ve yaratıcılığın geliştiği ortamlar oluşturabilir ve hayatın her alanında başarıya ulaşabilirsin.";
+var guclu_yanlarin2_60_3_2 = "Değişimi Kucaklamak\nHem kendin hem de çevrendekiler için değişim gerçekleştirme gücüne sahipsin. Değişim ani olabilir ve ileriye doğru büyük bir sıçrama gibi hissedilebilir. Bu sürece inanmak önemlidir. Senin inancın basittir: \"Değişim, olması gerektiğinde olur.\"\n\nKaostan Düzene Geçiş\nYenilik genellikle kaosla başlar, ancak sen bu kaosu düzene çevirmeyi bilirsin. Bu süreç zaman ve doğru ana güven gerektirir. Bu geçişi yönetme yeteneğin, projeleri kaotik başlangıçlardan başarılı sonuçlara taşır.\n\nYaratıcı Akış ve Ruh Halleri\nYaratıcılığın inişli çıkışlı bir süreçten geçer ve bazen düşük ya da melankolik hissedebilirsin. Bu ruh hallerini kabul eder ve onların seni yönlendirmesine izin verirsin. İçsel tepkilerin, seni gerçekten tatmin eden şeylere yönlendirir.\n\nHayatta Gücünü Kullanmak\nYenilik gücün, yeni fikirler ve değişiklikler getirmeni sağlar. Okul ve iş hayatında, insanları kaostan düzene yönlendirir ve büyük fikirleri gerçek sonuçlara dönüştürürsün. Sürece güvenme ve değişimi kucaklama yeteneğin, seni yaratıcı ve stratejik rollerin kilit oyuncusu yapar.Bu gücünü kullanarak, değişim ve yaratıcılığın geliştiği ortamlar oluşturabilir ve hayatın her alanında başarıya ulaşabilirsin.";
 
 var guclu_yanlarin2_5_15_1 = "Kalıplar ve Ritim Gücü (5-15)";
-var guclu_yanlarin2_5_15_2 = "Akışına Uyum Sağlamak Doğal ritmine uyum sağladığında, yaptığın her şey zahmetsiz ve pürüzsüz hissedilir. Bu uyum hali, yaratıcılığını ve üretkenliğini artırarak en iyi performansı göstermen için sana yardımcı olur. Akışını kucaklamak sana iyi hissettirir ve etkinliğini artırabilir.\n\nRutinlere Bağlı Kalmak Sana hizmet eden rutinlere bağlı kalma konusunda doğal bir yeteneğe sahipsin. Bu rutinler, sana bir yapı ve istikrar sağlar, işlerini tutarlı bir şekilde yapmanı kolaylaştırır. Okulda ve profesyonel ortamlarda bu becerin, verimliliği artıran ve stresi azaltan güvenilir süreçler oluşturmanı sağlar.\n\nFarklı Ritimleri Tanımak Ayrıca, çevrendeki insanların farklı ritimlerini tanıma yeteneğine sahipsin. Kimisi sabit bir rutin tercih ederken, kimisi daha esnek olabilir; sen bu farkları anlayıp onlara uyum sağlarsın. Bu anlayış, daha uyumlu ve işbirlikçi bir ekip ortamı oluşturur.\n\nHayatta Gücünü Kullanmak Kendi ritmine uymak ve başkalarının kalıplarını tanımak, işte ve hayatta seni değerli kılar. Kendi akışını koruyarak en iyi performansını sergilersin ve başkalarının da aynı şekilde başarılı olmasına yardımcı olursun. Ekiplerde uyumu sağlarsın, işbirliğini ve üretkenliği artırırsın. Kalıplar ve ritim gücün, herkesin doğru yolda kalmasına ve başarılı olmasına yardımcı olur.Bu güç, yapı, uyum ve uyarlanabilirlik sunarak, seni her başarılı projede veya organizasyonda önemli bir katkı sağlayan kişi haline getirir.";
+var guclu_yanlarin2_5_15_2 = "Akışına Uyum Sağlamak\nDoğal ritmine uyum sağladığında, yaptığın her şey zahmetsiz ve pürüzsüz hissedilir. Bu uyum hali, yaratıcılığını ve üretkenliğini artırarak en iyi performansı göstermen için sana yardımcı olur. Akışını kucaklamak sana iyi hissettirir ve etkinliğini artırabilir.\n\nRutinlere Bağlı Kalmak\nSana hizmet eden rutinlere bağlı kalma konusunda doğal bir yeteneğe sahipsin. Bu rutinler, sana bir yapı ve istikrar sağlar, işlerini tutarlı bir şekilde yapmanı kolaylaştırır. Okulda ve profesyonel ortamlarda bu becerin, verimliliği artıran ve stresi azaltan güvenilir süreçler oluşturmanı sağlar.\n\nFarklı Ritimleri Tanımak\nAyrıca, çevrendeki insanların farklı ritimlerini tanıma yeteneğine sahipsin. Kimisi sabit bir rutin tercih ederken, kimisi daha esnek olabilir; sen bu farkları anlayıp onlara uyum sağlarsın. Bu anlayış, daha uyumlu ve işbirlikçi bir ekip ortamı oluşturur.\n\nHayatta Gücünü Kullanmak\nKendi ritmine uymak ve başkalarının kalıplarını tanımak, işte ve hayatta seni değerli kılar. Kendi akışını koruyarak en iyi performansını sergilersin ve başkalarının da aynı şekilde başarılı olmasına yardımcı olursun. Ekiplerde uyumu sağlarsın, işbirliğini ve üretkenliği artırırsın. Kalıplar ve ritim gücün, herkesin doğru yolda kalmasına ve başarılı olmasına yardımcı olur.Bu güç, yapı, uyum ve uyarlanabilirlik sunarak, seni her başarılı projede veya organizasyonda önemli bir katkı sağlayan kişi haline getirir.";
 
 var guclu_yanlarin2_47_64_1 = "Deneyimsel Süreç Gücü (64-47)";
-var guclu_yanlarin2_47_64_2 = "Yaparak Öğrenmek En iyi doğrudan deneyimleme ile öğrenirsin. Bu pratik yaklaşım, karmaşık durumları anlamanı sağlar. Bu yetenek, anında sorun çözmede ve süreç içinde uyum sağlamada seni başarılı kılar.\n\nDeneyimlerden Kalıpları Tanımak Bir deneyimi yaşadıktan düşünüp fark edebilirsin. Bu yetenek, daha iyi kararlar almanı ve gerçek dünyadaki geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Çözümlerin gerçeklikle temellendirilmiştir.\n\nUyum Sağlama ve Dayanıklılık Zorluklarla doğrudan yüzleşerek esneklik ve dayanıklılık geliştirirsin. Değişen koşullara hızla uyum sağlama yeteneğin, hızlı tempolu ortamlarda çok önemlidir, çünkü şartlar hızla değişebilir.\n\nHayatta Gücünü Kullanmak Deneyimsel öğrenme gücün, hayatın birçok alanında başarılı olmanı sağlar. Deneyimlerinden öğrenir ve başkalarına pratik örneklerle bilgi aktararak öğretirsin. İş hayatında, bu yetenek süreçleri iyileştirir, sorunları hızla çözer ve yeni durumlara kolayca uyum sağlar.Bu deneyimsel süreç gücün, öğrenme ve büyümeyi sağlayarak hem senin hem de çevrendekilerin her alanda başarılı olmasına yardımcı olur.";
+var guclu_yanlarin2_47_64_2 = "Yaparak Öğrenmek\nEn iyi doğrudan deneyimleme ile öğrenirsin. Bu pratik yaklaşım, karmaşık durumları anlamanı sağlar. Bu yetenek, anında sorun çözmede ve süreç içinde uyum sağlamada seni başarılı kılar.\n\nDeneyimlerden Kalıpları Tanımak\nBir deneyimi yaşadıktan düşünüp fark edebilirsin. Bu yetenek, daha iyi kararlar almanı ve gerçek dünyadaki geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Çözümlerin gerçeklikle temellendirilmiştir.\n\nUyum Sağlama ve Dayanıklılık\nZorluklarla doğrudan yüzleşerek esneklik ve dayanıklılık geliştirirsin. Değişen koşullara hızla uyum sağlama yeteneğin, hızlı tempolu ortamlarda çok önemlidir, çünkü şartlar hızla değişebilir.\n\nHayatta Gücünü Kullanmak\nDeneyimsel öğrenme gücün, hayatın birçok alanında başarılı olmanı sağlar. Deneyimlerinden öğrenir ve başkalarına pratik örneklerle bilgi aktararak öğretirsin. İş hayatında, bu yetenek süreçleri iyileştirir, sorunları hızla çözer ve yeni durumlara kolayca uyum sağlar.Bu deneyimsel süreç gücün, öğrenme ve büyümeyi sağlayarak hem senin hem de çevrendekilerin her alanda başarılı olmasına yardımcı olur.";
 
 var guclu_yanlarin2_27_50_1 = "Koruyuculuk Gücü (27-50)";
-var guclu_yanlarin2_27_50_2 = "Besleme ve Sürdürme İnsanlara, projelere ve kaynaklara doğal bir şekilde bakabilirsin. Bu yetenek, sorumluluğun altındaki her şeyin gelişmesini ve değerini korumasını sağlar. Okulda ve iş dünyasında, bu güç uzun vadeli planlama ve bakım gerektiren işlerde önemlidir.\n\nTopluluk Oluşturma Güçlü ve destekleyici topluluklar yaratabilirsin. İnsanlara değer verildiğini hissettirerek ekip çalışmasını ve verimliliği artırırsın. Bu yetenek pozitif bir kültür oluşturmak için çok faydalıdır.\n\nHayatta Gücünü Kullanmak Koruyuculuk gücün, hem kişisel hem de iş hayatında değerli olanı korumada çok önemlidir. Kaynakların büyümesini ve korunmasını sağlarsın. Güçlü topluluklar ve değerli kaynaklar oluşturarak uzun vadeli başarıya katkıda bulunursun.Bu güç, bakım, sorumluluk ve uzun vadeli düşünceyi birleştirir. Seni sürdürülebilirlik ve yöneticilik gerektiren işlerde değerli kılar.";
+var guclu_yanlarin2_27_50_2 = "Besleme ve Sürdürme\nİnsanlara, projelere ve kaynaklara doğal bir şekilde bakabilirsin. Bu yetenek, sorumluluğun altındaki her şeyin gelişmesini ve değerini korumasını sağlar. Okulda ve iş dünyasında, bu güç uzun vadeli planlama ve bakım gerektiren işlerde önemlidir.\n\nSorumluluk ve Yöneticilik\nKaynakları iyi yönetme sorumluluğunu hissedersin. Onların akıllıca kullanılmasını ve korunmasını sağlarsın. Bu yetenek, seni sürdürülebilirlik ve kaynak yönetimi alanlarında ideal kılar.\n\nTopluluk Oluşturma\nGüçlü ve destekleyici topluluklar yaratabilirsin. İnsanlara değer verildiğini hissettirerek ekip çalışmasını ve verimliliği artırırsın. Bu yetenek pozitif bir kültür oluşturmak için çok faydalıdır.\n\nHayatta Gücünü Kullanmak\nKoruyuculuk gücün, hem kişisel hem de iş hayatında değerli olanı korumada çok önemlidir. Kaynakların büyümesini ve korunmasını sağlarsın. Güçlü topluluklar ve değerli kaynaklar oluşturarak uzun vadeli başarıya katkıda bulunursun.Bu güç, bakım, sorumluluk ve uzun vadeli düşünceyi birleştirir. Seni sürdürülebilirlik ve yöneticilik gerektiren işlerde değerli kılar.";
 
 var guclu_yanlarin2_26_44_1 = "Satış ve Pazarlama Gücü (26-44)";
-var guclu_yanlarin2_26_44_2 = "Net İletişim Bilgiyi net bir şekilde aktarırsın. Bu, satış, pazarlama ve müşteri hizmetlerinde işe yarar. Herkesin anlamasını sağlar, yanlış anlamaları azaltırsın.\n\nEnerji ve Motivasyon Çevrendekilere enerji ve motivasyon verirsin. Tutkun ekibini hedeflerine ulaştırır. Bu seni iyi bir lider yapar.\n\nEtkileme ve İkna İletişim becerilerin başkalarını etkilemene ve ikna etmene yardımcı olur. Fikir sunarken ya da anlaşma yaparken olumlu sonuçlar alırsın. Bu beceri satış, liderlik ve müzakere için önemlidir.\n\nHayatta Gücünü Kullanmak Satış ve pazarlama gücün, birçok alanda faydalıdır. Satışta müşteri çekersin ve satışları artırırsın. Lider olarak ekibini motive edersin. Müşteri hizmetlerinde sadakat yaratırsın.Bu güç, ilişkiler kurmanı, insanlara ilham vermeni ve başarı elde etmeni sağlar.";
+var guclu_yanlarin2_26_44_2 = "Net İletişim\nBilgiyi net bir şekilde aktarırsın. Bu, satış, pazarlama ve müşteri hizmetlerinde işe yarar. Herkesin anlamasını sağlar, yanlış anlamaları azaltırsın.\n\nDuygusal Bağlantı\nBaşkalarıyla duygusal bağ kurabilirsin. Bu, güven ve güçlü ilişkiler oluşturur. Liderlikte çok faydalıdır.\n\nEnerji ve Motivasyon\nÇevrendekilere enerji ve motivasyon verirsin. Tutkun ekibini hedeflerine ulaştırır. Bu seni iyi bir lider yapar.\n\nEtkileme ve İkna\nİletişim becerilerin başkalarını etkilemene ve ikna etmene yardımcı olur. Fikir sunarken ya da anlaşma yaparken olumlu sonuçlar alırsın. Bu beceri satış, liderlik ve müzakere için önemlidir.\n\nHayatta Gücünü Kullanmak\nSatış ve pazarlama gücün, birçok alanda faydalıdır. Satışta müşteri çekersin ve satışları artırırsın. Lider olarak ekibini motive edersin. Müşteri hizmetlerinde sadakat yaratırsın.Bu güç, ilişkiler kurmanı, insanlara ilham vermeni ve başarı elde etmeni sağlar.";
 
 var guclu_yanlarin2_54_32_1 = "Tutku Gücü (32-54)";
-var guclu_yanlarin2_54_32_2 = "Başarıya Odaklı Hedeflerine ulaşmak için güçlü bir arzun var. Bu kararlılık, zorluklarla karşılaştığında bile seni ileriye taşır. Bu yetenek, girişimcilik, satış ve liderlik gibi azim gerektiren işlerde çok değerlidir.\n\nHedef Odaklı Hedefler belirlemeye ve bu hedeflere ulaşmaya odaklanırsın. Ne istediğini bilirsin ve bunu başarmak için çok çalışırsın. Bu odak seni motive eder ve ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar Kendine yüksek standartlar koyarsın ve mükemmeliyet için çalışırsın. Becerilerini geliştirmek ve harika sonuçlar almak için çabalarsın. Bu yüksek standartların başkalarını da motive eder.\n\nBaşkalarını Motive Etme Tutkun başkalarına ilham verir. Çok çalışarak ve özveri göstererek ekibini de başarıya yönlendirirsin. Liderlik rollerinde bu yetenek, büyük başarılar elde etmene yardımcı olur.\n\nHayatta Gücünü Kullanmak Tutku gücün, hayatın birçok alanında işe yarar. İş dünyasında fikirleri başarıya dönüştürürsün. Satışta harika sonuçlar alırsın. Lider olarak ekibini motive eder ve başarıya ulaştırırsın.Tutkun, güçlü bir yetenek. Hedeflerine ulaşmana ve çevrendekilere ilham vermene yardımcı olur.";
+var guclu_yanlarin2_54_32_2 = "Başarıya Odaklı\nHedeflerine ulaşmak için güçlü bir arzun var. Bu kararlılık, zorluklarla karşılaştığında bile seni ileriye taşır. Bu yetenek, girişimcilik, satış ve liderlik gibi azim gerektiren işlerde çok değerlidir.\n\nHedef Odaklı\nHedefler belirlemeye ve bu hedeflere ulaşmaya odaklanırsın. Ne istediğini bilirsin ve bunu başarmak için çok çalışırsın. Bu odak seni motive eder ve ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar\nKendine yüksek standartlar koyarsın ve mükemmeliyet için çalışırsın. Becerilerini geliştirmek ve harika sonuçlar almak için çabalarsın. Bu yüksek standartların başkalarını da motive eder.\n\nBaşkalarını Motive Etme\nTutkun başkalarına ilham verir. Çok çalışarak ve özveri göstererek ekibini de başarıya yönlendirirsin. Liderlik rollerinde bu yetenek, büyük başarılar elde etmene yardımcı olur.\n\nHayatta Gücünü Kullanmak\nTutku gücün, hayatın birçok alanında işe yarar. İş dünyasında fikirleri başarıya dönüştürürsün. Satışta harika sonuçlar alırsın. Lider olarak ekibini motive eder ve başarıya ulaştırırsın.Tutkun, güçlü bir yetenek. Hedeflerine ulaşmana ve çevrendekilere ilham vermene yardımcı olur.";
 
 var guclu_yanlarin2_49_19_1 = "Kaynaklar Gücü (19-49)";
-var guclu_yanlarin2_49_19_2 = "Verimli Kaynak Yönetimi Kaynakları yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu, her şeyin verimli kullanılmasını ve tüm ihtiyaçların karşılanmasını sağlar. Bu beceri, operasyonların sorunsuz ve verimli çalışmasını sağlar.\n\nFarklı İhtiyaçları Karşılama Farklı insanların ihtiyaçlarını dengelemeyi iyi bilirsin. Kaynakları hem organizasyon hem de bireysel ihtiyaçları karşılayacak şekilde önceliklendirebilirsin. Bu müşteri hizmetleri ve proje yönetiminde başarı için çok önemlidir.\n\nUyum Sağlama Kaynak yönetimindeki becerin seni esnek yapar. Yeni durumlara hızla uyum sağlayabilir ve kaynakları sorunları çözmek için yeniden yönlendirebilirsin. Bu, hızla değişen ortamlarda çok değerlidir.\n\nHayatta Gücünü Kullanmak Kaynak yönetimi gücün birçok alanda işe yarar. Operasyonlarda, verimliliği artırabilir ve maliyetleri düşürebilirsin. Finans alanında, bütçe yapma becerilerin paranın akıllıca kullanılmasını sağlayabilir. Proje yönetiminde, doğru kaynakları kullanarak hedeflere ulaşılmasını sağlaybilirsin.Bu güç, her şeyin sorunsuz çalışmasını, kaynakların verimli kullanılmasını ve hedeflerin gerçekleşmesini sağlar.";
+var guclu_yanlarin2_49_19_2 = "Verimli Kaynak Yönetimi\nKaynakları yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu, her şeyin verimli kullanılmasını ve tüm ihtiyaçların karşılanmasını sağlar. Bu beceri, operasyonların sorunsuz ve verimli çalışmasını sağlar.\n\nFarklı İhtiyaçları Karşılama\nFarklı insanların ihtiyaçlarını dengelemeyi iyi bilirsin. Kaynakları hem organizasyon hem de bireysel ihtiyaçları karşılayacak şekilde önceliklendirebilirsin. Bu müşteri hizmetleri ve proje yönetiminde başarı için çok önemlidir.\n\nUyum Sağlama\nKaynak yönetimindeki becerin seni esnek yapar. Yeni durumlara hızla uyum sağlayabilir ve kaynakları sorunları çözmek için yeniden yönlendirebilirsin. Bu, hızla değişen ortamlarda çok değerlidir.\n\nHayatta Gücünü Kullanmak\nKaynak yönetimi gücün birçok alanda işe yarar. Operasyonlarda, verimliliği artırabilir ve maliyetleri düşürebilirsin. Finans alanında, bütçe yapma becerilerin paranın akıllıca kullanılmasını sağlayabilir. Proje yönetiminde, doğru kaynakları kullanarak hedeflere ulaşılmasını sağlaybilirsin.Bu güç, her şeyin sorunsuz çalışmasını, kaynakların verimli kullanılmasını ve hedeflerin gerçekleşmesini sağlar.";
 
 var guclu_yanlarin2_37_40_1 = "Topluluk Gücü (Quantum 37-40)";
-var guclu_yanlarin2_37_40_2 = "Güçlü Ağlar Kurma Destekleyici gruplar oluşturmakta iyisin. Bu, insanların birlikte iyi çalışmasını ve ait olduklarını hissetmesini sağlar. İnsanları bir araya getirme yeteneğin, takım projelerinde ve liderlikte seni değerli kılar.\n\nDestekleyici Ortam Yaratma İnsanların en iyi şekilde çalışabileceği ortamlar yaratmada yeteneklisin. Başkalarının neye ihtiyacı olduğunu anlar ve onlara doğru desteği sağlarsın. Bu beceri, başkalarına rehberlik etmede ve onların gelişmesine yardımcı olmada çok önemlidir.\n\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, sadakati artırır. Pozitif ve katılımcı bir ortam yaratarak, insanların uzun süre bağlı kalmasını sağlarsın. İnsanların kendilerini değerli hissetmesinde bu çok faydalıdır.\n\nHayatta Gücünü Kullanmak Topluluk oluşturma gücün, hayatın birçok alanında faydalı olabilir. Takımlarda, işbirliğini ve başarıyı artırabilirsin. Kalıcı ilişkiler kurabilirsin, bu müşteri ilişkileri gibi rollerde faydalıdır. İnsanları mutlu eden destekleyici bir ortam yaratabilirsin.Bu güç, insanların değerli ve bağlantılı hissettiği ortamlar yaratmana ve başarıya katkıda bulunmana yardımcı olur.";
+var guclu_yanlarin2_37_40_2 = "Güçlü Ağlar Kurma\nDestekleyici gruplar oluşturmakta iyisin. Bu, insanların birlikte iyi çalışmasını ve ait olduklarını hissetmesini sağlar. İnsanları bir araya getirme yeteneğin, takım projelerinde ve liderlikte seni değerli kılar.\n\nDestekleyici Ortam Yaratma\nİnsanların en iyi şekilde çalışabileceği ortamlar yaratmada yeteneklisin. Başkalarının neye ihtiyacı olduğunu anlar ve onlara doğru desteği sağlarsın. Bu beceri, başkalarına rehberlik etmede ve onların gelişmesine yardımcı olmada çok önemlidir.\n\nSadakati Teşvik Etme\nGüçlü topluluklar oluşturma yeteneğin, sadakati artırır. Pozitif ve katılımcı bir ortam yaratarak, insanların uzun süre bağlı kalmasını sağlarsın. İnsanların kendilerini değerli hissetmesinde bu çok faydalıdır.\n\nHayatta Gücünü Kullanmak\nTopluluk oluşturma gücün, hayatın birçok alanında faydalı olabilir. Takımlarda, işbirliğini ve başarıyı artırabilirsin. Kalıcı ilişkiler kurabilirsin, bu müşteri ilişkileri gibi rollerde faydalıdır. İnsanları mutlu eden destekleyici bir ortam yaratabilirsin.Bu güç, insanların değerli ve bağlantılı hissettiği ortamlar yaratmana ve başarıya katkıda bulunmana yardımcı olur.";
 
 var guclu_yanlarin2_34_57_1 = "Kuvvet Gücü (Quantum 34-57)";
-var guclu_yanlarin2_34_57_2 = "Hızlı Kararlar Zorluklarla hızlıca ve net bir şekilde başa çıkarsın. Bu yetenek, işlerin hızla değiştiği ortamlarda çok işe yarar.\n\nİşlerin Devamını Sağlamak İşleri sorunsuz yürütmekte iyisin. Sorunları hemen fark eder ve çözersin. Bu takım yönetiminde önemlidir.\n\nKriz Yönetimi Zor durumlarda sakin kalır ve harekete geçersin. Bu da seni krizleri çözmede çok iyi yapar.\n\nProjelerde Liderlik Projelerde, kuvvetin işleri yolunda tutar. Hızlı kararlar alır, dikkat dağıtıcı şeyleri ortadan kaldırır ve ekibini odaklı tutarsın. Bu, işleri zamanında bitirmeni sağlar.Hayatta Gücünü Kullanmak Kuvvet gücün, hayatın birçok alanında faydalıdır. Hızlı ortamlarda liderlik yapabilirsin ve başkalarını desteklersin. Bu gücünü kullanarak projeleri yönetir, ekibini yönlendirir ve zorluklarla başa çıkarsın.Bu güç, başkalarına güvenle ve amaçla hareket etmeyi gösteren bir örnek olmanı sağlar.";
+var guclu_yanlarin2_34_57_2 = "Hızlı Kararlar\nZorluklarla hızlıca ve net bir şekilde başa çıkarsın. Bu yetenek, işlerin hızla değiştiği ortamlarda çok işe yarar.\n\nİşlerin Devamını Sağlamak\nİşleri sorunsuz yürütmekte iyisin. Sorunları hemen fark eder ve çözersin. Bu takım yönetiminde önemlidir.\n\nKriz Yönetimi\nZor durumlarda sakin kalır ve harekete geçersin. Bu da seni krizleri çözmede çok iyi yapar.\n\nProjelerde Liderlik\nProjelerde, kuvvetin işleri yolunda tutar. Hızlı kararlar alır, dikkat dağıtıcı şeyleri ortadan kaldırır ve ekibini odaklı tutarsın. Bu, işleri zamanında bitirmeni sağlar.Hayatta Gücünü Kullanmak\nKuvvet gücün, hayatın birçok alanında faydalıdır. Hızlı ortamlarda liderlik yapabilirsin ve başkalarını desteklersin. Bu gücünü kullanarak projeleri yönetir, ekibini yönlendirir ve zorluklarla başa çıkarsın.Bu güç, başkalarına güvenle ve amaçla hareket etmeyi gösteren bir örnek olmanı sağlar.";
 
 var guclu_yanlarin2_20_34_1 = "Karizma Gücü (Quantum 34-20)";
-var guclu_yanlarin2_20_34_2 = "Etkileme ve İkna Karizman, başkalarını etkilemeni ve ikna etmeni kolaylaştırır. Bir ekibi yönetirken, anlaşma yaparken veya fikir sunarken insanlar sana güvenir ve seni takip eder. Bu beceri, satış, pazarlama ve liderlikte seni değerli yapar.\n\nGüçlü İlişkiler Kurma Karizman, güçlü ve kalıcı ilişkiler kurmana yardımcı olur. Başkalarını önemli ve anlaşılmış hissettirir, bu da güven ve sadakat oluşturur. Bu beceri, müşteri ilişkileri ve ekip yönetiminde önemlidir.\n\nBaşkalarına İlham Verme Karizman, çevrendekilere ilham verir ve onları motive eder. Güven ve coşku göstererek, başkalarını ellerinden gelenin en iyisini yapmaya teşvik edersin. Bu, bir ekibi motive etmenin önemli olduğu liderlikte çok değerlidir.\n\nHayatta Gücünü Kullanmak Karizma gücün, hayatın birçok alanda işe yarar. Satış ve pazarlamada, müşterileri çekip satışları artırabilirsin. Lider olarak, ekibini motive edersin. Ağ kurmada, varlığın yeni fırsatlar yaratır.Karizma güçlü bir yetenektir. Başkalarını etkilemene, ilişkiler kurmana ve başarıyı teşvik etmene yardımcı olur.";
+var guclu_yanlarin2_20_34_2 = "Etkileme ve İkna\nKarizman, başkalarını etkilemeni ve ikna etmeni kolaylaştırır. Bir ekibi yönetirken, anlaşma yaparken veya fikir sunarken insanlar sana güvenir ve seni takip eder. Bu beceri, satış, pazarlama ve liderlikte seni değerli yapar.\n\nGüçlü İlişkiler Kurma\nKarizman, güçlü ve kalıcı ilişkiler kurmana yardımcı olur. Başkalarını önemli ve anlaşılmış hissettirir, bu da güven ve sadakat oluşturur. Bu beceri, müşteri ilişkileri ve ekip yönetiminde önemlidir.\n\nBaşkalarına İlham Verme\nKarizman, çevrendekilere ilham verir ve onları motive eder. Güven ve coşku göstererek, başkalarını ellerinden gelenin en iyisini yapmaya teşvik edersin. Bu, bir ekibi motive etmenin önemli olduğu liderlikte çok değerlidir.\n\nHayatta Gücünü Kullanmak\nKarizma gücün, hayatın birçok alanda işe yarar. Satış ve pazarlamada, müşterileri çekip satışları artırabilirsin. Lider olarak, ekibini motive edersin. Ağ kurmada, varlığın yeni fırsatlar yaratır.Karizma güçlü bir yetenektir. Başkalarını etkilemene, ilişkiler kurmana ve başarıyı teşvik etmene yardımcı olur.";
 
 var guclu_yanlarin2_51_25_1 = "Rekabet Gücü (Quantum 51-25)";
-var guclu_yanlarin2_51_25_2 = "Mükemmelliği Aramak En iyi olmak ve rakiplerini geçmek için güçlü bir isteğe sahipsin. Bu dürtü, büyük hedefler belirlemene ve onları başarmak için çok çalışmana neden olur. Sen ve ekibin her zaman en yüksek performansı hedeflersiniz.\n\nDayanıklılık ve Kararlılık Rekabet ruhun seni güçlü ve kararlı yapar. Zor durumlarla iyi başa çıkarsın ve kolay kolay pes etmezsin. Bu, zor zamanlarda bile odaklanmanı ve ilerlemeye devam etmeni sağlar.\n\nBaşkalarına İlham Verme Rekabetçi doğan çevrendekilere ilham verir. Yüksek standartlar belirleyerek ve başarıya olan bağlılığını göstererek, ekibinin daha çok çalışmasını ve daha iyi performans göstermesini sağlarsın. Bu, liderlik rollerinde çok önemlidir.\n\nHayatta Gücünü Kullanmak Rekabet gücün, hayatın birçok alanında işe yarar. Satış ve pazarlamada seni daha iyi sonuçlar almaya yönlendirir. Lider olarak, mükemmeliyet odağın, ekibinin başarıya ulaşmasına yardımcı olur. Projelerde, kararlılığın zorlukların üstesinden gelmeyi sağlar.Rekabet gücü güçlü bir yetenektir. Yüksek performansa ulaşmana, başkalarına ilham vermene ve ekibini başarıya yönlendirmene yardımcı olur.";
+var guclu_yanlarin2_51_25_2 = "Mükemmelliği Aramak\nEn iyi olmak ve rakiplerini geçmek için güçlü bir isteğe sahipsin. Bu dürtü, büyük hedefler belirlemene ve onları başarmak için çok çalışmana neden olur. Sen ve ekibin her zaman en yüksek performansı hedeflersiniz.\n\nDayanıklılık ve Kararlılık\nRekabet ruhun seni güçlü ve kararlı yapar. Zor durumlarla iyi başa çıkarsın ve kolay kolay pes etmezsin. Bu, zor zamanlarda bile odaklanmanı ve ilerlemeye devam etmeni sağlar.\n\nBaşkalarına İlham Verme\nRekabetçi doğan çevrendekilere ilham verir. Yüksek standartlar belirleyerek ve başarıya olan bağlılığını göstererek, ekibinin daha çok çalışmasını ve daha iyi performans göstermesini sağlarsın. Bu, liderlik rollerinde çok önemlidir.\n\nHayatta Gücünü Kullanmak\nRekabet gücün, hayatın birçok alanında işe yarar. Satış ve pazarlamada seni daha iyi sonuçlar almaya yönlendirir. Lider olarak, mükemmeliyet odağın, ekibinin başarıya ulaşmasına yardımcı olur. Projelerde, kararlılığın zorlukların üstesinden gelmeyi sağlar.Rekabet gücü güçlü bir yetenektir. Yüksek performansa ulaşmana, başkalarına ilham vermene ve ekibini başarıya yönlendirmene yardımcı olur.";
 
 var guclu_yanlarin2_8_1_1 = "İlham Gücü (Quantum 1-8)";
-var guclu_yanlarin2_8_1_2 = "Yaratıcı İfade Farklı fikirleri yaratıcı bir şekilde ifade etme yeteneğine sahipsin. Varlığınla veya yaptığın işlerle başkalarına ilham verirsin ve onlara yeni bakış açıları sunarsın. Bu yetenek, satış, pazarlama veya liderlik gibi yaratıcı işler için faydalıdır.\n\nBir Rol Model Olmak Yaratıcı ve kendini ifade eden biri olmanın ne anlama geldiğini gösterirsin. İnsanlar bunu takdir eder ve sana bir rol model olarak bakarlar. Bu da seni mentorluk ve takım liderliği gibi rollerde iyi yapar.\n\nFarklı Olma Cesareti Farklı olma ve öne çıkma cesaretine sahipsin. Cesur olup riskler alarak, başkalarını da aynı şeyi yapmaya teşvik edersin. Bu, takımında veya organizasyonunda yeni fikirlerin ve yaratıcılığın gelişmesini sağlar.\n\nAlgıları Değiştirme Otantik yaşayarak başkalarının düşünce tarzını değiştirebilir ve onların kendilerini ifade etmelerine yardımcı olabilirsin. Etkin, daha açık ve kapsayıcı bir ortam yaratır, farklı fikirlerin değer gördüğü bir yer oluşturursun.\n\nHayatta Gücünü Kullanmak İlham gücün birçok alanda faydalıdır. Yaratıcı işlerde, yeni fikirler getirir ve başkalarına cesaret verirsin. Lider olarak, ekibini farklı düşünmeye ve daha fazla başarmaya teşvik edersin. Yaratıcılığın ve cesaretin seni güçlü bir etki kaynağı yapar.";
+var guclu_yanlarin2_8_1_2 = "Yaratıcı İfade\nFarklı fikirleri yaratıcı bir şekilde ifade etme yeteneğine sahipsin. Varlığınla veya yaptığın işlerle başkalarına ilham verirsin ve onlara yeni bakış açıları sunarsın. Bu yetenek, satış, pazarlama veya liderlik gibi yaratıcı işler için faydalıdır.\n\nBir Rol Model Olmak\nYaratıcı ve kendini ifade eden biri olmanın ne anlama geldiğini gösterirsin. İnsanlar bunu takdir eder ve sana bir rol model olarak bakarlar. Bu da seni mentorluk ve takım liderliği gibi rollerde iyi yapar.\n\nFarklı Olma Cesareti\nFarklı olma ve öne çıkma cesaretine sahipsin. Cesur olup riskler alarak, başkalarını da aynı şeyi yapmaya teşvik edersin. Bu, takımında veya organizasyonunda yeni fikirlerin ve yaratıcılığın gelişmesini sağlar.\n\nAlgıları Değiştirme\nOtantik yaşayarak başkalarının düşünce tarzını değiştirebilir ve onların kendilerini ifade etmelerine yardımcı olabilirsin. Etkin, daha açık ve kapsayıcı bir ortam yaratır, farklı fikirlerin değer gördüğü bir yer oluşturursun.\n\nHayatta Gücünü Kullanmak\nİlham gücün birçok alanda faydalıdır. Yaratıcı işlerde, yeni fikirler getirir ve başkalarına cesaret verirsin. Lider olarak, ekibini farklı düşünmeye ve daha fazla başarmaya teşvik edersin. Yaratıcılığın ve cesaretin seni güçlü bir etki kaynağı yapar.";
 
 var guclu_yanlarin2_28_38_1 = "Azim Gücü (Quantum 38-28)";
-var guclu_yanlarin2_28_38_2 = "Zorlukların Üstesinden Gelme Azmin, zorluklarla başa çıkmana yardımcı olur. İşler zorlaştığında kolay pes etmezsin ve engelleri öğrenme fırsatı olarak görürsün. Bu güç, zorlukları aşmanın önemli olduğu işlerde çok değerlidir.\n\nTutarlı Çaba Azmin, hedeflerin için sürekli çalışmanı sağlar. İşine bağlısın ve ekstra çaba göstermeye hazırsın. Bu, araştırma, planlama ve operasyon yönetimi gibi uzun vadeli bağlılık gerektiren işlerde önemlidir.\n\nBaşkalarına İlham Verme Azmin başkalarına ilham verir. Sıkı çalışarak ve kararlı durarak, ekibinin de aynı şekilde düşünmesini sağlarsın. Bu, liderlik ve mentorluk rollerinde çok önemlidir.\n\nHayatta Gücünü Kullanmak Azim gücün hayatın birçok alanında işe yarar. Zorluklara rağmen ilerlemene ve hedeflerine ulaşmana yardımcı olur. Bu gücü kullanarak hem kendin başarıya ulaşabilir hem de başkalarına ilham verebilirsin.";
+var guclu_yanlarin2_28_38_2 = "Zorlukların Üstesinden Gelme\nAzmin, zorluklarla başa çıkmana yardımcı olur. İşler zorlaştığında kolay pes etmezsin ve engelleri öğrenme fırsatı olarak görürsün. Bu güç, zorlukları aşmanın önemli olduğu işlerde çok değerlidir.\n\nTutarlı Çaba\nAzmin, hedeflerin için sürekli çalışmanı sağlar. İşine bağlısın ve ekstra çaba göstermeye hazırsın. Bu, araştırma, planlama ve operasyon yönetimi gibi uzun vadeli bağlılık gerektiren işlerde önemlidir.\n\nBaşkalarına İlham Verme\nAzmin başkalarına ilham verir. Sıkı çalışarak ve kararlı durarak, ekibinin de aynı şekilde düşünmesini sağlarsın. Bu, liderlik ve mentorluk rollerinde çok önemlidir.\n\nHayatta Gücünü Kullanmak\nAzim gücün hayatın birçok alanında işe yarar. Zorluklara rağmen ilerlemene ve hedeflerine ulaşmana yardımcı olur. Bu gücü kullanarak hem kendin başarıya ulaşabilir hem de başkalarına ilham verebilirsin.";
 
 var guclu_yanlarin2_31_7_1 = "Liderlik Gücü (Quantum 7-31)";
-var guclu_yanlarin2_31_7_2 = "Hayatta Gücünü Kullanmak Azim gücün hayatın birçok alanında işe yarar. Zorluklara rağmen ilerlemene ve hedeflerine ulaşmana yardımcı olur. Bu gücü kullanarak hem kendin başarıya ulaşabilir hem de başkalarına ilham verebilirsin.\n\nOtorite ile Etkilemek Liderliğin zorla değil, davet edilerek olur. İnsanlar sana güvendikleri ve saygı duydukları için seni takip eder. Bu, özellikle takım liderliği ve iletişimde etkini artırır.\n\nPerde Arkasından Liderlik Her zaman ön planda olmasan da perde arkasından kararları yönlendirebilirsin. Bu, başkalarının ilerleme kaydetmesine ve harekete geçmesine yardımcı olur.\n\nYön Vermek Lider olarak senin işin, yolu göstermek, her şeyi tek başına yapmak değil. Vizyon sunarsın ve başkalarını harekete geçmeye teşvik edersin. Bu da ekibinin daha sorumlu ve motive olmasını sağlar.\n\nHayatta Gücünü Kullanmak Liderlik gücün, birçok alanda işe yarar. Yönetim rollerinde vizyonunla başarıyı yönlendirirsin. Proje yönetiminde, güven kazanır ve net yön vererek projeleri doğru yolda tutarsın. Danışmanlıkta, sessizce liderlik ederek ekiplerin doğru kararlar almasına yardımcı olursun.Liderlik gücün, güven, vizyon ve etkiyi birleştirir. Bu gücünü kullanarak ekibini motive eder ve başarıya yönlendirirsin.";
+var guclu_yanlarin2_31_7_2 = "Güven Kazanmak\nİyi bir lider olmak için önce liderlik ettiğin insanların güvenini kazanmalısın. Dürüstlük, güvenilirlik ve ekibinle ilgilenmen güven inşa eder. Bu güven, güçlü takımların temelidir.\n\nOtorite ile Etkilemek\nLiderliğin zorla değil, davet edilerek olur. İnsanlar sana güvendikleri ve saygı duydukları için seni takip eder. Bu, özellikle takım liderliği ve iletişimde etkini artırır.\n\nPerde Arkasından Liderlik\nHer zaman ön planda olmasan da perde arkasından kararları yönlendirebilirsin. Bu, başkalarının ilerleme kaydetmesine ve harekete geçmesine yardımcı olur.\n\nYön Vermek\nLider olarak senin işin, yolu göstermek, her şeyi tek başına yapmak değil. Vizyon sunarsın ve başkalarını harekete geçmeye teşvik edersin. Bu da ekibinin daha sorumlu ve motive olmasını sağlar.\n\nHayatta Gücünü Kullanmak\nLiderlik gücün, birçok alanda işe yarar. Yönetim rollerinde vizyonunla başarıyı yönlendirirsin. Proje yönetiminde, güven kazanır ve net yön vererek projeleri doğru yolda tutarsın. Danışmanlıkta, sessizce liderlik ederek ekiplerin doğru kararlar almasına yardımcı olursun.Liderlik gücün, güven, vizyon ve etkiyi birleştirir. Bu gücünü kullanarak ekibini motive eder ve başarıya yönlendirirsin.";
 
 var guclu_yanlarin2_57_20_1 = "Spontanlık Gücü (Quantum 57-20)";
-var guclu_yanlarin2_57_20_2 = "Hızlı Tepkiler Sezgilerin güçlü, bu da durumları hızla anlamana ve tepki vermene yardımcı olur. Fazla düşünmeden hızlıca düşünebilir ve konuşabilirsin. Bu, kriz yönetimi, müşteri hizmetleri ve müzakereler gibi hızlı karar verme gereken işlerde faydalıdır.\n\nÖze Hızla İnme Spontan yapın, bir durumu çabucak anlamanı ve ana sorunları belirlemeni sağlar. Zamanın önemli olduğu problem çözme ve liderlik gibi rollerde bu yetenek çok değerlidir.\n\nNet İletişim Başkalarının nasıl hissettiğini anlaman, düşüncelerini net bir şekilde paylaşmana yardımcı olur. Bu, yanlış anlamaları azaltır ve insanların seni daha iyi anlamasını sağlar. Ekip çalışması, müşteri ilişkileri ve çatışma çözümünde bu beceri önemlidir.\n\nKorkuyu Yenmek Spontanlık, sezgilerine güvenip korkmadan harekete geçmeyi gerektirir. Bu gücünü kullanarak belirsizlikle güvenle başa çıkabilir ve başkalarına da aynısını yapmaları için ilham verebilirsin. Bu, yaratıcılık ve esnekliğin önemli olduğu alanlarda çok faydalıdır.\n\nHayatta Gücünü Kullanmak Spontanlık gücün, hızlı kararlar vermene ve net iletişim kurmana yardımcı olur. Sorunları hızla tespit eder ve çözüme ulaştırırsın. Bu gücü kullanarak ekibini yönlendirebilir ve başkalarına güven ve esneklik kazandırabilirsin.";
+var guclu_yanlarin2_57_20_2 = "Hızlı Tepkiler\nSezgilerin güçlü, bu da durumları hızla anlamana ve tepki vermene yardımcı olur. Fazla düşünmeden hızlıca düşünebilir ve konuşabilirsin. Bu, kriz yönetimi, müşteri hizmetleri ve müzakereler gibi hızlı karar verme gereken işlerde faydalıdır.\n\nÖze Hızla İnme\nSpontan yapın, bir durumu çabucak anlamanı ve ana sorunları belirlemeni sağlar. Zamanın önemli olduğu problem çözme ve liderlik gibi rollerde bu yetenek çok değerlidir.\n\nNet İletişim\nBaşkalarının nasıl hissettiğini anlaman, düşüncelerini net bir şekilde paylaşmana yardımcı olur. Bu, yanlış anlamaları azaltır ve insanların seni daha iyi anlamasını sağlar. Ekip çalışması, müşteri ilişkileri ve çatışma çözümünde bu beceri önemlidir.\n\nKorkuyu Yenmek\nSpontanlık, sezgilerine güvenip korkmadan harekete geçmeyi gerektirir. Bu gücünü kullanarak belirsizlikle güvenle başa çıkabilir ve başkalarına da aynısını yapmaları için ilham verebilirsin. Bu, yaratıcılık ve esnekliğin önemli olduğu alanlarda çok faydalıdır.\n\nHayatta Gücünü Kullanmak\nSpontanlık gücün, hızlı kararlar vermene ve net iletişim kurmana yardımcı olur. Sorunları hızla tespit eder ve çözüme ulaştırırsın. Bu gücü kullanarak ekibini yönlendirebilir ve başkalarına güven ve esneklik kazandırabilirsin.";
 
 var guclu_yanlarin2_39_55_1 = "Kışkırtma Gücü (Quantum 39-55)";
-var guclu_yanlarin2_39_55_2 = "Başkalarına İlham Verme Başkalarına ilham verme ve onları tam potansiyellerine ulaşmaları için ittirme yeteneğine sahipsin. Bu güç, liderlik ve mentorlukta, insanları motive edip geliştirmek için çok değerlidir.\n\nDerin Yaratıcılık Duyguların, mutlu, üzgün veya tutkulu olman, derin yaratıcılığına ulaşmana yardımcı olur. Ruh halini kabul ederek, yaratıcı enerjini etkili bir şekilde kullanabilirsin. Bu, duyguların harika çalışmalara yol açtığı sanat, tasarım ve yenilik gibi alanlarda çok faydalıdır.\n\nÇevrendeki İnsanları Etkileme Nasıl hissettiğini kabullendiğinde, başkalarını etkileme gücünü kazanırsın. Tutkun, çevrendekilerin en iyi yanlarını ortaya çıkarabilir. Bu yetenek, ekiplerin daha iyi çalışmasını sağlayan pozitif ve dinamik bir ruh oluşturmada önemlidir.\n\nGüçlü İlişkiler Kurma Kimin seninle uyumlu olduğunu sezgisel olarak hissedebilirsin. Bu, işbirliği ve takım çalışmalarında güçlü ilişkiler kurmana yardımcı olur. Bu şekilde seni tamamlayan ve güçlendiren insanlarla birlikte çalışırsın.\n\nHayatta Gücünü Kullanmak Kışkırtma gücün, başkalarına ilham vermene, yaratıcılığı artırmana ve güçlü ilişkiler kurmana yardımcı olur. Bu gücünü kullanarak, başkalarını zorlayabilir, ekibinde yaratıcılığı teşvik edebilir ve güçlü bağlar kurabilirsin.";
+var guclu_yanlarin2_39_55_2 = "Başkalarına İlham Verme\nBaşkalarına ilham verme ve onları tam potansiyellerine ulaşmaları için ittirme yeteneğine sahipsin. Bu güç, liderlik ve mentorlukta, insanları motive edip geliştirmek için çok değerlidir.\n\nDerin Yaratıcılık\nDuyguların, mutlu, üzgün veya tutkulu olman, derin yaratıcılığına ulaşmana yardımcı olur. Ruh halini kabul ederek, yaratıcı enerjini etkili bir şekilde kullanabilirsin. Bu, duyguların harika çalışmalara yol açtığı sanat, tasarım ve yenilik gibi alanlarda çok faydalıdır.\n\nÇevrendeki İnsanları Etkileme\nNasıl hissettiğini kabullendiğinde, başkalarını etkileme gücünü kazanırsın. Tutkun, çevrendekilerin en iyi yanlarını ortaya çıkarabilir. Bu yetenek, ekiplerin daha iyi çalışmasını sağlayan pozitif ve dinamik bir ruh oluşturmada önemlidir.\n\nGüçlü İlişkiler Kurma\nKimin seninle uyumlu olduğunu sezgisel olarak hissedebilirsin. Bu, işbirliği ve takım çalışmalarında güçlü ilişkiler kurmana yardımcı olur. Bu şekilde seni tamamlayan ve güçlendiren insanlarla birlikte çalışırsın.\n\nHayatta Gücünü Kullanmak\nKışkırtma gücün, başkalarına ilham vermene, yaratıcılığı artırmana ve güçlü ilişkiler kurmana yardımcı olur. Bu gücünü kullanarak, başkalarını zorlayabilir, ekibinde yaratıcılığı teşvik edebilir ve güçlü bağlar kurabilirsin.";
 
 var guclu_yanlarin2_2_14_1 = "Yönlendirme Gücü (Quantum 14-2)";
-var guclu_yanlarin2_2_14_2 = "Yeni Yönler Göstermek İçgüdülerine güvenerek insanlara, projelere ve fikirlere yeni ve güçlendirici yönler verebilirsin. Bu güç, başkalarına ilham vermenin ve liderlik etmenin gerektiği yönetim ve danışmanlık gibi işlerde çok değerlidir.\n\nYaratıcı Çabaları Destekleme Kendi yaratıcı projelerini sürdürebilir veya başkalarının yaratıcı yollarını destekleyebilirsin. Bu, hem senin projelerini hem de çevrendekilerin başarıya ulaşmasını sağlar. Bu yetenek girişimcilik, araştırma ve yaratıcı işlerde faydalıdır.\n\nRol Model Olarak Liderlik Kendi yolunda ilerleyerek başkalarına örnek olursun. Kendi amacını yaşayarak, insanlara ilham verir ve onların da kendi yollarını bulmalarına yardım edersin. Bu yetenek, mentorluk ve koçluk gibi işlerde seni güçlü yapar.\n\nBaşkalarını Güçlendirme Sadece kendin olarak çevrendeki insanlara yön duygusu ve motivasyon verebilirsin. Varlığın, başkalarının kendini güvende hissetmesine ve harekete geçmesine yardımcı olur. Bu, ekip çalışması ve liderlikte çok etkilidir.\n\nHayatta Gücünü Kullanmak Yönlendirme gücün, projeleri yönlendirmen ve yaratıcı çabaları desteklemen için faydalıdır. Örnek olarak liderlik ederek, başkalarına ilham verir ve onları kendi yollarını bulmaları için güçlendirirsin.";
+var guclu_yanlarin2_2_14_2 = "Yeni Yönler Göstermek\nİçgüdülerine güvenerek insanlara, projelere ve fikirlere yeni ve güçlendirici yönler verebilirsin. Bu güç, başkalarına ilham vermenin ve liderlik etmenin gerektiği yönetim ve danışmanlık gibi işlerde çok değerlidir.\n\nYaratıcı Çabaları Destekleme\nKendi yaratıcı projelerini sürdürebilir veya başkalarının yaratıcı yollarını destekleyebilirsin. Bu, hem senin projelerini hem de çevrendekilerin başarıya ulaşmasını sağlar. Bu yetenek girişimcilik, araştırma ve yaratıcı işlerde faydalıdır.\n\nRol Model Olarak Liderlik\nKendi yolunda ilerleyerek başkalarına örnek olursun. Kendi amacını yaşayarak, insanlara ilham verir ve onların da kendi yollarını bulmalarına yardım edersin. Bu yetenek, mentorluk ve koçluk gibi işlerde seni güçlü yapar.\n\nBaşkalarını Güçlendirme\nSadece kendin olarak çevrendeki insanlara yön duygusu ve motivasyon verebilirsin. Varlığın, başkalarının kendini güvende hissetmesine ve harekete geçmesine yardımcı olur. Bu, ekip çalışması ve liderlikte çok etkilidir.\n\nHayatta Gücünü Kullanmak\nYönlendirme gücün, projeleri yönlendirmen ve yaratıcı çabaları desteklemen için faydalıdır. Örnek olarak liderlik ederek, başkalarına ilham verir ve onları kendi yollarını bulmaları için güçlendirirsin.";
 
 var guclu_yanlarin2_12_22_1 = "Sosyallik Gücü (Quantum 22-12)";
-var guclu_yanlarin2_12_22_2 = "Sosyal Ortamlara Uyum Sağlama Kendini ifade etme biçimini sosyal duruma göre ayarlayabilirsin. Bu beceri, halkla ilişkiler, müşteri hizmetleri veya diplomasi gibi net iletişim ve esneklik gerektiren işlerde önemlidir. Farklı insanlarla bağlantı kurmak için doğru kelimeleri ve duyguları seçebilirsin.\n\nRuh Haline Göre Sosyallik Sosyalliğin ruh haline bağlı olarak değişir. Kendi duygusal ritimlerini anlamak, başkalarıyla gerçek ve samimi bir şekilde etkileşimde bulunmana yardımcı olur. Bu, insan kaynakları, danışmanlık veya takım liderliği gibi duygusal zekanın önemli olduğu işlerde faydalıdır.\n\nDeğişim İçin Katalizör Zamanlamayı iyi bilir ve insanların dikkatini çekmek için sosyal becerilerini ne zaman kullanacağını anlarsın. Sözlerin, başkalarının hayatında değişim yaratabilir. Bu güç, motive edici konuşmalar, koçluk ve başkalarına ilham vermenin önemli olduğu işlerde değerlidir.\n\nMedyayı Kullanarak Bağlantı Kurma Konuşma, oyunculuk, şiir veya müzik gibi medyalarla sesini kullanarak başkalarına dokunabilir ve onları güçlendirebilirsin. Bu beceri, medya, eğlence veya savunuculuk gibi alanlarda seni güçlü bir iletişimci yapar, özellikle yeni kitlelere ulaşmak istediğinde.\n\nHayatta Gücünü Kullanmak Sosyallik gücün, farklı durumlara uyum sağlamana, insanlarla bağlantı kurmana ve onları etkilemene yardımcı olur. Bu gücü kullanarak, anlamlı bağlantılar kurabilir ve gittiğin her yerde olumlu bir etki yaratabilirsin.";
+var guclu_yanlarin2_12_22_2 = "Sosyal Ortamlara Uyum Sağlama\nKendini ifade etme biçimini sosyal duruma göre ayarlayabilirsin. Bu beceri, halkla ilişkiler, müşteri hizmetleri veya diplomasi gibi net iletişim ve esneklik gerektiren işlerde önemlidir. Farklı insanlarla bağlantı kurmak için doğru kelimeleri ve duyguları seçebilirsin.\n\nRuh Haline Göre Sosyallik\nSosyalliğin ruh haline bağlı olarak değişir. Kendi duygusal ritimlerini anlamak, başkalarıyla gerçek ve samimi bir şekilde etkileşimde bulunmana yardımcı olur. Bu, insan kaynakları, danışmanlık veya takım liderliği gibi duygusal zekanın önemli olduğu işlerde faydalıdır.\n\nDeğişim İçin Katalizör\nZamanlamayı iyi bilir ve insanların dikkatini çekmek için sosyal becerilerini ne zaman kullanacağını anlarsın. Sözlerin, başkalarının hayatında değişim yaratabilir. Bu güç, motive edici konuşmalar, koçluk ve başkalarına ilham vermenin önemli olduğu işlerde değerlidir.\n\nMedyayı Kullanarak Bağlantı Kurma\nKonuşma, oyunculuk, şiir veya müzik gibi medyalarla sesini kullanarak başkalarına dokunabilir ve onları güçlendirebilirsin. Bu beceri, medya, eğlence veya savunuculuk gibi alanlarda seni güçlü bir iletişimci yapar, özellikle yeni kitlelere ulaşmak istediğinde.\n\nHayatta Gücünü Kullanmak\nSosyallik gücün, farklı durumlara uyum sağlamana, insanlarla bağlantı kurmana ve onları etkilemene yardımcı olur. Bu gücü kullanarak, anlamlı bağlantılar kurabilir ve gittiğin her yerde olumlu bir etki yaratabilirsin.";
 
 var guclu_yanlarin2_61_24_1 = "Yaratıcı Süreç Gücü (Quantum 61-24)";
-var guclu_yanlarin2_61_24_2 = "İlham ve İçsel Gerçek Zihnin ilham bulma ve derin gerçekleri anlama yeteneğine sahip. Bu güç, yeni fikirler ve çözümler bulmana yardımcı olur, özellikle yaratıcı düşünme ve liderlik gereken işlerde, stratejik planlama veya araştırma gibi.\n\nSpontane Yaratıcı Süreç Yaratıcı sürecin çoğu zaman kendiliğinden gelişir. Bazen fikirlerin başka bir yerden geliyormuş gibi hissedebilirsin ve bu, yeni yollarla düşünmeni sağlar. Bu yetenek, teknoloji, pazarlama veya tasarım gibi yenilik gerektiren işlerde çok faydalıdır.\n\nBaşkalarına İlham Verme Yeni fikirlerini ve benzersiz düşüncelerini paylaşarak başkalarına ilham verebilirsin. Başkalarını motive etme yeteneğin, mentorluk, öğretim veya liderlik gibi rollerde çok değerlidir.\n\nİçsel Gerçeğe Güvenmek Zihnin doğru zamanda gelen fikirlerine güvendiğinde daha güçlü olur. Yeni düşüncelere açık olmak, problemlere çözüm bulmana ve esnek kalmana yardımcı olur. Bu, değişime açık olmanın önemli olduğu her ortamda faydalıdır.\n\nHayatta Gücünü Kullanmak Yaratıcı sürecin güçlü bir yetenektir. Yeni fikirler üretmene, başkalarına ilham vermene ve değişen durumlara kolayca uyum sağlamana yardımcı olur. Bu gücü kullanarak, her ortamda büyük bir fark yaratabilirsin.";
+var guclu_yanlarin2_61_24_2 = "İlham ve İçsel Gerçek\nZihnin ilham bulma ve derin gerçekleri anlama yeteneğine sahip. Bu güç, yeni fikirler ve çözümler bulmana yardımcı olur, özellikle yaratıcı düşünme ve liderlik gereken işlerde, stratejik planlama veya araştırma gibi.\n\nSpontane Yaratıcı Süreç\nYaratıcı sürecin çoğu zaman kendiliğinden gelişir. Bazen fikirlerin başka bir yerden geliyormuş gibi hissedebilirsin ve bu, yeni yollarla düşünmeni sağlar. Bu yetenek, teknoloji, pazarlama veya tasarım gibi yenilik gerektiren işlerde çok faydalıdır.\n\nBaşkalarına İlham Verme\nYeni fikirlerini ve benzersiz düşüncelerini paylaşarak başkalarına ilham verebilirsin. Başkalarını motive etme yeteneğin, mentorluk, öğretim veya liderlik gibi rollerde çok değerlidir.\n\nİçsel Gerçeğe Güvenmek\nZihnin doğru zamanda gelen fikirlerine güvendiğinde daha güçlü olur. Yeni düşüncelere açık olmak, problemlere çözüm bulmana ve esnek kalmana yardımcı olur. Bu, değişime açık olmanın önemli olduğu her ortamda faydalıdır.\n\nHayatta Gücünü Kullanmak\nYaratıcı sürecin güçlü bir yetenektir. Yeni fikirler üretmene, başkalarına ilham vermene ve değişen durumlara kolayca uyum sağlamana yardımcı olur. Bu gücü kullanarak, her ortamda büyük bir fark yaratabilirsin.";
 
 var guclu_yanlarin2_43_23_1 = "Verimlilik Gücü (Quantum 43-23)";
-var guclu_yanlarin2_43_23_2 = "Verimli Çözümler Üretmek Yeni fikirler bulma ve işleri daha verimli hale getirme yeteneğine sahipsin. Bu, problem çözme ve iyileştirme gereken işlerde, proje yönetimi ve stratejik planlama gibi, çok faydalıdır. Verimli çözümler bulma yeteneğin, işlerin daha iyi ve hızlı yapılmasını sağlar.\n\nBilinmeyeni Keşfetmek Zihnin sadece bildiklerini anlamakla kalmaz, aynı zamanda bilinmeyeni de keşfetmeye hazırdır. Bu merak, başkalarının gözden kaçırabileceği yeni yöntemler ve fikirler bulmana yardımcı olur. Bu özellik, araştırma, teknoloji ve yaratıcı alanlarda çok önemlidir.\n\nNet İletişim Bildiklerini basit ve net bir şekilde açıklama becerisi geliştirebilirsin. İnsanlar senin fikirlerine değer verdiğinde ve seni dinlediğinde, gerçek yeteneğin ortaya çıkar. Bu iletişim yeteneği, öğretim, danışmanlık ve liderlik gibi bilgi paylaşımının önemli olduğu rollerde çok değerlidir.\n\nHayatta Gücünü Kullanmak Verimlilik gücün, yeni fikirler düşünmeni, yeni alanlar keşfetmeni ve bildiklerini başkalarına net bir şekilde aktarmanı sağlar. Bu gücü kullanarak, işleri iyileştirebilir, yeni çözümler bulabilir ve çevrendekilere fikirlerinle yardımcı olabilirsin.";
+var guclu_yanlarin2_43_23_2 = "Verimli Çözümler Üretmek\nYeni fikirler bulma ve işleri daha verimli hale getirme yeteneğine sahipsin. Bu, problem çözme ve iyileştirme gereken işlerde, proje yönetimi ve stratejik planlama gibi, çok faydalıdır. Verimli çözümler bulma yeteneğin, işlerin daha iyi ve hızlı yapılmasını sağlar.\n\nBilinmeyeni Keşfetmek\nZihnin sadece bildiklerini anlamakla kalmaz, aynı zamanda bilinmeyeni de keşfetmeye hazırdır. Bu merak, başkalarının gözden kaçırabileceği yeni yöntemler ve fikirler bulmana yardımcı olur. Bu özellik, araştırma, teknoloji ve yaratıcı alanlarda çok önemlidir.\n\nNet İletişim\nBildiklerini basit ve net bir şekilde açıklama becerisi geliştirebilirsin. İnsanlar senin fikirlerine değer verdiğinde ve seni dinlediğinde, gerçek yeteneğin ortaya çıkar. Bu iletişim yeteneği, öğretim, danışmanlık ve liderlik gibi bilgi paylaşımının önemli olduğu rollerde çok değerlidir.\n\nHayatta Gücünü Kullanmak\nVerimlilik gücün, yeni fikirler düşünmeni, yeni alanlar keşfetmeni ve bildiklerini başkalarına net bir şekilde aktarmanı sağlar. Bu gücü kullanarak, işleri iyileştirebilir, yeni çözümler bulabilir ve çevrendekilere fikirlerinle yardımcı olabilirsin.";
 
 var guclu_yanlarin2_9_52_1 = "Konsantrasyon Gücü (Quantum 52-9)";
-var guclu_yanlarin2_9_52_2 = "Odaklanma Yeteneği Bir göreve lazer gibi odaklanma yeteneğin var. Bu, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma gerektiren işlerde seni başarılı yapar. Odaklanman, işini dikkatli ve doğru yapmana yardımcı olur.\n\nSakin ve Huzurlu Baskı Detaylara odaklandığında sakin ve stresiz bir baskı hissedersin, bu da seni odaklanmış tutar. Bu sakinlik, mühendislik, denetim veya cerrahi gibi hassasiyetin önemli olduğu işlerde çok faydalıdır.\n\nDetaylara Dikkat Çalıştığın her şeyin detaylarını sürekli olarak değerlendirirsin. Bu detay odaklı yaklaşım, yasal işler, finansal planlama ve danışmanlık gibi dikkatli düşünme gerektiren işlerde mükemmeldir. Bu sayede hiçbir ayrıntıyı kaçırmazsın.\n\nDerin Odaklanma Odaklanacak önemli bir şey olmadığında huzursuz veya mutsuz hissedebilirsin. Enerjini birçok şey arasında dağıtmamak için tek bir şeye odaklanmak daha iyidir. İçgüdülerin neye odaklanman gerektiğini sana söyler. Bu yetenek, bir alanda uzmanlaşmana ve derin bilgi sahibi olmanı sağlar.\n\nHayatta Gücünü Kullanmak Konsantrasyon gücün, işine odaklanmana ve detaylara dikkat etmene yardımcı olur. Bu gücü kullanarak, titizlik ve derin düşünme gerektiren işlerde uzmanlaşabilir ve önemli bir fark yaratabilirsin.";
+var guclu_yanlarin2_9_52_2 = "Odaklanma Yeteneği\nBir göreve lazer gibi odaklanma yeteneğin var. Bu, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma gerektiren işlerde seni başarılı yapar. Odaklanman, işini dikkatli ve doğru yapmana yardımcı olur.\n\nSakin ve Huzurlu Baskı\nDetaylara odaklandığında sakin ve stresiz bir baskı hissedersin, bu da seni odaklanmış tutar. Bu sakinlik, mühendislik, denetim veya cerrahi gibi hassasiyetin önemli olduğu işlerde çok faydalıdır.\n\nDetaylara Dikkat\nÇalıştığın her şeyin detaylarını sürekli olarak değerlendirirsin. Bu detay odaklı yaklaşım, yasal işler, finansal planlama ve danışmanlık gibi dikkatli düşünme gerektiren işlerde mükemmeldir. Bu sayede hiçbir ayrıntıyı kaçırmazsın.\n\nDerin Odaklanma\nOdaklanacak önemli bir şey olmadığında huzursuz veya mutsuz hissedebilirsin. Enerjini birçok şey arasında dağıtmamak için tek bir şeye odaklanmak daha iyidir. İçgüdülerin neye odaklanman gerektiğini sana söyler. Bu yetenek, bir alanda uzmanlaşmana ve derin bilgi sahibi olmanı sağlar.\n\nHayatta Gücünü Kullanmak\nKonsantrasyon gücün, işine odaklanmana ve detaylara dikkat etmene yardımcı olur. Bu gücü kullanarak, titizlik ve derin düşünme gerektiren işlerde uzmanlaşabilir ve önemli bir fark yaratabilirsin.";
 
 var guclu_yanlarin2_18_58_1 = "Mantıklı Yargı Gücü (Quantum 58-18)";
-var guclu_yanlarin2_18_58_2 = "Mükemmellik Arayışı Yanlış olan bir şeyi inceleyip düzeltme konusunda güçlü bir dürtün var. Her zaman en iyi cevapları bulmak için her detayı dikkatle analiz edersin. Mantıklı yaklaşımın, sorunları hassasiyetle çözmene yardımcı olur.\n\nKalıpları İyileştirme ve Ustalık Sistemleri, süreçleri ve yöntemleri sürekli iyileştirip geliştirmekte çok iyisin. Standartlarına uymayan bir şey olduğunda, onu düzeltme ihtiyacı hissedersin. Bu, işleri daha verimli ve etkili hale getirmene yardımcı olur.\n\nYargını Paylaşmanın Getirdiği Mutluluk Birileri senden fikrini sorduğunda mutlu olursun, çünkü mantıklı yargına değer verirler. “Burada yanlış bir şey var mı?” diye sorduklarında, içgörülerini paylaşmayı seversin. Bu, uzmanlığını göstermen için fırsattır ve insanlara yardımcı olmanı sağlar.\n\nHayatta Gücünü Kullanmak İş dünyasında mantıklı yargı gücün, planlama, kalite kontrol ve analiz gibi işlerde çok değerlidir. Süreçleri ve sistemleri iyileştirme yeteneğin, işleri daha verimli ve üretken hale getirir. Bu gücü kullanarak, organizasyonunun başarısına katkıda bulunabilir ve sürekli iyileştirmeyi sağlayabilirsin.";
+var guclu_yanlarin2_18_58_2 = "Mükemmellik Arayışı\nYanlış olan bir şeyi inceleyip düzeltme konusunda güçlü bir dürtün var. Her zaman en iyi cevapları bulmak için her detayı dikkatle analiz edersin. Mantıklı yaklaşımın, sorunları hassasiyetle çözmene yardımcı olur.\n\nKalıpları İyileştirme ve Ustalık\nSistemleri, süreçleri ve yöntemleri sürekli iyileştirip geliştirmekte çok iyisin. Standartlarına uymayan bir şey olduğunda, onu düzeltme ihtiyacı hissedersin. Bu, işleri daha verimli ve etkili hale getirmene yardımcı olur.\n\nYargını Paylaşmanın Getirdiği Mutluluk\nBirileri senden fikrini sorduğunda mutlu olursun, çünkü mantıklı yargına değer verirler. “Burada yanlış bir şey var mı?” diye sorduklarında, içgörülerini paylaşmayı seversin. Bu, uzmanlığını göstermen için fırsattır ve insanlara yardımcı olmanı sağlar.\n\nHayatta Gücünü Kullanmak\nİş dünyasında mantıklı yargı gücün, planlama, kalite kontrol ve analiz gibi işlerde çok değerlidir. Süreçleri ve sistemleri iyileştirme yeteneğin, işleri daha verimli ve üretken hale getirir. Bu gücü kullanarak, organizasyonunun başarısına katkıda bulunabilir ve sürekli iyileştirmeyi sağlayabilirsin.";
 
 var guclu_yanlarin2_48_16_1 = "Yetenek Gücü (Quantum 48-16)";
-var guclu_yanlarin2_48_16_2 = "Sevdiğin Şeyi Mükemmelleştirme Doğal sezgilerini çokça pratikle birleştirme yeteneğine sahipsin. Bu, becerilerini geliştirir ve tutkunu olduğun her alanda yeni fikirler veya yöntemler yaratmanı sağlar. Başarının anahtarı, gerçekten sevdiğin bir şeye odaklanmaktır. Tutkun ve adanmışlığın, becerilerini gerçek yeteneklere dönüştürmene yardımcı olur.\n\nİş Dünyasında Yeteneklerini Kullanma İş dünyasında, sezgini pratikle birleştirme yeteneğin yaratıcı çözümler bulmana ve işlerin nasıl yapıldığını iyileştirmene yardımcı olabilir. İster problem çözme, ister proje yönetimi veya yaratıcı alanlarda çalışıyor ol, yeteneğin işleri daha verimli ve başarılı hale getirebilir. Bu gücü geliştirerek, tatmin edici ve etkili bir kariyer sahibi olabilirsin.";
+var guclu_yanlarin2_48_16_2 = "Sevdiğin Şeyi Mükemmelleştirme\nDoğal sezgilerini çokça pratikle birleştirme yeteneğine sahipsin. Bu, becerilerini geliştirir ve tutkunu olduğun her alanda yeni fikirler veya yöntemler yaratmanı sağlar. Başarının anahtarı, gerçekten sevdiğin bir şeye odaklanmaktır. Tutkun ve adanmışlığın, becerilerini gerçek yeteneklere dönüştürmene yardımcı olur.\n\nİş Dünyasında Yeteneklerini Kullanma\nİş dünyasında, sezgini pratikle birleştirme yeteneğin yaratıcı çözümler bulmana ve işlerin nasıl yapıldığını iyileştirmene yardımcı olabilir. İster problem çözme, ister proje yönetimi veya yaratıcı alanlarda çalışıyor ol, yeteneğin işleri daha verimli ve başarılı hale getirebilir. Bu gücü geliştirerek, tatmin edici ve etkili bir kariyer sahibi olabilirsin.";
 
 var guclu_yanlarin2_17_62_1 = "Organizasyon Gücü (Quantum 17-62)";
-var guclu_yanlarin2_17_62_2 = "Bilgiyi Yönetme Detayları zihninde düzenleme ve büyük resme uyarlama konusunda özel bir yeteneğe sahipsin. Yeni bilgileri kolayca özümser ve bildiklerinle organize edersin. Bu beceri, karmaşık iş ortamlarında veya birçok görevi yönetirken çok yardımcı olur.\n\nSürekli Düzenleme Zihnin sürekli olarak yeni bilgileri organize eder ve her şeyin mükemmel bir şekilde bir araya gelmesini sağlar. Detaylara dikkat edersin ve öğrendiğin her şeyi mantıklı bir şekilde sıralarsın. Bu, yaptığın işlerde doğruluk ve titizlik sağlar.\n\nİçgörülerini Paylaşma Fikirlerini paylaşma ve her şeyi detaylı bir şekilde açıklama konusunda güçlü bir ihtiyacın olabilir. Doğru zamanlamaya dikkat etmek ve dinleyicilerinin hazır olduğundan emin olmak önemlidir. Doğru zamanda paylaştığında, içgörülerinin etkisi daha büyük olur.\n\nİş Dünyasında Gücünü Kullanmak Grupları, etkinlikleri ve projeleri organize etme yeteneğin çok değerlidir. İşleri düzenlemene, üretkenliği artırmana ve her şeyin sorunsuz yürümesini sağlamana yardımcı olabilir. Organizasyon becerilerin seni her takımda veya iş ortamında önemli bir varlık yapar.";
+var guclu_yanlarin2_17_62_2 = "Bilgiyi Yönetme\nDetayları zihninde düzenleme ve büyük resme uyarlama konusunda özel bir yeteneğe sahipsin. Yeni bilgileri kolayca özümser ve bildiklerinle organize edersin. Bu beceri, karmaşık iş ortamlarında veya birçok görevi yönetirken çok yardımcı olur.\n\nSürekli Düzenleme\nZihnin sürekli olarak yeni bilgileri organize eder ve her şeyin mükemmel bir şekilde bir araya gelmesini sağlar. Detaylara dikkat edersin ve öğrendiğin her şeyi mantıklı bir şekilde sıralarsın. Bu, yaptığın işlerde doğruluk ve titizlik sağlar.\n\nİçgörülerini Paylaşma\nFikirlerini paylaşma ve her şeyi detaylı bir şekilde açıklama konusunda güçlü bir ihtiyacın olabilir. Doğru zamanlamaya dikkat etmek ve dinleyicilerinin hazır olduğundan emin olmak önemlidir. Doğru zamanda paylaştığında, içgörülerinin etkisi daha büyük olur.\n\nİş Dünyasında Gücünü Kullanmak\nGrupları, etkinlikleri ve projeleri organize etme yeteneğin çok değerlidir. İşleri düzenlemene, üretkenliği artırmana ve her şeyin sorunsuz yürümesini sağlamana yardımcı olabilir. Organizasyon becerilerin seni her takımda veya iş ortamında önemli bir varlık yapar.";
 
 var guclu_yanlarin2_53_42_1 = "“Döngüler” Gücü (Quantum 53-42)";
-var guclu_yanlarin2_53_42_2 = "Hayatın Döngülerle İlerler Hayatın net başlangıçlar, ortalar ve sonlarla döngüler halinde ilerler. Her döngünün kendi ritmi vardır, zamanla büyür ve tamamlanır, sonra yeniden başlar. Deneyimleri tamamladığında önemli dersler öğrenir ve başkalarıyla paylaşabilirsin. Yeni deneyimler, eskilerin üzerine inşa edilir ve seni daha çok büyütür.\n\nDeneyimden Öğrenmek Hayatın döngülerle işlediğini fark ettiğinde her aşama seni geliştirir. Tamamlanan her deneyimden dersler çıkarabilir ve bunları başkalarına anlatabilirsin.\n\nİçgüdülerine Güven Yeni şeylere başlarken içgüdülerine güven. Bu seni ilgini kaybettiğin döngülere sıkışmaktan korur ve doğru yolda kalmanı sağlar.\n\nBeklentisiz Yaşamak Deneyimlere beklentisiz yaklaşmak, anın tadını çıkarmana yardımcı olur. Bu da daha anlamlı ve tatmin edici deneyimlere yol açar.\n\nİş Dünyasında Gücünü Kullanmak İş dünyasında döngüleri anlamak, işleri daha iyi planlamana yardımcı olur. Başarılarından ve hatalarından ders çıkararak ilerleyebilirsin. İçgüdülerine güvenmek seni hatalardan korur ve ilerlemeye odaklanmanı sağlar.";
+var guclu_yanlarin2_53_42_2 = "Hayatın Döngülerle İlerler\nHayatın net başlangıçlar, ortalar ve sonlarla döngüler halinde ilerler. Her döngünün kendi ritmi vardır, zamanla büyür ve tamamlanır, sonra yeniden başlar. Deneyimleri tamamladığında önemli dersler öğrenir ve başkalarıyla paylaşabilirsin. Yeni deneyimler, eskilerin üzerine inşa edilir ve seni daha çok büyütür.\n\nDeneyimden Öğrenmek\nHayatın döngülerle işlediğini fark ettiğinde her aşama seni geliştirir. Tamamlanan her deneyimden dersler çıkarabilir ve bunları başkalarına anlatabilirsin.\n\nİçgüdülerine Güven\nYeni şeylere başlarken içgüdülerine güven. Bu seni ilgini kaybettiğin döngülere sıkışmaktan korur ve doğru yolda kalmanı sağlar.\n\nBeklentisiz Yaşamak\nDeneyimlere beklentisiz yaklaşmak, anın tadını çıkarmana yardımcı olur. Bu da daha anlamlı ve tatmin edici deneyimlere yol açar.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında döngüleri anlamak, işleri daha iyi planlamana yardımcı olur. Başarılarından ve hatalarından ders çıkararak ilerleyebilirsin. İçgüdülerine güvenmek seni hatalardan korur ve ilerlemeye odaklanmanı sağlar.";
 
 var guclu_yanlarin2_46_29_1 = "“Keşif” Gücü (Quantum 29-46)";
-var guclu_yanlarin2_46_29_2 = "Yeni Şeyler Keşfetmek Yeni fikirleri keşfetme ve her şeyi anlamadan pes etmeme konusunda özel bir yeteneğe sahipsin. Bu güç, doğru zamanda doğru yerde olmana yardımcı olan içgüdülerinden gelir. Bir sürece tamamen bağlı kalarak, başta anlamlı gelmese bile sonunda önemli keşifler bulabilirsin. Beklentileri bırakmak ve içgüdülerine güvenmek, başarı şansını artırır.\n\nBağlı Kalmak Bir şeyi tamamen anlayana kadar devam etme yeteneğin çok değerlidir. İş dünyasında bu azim, önemli hedeflere ulaşmana ve gizli gerçekleri ortaya çıkarmana yardımcı olur. Bağlılık, memnuniyet getirir ve öğrendiklerini başkalarıyla paylaşmana olanak tanır.\n\nDeneyimlere Dalmak Bir projeye veya deneyime tamamen dalabilir ve kendinden şüphe etmeden devam edebilirsin. Bu derin odaklanma genellikle büyük keşiflere yol açar. İş dünyasında bu, zorlu projelere devam etmek ve yeni çözümler bulmak anlamına gelir.\n\nİş Dünyasında Gücünü Kullanmak Keşif gücünü problem çözme ve yaratıcılık gerektiren her işte kullanabilirsin. Yeni ürünler geliştirmek, araştırma yapmak veya strateji planlamak gibi işler, senin kararlılığın sayesinde başarıya ulaşır. Özellikle projelerin bitirilmesi gereken liderlik rollerine çok uygunsun.";
+var guclu_yanlarin2_46_29_2 = "Yeni Şeyler Keşfetmek\nYeni fikirleri keşfetme ve her şeyi anlamadan pes etmeme konusunda özel bir yeteneğe sahipsin. Bu güç, doğru zamanda doğru yerde olmana yardımcı olan içgüdülerinden gelir. Bir sürece tamamen bağlı kalarak, başta anlamlı gelmese bile sonunda önemli keşifler bulabilirsin. Beklentileri bırakmak ve içgüdülerine güvenmek, başarı şansını artırır.\n\nBağlı Kalmak\nBir şeyi tamamen anlayana kadar devam etme yeteneğin çok değerlidir. İş dünyasında bu azim, önemli hedeflere ulaşmana ve gizli gerçekleri ortaya çıkarmana yardımcı olur. Bağlılık, memnuniyet getirir ve öğrendiklerini başkalarıyla paylaşmana olanak tanır.\n\nDeneyimlere Dalmak\nBir projeye veya deneyime tamamen dalabilir ve kendinden şüphe etmeden devam edebilirsin. Bu derin odaklanma genellikle büyük keşiflere yol açar. İş dünyasında bu, zorlu projelere devam etmek ve yeni çözümler bulmak anlamına gelir.\n\nİş Dünyasında Gücünü Kullanmak\nKeşif gücünü problem çözme ve yaratıcılık gerektiren her işte kullanabilirsin. Yeni ürünler geliştirmek, araştırma yapmak veya strateji planlamak gibi işler, senin kararlılığın sayesinde başarıya ulaşır. Özellikle projelerin bitirilmesi gereken liderlik rollerine çok uygunsun.";
 
 var guclu_yanlarin2_33_13_1 = "“Tanıklık” Gücü (Kuantum 13-33)";
-var guclu_yanlarin2_33_13_2 = "Dinlemek ve Öğrenmek Dikkatle dinleme, önemli bilgileri hatırlama ve duyduğun hikayelerden dersler çıkarma konusunda özel bir yeteneğin var. Yaşadığın şeyleri yansıtmak ve daha derin gerçeklerin ortaya çıkmasını sabırla beklemek senin için çok doğal. Bu yetenek, dikkatli gözlem ve analiz gerektiren işlerde faydalıdır.\n\nKayıt Tutma Doğal bir kayıt tutucu olarak, etrafındaki hikayeleri ve anıları saklarsın. Bu yetenek, doğru bilgi ve detaylı kayıtların önemli olduğu yerlerde seni değerli kılar. Sesin “Hatırlıyorum” der.\n\nZamanlama ve Paylaşma Zamanlama çok önemlidir. Doğru zamanda, öğrendiğin bilgeliği paylaşabilirsin. Ne zaman konuşacağını bilmek, kişisel ve profesyonel hayatında büyük bir fark yaratabilir.\n\nİş Dünyasında Gücünü Kullanmak İş dünyasında, gözlemleme, kayıt tutma ve yansıtma yeteneğin araştırma, liderlik ve karar vermede yardımcı olur. İster önemli keşifler yapmak, ister bir takıma rehberlik etmek olsun, tanıklık gücün başarıya götürebilir. Geçmiş deneyimlerini düşünerek, geleceği planlamaya ve bilinçli kararlar almaya yardımcı olursun.";
+var guclu_yanlarin2_33_13_2 = "Dinlemek ve Öğrenmek\nDikkatle dinleme, önemli bilgileri hatırlama ve duyduğun hikayelerden dersler çıkarma konusunda özel bir yeteneğin var. Yaşadığın şeyleri yansıtmak ve daha derin gerçeklerin ortaya çıkmasını sabırla beklemek senin için çok doğal. Bu yetenek, dikkatli gözlem ve analiz gerektiren işlerde faydalıdır.\n\nKayıt Tutma\nDoğal bir kayıt tutucu olarak, etrafındaki hikayeleri ve anıları saklarsın. Bu yetenek, doğru bilgi ve detaylı kayıtların önemli olduğu yerlerde seni değerli kılar. Sesin “Hatırlıyorum” der.\n\nZamanlama ve Paylaşma\nZamanlama çok önemlidir. Doğru zamanda, öğrendiğin bilgeliği paylaşabilirsin. Ne zaman konuşacağını bilmek, kişisel ve profesyonel hayatında büyük bir fark yaratabilir.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında, gözlemleme, kayıt tutma ve yansıtma yeteneğin araştırma, liderlik ve karar vermede yardımcı olur. İster önemli keşifler yapmak, ister bir takıma rehberlik etmek olsun, tanıklık gücün başarıya götürebilir. Geçmiş deneyimlerini düşünerek, geleceği planlamaya ve bilinçli kararlar almaya yardımcı olursun.";
 
 var guclu_yanlarin2_30_41_1 = "“Hayal Etme” Gücü (Kuantum 41-30)";
-var guclu_yanlarin2_30_41_2 = "Neler Olabileceğini Hayal Etmek Olabilecek birçok farklı şeyi hayal etme yeteneğin var. Hayal gücün, yaratıcı çözümler ve yeni fikirler bulmana yardımcı olabilir. Bu yetenek, seni şimdiki durumun ötesine bakmaya ve potansiyelle dolu bir gelecek düşünmeye teşvik eder.\n\nYeni Deneyimler İstemek Yeni şeyler denemek ve yeni deneyimler yaşamak için güçlü bir isteğin var. Hayallerin ve fikirlerin heyecan yaratabilir, ama her zaman gerçekleşmeyebilir. Bu yeni deneyimler arzusu, yaratıcılığını besler ve seni meraklı tutar.\n\nEnerjiyi Dengelemek Yeni deneyimler için olan heyecanını sabır ve düşünmeyle dengelemek önemlidir. Harekete geçmeden önce biraz durup düşünmek, daha iyi kararlar almanı sağlar. Bu denge, hayallerini gerçekleştirebileceğin hedeflere dönüştürmene yardımcı olur.\n\nYolculuğun Tadını Çıkarmak Hayal gücünü kullanmanın sırrı, sürecin kendisinden zevk almak ve sonuçlar hakkında endişelenmemektir. Yolculuğun tadını çıkararak, yeni fikirler için açık kalabilir ve karşılanmayan beklentilerin getirdiği stresten kaçınabilirsin.\n\nİş Dünyasında Gücünü Kullanmak Hayal gücün iş dünyasında çok faydalıdır. Yaratıcı problem çözme gerektiren işlerde, farklı sonuçlar hayal etme yeteneğin yeni çözümler bulmana yardımcı olabilir. Pazarlama ve ürün geliştirmede, yaratıcılığın ilgi çekici hikayeler ve benzersiz ürünler oluşturabilir. Lider olarak, hayal gücün ekibini motive edebilir ve onları yeni olasılıkları keşfetmeye teşvik edebilir.";
+var guclu_yanlarin2_30_41_2 = "Neler Olabileceğini Hayal Etmek\nOlabilecek birçok farklı şeyi hayal etme yeteneğin var. Hayal gücün, yaratıcı çözümler ve yeni fikirler bulmana yardımcı olabilir. Bu yetenek, seni şimdiki durumun ötesine bakmaya ve potansiyelle dolu bir gelecek düşünmeye teşvik eder.\n\nYeni Deneyimler İstemek\nYeni şeyler denemek ve yeni deneyimler yaşamak için güçlü bir isteğin var. Hayallerin ve fikirlerin heyecan yaratabilir, ama her zaman gerçekleşmeyebilir. Bu yeni deneyimler arzusu, yaratıcılığını besler ve seni meraklı tutar.\n\nEnerjiyi Dengelemek\nYeni deneyimler için olan heyecanını sabır ve düşünmeyle dengelemek önemlidir. Harekete geçmeden önce biraz durup düşünmek, daha iyi kararlar almanı sağlar. Bu denge, hayallerini gerçekleştirebileceğin hedeflere dönüştürmene yardımcı olur.\n\nYolculuğun Tadını Çıkarmak\nHayal gücünü kullanmanın sırrı, sürecin kendisinden zevk almak ve sonuçlar hakkında endişelenmemektir. Yolculuğun tadını çıkararak, yeni fikirler için açık kalabilir ve karşılanmayan beklentilerin getirdiği stresten kaçınabilirsin.\n\nİş Dünyasında Gücünü Kullanmak\nHayal gücün iş dünyasında çok faydalıdır. Yaratıcı problem çözme gerektiren işlerde, farklı sonuçlar hayal etme yeteneğin yeni çözümler bulmana yardımcı olabilir. Pazarlama ve ürün geliştirmede, yaratıcılığın ilgi çekici hikayeler ve benzersiz ürünler oluşturabilir. Lider olarak, hayal gücün ekibini motive edebilir ve onları yeni olasılıkları keşfetmeye teşvik edebilir.";
 
 var guclu_yanlarin2_35_36_1 = "“Deneyimleyen” Gücü (Kuantum 36-35)";
-var guclu_yanlarin2_35_36_2 = "Yeni Şeyler Denemek Hayatta ilerlemek için her şeyi denemeye açıksın. Her yeni deneyimden bir şeyler öğrenmeyi seviyorsun, planladığın gibi gitmese bile. Bu, seni geliştirir ve yeni fikirler üretmene yardımcı olur. Etrafındaki insanlara anı yaşamaları ve fırsatları değerlendirmeleri için ilham verirsin.\n\nYeni Deneyimleri Kucaklamak Yeni deneyimleri keşfetmekten ve onlardan öğrenmekten hoşlanıyorsun. İş dünyasında bu, yeni fikirler üretmene ve işleri iyileştirmenin yollarını bulmana yardımcı olur. İşler mükemmel gitmese bile devam edersin, bu da hızlı değişen ortamlarda başarılı olmana yardımcı olur.\n\nBaşkalarına İlham Vermek Farklı deneyimler yaşadığın için, başkalarına ilham kaynağı olursun. Yeni şeyler deneme isteğin ve zor zamanlarda bile devam edebilmen, başkalarını da aynı şekilde motive eder. Başkalarına yeni fırsatları keşfederek büyük başarılara ulaşabileceklerini gösterirsin.\n\nİş Dünyasında Gücünü Kullanmak Deneyimleme gücün, yeni şeyler denemek ve uyum sağlamak gereken işlerde değerlidir, örneğin ürün geliştirme, araştırma veya liderlik. Lider olarak, yeni deneyimlere olan coşkun, ekibinin sürekli öğrenip büyümesini sağlar. Yeni şeyler denemeye açık olduğunda, ilerlemeyi teşvik edersin ve ekibini yeni olasılıkları keşfetmeye yönlendirirsin.";
+var guclu_yanlarin2_35_36_2 = "Yeni Şeyler Denemek\nHayatta ilerlemek için her şeyi denemeye açıksın. Her yeni deneyimden bir şeyler öğrenmeyi seviyorsun, planladığın gibi gitmese bile. Bu, seni geliştirir ve yeni fikirler üretmene yardımcı olur. Etrafındaki insanlara anı yaşamaları ve fırsatları değerlendirmeleri için ilham verirsin.\n\nYeni Deneyimleri Kucaklamak\nYeni deneyimleri keşfetmekten ve onlardan öğrenmekten hoşlanıyorsun. İş dünyasında bu, yeni fikirler üretmene ve işleri iyileştirmenin yollarını bulmana yardımcı olur. İşler mükemmel gitmese bile devam edersin, bu da hızlı değişen ortamlarda başarılı olmana yardımcı olur.\n\nBaşkalarına İlham Vermek\nFarklı deneyimler yaşadığın için, başkalarına ilham kaynağı olursun. Yeni şeyler deneme isteğin ve zor zamanlarda bile devam edebilmen, başkalarını da aynı şekilde motive eder. Başkalarına yeni fırsatları keşfederek büyük başarılara ulaşabileceklerini gösterirsin.\n\nİş Dünyasında Gücünü Kullanmak\nDeneyimleme gücün, yeni şeyler denemek ve uyum sağlamak gereken işlerde değerlidir, örneğin ürün geliştirme, araştırma veya liderlik. Lider olarak, yeni deneyimlere olan coşkun, ekibinin sürekli öğrenip büyümesini sağlar. Yeni şeyler denemeye açık olduğunda, ilerlemeyi teşvik edersin ve ekibini yeni olasılıkları keşfetmeye yönlendirirsin.";
 
 var guclu_yanlarin2_56_11_1 = "“Merak” Gücü (11-56)";
-var guclu_yanlarin2_56_11_2 = "Yeni Fikirler Keşfetmek Her zaman yeni fikirler keşfetmeyi ve dünyayı farklı görmenin yollarını bulmayı seversin. Her zaman belirli bir hedefin olmayabilir, sadece \"Bakın ne buldum!\" demeyi seversin. Bu merakın seni zihinsel olarak aktif tutar ve yaratıcı fikirler bulmana yardımcı olur.\n\nYaratıcılığı Serbest Bırakmak Fikirleri ve hikayeleri birleştirip hayata dair düşüncelerle anlatınca yaratıcılığın büyüleyici hale gelir. Başkalarını heyecanlandıran ve onlara ilham veren bir şekilde bu fikirleri paylaşabilirsin. Bu, seni farklı düşünmeye yönlendiren güçlü bir özellik.\n\nHikayeler Anlatmak Karmaşık fikirleri eğlenceli ve anlaşılır hikayelere dönüştürme yeteneğin var. Bu da insanlara zor konuları açıklarken onların ilgisini çekmeni sağlar. Konuları ilgi çekici ve anlaşılır hale getirme konusunda çok iyisin.\n\nVizyonuna İnanmak Bir şeye inandığında, bu senin için gerçek olur. Hikayelerinde, deneyimlerini paylaşma şeklin senin için gerçeğin kendisinden daha önemlidir. Bu seni güçlü bir hikaye anlatıcısı yapar ve başkalarıyla derin bir bağ kurmanı sağlar.\n\nİş Dünyasında Gücünü Kullanmak Merakın iş dünyasında çok değerlidir. Yeni fikirler keşfetme yeteneğin, yenilikçi ürünler veya çözümler yaratmana yardımcı olabilir. Pazarlama veya hikaye anlatıcılığı rollerinde, yaratıcı hikayeler oluşturabilir ve insanları etkileyebilirsin. Lider olarak, merakın takımını sürekli öğrenmeye ve gelişmeye teşvik edebilir.";
+var guclu_yanlarin2_56_11_2 = "Yeni Fikirler Keşfetmek\nHer zaman yeni fikirler keşfetmeyi ve dünyayı farklı görmenin yollarını bulmayı seversin. Her zaman belirli bir hedefin olmayabilir, sadece \"Bakın ne buldum!\" demeyi seversin. Bu merakın seni zihinsel olarak aktif tutar ve yaratıcı fikirler bulmana yardımcı olur.\n\nYaratıcılığı Serbest Bırakmak\nFikirleri ve hikayeleri birleştirip hayata dair düşüncelerle anlatınca yaratıcılığın büyüleyici hale gelir. Başkalarını heyecanlandıran ve onlara ilham veren bir şekilde bu fikirleri paylaşabilirsin. Bu, seni farklı düşünmeye yönlendiren güçlü bir özellik.\n\nHikayeler Anlatmak\nKarmaşık fikirleri eğlenceli ve anlaşılır hikayelere dönüştürme yeteneğin var. Bu da insanlara zor konuları açıklarken onların ilgisini çekmeni sağlar. Konuları ilgi çekici ve anlaşılır hale getirme konusunda çok iyisin.\n\nVizyonuna İnanmak\nBir şeye inandığında, bu senin için gerçek olur. Hikayelerinde, deneyimlerini paylaşma şeklin senin için gerçeğin kendisinden daha önemlidir. Bu seni güçlü bir hikaye anlatıcısı yapar ve başkalarıyla derin bir bağ kurmanı sağlar.\n\nİş Dünyasında Gücünü Kullanmak\nMerakın iş dünyasında çok değerlidir. Yeni fikirler keşfetme yeteneğin, yenilikçi ürünler veya çözümler yaratmana yardımcı olabilir. Pazarlama veya hikaye anlatıcılığı rollerinde, yaratıcı hikayeler oluşturabilir ve insanları etkileyebilirsin. Lider olarak, merakın takımını sürekli öğrenmeye ve gelişmeye teşvik edebilir.";
 
 var guclu_yanlarin2_10_34_1 = "“İnanç” Gücü (Quantum 34-10)";
-var guclu_yanlarin2_10_34_2 = "Kendine Güvenmek Başkaları seninle aynı fikirde olmasa bile inandığın şeyin arkasında durma gücüne sahipsin. Hiçbir zaman kendin olmaktan vazgeçmezsin. İnançlarının peşinden giderken başkalarına da kendi doğrularını takip etme konusunda ilham verirsin.\n\nOtantik Olmak Farklı durumlara uyum sağlarken, kendine sadık kalmayı başarırsın. Kendine güvendiğinde ve kendini olduğun gibi kabul ettiğinde, seni benzersiz kılan özellikleri kucaklarsın. Bu da seni daha güçlü yapar ve başkalarına da kendi yollarında yürümeleri için cesaret verir.\n\nKişisel Güç Kişisel gücün, seni özel yapan şeyleri göstermenden gelir. Bu güç tamamen sana ait ve başkaları tarafından kopyalanamaz. Bu güç, bağımsızlığını destekler ve seni inançlarının peşinden gitmen için motive eder.\n\nİş Dünyasında Gücünü Kullanmak İş dünyasında, inançlarının arkasında durma gücün çok değerlidir. Karşılaştığın zorluklara rağmen, inandığın yolda ilerlemek başkalarına güven verir. Liderlik rollerinde, güçlü inançların takımı zor zamanlarda ileriye taşır. Ayrıca, başkalarına da dürüst ve kararlı olmayı öğretirsin, bu da iş yerinde bütünlük ve güven ortamı yaratır.";
+var guclu_yanlarin2_10_34_2 = "Kendine Güvenmek\nBaşkaları seninle aynı fikirde olmasa bile inandığın şeyin arkasında durma gücüne sahipsin. Hiçbir zaman kendin olmaktan vazgeçmezsin. İnançlarının peşinden giderken başkalarına da kendi doğrularını takip etme konusunda ilham verirsin.\n\nOtantik Olmak\nFarklı durumlara uyum sağlarken, kendine sadık kalmayı başarırsın. Kendine güvendiğinde ve kendini olduğun gibi kabul ettiğinde, seni benzersiz kılan özellikleri kucaklarsın. Bu da seni daha güçlü yapar ve başkalarına da kendi yollarında yürümeleri için cesaret verir.\n\nKişisel Güç\nKişisel gücün, seni özel yapan şeyleri göstermenden gelir. Bu güç tamamen sana ait ve başkaları tarafından kopyalanamaz. Bu güç, bağımsızlığını destekler ve seni inançlarının peşinden gitmen için motive eder.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında, inançlarının arkasında durma gücün çok değerlidir. Karşılaştığın zorluklara rağmen, inandığın yolda ilerlemek başkalarına güven verir. Liderlik rollerinde, güçlü inançların takımı zor zamanlarda ileriye taşır. Ayrıca, başkalarına da dürüst ve kararlı olmayı öğretirsin, bu da iş yerinde bütünlük ve güven ortamı yaratır.";
 
 //Bunlar gates
 var guclu_yanlarin2_15_1 = "Güven Kaynağı";
-var guclu_yanlarin2_15_2 = "Güven ve Devamlılık İnşa Etmek İnsanları bir araya getirip güvenilir ve bağlı bir ekip oluşturma konusunda doğal bir yeteneğin var. Varlığın, grupta güven ve devamlılık hissi yaratır. Farklı insanları bir araya getirerek herkesin kendini desteklenmiş ve rahat hissettiği bir ortam yaratabilirsin.\n\nBağlantıyı Güçlendirmek Güvenilirliğin, ekipteki herkesin kendini ait hissetmesini sağlar. İnsanlar birbirlerine daha bağlı hisseder, bu da takımda sadakati ve iş birliğini artırır. Tutarlı bir yaklaşım sergileyerek güven ve saygı dolu ilişkiler kurarsın.\n\nGüvenilir Bir Çevre Yaratmak İnsanlar birbirlerine güvenebildiğinde, kendilerini güvende hisseder ve birlikte çalışmak isterler. Güven inşa etme yeteneğin, özellikle liderlik rollerinde çok değerlidir. Bu, herkesin daha verimli çalışmasına ve mutlu hissetmesine yardımcı olur.Hayatta Yetkinliğini Kullanmak Güvenilirlik yetkinliğin, liderlik, ekip yönetimi veya proje yardımı gerektiren rollerde çok önemlidir. Tutarlı ve güvenilir olman, ekiplerin düzenli çalışmasını sağlar. Bağlantı ve güven oluşturma yeteneğin sayesinde, grupların büyümesine, başarılı olmasına ve birlikte verimli çalışmasına yardımcı olabilirsin.";
+var guclu_yanlarin2_15_2 = "Güven ve Devamlılık İnşa Etmek\nİnsanları bir araya getirip güvenilir ve bağlı bir ekip oluşturma konusunda doğal bir yeteneğin var. Varlığın, grupta güven ve devamlılık hissi yaratır. Farklı insanları bir araya getirerek herkesin kendini desteklenmiş ve rahat hissettiği bir ortam yaratabilirsin.\n\nBağlantıyı Güçlendirmek\nGüvenilirliğin, ekipteki herkesin kendini ait hissetmesini sağlar. İnsanlar birbirlerine daha bağlı hisseder, bu da takımda sadakati ve iş birliğini artırır. Tutarlı bir yaklaşım sergileyerek güven ve saygı dolu ilişkiler kurarsın.\n\nGüvenilir Bir Çevre Yaratmak\nİnsanlar birbirlerine güvenebildiğinde, kendilerini güvende hisseder ve birlikte çalışmak isterler. Güven inşa etme yeteneğin, özellikle liderlik rollerinde çok değerlidir. Bu, herkesin daha verimli çalışmasına ve mutlu hissetmesine yardımcı olur.\n\nHayatta Yetkinliğini Kullanmak\nGüvenilirlik yetkinliğin, liderlik, ekip yönetimi veya proje yardımı gerektiren rollerde çok önemlidir. Tutarlı ve güvenilir olman, ekiplerin düzenli çalışmasını sağlar. Bağlantı ve güven oluşturma yeteneğin sayesinde, grupların büyümesine, başarılı olmasına ve birlikte verimli çalışmasına yardımcı olabilirsin.";
 
 var guclu_yanlarin2_5_1 = "Kültür Mimarı";
-var guclu_yanlarin2_5_2 = "Grubun Ortamını Yaratmak Bir grubun ortamını oluşturma yeteneğine sahipsin. İnsanların nasıl giyineceği ya da nasıl davranacağı gibi konularda, grubun içinde işlerin nasıl yürüdüğünü şekillendirmeye yardımcı olursun. Etkinle, herkesin kendini rahat hissettiği ve ne yapması gerektiğini bildiği olumlu bir atmosfer yaratırsın.\n\nKurallar ve Normlar Belirlemek Grubun nasıl işleyeceğine dair düzen oluşturmada doğal bir yeteneğin var. İnsanların birbirine nasıl hitap edeceğinden buluşma ve bitiş saatlerine kadar pek çok konuda düzen sağlar ve tutarlılık oluşturabilirsin.\n\nGrubun Başarısına Yardım Etmek İyi alışkanlıklar teşvik ederek grubun daha iyi çalışmasına yardımcı olursun. Rutinler ve standartlar oluşturarak grubun sorunsuz çalışmasını sağlayabilir ve herkesin başarı için nasıl davranması gerektiğini bilmesine yardımcı olabilirsin.\n\n Hayatta Yetkinliğini Kullanmak Okulda ya da işte, grup kültürünü şekillendirme yeteneğin, olumlu ve verimli bir ortam yaratmaya yardımcı olur. Etkinlikler düzenlemek ya da kurallar koymaya yardım etmek gibi yeteneklerinle, bir grubun önemli bir parçası olursun ve başkalarının odaklanıp başarılı olmasına katkıda bulunursun.";
+var guclu_yanlarin2_5_2 = "Grubun Ortamını Yaratmak\nBir grubun ortamını oluşturma yeteneğine sahipsin. İnsanların nasıl giyineceği ya da nasıl davranacağı gibi konularda, grubun içinde işlerin nasıl yürüdüğünü şekillendirmeye yardımcı olursun. Etkinle, herkesin kendini rahat hissettiği ve ne yapması gerektiğini bildiği olumlu bir atmosfer yaratırsın.\n\nKurallar ve Normlar Belirlemek\nGrubun nasıl işleyeceğine dair düzen oluşturmada doğal bir yeteneğin var. İnsanların birbirine nasıl hitap edeceğinden buluşma ve bitiş saatlerine kadar pek çok konuda düzen sağlar ve tutarlılık oluşturabilirsin.\n\nGrubun Başarısına Yardım Etmek\nİyi alışkanlıklar teşvik ederek grubun daha iyi çalışmasına yardımcı olursun. Rutinler ve standartlar oluşturarak grubun sorunsuz çalışmasını sağlayabilir ve herkesin başarı için nasıl davranması gerektiğini bilmesine yardımcı olabilirsin.\n\nHayatta Yetkinliğini Kullanmak\nOkulda ya da işte, grup kültürünü şekillendirme yeteneğin, olumlu ve verimli bir ortam yaratmaya yardımcı olur. Etkinlikler düzenlemek ya da kurallar koymaya yardım etmek gibi yeteneklerinle, bir grubun önemli bir parçası olursun ve başkalarının odaklanıp başarılı olmasına katkıda bulunursun.";
 
 var guclu_yanlarin2_46_1 = "Harmoni Yaratıcısı";
-var guclu_yanlarin2_46_2 = "Grubu Bir Arada Tutmak Bir grubu organize edip uyumlu çalışmasını sağlamakta iyisin. Varlığın, herkesin göreve odaklanmasına ve rahat hissetmesine yardımcı olur, bu da uyumlu bir takım oluşturur.\n\nGrubu Odaklı Tutmak Grubun önemli olan şeylere odaklanmasını sağlarsın. Herkes odaklandığında, grup daha hızlı sonuçlar alır ve hedeflerine ulaşır.\n\nDenge Oluşturmak Grubun, hem kendi aralarında hem de müşteriler veya tedarikçiler gibi dış kişilerle uyumlu çalışmasını sağlayabilirsin. Bu da pozitif bir ortam yaratır ve herkesin birlikte çalışmaktan memnun olmasını sağlar.\n\nDeğişimlere Uyum Sağlamak Grubun esnek kalmasına ve değişiklikleri kolayca halletmesine yardımcı olursun. Yeni bir zorluk ya da proje değişikliği olsa bile, koordinasyonun ekibi sorunsuz bir şekilde ilerletir.\n\nHayatta Yetkinliğini Kullanmak Bu yetenek, projelerde, etkinlik organize ederken ya da bir ekibe liderlik ederken sana yardımcı olabilir. İnsanların birlikte daha iyi çalışmasına yardımcı olabilir ve grubun odaklı kalmasını sağlayabilirsin.";
+var guclu_yanlarin2_46_2 = "Grubu Bir Arada Tutmak\nBir grubu organize edip uyumlu çalışmasını sağlamakta iyisin. Varlığın, herkesin göreve odaklanmasına ve rahat hissetmesine yardımcı olur, bu da uyumlu bir takım oluşturur.\n\nGrubu Odaklı Tutmak\nGrubun önemli olan şeylere odaklanmasını sağlarsın. Herkes odaklandığında, grup daha hızlı sonuçlar alır ve hedeflerine ulaşır.\n\nDenge Oluşturmak\nGrubun, hem kendi aralarında hem de müşteriler veya tedarikçiler gibi dış kişilerle uyumlu çalışmasını sağlayabilirsin. Bu da pozitif bir ortam yaratır ve herkesin birlikte çalışmaktan memnun olmasını sağlar.\n\nDeğişimlere Uyum Sağlamak\nGrubun esnek kalmasına ve değişiklikleri kolayca halletmesine yardımcı olursun. Yeni bir zorluk ya da proje değişikliği olsa bile, koordinasyonun ekibi sorunsuz bir şekilde ilerletir.\n\nHayatta Yetkinliğini Kullanmak\nBu yetenek, projelerde, etkinlik organize ederken ya da bir ekibe liderlik ederken sana yardımcı olabilir. İnsanların birlikte daha iyi çalışmasına yardımcı olabilir ve grubun odaklı kalmasını sağlayabilirsin.";
 
 var guclu_yanlarin2_29_1 = "Amaca Bağlayıcı";
-var guclu_yanlarin2_29_2 = "Herkesi Bir Araya Getirmek İnsanları ortak bir hedef etrafında birleştirme konusunda yeteneklisin. Varlığın, herkesin aynı amaç için bağlılıkla çalışmasını sağlar.\n\nSadakat Oluşturma Takım üyelerinin birbirlerine sadık kalmalarını sağlarsın. Herkesin görevine bağlı kalmasını teşvik ederek güven ve ekip çalışmasını güçlendirirsin.\n\nTakım İçin Çalışmak Seninle birlikte, insanlar takım için daha istekli çalışır. Onlara birlikte çalışmanın takımı güçlendirdiğini gösterebilirsin ve bu herkesin başarıya ulaşmasına yardımcı olur.\n\nHayatta Yeteneğini Kullanmak Yetkinliğin, ekip yönetimi veya proje yönetimi gibi rollerde çok değerlidir. İnsanları bir araya getirip hedefe odaklı kalmalarını sağlayarak ekibin motive ve üretken olmasına yardımcı olursun.";
+var guclu_yanlarin2_29_2 = "Herkesi Bir Araya Getirmek\nİnsanları ortak bir hedef etrafında birleştirme konusunda yeteneklisin. Varlığın, herkesin aynı amaç için bağlılıkla çalışmasını sağlar.\n\nSadakat Oluşturma\nTakım üyelerinin birbirlerine sadık kalmalarını sağlarsın. Herkesin görevine bağlı kalmasını teşvik ederek güven ve ekip çalışmasını güçlendirirsin.\n\nTakım İçin Çalışmak\nSeninle birlikte, insanlar takım için daha istekli çalışır. Onlara birlikte çalışmanın takımı güçlendirdiğini gösterebilirsin ve bu herkesin başarıya ulaşmasına yardımcı olur.\n\nHayatta Yeteneğini Kullanmak\nYetkinliğin, ekip yönetimi veya proje yönetimi gibi rollerde çok değerlidir. İnsanları bir araya getirip hedefe odaklı kalmalarını sağlayarak ekibin motive ve üretken olmasına yardımcı olursun.";
 
 var guclu_yanlarin2_14_1 = "Kaynak Yaratıcı";
-var guclu_yanlarin2_14_2 = "Ekibinin İhtiyacı Olanı Sağlamak Ekibinin ihtiyaç duyduğu para, insan gücü veya malzemeleri sağlamada çok iyisin. Senin varlığın, ekibinin hedeflerine ulaşabileceğine ve söylediklerini yapabileceğine olan güveni artırır.\n\nİşleri Yoluna Koymak Ekibine ihtiyaç duydukları kaynakları sağlayarak, her şeyin sorunsuz ilerlemesini sağlayabilirsin. Ekibine işlerini en iyi şekilde yapabilmeleri için gereken desteği verirsin.\n\nGücüne Güvenmek Sen ekibin bir parçası olduğunda, insanlar başarılı olabileceklerine güvenirler. Varlığın, ekibi mücadelelere hazır hale getirir ve ihtiyaç duyulan araç ve kaynaklarla donatır.\n\nHayatta Yeteneğini Kullanmak Kaynak yönetimi konusundaki yeteneğin seni değerli bir takım üyesi yapar. İster bir okul projesi, ister topluluk etkinliği, isterse gelecekteki kariyerin olsun, her zaman işlerin yoluna girmesini sağlayan kişi olabilirsin. Doğru kaynakları sağlama yeteneğine güvenerek başkalarının başarılı olmasına yardım edersin ve fark yarattığını bilmekten gurur duyabilirsin.";
+var guclu_yanlarin2_14_2 = "Ekibinin İhtiyacı Olanı Sağlamak\nEkibinin ihtiyaç duyduğu para, insan gücü veya malzemeleri sağlamada çok iyisin. Senin varlığın, ekibinin hedeflerine ulaşabileceğine ve söylediklerini yapabileceğine olan güveni artırır.\n\nİşleri Yoluna Koymak\nEkibine ihtiyaç duydukları kaynakları sağlayarak, her şeyin sorunsuz ilerlemesini sağlayabilirsin. Ekibine işlerini en iyi şekilde yapabilmeleri için gereken desteği verirsin.\n\nGücüne Güvenmek\nSen ekibin bir parçası olduğunda, insanlar başarılı olabileceklerine güvenirler. Varlığın, ekibi mücadelelere hazır hale getirir ve ihtiyaç duyulan araç ve kaynaklarla donatır.\n\nHayatta Yeteneğini Kullanmak\nKaynak yönetimi konusundaki yeteneğin seni değerli bir takım üyesi yapar. İster bir okul projesi, ister topluluk etkinliği, isterse gelecekteki kariyerin olsun, her zaman işlerin yoluna girmesini sağlayan kişi olabilirsin. Doğru kaynakları sağlama yeteneğine güvenerek başkalarının başarılı olmasına yardım edersin ve fark yarattığını bilmekten gurur duyabilirsin.";
 
 var guclu_yanlarin2_2_1 = "Yön Belirleyici";
-var guclu_yanlarin2_2_2 = "Doğru Yönü Belirleme Ekibin doğru yolu bulmasına yardım edebilirsin. Fikirlerin, ekibe zaman ve kaynakları en iyi şekilde nasıl kullanacaklarını gösterir. Herkesin geleceği planlamasına ve günlük işlerini yönetmesine yardımcı olabilirsin, böylece grup odaklanmış kalır ve uyum içinde çalışır.\n\nEkibi Büyütmek Vizyonun sayesinde, ekibin nerede çaba harcaması ve kaynaklarını nereye yatırması gerektiğini görmesine yardım edersin. Zaman ve parayı akıllıca kullanmalarını sağlayarak, işlerin büyümesine katkıda bulunursun.\n\nKaynakları Yönetmek Ekibe, sahip oldukları kaynakları nasıl akıllıca kullanacaklarını gösterirsin. Ne kadar kaynağa sahip olduklarını ve bunu en iyi şekilde nasıl değerlendirebileceklerini anlamalarına yardımcı olursun, böylece hiçbir şey boşa gitmez.\n\nHayatta Yetkinliğini Kullanmak Vizyon ve yön belirleme yetkinliğin ekiplerin uzun vadeli hedeflerine ulaşmasına yardımcı olurken, kısa vadeli işlerde de verimli kalmalarını sağlar. Liderlik veya planlama ile ilgileniyor olsan da, sağladığın yön ve kaynak yönetimi her şeyin yolunda gitmesini ve ekibin başarılı olmasını sağlar.";
+var guclu_yanlarin2_2_2 = "Doğru Yönü Belirleme\nEkibin doğru yolu bulmasına yardım edebilirsin. Fikirlerin, ekibe zaman ve kaynakları en iyi şekilde nasıl kullanacaklarını gösterir. Herkesin geleceği planlamasına ve günlük işlerini yönetmesine yardımcı olabilirsin, böylece grup odaklanmış kalır ve uyum içinde çalışır.\n\nEkibi Büyütmek\nVizyonun sayesinde, ekibin nerede çaba harcaması ve kaynaklarını nereye yatırması gerektiğini görmesine yardım edersin. Zaman ve parayı akıllıca kullanmalarını sağlayarak, işlerin büyümesine katkıda bulunursun.\n\nKaynakları Yönetmek\nEkibe, sahip oldukları kaynakları nasıl akıllıca kullanacaklarını gösterirsin. Ne kadar kaynağa sahip olduklarını ve bunu en iyi şekilde nasıl değerlendirebileceklerini anlamalarına yardımcı olursun, böylece hiçbir şey boşa gitmez.\n\nHayatta Yetkinliğini Kullanmak\nVizyon ve yön belirleme yetkinliğin ekiplerin uzun vadeli hedeflerine ulaşmasına yardımcı olurken, kısa vadeli işlerde de verimli kalmalarını sağlar. Liderlik veya planlama ile ilgileniyor olsan da, sağladığın yön ve kaynak yönetimi her şeyin yolunda gitmesini ve ekibin başarılı olmasını sağlar.";
 
 var guclu_yanlarin2_1_1 = "Satış Ustası";
-var guclu_yanlarin2_1_2 = "Fikirleri Eyleme Dönüştürmek Bir fikri alıp onu gerçek eylemlere dönüştürme konusunda özel bir yeteneğin var. Bu, fikirlerin gerçek ürünlere veya hizmetlere dönüşmesini sağlamak demektir. Yaratıcı stratejiler kullanarak, herkesin çabalarının somut ve kullanılır bir şeye dönüşmesini sağlarsın.\n\nİşlerin Yapılmasını Sağlamak Ürünleri veya hizmetleri müşterilere ulaştırma konusunda son adımları yönetmeyi iyi bilirsin. İster satış, ister pazarlama olsun, her şeyin doğru kişilere ulaştığından emin olursun.\n\nPlanları Gerçekleştirmek Gücün, planların somut sonuçlara dönüşmesini sağlamaktır. Doğru stratejiler ve ekip çalışmasıyla başarı yaratmaya ve işlerin büyümesine yardımcı olursun. Bu yetenek, projelerin başarılı olması için çok önemlidir.\n\nHayatta Yeteneğini Kullanmak Hayatta fikirlerini satabilir, sana inanılmasını sağlayabilirsin. İş dünyasında, yeteneğin pazarlama ve satış alanlarında çok değerlidir. Planları hayata geçirme becerin, işlerin başarılı olmasını sağlar. Bu yeteneğinle, işin somut sonuçlar elde etmesine yardımcı olursun.";
+var guclu_yanlarin2_1_2 = "Fikirleri\nEyleme Dönüştürmek Bir fikri alıp onu gerçek eylemlere dönüştürme konusunda özel bir yeteneğin var. Bu, fikirlerin gerçek ürünlere veya hizmetlere dönüşmesini sağlamak demektir. Yaratıcı stratejiler kullanarak, herkesin çabalarının somut ve kullanılır bir şeye dönüşmesini sağlarsın.\n\nİşlerin Yapılmasını Sağlamak\nÜrünleri veya hizmetleri müşterilere ulaştırma konusunda son adımları yönetmeyi iyi bilirsin. İster satış, ister pazarlama olsun, her şeyin doğru kişilere ulaştığından emin olursun.\n\nPlanları Gerçekleştirmek\nGücün, planların somut sonuçlara dönüşmesini sağlamaktır. Doğru stratejiler ve ekip çalışmasıyla başarı yaratmaya ve işlerin büyümesine yardımcı olursun. Bu yetenek, projelerin başarılı olması için çok önemlidir.\n\nHayatta Yeteneğini Kullanmak\nHayatta fikirlerini satabilir, sana inanılmasını sağlayabilirsin. İş dünyasında, yeteneğin pazarlama ve satış alanlarında çok değerlidir. Planları hayata geçirme becerin, işlerin başarılı olmasını sağlar. Bu yeteneğinle, işin somut sonuçlar elde etmesine yardımcı olursun.";
 
 var guclu_yanlarin2_8_1 = "İmaj Yöneticisi";
-var guclu_yanlarin2_8_2 = "Dikkat Çekmek Ekibin dikkat çekmesine yardım etmede harikasın. Yaratıcılığın sayesinde, insanların grubunun ne yaptığını görmesini ve olumlu bir izlenim bırakmasını sağlarsın. Dikkat çekme yeteneğin, ekibin öne çıkmasına yardımcı olur.\n\nGrubu Tanıtmak Ekibin çalışmalarını başkalarına takdir edilecek şekilde sunma becerisine sahipsin. Bir projeyi veya etkinliği tanıtırken, başkalarının değerini görmesini sağlarsın. Bu yetenek, ekibin saygı kazanmasına ve takdir edilmesine yardımcı olur.Grubu Tanıtmak Ekibin çalışmalarını başkalarına takdir edilecek şekilde sunma becerisine sahipsin. Bir projeyi veya etkinliği tanıtırken, başkalarının değerini görmesini sağlarsın. Bu yetenek, ekibin saygı kazanmasına ve takdir edilmesine yardımcı olur.*n\nBaşkalarına İlham Vermek  Ekibin neyi temsil ettiğini göstermekten çekinmezsin. Grubunun güçlü yönlerini ve vizyonunu sergileyerek başkalarını da bu yolda ilerlemeye teşvik edebilirsin. Takım arkadaşlarına ilham verir ve onların ortak hedeflere katkıda bulunmasını sağlayabilirsin.\n\nHayatta Yeteneğini Kullanmak Ekibini temsil etme ve dikkat çekme yeteneğin sana birçok fırsatın kapısını açabilir. İster bir etkinliğini tanıtmak, ister kişisel bir marka inşa etmek, isterse bir davaya destek olmak olsun, başkalarına neyin önemli olduğunu ve neden ilgilenmeleri gerektiğini göstermek konusunda harikasın. Olumlu dikkat çekme yeteneğine güvenerek, kendine ve ekibine belirlediğiniz hedeflere ulaşma konusunda yardımcı olursun.";
+var guclu_yanlarin2_8_2 = "Dikkat Çekmek\nEkibin dikkat çekmesine yardım etmede harikasın. Yaratıcılığın sayesinde, insanların grubunun ne yaptığını görmesini ve olumlu bir izlenim bırakmasını sağlarsın. Dikkat çekme yeteneğin, ekibin öne çıkmasına yardımcı olur.\n\nGrubu Tanıtmak\nEkibin çalışmalarını başkalarına takdir edilecek şekilde sunma becerisine sahipsin. Bir projeyi veya etkinliği tanıtırken, başkalarının değerini görmesini sağlarsın. Bu yetenek, ekibin saygı kazanmasına ve takdir edilmesine yardımcı olur.Grubu Tanıtmak Ekibin çalışmalarını başkalarına takdir edilecek şekilde sunma becerisine sahipsin. Bir projeyi veya etkinliği tanıtırken, başkalarının değerini görmesini sağlarsın. Bu yetenek, ekibin saygı kazanmasına ve takdir edilmesine yardımcı olur.\n\nBaşkalarına İlham Vermek\nEkibin neyi temsil ettiğini göstermekten çekinmezsin. Grubunun güçlü yönlerini ve vizyonunu sergileyerek başkalarını da bu yolda ilerlemeye teşvik edebilirsin. Takım arkadaşlarına ilham verir ve onların ortak hedeflere katkıda bulunmasını sağlayabilirsin.\n\nHayatta Yeteneğini Kullanmak\nEkibini temsil etme ve dikkat çekme yeteneğin sana birçok fırsatın kapısını açabilir. İster bir etkinliğini tanıtmak, ister kişisel bir marka inşa etmek, isterse bir davaya destek olmak olsun, başkalarına neyin önemli olduğunu ve neden ilgilenmeleri gerektiğini göstermek konusunda harikasın. Olumlu dikkat çekme yeteneğine güvenerek, kendine ve ekibine belirlediğiniz hedeflere ulaşma konusunda yardımcı olursun.";
 
 var guclu_yanlarin2_7_1 = "Stratejik Planlayıcı";
-var guclu_yanlarin2_7_2 = "İleriyi Düşünmek Başarı için ne yapılması gerektiğini planlama yeteneğine sahipsin. Herkesin ne yapması gerektiğini bilmesini sağlayarak ekibin sorunsuz ilerlemesine yardımcı olursun. İyi planlama sayesinde, grup gelişir ve hedeflerine ulaşır.\n\nÖnemli Olanı Anlamak Dış dünyanın, pazarın veya müşterilerin ne istediğini görebilirsin ve planların ekibi doğru yolda tutar. Ne gerektiğini bilerek, grubun hızlı değişen dünyada başarılı olmasını sağlarsın.\n\nKaynakları Düzenlemek İnsanları, araçları ve zamanı organize etme yeteneğin her şeyin sorunsuz ilerlemesini sağlar. Bu sayede, ekibin üretken olmasına ve zaman ya da çabanın boşa gitmemesine yardımcı olursun.\n\nHayatta Yeteneğini Kullanmak Stratejik planlama yeteneğin proje yönetimi veya operasyon gibi dikkatli organizasyon gerektiren işlerde değerlidir. Net planların, ekibin son teslim tarihlerini karşılamasına ve sonuç almasına yardımcı olur. Bu yetenek, ekibin başarıya doğru ilerlemesini sağlamak için çok önemlidir.";
+var guclu_yanlarin2_7_2 = "İleriyi Düşünmek\nBaşarı için ne yapılması gerektiğini planlama yeteneğine sahipsin. Herkesin ne yapması gerektiğini bilmesini sağlayarak ekibin sorunsuz ilerlemesine yardımcı olursun. İyi planlama sayesinde, grup gelişir ve hedeflerine ulaşır.\n\nÖnemli Olanı Anlamak\nDış dünyanın, pazarın veya müşterilerin ne istediğini görebilirsin ve planların ekibi doğru yolda tutar. Ne gerektiğini bilerek, grubun hızlı değişen dünyada başarılı olmasını sağlarsın.\n\nKaynakları Düzenlemek\nİnsanları, araçları ve zamanı organize etme yeteneğin her şeyin sorunsuz ilerlemesini sağlar. Bu sayede, ekibin üretken olmasına ve zaman ya da çabanın boşa gitmemesine yardımcı olursun.\n\nHayatta Yeteneğini Kullanmak\nStratejik planlama yeteneğin proje yönetimi veya operasyon gibi dikkatli organizasyon gerektiren işlerde değerlidir. Net planların, ekibin son teslim tarihlerini karşılamasına ve sonuç almasına yardımcı olur. Bu yetenek, ekibin başarıya doğru ilerlemesini sağlamak için çok önemlidir.";
 
 var guclu_yanlarin2_31_1 = "Uygulama Ustası";
-var guclu_yanlarin2_31_2 = "Planları Eyleme Geçirmek Sen, bir planı alıp uygulamada çok iyisin. Ekipteki herkesin üzerine düşeni yapmasını sağlarsın ve işleri düzenli tutarak hedeflere ulaşılmasına yardımcı olursun.\n\nHerkese Görev Vermek Doğru işleri, doğru kişilere vermekte iyisin. Bu, planın iyi işlemesini sağlar ve herkesin başarıya katkıda bulunmasına yardımcı olur.\n\nTakımı Yönetmek Takımın planlarına uymasını sağlayarak, işleri organize edersin. Herkes memnun olana kadar her şeyin yolunda gitmesini sağlarsın.\n\nİş Hayatında Yeteneğini Kullanmak Bu yetenek projeleri yönetirken veya ekiplerle çalışırken çok değerlidir. İnsanları ve görevleri organize etme becerin, takımın başarılı olmasına ve işlerin düzenli bir şekilde yürümesine yardımcı olur.";
+var guclu_yanlarin2_31_2 = "Planları Eyleme Geçirmek\nSen, bir planı alıp uygulamada çok iyisin. Ekipteki herkesin üzerine düşeni yapmasını sağlarsın ve işleri düzenli tutarak hedeflere ulaşılmasına yardımcı olursun.\n\nHerkese Görev Vermek\nDoğru işleri, doğru kişilere vermekte iyisin. Bu, planın iyi işlemesini sağlar ve herkesin başarıya katkıda bulunmasına yardımcı olur.\n\nTakımı Yönetmek\nTakımın planlarına uymasını sağlayarak, işleri organize edersin. Herkes memnun olana kadar her şeyin yolunda gitmesini sağlarsın.\n\nİş Hayatında Yeteneğini Kullanmak\nBu yetenek projeleri yönetirken veya ekiplerle çalışırken çok değerlidir. İnsanları ve görevleri organize etme becerin, takımın başarılı olmasına ve işlerin düzenli bir şekilde yürümesine yardımcı olur.";
 
 var guclu_yanlarin2_13_1 = "Rakam Stratejisti";
-var guclu_yanlarin2_13_2 = "İş Başarısını Takip Etmek Bir projenin ya da işletmenin para kazanıp kazanmadığını takip edebilirsin. Bu yetenek,  projenin ya da işletmenin yolda kalmamasına ve büyümesine yardımcı olur.\n\nKâr ve Zarar Anlayışı Bir işletmenin finansal olarak başarılı olup olmadığını anlamaya yardımcı olursun. Gelen ve giden parayı izleyerek, işin başarılı olması için önemli bilgiler sağlarsın.\n\nDoğru Kayıt Tutmak İşin parası ve ilerlemesi hakkında kayıt tutmakta iyisin. Bu kayıtlar, işletmenin akıllıca kararlar almasına ve müşterilere güven vermesine yardımcı olur.\n\nKayıtlarla Güven İnşa Etmek Doğru kayıtlar tutarak müşterilerle güven inşa etmeye yardımcı olursun. Net kayıtları olan işletmeler daha çok güven kazanır ve bu güvenin korumasını sağlarsın.\n\nHayatta Yeteneğini Kullanmak Yeteneğini finans, rakamsal takip, finans ve yönetim gibi alanlarda kullanılabilir. Kârı izleme ve kayıt tutma yeteneğin, projelerin ya da işletmelerin başarılı olmasına ve büyümesine yardımcı olur.";
+var guclu_yanlarin2_13_2 = "İş Başarısını Takip Etmek\nBir projenin ya da işletmenin para kazanıp kazanmadığını takip edebilirsin. Bu yetenek,  projenin ya da işletmenin yolda kalmamasına ve büyümesine yardımcı olur.\n\nKâr ve Zarar Anlayışı\nBir işletmenin finansal olarak başarılı olup olmadığını anlamaya yardımcı olursun. Gelen ve giden parayı izleyerek, işin başarılı olması için önemli bilgiler sağlarsın.\n\nDoğru Kayıt Tutmak\nİşin parası ve ilerlemesi hakkında kayıt tutmakta iyisin. Bu kayıtlar, işletmenin akıllıca kararlar almasına ve müşterilere güven vermesine yardımcı olur.\n\nKayıtlarla Güven İnşa Etmek\nDoğru kayıtlar tutarak müşterilerle güven inşa etmeye yardımcı olursun. Net kayıtları olan işletmeler daha çok güven kazanır ve bu güvenin korumasını sağlarsın.\n\nHayatta Yeteneğini Kullanmak\nYeteneğini finans, rakamsal takip, finans ve yönetim gibi alanlarda kullanılabilir. Kârı izleme ve kayıt tutma yeteneğin, projelerin ya da işletmelerin başarılı olmasına ve büyümesine yardımcı olur.";
 
 var guclu_yanlarin2_33_1 = "Gözlem Ustası";
-var guclu_yanlarin2_33_2 = "İşlerin Sorunsuz Yürüdüğünden Emin Olmak Her şeyin planlandığı gibi gitmesini sağlama konusunda iyisin. Ekibinle birlikte işleri zamanında ve doğru bir şekilde yapıldığından emin olabilirsin. Dikkatin sayesinde, görevlerin tamamlanması ve herkesin ne yapacağını bilmesi sağlanır.\n\nHatalardan Ders Çıkarmak Geçmiş deneyimlerden ders çıkararak, ekibinin aynı hataları yapmamasına yardımcı olursun. Önceden neyin işe yaradığını düşünerek, gelecekte daha iyi sonuçlar elde edebilirsin.\n\nHerkesin Sorumluluğunu Yerine Getirdiğinden Emin Olmak İşlerin yolunda gitmesini sağlama yeteneğin, ekibin işlerinden sorumlu kalmasına yardımcı olur. Herkesin gerekeni yaptığından ve sorunların hızlıca çözüldüğünden emin olursun.\n\nHayatta Yeteneğini Kullanmak İşlerin düzenli yürümesini sağlama yeteneğin, ekip liderliği veya yöneticilik gibi rollerde değerlidir. Kurallar oluşturur, problemleri çözer ve ekibinde güven oluşturursun. Bu yetenek, ekibin verimli çalışmasını ve hedeflerine ulaşmasını sağlar.";
+var guclu_yanlarin2_33_2 = "İşlerin Sorunsuz Yürüdüğünden Emin Olmak\nHer şeyin planlandığı gibi gitmesini sağlama konusunda iyisin. Ekibinle birlikte işleri zamanında ve doğru bir şekilde yapıldığından emin olabilirsin. Dikkatin sayesinde, görevlerin tamamlanması ve herkesin ne yapacağını bilmesi sağlanır.\n\nHatalardan Ders Çıkarmak\nGeçmiş deneyimlerden ders çıkararak, ekibinin aynı hataları yapmamasına yardımcı olursun. Önceden neyin işe yaradığını düşünerek, gelecekte daha iyi sonuçlar elde edebilirsin.\n\nHerkesin Sorumluluğunu Yerine Getirdiğinden Emin Olmak\nİşlerin yolunda gitmesini sağlama yeteneğin, ekibin işlerinden sorumlu kalmasına yardımcı olur. Herkesin gerekeni yaptığından ve sorunların hızlıca çözüldüğünden emin olursun.\n\nHayatta Yeteneğini Kullanmak\nİşlerin düzenli yürümesini sağlama yeteneğin, ekip liderliği veya yöneticilik gibi rollerde değerlidir. Kurallar oluşturur, problemleri çözer ve ekibinde güven oluşturursun. Bu yetenek, ekibin verimli çalışmasını ve hedeflerine ulaşmasını sağlar.";
 
 //Güçlü Yanların + 25
 var guclu_yanlarin_57_10_1 = "Mükemmelleştirilmiş Form” Gücü (57-10)";
-var guclu_yanlarin_57_10_2 = "Hızlı düşünme yeteneğin dinamik iş ortamlarında çok değerli. Yaratıcılığın ile hayatta kalmayı garanti eden ve gelecekteki belirsizliklerden koruma sağlayan ortamlar yaratma ve tasarlama kabiliyetin var.\nFormu Mükemmelleştirmek Kendini, sanatı, müziği, yazıyı, iç tasarımı, yiyeceği, bahçeciliği, mimariyi – kendi ve başkalarının davranışlarını içeren her şeyi mükemmelleştirmeyi seversin. Bu detaylara gösterdiğin özen ve mükemmellik arzusu, herhangi bir profesyonel alanda yüksek kaliteli çıktılar üretmene yardımcı olur.\n\nKendin Olmak Sadece kendin olarak yaşayarak sağlıklı ve güzel bir şey yaratırsın. Bu otantiklik başkalarına ilham verebilir ve olumlu ve üretken bir çalışma ortamı yaratabilir. Rolün, kendin ve hayatın da dahil olmak üzere, sevdiğin şeyi yaratmak ve yarattığın şeyi sevmektir.\n\nİş Dünyasında Gücünü Kullanmak Yaratıcılık ve tasarım gerektiren rollerde, detaylara gösterdiğin özen ve sezgisel yaklaşım, yenilikçi ve estetik açıdan hoş sonuçlara doğurur. Liderlikte, işinin her yönünü kucaklama ve mükemmelleştirme yeteneğin, ekibini mükemmellik için çabalamaya teşvik edebilir.\n\nMükemmelleştirilmiş form gücün, iş dünyasında sezgi, yaratıcılık ve mükemmelik arzusu açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak yaratıcı olabilir, üretkenliği artırabilir, olumlu bir çalışma ortamı yaratabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemen ve geliştirmen, anlamlı ve etkili bir kariyere vesile olabilir.";
+var guclu_yanlarin_57_10_2 = "Hızlı düşünme yeteneğin dinamik iş ortamlarında çok değerli. Yaratıcılığın ile hayatta kalmayı garanti eden ve gelecekteki belirsizliklerden koruma sağlayan ortamlar yaratma ve tasarlama kabiliyetin var.\nFormu Mükemmelleştirmek\nKendini, sanatı, müziği, yazıyı, iç tasarımı, yiyeceği, bahçeciliği, mimariyi – kendi ve başkalarının davranışlarını içeren her şeyi mükemmelleştirmeyi seversin. Bu detaylara gösterdiğin özen ve mükemmellik arzusu, herhangi bir profesyonel alanda yüksek kaliteli çıktılar üretmene yardımcı olur.\n\nKendin Olmak\nSadece kendin olarak yaşayarak sağlıklı ve güzel bir şey yaratırsın. Bu otantiklik başkalarına ilham verebilir ve olumlu ve üretken bir çalışma ortamı yaratabilir. Rolün, kendin ve hayatın da dahil olmak üzere, sevdiğin şeyi yaratmak ve yarattığın şeyi sevmektir.\n\nİş Dünyasında Gücünü Kullanmak\nYaratıcılık ve tasarım gerektiren rollerde, detaylara gösterdiğin özen ve sezgisel yaklaşım, yenilikçi ve estetik açıdan hoş sonuçlara doğurur. Liderlikte, işinin her yönünü kucaklama ve mükemmelleştirme yeteneğin, ekibini mükemmellik için çabalamaya teşvik edebilir.\n\nMükemmelleştirilmiş form gücün, iş dünyasında sezgi, yaratıcılık ve mükemmelik arzusu açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak yaratıcı olabilir, üretkenliği artırabilir, olumlu bir çalışma ortamı yaratabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemen ve geliştirmen, anlamlı ve etkili bir kariyere vesile olabilir.";
 
 var guclu_yanlarin_20_10_1 = "Yüksek İlkeler” Gücü (10-20)";
-var guclu_yanlarin_20_10_2 = "Yüksek ilkeli davranışların savunucusu olmak için buradasın ve bu davranışlar tanındığında ve davet edildiğinde, etrafındaki insanlara yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilirsin.\n\nLiderliğin Sesis: Sadece kendin olarak başkalarına ilham verebilirsin. Herkesin kendisi olmasını savunabilir, organizasyonunda otantiklik ve bireysel ilkeler kültürünü teşvik edebilirsin.\n\nTercih Edilen Ortam Kendi gerçeğine duyarlı ve bireysel ilkelere bağlı olanlarla birlikte olmayı tercih edersin. Bu ortam, senin gelişmeni sağlar ve başkalarını bütünlüklerini ve benzersiz bakış açılarını korumaya teşvik eder.\n\nİş Dünyasında Gücünü Kullanmak Liderlik ve savunuculuk rollerinde, bütünlüğün ve ilkelere olan bağlılığın ile, etik kararlar almayı sağlayabilir ve başkalarına ilham verebilirsin. Ekip ortamlarında, otantikliğin güven ve iş birliği sağlar, daha uyumlu ve motive bir ekip oluşmasına yardımcı olur.\n\nYüksek ilkeler gücün, iş dünyasında otantiklik ve bütünlük açısından benzersiz bir karışım sunan güçlü bir liderlik özelliğidir. Bu gücü kullanarak, başkalarına ilham verebilir, etik uygulamaları teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.";
+var guclu_yanlarin_20_10_2 = "Yüksek ilkeli davranışların savunucusu olmak için buradasın ve bu davranışlar tanındığında ve davet edildiğinde, etrafındaki insanlara yüksek gerçeklerine başarılı bir şekilde uyum sağlamaları için rehberlik edebilirsin.\n\nLiderliğin Sesis:\nSadece kendin olarak başkalarına ilham verebilirsin. Herkesin kendisi olmasını savunabilir, organizasyonunda otantiklik ve bireysel ilkeler kültürünü teşvik edebilirsin.\n\nTercih Edilen Ortam\nKendi gerçeğine duyarlı ve bireysel ilkelere bağlı olanlarla birlikte olmayı tercih edersin. Bu ortam, senin gelişmeni sağlar ve başkalarını bütünlüklerini ve benzersiz bakış açılarını korumaya teşvik eder.\n\nİş Dünyasında Gücünü Kullanmak\nLiderlik ve savunuculuk rollerinde, bütünlüğün ve ilkelere olan bağlılığın ile, etik kararlar almayı sağlayabilir ve başkalarına ilham verebilirsin. Ekip ortamlarında, otantikliğin güven ve iş birliği sağlar, daha uyumlu ve motive bir ekip oluşmasına yardımcı olur.\n\nYüksek ilkeler gücün, iş dünyasında otantiklik ve bütünlük açısından benzersiz bir karışım sunan güçlü bir liderlik özelliğidir. Bu gücü kullanarak, başkalarına ilham verebilir, etik uygulamaları teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.";
 
 var guclu_yanlarin_59_6_1 = "“Etkileşim” Gücü (6-59)";
-var guclu_yanlarin_59_6_2 = "Başkalarının savunmalarını kolayca aşma kapasitesine sahipsin, bu da son derece destekleyici ve üretken hale gelebilecek derin, anlamlı bağlar kurmana olanak tanır. Başkalarıyla hızlı ve kolay bir şekilde iletişim kurabilirsin, bu da seni mükemmel bir iletişimci ve ağ kurucu yapar. Bu beceri, sosyal ve profesyonel ortamlarda kolayca gezinmeni sağlar, geniş bir iletişim ağı ve çevre oluşturmanı mümkün kılar. Bu derin seviyede bağlantı kurma yeteneği, ekip çalışmasında, müşteri ilişkilerinde ve liderlik rollerinde çok değerlidir. Hızla güven inşa ederek, başarıyı artıran güçlü, işbirlikçi ilişkiler geliştirebilirsin.\n\nYaratıcılığı Kolaylaştırmak Bir rahatlık ve konfor hissi yaratarak, herhangi bir yaratıcı girişimde verimlilik sağlarsın. Kapsayıcı ve davetkar bir atmosfer yaratma yeteneğin, yaratıcı düşünmeyi ve işbirliğini teşvik eder. Bu da seni beyin fırtınası oturumlarında, proje ekiplerinde ve inovasyonun önemli olduğu her ortamda değerli bir varlık haline getirir.\n\nİş Dünyasında Gücünü Kullanmak Etkileşim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip liderliğinde, derin bağlantılar kurma yeteneğin, uyumlu ve motive bir ekip oluşturur. Müşteri ilişkilerinde, hızla güven ve ilişki kurma becerin, müşteri memnuniyetini ve sadakatini artırır. Ayrıca, yaratıcı rollerde, rahat ve kapsayıcı bir ortam yaratma yeteneğin, yenilikçilik ve işbirliğini teşvik eder.\n\nEtkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
+var guclu_yanlarin_59_6_2 = "Başkalarının savunmalarını kolayca aşma kapasitesine sahipsin, bu da son derece destekleyici ve üretken hale gelebilecek derin, anlamlı bağlar kurmana olanak tanır. Başkalarıyla hızlı ve kolay bir şekilde iletişim kurabilirsin, bu da seni mükemmel bir iletişimci ve ağ kurucu yapar. Bu beceri, sosyal ve profesyonel ortamlarda kolayca gezinmeni sağlar, geniş bir iletişim ağı ve çevre oluşturmanı mümkün kılar. Bu derin seviyede bağlantı kurma yeteneği, ekip çalışmasında, müşteri ilişkilerinde ve liderlik rollerinde çok değerlidir. Hızla güven inşa ederek, başarıyı artıran güçlü, işbirlikçi ilişkiler geliştirebilirsin.\n\nYaratıcılığı Kolaylaştırmak\nBir rahatlık ve konfor hissi yaratarak, herhangi bir yaratıcı girişimde verimlilik sağlarsın. Kapsayıcı ve davetkar bir atmosfer yaratma yeteneğin, yaratıcı düşünmeyi ve işbirliğini teşvik eder. Bu da seni beyin fırtınası oturumlarında, proje ekiplerinde ve inovasyonun önemli olduğu her ortamda değerli bir varlık haline getirir.\n\nİş Dünyasında Gücünü Kullanmak\nEtkileşim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip liderliğinde, derin bağlantılar kurma yeteneğin, uyumlu ve motive bir ekip oluşturur. Müşteri ilişkilerinde, hızla güven ve ilişki kurma becerin, müşteri memnuniyetini ve sadakatini artırır. Ayrıca, yaratıcı rollerde, rahat ve kapsayıcı bir ortam yaratma yeteneğin, yenilikçilik ve işbirliğini teşvik eder.\n\nEtkileşim gücün, iş dünyasında empati, bağlantı ve sezgisel karar verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü, destekleyici ilişkiler kurabilir, yaratıcılığı teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin. Büyük organizasyonlarda yönetici pozisyonlarına davet edilebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir.";
 
 var guclu_yanlarin_63_4_1 = "“Mantıksal Süreç” Gücü (63-4)";
-var guclu_yanlarin_63_4_2 = "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.\n\nŞüpheyi Kucaklamak Şüphe, mantıksal sürecin vazgeçilmez bir parçasıdır çünkü mantık kusursuz bir şekilde formüle edilebilir ve yine de yanlış olabilir. Şüpheyi kucaklamak, düşünceni sürekli olarak rafine etmeni ve rahatlığa kapılmamanı sağlar. Bu eleştirel yaklaşım, analizlerinde ve kararlarında titiz ve dikkatli olmanı, sürekli olarak doğrulama ve iyileştirme arayışında olmanı sağlar.\n\nAktif Zihin Çok aktif bir zihne sahipsin ve sürekli olarak kalıpları süzerek tutarlı olup olmadıklarını kontrol ediyorsun. Bu dikkat, tutarsızlıkları ve potansiyel sorunları erken tespit etmene yardımcı olur, böylece proaktif bir şekilde sorun çözebilirsin. Hızlı bir şekilde tutarsızlıkları tespit etme yeteneğin ile kalite kontrol, risk yönetimi ve operasyonel verimlilikte önemli rol oynayabilirsin.\n\nBaskı ve Sorular Bir kalıp tutarsız hale geldiğinde, baskı yoğunlaşır ve nihayetinde bir soru haline gelir, bu da bir cevap gerektirir. Bu tutarsızlıkları çözme dürtüsü, doğruluk ve güvenilirlik arayışında hiçbir taşı çevirmeden bırakmamanı sağlar. Bu amansız cevap arayışı, seni analist, denetçi veya araştırmacı olarak mükemmel kılar, bu rollerde hassasiyet ve titizlik çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak Mantıksal süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Stratejik planlamada, eğitimli tahminler yapma yeteneğin, gerçekçi hedefler belirlemeye ve pazar trendlerini öngörmeye yardımcı olur. Veri analizinde, kalıpları ve tutarsızlıkları tanıma becerin, doğru ve uygulanabilir içgörüler sağlar. Ayrıca, kalite güvence ve risk yönetiminde, titiz yaklaşımın yüksek standartları sağlar ve potansiyel riskleri azaltır.\n\nMantıksal süreç gücün, iş dünyasında analitik titizlik, eleştirel düşünme ve tahmin edici doğruluk açısından benzersiz bir karışım sunan güçlü bir özelliktir. Mantıksal yeteneklerini dış zorluklar ve fırsatlara odaklayarak, organizasyonel başarıyı sağlayacak paha biçilmez içgörüler ve çözümler sunabilirsin, bilinçli karar alma süreçlerini yönlendirebilir, operasyonel mükemmeliyet sağlayabilir ve organizasyonunun stratejik başarısına katkıda bulunabilirsin.";
+var guclu_yanlarin_63_4_2 = "Bu beceri, stratejik planlama ve karar alma süreçlerinde çok değerlidir, potansiyel sonuçları öngörmene ve organizasyonunu başarıya yönlendirecek seçimler yapmana olanak tanır.\n\nŞüpheyi Kucaklamak\nŞüphe, mantıksal sürecin vazgeçilmez bir parçasıdır çünkü mantık kusursuz bir şekilde formüle edilebilir ve yine de yanlış olabilir. Şüpheyi kucaklamak, düşünceni sürekli olarak rafine etmeni ve rahatlığa kapılmamanı sağlar. Bu eleştirel yaklaşım, analizlerinde ve kararlarında titiz ve dikkatli olmanı, sürekli olarak doğrulama ve iyileştirme arayışında olmanı sağlar.\n\nAktif Zihin\nÇok aktif bir zihne sahipsin ve sürekli olarak kalıpları süzerek tutarlı olup olmadıklarını kontrol ediyorsun. Bu dikkat, tutarsızlıkları ve potansiyel sorunları erken tespit etmene yardımcı olur, böylece proaktif bir şekilde sorun çözebilirsin. Hızlı bir şekilde tutarsızlıkları tespit etme yeteneğin ile kalite kontrol, risk yönetimi ve operasyonel verimlilikte önemli rol oynayabilirsin.\n\nBaskı ve Sorular\nBir kalıp tutarsız hale geldiğinde, baskı yoğunlaşır ve nihayetinde bir soru haline gelir, bu da bir cevap gerektirir. Bu tutarsızlıkları çözme dürtüsü, doğruluk ve güvenilirlik arayışında hiçbir taşı çevirmeden bırakmamanı sağlar. Bu amansız cevap arayışı, seni analist, denetçi veya araştırmacı olarak mükemmel kılar, bu rollerde hassasiyet ve titizlik çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak\nMantıksal süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Stratejik planlamada, eğitimli tahminler yapma yeteneğin, gerçekçi hedefler belirlemeye ve pazar trendlerini öngörmeye yardımcı olur. Veri analizinde, kalıpları ve tutarsızlıkları tanıma becerin, doğru ve uygulanabilir içgörüler sağlar. Ayrıca, kalite güvence ve risk yönetiminde, titiz yaklaşımın yüksek standartları sağlar ve potansiyel riskleri azaltır.\n\nMantıksal süreç gücün, iş dünyasında analitik titizlik, eleştirel düşünme ve tahmin edici doğruluk açısından benzersiz bir karışım sunan güçlü bir özelliktir. Mantıksal yeteneklerini dış zorluklar ve fırsatlara odaklayarak, organizasyonel başarıyı sağlayacak paha biçilmez içgörüler ve çözümler sunabilirsin, bilinçli karar alma süreçlerini yönlendirebilir, operasyonel mükemmeliyet sağlayabilir ve organizasyonunun stratejik başarısına katkıda bulunabilirsin.";
 
 var guclu_yanlarin_45_21_1 = "“Liderlik” Gücü (45-21) ";
-var guclu_yanlarin_45_21_2 = "Çevrendekileri güvenle geleceğe yönlendirebilirsin. Liderlik tarzın mantıklıdır, test edilmiş ve kesinlikle takip edilebilecek yerleşik kalıplara dayanır. İş ortamında, bu mantıksal liderlik tarzı, ekibinde güven ve güvence uyandıran net, uygulanabilir planlar oluşturmanı sağlar.\n\nGüveni Kazanmak Etkili bir şekilde liderlik yapmak için önce güven kazanmalısın. Güven, liderliğinin temelidir ve güçlü, uyumlu ekipler oluşturmanı sağlar. Dürüstlük, yetkinlik ve ekibinin ihtiyaçlarını ve isteklerini gerçek anlamda anladığını göstererek, kendini güvenilir bir lider olarak kabul ettirirsin.\n\nKalıpları ve Trendleri Tanımak Mevcut kalıpları kavrayan, trendleri anlayan ve insanların ihtiyaçlarıyla uyumlu biri olarak tanınmalısın. Bu yetenek, değişiklikleri öngörmene ve ekibini gelecekteki zorluklara hazırlamanı sağlar. Kalıplar ve trendler konusundaki keskin içgörün, liderliğinin hem proaktif hem de uyumlu olmasını sağlar.\n\nEtkileyici Ses Sesin etki yaratır, ve liderlik yapman için çoğunluk tarafından davet edilmelisin. Ekip arkadaşların tarafından lider olarak seçilmek, yeteneklerine duyulan güveni ve inancı gösterir.\n\nTahtın Arkasında Liderlik Ayrıca “tahtın arkasında” etki ile liderlik yapma yeteneğine sahipsin. Bu ince liderlik biçimi, her zaman ön planda olmadan rehberlik etmeni ve ilham vermeni sağlar. Karar vericileri etkileyerek ve stratejileri perde arkasından şekillendirerek, önemli değişiklikler ve ilerlemeler sağlayabilirsin.\n\nİleriye Giden Yolu Gösterme Sen ileriye giden yolu göstermek için buradasın. Bir lider olarak rolün, vizyon ve yön sağlamak, başkalarının harekete geçmesini sağlamaktır. Bu yaklaşım, etkinliğini maksimize ederken, ekip üyelerinde sahiplenme ve sorumluluk duygusunu da artırır.\n\nİş Dünyasında Gücünü Kullanmak Liderlik gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Üst düzey yönetim rollerinde, mantıklı ve güvenilir yaklaşımın, organizasyonunu uzun vadeli başarıya yönlendirebilirsin. Proje yönetiminde, kalıpları ve trendleri tanıma yeteneğin, projelerin gelecekteki taleplerle uyumlu olmasını sağlar. Ayrıca, danışmanlık rollerinde, perde arkasındaki etkileyici gücün, stratejik kararları yönlendirebilir ve sürekli iyileşme kültürünü teşvik edebilir.\n\nLiderlik gücün, iş dünyasında mantıksal düşünme, güvenilirlik ve etkileyici rehberlik açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, organizasyonunu güvenle geleceğe yönlendirebilir, ekibini ilham verebilir ve sürdürülebilir başarı sağlayabilirsin.";
+var guclu_yanlarin_45_21_2 = "Çevrendekileri güvenle geleceğe yönlendirebilirsin. Liderlik tarzın mantıklıdır, test edilmiş ve kesinlikle takip edilebilecek yerleşik kalıplara dayanır. İş ortamında, bu mantıksal liderlik tarzı, ekibinde güven ve güvence uyandıran net, uygulanabilir planlar oluşturmanı sağlar.\n\nGüveni Kazanmak\nEtkili bir şekilde liderlik yapmak için önce güven kazanmalısın. Güven, liderliğinin temelidir ve güçlü, uyumlu ekipler oluşturmanı sağlar. Dürüstlük, yetkinlik ve ekibinin ihtiyaçlarını ve isteklerini gerçek anlamda anladığını göstererek, kendini güvenilir bir lider olarak kabul ettirirsin.\n\nKalıpları ve Trendleri Tanımak\nMevcut kalıpları kavrayan, trendleri anlayan ve insanların ihtiyaçlarıyla uyumlu biri olarak tanınmalısın. Bu yetenek, değişiklikleri öngörmene ve ekibini gelecekteki zorluklara hazırlamanı sağlar. Kalıplar ve trendler konusundaki keskin içgörün, liderliğinin hem proaktif hem de uyumlu olmasını sağlar.\n\nEtkileyici Ses\nSesin etki yaratır, ve liderlik yapman için çoğunluk tarafından davet edilmelisin. Ekip arkadaşların tarafından lider olarak seçilmek, yeteneklerine duyulan güveni ve inancı gösterir.\n\nTahtın Arkasında Liderlik\nAyrıca “tahtın arkasında” etki ile liderlik yapma yeteneğine sahipsin. Bu ince liderlik biçimi, her zaman ön planda olmadan rehberlik etmeni ve ilham vermeni sağlar. Karar vericileri etkileyerek ve stratejileri perde arkasından şekillendirerek, önemli değişiklikler ve ilerlemeler sağlayabilirsin.\n\nİleriye Giden Yolu Gösterme\nSen ileriye giden yolu göstermek için buradasın. Bir lider olarak rolün, vizyon ve yön sağlamak, başkalarının harekete geçmesini sağlamaktır. Bu yaklaşım, etkinliğini maksimize ederken, ekip üyelerinde sahiplenme ve sorumluluk duygusunu da artırır.\n\nİş Dünyasında Gücünü Kullanmak\nLiderlik gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Üst düzey yönetim rollerinde, mantıklı ve güvenilir yaklaşımın, organizasyonunu uzun vadeli başarıya yönlendirebilirsin. Proje yönetiminde, kalıpları ve trendleri tanıma yeteneğin, projelerin gelecekteki taleplerle uyumlu olmasını sağlar. Ayrıca, danışmanlık rollerinde, perde arkasındaki etkileyici gücün, stratejik kararları yönlendirebilir ve sürekli iyileşme kültürünü teşvik edebilir.\n\nLiderlik gücün, iş dünyasında mantıksal düşünme, güvenilirlik ve etkileyici rehberlik açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, organizasyonunu güvenle geleceğe yönlendirebilir, ekibini ilham verebilir ve sürdürülebilir başarı sağlayabilirsin.";
 
 var guclu_yanlarin_60_3_1 = "“Yenilik” Gücü (3-60) ";
-var guclu_yanlarin_60_3_2 = "Kendini ve çevrendekileri değişim ve yenilik potansiyeli ile güçlendirirsin. Bu seviyede bir değişimi kucaklamak için körü körüne bir inanç gereklidir, çünkü bu ani bir şekilde gerçekleşebilir ve bir kuantum sıçraması gibi hissedilebilir. \"Senin için değişim olması gerektiğinde olur.\"\n\nKaostan Düzene Geçiş Yeniliğin doğasında bulunan kaostan düzene geçişi kucaklarsın. Bu dönüşüm süreci sabır ve olayların zamanlamasına güven gerektirir. Geçişi yönetme ve kolaylaştırma yeteneğin, yenilikçi projeleri ve girişimleri sürdürmek için çok önemlidir.\n\nYaratıcı ve Melankolik Süreç Yaratıcılığının ortaya çıkması için değişken bir ruh hali ile melankolik bir süreçten geçebilirsin. Zamanlaman içsel bir yanıtla sana gelir ve bu seni gerçekten tatmin edici olana yönlendirir. İçgüdülerine ve içsel saatine güvenmek, doğal yeteneklerin ve enerji seviyelerinle uyum içinde kararlar almanı sağlar.\n\nİş Dünyasında Gücünü Kullanmak Yenilik gücün, iş dünyasının çeşitli alanlarında kullanılabilir. Ürün geliştirmede, önemli değişiklikler yapma yeteneğin çığır açan yeniliklere yol açabilir. Proje yönetiminde, kaostan düzene geçişteki becerin, projelerin verimli ve yaratıcı bir şekilde tamamlanmasını sağlar. Büyük organizasyonlarda yeniliğe liderlik etmek için yönetici pozisyonlarına çağrılabilirsin. Pproblem çözme ve stratejik düşünme gerektiren rollerde, yenilikçi yaklaşımın, organizasyonu yeni ve başarılı yönlere doğru yönlendirebilir.\n\nSonuç Yenilik gücün, iş dünyasında yaratıcılık, dayanıklılık ve dönüştürücü potansiyel açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, önemli değişiklikler yapabilir, yaratıcı ortamlar oluşturabilir ve organizasyonunu yeni ve yenilikçi yönlere yönlendirebilirsin. ";
+var guclu_yanlarin_60_3_2 = "Kendini ve çevrendekileri değişim ve yenilik potansiyeli ile güçlendirirsin. Bu seviyede bir değişimi kucaklamak için körü körüne bir inanç gereklidir, çünkü bu ani bir şekilde gerçekleşebilir ve bir kuantum sıçraması gibi hissedilebilir. \"Senin için değişim olması gerektiğinde olur.\"\n\nKaostan Düzene Geçiş\nYeniliğin doğasında bulunan kaostan düzene geçişi kucaklarsın. Bu dönüşüm süreci sabır ve olayların zamanlamasına güven gerektirir. Geçişi yönetme ve kolaylaştırma yeteneğin, yenilikçi projeleri ve girişimleri sürdürmek için çok önemlidir.\n\nYaratıcı ve Melankolik Süreç\nYaratıcılığının ortaya çıkması için değişken bir ruh hali ile melankolik bir süreçten geçebilirsin. Zamanlaman içsel bir yanıtla sana gelir ve bu seni gerçekten tatmin edici olana yönlendirir. İçgüdülerine ve içsel saatine güvenmek, doğal yeteneklerin ve enerji seviyelerinle uyum içinde kararlar almanı sağlar.\n\nİş Dünyasında Gücünü Kullanmak\nYenilik gücün, iş dünyasının çeşitli alanlarında kullanılabilir. Ürün geliştirmede, önemli değişiklikler yapma yeteneğin çığır açan yeniliklere yol açabilir. Proje yönetiminde, kaostan düzene geçişteki becerin, projelerin verimli ve yaratıcı bir şekilde tamamlanmasını sağlar. Büyük organizasyonlarda yeniliğe liderlik etmek için yönetici pozisyonlarına çağrılabilirsin. Pproblem çözme ve stratejik düşünme gerektiren rollerde, yenilikçi yaklaşımın, organizasyonu yeni ve başarılı yönlere doğru yönlendirebilir.\n\nSonuç\nYenilik gücün, iş dünyasında yaratıcılık, dayanıklılık ve dönüştürücü potansiyel açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, önemli değişiklikler yapabilir, yaratıcı ortamlar oluşturabilir ve organizasyonunu yeni ve yenilikçi yönlere yönlendirebilirsin. ";
 
 var guclu_yanlarin_5_15_1 = "“Kalıplar ve Ritim” Gücü (5-15) ";
-var guclu_yanlarin_5_15_2 = "Bu güç, akışın ve ritminle uyum sağladığında, yaptığın her şeyin zahmetsiz ve doğal hissettirmesini sağlar. Bu uyum hali, işinde en iyi performansı göstermene, üretkenliğini ve yaratıcılığını artırmana olanak tanır. Doğal ritimlerini kucaklaman, iş tatminine ve etkinliğini sağlar.\n\nRutinlere Bağlı Kalmak Sana hizmet eden kalıplara veya rutinlere bağlı kalma yeteneğine sahipsin. Bu rutinler, yapı ve istikrar sağlar, görevlerini kolaylıkla ve tutarlılıkla yürütmene olanak tanır. Profesyonel bir ortamda, bu yetenek, verimliliği artıran ve stresi azaltan güvenilir süreçler ve iş akışları oluşturmanı sağlar.\n\nÇeşitliliği Kucaklamak Ayrıca çevrendekilerin sabit olandan aşırıya kadar çeşitlilik gösteren rutinlerini tanımlama ve kucaklama yeteneğine sahipsin. Bu anlayış, çevrendekiler ile etkili bir şekilde çalışmana, onların benzersizliklerini ve ritimlerini takdir etmene olanak tanır. Bu farklılıkları tanıyarak ve bunlara uyum sağlayarak, daha uyumlu ve işbirlikçi bir çalışma ortamı oluşturabilirsin.\n\nKişisel Zamanlama ve Akış Kişisel iç ritmin tarafından tamamen belirlenen kendi zamanlama ve akış anlayışına sahipsin. Hiçbir şeyin veya hiç kimsenin akışına müdahale etmesine izin vermemeye dikkat et. Ritmini korumak, üretkenliğini ve esenliğini sürdürmek için çok önemlidir. Doğal kalıplarına saygı gösteren destekleyici bir ortam yaratmak ve sınırlar koymak, en optimal performansta kalmana yardımcı olabilir.\n\nBaşkalarına Fayda Sağlamak Çevrendekilere doğru ritim ve zamanlamaya uyum sağlamalarında yardım ederek, onları da dolaylı olarak faydalandırabilirsin. Başkalarının ritimlerini tanımlama ve onlarla uyum sağlama yeteneğin, daha uyumlu ve üretken bir ekip dinamiği yaratabilir. Herkes için daha etkili ve tatmin edici bir çalışma ortamı oluşturabilirsin.\n\nİş Dünyasında Gücünü Kullanmak Kalıplar ve ritim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, etkili rutinler oluşturma ve sürdürme yeteneğin, zamanında ve tutarlı ilerleme sağlar. Ekip liderliğinde, çeşitliliği anlama yeteneğin, çok değişik yelpazede kişileri yönetmene ve motive etmene yardımcı olabilir. Ayrıca, yaratıcı problem çözme gerektiren rollerde, doğal akışın yenilikçi ve verimli çözümler üretmene yol açabilir.\n\nKalıplar ve ritim gücün, iş dünyasında uyum, yapı ve uyarlanabilirlik açısından benzersiz bir karışım sunan güçlü bir özelliktir.Bu gücü kullanarak, üretkenliği artırabilir, işbirliğini teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_5_15_2 = "Bu güç, akışın ve ritminle uyum sağladığında, yaptığın her şeyin zahmetsiz ve doğal hissettirmesini sağlar. Bu uyum hali, işinde en iyi performansı göstermene, üretkenliğini ve yaratıcılığını artırmana olanak tanır. Doğal ritimlerini kucaklaman, iş tatminine ve etkinliğini sağlar.\n\nRutinlere Bağlı Kalmak\nSana hizmet eden kalıplara veya rutinlere bağlı kalma yeteneğine sahipsin. Bu rutinler, yapı ve istikrar sağlar, görevlerini kolaylıkla ve tutarlılıkla yürütmene olanak tanır. Profesyonel bir ortamda, bu yetenek, verimliliği artıran ve stresi azaltan güvenilir süreçler ve iş akışları oluşturmanı sağlar.\n\nÇeşitliliği Kucaklamak\nAyrıca çevrendekilerin sabit olandan aşırıya kadar çeşitlilik gösteren rutinlerini tanımlama ve kucaklama yeteneğine sahipsin. Bu anlayış, çevrendekiler ile etkili bir şekilde çalışmana, onların benzersizliklerini ve ritimlerini takdir etmene olanak tanır. Bu farklılıkları tanıyarak ve bunlara uyum sağlayarak, daha uyumlu ve işbirlikçi bir çalışma ortamı oluşturabilirsin.\n\nKişisel Zamanlama ve Akış\nKişisel iç ritmin tarafından tamamen belirlenen kendi zamanlama ve akış anlayışına sahipsin. Hiçbir şeyin veya hiç kimsenin akışına müdahale etmesine izin vermemeye dikkat et. Ritmini korumak, üretkenliğini ve esenliğini sürdürmek için çok önemlidir. Doğal kalıplarına saygı gösteren destekleyici bir ortam yaratmak ve sınırlar koymak, en optimal performansta kalmana yardımcı olabilir.\n\nBaşkalarına Fayda Sağlamak\nÇevrendekilere doğru ritim ve zamanlamaya uyum sağlamalarında yardım ederek, onları da dolaylı olarak faydalandırabilirsin. Başkalarının ritimlerini tanımlama ve onlarla uyum sağlama yeteneğin, daha uyumlu ve üretken bir ekip dinamiği yaratabilir. Herkes için daha etkili ve tatmin edici bir çalışma ortamı oluşturabilirsin.\n\nİş Dünyasında Gücünü Kullanmak\nKalıplar ve ritim gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, etkili rutinler oluşturma ve sürdürme yeteneğin, zamanında ve tutarlı ilerleme sağlar. Ekip liderliğinde, çeşitliliği anlama yeteneğin, çok değişik yelpazede kişileri yönetmene ve motive etmene yardımcı olabilir. Ayrıca, yaratıcı problem çözme gerektiren rollerde, doğal akışın yenilikçi ve verimli çözümler üretmene yol açabilir.\n\nKalıplar ve ritim gücün, iş dünyasında uyum, yapı ve uyarlanabilirlik açısından benzersiz bir karışım sunan güçlü bir özelliktir.Bu gücü kullanarak, üretkenliği artırabilir, işbirliğini teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_47_64_1 = "“Deneyimsel Süreç” Gücü (64-47) ";
-var guclu_yanlarin_47_64_2 = "Doğrudan deneyim yoluyla öğrenme ve içgörüler kazanma yeteneğine sahipsin. Bu pratik yaklaşım, karmaşık durumları derinlemesine ve pratik bir şekilde anlamanı sağlar. İş dünyasında bu güç, sahada problem çözme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nPaternleri ve Süreçleri Anlamak Deneyimleyip bu deneyimleri yansıtarak paternleri ve süreçleri etkili bir şekilde anlama yeteneğine sahipsin. Bu içgörü, bilinçli kararlar almanı ve geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Deneyimsel öğrenme yaklaşımın, çözümlerin gerçeklik ve pratiklikle temellendirilmesini sağlar.\n\nUyum Sağlama ve Dayanıklılık Deneyimsel öğrenme, uyum sağlama ve dayanıklılık geliştirir. Zorluklarla doğrudan etkileşimde bulunarak, değişen koşullara uyum sağlama ve yanıt verme esnekliğini geliştirirsin. Bu uyum sağlama yeteneği, koşulların hızla değişebileceği dinamik iş ortamlarında çok önemlidir.\n\nİçgörüleri Etkili Bir Şekilde Anlatmak İçgörülerini ve deneyimlerini başkalarına etkili bir şekilde aktarma yeteneğine sahipsin, karmaşık kavramları pratik örneklerle anlamalarına yardımcı olursun. Bu beceri, özellikle eğitim ve mentorluk rollerinde faydalıdır, çünkü pratik bilgi aktarmak, öğrenme ve gelişimi önemli ölçüde artırabilir.\n\nİş Dünyasında Gücünü Kullanmak Deneyimsel süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, deneyimlerden öğrenme ve uyum sağlama yeteneğin, projelerin tahmin edilemeyen koşullarda bile etkili bir şekilde yönetilmesini sağlar. Operasyonlarda, pratik yaklaşımın, verimliliği artırır ve sorun çözme yeteneklerini geliştirir. Ayrıca, eğitim ve gelişim gerektiren rollerde, deneyimsel içgörüler, öğrenme deneyimini önemli ölçüde artırabilir.\n\nDeneyimsel süreç gücün, iş dünyasında pratik anlayış, uyum sağlama ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, sürekli iyileştirmeyi sürükleyebilir, dayanıklılığı artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.  ";
+var guclu_yanlarin_47_64_2 = "Doğrudan deneyim yoluyla öğrenme ve içgörüler kazanma yeteneğine sahipsin. Bu pratik yaklaşım, karmaşık durumları derinlemesine ve pratik bir şekilde anlamanı sağlar. İş dünyasında bu güç, sahada problem çözme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nPaternleri ve Süreçleri Anlamak\nDeneyimleyip bu deneyimleri yansıtarak paternleri ve süreçleri etkili bir şekilde anlama yeteneğine sahipsin. Bu içgörü, bilinçli kararlar almanı ve geri bildirimlere dayalı sistemleri iyileştirmeni sağlar. Deneyimsel öğrenme yaklaşımın, çözümlerin gerçeklik ve pratiklikle temellendirilmesini sağlar.\n\nUyum Sağlama ve Dayanıklılık\nDeneyimsel öğrenme, uyum sağlama ve dayanıklılık geliştirir. Zorluklarla doğrudan etkileşimde bulunarak, değişen koşullara uyum sağlama ve yanıt verme esnekliğini geliştirirsin. Bu uyum sağlama yeteneği, koşulların hızla değişebileceği dinamik iş ortamlarında çok önemlidir.\n\nİçgörüleri Etkili Bir Şekilde Anlatmak\nİçgörülerini ve deneyimlerini başkalarına etkili bir şekilde aktarma yeteneğine sahipsin, karmaşık kavramları pratik örneklerle anlamalarına yardımcı olursun. Bu beceri, özellikle eğitim ve mentorluk rollerinde faydalıdır, çünkü pratik bilgi aktarmak, öğrenme ve gelişimi önemli ölçüde artırabilir.\n\nİş Dünyasında Gücünü Kullanmak\nDeneyimsel süreç gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Proje yönetiminde, deneyimlerden öğrenme ve uyum sağlama yeteneğin, projelerin tahmin edilemeyen koşullarda bile etkili bir şekilde yönetilmesini sağlar. Operasyonlarda, pratik yaklaşımın, verimliliği artırır ve sorun çözme yeteneklerini geliştirir. Ayrıca, eğitim ve gelişim gerektiren rollerde, deneyimsel içgörüler, öğrenme deneyimini önemli ölçüde artırabilir.\n\nDeneyimsel süreç gücün, iş dünyasında pratik anlayış, uyum sağlama ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, sürekli iyileştirmeyi sürükleyebilir, dayanıklılığı artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.  ";
 
 var guclu_yanlarin_27_50_1 = "“Koruyuculuk” Gücü (Quantum 27-50) ";
-var guclu_yanlarin_27_50_2 = "Kaynakları, ortamları ve toplulukları koruma ve sürdürme gücün var.\n\nBesleme ve Sürdürme Kaynakları, ister insanlar, projeler, ister fiziksel varlıklar olsun, doğal olarak besleyip sürdürme yeteneğine sahipsin. Bu rol gözetimin altındaki her şeyin gelişmesini ve değerini korumasını sağlar. İş dünyasında, bu güç uzun vadeli planlama ve bakım gerektiren rollerde çok değerlidir.\n\nSorumluluk ve Yöneticilik Sorumluluk ve yöneticilik anlayışın, kaynakları etkili bir şekilde koruma ve yönetme konusunda seni yönlendirir. Kaynakların akıllıca kullanılmasını ve gelecekteki kullanım için korunmasını sağlama konusunda kararlılık sergileyebilirsin. Bu da seni sürdürülebilirlik, çevre yönetimi ve kaynak tahsisi içeren rollere mükemmel bir aday yapar.\n\nTopluluk Oluşturma Güçlü ve destekleyici topluluklar oluşturma yeteneğine sahipsin. İnsanların değerli hissettiği ortamlar yaratarak, ekip uyumunu ve üretkenliğini artırabilirsin. Bu beceri, pozitif bir organizasyon kültürü oluşturmanın önemli olduğu liderlik rollerinde özellikle faydalıdır.\n\nDeğeri Koruma ve Artırma Koruyuculuk rolün, kaynakların değerinin korunmasını ve zamanla artırılmasını sağlar. Kaynakları iyileştirme ve optimize etme yollarını belirleme konusunda yeteneklisin ve bu, kaynakların uzun vadede fayda sağlamaya devam etmesini sağlar. Bu, varlık yönetimi ve optimizasyon gerektiren rollerde seni değerli bir varlık yapar.\n\nİş Dünyasında Gücünü Kullanmak Koruyuculuk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Büyük organizasyonlarda yönetici rollerine davet edilebilirsin. Tesis yönetiminde, fiziksel varlıkları koruma ve geliştirme yeteneğin, uzun vadeli operasyonel verimliliği sağlayabilir. İnsan kaynaklarında, besleyici yaklaşımın, çalışanların refahını ve bağlılığını artırabilir. Ayrıca, sürdürülebilirlik rollerinde, sorumlu yöneticilik anlayışın, çevresel etkiyi azaltma ve sürdürülebilirliği teşvik etme çabalarını yönlendirebilir.\n\nKoruyuculuk gücün, iş dünyasında sorumlu yönetim ve uzun vadeli sürdürülebilirlik sunan güçlü bir özelliktir. Bu gücü kullanarak kaynakların refahını ve uzun ömürlülüğünü sağlayabilir, güçlü topluluklar oluşturabilir ve organizasyonunu sürdürülebilir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
+var guclu_yanlarin_27_50_2 = "Kaynakları, ortamları ve toplulukları koruma ve sürdürme gücün var.\n\nBesleme ve Sürdürme\nKaynakları, ister insanlar, projeler, ister fiziksel varlıklar olsun, doğal olarak besleyip sürdürme yeteneğine sahipsin. Bu rol gözetimin altındaki her şeyin gelişmesini ve değerini korumasını sağlar. İş dünyasında, bu güç uzun vadeli planlama ve bakım gerektiren rollerde çok değerlidir.\n\nSorumluluk ve Yöneticilik\nSorumluluk ve yöneticilik anlayışın, kaynakları etkili bir şekilde koruma ve yönetme konusunda seni yönlendirir. Kaynakların akıllıca kullanılmasını ve gelecekteki kullanım için korunmasını sağlama konusunda kararlılık sergileyebilirsin. Bu da seni sürdürülebilirlik, çevre yönetimi ve kaynak tahsisi içeren rollere mükemmel bir aday yapar.\n\nTopluluk Oluşturma\nGüçlü ve destekleyici topluluklar oluşturma yeteneğine sahipsin. İnsanların değerli hissettiği ortamlar yaratarak, ekip uyumunu ve üretkenliğini artırabilirsin. Bu beceri, pozitif bir organizasyon kültürü oluşturmanın önemli olduğu liderlik rollerinde özellikle faydalıdır.\n\nDeğeri Koruma ve Artırma\nKoruyuculuk rolün, kaynakların değerinin korunmasını ve zamanla artırılmasını sağlar. Kaynakları iyileştirme ve optimize etme yollarını belirleme konusunda yeteneklisin ve bu, kaynakların uzun vadede fayda sağlamaya devam etmesini sağlar. Bu, varlık yönetimi ve optimizasyon gerektiren rollerde seni değerli bir varlık yapar.\n\nİş Dünyasında Gücünü Kullanmak\nKoruyuculuk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Büyük organizasyonlarda yönetici rollerine davet edilebilirsin. Tesis yönetiminde, fiziksel varlıkları koruma ve geliştirme yeteneğin, uzun vadeli operasyonel verimliliği sağlayabilir. İnsan kaynaklarında, besleyici yaklaşımın, çalışanların refahını ve bağlılığını artırabilir. Ayrıca, sürdürülebilirlik rollerinde, sorumlu yöneticilik anlayışın, çevresel etkiyi azaltma ve sürdürülebilirliği teşvik etme çabalarını yönlendirebilir.\n\nKoruyuculuk gücün, iş dünyasında sorumlu yönetim ve uzun vadeli sürdürülebilirlik sunan güçlü bir özelliktir. Bu gücü kullanarak kaynakların refahını ve uzun ömürlülüğünü sağlayabilir, güçlü topluluklar oluşturabilir ve organizasyonunu sürdürülebilir başarıya yönlendirebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
 
 var guclu_yanlarin_26_44_1 = "“Satış ve Pazarlama” Gücü (Quantum 26-44) ";
-var guclu_yanlarin_26_44_2 = "Hayati bilgileri net ve etkili bir şekilde aktarma yeteneğine sahipsin. Bu beceri, sürekli etkileşim ve bilgi alışverişi gerektiren satış, pazarlama ve müşteri ilişkileri gibi rollerde çok önemlidir. Mesajları doğru bir şekilde iletme yeteneğin, herkesin aynı fikirde olmasını sağlar ve yanlış anlamaların en aza indirilmesini sağlar.\n\nDuygusal Bağlantı Gücün, başkalarıyla duygusal olarak bağ kurmanı sağlar, bu da iletişimini daha etkili kılar. Duyguları etkili bir şekilde anlamak ve ifade etmek, güçlü ilişkiler kurmanı ve güven oluşturmanı sağlar. Bu, duygusal zekanın önemli olduğu liderlik ve ekip oluşturma rollerinde özellikle değerlidir.\n\nEnerji ve Motivasyon Çevrendekilere enerji ve motivasyon verme yeteneğine sahipsin. Coşkun ve tutkun, ekibini hedeflerine doğru yönlendirebilir. Başkalarını motive etme yeteneğin, liderlik ve ekip yönetimi gerektiren rollerde çok önemlidir.\n\nEtkileme ve İkna Etme İletişim becerilerin, başkalarını etkileme ve ikna etme gücünü sana verir. Yeni bir fikir sunarken, bir anlaşma müzakere ederken veya bir ekibi yönetirken, ikna kabiliyetin, olumlu sonuçlar elde etmene yardımcı olabilir. Bu, müzakere, satış ve liderlik içeren rollerde seni değerli bir varlık yapar.\n\nİş Dünyasında Gücünü Kullanmak Satış ve Pazarlama gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, etkili ve ikna edici iletişim yeteneğin, müşteri etkileşimini ve satış büyümesini artırabilir. Liderlik rollerinde, enerji ve motivasyon iletme kapasiten, ekibini ilham verip olumlu bir çalışma ortamı oluşturabilir. Ayrıca, müşteri ilişkilerinde, duygusal bağlantılar kurma becerin, müşteri memnuniyetini ve sadakatini artırabilir.\n\nSatış ve pazarlama gücün iş dünyasında etkili iletişim, duygusal zeka ve motivasyonel yetenek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, etkileşimi artırabilir, güçlü ilişkiler kurabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_26_44_2 = "Hayati bilgileri net ve etkili bir şekilde aktarma yeteneğine sahipsin. Bu beceri, sürekli etkileşim ve bilgi alışverişi gerektiren satış, pazarlama ve müşteri ilişkileri gibi rollerde çok önemlidir. Mesajları doğru bir şekilde iletme yeteneğin, herkesin aynı fikirde olmasını sağlar ve yanlış anlamaların en aza indirilmesini sağlar.\n\nDuygusal Bağlantı\nGücün, başkalarıyla duygusal olarak bağ kurmanı sağlar, bu da iletişimini daha etkili kılar. Duyguları etkili bir şekilde anlamak ve ifade etmek, güçlü ilişkiler kurmanı ve güven oluşturmanı sağlar. Bu, duygusal zekanın önemli olduğu liderlik ve ekip oluşturma rollerinde özellikle değerlidir.\n\nEnerji ve Motivasyon\nÇevrendekilere enerji ve motivasyon verme yeteneğine sahipsin. Coşkun ve tutkun, ekibini hedeflerine doğru yönlendirebilir. Başkalarını motive etme yeteneğin, liderlik ve ekip yönetimi gerektiren rollerde çok önemlidir.\n\nEtkileme ve İkna Etme\nİletişim becerilerin, başkalarını etkileme ve ikna etme gücünü sana verir. Yeni bir fikir sunarken, bir anlaşma müzakere ederken veya bir ekibi yönetirken, ikna kabiliyetin, olumlu sonuçlar elde etmene yardımcı olabilir. Bu, müzakere, satış ve liderlik içeren rollerde seni değerli bir varlık yapar.\n\nİş Dünyasında Gücünü Kullanmak\nSatış ve Pazarlama gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, etkili ve ikna edici iletişim yeteneğin, müşteri etkileşimini ve satış büyümesini artırabilir. Liderlik rollerinde, enerji ve motivasyon iletme kapasiten, ekibini ilham verip olumlu bir çalışma ortamı oluşturabilir. Ayrıca, müşteri ilişkilerinde, duygusal bağlantılar kurma becerin, müşteri memnuniyetini ve sadakatini artırabilir.\n\nSatış ve pazarlama gücün iş dünyasında etkili iletişim, duygusal zeka ve motivasyonel yetenek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, etkileşimi artırabilir, güçlü ilişkiler kurabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_54_32_1 = "“Tutku” Gücü (Quantum 32-54) ";
-var guclu_yanlarin_54_32_2 = "Hedeflerine ve arzularına ulaşmak için bitmeyen bir azime sahipsin. Bu kararlılık, engeller ve zorluklarla karşılaştığında seni ileriye taşır. İş dünyasında bu güç, girişimcilik, satış ve liderlik gibi azim, dayanıklılık ve güçlü bir iş etiği gerektiren rollerde çok değerlidir.\n\nHedef Odaklı Tutkun, hedefler belirleme ve bu hedeflere ulaşma konusunda güçlü bir odaklanma ile karakterizedir. Ne başarmak istediğin konusunda net bir vizyona sahipsin ve bunu gerçekleştirmek için gerekli çabayı göstermeye hazırsın. Bu hedef odaklı yaklaşım hedeflerine doğru ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar Kendine yüksek standartlar koyar ve yaptığın her şeyde mükemmellik için çaba gösterirsin. Bu kalite ve gelişim taahhüdü, becerilerini sürekli olarak geliştirmeni ve olağanüstü sonuçlar elde etmeni sağlar. Profesyonel ortamlarda, yüksek standartların başkalarını da mükemmellik için çaba göstermeye teşvik eder.\n\nBaşkalarını Motive Etme Hırslı doğan, çevrendekileri de motive edebilir ve ilham verebilir. Yoğun çalışma ve özveri örneği göstererek ekip üyelerini sınırlarını zorlamaya ve başarıya ulaşmaya teşvik edersin. Bu, liderlik rollerinde, tutku kültürü oluşturarak önemli organizasyonel başarılar elde etmeyi sağlayan bir yetenek olarak özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Tutku gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Girişimcilikte, bitmeyen azmin ve hedef odaklı yaklaşımın, fikirleri başarılı girişimlere dönüştürmene yardımcı olabilir. Satışta, ısrarcılığın ve yüksek standartların, olağanüstü performans ve müşteri memnuniyeti sağlayabilir. Ayrıca, liderlik rollerinde, ekibini motive etme ve ilham verme yeteneğin, genel organizasyonel başarıyı artırabilir.\n\nTutku gücün, iş dünyasında güçlü bir varlıktır ve kararlılık, yüksek standartlar ve motivasyon yeteneğinin benzersiz bir karışımını sağlar. Bu güçten yararlanarak hedeflerine ulaşabilir, çevrendekilere ilham verebilir ve organizasyonunu daha büyük başarılara yönlendirebilirsin.  ";
+var guclu_yanlarin_54_32_2 = "Hedeflerine ve arzularına ulaşmak için bitmeyen bir azime sahipsin. Bu kararlılık, engeller ve zorluklarla karşılaştığında seni ileriye taşır. İş dünyasında bu güç, girişimcilik, satış ve liderlik gibi azim, dayanıklılık ve güçlü bir iş etiği gerektiren rollerde çok değerlidir.\n\nHedef Odaklı\nTutkun, hedefler belirleme ve bu hedeflere ulaşma konusunda güçlü bir odaklanma ile karakterizedir. Ne başarmak istediğin konusunda net bir vizyona sahipsin ve bunu gerçekleştirmek için gerekli çabayı göstermeye hazırsın. Bu hedef odaklı yaklaşım hedeflerine doğru ilerlemeye devam etmeni sağlar.\n\nYüksek Standartlar\nKendine yüksek standartlar koyar ve yaptığın her şeyde mükemmellik için çaba gösterirsin. Bu kalite ve gelişim taahhüdü, becerilerini sürekli olarak geliştirmeni ve olağanüstü sonuçlar elde etmeni sağlar. Profesyonel ortamlarda, yüksek standartların başkalarını da mükemmellik için çaba göstermeye teşvik eder.\n\nBaşkalarını Motive Etme\nHırslı doğan, çevrendekileri de motive edebilir ve ilham verebilir. Yoğun çalışma ve özveri örneği göstererek ekip üyelerini sınırlarını zorlamaya ve başarıya ulaşmaya teşvik edersin. Bu, liderlik rollerinde, tutku kültürü oluşturarak önemli organizasyonel başarılar elde etmeyi sağlayan bir yetenek olarak özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak\nTutku gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Girişimcilikte, bitmeyen azmin ve hedef odaklı yaklaşımın, fikirleri başarılı girişimlere dönüştürmene yardımcı olabilir. Satışta, ısrarcılığın ve yüksek standartların, olağanüstü performans ve müşteri memnuniyeti sağlayabilir. Ayrıca, liderlik rollerinde, ekibini motive etme ve ilham verme yeteneğin, genel organizasyonel başarıyı artırabilir.\n\nTutku gücün, iş dünyasında güçlü bir varlıktır ve kararlılık, yüksek standartlar ve motivasyon yeteneğinin benzersiz bir karışımını sağlar. Bu güçten yararlanarak hedeflerine ulaşabilir, çevrendekilere ilham verebilir ve organizasyonunu daha büyük başarılara yönlendirebilirsin.  ";
 
 var guclu_yanlarin_49_19_1 = "“Kaynaklar” Gücü (Quantum 19-49)  ";
-var guclu_yanlarin_49_19_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi Kaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak Farklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama Kaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Kaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
+var guclu_yanlarin_49_19_2 = "Kaynakları verimli bir şekilde yönetme ve tahsis etme konusunda doğal bir yeteneğe sahipsin. Bu beceri, kaynakların optimal kullanıldığını ve organizasyon içindeki tüm ihtiyaçların karşılanmasını sağlar. İş dünyasında bu güç, kaynak planlaması, bütçeleme ve lojistik gerektiren rollerde çok değerlidir.\n\nEtkili Kaynak Yönetimi\nKaynak yönetimindeki gücün, operasyonların sorunsuz ve verimli bir şekilde yürütülmesini sağlar. Kaynakları etkili bir şekilde dağıtarak, israfı minimize eder ve üretkenliği maksimize edersin. Bu verimlilik odaklı yaklaşım, süreçleri hızlandırmanın ve genel performansı artırmanın amaçlandığı operasyonel rollerde çok önemlidir.\n\nİhtiyaçları Karşılamak\nFarklı paydaşların çeşitli ihtiyaçlarını dengeleme ve karşılama konusunda içgüdüsel bir anlayışa sahipsin. Bu yetenek, kaynak tahsisini organizasyonun hedeflerini desteklerken bireysel gereksinimleri karşılayacak şekilde önceliklendirmeni sağlar. Müşteri hizmetleri ve proje yönetiminde bu beceri, memnuniyeti sürdürmek ve başarılı sonuçlar elde etmek için esastır.\n\nUyum Sağlama\nKaynak yönetimindeki esnekliğin, değişen koşullara uyum sağlamanı sağlar. Yeni durumları hızla değerlendirebilir ve ortaya çıkan zorluklara yanıt olarak kaynakları yeniden tahsis edebilirsin. Bu uyum yeteneği, esneklik ve hızlı düşünmenin gerektiği dinamik ortamlarda özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak\nKaynaklar gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Operasyonlarda, kaynakları verimli bir şekilde yönetme yeteneğin, üretkenliği artırabilir ve maliyetleri azaltabilir. Finans alanında, bütçeleme ve kaynak tahsisi konusundaki becerilerin, fonların iş hedeflerini desteklemek için etkili bir şekilde kullanılmasını sağlar. Ayrıca, proje yönetiminde, kaynak ihtiyaçları ve öncelikleri anlama yeteneğin, projelerin başarılı bir şekilde tamamlanmasını sağlar.\n\nKaynaklar gücün iş dünyasında verimlilik, uyum sağlama ve etkili yönetim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, kaynakların optimal kullanıldığını, operasyonların sorunsuz yürüdüğünü ve organizasyonel hedeflerin karşılandığını sağlayabilirsin.";
 
 var guclu_yanlarin_37_40_1 = "“Topluluk” Gücü (Quantum 37-40)";
-var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\n\nGüçlü Ağlar Kurma Topluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\n\nDestekleyici Ortam Bireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\n\nSadakati Teşvik Etme Güçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak Topluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\n\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
+var guclu_yanlarin_37_40_2 = "Güçlü ve destekleyici ağlar kurma ve besleme konusunda doğal bir yeteneğe sahipsin. Bu beceri, ekip çalışması, işbirliği ve ilişki yönetimi gerektiren rollerde çok değerlidir. Bir topluluk duygusu oluşturarak, insanların değerli ve bağlantılı hissettikleri ortamlar yaratırsın.\n\nGüçlü Ağlar Kurma\nTopluluk oluşturma konusundaki gücün, ekip üyeleri arasında işbirliğini artırır. Aidiyet ve karşılıklı saygı duygusu yaratarak, etkili ekip çalışmasını kolaylaştırır ve üretkenliği artırırsın. Bu yetenek, ekip uyumunun başarı için gerekli olduğu liderlik ve proje yönetimi rollerinde çok önemlidir.\n\nDestekleyici Ortam\nBireylerin gelişebileceği destekleyici ortamlar yaratmada mükemmelsin. Başkalarının ihtiyaçlarını anlayarak ve karşılayarak, herkesin başarılı olmak için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlarsın. Bu besleyici yaklaşım, özellikle insan kaynakları ve mentorluk rollerinde çok değerlidir.\n\nSadakati Teşvik Etme\nGüçlü topluluklar oluşturma yeteneğin, ekip üyeleri ve paydaşlar arasında sadakat ve bağlılık geliştirir. Pozitif ve kapsayıcı bir kültür yaratarak, uzun vadeli katılımı ve bağlılığı teşvik edersin. Bu, yüksek düzeyde çalışan memnuniyeti ve bağlılığı sürdürmenin gerektiği rollerde çok önemlidir.\n\nİş Dünyasında Gücünü Kullanmak\nTopluluk gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Ekip yönetiminde, destekleyici ağlar oluşturma yeteneğin, işbirliğini ve üretkenliği artırabilir. İnsan kaynaklarında, destekleyici ortamlar yaratma odaklı yaklaşımın, çalışan refahını ve bağlılığını artırabilir. Ayrıca, müşteri ilişkilerinde, güçlü ilişkiler kurma becerin, müşteri sadakatini ve memnuniyetini artırabilir.\n\nTopluluk gücün, iş dünyasında ilişki kurma, işbirliği ve destek açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, bireylerin ve ekiplerin gelişebileceği ortamlar yaratabilir, üretkenliği artırabilir ve sadakati teşvik edebilirsin.";
 
 var guclu_yanlarin_34_57_1 = "“Kuvvet” Gücü (Quantum 34-57)";
-var guclu_yanlarin_34_57_2 = "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.\n\nOperasyonel Verimlilik, İşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.\n\nKriz Yönetimi, Yüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.\n\nProje Liderliği, Proje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.\n\nİş Dünyasında Gücünü Kullanmak, Hızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.\n\nKuvvet gücün, iş dünyasında güçlü bir özelliktir. Her ana tepki verebilme yeteneğin, başkalarını güven ve amaçla hareket etmeye ilham veren bir rol modeli olmanı sağlar. Sonuç olarak, etrafındaki insanları daha verimli, odaklı ve hedef odaklı olmaya motive edebilir, ekibinde veya organizasyonunda olumlu bir etki yaratabilirsin.";
+var guclu_yanlarin_34_57_2 = "Zorluklara hızla ve kararlılıkla yanıt verme konusunda doğal bir yeteneğe sahipsin, bu da yüksek baskı altındaki iş ortamlarında hayati bir beceri sağlar. Sezgilerin ve beden bilincin, ekipleri yönetmen ve projeleri ilerletmen için net ve hızlı kararlar almana yardımcı olur.\n\nOperasyonel Verimlilik\nİşlerin sorunsuz yürümesini sağlama konusunda doğal bir eğilimin var ve bu özellik operasyon yönetiminde değerli olabilir. Sorunları hızla tespit edip hemen harekete geçerek bunları çözebilir, böylece süreçlerin ve sistemlerin optimize edilmesini ve operasyonel gecikmelerin en aza indirilmesini sağlayabilirsin.\n\nKriz Yönetimi\nYüksek farkındalık seviyen, kriz durumlarında soğukkanlı kalmanı ve harekete geçmeni sağlayabilir. Bu özellik, risk yönetimi gibi, öngörülemeyen durumlara hızlı yanıtların gerekli olduğu roller için seni güçlü bir aday yapar.\n\nProje Liderliği\nProje yönetimi rollerinde projelerin verimli bir şekilde ilerlemesini sağlayabilirsin. Dikkat dağıtan unsurları ortadan kaldırabilir, zor kararlar alabilir ve ekibini hedefe odaklı tutabilirsin. Bu da bitirme tarihlerine uyulmasını ve sonuçların etkili bir şekilde teslim edilmesini sağlar.\n\nİş Dünyasında Gücünü Kullanmak\nHızlı hareket etme yeteneğin, hızlı ilerleyen sektörlerde veya hızlı ve net yanıtların hayati olduğu ortamlarda önemli bir varlık sağlar. Sezgisel netliğine ve hızlı hareket etme yeteneğine güvenerek, büyük projeleri tamamlayabilir, ekipleri başarıya yönlendirebilir ve organizasyonu rekabet karşısında çevik tutabilirsin.\n\nKuvvet gücün, iş dünyasında güçlü bir özelliktir. Her ana tepki verebilme yeteneğin, başkalarını güven ve amaçla hareket etmeye ilham veren bir rol modeli olmanı sağlar. Sonuç olarak, etrafındaki insanları daha verimli, odaklı ve hedef odaklı olmaya motive edebilir, ekibinde veya organizasyonunda olumlu bir etki yaratabilirsin.";
 
 var guclu_yanlarin_20_34_1 = "“Karizma” Gücü (Quantum 34-20)";
-var guclu_yanlarin_20_34_2 = "Manyetik varlığınla çevrendekileri etkileyip kendine çekme konusunda doğal bir yeteneğe sahipsin. Bu karizma, güçlü ilişkiler kurmayı ve fikirlerin için destek kazanmayı kolaylaştırır. İş dünyasında, bu güç, ikna, ağ kurma ve liderlik gerektiren rollerde çok değerlidir.\n\nEtkileme ve İkna Karizmatik doğan, başkalarını etkili bir şekilde etkileme ve ikna etme yeteneği sağlar. Bir şeyi yapmaya karar verdiğinde ve yaptığın şeyi sevdiğinde, çevrendekiler bundan etkilenir. Bir ekibi yönetirken, bir anlaşma müzakere ederken veya yeni bir fikir sunarken, insanlarla bağlantı kurma ve güvenlerini kazanma yeteneğin kritik önemdedir. Bu, satış, pazarlama ve üst düzey liderlik rolleri için seni değerli bir varlık yapar.\n\nGüçlü İlişkiler Kurma Karizma, müşteriler ve paydaşlarla güçlü, kalıcı ilişkiler kurmana yardımcı olur. Başkalarını değerli ve anlaşılmış hissettirerek, işbirliğini ve sadakati teşvik eden pozitif ve kapsayıcı bir ortam yaratırsın. Bu ilişki kurma becerisi, müşteri ilişkileri ve ekip yönetiminde esastır.\n\nBaşkalarına İlham Verme Karizman, çevrendekilere ilham verip motive edebilir. Pozitif bir örnek oluşturarak ve coşku ve güven sergileyerek, başkalarını mükemmellik için çaba göstermeye ve hedeflerine ulaşmaya teşvik edersin. Bu ilham verici yetenek, bir ekibi motive etmenin başarı için anahtar olduğu liderlik rollerinde özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Karizma gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, ikna yeteneklerin, müşteri etkileşimini ve satış büyümesini artırabilir. Liderlik rollerinde, ilham verme ve motive etme yeteneğin, ekip performansını ve moralini yükseltebilir. Ayrıca, ağ kurma ve iş geliştirmede, manyetik varlığın kapıları açabilir ve yeni fırsatlar yaratabilir.\n\nKarizma gücün, iş dünyasında etkileme, ilişki kurma ve ilham verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü ağlar kurabilir, etkileşimi artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_20_34_2 = "Manyetik varlığınla çevrendekileri etkileyip kendine çekme konusunda doğal bir yeteneğe sahipsin. Bu karizma, güçlü ilişkiler kurmayı ve fikirlerin için destek kazanmayı kolaylaştırır. İş dünyasında, bu güç, ikna, ağ kurma ve liderlik gerektiren rollerde çok değerlidir.\n\nEtkileme ve İkna\nKarizmatik doğan, başkalarını etkili bir şekilde etkileme ve ikna etme yeteneği sağlar. Bir şeyi yapmaya karar verdiğinde ve yaptığın şeyi sevdiğinde, çevrendekiler bundan etkilenir. Bir ekibi yönetirken, bir anlaşma müzakere ederken veya yeni bir fikir sunarken, insanlarla bağlantı kurma ve güvenlerini kazanma yeteneğin kritik önemdedir. Bu, satış, pazarlama ve üst düzey liderlik rolleri için seni değerli bir varlık yapar.\n\nGüçlü İlişkiler Kurma\nKarizma, müşteriler ve paydaşlarla güçlü, kalıcı ilişkiler kurmana yardımcı olur. Başkalarını değerli ve anlaşılmış hissettirerek, işbirliğini ve sadakati teşvik eden pozitif ve kapsayıcı bir ortam yaratırsın. Bu ilişki kurma becerisi, müşteri ilişkileri ve ekip yönetiminde esastır.\n\nBaşkalarına İlham Verme\nKarizman, çevrendekilere ilham verip motive edebilir. Pozitif bir örnek oluşturarak ve coşku ve güven sergileyerek, başkalarını mükemmellik için çaba göstermeye ve hedeflerine ulaşmaya teşvik edersin. Bu ilham verici yetenek, bir ekibi motive etmenin başarı için anahtar olduğu liderlik rollerinde özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak\nKarizma gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, ikna yeteneklerin, müşteri etkileşimini ve satış büyümesini artırabilir. Liderlik rollerinde, ilham verme ve motive etme yeteneğin, ekip performansını ve moralini yükseltebilir. Ayrıca, ağ kurma ve iş geliştirmede, manyetik varlığın kapıları açabilir ve yeni fırsatlar yaratabilir.\n\nKarizma gücün, iş dünyasında etkileme, ilişki kurma ve ilham verme açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, güçlü ağlar kurabilir, etkileşimi artırabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_51_25_1 = "“Rekabet” Gücü (Quantum 51-25)";
-var guclu_yanlarin_51_25_2 = "Başkalarını geride bırakma ve mükemmelliğe ulaşma konusunda güçlü bir dürtüye sahipsin. Bu rekabet ruhu, sürekli olarak daha iyi performans ve daha yüksek standartlar için çaba göstermeni sağlar. İş dünyasında bu güç, yüksek başarı ve sonuç odaklılık gerektiren satış, pazarlama ve üst düzey liderlik gibi rollerde çok değerlidir.\n\nMükemmellik Peşinde Koşma Rekabetçiliğin, durmaksızın mükemmellik peşinde koşmanı sağlar. Hırslı hedefler belirlersin ve bunları gerçekleştirmeye kararlısındır. Genellikle geleneksel sınırların ötesine geçersin. Bu dürtü, senin ve ekibinin her zaman en üst düzey performansa ve sürekli iyileşmeye odaklanmasını sağlar.\n\nDayanıklılık ve Kararlılık Rekabetçilik, dayanıklılık ve kararlılık gerektirir. Zorlayıcı ortamlarda gelişir ve aksiliklerle kolayca yılmazsın. Bu dayanıklılık, yüksek risk ve sürekli baskı içeren rollerde kritik önemdedir ve zor durumlarda bile odaklanmanı ve gayretini korumana olanak tanır.\n\nBaşkalarına İlham Verme Rekabetçi doğan, çevrendekilere ilham verip motive edebilir. Yüksek standartlar belirleyerek ve mükemmelliğe bağlılığını göstererek, meslektaşlarını ve ekip üyelerini performanslarını yükseltmeye teşvik edersin. Bu, yüksek performans kültürünü teşvik etmenin anahtar olduğu liderlik rollerinde özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak Rekabet gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, mükemmelliğe ulaşma dürtün, olağanüstü performans ve pazar başarısı sağlayabilir. Liderlik rollerinde, mükemmellik peşinde koşman, organizasyonun genel başarısını sürükleyebilir. Ayrıca, proje yönetiminde, dayanıklılık ve kararlılık, projelerin zorluklara rağmen başarılı bir şekilde tamamlanmasını sağlar.\n\nRekabet gücün, iş dünyasında dürtü, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, yüksek performans seviyelerine ulaşabilir, ekibine ilham verebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_51_25_2 = "Başkalarını geride bırakma ve mükemmelliğe ulaşma konusunda güçlü bir dürtüye sahipsin. Bu rekabet ruhu, sürekli olarak daha iyi performans ve daha yüksek standartlar için çaba göstermeni sağlar. İş dünyasında bu güç, yüksek başarı ve sonuç odaklılık gerektiren satış, pazarlama ve üst düzey liderlik gibi rollerde çok değerlidir.\n\nMükemmellik Peşinde Koşma\nRekabetçiliğin, durmaksızın mükemmellik peşinde koşmanı sağlar. Hırslı hedefler belirlersin ve bunları gerçekleştirmeye kararlısındır. Genellikle geleneksel sınırların ötesine geçersin. Bu dürtü, senin ve ekibinin her zaman en üst düzey performansa ve sürekli iyileşmeye odaklanmasını sağlar.\n\nDayanıklılık ve Kararlılık\nRekabetçilik, dayanıklılık ve kararlılık gerektirir. Zorlayıcı ortamlarda gelişir ve aksiliklerle kolayca yılmazsın. Bu dayanıklılık, yüksek risk ve sürekli baskı içeren rollerde kritik önemdedir ve zor durumlarda bile odaklanmanı ve gayretini korumana olanak tanır.\n\nBaşkalarına İlham Verme\nRekabetçi doğan, çevrendekilere ilham verip motive edebilir. Yüksek standartlar belirleyerek ve mükemmelliğe bağlılığını göstererek, meslektaşlarını ve ekip üyelerini performanslarını yükseltmeye teşvik edersin. Bu, yüksek performans kültürünü teşvik etmenin anahtar olduğu liderlik rollerinde özellikle değerlidir.\n\nİş Dünyasında Gücünü Kullanmak\nRekabet gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Satış ve pazarlamada, mükemmelliğe ulaşma dürtün, olağanüstü performans ve pazar başarısı sağlayabilir. Liderlik rollerinde, mükemmellik peşinde koşman, organizasyonun genel başarısını sürükleyebilir. Ayrıca, proje yönetiminde, dayanıklılık ve kararlılık, projelerin zorluklara rağmen başarılı bir şekilde tamamlanmasını sağlar.\n\nRekabet gücün, iş dünyasında dürtü, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, yüksek performans seviyelerine ulaşabilir, ekibine ilham verebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_8_1_1 = "“İlham” Gücü (Quantum 1-8)";
-var guclu_yanlarin_8_1_2 = "Farklı bir perspektifi yaratıcı bir şekilde ifade etme konusunda benzersiz bir yeteneğe sahipsin. Bu, varlığınla veya başkalarının deneyimleyip takdir edebileceği çeşitli araçlarla kendini gösterebilir. İş dünyasında bu nitelik, yenilikçilik, satış, pazarlama ve yaratıcı liderlik gerektiren roller için çok değerlidir.\n\nYaratıcı Öz-İfadeyi Modellemek Kendini ifade eden, yaratıcı bir birey olmanın ne anlama geldiğini modellemek üzere tasarladın. Bu güç, başkalarının dikkatini ve hayranlığını doğal olarak çeker, seni yaratıcı bir rol model yapar. Bu mentorluk, takım liderliği ve yaratıcı yönlendirme içeren rollerde kritik önemdedir.\n\nÖne Çıkma Cesareti Kalabalıktan sıyrılmak cesaret ister ve bunu yapma yeteneğin, başkalarını da aynı derecede cesur olmaya teşvik eder. Farklı olma ve risk alma isteğin, yenilikçiliği teşvik edebilir ve organizasyonun içinde bir yaratıcılık kültürü geliştirebilir. Bu cesaret, özellikle girişimcilik, ürün geliştirme ve stratejik planlama alanlarında değerlidir.\n\nAlgıları Değiştirme Otantik ve yaratıcı bir şekilde yaşayarak, algıları değiştirme ve başkalarını kendi benzersizliklerini ifade etmeleri için özgürleştirme potansiyeline sahipsin. Etkin daha kapsayıcı ve dinamik bir işyeri yaratabilir ve burada çeşitli fikirler değerli görülür ve keşfedilir. Bu yetenek, çeşitlilik ve kapsayıcılık girişimleri, satış, halkla ilişkiler ve organizasyonel gelişim içeren rollerde çok önemlidir.\n\nİlham gücün, iş dünyasında yaratıcı ifade, cesaret ve etki açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, yenilikçiliği teşvik edebilir, ekibine ilham verebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_8_1_2 = "Farklı bir perspektifi yaratıcı bir şekilde ifade etme konusunda benzersiz bir yeteneğe sahipsin. Bu, varlığınla veya başkalarının deneyimleyip takdir edebileceği çeşitli araçlarla kendini gösterebilir. İş dünyasında bu nitelik, yenilikçilik, satış, pazarlama ve yaratıcı liderlik gerektiren roller için çok değerlidir.\n\nYaratıcı Öz-İfadeyi Modellemek\nKendini ifade eden, yaratıcı bir birey olmanın ne anlama geldiğini modellemek üzere tasarladın. Bu güç, başkalarının dikkatini ve hayranlığını doğal olarak çeker, seni yaratıcı bir rol model yapar. Bu mentorluk, takım liderliği ve yaratıcı yönlendirme içeren rollerde kritik önemdedir.\n\nÖne Çıkma Cesareti\nKalabalıktan sıyrılmak cesaret ister ve bunu yapma yeteneğin, başkalarını da aynı derecede cesur olmaya teşvik eder. Farklı olma ve risk alma isteğin, yenilikçiliği teşvik edebilir ve organizasyonun içinde bir yaratıcılık kültürü geliştirebilir. Bu cesaret, özellikle girişimcilik, ürün geliştirme ve stratejik planlama alanlarında değerlidir.\n\nAlgıları Değiştirme\nOtantik ve yaratıcı bir şekilde yaşayarak, algıları değiştirme ve başkalarını kendi benzersizliklerini ifade etmeleri için özgürleştirme potansiyeline sahipsin. Etkin daha kapsayıcı ve dinamik bir işyeri yaratabilir ve burada çeşitli fikirler değerli görülür ve keşfedilir. Bu yetenek, çeşitlilik ve kapsayıcılık girişimleri, satış, halkla ilişkiler ve organizasyonel gelişim içeren rollerde çok önemlidir.\n\nİlham gücün, iş dünyasında yaratıcı ifade, cesaret ve etki açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, yenilikçiliği teşvik edebilir, ekibine ilham verebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_28_38_1 = "“Azim” Gücü (Quantum 38-28)";
-var guclu_yanlarin_28_38_2 = "Engelleri aşmanı ve hedeflerine odaklanmanı sağlayan sarsılmaz bir kararlılığa sahipsin. Bu azim, proje yönetimi, satış ve girişimcilik gibi dayanıklılık ve ısrar gerektiren rollerde çok değerlidir.\n\nZorlukların Üstesinden Gelme Azimli doğan, önemli zorluklarla yüzleşmeni ve bunların üstesinden gelmeni sağlar. Geri çekilmelerden kolayca yılmazsın ve bunları öğrenme ve büyüme fırsatları olarak görürsün. Bu güç yüksek riskli ortamlarda, zorlukların üstesinden gelmenin başarı için anahtar olduğu durumlarda kritiktir.\n\nTutarlı Çaba Azmin hedeflerine yönelik tutarlı çaba göstermeni sağlar. İşine bağlısın ve hedeflerine ulaşmak için ekstra çaba göstermeye hazırsın. Bu düzeydeki adanmışlık, uzun vadeli bağlılık ve sürekli çaba gerektiren araştırma ve geliştirme, stratejik planlama ve operasyon yönetimi gibi rollerinde esastır.\n\nBaşkalarına İlham Verme Azim ve kararlılığın, çevrendekilere ilham verip motive edebilir. Sarsılmaz bağlılık ve sıkı çalışmanın bir örneğini göstererek, ekip üyelerini benzer bir zihniyet benimsemeye teşvik edersin. Bu ilham verici yetenek, liderlik ve mentorluk rollerinde özellikle değerlidir.\n\nAzim gücün, iş dünyasında kararlılık, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, zorlukların üstesinden gelebilir, hedeflerine ulaşabilir ve ekibini de aynısını yapmaya teşvik edebilirsin.";
+var guclu_yanlarin_28_38_2 = "Engelleri aşmanı ve hedeflerine odaklanmanı sağlayan sarsılmaz bir kararlılığa sahipsin. Bu azim, proje yönetimi, satış ve girişimcilik gibi dayanıklılık ve ısrar gerektiren rollerde çok değerlidir.\n\nZorlukların Üstesinden Gelme\nAzimli doğan, önemli zorluklarla yüzleşmeni ve bunların üstesinden gelmeni sağlar. Geri çekilmelerden kolayca yılmazsın ve bunları öğrenme ve büyüme fırsatları olarak görürsün. Bu güç yüksek riskli ortamlarda, zorlukların üstesinden gelmenin başarı için anahtar olduğu durumlarda kritiktir.\n\nTutarlı Çaba\nAzmin hedeflerine yönelik tutarlı çaba göstermeni sağlar. İşine bağlısın ve hedeflerine ulaşmak için ekstra çaba göstermeye hazırsın. Bu düzeydeki adanmışlık, uzun vadeli bağlılık ve sürekli çaba gerektiren araştırma ve geliştirme, stratejik planlama ve operasyon yönetimi gibi rollerinde esastır.\n\nBaşkalarına İlham Verme\nAzim ve kararlılığın, çevrendekilere ilham verip motive edebilir. Sarsılmaz bağlılık ve sıkı çalışmanın bir örneğini göstererek, ekip üyelerini benzer bir zihniyet benimsemeye teşvik edersin. Bu ilham verici yetenek, liderlik ve mentorluk rollerinde özellikle değerlidir.\n\nAzim gücün, iş dünyasında kararlılık, dayanıklılık ve ilham açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, zorlukların üstesinden gelebilir, hedeflerine ulaşabilir ve ekibini de aynısını yapmaya teşvik edebilirsin.";
 
 var guclu_yanlarin_31_7_1 = "“Liderlik” Gücü (Quantum 7-31)";
-var guclu_yanlarin_31_7_2 = "Çevrendekilere net ve vizyoner rehberlik sağlama yeteneğine sahipsin. Bu güç, çekici bir yön belirlemeni ve başkalarına bu yönde ilham vermeni sağlar. Bu, iş dünyasında nitelik, stratejik planlama ve liderlik gerektiren roller için çok değerlidir.\n\nGüven Kazanmak Etkili bir lider olabilmek için önce liderlik ettiğin kişilerin güvenini kazanmalısın. Liderlik gücün, dürüstlük, güvenilirlik ve ekibinin refahına gerçek bir ilgi göstererek güven inşa etme yeteneğinle karakterizedir. Bu güven, güçlü ve uyumlu ekipler için temel oluşturur.\n\nOtorite ile Etkilemek Sesin, etki ve otorite niteliği taşır, ve lider olmak için davet edilmen veya seçilmen gerekir. Bu, liderliğinin dayatılmadığı, aksine memnuniyetle karşılandığı anlamına gelir, bu da etkini daha sürdürülebilir kılar. Bu, yön, müzakere, ekip liderliği ve üst düzey yönetim içeren rollerde kritik önemdedir.\n\nPerde Arkası Liderliği Perde arkasından liderlik yapma yeteneğine sahipsin, her zaman ön planda olmasan bile karar vericileri yönlendirir ve stratejileri şekillendirirsin. Bu liderlik biçimi, önemli değişiklikler ve ilerlemeler sağlarken başkalarının harekete geçmesini ve tanınmasını sağlar.\n\nYön Vermek Buradaki rolün, her şeyi kendin yapmak değil, yolu göstermek ve başkalarına harekete geçmeleri ve karar vermeleri için güç vermektir. Bu yaklaşım, etkini maksimize eder ve ekip üyeleri arasında sahiplenme ve sorumluluk duygusunu geliştirir.\n\nİş Dünyasında Gücünü Kullanmak Liderlik gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yönetim rollerinde, vizyoner rehberliğin, organizasyonu uzun vadeli başarıya yönlendirebilir. Proje yönetiminde, güven kazanma ve net yön verme yeteneğin, projelerin stratejik hedeflerle uyumlu olmasını ve etkili bir şekilde uygulanmasını sağlar. Ayrıca, danışmanlık rollerinde, perde arkası liderliğin stratejik kararları yönlendirebilir ve sürekli iyileştirme kültürünü teşvik edebilir.\n\nLiderlik gücün, iş dünyasında vizyoner rehberlik, güven inşa etme ve etkili otorite açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, organizasyonunu güvenli bir şekilde geleceğe yönlendirebilir, ekibine ilham verebilir ve sürdürülebilir başarıyı sağlayabilirsin.";
+var guclu_yanlarin_31_7_2 = "Çevrendekilere net ve vizyoner rehberlik sağlama yeteneğine sahipsin. Bu güç, çekici bir yön belirlemeni ve başkalarına bu yönde ilham vermeni sağlar. Bu, iş dünyasında nitelik, stratejik planlama ve liderlik gerektiren roller için çok değerlidir.\n\nGüven Kazanmak\nEtkili bir lider olabilmek için önce liderlik ettiğin kişilerin güvenini kazanmalısın. Liderlik gücün, dürüstlük, güvenilirlik ve ekibinin refahına gerçek bir ilgi göstererek güven inşa etme yeteneğinle karakterizedir. Bu güven, güçlü ve uyumlu ekipler için temel oluşturur.\n\nOtorite ile Etkilemek\nSesin, etki ve otorite niteliği taşır, ve lider olmak için davet edilmen veya seçilmen gerekir. Bu, liderliğinin dayatılmadığı, aksine memnuniyetle karşılandığı anlamına gelir, bu da etkini daha sürdürülebilir kılar. Bu, yön, müzakere, ekip liderliği ve üst düzey yönetim içeren rollerde kritik önemdedir.\n\nPerde Arkası Liderliği\nPerde arkasından liderlik yapma yeteneğine sahipsin, her zaman ön planda olmasan bile karar vericileri yönlendirir ve stratejileri şekillendirirsin. Bu liderlik biçimi, önemli değişiklikler ve ilerlemeler sağlarken başkalarının harekete geçmesini ve tanınmasını sağlar.\n\nYön Vermek\nBuradaki rolün, her şeyi kendin yapmak değil, yolu göstermek ve başkalarına harekete geçmeleri ve karar vermeleri için güç vermektir. Bu yaklaşım, etkini maksimize eder ve ekip üyeleri arasında sahiplenme ve sorumluluk duygusunu geliştirir.\n\nİş Dünyasında Gücünü Kullanmak\nLiderlik gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yönetim rollerinde, vizyoner rehberliğin, organizasyonu uzun vadeli başarıya yönlendirebilir. Proje yönetiminde, güven kazanma ve net yön verme yeteneğin, projelerin stratejik hedeflerle uyumlu olmasını ve etkili bir şekilde uygulanmasını sağlar. Ayrıca, danışmanlık rollerinde, perde arkası liderliğin stratejik kararları yönlendirebilir ve sürekli iyileştirme kültürünü teşvik edebilir.\n\nLiderlik gücün, iş dünyasında vizyoner rehberlik, güven inşa etme ve etkili otorite açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, organizasyonunu güvenli bir şekilde geleceğe yönlendirebilir, ekibine ilham verebilir ve sürdürülebilir başarıyı sağlayabilirsin.";
 
 var guclu_yanlarin_57_20_1 = "“Spontanlık” Gücü (Quantum 57-20)";
-var guclu_yanlarin_57_20_2 = "Durumları hızla anlama ve yanıt verme konusunda gelişmiş bir sezgisel farkındalığa sahipsin. Bu güç, içsel sansür olmadan hızlı düşünme ve konuşma yeteneği sağlar. İş dünyasında, bu nitelik kriz yönetimi, müşteri hizmetleri ve müzakereler gibi hızlı karar verme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nÖzün Hızla Anlaşılması Spontan sözlerin ve içgüdülerin, durumu hızla anlamanı sağlar, uzun süre düşünmene gerek kalmadan. Karmaşıklıkları aşma ve anahtar sorunları belirleme yeteneği, zamanın önemli olduğu yüksek baskılı ortamlarda çok önemlidir. Bu özellik, problem çözme, stratejik planlama ve liderlik içeren rollerde özellikle değerlidir.\n\nYanlış Anlamaları Azaltma Başkalarının alıcılığına olan farkındalığın, sezgisel içgörülerini gerçek bilgi olarak paylaşmanı sağlar, bu da yanlış anlamaları ve direnci azaltır. Bu yetenek, ekip işbirliği, müşteri ilişkileri ve çatışma çözümü gibi alanlarda net ve etkili iletişimi teşvik eder.\n\nBilinmeyen Korkusunu Yenmek Spontanlık, bilinmeyenin korkusunu yenmek, sezgisel dürtülerini tamamen dinlemek, harekete geçmek ve güvenmek anlamına gelir. Bu gücü kucaklayarak, belirsizlikle güvenle başa çıkabilir ve başkalarına da aynı şeyi yapmaları için ilham verebilirsin. Bu, esneklik ve yaratıcılığın önemli olduğu yenilikçi ve dinamik alanlarda özellikle önemlidir.\n\nKendiliğindenlik gücün, iş dünyasında sezgisel farkındalık, hızlı düşünme ve etkili iletişimin benzersiz bir karışımını sunan güçlü bir özelliktir. Bu gücü kullanarak, hızlı kararlar verebilir, temel sorunları ele alabilir ve ekibin içinde net iletişimi teşvik edebilirsin.   ";
+var guclu_yanlarin_57_20_2 = "Durumları hızla anlama ve yanıt verme konusunda gelişmiş bir sezgisel farkındalığa sahipsin. Bu güç, içsel sansür olmadan hızlı düşünme ve konuşma yeteneği sağlar. İş dünyasında, bu nitelik kriz yönetimi, müşteri hizmetleri ve müzakereler gibi hızlı karar verme ve uyum sağlama gerektiren rollerde çok değerlidir.\n\nÖzün Hızla Anlaşılması\nSpontan sözlerin ve içgüdülerin, durumu hızla anlamanı sağlar, uzun süre düşünmene gerek kalmadan. Karmaşıklıkları aşma ve anahtar sorunları belirleme yeteneği, zamanın önemli olduğu yüksek baskılı ortamlarda çok önemlidir. Bu özellik, problem çözme, stratejik planlama ve liderlik içeren rollerde özellikle değerlidir.\n\nYanlış Anlamaları Azaltma\nBaşkalarının alıcılığına olan farkındalığın, sezgisel içgörülerini gerçek bilgi olarak paylaşmanı sağlar, bu da yanlış anlamaları ve direnci azaltır. Bu yetenek, ekip işbirliği, müşteri ilişkileri ve çatışma çözümü gibi alanlarda net ve etkili iletişimi teşvik eder.\n\nBilinmeyen Korkusunu Yenmek\nSpontanlık, bilinmeyenin korkusunu yenmek, sezgisel dürtülerini tamamen dinlemek, harekete geçmek ve güvenmek anlamına gelir. Bu gücü kucaklayarak, belirsizlikle güvenle başa çıkabilir ve başkalarına da aynı şeyi yapmaları için ilham verebilirsin. Bu, esneklik ve yaratıcılığın önemli olduğu yenilikçi ve dinamik alanlarda özellikle önemlidir.\n\nKendiliğindenlik gücün, iş dünyasında sezgisel farkındalık, hızlı düşünme ve etkili iletişimin benzersiz bir karışımını sunan güçlü bir özelliktir. Bu gücü kullanarak, hızlı kararlar verebilir, temel sorunları ele alabilir ve ekibin içinde net iletişimi teşvik edebilirsin.   ";
 
 var guclu_yanlarin_39_55_1 = "“Kışkırtma” Gücü (Quantum 39-55)";
-var guclu_yanlarin_39_55_2 = "Başkalarını kışkırtma ve ilham verme yeteneğine sahipsin, onların ruhunu güçlendirebilir ve tam potansiyellerine ulaşmaları için motive edebilirsin. Bu güç, ilham vermenin ve başkalarını zorlamanın anahtar olduğu liderlik ve mentorluk rollerinde çok değerlidir.\n\nDerin Yaratıcılığa Erişim Tutkudan melankoliye, mutluluktan üzüntüye kadar uzanan duygusal dalgaların, en derin yaratıcılık seviyelerine erişmeni sağlar. Ruh halini kucaklamak, bu yaratıcı enerjileri etkili bir şekilde kullanmanı sağlar. Bu, duygusal derinliğin çığır açan çalışmalara yol açabileceği sanat, tasarım ve yenilik gibi yaratıcı alanlarda özellikle değerlidir.\n\nÇevrendekileri Etkileme Ruh halini ve o anda hissettiklerini kucaklamayı öğrendiğinde, çevrendekileri etkileme ve değiştirme gücünü de kazanırsın. Tutkun, başkalarının gerçek doğasını ve ruhunu kışkırtabilir veya ortaya çıkarabilir. Bu yetenek, dinamik ve ilham verici bir ekip ruhu geliştirmenin kritik olduğu takım ortamlarında çok önemlidir.\n\nBaşkalarıyla Uyum Ruh hali ve modu seninkiyle uyumlu olan insanları sezgisel olarak hissedebilirsin. Bu farkındalık, güçlü, uyumlu ilişkiler kurmana yardımcı olur ve işbirlikçi projeler ve ortaklıklarda esastır. Seni tamamlayan ve güçlü yönlerini geliştiren bireylerle çevrili olmanı sağlar.\n\nKışkırtma gücün, iş dünyasında güçlendirme, yaratıcılık ve sezgisel farkındalık açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir ve onları zorlayabilir, yaratıcılığı teşvik edebilir ve güçlü, uyumlu ilişkiler kurabilirsin.   ";
+var guclu_yanlarin_39_55_2 = "Başkalarını kışkırtma ve ilham verme yeteneğine sahipsin, onların ruhunu güçlendirebilir ve tam potansiyellerine ulaşmaları için motive edebilirsin. Bu güç, ilham vermenin ve başkalarını zorlamanın anahtar olduğu liderlik ve mentorluk rollerinde çok değerlidir.\n\nDerin Yaratıcılığa Erişim\nTutkudan melankoliye, mutluluktan üzüntüye kadar uzanan duygusal dalgaların, en derin yaratıcılık seviyelerine erişmeni sağlar. Ruh halini kucaklamak, bu yaratıcı enerjileri etkili bir şekilde kullanmanı sağlar. Bu, duygusal derinliğin çığır açan çalışmalara yol açabileceği sanat, tasarım ve yenilik gibi yaratıcı alanlarda özellikle değerlidir.\n\nÇevrendekileri Etkileme\nRuh halini ve o anda hissettiklerini kucaklamayı öğrendiğinde, çevrendekileri etkileme ve değiştirme gücünü de kazanırsın. Tutkun, başkalarının gerçek doğasını ve ruhunu kışkırtabilir veya ortaya çıkarabilir. Bu yetenek, dinamik ve ilham verici bir ekip ruhu geliştirmenin kritik olduğu takım ortamlarında çok önemlidir.\n\nBaşkalarıyla Uyum\nRuh hali ve modu seninkiyle uyumlu olan insanları sezgisel olarak hissedebilirsin. Bu farkındalık, güçlü, uyumlu ilişkiler kurmana yardımcı olur ve işbirlikçi projeler ve ortaklıklarda esastır. Seni tamamlayan ve güçlü yönlerini geliştiren bireylerle çevrili olmanı sağlar.\n\nKışkırtma gücün, iş dünyasında güçlendirme, yaratıcılık ve sezgisel farkındalık açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir ve onları zorlayabilir, yaratıcılığı teşvik edebilir ve güçlü, uyumlu ilişkiler kurabilirsin.   ";
 
 var guclu_yanlarin_2_14_1 = "“Yönlendirme” Gücü (Quantum 14-2)";
-var guclu_yanlarin_2_14_2 = "Sadece içgüdülerini dinleyip güvenerek çevrendekilere, projelere ve daha geniş girişimlere yenilikçi ve güçlendirici yeni yönler getirme konusunda benzersiz bir yeteneğe sahipsin. Bu güç, stratejik vizyon ve başkalarına ilham verme yeteneği gerektiren üst düzey liderlik, proje yönetimi ve danışmanlık rolleri için çok değerlidir.\n\nYaratıcı Çabaları Sürdürme Kendi yaratıcı çabalarını sürdürebilir veya çevrendekileri kendi yaratıcı yönlerinde kaynaklar ile destekleyip teşvik edebilirsin. Bu yetenek, hem projelerin hem de desteklediğin kişilerin gelişmesini sağlar. Bu girişimcilik, araştırma ve geliştirme ve yaratıcı endüstriler gibi alanlarda özellikle değerlidir.\n\nRol model Olarak Liderlik Rol modellik yoluyla çevrendekileri güçlendirme gücünün özünde yatar. İlk önceliğin kendi yönünde ilerlerken kendine sadık olmaktır. Bu ilkeleri benimseyerek, doğal olarak başkalarına ilham verir ve liderlik edersin. Bu güç, mentorluk, koçluk ve başkalarını yönlendirmenin anahtar olduğu herhangi bir rolde çok önemlidir.\n\nBaşkalarını Mekanik Olarak Güçlendirme Sadece çevrelerinde bulunarak insanlara bir yön duygusu verebilir onları tamamen mekanik bir şekilde güçlendirebilirsin. Varlığın ve kendi yoluna olan güvenin, çevrendekiler üzerinde istikrar sağlayıcı ve motive edici bir etki yaratır. Bu, takım ortamlarında, liderlik rollerinde ve topluluk oluşturma alanlarında özellikle etkili olabilir.\n\nYönlendirme gücün, iş dünyasında stratejik vizyon, yaratıcı destek ve ilham verici liderliğin benzersiz bir karışımını sunan güçlü bir özelliktir. Bu gücü kullanarak, yenilikçi projeleri yönlendirebilir, yaratıcı çabaları destekleyebilir ve örnek olarak liderlik edebilir, sonuçta çevrendekileri güçlendirebilirsin. ";
+var guclu_yanlarin_2_14_2 = "Sadece içgüdülerini dinleyip güvenerek çevrendekilere, projelere ve daha geniş girişimlere yenilikçi ve güçlendirici yeni yönler getirme konusunda benzersiz bir yeteneğe sahipsin. Bu güç, stratejik vizyon ve başkalarına ilham verme yeteneği gerektiren üst düzey liderlik, proje yönetimi ve danışmanlık rolleri için çok değerlidir.\n\nYaratıcı Çabaları Sürdürme\nKendi yaratıcı çabalarını sürdürebilir veya çevrendekileri kendi yaratıcı yönlerinde kaynaklar ile destekleyip teşvik edebilirsin. Bu yetenek, hem projelerin hem de desteklediğin kişilerin gelişmesini sağlar. Bu girişimcilik, araştırma ve geliştirme ve yaratıcı endüstriler gibi alanlarda özellikle değerlidir.\n\nRol model Olarak Liderlik\nRol modellik yoluyla çevrendekileri güçlendirme gücünün özünde yatar. İlk önceliğin kendi yönünde ilerlerken kendine sadık olmaktır. Bu ilkeleri benimseyerek, doğal olarak başkalarına ilham verir ve liderlik edersin. Bu güç, mentorluk, koçluk ve başkalarını yönlendirmenin anahtar olduğu herhangi bir rolde çok önemlidir.\n\nBaşkalarını Mekanik Olarak Güçlendirme\nSadece çevrelerinde bulunarak insanlara bir yön duygusu verebilir onları tamamen mekanik bir şekilde güçlendirebilirsin. Varlığın ve kendi yoluna olan güvenin, çevrendekiler üzerinde istikrar sağlayıcı ve motive edici bir etki yaratır. Bu, takım ortamlarında, liderlik rollerinde ve topluluk oluşturma alanlarında özellikle etkili olabilir.\n\nYönlendirme gücün, iş dünyasında stratejik vizyon, yaratıcı destek ve ilham verici liderliğin benzersiz bir karışımını sunan güçlü bir özelliktir. Bu gücü kullanarak, yenilikçi projeleri yönlendirebilir, yaratıcı çabaları destekleyebilir ve örnek olarak liderlik edebilir, sonuçta çevrendekileri güçlendirebilirsin. ";
 
 var guclu_yanlarin_12_22_1 = "“Sosyallik” Gücü (Quantum 22-12)";
-var guclu_yanlarin_12_22_2 = "İfadelerini sosyal bağlama uyacak şekilde ayarlayabilirsin. Bu yetenek, halkla ilişkiler, müşteri hizmetleri ve diplomatik roller gibi ince iletişim ve uyum gerektiren rollerde çok değerlidir. Doğru kelimeleri ve duyguları ifade etmedeki ustalığın, çeşitli kitlelerle etkili bir şekilde bağlantı kurmana yardımcı olur.\n\nRuh Haline Göre Sosyallik Sosyallik seviyen, ruh hallerinin gelgitlerine bağlı. Kendi duygusal ritimlerinin bu içsel anlayışı, başkalarıyla daha otantik bir şekilde etkileşimde bulunmanı sağlar. İş dünyasında bu özellikle duygusal zeka ve empati gerektiren insan kaynakları, danışmanlık ve ekip liderliği gibi rollerde faydalıdır.\n\nDeğişim İçin Katalizör Zamanlamaya ve kitlenin ne kadar açık olduğuna dair keskin bir anlayışla, insanların dikkatini çekmek için sıcaklığını ve sosyal becerilerini ne zaman kullanacağını bilirsin. Sözlerin, hayatlarında değişim için bir katalizör olma potansiyeline sahiptir. Bu güç, özellikle motive edici konuşmalar, koçluk ve başkalarına ilham vermenin ve etkilemenin anahtar olduğu herhangi bir rolde çok değerlidir.\n\nAçık Medyayı Kullanma Konuşma, oyunculuk, şiir veya müzik gibi çeşitli medyalar aracılığıyla ses tonunu ve vurgusunu kullanarak başkalarını etkileme, dokunma ve güçlendirme yeteneğine sahipsin. İfade biçimleri aracılığıyla özellikle kişisel olarak tanımadığın insanlarla bağlantı kurma ve onlara hitap etme yeteneğin, seni medya, eğlence ve savunuculuk gibi alanlarda güçlü bir iletişimci yapar.\n\nSosyallik gücün, iş dünyasında uyum sağlama, duygusal zeka ve ilham verici iletişim açısından güçlü bir özelliktir. Bu gücü kullanarak, başkalarıyla etkili bir şekilde etkileşime geçebilir ve onları etkileyebilir, anlamlı bağlantılar kurabilir ve olumlu değişimi teşvik edebilirsin. ";
+var guclu_yanlarin_12_22_2 = "İfadelerini sosyal bağlama uyacak şekilde ayarlayabilirsin. Bu yetenek, halkla ilişkiler, müşteri hizmetleri ve diplomatik roller gibi ince iletişim ve uyum gerektiren rollerde çok değerlidir. Doğru kelimeleri ve duyguları ifade etmedeki ustalığın, çeşitli kitlelerle etkili bir şekilde bağlantı kurmana yardımcı olur.\n\nRuh Haline Göre Sosyallik\nSosyallik seviyen, ruh hallerinin gelgitlerine bağlı. Kendi duygusal ritimlerinin bu içsel anlayışı, başkalarıyla daha otantik bir şekilde etkileşimde bulunmanı sağlar. İş dünyasında bu özellikle duygusal zeka ve empati gerektiren insan kaynakları, danışmanlık ve ekip liderliği gibi rollerde faydalıdır.\n\nDeğişim İçin Katalizör\nZamanlamaya ve kitlenin ne kadar açık olduğuna dair keskin bir anlayışla, insanların dikkatini çekmek için sıcaklığını ve sosyal becerilerini ne zaman kullanacağını bilirsin. Sözlerin, hayatlarında değişim için bir katalizör olma potansiyeline sahiptir. Bu güç, özellikle motive edici konuşmalar, koçluk ve başkalarına ilham vermenin ve etkilemenin anahtar olduğu herhangi bir rolde çok değerlidir.\n\nAçık Medyayı Kullanma\nKonuşma, oyunculuk, şiir veya müzik gibi çeşitli medyalar aracılığıyla ses tonunu ve vurgusunu kullanarak başkalarını etkileme, dokunma ve güçlendirme yeteneğine sahipsin. İfade biçimleri aracılığıyla özellikle kişisel olarak tanımadığın insanlarla bağlantı kurma ve onlara hitap etme yeteneğin, seni medya, eğlence ve savunuculuk gibi alanlarda güçlü bir iletişimci yapar.\n\nSosyallik gücün, iş dünyasında uyum sağlama, duygusal zeka ve ilham verici iletişim açısından güçlü bir özelliktir. Bu gücü kullanarak, başkalarıyla etkili bir şekilde etkileşime geçebilir ve onları etkileyebilir, anlamlı bağlantılar kurabilir ve olumlu değişimi teşvik edebilirsin. ";
 
 var guclu_yanlarin_61_24_1 = "“Yaratıcı Süreç” Gücü (Quantum 61-24)";
-var guclu_yanlarin_61_24_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren bir ilham gücün, içsel hakikat ve bireysel biliş içeren zihinsel kapasiteye sahipsin.\nİlham ve İçsel Hakikat İlham, içsel hakikat ve bireysel biliş için zihinsel kapasiten, sana benzersiz içgörüler ve perspektifler sunma gücü verir. Bu güç, stratejik planlama, araştırma ve geliştirme ve yaratıcı endüstriler gibi yenilikçi düşünme ve vizyoner liderlik gerektiren rollerde çok değerlidir. Çığır açan fikirler ve çözümler sunabilir.\n\nSpontane Yaratıcı Süreç Bireysel yaratıcılık sürecin oldukça spontane olabilir. Bazen başka bir yerden bir şey duyuyormuş gibi hissetmek, hayatı tamamen yeni bir şekilde görme potansiyeli sunar. Bu spontanelik, teknoloji, pazarlama ve tasarım gibi yenilik ve uyum sağlama üzerine kurulu alanlarda özellikle değerlidir.\n\nBaşkalarına İlham Verme Zihnin yeni realizasyonlarla başkalarına ilham vermek için tasarlanmıştır. Benzersiz perspektiflerini ve içgörülerini paylaşarak, çevrendeki insanları motive edebilir ve etkileyebilirsin. İlham verme yeteneği, rehberlik ve başkalarını yükseltmenin anahtar olduğu mentorluk, öğretim ve liderlik pozisyonları gibi rollerde kullanılabilir.\n\nİçsel Hakikate Teslim Olma Zihnin, kendi zamanında kendini gösterecek yeniliklere teslim olduğunda güçlenir. Bu sürece güvenmek, yeni fikirlere ve içgörülere açık kalmana olanak tanır ve dinamik ve duyarlı bir problem çözme yaklaşımını teşvik eder. Bu, esneklik ve değişime açıklığın değerli olduğu herhangi bir ortamda faydalıdır.\n\nYaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
+var guclu_yanlarin_61_24_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren bir ilham gücün, içsel hakikat ve bireysel biliş içeren zihinsel kapasiteye sahipsin.\nİlham ve İçsel Hakikat\nİlham, içsel hakikat ve bireysel biliş için zihinsel kapasiten, sana benzersiz içgörüler ve perspektifler sunma gücü verir. Bu güç, stratejik planlama, araştırma ve geliştirme ve yaratıcı endüstriler gibi yenilikçi düşünme ve vizyoner liderlik gerektiren rollerde çok değerlidir. Çığır açan fikirler ve çözümler sunabilir.\n\nSpontane Yaratıcı Süreç\nBireysel yaratıcılık sürecin oldukça spontane olabilir. Bazen başka bir yerden bir şey duyuyormuş gibi hissetmek, hayatı tamamen yeni bir şekilde görme potansiyeli sunar. Bu spontanelik, teknoloji, pazarlama ve tasarım gibi yenilik ve uyum sağlama üzerine kurulu alanlarda özellikle değerlidir.\n\nBaşkalarına İlham Verme\nZihnin yeni realizasyonlarla başkalarına ilham vermek için tasarlanmıştır. Benzersiz perspektiflerini ve içgörülerini paylaşarak, çevrendeki insanları motive edebilir ve etkileyebilirsin. İlham verme yeteneği, rehberlik ve başkalarını yükseltmenin anahtar olduğu mentorluk, öğretim ve liderlik pozisyonları gibi rollerde kullanılabilir.\n\nİçsel Hakikate Teslim Olma\nZihnin, kendi zamanında kendini gösterecek yeniliklere teslim olduğunda güçlenir. Bu sürece güvenmek, yeni fikirlere ve içgörülere açık kalmana olanak tanır ve dinamik ve duyarlı bir problem çözme yaklaşımını teşvik eder. Bu, esneklik ve değişime açıklığın değerli olduğu herhangi bir ortamda faydalıdır.\n\nYaratıcı süreç gücün, iş dünyasında ilham, yenilikçi düşünme ve başkalarına ilham verme yeteneğinin sunan kuvvetli bir özelliktir. Bu gücü kullanarak, inovasyonu teşvik edebilir, çevrendekileri motive edebilir ve değişen koşullara kolayca uyum sağlayabilirsin. ";
 
 var guclu_yanlarin_43_23_1 = "“Verimlilik” Gücü (Quantum 43-23)";
-var guclu_yanlarin_43_23_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren anlık atılımlar ve benzersiz içgörüler sunma yeteneğin var. Bu yetenek, yenilik ve problem çözme gerektiren süreç iyileştirme, proje yönetimi ve stratejik planlama gibi rollerde çok değerlidir. Verimli çözümler bulma yeteneğin, operasyonlar ve üretkenlikte önemli iyileştirmelere yol açabilir.\n\nBilinmeyeni Keşfetmek Zihnin sadece bildiklerini değil, aynı zamanda bilinmeyeni de kucaklamak için tasarlanmıştır. Bu merak ve keşfedilmemiş alanlara adım atma isteği, araştırma ve geliştirme, teknoloji ve yaratıcı endüstrilerde özellikle faydalıdır. Geleneksel düşüncenin sınırlarını zorlayarak, başkalarının gözden kaçırabileceği yeni yöntemler ve yaklaşımlar keşfedebilirsin.\n\nİletişim Yetkinliği Geliştirmek Bildiğini basit ve net bir şekilde açıklama yetkinliği geliştirebilirsin. Tanındığında ve davet edildiğin zamanlarda benzersiz içgörülerini paylaşman dahiliğini doğal olarak ortaya çıkarır. Bu güç, öğretim, danışmanlık ve liderlik pozisyonları gibi etkili iletişim ve bilgi transferi gerektiren rollerde özellikle değerlidir.\n\nVerimlilik gücün, iş dünyasında yenilikçi düşünme, keşfetme ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, operasyonel iyileştirmeler sağlayabilir, yeniliği teşvik edebilir ve karmaşık fikirleri başkalarının anlayabileceği ve takdir edebileceği şekilde iletebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
+var guclu_yanlarin_43_23_2 = "Kendini ve başkalarını önemli ölçüde güçlendiren anlık atılımlar ve benzersiz içgörüler sunma yeteneğin var. Bu yetenek, yenilik ve problem çözme gerektiren süreç iyileştirme, proje yönetimi ve stratejik planlama gibi rollerde çok değerlidir. Verimli çözümler bulma yeteneğin, operasyonlar ve üretkenlikte önemli iyileştirmelere yol açabilir.\n\nBilinmeyeni Keşfetmek\nZihnin sadece bildiklerini değil, aynı zamanda bilinmeyeni de kucaklamak için tasarlanmıştır. Bu merak ve keşfedilmemiş alanlara adım atma isteği, araştırma ve geliştirme, teknoloji ve yaratıcı endüstrilerde özellikle faydalıdır. Geleneksel düşüncenin sınırlarını zorlayarak, başkalarının gözden kaçırabileceği yeni yöntemler ve yaklaşımlar keşfedebilirsin.\n\nİletişim Yetkinliği Geliştirmek\nBildiğini basit ve net bir şekilde açıklama yetkinliği geliştirebilirsin. Tanındığında ve davet edildiğin zamanlarda benzersiz içgörülerini paylaşman dahiliğini doğal olarak ortaya çıkarır. Bu güç, öğretim, danışmanlık ve liderlik pozisyonları gibi etkili iletişim ve bilgi transferi gerektiren rollerde özellikle değerlidir.\n\nVerimlilik gücün, iş dünyasında yenilikçi düşünme, keşfetme ve etkili iletişim açısından benzersiz bir karışım sunan güçlü bir özelliktir. Bu gücü kullanarak, operasyonel iyileştirmeler sağlayabilir, yeniliği teşvik edebilir ve karmaşık fikirleri başkalarının anlayabileceği ve takdir edebileceği şekilde iletebilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere ve profesyonel ortamda önemli bir fark yaratmaya yol açabilir. ";
 
 var guclu_yanlarin_9_52_1 = "“Konsantrasyon” Gücü (Quantum 52-9)";
-var guclu_yanlarin_9_52_2 = "Lazer gibi bir odaklanma yeteneğine sahipsin, bu da seni sakin ve ele alınan meseleye odaklanmış tutar. Bu beceri, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma ve dikkat gerektiren roller için değerlidir. Detaylara inme yeteneğin, işinde titizlik ve doğruluk sağlayabilir.\n\nSessiz ve Stresiz Baskı Detaylara odaklandığında, seni yerinde tutan sessiz ve stresiz bir baskı hissedebilirsin. Bu sakin ancak üretken durum, hassasiyet ve sakinliğin önemli olduğu yüksek riskli ortamlarda faydalıdır. Mühendislik, denetim ve cerrahi gibi mesleklerde bu güç büyük fayda sağlar.\n\nDetay Odaklı Değerlendirme Kendini adadığın herhangi bir şeyin detaylarını sürekli olarak değerlendirebilirsin. Bu titiz doğa, yasal işler, finansal planlama ve stratejik danışmanlık gibi titiz değerlendirme ve eleştirel düşünme gerektiren roller için mükemmeldir. Sürekli değerlendirme yapman, hiçbir ayrıntının gözden kaçmamasını sağlar.\n\nOdaklanma Odaklanacak değerli bir şey olmadığında kendini huzursuz ve depresif hissedebilirsin. Bu güçlü enerjiyi birçok şeyle uğraşarak dağıtmanız sağlıklı olmayabilir. İçgüdüsel tepkilerin neye odaklanacağını, neyi mükemmelleştireceğini ve ne zaman paylaşacağını ortaya çıkarır. Bir seferde tek bir şeye derinlemesine odaklanma yeteneğin, seçtiğin alanda uzman olmanı sağlayabilirr ve derin bilgi ve uzmanlık sunar.\n\nKonsantrasyon gücün, işine odaklanmış ve adanmış bir yaklaşım sunmanı sağlar, bu da seni titizlik, detay ve eksiksizlik gerektiren her profesyonel ortamda değerli bir varlık haline getirir. Bu gücü kullanarak, derin odaklanma, kritik değerlendirme ve adanmış uzmanlık gerektiren rollerde mükemmel olabilir, katkılarının etkili ve yüksek değerli olmasını sağlayabilirsin.  ";
+var guclu_yanlarin_9_52_2 = "Lazer gibi bir odaklanma yeteneğine sahipsin, bu da seni sakin ve ele alınan meseleye odaklanmış tutar. Bu beceri, araştırma, veri analizi ve kalite kontrol gibi derin odaklanma ve dikkat gerektiren roller için değerlidir. Detaylara inme yeteneğin, işinde titizlik ve doğruluk sağlayabilir.\n\nSessiz ve Stresiz Baskı\nDetaylara odaklandığında, seni yerinde tutan sessiz ve stresiz bir baskı hissedebilirsin. Bu sakin ancak üretken durum, hassasiyet ve sakinliğin önemli olduğu yüksek riskli ortamlarda faydalıdır. Mühendislik, denetim ve cerrahi gibi mesleklerde bu güç büyük fayda sağlar.\n\nDetay Odaklı Değerlendirme\nKendini adadığın herhangi bir şeyin detaylarını sürekli olarak değerlendirebilirsin. Bu titiz doğa, yasal işler, finansal planlama ve stratejik danışmanlık gibi titiz değerlendirme ve eleştirel düşünme gerektiren roller için mükemmeldir. Sürekli değerlendirme yapman, hiçbir ayrıntının gözden kaçmamasını sağlar.\n\nOdaklanma\nOdaklanacak değerli bir şey olmadığında kendini huzursuz ve depresif hissedebilirsin. Bu güçlü enerjiyi birçok şeyle uğraşarak dağıtmanız sağlıklı olmayabilir. İçgüdüsel tepkilerin neye odaklanacağını, neyi mükemmelleştireceğini ve ne zaman paylaşacağını ortaya çıkarır. Bir seferde tek bir şeye derinlemesine odaklanma yeteneğin, seçtiğin alanda uzman olmanı sağlayabilirr ve derin bilgi ve uzmanlık sunar.\n\nKonsantrasyon gücün, işine odaklanmış ve adanmış bir yaklaşım sunmanı sağlar, bu da seni titizlik, detay ve eksiksizlik gerektiren her profesyonel ortamda değerli bir varlık haline getirir. Bu gücü kullanarak, derin odaklanma, kritik değerlendirme ve adanmış uzmanlık gerektiren rollerde mükemmel olabilir, katkılarının etkili ve yüksek değerli olmasını sağlayabilirsin.  ";
 
 var guclu_yanlarin_18_58_1 = "“Mantıklı Yargı” Gücü (Quantum 58-18)";
-var guclu_yanlarin_18_58_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.\n\nUstalık ve İyileştirme Ustalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.\n\nDavet Edilen Fikir Neşe Getirir Sorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.\n\nİş Dünyasında Gücünü Kullanmak İş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.\n\nMantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
+var guclu_yanlarin_18_58_2 = "Herhangi bir kalıbı yargılama, meydan okuma, düzeltme ve mükemmelleştirme konusundaki doyumsuz bir dürtü tarafından yönlendirilirsin. Bu mükemmellik arayışı, en iyi olası cevabı aramanda taş taş üstünde bırakmamanı sağlar. Sorunları mantıklı bir yaklaşımla ele alarak, konuları titizlikle parçalara ayırır ve hassasiyetle ele alırsın.\n\nUstalık ve İyileştirme\nUstalık sanatı ve kalıpların iyileştirilmesi için kaynak sağlama ve paylaşma yeteneğin rakipsiz. Süreçleri, sistemleri ve yöntemleri sürekli olarak iyileştirme ve geliştirme arayışındasın. Bu iyileştirme dürtüsü en çok tatmin olmadığında veya yüksek standartlarına uymayan bir şeyi sorgulama ihtiyacı hissettiğinde ortaya çıkar.\n\nDavet Edilen Fikir Neşe Getirir\nSorulmadan ortaya koyduğun yargılar eleştiri olarak algılanabilirken, mantıklı değerlendirmenin paylaşılmasının istenmesi sana gerçek bir neşe getirir. İçgörülerini ve düzeltmelerini sunmaya davet edildiğinde gelişirsin, uzmanlığının altı çizilir ve anlamlı bir şekilde katkıda bulunmana olanak tanır. “Burada yanlış bir şey var mı?” gibi sorular aldığında değerli perspektifini sunabilirsin.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında, mantıklı yargı gücün, eleştirel analiz, stratejik planlama ve kalite kontrol gerektiren rollerde paha biçilmezdir. Süreçleri ve sistemleri mükemmelleştirme yeteneğin, verimlilik ve üretkenlikte önemli iyileştirmelere yol açabilir. Bu gücü benimsemek ve geliştirmek, organizasyonunu daha büyük bir başarıya yönlendirmenize ve sürekli iyileştirmeyi sağlamana yardımcı olabilir.\n\nMantıklı yargı gücün, iyileştirmeyi sürdürmek ve mükemmelliğe ulaşmak için güçlü bir araçtır. Bu gücü kullanarak, her alanda önemli katkılarda bulunabilir, sürekli iyileştirme ve yüksek standartlar kültürü oluşturabilirsin. Mantıklı yargını benimsemek, profesyonel çabalarında değerli bir varlık olarak kalmanı sağlar.  ";
 
 var guclu_yanlarin_48_16_1 = "“Yetenek” Gücü (Quantum 48-16)";
-var guclu_yanlarin_48_16_2 = "Sezgisel içgörülerini tekrarlayan deneyimler ve pratik ile birleştirebilirsin. Bu süreç, içsel bir yeteneği mükemmelleştirmene yardımcı olur ve tutkuyla bağlı olduğun herhangi bir alanda yenilikçi çözümler ve rafine teknikler geliştirmene olanak tanır.\n\nSevdiğiniz Şeyle Özdeşleşmek, Yeteneklerini başarılı bir şekilde geliştirebilmenin anahtarı, tamamen sevdiğin bir şeyle özdeşleşmekten geçer. Adanmışlık ve tutkun, ustalığa ulaşmak için kritik öneme sahiptir. Tutkulu olduğun faaliyetlere kendini kaptırarak, yeteneklerini öne çıkan becerilere dönüştürebilirsin.\n\nİş Dünyasında Gücünü Kullanmak, İş dünyasında, sezgiyi tekrarlı pratikle birleştirme yeteneğin yenilikçi çözümler ve rafine süreçler geliştirebilir. İster problem çözme ister proje yönetimi veya yaratıcı alanlarda olsun, yeteneğin verimlilik ve mükemmelliği artırabilir.\n\nYetenek gücün, sezgi, adanmışlık ve ustalık açısından kuvvetli bir özelliktir. Bu gücü kullanarak, üretkenliği artırabilir, yeniliği teşvik edebilir ve organizasyonunuzu daha büyük bir başarıya yönlendirebilirsiniz.   ";
+var guclu_yanlarin_48_16_2 = "Sezgisel içgörülerini tekrarlayan deneyimler ve pratik ile birleştirebilirsin. Bu süreç, içsel bir yeteneği mükemmelleştirmene yardımcı olur ve tutkuyla bağlı olduğun herhangi bir alanda yenilikçi çözümler ve rafine teknikler geliştirmene olanak tanır.\n\nSevdiğiniz Şeyle Özdeşleşmek\nYeteneklerini başarılı bir şekilde geliştirebilmenin anahtarı, tamamen sevdiğin bir şeyle özdeşleşmekten geçer. Adanmışlık ve tutkun, ustalığa ulaşmak için kritik öneme sahiptir. Tutkulu olduğun faaliyetlere kendini kaptırarak, yeteneklerini öne çıkan becerilere dönüştürebilirsin.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında, sezgiyi tekrarlı pratikle birleştirme yeteneğin yenilikçi çözümler ve rafine süreçler geliştirebilir. İster problem çözme ister proje yönetimi veya yaratıcı alanlarda olsun, yeteneğin verimlilik ve mükemmelliği artırabilir.\n\nYetenek gücün, sezgi, adanmışlık ve ustalık açısından kuvvetli bir özelliktir. Bu gücü kullanarak, üretkenliği artırabilir, yeniliği teşvik edebilir ve organizasyonunuzu daha büyük bir başarıya yönlendirebilirsiniz.   ";
 
 var guclu_yanlarin_17_62_1 = "“Organizasyon” Gücü (Quantum 17-62)";
-var guclu_yanlarin_17_62_2 = "Zihinsel olarak bilgiyi yönetme yeteneğin, doğrulanmış detaylara dayalı olarak devam eden bir iç süreçte gerçekleşir. Yeni bilgileri özümseme, işleme ve mevcut bilgi çerçevene entegre etme kapasitesine sahipsin, bu da karmaşık iş ortamlarında çok değerlidir.\n\nZihinsel Yönetim Zihnin sürekli olarak detayları kendi zihinsel dosyalama sistemine organize eder ve diğerlerinin düşüncelerini veya söylediklerini büyük resme uydurarak sürekli ayarlamalar yapar. Bu, bilgiyi verimli bir şekilde yönetmeni ve hatırlamanı sağlar, seni herhangi bir organizasyonel ortamda değerli bir varlık yapar.\n\nSürekli Dikkat İçsel kalıplarına sürekli bir dikkat gösterir, tüm yeni verilerin mantıksal olarak organize edilip perspektifine uygun şekilde entegre edilmesini sağlarsın. Bu titiz bilgi yönetimi yaklaşımı, işinde doğruluğu ve ayrıntılı olmayı garantiler.\n\nİfade ve Zamanlama Sürekli konuşma baskısı hissedebilir ve görüşlerini detaylı bir şekilde paylaşarak veya anladıklarını açıklayarak tatmin ve rahatlama duygusu elde edebilirsin. Zamanlamana ve dinleyicilerinin alıcılığına dikkat etmek çok önemlidir, çünkü bu içgörülerinin iyi karşılanmasını ve etkili olmasını sağlar.\n\nİş Dünyasında Gücünü Kullanmak İş gruplarını, etkinlikleri ve projeleri mantıksal olarak organize etme konusunda çok aranan bir yeteneğin var. Organizasyon becerilerin süreçleri düzene sokar, üretkenliği artırır ve görevlerin ve projelerin başarılı bir şekilde yürütülmesini sağlar.\n\nOrganizasyon gücün, zihinsel yönetim, dikkat ve zamanlamayı içeren güçlü bir özelliktir. Bu gücü kullanarak, verimliliği artırabilir, iyi yapılandırılmış bir çalışma ortamı oluşturabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.   ";
+var guclu_yanlarin_17_62_2 = "Zihinsel olarak bilgiyi yönetme yeteneğin, doğrulanmış detaylara dayalı olarak devam eden bir iç süreçte gerçekleşir. Yeni bilgileri özümseme, işleme ve mevcut bilgi çerçevene entegre etme kapasitesine sahipsin, bu da karmaşık iş ortamlarında çok değerlidir.\n\nZihinsel Yönetim\nZihnin sürekli olarak detayları kendi zihinsel dosyalama sistemine organize eder ve diğerlerinin düşüncelerini veya söylediklerini büyük resme uydurarak sürekli ayarlamalar yapar. Bu, bilgiyi verimli bir şekilde yönetmeni ve hatırlamanı sağlar, seni herhangi bir organizasyonel ortamda değerli bir varlık yapar.\n\nSürekli Dikkat\nİçsel kalıplarına sürekli bir dikkat gösterir, tüm yeni verilerin mantıksal olarak organize edilip perspektifine uygun şekilde entegre edilmesini sağlarsın. Bu titiz bilgi yönetimi yaklaşımı, işinde doğruluğu ve ayrıntılı olmayı garantiler.\n\nİfade ve Zamanlama\nSürekli konuşma baskısı hissedebilir ve görüşlerini detaylı bir şekilde paylaşarak veya anladıklarını açıklayarak tatmin ve rahatlama duygusu elde edebilirsin. Zamanlamana ve dinleyicilerinin alıcılığına dikkat etmek çok önemlidir, çünkü bu içgörülerinin iyi karşılanmasını ve etkili olmasını sağlar.\n\nİş Dünyasında Gücünü Kullanmak\nİş gruplarını, etkinlikleri ve projeleri mantıksal olarak organize etme konusunda çok aranan bir yeteneğin var. Organizasyon becerilerin süreçleri düzene sokar, üretkenliği artırır ve görevlerin ve projelerin başarılı bir şekilde yürütülmesini sağlar.\n\nOrganizasyon gücün, zihinsel yönetim, dikkat ve zamanlamayı içeren güçlü bir özelliktir. Bu gücü kullanarak, verimliliği artırabilir, iyi yapılandırılmış bir çalışma ortamı oluşturabilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.   ";
 
 var guclu_yanlarin_53_42_1 = "“Döngüler” Gücü (Quantum 53-42)";
-var guclu_yanlarin_53_42_2 = "Hayatın belirgin başlangıçlar, ortalar ve sonlarla döngüler halinde işler. Her döngünün kendi ritmi vardır, olgunlaşmak, büyümek ve gelişmek zaman alır, ardından nihayetinde düşüşe geçer ve sona erer – sadece süreci yeniden başlatmak için. Bir deneyime girip onu tamamladığında, tamamlanan döngüden elde edilen değerli dersleri ve bilgeliği yansıtabilir ve paylaşabilirsin. Yeni deneyimler, eskiler üzerine inşa edilebilir, sürekli büyüme ve anlayış için bir temel sağlar.\n\nYeni bir deneyime başlarken içgüdülerine güven – bu, ilgini kaybettiğin veya süreci tamamlayamadığın bir döngüye sıkışıp kalmaktan kaçınmana yardımcı olabilir. Beklentilerin olduğunda, hayal kırıklığına açık hale gelirsin. Beklenti olmadan, sadece bir deneyimde olmak, sağlıklı ve ödüllendirici olur.\n\nDeneyimden Öğrenmek, hayatın döngüler halinde işlediğini kabul et ve her aşamanın büyüme ve yenilenme için gerekli olduğunu anla. Bu anlayış, kişisel ve profesyonel zorlukları daha büyük bir kolaylık ve dirençle yönetmene yardımcı olabilir. Her tamamlanan döngü, yansıtma ve büyüme fırsatı sunar. Öğrenilen dersleri paylaşarak, kolektif bilgeliğe katkıda bulunabilir ve başkalarının benzer deneyimleri yönetmelerine yardımcı olabilirsin.\n\nTuzaklardan Kaçınmak, Yeni girişimlere başlarken içgüdülerine güvenmek çok önemlidir. Bu, verimsiz kalıplara sıkışıp kalmanı engelleyebilir ve çabalarının gerçek amacına uygun olmasını sağlayabilir.\n\nBeklentisiz yaşamak, deneyimlere önceden belirlenmiş beklentiler olmadan yaklaşmak, anın tadını çıkarmanı sağlar. Bu zihniyet, daha tatmin edici ve otantik etkileşimlere ve başarılara yol açabilir.\n\nİş dünyasında gücünü kullanmak, İş dünyasında, döngüleri anlamak ve kucaklamak, daha stratejik planlama ve yürütmeye imkan tanır. Projelerin ve girişimlerin doğal akışını tanıyarak, kaynakları ve beklentileri daha iyi yönetebilirsin. Geçmişteki başarıları ve başarısızlıkları yansıtmak, gelecekteki girişimler için değerli içgörüler sağlar. Karar verme süreçlerinde içgüdülerine güvenmek, tuzaklardan kaçınmana ve sürekli ilerleme sağlamana yardımcı olabilir.\n\nDöngüler gücün, büyüme ve gelişim üzerinde benzersiz bir bakış açısı sunan güçlü bir yetenektir. Bu gücü kullanarak, hayatın zorluklarını zarafet ve dirençle yönetebilir, kişisel ve profesyonel başarıya katkıda bulunabilirsin. Hayatın döngüsel doğasını kucaklamak, daha tatmin edici ve etkili bir yolculuğa yol açabilir.  ";
+var guclu_yanlarin_53_42_2 = "Hayatın belirgin başlangıçlar, ortalar ve sonlarla döngüler halinde işler. Her döngünün kendi ritmi vardır, olgunlaşmak, büyümek ve gelişmek zaman alır, ardından nihayetinde düşüşe geçer ve sona erer – sadece süreci yeniden başlatmak için. Bir deneyime girip onu tamamladığında, tamamlanan döngüden elde edilen değerli dersleri ve bilgeliği yansıtabilir ve paylaşabilirsin. Yeni deneyimler, eskiler üzerine inşa edilebilir, sürekli büyüme ve anlayış için bir temel sağlar.\n\nYeni bir deneyime başlarken içgüdülerine güven – bu, ilgini kaybettiğin veya süreci tamamlayamadığın bir döngüye sıkışıp kalmaktan kaçınmana yardımcı olabilir. Beklentilerin olduğunda, hayal kırıklığına açık hale gelirsin. Beklenti olmadan, sadece bir deneyimde olmak, sağlıklı ve ödüllendirici olur.\n\nDeneyimden Öğrenmek\nHayatın döngüler halinde işlediğini kabul et ve her aşamanın büyüme ve yenilenme için gerekli olduğunu anla. Bu anlayış, kişisel ve profesyonel zorlukları daha büyük bir kolaylık ve dirençle yönetmene yardımcı olabilir. Her tamamlanan döngü, yansıtma ve büyüme fırsatı sunar. Öğrenilen dersleri paylaşarak, kolektif bilgeliğe katkıda bulunabilir ve başkalarının benzer deneyimleri yönetmelerine yardımcı olabilirsin.\n\nTuzaklardan Kaçınmak\nYeni girişimlere başlarken içgüdülerine güvenmek çok önemlidir. Bu, verimsiz kalıplara sıkışıp kalmanı engelleyebilir ve çabalarının gerçek amacına uygun olmasını sağlayabilir.\n\nBeklentisiz yaşamak\nDeneyimlere önceden belirlenmiş beklentiler olmadan yaklaşmak, anın tadını çıkarmanı sağlar. Bu zihniyet, daha tatmin edici ve otantik etkileşimlere ve başarılara yol açabilir.\n\nİş Dünyasında Gücünü Kullanmak\nİş dünyasında, döngüleri anlamak ve kucaklamak, daha stratejik planlama ve yürütmeye imkan tanır. Projelerin ve girişimlerin doğal akışını tanıyarak, kaynakları ve beklentileri daha iyi yönetebilirsin. Geçmişteki başarıları ve başarısızlıkları yansıtmak, gelecekteki girişimler için değerli içgörüler sağlar. Karar verme süreçlerinde içgüdülerine güvenmek, tuzaklardan kaçınmana ve sürekli ilerleme sağlamana yardımcı olabilir.\n\nDöngüler gücün, büyüme ve gelişim üzerinde benzersiz bir bakış açısı sunan güçlü bir yetenektir. Bu gücü kullanarak, hayatın zorluklarını zarafet ve dirençle yönetebilir, kişisel ve profesyonel başarıya katkıda bulunabilirsin. Hayatın döngüsel doğasını kucaklamak, daha tatmin edici ve etkili bir yolculuğa yol açabilir.  ";
 
 var guclu_yanlarin_46_29_1 = "“Keşif” Gücü (Quantum 29-46)";
-var guclu_yanlarin_46_29_2 = "Keşif Gücü, yeni farkındalıklara dalmana ve bir deneyim tamamlanana kadar azimle devam etmene olanak tanır. Bu güç, doğru zamanda doğru yerde olmanı sağlayan içgüdüsel yanıtın aracılığıyla erişilen derin bir dayanıklılık ile beslenir. Keşif sürecinden elde edebileceğin memnuniyet ve bilgelik için net bir bağlılık çok önemlidir. Bir deneyim o anda anlamlı gelmese de tamamen kendini kaybedebilir, arkana bakmadan devam edebilirsin. Döngünün sonu, nihai keşfini bulacağın yerdir. İçgüdüsel yanıtını takip etmek ve beklentilerini bırakmak, başkalarının başarısız olduğu yerlerde başarılı olma potansiyelini artırır.\n\nFarkındalıkları ve Azmi Kucaklamak. Bir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.\n\nBağlılık ve Memnuniyet, Sürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.\n\nDeneyime Dalmak, Bir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir.\n\nKeşif Gücü, azim, bağlılık ve sezgiyi birleştiren güçlü bir özelliktir. Bu gücü kullanarak yenilikçi çözümler üretebilir, gizli gerçekleri ortaya çıkarabilir ve başkalarının tökezleyebileceği alanlarda başarı elde edebilirsin.   ";
+var guclu_yanlarin_46_29_2 = "Keşif Gücü, yeni farkındalıklara dalmana ve bir deneyim tamamlanana kadar azimle devam etmene olanak tanır. Bu güç, doğru zamanda doğru yerde olmanı sağlayan içgüdüsel yanıtın aracılığıyla erişilen derin bir dayanıklılık ile beslenir. Keşif sürecinden elde edebileceğin memnuniyet ve bilgelik için net bir bağlılık çok önemlidir. Bir deneyim o anda anlamlı gelmese de tamamen kendini kaybedebilir, arkana bakmadan devam edebilirsin. Döngünün sonu, nihai keşfini bulacağın yerdir. İçgüdüsel yanıtını takip etmek ve beklentilerini bırakmak, başkalarının başarısız olduğu yerlerde başarılı olma potansiyelini artırır.\n\nFarkındalıkları ve Azmi Kucaklamak\nBir deneyim tamamlanana kadar onunla kalma yeteneğin çok değerli. Bu azim, içgüdüsel yanıtınla yönlendirilerek her zaman olması gereken yerde olmanı sağlar. Bu güç, sürekli çaba ve derin bağlılık gerektiren rollerde özellikle faydalı olabilir.\n\nBağlılık ve Memnuniyet\nSürece net bir bağlılık şarttır. Bu bağlılık, sadece memnuniyet getirmekle kalmaz, aynı zamanda keşiflerinden elde edilen değerli bilgeliği paylaşmana da olanak tanır. Profesyonel ortamlarda, bu bağlılık, başarıyı artıran ve yenilikçi çözümler getiren buluşlara yol açabilir.\n\nDeneyime Dalmak\nBir deneyimde kendini tamamen kaybedebilmek eşsiz bir güçtür. Deneyim başlangıçta anlam ifade etmese bile genellikle önemli keşiflere yol açar. İş dünyasında bu, zorlu projelerde devam edebilmek ve çığır açan içgörülerle ortaya çıkmak anlamına gelebilir.\n\nKeşif Gücü, azim, bağlılık ve sezgiyi birleştiren güçlü bir özelliktir. Bu gücü kullanarak yenilikçi çözümler üretebilir, gizli gerçekleri ortaya çıkarabilir ve başkalarının tökezleyebileceği alanlarda başarı elde edebilirsin.   ";
 
 var guclu_yanlarin_33_13_1 = "“Tanıklık” Gücü (Kuantum 13-33)";
-var guclu_yanlarin_33_13_2 = "Dikkatle dinleme, duyduğun bilgileri ve sırları saklama ve ders çıkarılabilecek anılar toplama yeteneğine sahipsin. Tanık olduğun deneyimlere çekilip, yüzeyin altındaki daha derin bir gerçeğin ortaya çıkmasını sabırla bekleyerek bu deneyimleri yansıtabilirsin. Bu bilgi toplama ve yansıtma yeteneği, dikkatli gözlem ve analiz gerektiren rollerde çok değerlidir.\n\nDoğal Bir Kayıt Tutucu Doğal bir kayıt tutucu olarak, etrafındaki her şeyin hayat hikayelerini toplayabilirsin. Sesin Hatırlıyorum der. Bu özellik, tarihi doğruluğun ve detaylı kayıtların önemli olduğu ortamlarda seni değerli bir kaynak yapar.\n\nZamanlama ve Bilgeliği Paylaşma Zamanlama her şeydir - davet edildiğinde, deneyimlerden elde edilen büyük bilgeliği paylaşabilirsin. Senin sabırlı yansıtma şeklin, genellikle kolektif tarihimizdeki en büyük gerçeklerden bazılarını ortaya çıkarır. İçgörülerini ne zaman paylaşacağını bilmek, profesyonel ve kişisel etkileşimlerinde önemli bir etki yaratabilir.\n\nİş Dünyasında Gücünü Kullanmak Tanıklık gücünü, iş dünyasında çeşitli alanlarında kullanılabilirsin. Araştırma ve geliştirmede, gözlemleme, kayıt tutma ve yansıtma yeteneğin, çığır açan keşiflere yol açabilir. Liderlik rollerinde, sabırlı gözlem ve zamanında içgörü paylaşma kapasiten, ekibini etkili bir şekilde ilham verebilir ve yönlendirebilir. Herhangi bir profesyonel ortamda, geçmiş deneyimlerini hatırlama ve yansıtma yeteneğin, stratejik planlama ve karar verme için sağlam bir temel sağlayabilir.\n\nTanıklık gücün, iş dünyasında gözlem, yansıtma ve zamanında bilgelik paylaşımını birleştiren güçlü bir özelliktir. Bu gücü kullanarak, başkalarını yönlendirme, bilinçli kararlar alma ve organizasyonunun uzun vadeli başarısına katkıda bulunma yeteneğini artırabilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.  ";
+var guclu_yanlarin_33_13_2 = "Dikkatle dinleme, duyduğun bilgileri ve sırları saklama ve ders çıkarılabilecek anılar toplama yeteneğine sahipsin. Tanık olduğun deneyimlere çekilip, yüzeyin altındaki daha derin bir gerçeğin ortaya çıkmasını sabırla bekleyerek bu deneyimleri yansıtabilirsin. Bu bilgi toplama ve yansıtma yeteneği, dikkatli gözlem ve analiz gerektiren rollerde çok değerlidir.\n\nDoğal Bir Kayıt Tutucu\nDoğal bir kayıt tutucu olarak, etrafındaki her şeyin hayat hikayelerini toplayabilirsin. Sesin Hatırlıyorum der. Bu özellik, tarihi doğruluğun ve detaylı kayıtların önemli olduğu ortamlarda seni değerli bir kaynak yapar.\n\nZamanlama ve Bilgeliği Paylaşma\nZamanlama her şeydir - davet edildiğinde, deneyimlerden elde edilen büyük bilgeliği paylaşabilirsin. Senin sabırlı yansıtma şeklin, genellikle kolektif tarihimizdeki en büyük gerçeklerden bazılarını ortaya çıkarır. İçgörülerini ne zaman paylaşacağını bilmek, profesyonel ve kişisel etkileşimlerinde önemli bir etki yaratabilir.\n\nİş Dünyasında Gücünü Kullanmak\nTanıklık gücünü, iş dünyasında çeşitli alanlarında kullanılabilirsin. Araştırma ve geliştirmede, gözlemleme, kayıt tutma ve yansıtma yeteneğin, çığır açan keşiflere yol açabilir. Liderlik rollerinde, sabırlı gözlem ve zamanında içgörü paylaşma kapasiten, ekibini etkili bir şekilde ilham verebilir ve yönlendirebilir. Herhangi bir profesyonel ortamda, geçmiş deneyimlerini hatırlama ve yansıtma yeteneğin, stratejik planlama ve karar verme için sağlam bir temel sağlayabilir.\n\nTanıklık gücün, iş dünyasında gözlem, yansıtma ve zamanında bilgelik paylaşımını birleştiren güçlü bir özelliktir. Bu gücü kullanarak, başkalarını yönlendirme, bilinçli kararlar alma ve organizasyonunun uzun vadeli başarısına katkıda bulunma yeteneğini artırabilirsin. Bu gücü benimsemek ve geliştirmek, anlamlı ve etkili bir kariyere yol açabilir.  ";
 
 var guclu_yanlarin_30_41_1 = "“Hayal Etme” Gücü (Kuantum 41-30)";
-var guclu_yanlarin_30_41_2 = "Odaklanmış enerjini kullanarak olabilecek sayısız senaryoyu hayal etme yeteneğine sahipsin. Bu farklı olasılıkları hayal etme kapasitesi, yenilikçi çözümler ve yaratıcı atılımlar sağlayabilir. Hayal gücün, seni mevcut durumun ötesine ve potansiyel dolu bir geleceğe bakmaya teşvik eden güçlü bir araçtır.\n\nYeni Deneyimler Yeni deneyimler edinmek için bitmek bilmeyen bir özlemle, hayallerin ve arzuların beklentiler yaratabilir ve bu beklentiler gerçekleşebilir ya da gerçekleşmeyebilir. Bu yeni deneyimler arayışı, yaratıcılığını besler ve keşfedilmemiş alanları keşfetme motivasyonunu sağlar. Bu beklentileri yönetmek, hayal kırıklığını önlemek ve gerçeklikte kalmak için önemlidir.\n\nİsteği Dengelemek Yeni deneyimlere olan açıklığın, sabır ve özdenetim geliştirerek, net kararlar almak için yeterli zaman ayırarak en iyi şekilde dengelenir. Harekete geçmeden önce durup düşünmek, hayal gücünün enerjisini üretken ve iyi düşünülmüş eylemlere yönlendirmene olanak tanır. Bu denge, hayallerini ulaşılabilir hedeflere dönüştürmek için önemlidir.\n\nGücünü Kullanmak Gücünü kullanmanın sırrı, sadece hayallerinin ve her deneyimin kendisinden zevk almak ve beklentilerin baskısına boyun eğmemektir. Yolculuğun ve yaratıcı sürecin tadını çıkararak, ilhama açık kalabilir ve karşılanmayan beklentilerin getirdiği stresten kaçınabilirsin. Bu zihniyet, hayal gücüyle ortaya çıkan fikirlerine tam anlamıyla katılmanı ve onları hayata geçirmeni sağlar.\n\nİş Dünyasında Gücünü Kullanmak Hayal etme gücün, iş dünyasının çeşitli alanlarında kullanılabilir. Yaratıcı problem çözme gerektiren rollerde, birden fazla senaryo hayal etme yeteneğin, yenilikçi çözümler sağlayabilir. Pazarlama ve ürün geliştirmede, hayal gücün, ilgi çekici hikayeler ve benzersiz teklifler oluşturulmasına yardımcı olabilir. Liderlikte, vizyoner düşüncen, ekibini yeni olasılıkları keşfetmeye ve organizasyonu ileriye taşımaya ilham verebilir ve motive edebilir.\n\nHayal etme gücün, iş dünyasında yaratıcılık, vizyon ve büyük hayaller kurma yeteneğini birleştiren güçlü bir özelliktir. Bu gücü kullanarak, yenilik yapma, ilham verme ve anlamlı bağlantılar kurmayı artırabilirsin.";
+var guclu_yanlarin_30_41_2 = "Odaklanmış enerjini kullanarak olabilecek sayısız senaryoyu hayal etme yeteneğine sahipsin. Bu farklı olasılıkları hayal etme kapasitesi, yenilikçi çözümler ve yaratıcı atılımlar sağlayabilir. Hayal gücün, seni mevcut durumun ötesine ve potansiyel dolu bir geleceğe bakmaya teşvik eden güçlü bir araçtır.\n\nYeni Deneyimler\nYeni deneyimler edinmek için bitmek bilmeyen bir özlemle, hayallerin ve arzuların beklentiler yaratabilir ve bu beklentiler gerçekleşebilir ya da gerçekleşmeyebilir. Bu yeni deneyimler arayışı, yaratıcılığını besler ve keşfedilmemiş alanları keşfetme motivasyonunu sağlar. Bu beklentileri yönetmek, hayal kırıklığını önlemek ve gerçeklikte kalmak için önemlidir.\n\nİsteği Dengelemek\nYeni deneyimlere olan açıklığın, sabır ve özdenetim geliştirerek, net kararlar almak için yeterli zaman ayırarak en iyi şekilde dengelenir. Harekete geçmeden önce durup düşünmek, hayal gücünün enerjisini üretken ve iyi düşünülmüş eylemlere yönlendirmene olanak tanır. Bu denge, hayallerini ulaşılabilir hedeflere dönüştürmek için önemlidir.\n\nGücünü Kullanmak\nGücünü kullanmanın sırrı, sadece hayallerinin ve her deneyimin kendisinden zevk almak ve beklentilerin baskısına boyun eğmemektir. Yolculuğun ve yaratıcı sürecin tadını çıkararak, ilhama açık kalabilir ve karşılanmayan beklentilerin getirdiği stresten kaçınabilirsin. Bu zihniyet, hayal gücüyle ortaya çıkan fikirlerine tam anlamıyla katılmanı ve onları hayata geçirmeni sağlar.\n\nİş Dünyasında Gücünü Kullanmak\nHayal etme gücün, iş dünyasının çeşitli alanlarında kullanılabilir. Yaratıcı problem çözme gerektiren rollerde, birden fazla senaryo hayal etme yeteneğin, yenilikçi çözümler sağlayabilir. Pazarlama ve ürün geliştirmede, hayal gücün, ilgi çekici hikayeler ve benzersiz teklifler oluşturulmasına yardımcı olabilir. Liderlikte, vizyoner düşüncen, ekibini yeni olasılıkları keşfetmeye ve organizasyonu ileriye taşımaya ilham verebilir ve motive edebilir.\n\nHayal etme gücün, iş dünyasında yaratıcılık, vizyon ve büyük hayaller kurma yeteneğini birleştiren güçlü bir özelliktir. Bu gücü kullanarak, yenilik yapma, ilham verme ve anlamlı bağlantılar kurmayı artırabilirsin.";
 
 var guclu_yanlarin_35_36_1 = "“Deneyimleyen” Gücü (Quantum 36-35)";
-var guclu_yanlarin_35_36_2 = "İş ve hayatında ilerlemeyi sağlamak için birçok şeyi denemeye gönüllü olabilirsin. Büyüme ve yenilik vaat eden toplu deneyimlerden bilgelik toplama konusunda motive oluyorsun. Çeşitli deneyimlerin birikimi olan değerli içgörülerini etrafındakiler ile paylaşabilirsin. Çevrenizdeki insanlara her anı değerlendirmeleri ve 'anı yaşamaları' için ilham verebilirsin.\n\nYeni Deneyimleri Kucaklamak, Yeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.\n\nBaşkalarına İlham Vermek, Çok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.\n\nİş Dünyasında Gücünü kullanmak, Deneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.\n\nBu gücün, karmaşık projeleri ve hızlı hareket eden endüstrileri yönetmene yardımcı olur ve seni dinamik ortamlarda liderlik pozisyonlarına uygun hale getirir. Keşiflerini paylaşarak ilerlemeyi teşvik edersin ve çevrendekilere de aynı keşif ve büyüme zihniyetini benimsemeleri için ilham verebilirsin.";
+var guclu_yanlarin_35_36_2 = "İş ve hayatında ilerlemeyi sağlamak için birçok şeyi denemeye gönüllü olabilirsin. Büyüme ve yenilik vaat eden toplu deneyimlerden bilgelik toplama konusunda motive oluyorsun. Çeşitli deneyimlerin birikimi olan değerli içgörülerini etrafındakiler ile paylaşabilirsin. Çevrenizdeki insanlara her anı değerlendirmeleri ve 'anı yaşamaları' için ilham verebilirsin.\n\nYeni Deneyimleri Kucaklamak\nYeni deneyimler aracılığıyla bilgelik edinme ve keşfetme arzun, yenilik ve adaptasyonla beslenen iş dünyasında çok önemli bir yer tutar. Her duruma yeni bir bakış açısıyla yaklaşarak iyileştirme ve yenilik yapma yollarını arayabilirsin. Geriye dönüşler veya zorluklarla karşılaştığında bile, deneyimin içinde kaybolmadan ilerlemeyi sürdürme kapasiten var.\n\nBaşkalarına İlham Vermek\nÇok çeşitli durumlar yaşamış biri olarak, başkaları için bir ilham kaynağı olabilirsin. Yeni şeyler deneme konusundaki açıklığın, zorluklar karşısındaki dayanıklılığın ve kazandığın bilgeliği paylaşma yeteneğin, başkalarını kendi deneyimlerini kucaklamaya ve hedeflerine coşkuyla ulaşmaya teşvik edebilir. Başarıya ulaşmanın bilinmeyeni keşfetmekten ve her fırsatı en iyi şekilde değerlendirmekten geçtiğini göstererek liderlik edebilirsin.\n\nİş Dünyasında Gücünü kullanmak\nDeneyimleme gücün, uyum sağlama, yenilik ve hızlı tempolu ortamlarda liderlik gerektiren rollerde değerli bir değerdir. Ürün geliştirme, araştırma-geliştirme, stratejik planlama gibi sürekli keşif ve değişim gerektiren pozisyonlarda başarılı olabilirsin. Liderlik rollerinde, yeni deneyimlere olan coşkun, deneme ve sürekli öğrenme kültürünü teşvik ederek ekibini başarıya yönlendirebilirsin. Her deneyimi korkusuzca kucaklama yeteneğin, sınırları zorlamana, yenilikçi çözümler üretmene ve organizasyonun büyümesini sağlamana olanak tanıyabilir.\n\nBu gücün, karmaşık projeleri ve hızlı hareket eden endüstrileri yönetmene yardımcı olur ve seni dinamik ortamlarda liderlik pozisyonlarına uygun hale getirir. Keşiflerini paylaşarak ilerlemeyi teşvik edersin ve çevrendekilere de aynı keşif ve büyüme zihniyetini benimsemeleri için ilham verebilirsin.";
 
 var guclu_yanlarin_56_11_1 = "“Merak” Gücü (11-56)";
-var guclu_yanlarin_56_11_2 = "Sürekli zihinsel uyarımlar aramaya, yeni fikirleri ve etrafındaki dünyayı görmenin yollarını keşfetmeye meraklısın. Spesifik bir şey bulmayı amaçlamazsın, daha ziyade “Bakın ne keşfettim!” diyerek paylaşımda bulunmak sana daha uygun olabilir.\n\nYaratıcılığı Serbest Bırakmak, Felsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.\n\nHikayeler Yaratmak, Soyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.\n\nVizyonuna İnanmak, Bir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.\n\nİş Dünyasında Gücünü Kullanmak, Merak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir.\n\nMerak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
+var guclu_yanlarin_56_11_2 = "Sürekli zihinsel uyarımlar aramaya, yeni fikirleri ve etrafındaki dünyayı görmenin yollarını keşfetmeye meraklısın. Spesifik bir şey bulmayı amaçlamazsın, daha ziyade “Bakın ne keşfettim!” diyerek paylaşımda bulunmak sana daha uygun olabilir.\n\nYaratıcılığı Serbest Bırakmak\nFelsefi yansımalarına dayanan fikirleri ve hikayeleri bir araya getirdiğinde, yaratıcılığın ve sunum tarzın büyüleyici hale gelir. Bu eşsiz merak ve yaratıcılık karışımı, bilgiyi başkalarını büyüleyecek ve ilham verecek şekilde sunmana olanak tanır.\n\nHikayeler Yaratmak\nSoyut fikirleri alıp onları bir hikayeye dönüştürme yeteneğine sahipsin, bu da izleyicilerin için öğretici ve eğlenceli olabilir. Karmaşık kavramları çekici anlatılara dönüştürme yeteneğin seni mükemmel bir iletişimci yapar ve çeşitli izleyicilerin dikkatini çekmene olanak tanır.\n\nVizyonuna İnanmak\nBir şeye inanma kapasiten onu senin için gerçek kılar ve hikayelerinin hayat deneyimlerini paylaşma şeklinin, gerçeklerden ziyade, daha çok nasıl paylaşıldığına ilgi duyarsın. Bu inanç odaklı yaklaşım, izleyicinle derin bir bağ kurmanı sağlar ve onlara da yeni bir perspektif sunar.\n\nİş Dünyasında Gücünü Kullanmak\nMerak gücünü iş dünyasının çeşitli alanlarında kullanabilirsin. Yenilik ve ürün geliştirme alanında, yeni fikirleri keşfetme yeteneğin çığır açan çözümler getirebilir. Pazarlama ve hikaye anlatımında, çekici anlatılar yaratma yeteneğin izleyicileri etkileyip dönüştürebilir. Ayrıca, liderlik rollerinde, merak odaklı yaklaşımın sürekli öğrenme ve gelişim kültürünü teşvik edebilir.\n\nMerak gücün, iş dünyasında yaratıcılık, inanç odaklı vizyon ve hikaye anlatma yeteneği sentezleyen güçlü bir özelliktir. Bu gücü kullanarak, başkalarına ilham verebilir, yeniliği teşvik edebilir ve organizasyonunu daha büyük bir başarıya yönlendirebilirsin.";
 
 var guclu_yanlarin_10_34_1 = "“İnanç” Gücü (34-10)";
-var guclu_yanlarin_10_34_2 = "Kendi gerçeğini sarsılmaz bir inançla takip etme gücüne sahipsin. Karşına çıkan engellere rağmen bağımsız ve otantik bir şekilde davranma içsel gücüne sahipsin. Belirli bir inancı benimsediğinde, ne kadar alışılmadık görünse de, seni bu inançtan döndürmek neredeyse imkansız olabilir. Güçlü varlığın ve bireyselliğin doğal olarak dikkat çeker, ancak asıl olarak kendin olmaya bağlı kalarak başkalarına da kendi inançları ve gerçekleriyle bağlantı kurmaları için ilham verirsin.\n\nKendin Olmak, Davranışlarını çeşitli durumlara uyarlayabilirken, kim olduğuna sadık kalma yeteneğine sahipsin. Kendine güvenmeyi, kendini sevmeyi ve kabul etmeyi öğrendiğinde, seni benzersiz kılan özellikleri tam anlamıyla kucaklarsın. Bu otantiklik, seni kendi hayatını kendi olarak yaşaman için güçlendirir ve başkalarını da aynı şeyi yapmaları için cesaretlendirir.\n\nKişisel Güç, Kişisel gücün, seni benzersizliğini sergilemeye iten etkileyici bir enerji kaynağıdır. Bu özellik tamamen senin kullanımına özgüdür, başkaları tarafından hayranlıkla karşılanıp kullanılmak istense bile başkalarının erişimine açık değildir. Bu kişisel güç, bağımsızlığını destekler, seni inançlarına göre hareket etmeye yönlendirir ve otantik bir şekilde hayatta kalman ve başarılı olman için seni güçlendirir.\n\nİş Dünyasında Gücünü Kullanmak, İnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.\n\nİnanç gücün, otantik bir şekilde liderlik yapmanı, başkalarına inançlarının arkasında durmaları için ilham vermeni ve bütünlük ile kişisel gücün geliştiği bir ortam yaratmanı sağlar. Kendi gerçeğine sarılarak ve bu doğrultuda hareket ederek, ilerleme kaydedebilir ve dayanıklılık ve yenilikçilik kültürü yaratabilirsin.  ";
+var guclu_yanlarin_10_34_2 = "Kendi gerçeğini sarsılmaz bir inançla takip etme gücüne sahipsin. Karşına çıkan engellere rağmen bağımsız ve otantik bir şekilde davranma içsel gücüne sahipsin. Belirli bir inancı benimsediğinde, ne kadar alışılmadık görünse de, seni bu inançtan döndürmek neredeyse imkansız olabilir. Güçlü varlığın ve bireyselliğin doğal olarak dikkat çeker, ancak asıl olarak kendin olmaya bağlı kalarak başkalarına da kendi inançları ve gerçekleriyle bağlantı kurmaları için ilham verirsin.\n\nKendin Olmak\nDavranışlarını çeşitli durumlara uyarlayabilirken, kim olduğuna sadık kalma yeteneğine sahipsin. Kendine güvenmeyi, kendini sevmeyi ve kabul etmeyi öğrendiğinde, seni benzersiz kılan özellikleri tam anlamıyla kucaklarsın. Bu otantiklik, seni kendi hayatını kendi olarak yaşaman için güçlendirir ve başkalarını da aynı şeyi yapmaları için cesaretlendirir.\n\nKişisel Güç\nKişisel gücün, seni benzersizliğini sergilemeye iten etkileyici bir enerji kaynağıdır. Bu özellik tamamen senin kullanımına özgüdür, başkaları tarafından hayranlıkla karşılanıp kullanılmak istense bile başkalarının erişimine açık değildir. Bu kişisel güç, bağımsızlığını destekler, seni inançlarına göre hareket etmeye yönlendirir ve otantik bir şekilde hayatta kalman ve başarılı olman için seni güçlendirir.\n\nİş Dünyasında Gücünü Kullanmak\nİnanç gücün iş dünyasında değerli bir özelliktir. Karşına çıkan zorluklara rağmen inançlarının arkasında durma ve bağımsız hareket etme yeteneğin, ekiplerin ortak hedeflere ulaşması için güven aşılamak ve onları motive etmek adına çok önemli olabilir. Yenilikçilik ve otantikliğin ön planda olduğu sektörlerde, ilkelere sarsılmaz bağlılığın, sınırları zorlamana ve örnek olarak liderlik etmene olanak tanır. Özellikle üst düzey liderlik rolleri için, güçlü inançlar şirketleri belirsiz veya zorlu zamanlarda yönlendirmeye yardımcı olabilir. Diğer insanlara da otantik ve kararlı bir şekilde hareket etmeleri için ilham verme yeteneğin, ekibinde veya organizasyonunda bütünlük ve dayanıklılık kültürü oluşturur.\n\nİnanç gücün, otantik bir şekilde liderlik yapmanı, başkalarına inançlarının arkasında durmaları için ilham vermeni ve bütünlük ile kişisel gücün geliştiği bir ortam yaratmanı sağlar. Kendi gerçeğine sarılarak ve bu doğrultuda hareket ederek, ilerleme kaydedebilir ve dayanıklılık ve yenilikçilik kültürü yaratabilirsin.  ";
   
 //Bunlar gates 
 var guclu_yanlarin_15_1 = "Güven Kaynağı";
-var guclu_yanlarin_15_2 = "Güven ve İstikrar İnşa Etmek, İnsanları bir araya getirip uyumlu ve güvenilir bir ekip oluşturma konusunda doğal bir yeteneğe sahipsin. Varlığın, gruba istikrar ve güvenlik hissi katar. Farklı bireyleri bağlı ve uyumlu bir ortamda bir araya getirerek, insanların rahat ve desteklenmiş hissettiği bir atmosfer yaratabilirsin.\n\nBağlantıyı Güçlendirmek, Güvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.\n\nGüvenilir Bir Çevre Yaratmak, Ekip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar.\n\nİş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
+var guclu_yanlarin_15_2 = "Güven ve İstikrar İnşa Etmek\nİnsanları bir araya getirip uyumlu ve güvenilir bir ekip oluşturma konusunda doğal bir yeteneğe sahipsin. Varlığın, gruba istikrar ve güvenlik hissi katar. Farklı bireyleri bağlı ve uyumlu bir ortamda bir araya getirerek, insanların rahat ve desteklenmiş hissettiği bir atmosfer yaratabilirsin.\n\nBağlantıyı Güçlendirmek\nGüvenilirliğin sayesinde ekip üyeleri arasında aidiyet hissini artırırsın. İnsanlar birbirlerine güçlü bir bağ hisseder, bu da grup içinde sadakati teşvik eder. Tutarlı bir yaklaşım sergileyerek, güven ve karşılıklı saygıya dayalı ilişkilerin gelişmesini sağlayabilirsin.\n\nGüvenilir Bir Çevre Yaratmak\nEkip içinde güven duygusu oluşturma yeteneğin çok değerli. İnsanlar birbirlerine güvenebildiklerinde, kendilerini güvende hisseder ve iş birliği içinde çalışmak için motive olurlar. Bu durum, liderlik ve ekip yönetimi rollerinde özellikle önemlidir, çünkü güven duygusu, daha yüksek verimlilik ve çalışan memnuniyeti sağlar.\n\nİş Dünyasında Yetkinliğini Kullanmak\nİş dünyasında, güvenilirlik yetkinliğin ekip liderliği, insan kaynakları veya proje yönetimi gerektiren rollerde kullanılabilir. Tutarlı ve güvenilir yaklaşımın, grup dinamiklerini sağlamlaştırır ve uzun vadeli istikrarı garanti eder. Bağlantı ve güven oluşturma yeteneğini kucaklayarak, ekiplerin geliştiği, verimli çalıştığı ve birlikte büyüdüğü ortamlar yaratabilirsin.  ";
 
 var guclu_yanlarin_5_1 = "Kültür Mimarı";
-var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak, Bir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur.\n\nGrup Kimliğini Şekillendirmek, Yetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.\n\nBaşarıyı Yapılandırma ile Desteklemek, Güvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir.\n\nİş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
+var guclu_yanlarin_5_2 = "Kapsayıcı ve Etkili Bir Ortam Yaratmak\nBir grubun kültürünü oluşturma konusunda doğal bir yeteneğe sahipsin. Grubun nasıl işlediğini düzenlemekten, insanların nasıl etkileşime girdiğini yönlendirmeye, giyim kurallarını ve toplantı saatlerini belirlemeye kadar olan süreçlerde etkili olabilirsin. Etkin, tutarlılık ve profesyonellik dolu bir atmosfer yaratmaya yardımcı olur.\n\nGrup Kimliğini Şekillendirmek\nYetkinliğin, bir grubun kendini nasıl tanımladığı üzerinde şekillendirici bir güce sahiptir. İnsanların nasıl iletişim kurduğundan, nelere odaklandıklarına kadar pek çok alanda söz sahibi olabilirsin. Grubun sözsüz kurallarını oluşturur, herkesin “burada işler böyle yürür” anlayışını benimsemesini sağlarsın. Bu tutarlılık, başarılı davranışları ve grupta aidiyet duygusunu teşvik eder.\n\nBaşarıyı Yapılandırma ile Desteklemek\nGüvenilir kalıplar ve normlar yaratarak bireylerin kendilerini güvende ve desteklenmiş hissettiği bir ortam yaratırsın. Bu yerleşik uygulamalar, verimliliği artırır ve daha iyi grup dinamiklerine yol açar, böylece ekip üyelerinin gelişmesini sağlarsın. Davranış kalıplarını şekillendirmedeki rolün, başarılı ve uyumlu bir çalışma ortamının korunmasında hayati bir öneme sahiptir.\n\nİş Dünyasında Yetkinliğini Kullanmak\nİş dünyasında, kültür oluşturma yetkinliğin insan kaynakları, ekip yönetimi ve organizasyon geliştirme ve liderlik gibi rollerde çok değerlidir. Uyumlu bir kültür oluşturarak, ekiplerin iyi performans gösterdiği, birbirine güvendiği ve ortak hedeflere ulaştığı ortamlar yaratmana yardımcı olursun. Tutarlı uygulamalar oluşturma yeteneğin, bir grubun iç işleyişinin sorunsuz ve etkili bir şekilde yürümesini sağlar, hem organizasyonun hem de çalışanların başarıya ulaşmasını kolaylaştırır. ";
 
 var guclu_yanlarin_46_1 = "Harmoni Yaratıcısı";
-var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek, Parçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın.\n\nOdaklanmak, Ekibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.\n\nDenge ve Uyumu Teşvik Etmek,  Ekibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.\n\nDeğişime Uyum Sağlama, Koordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
+var guclu_yanlarin_46_2 = "Ekibi Stabilize Etmek\nParçası olduğun ekibe doğal bir stabilite kazandırma yeteneğine sahipsin, bu da uyumlu ve iyi işleyen bir ekip oluşturmanı sağlar. Herkesin görevlere odaklanmasını ve hazır olmasını sağlayarak grubun karakterinin gelişmesine olanak tanırsın.\n\nOdaklanmak\nEkibi yapılması gereken işe odaklı tutarsın. Bu odak duygusunu yaratma yeteneğin, ekibin verimli kalmasına ve hedeflerine uyum sağlamasına yardımcı olur.\n\nDenge ve Uyumu Teşvik Etmek\nEkibin dengeli ve uyumlu bir şekilde çalışmasını sağlarsın, böylece herkes müşterilerle, tedarikçilerle ve birbirleriyle rahatça etkileşime girebilir. Bu içsel uyum, pozitif bir çalışma ortamı yaratır ve güçlü dış ilişkiler kurar.\n\nDeğişime Uyum Sağlama\nKoordinasyon becerilerin, grubun dış değişikliklere adapte olmasına yardımcı olur. Pazar değişiklikleri veya gelişen proje talepleri gibi durumlarda ekibin sorunsuz ve verimli bir şekilde uyum sağlamasına yardımcı olur, onları yeni zorluklara karşı çevik ve yanıt verebilir durumda tutabilirsin.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, grup koordinasyonu ve harmonizasyon yeteneğin proje yönetimi, ekip liderliği ve müşteri ilişkileri gibi rollerde kullanılabilir. Grubu stabil hale getirme ve dengeyi teşvik etme yeteneğin, verimli ekipler ve güçlü dış ilişkiler oluşturur. Uyum sağlama yeteneğini kucaklayarak, organizasyonunu değişimlerin üstesinden getirip sürekli başarıyı garanti edebilirsin.  ";
 
 var guclu_yanlarin_29_1 = "Amaca Bağlayıcı";
-var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme, Bir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.\n\nSadakat ve Güven Aşılamak, Takım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.\n\nAdanmış Bir Takım Ortamı Yaratma, Varlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
+var guclu_yanlarin_29_2 = "Takım Bağlılığını Güçlendirme\nBir grubu birleştirerek herkesi ortak bir hedefe yönlendirme konusunda doğal bir yeteneğe sahipsin. Varlığın, herkesin çalışmaya bağlı kalmasını sağlar ve ortak bir amaç ve adanmışlık duygusu yaratır.\n\nSadakat ve Güven Aşılamak\nTakım içinde güçlü bir sadakat ve aidiyet duygusu oluşturabilirsin. Bağlılığı teşvik etme yeteneğin, herkesin grubun başarısına katkıda bulunma sorumluluğunu taşımasını sağlar. Bu, “Birimiz hepimiz, hepimiz birimiz için” ruhunu yansıtır.\n\nAdanmış Bir Takım Ortamı Yaratma\nVarlığın, insanların takımın iyiliği için çalışmasını teşvik eder. Bireylerin sorumluluklarını yerine getirmesine ve uyum içinde iş birliği yapmasına yardımcı olursun. Bu, takımda yüksek düzeyde bağlılık ve sadakat sağlar.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, bağlılığı güçlendirme yetkinliğin ekip liderliği, proje yönetimi veya insan kaynakları gibi rollerde ve parçası olduğun tüm ekiplerde çok değerlidir. İnsanları bir araya getirip ortak bir hedefe bağlılıklarını sağlama yeteneğin, verimliliği artırır, sadakat oluşturur ve güven ortamı yaratır. Bu yetkinlik, uzun vadeli başarıyı elde etmek ve ekipleri motive edip odaklanmış tutmak için kritik önemdedir.  ";
 
 var guclu_yanlarin_14_1 = "Kaynak Yaratıcı"
-var guclu_yanlarin_14_2 = "Başarı İçin Kaynak Yaratmak, Bir işletmenin başarılı olması için gereken para, insan gücü veya gerekli malzemeler gibi kaynakları çekme ve üretme yeteneğine sahipsin. Varlığın, ekibin taahhütlerini yerine getirebileceği ve sözlerini tutabileceği güvenini verir. Bu yetkinlik, projelerin ilerlemesini ve hedeflerin karşılanmasını garanti eder.\n\nİş Başarısını Güvenceye Almak, Katkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun.\n\nSözleri Gerçekleştirmek, Sen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin.\n\nİş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
+var guclu_yanlarin_14_2 = "Başarı İçin Kaynak Yaratmak\nBir işletmenin başarılı olması için gereken para, insan gücü veya gerekli malzemeler gibi kaynakları çekme ve üretme yeteneğine sahipsin. Varlığın, ekibin taahhütlerini yerine getirebileceği ve sözlerini tutabileceği güvenini verir. Bu yetkinlik, projelerin ilerlemesini ve hedeflerin karşılanmasını garanti eder.\n\nİş Başarısını Güvenceye Almak\nKatkın ekip içinde bir güven duygusu yaratır çünkü insanlar başarmak istedikleri şeyleri elde edebileceklerine inanırlar. Ekibin ihtiyaç duyduğu para ve kaynakları sağlayabilir, uzun vadeli başarı ve istikrarın temelini oluşturursun.\n\nSözleri Gerçekleştirmek\nSen işin içinde olduğunda, insanlar ekibin gerekli olan her şeye sahip olacağına güvenirler. Hedeflere ulaşmak için gereken her şeyin mevcut olduğunu ya da üretilebileceğini bilerek, verimli ve motive olmuş bir ekip ortamı yaratabilirsin.\n\nİş Dünyasında Yetkinliğini Kullanmak\nİş dünyasında, kaynak yaratma yetkinliğin kaynak yönetimi, proje yürütme ve finansal planlama gibi rollerde çok değerlidir. Ekibine gereken kaynakları toplayarak, işletmelerin planlanan hedeflerde ilerlemesini sağlayabilirsin. Bu yetkinlik, özellikle liderlik rollerinde önemli olup, organizasyonun  verimli ve üretken bir şekilde çalışmasını sağlar." 
 
 var guclu_yanlarin_2_1 = "Yön Belirleyici";
-var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme, Bir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.\n\nBüyümeyi Destekleme, Planlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.\n\nKaynak Yönetimi, Ekibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar.\n\nİş Dünyasında Yetkinliğini Kullanmak, İş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
+var guclu_yanlarin_2_2 = "Başarı İçin Yön Belirleme\nBir işletme için net bir yön belirleme yeteneğine sahipsin ve ekibe mevcut kaynakların en iyi şekilde nasıl kullanılacağı konusunda rehberlik edersin. İçgörün, ekibin ürün veya hizmetlerini nasıl pazarlayacaklarını, geleceğe dair nasıl plan yapacaklarını ve günlük operasyonları hassasiyetle yönetmelerine yardımcı olur. Ekibi ortak bir vizyon etrafında hizalayarak, herkesin işin nereye gittiğini ve başarıya ulaşmak için kaynakların nasıl tahsis edilmesi gerektiğini bilmesini sağlarsın.\n\nBüyümeyi Destekleme\nPlanlama ve kaynak yönetimi konusundaki yetkinliğin, ekibin zaman ve parayı nereye yatırması gerektiğini görmesine olanak tanır. İşletmenin önceliklerini belirlemesine yardımcı olur ve kaynakları etkili bir şekilde tahsis ederek, ekibin doğru yolda ilerlemesini sağlarsın, zaman veya çaba boşa harcanmaz.\n\nKaynak Yönetimi\nEkibe kaynakları verimli bir şekilde kullanma konusunda rehberlik edebilir ve kapasitelerini anlamalarına ve akıllıca kullanmalarına yardımcı olabilirsin. Mevcut fonların veya malzemelerin en iyi kullanımını öngörme yeteneğin, finansal ve stratejik karar alma süreçlerinde kritik bir rol oynamanı sağlar.\n\nİş Dünyasında Yetkinliğini Kullanmak\nİş dünyasında, vizyonun ve yön berlilemen ekiplerin hem uzun vadeli hedeflere odaklanmasına hem de kısa vadeli görevleri optimize etmesine olanak tanır. Liderlik, stratejik planlama veya finansal yönetim gibi alanlarda çalışsan da, sağladığın yön ile işletmelerin büyümesine katkıda bulunursun. Yetkinliğini kaynak tahsisini yönetmeye uygulayarak, projelerin yolunda gitmesini, hedeflerin karşılanmasını ve ekibin uyumlu kalmasını sağlayabilirsin.  ";
 
 var guclu_yanlarin_1_1 = "Satış Ustası";
-var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek, Bir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.\n\nSatışı Gerçekleştirmek, Ürün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.\n\nSonuç Odaklı Olmak, Senin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
+var guclu_yanlarin_1_2 = "Vizyonu Eyleme Dönüştürmek\nBir vizyonu eyleme geçirme yeteneğine sahipsin. Bu yetenek, fikirlerin somut sonuçlara dönüştüğü, ürün veya hizmetlerin müşterilere ulaştığı noktayı garanti eder. Yaratıcı stratejiler uygulayarak, ekibin çabalarının elle tutulur başarılar getirmesini sağlayabilirsin.\n\nSatışı Gerçekleştirmek\nÜrün veya hizmetleri müşterilere ulaştırması sürecini yönetme konusunda beceriklisin. Etkili satış stratejileri ve pazarlama planları geliştirerek her şeyin hedef kitleye ulaşmasını garanti edersin. Operasyonların sorunsuz yürümesini sağlayarak, işlerin zamanında ve eksiksiz tamamlanmasını sağlarsın.\n\nSonuç Odaklı Olmak\nSenin gücün, planların ve projelerin başarıyla uygulanmasını sağlamaktır. Stratejiler geliştirme ve bunları hayata geçirme becerin, satışların artmasını ve işlerin büyümesini destekler. Bu yetenek, iş dünyasında başarılı olmanın en kritik unsurlarından biridir.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında satış yetkinliğin, pazarlama, satış veya operasyon yönetimi gibi alanlarda çok değerlidir. Planları başarıyla hayata geçirme yeteneğin, ekibin vizyonunu gerçeğe dönüştürerek iş verimliliğini artırır. Bu yeteneğin, uzun vadeli iş başarısı ve müşteri memnuniyetini sağlamak için kilit rol oynar.  ";
 
 var guclu_yanlarin_8_1 = "İmaj Yöneticisi";
-var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak Dikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.\n\nEkibin Çalışmalarını Tanıtmak Ekibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.\n\nRol Model Olmak ve İlham Vermek Grubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
+var guclu_yanlarin_8_2 = "Görünürlük ve Bilinirlik Kazanmak\nDikkat çekme ve ekibin ön plana çıkmasına yardımcı olma konusunda doğal bir yeteneğe sahipsin. Bu yetenek, ekibinin çabalarının ve başarılarının fark edilmesini ve takdir edilmesini sağlar. Ekibin hedeflerini tanıtmak için yaratıcı bir şekilde katkıda bulunarak, organizasyonun kalıcı bir izlenim bırakmasına yardımcı olursun.\n\nEkibin Çalışmalarını Tanıtmak\nEkibin çalışmalarını öne çıkarma yeteneğin, olumlu bir imaj oluşturur. Ekibin ne yaptığını insanlara anlatmada ve bunu ilgi çekici bir şekilde sunmada iyisin. Bu, saygı ve takdir kazanan güçlü, tanınabilir bir marka oluşturulmasına yardımcı olur.\n\nRol Model Olmak ve İlham Vermek\nGrubun neyi temsil ettiğini göstermede ve öne çıkmada beceriklisin. Ekip değerlerini ve vizyonunu başkalarına nasıl aktaracağını göstererek bir rol model ve lider olarak hizmet edersin. Bu, meslektaşlarına ilham verir ve onları ortak hedeflere en iyi şekilde katkıda bulunmaya teşvik eder.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında yetkinliğin pazarlama, iletişim ve marka yönetimi gibi alanlarda çok önemlidir. Dikkat çekme ve ilgi yaratma becerin, ekibin tanınmasını, fırsatları yakalamasını ve güçlü bir itibar oluşturmasını sağlar. Bu yeteneğini etkili bir şekilde kullanarak, organizasyonunun anlamlı bağlantılar kurmasına ve başarıya ulaşmasına destek olabilirsin.";
 
 var guclu_yanlarin_7_1 = "Stratejik Planlayıcı";
-var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme, Geleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.\n\nPazar Anlayışı, Planlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.\n\nKaynakların Verimli Kullanımı, Zaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
+var guclu_yanlarin_7_2 = "Stratejik İleriye Yönelik Düşünme\nGeleceğe başarılı bir şekilde ilerlemek için mantıklı ve ayrıntılı planlar yapma yeteneğine sahipsin. Yetkinliğin, ne yapılması gerektiğini belirlemede ve doğru kişilerin, doğru zamanda doğru işleri yapmasını sağlamada yatar. Etkili planlaman sayesinde grup, araştırma, geliştirme ve büyümeye yatırım yaparak gelecekteki başarıyı güvence altına alabilir.\n\nPazar Anlayışı\nPlanlama yeteneğin, grubun mevcut ihtiyaçlarının ötesine geçer. Pazar trendlerini belirlemeye, müşteri taleplerini anlamaya ve sektördeki ilerlemeleri takip etmeye yardımcı olursun. Bu öngörü, ekibin her zaman pazarın talepleriyle uyumlu olmasını ve gerektiğinde değişiklik yapabilmesini sağlar.\n\nKaynakların Verimli Kullanımı\nZaman çizelgelerini organize etme ve kaynakları verimli bir şekilde tahsis etme konusunda uzmansın. Doğru araçların, insanların ve malzemelerin yerinde olmasını sağlayarak ekibin odaklanmasını ve üretkenliğini artırabilirsin. Planlaman, çabaların boşa gitmesini en aza indirir ve çıktıyı maksimize ederek grubun hedeflerine ulaşmasını sağlar.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, stratejik planlama becerilerin stratejik planlama, operasyon yönetimi veya proje yönetimi ile ilgili rollerde çok değerlidir. Net bir yol haritası çizme yeteneğin, grubun hedeflerine ulaşmasını, son teslim tarihlerini karşılamasını ve projelerini başarıyla tamamlamasını sağlar. Planlama yeteneğin sayesinde işin uzun vadeli başarısını güvence altına alabilirsin.  ";
 
 var guclu_yanlarin_31_1 = "Uygulama Ustası";
-var guclu_yanlarin_31_2 = "Planları Verimli Şekilde Uygulamak, Bir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.\n\nBaşarı İçin Roller Atamak, Ana yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.\n\nistemlerini Yönetmek, İşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.";
+var guclu_yanlarin_31_2 = "Planları Verimli Şekilde Uygulamak\nBir planı alıp eyleme geçirme yeteneğin var. Ekibin her üyesinin görevlerini yerine getirmesini ve gereken işleri yapmasını sağlayabilirsin. Bu yetenek, işleri organize tutmayı ve hedeflerin sorunsuz bir şekilde gerçekleştirilmesini sağlamayı içerir.\n\nBaşarı İçin Roller Atamak\nAna yeteneklerinden biri, her ekip üyesine uygun bir rol vermek ve planın etkili bir şekilde uygulanmasını sağlamaktır. Doğru kişileri doğru rollere yerleştirerek projenin veya işin başarılı olmasını sağlayabilirsin.\n\nistemlerini Yönetmek\nİşin verimli bir şekilde işlemesini sağlayan sistemler geliştirme ve yönetme yetkin var. Müşteri hizmetleri protokolleri oluşturmaktan çalışan el kitaplarına kadar, işin iç işleyişinin düzenli ve verimli olmasını sağlarsın.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, bu yetkinlik proje yönetimi, ekip koordinasyonu ve müşteri hizmetleri gibi rollerde çok değerlidir. İnsanları ve süreçleri organize etme becerin, planların verimli bir şekilde uygulanmasını sağlar ve daha iyi sonuçlara yol açar.";
 
 var guclu_yanlarin_13_1 = "Rakam Stratejisti";
-var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek, Bir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.\n\nFinansal Büyümeyi Sağlamak, Bir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.\n\nDetaylı Kayıtları Tutmak, Detaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.\n\nVerilerle Güveni Sürdürmek, Doğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.";
+var guclu_yanlarin_13_2 = "Karlılık ve İş Sağlığını İzlemek\nBir işin finansal sağlığını takip etme konusunda kritik bir yeteneğe sahipsin. İster kar, zarar, ister kayıtların yönetimi olsun, yeteneğin işletmelerin sürdürülebilir bir şekilde büyümesine katkı sağlar.\n\nFinansal Büyümeyi Sağlamak\nBir işin karlı olup olmadığını belirlemede kilit rol oynarsın. Kârları, zararları ve genel finansal eğilimleri analiz ederek, şirketin büyümesi veya rekabetçi kalması için gerekli olan temel bilgileri sağlarsın.\n\nDetaylı Kayıtları Tutmak\nDetaylı kayıtları yönetme yeteneğin, işletmenin finansal geçmişini takip etmesine yardımcı olur. Bu, fiyatlandırma, gelecekteki yatırımlar ve ürün geliştirme hakkında bilinçli kararlar almak için çok önemlidir. İnsanlar, net bir geçmişe sahip işletmelere güvenir ve sen bu güvenin doğru olarak  kazanıldığından emin olabilirsin.\n\nVerilerle Güveni Sürdürmek\nDoğru ve güvenilir kayıtlar tutarak, müşterilere işletmeye olan güveni verirsin. Sağlam bir geçmişe sahip şirketler güven ve itibar kazandırır. Finansal doğruluğu sağlamadaki rolün, uzun vadeli güven inşa etmek için esastır.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, yetkinliğin finans, muhasebe, raporlama ve yönetimle ilgili rollerde paha biçilmezdir. Kârı izleme, finansal kayıtları yönetme ve önemli iş içgörüleri sağlama konusundaki uzmanlığın, organizasyonun sağlam bir finansal zeminde kalmasını sağlar.";
 
 var guclu_yanlarin_33_1 = "Gözlem Ustası";
-var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak, Tüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.\n\nGeçmişten Ders Çıkarmak, Geçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.\n\nSorumluluğu Sağlamak, Gözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.\n\nİş Dünyasında Yeteneğini Kullanmak, İş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır.";
+var guclu_yanlarin_33_2 = "Düzenli İşleyişi Sağlamak\nTüm operasyonları gözetim altında tutma ve her şeyin sorunsuz çalışmasını sağlama konusunda eşsiz bir yeteneğe sahipsin. Varlığın, görevlerin doğru bir şekilde tamamlanmasını, son teslim tarihlerine uyulmasını ve herkesin ne yapması gerektiğini bilmesini sağlar. Detaylara olan dikkatin, organizasyonun düzenini ve verimliliğini korumaya yardımcı olur.\n\nGeçmişten Ders Çıkarmak\nGeçmişteki deneyimlerden öğrenerek, gelecekte başarıya ulaşmak için değerli dersleri uygulayabilirsin. Daha önce neyin işe yarayıp neyin yaramadığını gözlemleme yeteneğin, hataların önlenmesine ve süreçlerin iyileştirilmesine yardımcı olur.\n\nSorumluluğu Sağlamak\nGözetimin sayesinde insanlar işlerinden sorumlu kalırlar. Görevlerin planlandığı gibi tamamlanmasını ve karşılaşılan zorlukların ele alınmasını sağlarsın. İlerlemeyi izleme ve kontrol etme yeteneğin, hiçbir detayın gözden kaçmamasını sağlar ve ekibi hedefte tutar.\n\nİş Dünyasında Yeteneğini Kullanmak\nİş dünyasında, operasyonları gözetme ve detayları yönetme yeteneğin, ekip liderliği veya yönetim gibi rollerde değerlidir. Politikalar oluşturabilir, şikayetleri etkin bir şekilde ele alabilir ve ekibinde sadakat duygusu yaratabilirsin. Bu yetkinlik, her şeyin zamanında ve en yüksek standartlarda yapılmasını sağlayarak verimliliği ve büyümeyi artırır.";
 
 //Güçlü Yanların İngilizce
 var guclu_yanlarin_57_10_eng_1 = "The Strength of “Perfected Form” (57-10)";
@@ -2849,23 +3524,23 @@ var is_y_r_6_s2_5 = "Rolün, önce deneme yanılma yöntemiyle öğrenme ve ard�
 var is_y_r_6_s3_1 = "Fırsatlar, hayatın erken dönemlerinde zorluklarla yüzleşme ve bunlardan öğrenme yeteneğinden gelir. Deneme yapma, sorun çözme ve büyüme fırsatlarının olduğu ortamlarda gelişirsin. Liderlik odaklı bir aşamaya geçtikçe, insanlar doğal olarak tavsiyen için sana başvurur, seni güvenilir bir rehber olarak görür.";
 var is_y_r_6_s3_2 = "Rolün, deneyimlerinden öğrenmek ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Hem kişisel gelişiminde hem de profesyonel yolculuğunda hayatın sana sunduğu dersleri kucaklayarak hayat amacını yerine getirirsin. Hayatın farklı aşamalarından geçerken, uyum sağlama ve gelişme yeteneğin seni etkili bir lider yapar. İster aktif olarak sorunları çöz, ister stratejik tavsiyeler sun, katkıların başkalarına kendi yollarını bulmalarında yardımcı olur. Başarı, sürecine güvenip liderliğinin doğal olarak ortaya çıkmasına izin verdiğinde gelir.";
 
-var is_y_r_7_s2_0 = "Etkileyici/Lider";
-var is_y_r_7_s2_1 = "Etkileyici Lider";
-var is_y_r_7_s2_2 = "Hayat yolculuğun güçlü ve anlamlı bağlantılar kurma ve çevrendekileri etkileme yeteneğinle şekillenir. Hayatının erken dönemlerinde, ilişkiler geliştirmeye ve ağ kurmaya odaklanırsın, bu da seni doğal olarak bir bağlantı sağlayıcı ve etkileyici pozisyonuna getirir. Olgunlaştıkça, Rolün liderlik yönüne kayar ve tecrüben ve bilgin, başkalarına rehberlik etmeni ve onları yönlendirmeni sağlar. İnsanlar doğal olarak sana çekilir ve etkileyici liderlik yeteneğini birleştirme becerin hem kişisel hem de profesyonel ortamlarda güvenilir bir figür olmanı sağlar.";
-var is_y_r_7_s2_3 = "Gücün, güçlü kişisel bağlantılar kurma ve doğal bir otorite duygusuyla başkalarını etkileme yeteneğinde yatar. İş dünyasında, ağ kurma ve ittifaklar oluşturma konusunda mükemmelsin, bu da sana fırsat kapıları açar. Kiminle bağlantı kuracağını ve bu ilişkileri ekibin ya da organizasyonun yararına nasıl kullanacağını sezgisel olarak bilirsin. Zamanla, etkileyici liderlik yoluyla rehberlik yapma yeteneğin daha belirgin hale gelir ve başkalarına zorluklarla başa çıkmada ve başarıya ulaşmada yardımcı olan kilit bir figür olursun.";
-var is_y_r_7_s2_4 = "Etkileyici / Lider Olmak";
-var is_y_r_7_s2_5 = "Rolün, bağlantı sağlayıcı ve etkileyici olmaktan rehberlik isteyen bir lider olmaya doğru kademeli bir geçiş içerir. Kariyerinin erken dönemlerinde, daha çok ilişkiler geliştirmeye ve ağın üzerinden etki yaratmaya odaklanabilirsin. Deneyim kazandıkça, doğal olarak liderlik pozisyonlarına adım atarsın ve insanlar tavsiyeni arar ve yargına güvenir. Liderlik tarzın hem insanları hem de büyük resmi anlamaya dayanır, bu da empati ve içgörü ile liderlik etmene olanak tanır.";
-var is_y_r_7_s3_1 = "Fırsatların güçlü ağlar kurma ve bu bağlantıları kullanma yeteneğinden gelir. İş birliğinin ve ilişki kurmanın anahtar olduğu ortamlarda gelişirsin. Liderliğe geçerken, insanlar rehberlik ve yön için sana bakar. Ancak, karşılaşabileceğin bir zorluk, bağlantı kurma ihtiyacın ile liderlik baskısı arasında denge kurmaktır. Bazen, başkalarının beklentilerinin ağırlığı bunaltıcı gelebilir ve yeniden enerji toplamak ve düşünmek için zaman ayırmak önemlidir.";
-var is_y_r_7_s3_2 = "Rolün, ilişkiler kurma ve içgörülerini paylaşarak başkalarının başarıya ulaşmalarına yardımcı olma yeteneğini kullanmakla ilgilidir. Ağ kurma yeteneğini doğal liderlik becerilerinle birleştirerek, kişisel ve profesyonel zorluklar boyunca başkalarına rehberlik ederek hayat amacını gerçekleştirirsin. Liderlik Rolünü kucakladığında hem kariyerin hem de hayatın daha doyurucu hale gelir ve çevrendeki insanlarda önemli bir etki yaratırsın. Başarı, özgünlük ve güvenle liderlik etme yeteneğine güvendiğinde gelir.";
+var is_y_r_7_s2_0 = "Etkileyici/Otorite"; 
+var is_y_r_7_s2_1 = "Etkileyici Otorite";
+var is_y_r_7_s2_2 = "Başkalarıyla derin bağlantılar kurma yeteneğini ve belirli bir alanda uzmanlaşma arzusunu birleştirirsin. Hem etkileyici bir ağ kurucusun hem de detaylı bir araştırmacısın. İnsanlarla bağlantı kurmayı sevsen de, asıl gücün seni büyüleyen konulara derinlemesine dalmak ve sağlam bir bilgi temeli oluşturmakta yatar. Sonuç olarak, genellikle alanında güvenilir bir otorite haline gelir ve etrafındakilerle bilgini paylaşarak onların bakış açılarını etkilersin.";
+var is_y_r_7_s2_3 = "İş dünyasındaki güçlü yönlerin, başkalarıyla derin bağlar kurma ve seçtiğin uzmanlık alanında ustalaşma yeteneğinden kaynaklanır. Güçlü ağlar kurarak fırsatları kendine çekersin ve alanında derin bilgi birikimin, tavsiye ve rehberlik için başvurulan bir kişi olmanı sağlar. Profesyonel başarın, kişisel ilişkileri inceleme ve araştırma tutkusu ile harmanlayarak iş dünyasında hem etkileyici hem de otorite olarak öne çıkmanı sağlar.";
+var is_y_r_7_s2_4 = "Etkileyici / Otorite Olmak";
+var is_y_r_7_s2_5 = "Rolün, etki yaratma ve ustalık arasında bir dengeyi içerir. Seni ilgilendiren bir konuda derinlemesine çalışabilme ve ustalaşma yeteneğin sayesinde başarılı olursun. Bu ustalık, güçlü kişilerarası becerilerinle birleştiğinde, çevrendekileri etkileme gücünü artırır. Liderlik ya da tanınma aramana gerek yoktur—başkaları, uzmanlığını fark ettikçe etkili olman doğal olarak gelişir. Hem bilgi hem de ilişkiler inşa ederek iş dünyasında ya da kariyerinde kalıcı bir etki yaratabilirsin.";
+var is_y_r_7_s3_1 = "Fırsatların, bilginin ve başkalarıyla bağlantı kurma yeteneğinin birleşiminden doğar. Hem derinlemesine çalışabileceğin hem de insanlarla anlamlı ilişkiler kurabileceğin ortamlarda gelişirsin. Ancak, karşılaşabileceğin zorluklardan biri, çalışmalarına odaklanma ihtiyacın ile sosyal bağlantıların talepleri arasında denge kurmaktır. Enerjini koruyup hem odaklanma hem de bağlantı kurma arasında denge sağlamak hem etkini hem de otoriteni sürdürmenin anahtarıdır.";
+var is_y_r_7_s3_2 = "Rolün, bir konuda derinlemesine bilgi sahibi olma ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Uzmanlığını paylaşarak ve başkalarının bundan faydalanmasına yardımcı olarak hayat amacını gerçekleştirirsin. Rolünle uyum içinde olduğunda, kendin ve çevrendekiler için fırsatlar yaratır ve tatmin edici bir kariyer inşa edersin. Hem bilgi hem de bağlantı yoluyla etki yaratma yeteneğine güvenmek, doğal yeteneklerinin parlamasını sağlayacaktır.";
 
-var is_y_r_8_s2_0 = "Etkileyici/Otorite"; 
-var is_y_r_8_s2_1 = "Etkileyici Otorite";
-var is_y_r_8_s2_2 = "Başkalarıyla derin bağlantılar kurma yeteneğini ve belirli bir alanda uzmanlaşma arzusunu birleştirirsin. Hem etkileyici bir ağ kurucusun hem de detaylı bir araştırmacısın. İnsanlarla bağlantı kurmayı sevsen de, asıl gücün seni büyüleyen konulara derinlemesine dalmak ve sağlam bir bilgi temeli oluşturmakta yatar. Sonuç olarak, genellikle alanında güvenilir bir otorite haline gelir ve etrafındakilerle bilgini paylaşarak onların bakış açılarını etkilersin.";
-var is_y_r_8_s2_3 = "İş dünyasındaki güçlü yönlerin, başkalarıyla derin bağlar kurma ve seçtiğin uzmanlık alanında ustalaşma yeteneğinden kaynaklanır. Güçlü ağlar kurarak fırsatları kendine çekersin ve alanında derin bilgi birikimin, tavsiye ve rehberlik için başvurulan bir kişi olmanı sağlar. Profesyonel başarın, kişisel ilişkileri inceleme ve araştırma tutkusu ile harmanlayarak iş dünyasında hem etkileyici hem de otorite olarak öne çıkmanı sağlar.";
-var is_y_r_8_s2_4 = "Etkileyici / Otorite Olmak";
-var is_y_r_8_s2_5 = "Rolün, etki yaratma ve ustalık arasında bir dengeyi içerir. Seni ilgilendiren bir konuda derinlemesine çalışabilme ve ustalaşma yeteneğin sayesinde başarılı olursun. Bu ustalık, güçlü kişilerarası becerilerinle birleştiğinde, çevrendekileri etkileme gücünü artırır. Liderlik ya da tanınma aramana gerek yoktur—başkaları, uzmanlığını fark ettikçe etkili olman doğal olarak gelişir. Hem bilgi hem de ilişkiler inşa ederek iş dünyasında ya da kariyerinde kalıcı bir etki yaratabilirsin.";
-var is_y_r_8_s3_1 = "Fırsatların, bilginin ve başkalarıyla bağlantı kurma yeteneğinin birleşiminden doğar. Hem derinlemesine çalışabileceğin hem de insanlarla anlamlı ilişkiler kurabileceğin ortamlarda gelişirsin. Ancak, karşılaşabileceğin zorluklardan biri, çalışmalarına odaklanma ihtiyacın ile sosyal bağlantıların talepleri arasında denge kurmaktır. Enerjini koruyup hem odaklanma hem de bağlantı kurma arasında denge sağlamak hem etkini hem de otoriteni sürdürmenin anahtarıdır.";
-var is_y_r_8_s3_2 = "Rolün, bir konuda derinlemesine bilgi sahibi olma ve bu bilgiyi başkalarına rehberlik etmek için kullanmakla ilgilidir. Uzmanlığını paylaşarak ve başkalarının bundan faydalanmasına yardımcı olarak hayat amacını gerçekleştirirsin. Rolünle uyum içinde olduğunda, kendin ve çevrendekiler için fırsatlar yaratır ve tatmin edici bir kariyer inşa edersin. Hem bilgi hem de bağlantı yoluyla etki yaratma yeteneğine güvenmek, doğal yeteneklerinin parlamasını sağlayacaktır.";
+var is_y_r_8_s2_0 = "Etkileyici/Lider";
+var is_y_r_8_s2_1 = "Etkileyici Lider";
+var is_y_r_8_s2_2 = "Hayat yolculuğun güçlü ve anlamlı bağlantılar kurma ve çevrendekileri etkileme yeteneğinle şekillenir. Hayatının erken dönemlerinde, ilişkiler geliştirmeye ve ağ kurmaya odaklanırsın, bu da seni doğal olarak bir bağlantı sağlayıcı ve etkileyici pozisyonuna getirir. Olgunlaştıkça, Rolün liderlik yönüne kayar ve tecrüben ve bilgin, başkalarına rehberlik etmeni ve onları yönlendirmeni sağlar. İnsanlar doğal olarak sana çekilir ve etkileyici liderlik yeteneğini birleştirme becerin hem kişisel hem de profesyonel ortamlarda güvenilir bir figür olmanı sağlar.";
+var is_y_r_8_s2_3 = "Gücün, güçlü kişisel bağlantılar kurma ve doğal bir otorite duygusuyla başkalarını etkileme yeteneğinde yatar. İş dünyasında, ağ kurma ve ittifaklar oluşturma konusunda mükemmelsin, bu da sana fırsat kapıları açar. Kiminle bağlantı kuracağını ve bu ilişkileri ekibin ya da organizasyonun yararına nasıl kullanacağını sezgisel olarak bilirsin. Zamanla, etkileyici liderlik yoluyla rehberlik yapma yeteneğin daha belirgin hale gelir ve başkalarına zorluklarla başa çıkmada ve başarıya ulaşmada yardımcı olan kilit bir figür olursun.";
+var is_y_r_8_s2_4 = "Etkileyici / Lider Olmak";
+var is_y_r_8_s2_5 = "Rolün, bağlantı sağlayıcı ve etkileyici olmaktan rehberlik isteyen bir lider olmaya doğru kademeli bir geçiş içerir. Kariyerinin erken dönemlerinde, daha çok ilişkiler geliştirmeye ve ağın üzerinden etki yaratmaya odaklanabilirsin. Deneyim kazandıkça, doğal olarak liderlik pozisyonlarına adım atarsın ve insanlar tavsiyeni arar ve yargına güvenir. Liderlik tarzın hem insanları hem de büyük resmi anlamaya dayanır, bu da empati ve içgörü ile liderlik etmene olanak tanır.";
+var is_y_r_8_s3_1 = "Fırsatların güçlü ağlar kurma ve bu bağlantıları kullanma yeteneğinden gelir. İş birliğinin ve ilişki kurmanın anahtar olduğu ortamlarda gelişirsin. Liderliğe geçerken, insanlar rehberlik ve yön için sana bakar. Ancak, karşılaşabileceğin bir zorluk, bağlantı kurma ihtiyacın ile liderlik baskısı arasında denge kurmaktır. Bazen, başkalarının beklentilerinin ağırlığı bunaltıcı gelebilir ve yeniden enerji toplamak ve düşünmek için zaman ayırmak önemlidir.";
+var is_y_r_8_s3_2 = "Rolün, ilişkiler kurma ve içgörülerini paylaşarak başkalarının başarıya ulaşmalarına yardımcı olma yeteneğini kullanmakla ilgilidir. Ağ kurma yeteneğini doğal liderlik becerilerinle birleştirerek, kişisel ve profesyonel zorluklar boyunca başkalarına rehberlik ederek hayat amacını gerçekleştirirsin. Liderlik Rolünü kucakladığında hem kariyerin hem de hayatın daha doyurucu hale gelir ve çevrendeki insanlarda önemli bir etki yaratırsın. Başarı, özgünlük ve güvenle liderlik etme yeteneğine güvendiğinde gelir.";
 
 var is_y_r_9_s2_0 = "Haberci/Otorite"; 
 var is_y_r_9_s2_1 = "Pratik Otorite";
@@ -3428,7 +4103,7 @@ var lifestyle_12_25_manifesting_generator_question_name = "Başlatıcı Enerjik"
 var lifestyle_12_25_manifesting_generator_evaluation = "• Bir şeylere başlama dürtümü harekete geçmek için doğru zaman olduğundan emin olmakla nasıl dengeleyebilirim?\n\n• Okulda veya evde hangi görevler veya aktiviteler aynı anda birden fazla şey yapmama izin veriyor ve nasıl odaklanabilirim?\n\n• Hayal kırıklığına uğradığımda veya sabırsız hissettiğimde ne yapmalıyım ve bu duygu bana olaylara nasıl yaklaştığım hakkında ne öğretebilir?\n\n• Yeni bir şeye başlamak istediğimde, bunun iyi bir seçim olduğundan emin olmak için kendimle nasıl kontrol edebilirim?\n\n• Kendimi kötü hissetmeden fikrimi değiştirirken veya yön değiştirirken nasıl iyi hissedebilirim?";
 
 var lifestyle_12_25_generator_question_name = "Enerjik";
-var lifestyle_12_25_generator_evaluation = "• Okulda veya evde hangi aktiviteler beni en mutlu hissettiriyor ve bunları yapmak için nasıl daha fazla zaman harcayabilirim?\n\n• nBir şeyin hemen gerçekleşmesini sağlamaya çalışmak yerine bana gelmesini beklediğimde nasıl hissediyorum?\n\n• İşe yaraması için çok uğraştığım şeyler var mı? Bunun yerine doğru hissettiren şeye nasıl odaklanabilirim?\n\n• Bağırsaklarımın bana bir şeyin iyi bir fikir olduğunu söylediğini nasıl anlarım ve bu hissi nasıl daha sık takip edebilirim?\n\n• Kendimi sıkışmış veya sinirli hissettiğimde, kendimi daha iyi hissetmeme ne yardımcı olur ve nasıl daha sabırlı olabilirim?";
+var lifestyle_12_25_generator_evaluation = "• Okulda veya evde hangi aktiviteler beni en mutlu hissettiriyor ve bunları yapmak için nasıl daha fazla zaman harcayabilirim?\n\n• Bir şeyin hemen gerçekleşmesini sağlamaya çalışmak yerine bana gelmesini beklediğimde nasıl hissediyorum?\n\n• İşe yaraması için çok uğraştığım şeyler var mı? Bunun yerine doğru hissettiren şeye nasıl odaklanabilirim?\n\n• Bağırsaklarımın bana bir şeyin iyi bir fikir olduğunu söylediğini nasıl anlarım ve bu hissi nasıl daha sık takip edebilirim?\n\n• Kendimi sıkışmış veya sinirli hissettiğimde, kendimi daha iyi hissetmeme ne yardımcı olur ve nasıl daha sabırlı olabilirim?";
 
 var lifestyle_12_25_projektor_question_name = "Rehber";
 var lifestyle_12_25_projektor_evaluation = "• Hemen yardım teklif etmek yerine birinin benden yardım istemesini ne zaman beklemem gerektiğini nasıl bilebilirim?\n\n• Ne zaman tanındım veya tavsiyem istendi ve bu benim için nasıl bir duyguydu?\n\n• Okulda veya arkadaşlarımla, yapabileceklerim için en çok nerede takdir edildiğimi hissediyorum ve buna nasıl daha fazla odaklanabilirim?\n\n• Enerjimi nasıl yüksek tutarım ve özellikle fark edilmediğimi veya değer verilmediğini hissettiğimde yorgun hissetmekten nasıl kaçınırım?\n\n• Nasıl daha sabırlı olabilirim ve doğru zaman geldiğinde doğru fırsatların bana geleceğine nasıl güvenebilirim?";
@@ -3670,21 +4345,21 @@ var communication_reflektor_eng_s3 = "Do you notice how you objectively reflect 
 //Karar Verme Stratejilerin
 var decision_strategy_s3_1_0 = "Karşılık Vermek İçin Bekle ve Netlik İçin Sabret";
 var decision_strategy_s3_1_1 = "Karşılık Ver ve Netlikle Karar Al"; 
-var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: içgüdülerini dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde, etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
-var decision_strategy_s3_1_3 = "• İçgüdüsel Tepki: Hayat sana bir fırsat sunduğunda, içgüdüsel yanıtın \"ah-huh\" (evet), \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
-var decision_strategy_s3_1_4 = "• Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce bir gece üzerinde düşün.Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
-var decision_strategy_s4_1_text = "Zihinle hareket etmek, içgüdüsel tepkilerini sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
-var decision_strategy_s4_1_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle\n2.Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da henüz değil için \"hmmmmm\".\n3.Karar Ver: İçgüdüsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.\n4.Netlik İçin Bekle: Bir gece üzerinde düşün ve duygusal durumunun dalgalanmalarını hissetmene izin ver. Yüksek duygusal hallerde karar vermekten kaçın.\n5.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içgüdülerin ve duygusal netliğinin bilgeliğine güven.";
-var decision_strategy_s4_1_txt = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilir, bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
+var decision_strategy_s3_1_2 = "Karar verme stratejin iki temel unsur üzerine kuruludur: İçsel yanıtını (karnında hissedebilirsin) dinlemek ve ardından netliğin ortaya çıkmasını sabırla beklemek. İçsel yanıtın belirli bir eyleme adım atmaya enerjin olup olmadığını gösteren değerli bir rehberdir. Ancak, yanıtlarının zihin tarafından, özellikle aciliyet veya baskı hissettiğinde etkilenebileceğini unutmamak önemlidir. Bu yüzden, bu baskıların hafiflemesini bekleyip, netliğe ulaşmak çok önemlidir.";
+var decision_strategy_s3_1_3 = "• İçsel Tepki (Tam karnında hissedebilirsin): Hayat sana bir fırsat sunduğunda, içsel yanıtın \"hı-hı\" (evet), \"ı-ı\" (hayır) ya da \"hımm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Bu alanda enerjin artabilir ya da azalabilir. Bu ince sinyallere dikkat et, ancak yalnızca anlık içgüdüsel tepkilere dayanarak karar vermekten kaçın.";
+var decision_strategy_s3_1_4 = "• Netlik İçin Bekle: Aceleyle harekete geçmek yerine, netliğin ortaya çıkması için kendine zaman ve alan tanı.Duygusal iniş ve çıkışlar sırasında karar vermekten kaçın ve önemli seçimler yapmadan önce kendine zaman ver. Bu sabır, sakin ve emin bir güvenle karar vermeni sağlar.";
+var decision_strategy_s4_1_text = "Zihinle hareket etmek, içsel yanıtını sorgulamaya, kaygı hissetmeye ve fırsatları kaçırmaya yol açabilir. Buna karşılık, tepki ve netliğe dayalı hareket etmek, hayatın sana gelmesini beklemeyi, içgüdülerine güvenmeyi ve karar vermeden önce duygusal netlik aramayı içerir.";
+var decision_strategy_s4_1_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, aceleyle harekete geçmeden gözlemle.\n2Karşılık Ver: İçsel tepkinin verdiği yanıtı dinle – evet için \"hı-hı\", hayır için \"ı-ı\" ya da henüz değil için \"hımm\". Bu konuda enerjinin arttığını ya da artmadığını hissedebilirsin..\n3.Netlik İçin Bekle: Bir gece üzerine yat ve duygusal netlikte hissetmeye izin ver. Yüksek duygusal hallerde karar vermekten kaçın.\n4.Karar Ver: İçsel yanıtın ve duygusal netliğin doğrultusunda karar ver – evet, hayır ya da şimdilik değil.\n5.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme; içsel tepkinin ve duygusal netliğinin bilgeliğine güven.";
+var decision_strategy_s4_1_txt = "Bu karar verme stratejisine bağlı kalarak, seçimlerini sabır, sağduyu ve güvenle yapabilirsin. Bu da kariyerinde ve iş hayatında daha büyük başarı ve tatmin sağlayabilir.";
 var decision_strategy_ozet_1_1 = "Karar Verme Stratejin: Karşılık Ver ve Netlikle Karar Al";
 var decision_strategy_ozet_1_2 = "Senin için doğru karar, hayatın sunduğu fırsatlara içgüdüsel olarak verdiğin yanıtı dinleyip, ardından netleşmesini sabırla beklediğinde ortaya çıkar. Harekete geçmeden önce duygusal dalgalanmaların durulmasını beklemek, seçimlerinin sana huzur ve güven getirmesini sağlar.";
 
 var decision_strategy_s3_2_0 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Edebilirsin";
 var decision_strategy_s3_2_1 = "Karşılık Vermek İçin Bekle ve İçgüdülerini Takip Et"; 
-var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içgüdülerini takip etmek. İçgüdülerin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içgüdü sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
+var decision_strategy_s3_2_2 = "Karar verme stratejin iki temel unsura dayanır: cevap vermek için beklemek ve içsel tepkini (karnında hissedebilirsin) takip etmek. İçsel tepkin, belirli bir eyleme adım atmaya enerjin ve eğilimin olup olmadığını güçlü bir şekilde gösterir. Ancak, bu içsel tepki sadece evet ya da hayır sorularına yanıt verir, bu yüzden sorularını buna uygun şekilde şekillendirmen önemlidir.";
 var decision_strategy_s3_2_3 = "• Cevap Vermek İçin Bekle: Düşünmeden ve aceleyle harekete geçmek yerine, kendine beklemek ve gözlemlemek için alan aç. Hayatın sana farklı şekillerde yaklaştığını fark et – bir soru, bir e-posta, bir insan ya da bir ses olabilir. Doğru zaman geldiğinde, hayat sana fırsatları sunacaktır, buna güven.";
-var decision_strategy_s3_2_4 = "• İçgüdülerini Takip Et: İçgüdüsel tepkilerin ya \"ah-huh\" (evet), ya \"uhn - un\" (hayır) ya da \"hmmmmm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var, bu da huzursuzluk anlamına gelebilir.";
-var decision_strategy_s4_2_text = "Zihinden hareket etmek, içgüdüsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Buna karşılık, cevap vermek için beklemek, hayatın sana gelmesini beklemeyi ve içgüdülerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
+var decision_strategy_s3_2_4 = "• İçsel Tepkini Takip Et: İçsel tepkilerin ya \"hı-hı\" (evet), ya \"ı-ı\" (hayır) ya da \"hımm\" (şimdilik hayır veya başka bir şekilde sor) olarak kendini gösterir. Vücudundaki hislere (karında) dikkat et – bir şeye heyecanla çekildiğini mi hissediyorsun yoksa midende bir düğüm hissi mi var?";
+var decision_strategy_s4_2_text = "Zihinden hareket etmek, içsel tepkilerini sorgulamana, kaygı duymana ve fırsatları kaçırmana neden olabilir. Karşılık vermek için beklemek, hayatın sana gelmesini beklemeyi ve içsel tepkilerinin rehberliğine güvenmeyi içerir. Hayatın büyüsüne teslim ol ve seni heyecanlandıran şeylere doğru çekilmeye, çekilmeyenlerden ise uzaklaşmaya izin ver.";
 var decision_strategy_s4_2_1 = "1.Aktif Bekle: Hayatın sana verdiği işaretlere ve sinyallere açık ol, bunlar sorular, etkileşimler ya da deneyimler şeklinde gelebilir.\n2.Cevap Ver: İçgüdülerinin verdiği yanıtı dinle – evet için \"ah-huh\", hayır için \"uhn - un\" ya da \"hmmmmm\" ile henüz değil.\n3.Karar Ver: İçgüdülerine göre karar ver – evet, hayır ya da henüz değil. Bu aşamada zihninin müdahalesine karşı dikkatli ol.\n4.Harekete Geç ya da Geçme: Son olarak, kararına göre harekete geç ya da geçme, içgüdülerinin bilgeliğine güven.";
 var decision_strategy_s4_2_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini netlik, güven ve otantiklikle yapabilir, bu da kariyerinde ve iş hayatında daha büyük bir başarı ve tatmin sağlayabilir";
 var decision_strategy_ozet_2_1 = "Karar Verme Stratejin: Harekete Geçmeden Önce Bilgilendir";
@@ -3693,29 +4368,29 @@ var decision_strategy_ozet_2_2 = "Senin için doğru kararlar, harekete geçmede
 var decision_strategy_s3_3_0 = "Tanınma, Davet ve Netlik için Bekle ";
 var decision_strategy_s3_3_1 = "Tanınma ve Davet Al, Netlik ile Karar Al "; 
 var decision_strategy_s3_3_2 = "Karar verme stratejin, tanınmayı, davet almayı ve duygusal netliğin ortaya çıkmasını beklemeye dayanır. Süreci sabırla gözlemleyerek ve güvenerek, doğru zamanda ve duygusal gerçekliğinle uyumlu kararlar alabilirsin. ";
-var decision_strategy_s3_3_3 = "• Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ardından bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
-var decision_strategy_s3_3_4 = "• Duygusal Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
+var decision_strategy_s3_3_3 = "• Tanınma ve Davet İçin Bekle: Sabırlı ol ve tanınmayı, ya da bir daveti beklerken güven içinde ol. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayatının önemli alanlarında seçici ve dikkatli olmalısın.";
+var decision_strategy_s3_3_4 = "• Duygusal Netlik İçin Bekle: Tanındıktan veya davet aldıktan sonra, harekete geçmeden önce duygusal netliği elde etmek için kendine zaman tanı. Duygusal dalgalanmalar sırasında karar vermekten kaçın ve doğru zamanın geldiğini gösteren sakin bir güvenin ortaya çıkmasını bekle. ";
 var decision_strategy_s4_3_text = "Zihinle hareket etmek, dürtüselliğe, şüphelere ve fırsatların kaçmasına yol açabilir. Oysa tanınma, davet ve netliği beklemek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_3_1 = "1.Tanınma ve Davet İçin Aktif Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol.\n2.Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle.\n3.Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdilik değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.\n4.Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa daha fazla düşünmek için bekle. ";
+var decision_strategy_s4_3_1 = "1.Tanınma ve Davet İçin Aktif Bekle: Tanınmayı veya bir davetin ortaya çıkmasını sabır ve dikkatle bekle. Sürece güven ve seçimlerinde seçici ol.\n2.Netlik İçin Bekle: Tanındıktan ve davet aldıktan sonra, üzerinde düşün ve duygusal dalgalanmanı hissetmene izin ver. Duygusal dürtülerle karar vermekten kaçın ve netlik sinyalini bekle.\n3.Karar Ver: Duygusal netliğine dayanarak, evet, hayır veya şimdi değil gibi kararını, kendi gerçeğin ve sezgilerinle uyumlu olacak şekilde ver.\n4.Harekete Geç ya da Geçme: Eğer kararın doğru hissediliyorsa güvenle harekete geç, yoksa duygusal netlik için bekle. ";
 var decision_strategy_s4_3_txt = "Bu karar verme stratejisine bağlı kalarak, sabır, güven ve duygusal netlikle seçim yapabilir ve böylece eylemlerini gerçek niyetlerinle uyumlu hale getirerek, daha büyük tatmin ve başarıya ulaşabilirsin. ";
 var decision_strategy_ozet_3_1 = "Karar Verme Stratejin: Tanınma ve Davet Al, Netlikle Karar Al";
 var decision_strategy_ozet_3_2 = "Doğru kararlar senin için, bir davetle birlikte geldiğinde ve duygusal açıdan netleştiğinde ortaya çıkar. Duyguların dalgalanmasına izin verip netliği beklemek, uzun vadede seni tatmin eden seçimler yapmanı sağlar.";
 
 var decision_strategy_s3_4_0 = "Tanınmayı, Daveti Bekle ve İçgüdülerini Takip Et ";
 var decision_strategy_s3_4_1 = "Tanınma ve Davet Al, İçgüdülerini Takip Et "; 
-var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
-var decision_strategy_s3_4_3 = "• Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın, ardından bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
-var decision_strategy_s3_4_4 = "• İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
+var decision_strategy_s3_4_2 = "Karar verme stratejin, sabırla tanınmayı veya daveti beklemeye, ardından içgüdülerini takip ederek doğru yolu bulmaya dayanır. Duyularına dikkat ederek ve anlık bilgeliğine güvenerek, kararlarını güvenle ve özgün bir şekilde verebilirsin. ";
+var decision_strategy_s3_4_3 = "• Tanınma veya Daveti Bekle: Sabırlı ol ve tanınmanın ya da bir davetin ortaya çıkmasını beklerken sürece güven. İnce ipuçlarına dikkat et ve özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi kritik alanlarda seçimlerinde dikkatli ol. ";
+var decision_strategy_s3_4_4 = "• İçgüdülerini Takip Et: Tanındıktan veya davet aldıktan sonra, anın içindeki içgüdülerine güven. Bedeninin ince sinyallerine dikkat ederek, anlık bilgeliğinin kararlarını yönlendirmesine izin ver. ";
 var decision_strategy_s4_4_text = "Zihinden hareket etmek, şüphe, kaygı ve fırsatların kaçmasına neden olabilirken, tanınmayı, daveti ve içgüdülerini takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
-var decision_strategy_s4_4_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol.\n2.İçgüdülerini Takip Et: Tanındıktan ve davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. İçgüdüsel bilgi çoğu zaman sessiz bir şekilde, gürültü ve hareketin ortasında konuşur. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver.\n3.Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun.\n4.Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
+var decision_strategy_s4_4_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol ve keskin bir gözlemle tanınmayı ve davetin ortaya çıkmasını bekle. Sürece güven ve seçimlerinde dikkatli ol.\n2.İçgüdülerini Takip Et: Tanındıktan veya davet aldıktan sonra, o anki içgüdülerine güven. Bedeninin sinyallerine dikkat ederek, anlık bilgeliğinle kararlarını yönlendir. İçgüdüsel bilgi çoğu zaman sessiz bir şekilde, gürültü ve hareketin ortasında konuşur. Bedenin senin için doğru olanı hissetmeye ayarlıdır; bu bilgeliğin kararlarını şekillendirmesine izin ver.\n3.Karar Ver: İçgüdülerine ve sezgisel bilgine dayanarak, evet, hayır ya da şimdilik değil kararı ver, ve bu karar senin gerçeğinle uyumlu olsun.\n4.Harekete Geç ya da Geçme: Kararın doğru hissettiriyorsa güvenle harekete geç ya da daha fazla düşünmeye ihtiyaç varsa bekle. ";
 var decision_strategy_s4_4_txt = "Bu karar verme stratejisine sadık kalarak, seçimlerini sabır, güven ve özgünlükle yönlendirebilir, böylece içgüdülerinle uyumlu hareket ederek daha büyük tatmin ve başarıya ulaşabilirsin.  ";
 var decision_strategy_ozet_4_1 = "Karar Verme Stratejin: Tanınma ve Davet Al, İçgüdülerini Takip Et";
 var decision_strategy_ozet_4_2 = "Bir davetle tanındığında ve içgüdüsel bir evet hissi aldığında doğru karar ortaya çıkar. Vücudunun verdiği anlık tepkiler, senin için sağlam bir rehber olabilir; bu yüzden sezgilerini duymaya dikkat et.";
 
 var decision_strategy_s3_5_0 = "Tanınmayı, Daveti Bekle ve İradeni Takip Et ";
 var decision_strategy_s3_5_1 = "Tanınma ve Davet Al, İradeli Kararlılığını Takip Et "; 
-var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı ve daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
-var decision_strategy_s3_5_3 = "• Tanınma ve Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
+var decision_strategy_s3_5_2 = "Karar verme stratejin, sabırla tanınmayı veya daveti beklemeye, ardından iradeni takip ederek harekete geçmeye dayanır. Kendi isteklerine öncelik verip bağlılığını değerlendirerek, kararlarının gerçek niyetlerinle uyumlu olmasını sağlayabilir ve tatmin edici sonuçlara ulaşabilirsin. ";
+var decision_strategy_s3_5_3 = "• Tanınma veya Daveti Bekle: Sabırlı ol ve tanınmanın ardından bir davetin ortaya çıkmasını beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi hayati konularda dikkatli ve seçici ol. ";
 var decision_strategy_s3_5_4 = '• İradeni Takip Et: Tanınıp davet aldıktan sonra, iradeni değerlendirerek bağlılık ve istek seviyeni ölç. "Ben ne istiyorum?" ve "Bu benim için ne ifade ediyor ? " sorularını bencilce sorarak, kalbinin tam anlamıyla işin içinde olup olmadığından emin ol. Bu, dengeni koruyarak sağlığını ve mutluluğunu sürdürmene yardımcı olur. ';
 var decision_strategy_s4_5_text = "Zihinden hareket etmek şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve iradeni takip etmek, kimyanın ve fırsatların sessiz büyüsüne güvenmeni sağlar. ";
 var decision_strategy_s4_5_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran.\n2.İradeni Dinle: Tanınıp davet aldıktan sonra, bağlılık ve isteğini değerlendirmek için iradene kulak ver. Kendi ihtiyaçlarına ve arzularına öncelik vererek, gerçek niyetlerinle uyumlu olup olmadığını kontrol et.\n3.Karar Ver: İrade ve isteklerinin değerlendirmesi sonucunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın.\n4.Harekete Geç ya da Geçme: Kalbin tam anlamıyla işin içindeyse ve kararın gerçek niyetlerinle uyumluysa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç varsa, eylemden kaçın. ";
@@ -3725,22 +4400,22 @@ var decision_strategy_ozet_5_2 = "Senin karar yolculuğun, tanınmayla başlayan
 
 var decision_strategy_s3_6_0 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle  ";
 var decision_strategy_s3_6_1 = "Tanınma ve Davet Al, Söylediklerini Dinle "; 
-var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliklerine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
-var decision_strategy_s3_6_3 = "• Tanınma ve Daveti Bekle: Tanınmanın ve davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
+var decision_strategy_s3_6_2 = "Karar verme stratejin, sabırla tanınmayı veya davet beklemeye, ardından güvendiğin birkaç kişiyle konuşarak kendi sesini dikkatlice dinlemeye dayanır. Kendi kendine düşünmeye ve içsel bilgeliğine güvenerek, kararlarının otantik ve gerçek arzularınla uyumlu olmasını sağlayabilirsin. ";
+var decision_strategy_s3_6_3 = "• Tanınma veya Davet Bekle: Tanınmanın veya davetin ortaya çıkmasını sabırla beklerken sürece güven. Özellikle aşk, kariyer, ilişkiler ve yaşam düzenlemeleri gibi önemli yaşam alanlarında seçici ve dikkatli ol. ";
 var decision_strategy_s3_6_4 = "• Söylediklerini Dinle: Tanınıp davet aldıktan sonra, güvendiğin insanlarla konuşmalar yap, ancak onların tavsiyelerini almak için değil, kendi sesini dinlemek için. Kararlarının seni ne kadar mutlu ettiğine, kendini ifade etme biçiminle ve kişisel yönünle uyumlu olup olmadığına dikkat et. ";
 var decision_strategy_s4_6_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine güvenmeni sağlar. ";
-var decision_strategy_s4_6_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran.\n2.Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.\n3.Karar Ver: Kendi yansımaların ve içsel bilgeliklerin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
+var decision_strategy_s4_6_1 = "1.Tanınma veya Davet Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Fırsatların isteklerinle uyumlu olduğundan emin olarak seçici davran.\n2.Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, onların tavsiyelerine değil, kendi sesine odaklan. Kararlarının seni mutlu edip etmediğini ve kişisel yönünle uyumlu olup olmadığını düşün.\n3.Karar Ver: Kendi yansımaların ve içsel bilgeliğin doğrultusunda, evet, hayır ya da şimdilik değil kararı ver; bu karar gerçek arzularını ve niyetlerini yansıtsın.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ihtiyaç duyarsan, eylemden kaçın.";
 var decision_strategy_s4_6_txt = "Bu karar verme stratejisine sadık kalarak, içsel farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzularınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin.";
 var decision_strategy_ozet_6_1 = "Karar Verme Stratejin: Tanınma ve Davet Al, Söylediklerini Dinle";
 var decision_strategy_ozet_6_2 = "Tanınmak ve ardından söylediklerine kulak vermek, senin karar alma sürecinin merkezindedir. Konuşurken söylediklerin üzerinden netlik kazanabilir ve doğru yönü bu şekilde fark edebilirsin.";
 
 var decision_strategy_s3_7_0 = "Tanınmayı, Daveti Bekle ve Söylediklerini Dinle ";
 var decision_strategy_s3_7_1 = "Tanınma ve Davet Al, Kendi Söylediklerini Dinle ";
-var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı ve bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
-var decision_strategy_s3_7_3 = "• Tanınma ve Daveti Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
+var decision_strategy_s3_7_2 = "Karar verme stratejin, sabırla tanınmayı veya bir daveti beklemeye, ardından güvendiğin kişilerle yapacağın sohbetlerde kendi sesini dinlemeye dayanır. Kendi kendini yansıtma ve çevresel duyarlılığa odaklanarak, kararlarının otantik arzuların ve niyetlerinle uyumlu olmasını sağlayabilirsin. ";
+var decision_strategy_s3_7_3 = "• Tanınma veya Davet Bekle: Tanınmayı ve bir davetin ortaya çıkmasını sabırla beklerken sürece güven. Ortamın doğru hissedip hissetmediğine dikkat et; çevresel ipuçlarına karşı hassassın. ";
 var decision_strategy_s3_7_4 = "• Söylediklerini Dinle: Güvendiğin kişilerle yapacağın sohbetlerde, onların tavsiyelerini almak için değil, kendi sesini dinlemek için konuş. Kararlarının seni mutlu edip etmediğini, kendini ifade ediş şeklinle ve kişisel yönünle uyumlu olup olmadığını düşünürken, farklı kişilerle fikirlerini paylaşarak bakış açısı kazan. ";
 var decision_strategy_s4_7_text = "Zihinden hareket etmek, şüphe, kaygı ve kaçırılmış fırsatlara yol açabilirken, tanınmayı, daveti ve kendi sesini dinlemeyi takip etmek, içsel sesinin sessiz bilgeliğine ve çevresel ipuçlarına güvenmeni sağlar. ";
-var decision_strategy_s4_7_1 = "1.Tanınma ve Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Ortamın doğru hissettirdiğinden emin ol.\n2.Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının kendini ifade etme şeklinle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun.\n3.Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
+var decision_strategy_s4_7_1 = "1.Tanınma veya Daveti Aktif Bekle: Sabırlı ol, gözlem yap ve tanınmayı beklerken sürece güven. Ortamın doğru hissettirdiğinden emin ol.\n2.Kendi Söylediklerini Dinle: Güvendiğin kişilerle sohbet ederken, kendi sesini dinlemeye odaklan. Kararlarının kendini ifade etme şeklinle uyumlu olup olmadığını düşünürken, farklı bakış açıları kazanmak için görüş alışverişinde bulun.\n3.Karar Ver: Yansımaların ve içsel bilgeliklerine dayanarak, hem duygusal tepkilerini hem de çevresel ipuçlarını dikkate alarak evet, hayır ya da şimdilik değil kararı ver.\n4.Harekete Geç ya da Geçme: Kararın gerçek arzularınla uyumluysa ve içsel sesinle ve çevresel ipuçlarıyla rezonansa giriyorsa güvenle harekete geç. Daha fazla düşünmeye ya da çevresel ayarlamalara ihtiyaç duyarsan, eylemden kaçın. ";
 var decision_strategy_s4_7_txt = "Bu karar verme stratejisine sadık kalarak, farkındalık, otantiklik ve içsel bilgeliğine güvenle hareket edebilir, kararlarının gerçek arzuların ve çevresel duyarlılıklarınla uyumlu olmasını sağlayarak daha büyük tatmin ve başarıya ulaşabilirsin. ";
 var decision_strategy_ozet_7_1 = "Karar Verme Stratejin: Tanınma ve Davet Al, Kendi Söylediklerini Dinle";
 var decision_strategy_ozet_7_2 = "Seni tanıyanlardan gelen davetle birlikte, yüksek sesle düşündüklerinde söylediklerini fark etmek senin için çok belirleyici olabilir. Karar verirken kendini ifade etmen, ne istediğini daha net anlamanı sağlar.";
@@ -3780,7 +4455,7 @@ var decision_strategy_ozet_10_2 = "Hayatın sana sunduğu fırsatları gözlemle
 
 var decision_strategy_s3_11_0 = "28 Günlük Bir Döngü Bekleyip Düşün, Değerlendir ve Tartış.";
 var decision_strategy_s3_11_1 = "Senin için önemli konularda en doğru kararları almak, yansıtmak, değerlendirmek ve tartışmak için yaklaşık bir ay beklemelisin.";
-var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve düşünceli bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
+var decision_strategy_s3_11_2 = "Karar verme stratejin, önemli kararlar almadan önce beklemek, düşünmek ve tartışmak üzerine kuruludur. Kendine zaman tanıyarak ve bir değerlendirme sürecine girerek, kişisel gerçeğine ve netliğine dayanan doğru karara varabilirsin.";
 var decision_strategy_s3_11_3 = "• Bekleme, Düşünme ve Tartışma: Karar vermede sabırlı bir yaklaşımı benimse, bir ay veya daha uzun bir süreyi düşünme ve tartışma için ayır. Refahını destekleyen bir ortam yarat ve güvendiğin kişilerle düşüncelerini paylaşarak kendi gerçeğini duy.";
 var decision_strategy_s3_11_4 = "• Derin ve Ani İçsel Bilgi: Bekleme, düşünme ve tartışma süreci boyunca, bir kararın gerçeğine uygun olup olmadığını gösteren derin bir içsel bilgi ya da farkındalık hissedeceksin.";
 var decision_strategy_s4_11_text = "Zihinden hareket etmek, şüphelere, dürtüsel eylemlere ve kaçırılan fırsatlara yol açabilir. Oysa, bekleyip düşünmek ve tartışmak, algılarını olgunlaştırmana ve zamanla netliğe ulaşmana yardımcı olur.";
@@ -6853,9 +7528,25 @@ var decision_strategy_eng_ozet_11_2 = "";
           return "Sağlık ve İlaç";
         } else if (kariyer_secimData == "meal") {
           return "Mutfak Sanatları";
-        } else {
-          return "Diğer";
-        }
+        } else if (kariyer_secimData == "edTech") {
+          return "Eğitim ve EdTech";
+        } else if (kariyer_secimData == "finTech") {
+          return "Finans ve FinTech";
+        } else if (kariyer_secimData == "energy") {
+          return "Enerji ve Yenilenebilir Enerji";
+        } else if (kariyer_secimData == "mentor") {
+          return "Danışmanlık, Koçluk ve Mentörlük";
+        } else if (kariyer_secimData == "tourism") {
+          return "Turizm ve Misafirperverlik";
+        } else if (kariyer_secimData == "agroTech") {
+          return "Tarım ve Tarım Teknolojileri";
+        } else if (kariyer_secimData == "logistic") {
+          return "Lojistik ve Ulaşım";
+        } else if (kariyer_secimData == "media") {
+          return "Medya, Yazılı ve Görsel Basın";
+        } else if (kariyer_secimData == "other") {
+          return "Bunların Dışında Bir Şey - Genel Kariyer";
+        } 
       } else if (type == "s2_x_2") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
           return kariyer_secim_25_plus_s2_1_2;
@@ -7756,6 +8447,1266 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
           return kariyer_secim_25_plus_s7_meal_9_7;
         }
+      } else if (type == "s7_edTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_1;
+        } 
+      } else if (type == "s7_edTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_2;
+        }
+      } else if (type == "s7_edTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_3;
+        }
+      } else if (type == "s7_edTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_4;
+        }
+      } else if (type == "s7_edTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_5;
+        }
+      } else if (type == "s7_edTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_6;
+        }
+      } else if (type == "s7_edTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_7;
+        }
+      } else if (type == "s7_finTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_1;
+        } 
+      } else if (type == "s7_finTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_2;
+        }
+      } else if (type == "s7_finTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_3;
+        }
+      } else if (type == "s7_finTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_4;
+        }
+      } else if (type == "s7_finTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_5;
+        }
+      } else if (type == "s7_finTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_6;
+        }
+      } else if (type == "s7_finTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_7;
+        }
+      } else if (type == "s7_energy_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_1;
+        } 
+      } else if (type == "s7_energy_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_2;
+        }
+      } else if (type == "s7_energy_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_3;
+        }
+      } else if (type == "s7_energy_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_4;
+        }
+      } else if (type == "s7_energy_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_5;
+        }
+      } else if (type == "s7_energy_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_6;
+        }
+      } else if (type == "s7_energy_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_7;
+        }
+      } else if (type == "s7_mentor_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_1;
+        } 
+      } else if (type == "s7_mentor_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_2;
+        }
+      } else if (type == "s7_mentor_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_3;
+        }
+      } else if (type == "s7_mentor_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_4;
+        }
+      } else if (type == "s7_mentor_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_5;
+        }
+      } else if (type == "s7_mentor_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_6;
+        }
+      } else if (type == "s7_mentor_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_7;
+        }
+      } else if (type == "s7_tourism_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_1;
+        } 
+      } else if (type == "s7_tourism_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_2;
+        }
+      } else if (type == "s7_tourism_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_3;
+        }
+      } else if (type == "s7_tourism_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_4;
+        }
+      } else if (type == "s7_tourism_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_5;
+        }
+      } else if (type == "s7_tourism_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_6;
+        }
+      } else if (type == "s7_tourism_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_7;
+        }
+      } else if (type == "s7_agroTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_1;
+        } 
+      } else if (type == "s7_agroTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_2;
+        }
+      } else if (type == "s7_agroTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_3;
+        }
+      } else if (type == "s7_agroTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_4;
+        }
+      } else if (type == "s7_agroTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_5;
+        }
+      } else if (type == "s7_agroTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_6;
+        }
+      } else if (type == "s7_agroTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_7;
+        }
+      } else if (type == "s7_logistic_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_1;
+        } 
+      } else if (type == "s7_logistic_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_2;
+        }
+      } else if (type == "s7_logistic_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_3;
+        }
+      } else if (type == "s7_logistic_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_4;
+        }
+      } else if (type == "s7_logistic_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_5;
+        }
+      } else if (type == "s7_logistic_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_6;
+        }
+      } else if (type == "s7_logistic_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_7;
+        }
+      } else if (type == "s7_media_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_1;
+        } 
+      } else if (type == "s7_media_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_2;
+        }
+      } else if (type == "s7_media_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_3;
+        }
+      } else if (type == "s7_media_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_4;
+        }
+      } else if (type == "s7_media_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_5;
+        }
+      } else if (type == "s7_media_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_6;
+        }
+      } else if (type == "s7_media_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_7;
+        }
+      } else if (type == "s7_other_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_1;
+        } 
+      } else if (type == "s7_other_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_2;
+        }
+      } else if (type == "s7_other_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_3;
+        }
+      } else if (type == "s7_other_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_4;
+        }
+      } else if (type == "s7_other_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_5;
+        }
+      } else if (type == "s7_other_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_6;
+        }
+      } else if (type == "s7_other_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_7;
+        }
       } else if (type == "ozet_1") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
           return kariyer_secim_ozet_1_1;
@@ -7831,9 +9782,25 @@ var decision_strategy_eng_ozet_11_2 = "";
           return "Sağlık ve İlaç";
         } else if (kariyer_secimData == "meal") {
           return "Mutfak Sanatları";
-        } else {
-          return "Diğer";
-        }
+        } else if (kariyer_secimData == "edTech") {
+          return "Eğitim ve EdTech";
+        } else if (kariyer_secimData == "finTech") {
+          return "Finans ve FinTech";
+        } else if (kariyer_secimData == "energy") {
+          return "Enerji ve Yenilenebilir Enerji";
+        } else if (kariyer_secimData == "mentor") {
+          return "Danışmanlık, Koçluk ve Mentörlük";
+        } else if (kariyer_secimData == "tourism") {
+          return "Turizm ve Misafirperverlik";
+        } else if (kariyer_secimData == "agroTech") {
+          return "Tarım ve Tarım Teknolojileri";
+        } else if (kariyer_secimData == "logistic") {
+          return "Lojistik ve Ulaşım";
+        } else if (kariyer_secimData == "media") {
+          return "Medya, Yazılı ve Görsel Basın";
+        } else if (kariyer_secimData == "other") {
+          return "Bunların Dışında Bir Şey - Genel Kariyer";
+        } 
       } else if (type == "s2_x_2") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
           return kariyer_secim_12_25_s2_1_2;
@@ -8793,6 +10760,1266 @@ var decision_strategy_eng_ozet_11_2 = "";
           return kariyer_secim_25_plus_s7_meal_8_7;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
           return kariyer_secim_25_plus_s7_meal_9_7;
+        }
+      } else if (type == "s7_edTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_1;
+        } 
+      } else if (type == "s7_edTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_2;
+        }
+      } else if (type == "s7_edTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_3;
+        }
+      } else if (type == "s7_edTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_4;
+        }
+      } else if (type == "s7_edTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_5;
+        }
+      } else if (type == "s7_edTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_6;
+        }
+      } else if (type == "s7_edTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_edTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_edTech_9_7;
+        }
+      } else if (type == "s7_finTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_1;
+        } 
+      } else if (type == "s7_finTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_2;
+        }
+      } else if (type == "s7_finTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_3;
+        }
+      } else if (type == "s7_finTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_4;
+        }
+      } else if (type == "s7_finTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_5;
+        }
+      } else if (type == "s7_finTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_6;
+        }
+      } else if (type == "s7_finTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_finTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_finTech_9_7;
+        }
+      } else if (type == "s7_energy_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_1;
+        } 
+      } else if (type == "s7_energy_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_2;
+        }
+      } else if (type == "s7_energy_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_3;
+        }
+      } else if (type == "s7_energy_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_4;
+        }
+      } else if (type == "s7_energy_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_5;
+        }
+      } else if (type == "s7_energy_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_6;
+        }
+      } else if (type == "s7_energy_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_energy_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_energy_9_7;
+        }
+      } else if (type == "s7_mentor_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_1;
+        } 
+      } else if (type == "s7_mentor_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_2;
+        }
+      } else if (type == "s7_mentor_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_3;
+        }
+      } else if (type == "s7_mentor_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_4;
+        }
+      } else if (type == "s7_mentor_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_5;
+        }
+      } else if (type == "s7_mentor_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_6;
+        }
+      } else if (type == "s7_mentor_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_mentor_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_mentor_9_7;
+        }
+      } else if (type == "s7_tourism_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_1;
+        } 
+      } else if (type == "s7_tourism_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_2;
+        }
+      } else if (type == "s7_tourism_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_3;
+        }
+      } else if (type == "s7_tourism_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_4;
+        }
+      } else if (type == "s7_tourism_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_5;
+        }
+      } else if (type == "s7_tourism_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_6;
+        }
+      } else if (type == "s7_tourism_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_tourism_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_tourism_9_7;
+        }
+      } else if (type == "s7_agroTech_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_1;
+        } 
+      } else if (type == "s7_agroTech_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_2;
+        }
+      } else if (type == "s7_agroTech_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_3;
+        }
+      } else if (type == "s7_agroTech_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_4;
+        }
+      } else if (type == "s7_agroTech_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_5;
+        }
+      } else if (type == "s7_agroTech_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_6;
+        }
+      } else if (type == "s7_agroTech_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_agroTech_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_agroTech_9_7;
+        }
+      } else if (type == "s7_logistic_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_1;
+        } 
+      } else if (type == "s7_logistic_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_2;
+        }
+      } else if (type == "s7_logistic_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_3;
+        }
+      } else if (type == "s7_logistic_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_4;
+        }
+      } else if (type == "s7_logistic_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_5;
+        }
+      } else if (type == "s7_logistic_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_6;
+        }
+      } else if (type == "s7_logistic_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_logistic_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_logistic_9_7;
+        }
+      } else if (type == "s7_media_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_1;
+        } 
+      } else if (type == "s7_media_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_2;
+        }
+      } else if (type == "s7_media_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_3;
+        }
+      } else if (type == "s7_media_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_4;
+        }
+      } else if (type == "s7_media_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_5;
+        }
+      } else if (type == "s7_media_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_6;
+        }
+      } else if (type == "s7_media_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_media_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_media_9_7;
+        }
+      } else if (type == "s7_other_x_1") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_1;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_1;
+        } 
+      } else if (type == "s7_other_x_2") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_2;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_2;
+        }
+      } else if (type == "s7_other_x_3") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_3;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_3;
+        }
+      } else if (type == "s7_other_x_4") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_4;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_4;
+        }
+      } else if (type == "s7_other_x_5") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_5;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_5;
+        }
+      } else if (type == "s7_other_x_6") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_6;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_6;
+        }
+      } else if (type == "s7_other_x_7") {
+        if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_1_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_2_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_3_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_4_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_5_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_6_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_7_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
+          return kariyer_secim_25_plus_s7_other_8_7;
+        } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
+          return kariyer_secim_25_plus_s7_other_9_7;
         }
       } else if (type == "ozet_1") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
@@ -10694,13 +13921,8 @@ var decision_strategy_eng_ozet_11_2 = "";
   var nameSurname = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / isim")[1] + " " + Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / soyisim")[1];
   var cinsiyet =  Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / cinsiyet")[1]
   var dogumTarihi = Object.entries(rawData).find((x) => x[0] == "kisiselbilgi / tarih-saat")[1];
-  var dogumTarihiDate = new Date(dogumTarihi);
-  var today = new Date();
-  var age = today.getFullYear() - dogumTarihiDate.getFullYear();
-  var m = today.getMonth() - dogumTarihiDate.getMonth();
-  if (m < 0 || (m === 0 && today.getDate() < dogumTarihiDate.getDate())) {
-      age--;
-  };
+  var year = parseInt(dogumTarihi.split(" ")[2]);
+  var age = new Date().getFullYear() - year;
   var language = Object.entries(rawData).find((x) => x[0] == "Lang")[1];
 
   if (language == "Tr") { //ortak kullanılan değişkenler burada
