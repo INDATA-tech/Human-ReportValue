@@ -6772,6 +6772,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return image_karar_verme_stratejileri_6; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return image_karar_verme_stratejileri_7; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return image_karar_verme_stratejileri_7; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return image_karar_verme_stratejileri_8; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -6799,6 +6801,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return decision_strategy_s3_6_1; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return decision_strategy_s3_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return decision_strategy_s3_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_s3_8_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -6824,6 +6828,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
             return decision_strategy_s3_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+            return decision_strategy_s3_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
             return decision_strategy_s3_7_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_s3_8_2; 
@@ -6851,6 +6857,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return decision_strategy_s3_6_3; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return decision_strategy_s3_7_3; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return decision_strategy_s3_7_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_s3_8_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -6876,6 +6884,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
             return decision_strategy_s3_6_4; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+            return decision_strategy_s3_7_4; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
             return decision_strategy_s3_7_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_s3_8_4; 
@@ -6903,6 +6913,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_s4_6_text; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_s4_7_text; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_s4_7_text; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_text; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -6928,6 +6940,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_s4_6_1;
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s4_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_s4_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_1; 
@@ -6955,6 +6969,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_s4_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_s4_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_s4_7_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_2;
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -6980,6 +6996,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_s4_6_3; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s4_7_3; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_s4_7_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_3; 
@@ -7007,6 +7025,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_s4_6_4;
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_s4_7_4; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_s4_7_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7032,6 +7052,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_s4_6_5; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_s4_7_5; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_s4_7_5; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_5; 
@@ -7059,6 +7081,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_s4_6_txt; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_s4_7_txt; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_s4_7_txt; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_s4_8_txt; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7085,6 +7109,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_ozet_6_1; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_ozet_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_ozet_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_ozet_8_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7110,6 +7136,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_ozet_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_ozet_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_ozet_7_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_ozet_8_2; 
@@ -7139,6 +7167,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return image_karar_verme_stratejileri_6; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return image_karar_verme_stratejileri_7; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return image_karar_verme_stratejileri_7; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return image_karar_verme_stratejileri_8; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7166,6 +7196,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return decision_strategy_eng_s3_6_1; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return decision_strategy_eng_s3_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return decision_strategy_eng_s3_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_eng_s3_8_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7192,6 +7224,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return decision_strategy_eng_s3_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return decision_strategy_eng_s3_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return decision_strategy_eng_s3_7_2;
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_eng_s3_8_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7217,6 +7251,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
             return decision_strategy_eng_s3_6_3; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+            return decision_strategy_eng_s3_7_3; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
             return decision_strategy_eng_s3_7_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_eng_s3_8_3; 
@@ -7244,6 +7280,8 @@ var decision_strategy_eng_ozet_11_2 = "";
             return decision_strategy_eng_s3_6_4; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
             return decision_strategy_eng_s3_7_4; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+            return decision_strategy_eng_s3_7_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
             return decision_strategy_eng_s3_8_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7269,6 +7307,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_eng_s4_6_text; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_eng_s4_7_text; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_eng_s4_7_text; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_text; 
@@ -7296,6 +7336,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_eng_s4_6_1;
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_eng_s4_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_eng_s4_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7321,6 +7363,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_eng_s4_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_eng_s4_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_eng_s4_7_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_2;
@@ -7348,6 +7392,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_eng_s4_6_3; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_eng_s4_7_3; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_eng_s4_7_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_3; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7373,6 +7419,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_eng_s4_6_4;
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_eng_s4_7_4; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_eng_s4_7_4; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_4; 
@@ -7400,6 +7448,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_seng_4_6_5; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_eng_s4_7_5; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_eng_s4_7_5; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_5; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7425,6 +7475,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_eng_s4_6_txt; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_eng_s4_7_txt; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_eng_s4_7_txt; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_s4_8_txt; 
@@ -7452,6 +7504,8 @@ var decision_strategy_eng_ozet_11_2 = "";
           return decision_strategy_eng_ozet_6_1; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
           return decision_strategy_eng_ozet_7_1; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
+          return decision_strategy_eng_ozet_7_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_ozet_8_1; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Splenic") {
@@ -7477,6 +7531,8 @@ var decision_strategy_eng_ozet_11_2 = "";
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Self Projected") {
           return decision_strategy_eng_ozet_6_2; 
         } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "Mental") {
+          return decision_strategy_eng_ozet_7_2; 
+        } else if (decisionStrategyData.strategy == "Wait for the Invitation" && decisionStrategyData.innerAuthority == "N") {
           return decision_strategy_eng_ozet_7_2; 
         } else if (decisionStrategyData.strategy == "To Inform" && decisionStrategyData.innerAuthority == "Emotional") {
           return decision_strategy_eng_ozet_8_2; 
