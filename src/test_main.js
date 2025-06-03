@@ -1899,7 +1899,7 @@ var kariyer_secim_25_plus_s7_mentor_1_1 = "Yaratıcı ve Sanatsal Kariyerler";
 var kariyer_secim_25_plus_s7_mentor_1_2 = "Danışmanlık, koçluk ve mentorluk sektöründe yaratıcılığını kullanabileceğin işler şunlar olabilir:";
 var kariyer_secim_25_plus_s7_mentor_1_3 = "• Kariyer Koçu: Bireylerin kariyer hedeflerini belirlemeleri ve potansiyellerini en iyi şekilde kullanmaları için kişisel ve yaratıcı rehberlik sağlayabilirsin.";
 var kariyer_secim_25_plus_s7_mentor_1_4 = "• Kişisel Gelişim Eğitmeni: Bireylerin yaratıcılıklarını ve içsel potansiyellerini ortaya çıkarmalarına yardımcı olacak eğitim programları oluşturabilirsin";
-var kariyer_secim_25_plus_s7_mentor_1_5 = "• Yaşam Koçu (Life Coach): İnsanların yaşamları üzerinde daha fazla kontrol sahibi olmalarına yardımcı olarak, onları daha tatmin edici bir yaşam sürmeye teşvik edebilirsin.";
+var kariyer_secim_25_plus_s7_mentor_1_5 = "• Yaşam Koçu: İnsanların yaşamları üzerinde daha fazla kontrol sahibi olmalarına yardımcı olarak, onları daha tatmin edici bir yaşam sürmeye teşvik edebilirsin.";
 var kariyer_secim_25_plus_s7_mentor_1_6 = "• Eğitim ve İçerik Tasarımcısı (Koçluk ve Danışmanlık): Koçluk ve danışmanlık sürecine uygun yaratıcı eğitim materyalleri, video içerikler veya interaktif dijital platformlar tasarlayarak sürecin verimliliğini artırabilirsin.";
 var kariyer_secim_25_plus_s7_mentor_1_7 = "";
 
@@ -3739,7 +3739,7 @@ var krktr_ozl_character_elements_emotional_stability_s1 = "Duygusal denge, stres
 var krktr_ozl_strenghts_emotional_stability_s2_1 = "Stresli anlarda soğukkanlı kalmanı ve zor durumlarla daha kolay başa çıkmanı sağlayabilir.";
 var krktr_ozl_weaknesses_emotional_stability_s2_1 = "Aşırı duygusal denge, duygusal tepkisizlik gibi algılanabilir ve ilişkilerde mesafe yaratabilir.";
 var krktr_ozl_other_attributes_emotional_stability_s2 = "Sakin,\nsoğuk kanlı,\nuyumlu,\nkendinden emin,\nesnek,\nmemnuniyetli";
-var krktr_ozl_12_25_emotional_stability_questions_1 = "• Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?\n\n• Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?\n\n• Zor bir durumu atlattıktan sonra nasıl daha güçlü hissediyorum? Bu dayanıklılığı günlük okul hayatımda nasıl daha fazla kullanabilirim?";
+var krktr_ozl_12_25_emotional_stability_questions = "• Zorlandığım anlarda sakin kalmayı başarabildiğimde derslerimde nasıl bir ilerleme kaydediyorum? Bu duygusal dayanıklılığı sınav stresinde nasıl daha fazla kullanabilirim?\n\n• Hatalar yaptığımda, bu hatalardan öğrenmek için nasıl bir yaklaşım izliyorum? Bu öğrenme sürecini okul hayatımda nasıl daha etkili hale getirebilirim?\n\n• Zor bir durumu atlattıktan sonra nasıl daha güçlü hissediyorum? Bu dayanıklılığı günlük okul hayatımda nasıl daha fazla kullanabilirim?";
 var krktr_ozl_25_plus_emotional_stability_questions = "• Hata yaptığımda, bu hatalardan nasıl ders çıkarıyorum? Öğrenme sürecimi iş hayatımda daha verimli hale getirmek için neler yapabilirim?\n\n• Zor bir projeyi tamamladıktan sonra kendimi nasıl daha güçlü hissediyorum? Bu dayanıklılığı işimde sürekli başarı sağlamak için nasıl daha fazla kullanabilirim?\n\n• İşte stresli durumlarla karşılaştığımda sakin kalmayı başardığımda nasıl sonuçlar elde ediyorum? Bu duygusal dayanıklılığı yoğun iş dönemlerinde nasıl daha iyi kullanabilirim?";
 
 //özet
@@ -3775,53 +3775,43 @@ var krktr_ozl_ozet_10_2 = "Yeniliklere açık, esnek ve duygusal olarak dengeli 
 
 //Karakter Özellikleri İngilizce
 var krktr_ozl_eng_openness_to_experience = "Openness to Experience";
-var krktr_ozl_eng_openness_to_experience_s1 = "Openness (also referred to as openness to experience) emphasizes imagination and insight the most out of all five personality traits. People who are high in openness tend to have a broad range of interests. They are curious about the world and other people and are eager to learn new things and enjoy new experiences.\n\nPeople who are high in this personality trait also tend to be more adventurous and creative. Conversely, people low in this personality trait are often much more traditional and may struggle with abstract thinking.";
-var krktr_ozl_eng_strenghts_openness_to_experience_s2_1 = "Very creative, open to trying new things, focused on tackling new challenges, happy to think about abstract concepts.";
-var krktr_ozl_eng_weaknesses_openness_to_experience_s2_1 = "Dislikes change, does not enjoy new things, resists new ideas, not very imaginative, dislikes abstract or theoretical concepts.";
+var krktr_ozl_eng_openness_to_experience_s1 = "Openness to experience may reflect your imagination, curiosity, and willingness to explore new ideas. You may enjoy learning new things, thinking creatively, and approaching the world with an open mind. You might be drawn to different topics and express yourself in unique ways. On the other hand, lower levels of openness may lead you to prefer familiar routines, be more cautious about change, and find abstract thinking less comfortable.";
+var krktr_ozl_eng_strenghts_openness_to_experience_s2_1 = "Encourages creative thinking, openness to new ideas, and a love of learning.";
+var krktr_ozl_eng_weaknesses_openness_to_experience_s2_1 = "Too many interests may cause difficulty focusing or setting clear goals.";
 var krktr_ozl_eng_other_attributes_openness_to_experience_s2 = "Ideas (curious)\nFantasy (imaginative)\n Aesthetics (artistic)\nActions (wide interests)\nFeelings (excitable)\nValues (unconventional)";
-var krktr_ozl_eng_12_25_openness_to_experience_questions_1 = "• How do I feel when I learn new things or discover different perspectives? How can I use this curiosity more effectively in my school projects?";
-var krktr_ozl_eng_12_25_openness_to_experience_questions_2 = "• When researching various topics, which areas inspire me the most? How can I bring this inspiration into my schoolwork to make it more creative?";
-var krktr_ozl_eng_12_25_openness_to_experience_questions_3 = "• When I develop an unconventional way of thinking, how does it affect my school performance? In which projects can I show my creative thinking skills more?";
+var krktr_ozl_eng_12_25_openness_to_experience_questions = "• How do I feel when I learn new things or discover different perspectives? How can I use this curiosity more effectively in my school projects?\n\n• When researching various topics, which areas inspire me the most? How can I bring this inspiration into my schoolwork to make it more creative?\n\n• When I develop an unconventional way of thinking, how does it affect my school performance? In which projects can I show my creative thinking skills more?";
 var krktr_ozl_eng_25_plus_openness_to_experience_questions = "• How do I feel when I explore new ideas and different perspectives in my work? How can I use this curiosity and creativity more effectively in my projects?\n\n• What results do I get when I try unconventional methods to solve different problems? How can I apply these innovative approaches more in my work?\n\n• How does my motivation change when I’m open to new experiences in my tasks? How can I expand my creative thinking style to broader areas of my work?";
 
 var krktr_ozl_eng_self_discipline = "Self Discipline";
-var krktr_ozl_eng_self_discipline_s1 = "Among each of the personality traits, conscientiousness is one defined by high levels of thoughtfulness, good impulse control, and goal-directed behaviors. Highly conscientious people tend to be organized and mindful of details. They plan ahead, think about how their behavior affects others, and are mindful of deadlines. Someone scoring lower in this primary personality trait is less structured and less organized. They may procrastinate to get things done, sometimes missing deadlines completely.";
-var krktr_ozl_eng_strenghts_self_discipline_s2_1 = "Spends time preparing Finishes important tasks right away Pays attention to detail Enjoys having a set schedule";
-var krktr_ozl_eng_weaknesses_self_discipline_s2_1 = "Dislikes structure and schedules Makes messes and doesn't take care of things Fails to return things or put them back where they belong Procrastinates important tasks Fails to complete necessary or assigned tasks";
+var krktr_ozl_eng_self_discipline_s1 = "Conscientiousness may reflect your sense of responsibility, ability to stay organized, and how well you manage tasks. If this trait is strong for you, you may enjoy making plans, meeting deadlines, and staying focused on your goals. You might pay attention to details, think about how your actions affect others, and follow through on your commitments. Lower levels of conscientiousness may lead to disorganization, procrastination, or difficulty sticking to structure.";
+var krktr_ozl_eng_strenghts_self_discipline_s2_1 = "Helps you stay organized, manage time well, and be seen as reliable";
+var krktr_ozl_eng_weaknesses_self_discipline_s2_1 = "Excessive discipline may lead to perfectionism and reduced flexibility.";
 var krktr_ozl_eng_other_attributes_self_discipline_s2 = "Competence (efficient)\nOrder (organized)\nDutifulness (not careless)\nAchievement striving (thorough)\nSelf-discipline (not lazy)\nDeliberation (not impulsive)";
-var krktr_ozl_eng_12_25_self_discipline_questions_1 = "• When I complete my assignments in a planned and organized way, how are my results? How can I make this planning skill more effective during exam periods?";
-var krktr_ozl_eng_12_25_self_discipline_questions_2 = "• When I reach my goals, what are the most important habits that help me succeed? How can I further develop these habits in my studying and other responsibilities?";
-var krktr_ozl_eng_12_25_self_discipline_questions_3 = "• How do I motivate myself when fulfilling my responsibilities? How can I make this motivation more sustainable in my long-term projects?";
+var krktr_ozl_eng_12_25_self_discipline_questions = "• When I complete my assignments in a planned and organized way, how are my results? How can I make this planning skill more effective during exam periods?\n\n• When I reach my goals, what are the most important habits that help me succeed? How can I further develop these habits in my studying and other responsibilities?\n\n• How do I motivate myself when fulfilling my responsibilities? How can I make this motivation more sustainable in my long-term projects?";
 var krktr_ozl_eng_25_plus_self_discipline_questions = "• What results do I achieve when I complete my tasks in a planned and organized manner? How can I apply this planning skill to larger projects?\n\n• What habits do I rely on most often to reach the goals I set? How can I strengthen these success habits further in my work life?\n\n• When I fulfill my responsibilities, what internal motivation sources do I tap into? How can I make this motivation more sustainable for long-term projects?";
 
 var krktr_ozl_eng_extraversion = "Extraversion";
-var krktr_ozl_eng_extraversion_s1 = "Extraversion (or extroversion) is a personality trait characterized by excitability, sociability, talkativeness, assertiveness, and high amounts of emotional expressiveness. People high in extraversion are outgoing and tend to gain energy in social situations. Being around others helps them feel energized and excited. People who are low in this personality trait or introverted tend to be more reserved. They have less energy to expend in social settings and social events can feel draining. Introverts often require a period of solitude and quiet in order to \"recharge.\"";
-var krktr_ozl_eng_strenghts_extraversion_s2_1 = "Enjoys being the center of attention likes to start conversations enjoys meeting new people has a wide social circle of friends and acquaintances finds it easy to make new friends feels energized when around other people.";
-var krktr_ozl_eng_weaknesses_extraversion_s2_1 = "Prefers solitude feels exhausted when socializing a lot finds it difficult to start conversations dislikes making small talk carefully thinks things through before speaking dislikes being the center of attention.";
+var krktr_ozl_eng_extraversion_s1 = "Extraversion may reflect how energized you feel by being around others. If this trait is high, you may enjoy social settings, feel confident expressing yourself, and gain energy from group interaction. You might be enthusiastic, outgoing, and talkative. Lower extraversion often means you may prefer calm settings, need time alone to recharge, and feel drained by too much social interaction.";
+var krktr_ozl_eng_strenghts_extraversion_s2_1 = "Boosts communication skills, teamwork, and social confidence.";
+var krktr_ozl_eng_weaknesses_extraversion_s2_1 = "Too much extraversion may cause distraction and difficulty focusing on individual tasks.";
 var krktr_ozl_eng_other_attributes_extraversion_s2 = "Gregariousness (sociable)\nassertiveness (forceful)\nactivity (energetic)\nexcitement-seeking (adventurous)\npositive emotions (enthusiastic)\nwarmth (outgoing).";
-var krktr_ozl_eng_12_25_extraversion_questions_1 = "• How do I feel when I take an active role in group work or class activities? In which other school activities can I use this energy more?";
-var krktr_ozl_eng_12_25_extraversion_questions_2 = "• How does learning through interacting with my friends impact me? How can I take on more leadership roles in group work? ";
-var krktr_ozl_eng_12_25_extraversion_questions_3 = "• How does being in social settings and speaking up affect my school success? How can I show these skills more often in classes or projects?";
+var krktr_ozl_eng_12_25_extraversion_questions = "• How do I feel when I take an active role in group work or class activities? In which other school activities can I use this energy more?\n\n• How does learning through interacting with my friends impact me? How can I take on more leadership roles in group work?\n\n• How does being in social settings and speaking up affect my school success? How can I show these skills more often in classes or projects?";
 var krktr_ozl_eng_25_plus_extraversion_questions = "• How do I feel when I participate in group work or take on leadership roles at work? How can I use this energy more effectively in team projects?\n\n• How does working by interacting with my colleagues affect my performance? How can I showcase these social skills in more work opportunities?\n\n• How does being active in meetings or social settings contribute to my success at work? How can I utilize this skill more in the workplace?";
 
 var krktr_ozl_eng_agreeableness = "Agreeableness";
-var krktr_ozl_eng_agreeableness_s1 = "This personality trait includes attributes such as trust, altruism, kindness, affection, and other prosocial behaviors. People who are high in agreeableness tend to be more cooperative while those low in this personality trait tend to be more competitive and sometimes even manipulative.";
-var krktr_ozl_eng_strenghts_agreeableness_s2_1 = "Has a great deal of interest in other people cares about others feels empathy and concern for other people enjoys helping and contributing to the happiness of other people assists others who are in need of help";
-var krktr_ozl_eng_weaknesses_agreeableness_s2_1 = "Takes little interest in others doesn't care about how other people feel has little interest in other people's problems insults and belittles others manipulates others to get what they want";
+var krktr_ozl_eng_agreeableness_s1 = "Agreeableness is about being kind, supportive, and open to cooperation. If you score high in this trait, you may enjoy helping others, building strong relationships, and keeping peace in group settings. You might be empathetic, understanding, and easy to work with. Lower agreeableness may bring a more competitive or self-focused approach, which can make teamwork or conflict resolution more challenging at times.";
+var krktr_ozl_eng_strenghts_agreeableness_s2_1 = "Supports empathy, collaboration, and building positive relationships.";
+var krktr_ozl_eng_weaknesses_agreeableness_s2_1 = "Being too agreeable can make it hard to set boundaries or make tough decisions.";
 var krktr_ozl_eng_other_attributes_agreeableness_s2 = "Trust (forgiving)\nStraightforwardness (not demanding)\nAltruism (warm)\nCompliance (not stubborn)\nModesty (not show-off)\nTender-mindedness (sympathetic)";
-var krktr_ozl_eng_12_25_agreeableness_questions_1 = "• When I help or collaborate with my classmates, which of my skills stand out? How can I use this collaboration more effectively in group projects?";
-var krktr_ozl_eng_12_25_agreeableness_questions_2 = "• How does understanding others’ needs and supporting them strengthen my relationships in class? How can I develop this empathy more at school?";
-var krktr_ozl_eng_12_25_agreeableness_questions_3 = "• When I’m understanding and patient, what kind of impact do I create? How can I better use these traits in group work or class discussions?";
+var krktr_ozl_eng_12_25_agreeableness_questions = "• When I help or collaborate with my classmates, which of my skills stand out? How can I use this collaboration more effectively in group projects?\n\n• How does understanding others’ needs and supporting them strengthen my relationships in class? How can I develop this empathy more at school?\n\n• When I’m understanding and patient, what kind of impact do I create? How can I better use these traits in group work or class discussions?";
 var krktr_ozl_eng_25_plus_agreeableness_questions = "• What skills stand out when I help or collaborate with my colleagues? How can I use this collaboration more effectively in my projects?\n\n• How does understanding my coworkers’ needs and supporting them strengthen my workplace relationships? How can I further develop this empathy in my work life?\n\n• When I am understanding and patient, what impact do I create at work? How can I better use these traits in challenging projects and team collaborations?";
 
 var krktr_ozl_eng_emotional_stability = "Emotional Stability";
-var krktr_ozl_eng_emotional_stability_s1 = "Emotional stability can reflect how a person copes with stress, their ability to maintain emotional balance, and their self-esteem.";
-var krktr_ozl_eng_strenghts_emotional_stability_s2_1 = "Emotionally stable deals well with stress rarely feels sad or depressed doesn't worry much is very relaxed";
-var krktr_ozl_eng_weaknesses_emotional_stability_s2_1 = "Experiences a lot of stress worries about many different things gets upset easily experiences dramatic shifts in mood feels anxious struggles to bounce back after stressful events";
+var krktr_ozl_eng_emotional_stability_s1 = "Emotional stability shows how well you handle stress, regulate emotions, and maintain self-confidence. If this trait is strong for you, you may stay calm under pressure, recover quickly from setbacks, and maintain a positive view of yourself. You likely respond to challenges with resilience and steady emotions. Lower emotional stability may lead to mood swings, anxiety, or feeling overwhelmed during stressful situations.";
+var krktr_ozl_eng_strenghts_emotional_stability_s2_1 = "Helps you stay calm in crises and handle emotional ups and downs effectively.";
+var krktr_ozl_eng_weaknesses_emotional_stability_s2_1 = "Too much calmness may be seen as emotional distance or low sensitivity in relationships.";
 var krktr_ozl_eng_other_attributes_emotional_stability_s2 = "Composure (calm)\nAgreeableness (pleasant)\nContentment (satisfied)\nConfidence (self-assured)\nDeliberation (steady)\nResilience (self-confident)";
-var krktr_ozl_eng_12_25_emotional_stability_questions_1 = "• When I manage to stay calm during challenging moments, how do I progress in my classes? How can I use this emotional resilience more during exam stress?";
-var krktr_ozl_eng_12_25_emotional_stability_questions_2 = "• When I make mistakes, what approach do I take to learn from them? How can I make this learning process more effective in my school life?";
-var krktr_ozl_eng_12_25_emotional_stability_questions_3 = "• After overcoming a difficult situation, how do I feel stronger? How can I use this resilience more in my everyday school life?";
+var krktr_ozl_eng_12_25_emotional_stability_questions = "• When I manage to stay calm during challenging moments, how do I progress in my classes? How can I use this emotional resilience more during exam stress?\n\n• When I make mistakes, what approach do I take to learn from them? How can I make this learning process more effective in my school life?\n\n• After overcoming a difficult situation, how do I feel stronger? How can I use this resilience more in my everyday school life?";
 var krktr_ozl_eng_25_plus_emotional_stability_questions = "• What results do I achieve when I manage to stay calm in stressful situations at work? How can I use this emotional resilience more effectively during busy work periods?\n\n• When I make mistakes, how do I learn from them? What can I do to make my learning process more efficient in my professional life?\n\n• After completing a challenging project, how do I feel stronger? How can I use this resilience more to ensure continuous success in my work?";
 
 
@@ -4945,21 +4935,7 @@ var decision_strategy_eng_ozet_11_2 = "";
           return krktr_ozl_other_attributes_openness_to_experience_s2;
         }
       } else if (type == "questions") {
-        if (big5Name == "Öz Disiplin") {
-          return krktr_ozl_25_plus_self_discipline_questions;
-        } else if (big5Name == "Dışa Dönüklük") {
-          return krktr_ozl_25_plus_extraversion_questions;
-        } else if (big5Name == "Uyumluluk") {
-          return krktr_ozl_25_plus_agreeableness_questions;
-        } else if (big5Name == "Duygusal Dayanıklılık") {
-          return krktr_ozl_25_plus_emotional_stability_questions;
-        } else if (big5Name == "Deneyime Açıklık") {
-          return krktr_ozl_25_plus_openness_to_experience_questions;
-        }
-      }
-
-      if (age <= 25) {
-        if (type == "questions") {
+        if (age <= 25) {
           if (big5Name == "Öz Disiplin") {
             return krktr_ozl_12_25_self_discipline_questions;
           } else if (big5Name == "Dışa Dönüklük") {
@@ -4970,6 +4946,18 @@ var decision_strategy_eng_ozet_11_2 = "";
             return krktr_ozl_12_25_emotional_stability_questions;
           } else if (big5Name == "Deneyime Açıklık") {
             return krktr_ozl_12_25_openness_to_experience_questions;
+          }
+        } else {
+          if (big5Name == "Öz Disiplin") {
+            return krktr_ozl_25_plus_self_discipline_questions;
+          } else if (big5Name == "Dışa Dönüklük") {
+            return krktr_ozl_25_plus_extraversion_questions;
+          } else if (big5Name == "Uyumluluk") {
+            return krktr_ozl_25_plus_agreeableness_questions;
+          } else if (big5Name == "Duygusal Dayanıklılık") {
+            return krktr_ozl_25_plus_emotional_stability_questions;
+          } else if (big5Name == "Deneyime Açıklık") {
+            return krktr_ozl_25_plus_openness_to_experience_questions;
           }
         }
       }
@@ -5035,16 +5023,30 @@ var decision_strategy_eng_ozet_11_2 = "";
           return krktr_ozl_eng_other_attributes_openness_to_experience_s2;
         }
       } else if (type == "questions") {
-        if (big5Name == "Öz Disiplin") {
-          return krktr_ozl_eng_25_plus_self_discipline_questions;
-        } else if (big5Name == "Dışa Dönüklük") {
-          return krktr_ozl_eng_25_plus_extraversion_questions;
-        } else if (big5Name == "Uyumluluk") {
-          return krktr_ozl_eng_25_plus_agreeableness_questions;
-        } else if (big5Name == "Duygusal Dayanıklılık") {
-          return krktr_ozl_eng_25_plus_emotional_stability_questions;
-        } else if (big5Name == "Deneyime Açıklık") {
-          return krktr_ozl_eng_25_plus_openness_to_experience_questions;
+        if (age <= 25) {
+          if (big5Name == "Öz Disiplin") {
+            return krktr_ozl_eng_12_25_self_discipline_questions;
+          } else if (big5Name == "Dışa Dönüklük") {
+            return krktr_ozl_eng_12_25_extraversion_questions;
+          } else if (big5Name == "Uyumluluk") {
+            return krktr_ozl_eng_12_25_agreeableness_questions;
+          } else if (big5Name == "Duygusal Dayanıklılık") {
+            return krktr_ozl_eng_12_25_emotional_stability_questions;
+          } else if (big5Name == "Deneyime Açıklık") {
+            return krktr_ozl_eng_12_25_openness_to_experience_questions;
+          }
+        } else {
+          if (big5Name == "Öz Disiplin") {
+            return krktr_ozl_eng_25_plus_self_discipline_questions;
+          } else if (big5Name == "Dışa Dönüklük") {
+            return krktr_ozl_eng_25_plus_extraversion_questions;
+          } else if (big5Name == "Uyumluluk") {
+            return krktr_ozl_eng_25_plus_agreeableness_questions;
+          } else if (big5Name == "Duygusal Dayanıklılık") {
+            return krktr_ozl_eng_25_plus_emotional_stability_questions;
+          } else if (big5Name == "Deneyime Açıklık") {
+            return krktr_ozl_eng_25_plus_openness_to_experience_questions;
+          }
         }
       }
     }
