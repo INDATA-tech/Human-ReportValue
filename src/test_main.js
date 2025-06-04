@@ -2957,6 +2957,33 @@ var kariyer_secim_25_plus_s7_eng_meal_9_5 = "• Customer Experience Analyst: An
 var kariyer_secim_25_plus_s7_eng_meal_9_6 = "• Sales Data Analyst: Analyze restaurant sales data to optimize sales strategies and support business decisions.";
 var kariyer_secim_25_plus_s7_eng_meal_9_7 = "• Food Safety Analyst: Analyze food safety data, contributing to the improvement of hygiene standards and quality control processes.";
 
+//özet
+var kariyer_secim_eng_ozet_1_1 = "Sana En Uygun Kariyer Alanı: Yaratıcı ve Sanatsal Kariyerler";
+var kariyer_secim_eng_ozet_1_2 = "Estetik bakış açın ve özgün fikirlerinle öne çıkabileceğin bir alandasın. Yaratıcı düşünme, görsel ifade ve kullanıcı deneyimi gibi yeteneklerini kullanarak farklı projelere hayat verebilirsin. Fikir üretmekten keyif alıyor, görsel anlatımda güçlüysen ve detaylara duyarlıysan, bu kariyer alanı tam sana göre.";
+
+var kariyer_secim_eng_ozet_2_1 = "Sana En Uygun Kariyer Alanı: Liderlik ve Yönetim Kariyerleri";
+var kariyer_secim_eng_ozet_2_2 = "Stratejik düşünme, liderlik ve organizasyon becerilerini kullanabileceğin bir yolculuk seni bekliyor. Ekip yönetimi, iş süreçlerini geliştirme ve büyüme fırsatlarını değerlendirme gibi konularda başarılı olabilirsin. Karar almayı seviyor, insanlarla etkili iletişim kurabiliyor ve sonuç odaklı çalışıyorsan, liderlik ve yönetim alanı senin için doğru seçim olacaktır.";
+eng_
+var kariyer_secim_eng_ozet_3_1 = "Sana En Uygun Kariyer Alanı: Yardım ve Sosyal Kariyerler";
+var kariyer_secim_eng_ozet_3_2 = "İnsanlara yardım etmeyi ve onların gelişimine katkıda bulunmayı seviyorsan, bu kariyer alanı seni bekliyor. Dinleme, yönlendirme ve destekleme gibi sosyal yetkinlikleri güçlü bir şekilde kullanabilir, bireylerle etkili iletişim kurarak onların hayatlarına dokunabilirsin. Yardım etmeyi doğal buluyor, insanlarla birebir ilişkiler kurmayı seviyorsan, bu alan tam sana göre.";
+
+var kariyer_secim_eng_ozet_4_1 = "Sana En Uygun Kariyer Alanı: Teknik ve Mühendislik Kariyerleri";
+var kariyer_secim_eng_ozet_4_2 = "Teknoloji ve mühendislik becerilerini en üst düzeye çıkarabileceğin bir kariyer yolundasın. Problem çözme, yenilikçi düşünme ve teknik bilgi gerektiren alanlarda başarı gösterebilirsin. Bilgisayar bilimleri ya da mühendislik gibi teknik alanlarda güçlüysen ve bu alanda bir fark yaratmak istiyorsan, teknik ve mühendislik kariyerleri senin için uygun bir seçenek.";
+
+var kariyer_secim_eng_ozet_5_1 = "Sana En Uygun Kariyer Alanı: Satış ve İlişkisel Kariyerler";
+var kariyer_secim_eng_ozet_5_2 = "nsan ilişkileri, ikna kabiliyeti ve etkili iletişim becerilerinle parlayabileceğin bir kariyer seni bekliyor. Müşteri ilişkilerini yönetmek, satış stratejileri geliştirmek ve pazarlama gibi alanlarda başarılı olabilirsin. Sosyal bir kişiliğin varsa, dinamik bir ortamda insanlarla güçlü ilişkiler kurmayı seviyorsan, satış ve ilişkisel kariyerler tam sana göre.";
+
+var kariyer_secim_eng_ozet_6_1 = "Sana En Uygun Kariyer Alanı: Organizasyonel ve İdari Kariyerler";
+var kariyer_secim_eng_ozet_6_2 = "Düzenli, verimli ve organizasyon becerilerini kullanabileceğin bir kariyer yoluna adım atabilirsin. Ofis yönetimi, proje koordinasyonu ve iş akışlarını yönetme gibi yetkinlikleri geliştirebilirsin. Detaylara dikkat ediyor, yönetim ve koordinasyon becerilerine sahipsen, organizasyonel ve idari kariyerler senin için ideal.";
+
+var kariyer_secim_eng_ozet_7_1 = "Sana En Uygun Kariyer Alanı: Yenilikçi ve Girişimci Kariyerler";
+var kariyer_secim_eng_ozet_7_2 = "Yaratıcılığını, özgünlük ve yenilikçilikle birleştirerek yeni iş fırsatları yaratabileceğin bir kariyer seni bekliyor. Girişimcilik, inovasyon ve yeni projeler geliştirmek konusunda güçlü bir vizyona sahipsen, bu alan tam sana göre. Risk almayı seviyor, liderlik ve yenilikçi düşünme yeteneğini kullanarak farklı çözümler üretiyorsan, yenilikçi ve girişimci kariyerler seni çağırıyor.";
+
+var kariyer_secim_eng_ozet_8_1 = "Sana En Uygun Kariyer Alanı: Öğretmenlik ve Mentorluk Kariyerleri";
+var kariyer_secim_eng_ozet_8_2 = "Eğitim ve kişisel gelişim süreçlerini yönlendirmek ve başkalarının hayatlarına dokunmak senin için anlamlıysa, öğretmenlik ve mentorluk alanında harika bir kariyer seni bekliyor. İnsanların gelişimine katkıda bulunmayı seviyor, bilgi paylaşmayı doğal buluyorsan ve sabırlı bir rehberlik yapmak istiyorsan, bu alan senin için en doğru seçenek olabilir.";
+
+var kariyer_secim_eng_ozet_9_1 = "Sana En Uygun Kariyer Alanı: Analitik ve Veriye Dayalı Kariyerler";
+var kariyer_secim_eng_ozet_9_2 = "Veriye dayalı düşünme, analiz yapma ve strateji geliştirme becerilerine sahip birisin. Bu alanlarda, karmaşık verileri anlamlandırabilir, iş kararlarını destekleyebilir ve geleceği öngörebilirsin. Detaylara odaklanmayı seviyor, sayısal düşünebiliyor ve çözüm üretmeyi kolayca başarabiliyorsan, bu kariyer alanı senin için çok uygun.";
 
 //Güçlü Yanların 12-25
 var guclu_yanlarin2_57_10_1 = "Mükemmelleştirilmiş Form Gücü (57-10)";
@@ -13414,43 +13441,43 @@ var decision_strategy_eng_ozet_11_2 = "Your decision-making process requires a d
         }
       } else if (type == "ozet_1") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
-          return kariyer_secim_ozet_1_1;
+          return kariyer_secim_eng_ozet_1_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
-          return kariyer_secim_ozet_2_1;
+          return kariyer_secim_eng_ozet_2_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
-          return kariyer_secim_ozet_3_1;
+          return kariyer_secim_eng_ozet_3_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
-          return kariyer_secim_ozet_4_1;
+          return kariyer_secim_eng_ozet_4_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
-          return kariyer_secim_ozet_5_1;
+          return kariyer_secim_eng_ozet_5_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
-          return kariyer_secim_ozet_6_1;
+          return kariyer_secim_eng_ozet_6_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
-          return kariyer_secim_ozet_7_1;
+          return kariyer_secim_eng_ozet_7_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
-          return kariyer_secim_ozet_8_1;
+          return kariyer_secim_eng_ozet_8_1;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
-          return kariyer_secim_ozet_9_1;
+          return kariyer_secim_eng_ozet_9_1;
         }
       } else if (type == "ozet_2") {
         if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yaratıcı ve Sanatsal Kariyerler") {
-          return kariyer_secim_ozet_1_2;
+          return kariyer_secim_eng_ozet_1_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Liderlik ve Yönetim Kariyerleri") {
-          return kariyer_secim_ozet_2_2;
+          return kariyer_secim_eng_ozet_2_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yardım ve Sosyal Kariyerler") {
-          return kariyer_secim_ozet_3_2;
+          return kariyer_secim_eng_ozet_3_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Teknik ve Mühendislik Kariyerleri") {
-          return kariyer_secim_ozet_4_2;
+          return kariyer_secim_eng_ozet_4_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Satış ve İlişki Kurma Kariyerleri") {
-          return kariyer_secim_ozet_5_2;
+          return kariyer_secim_eng_ozet_5_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Organizasyonel ve İdari Kariyerler") {
-          return kariyer_secim_ozet_6_2;
+          return kariyer_secim_eng_ozet_6_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Yenilikçi ve Girişimci Kariyerler") {
-          return kariyer_secim_ozet_7_2;
+          return kariyer_secim_eng_ozet_7_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Öğretim ve Mentorluk Kariyerleri") {
-          return kariyer_secim_ozet_8_2;
+          return kariyer_secim_eng_ozet_8_2;
         } else if (careerSelectionData.find((x) => x.id == kariyer_secimData.id).name == "Analitik ve Veri Odaklı Kariyerler") {
-          return kariyer_secim_ozet_9_2;
+          return kariyer_secim_eng_ozet_9_2;
         }
       }
     }
