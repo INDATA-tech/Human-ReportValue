@@ -3556,6 +3556,52 @@ var kslk_ozl_conventional_eng_you_may_not_like = "You might not enjoy tasks that
 var kslk_ozl_12_25_conventional_eng_questions = "• How organized do I feel when studying or doing homework? How can I use this organized work habit more effectively during exam periods?\n\n• Do I do a better job when I pay attention to details? How can I use this attention to detail more in projects and assignments?\n\n• Can I manage my time better when I plan things out? How can I use this planning skill more in my school life?";
 var kslk_ozl_25_plus_conventional_eng_questions = "• How much more efficiently do I complete tasks when I work in an organized and systematic way? How can I expand this habit of organized work to larger projects?\n\n• What differences does my attention to detail make in the workplace? How can I use this attention more effectively in my projects?\n\n• How do I better manage my time at work when I am planned and organized? How can I apply this planning skill more broadly in my professional life?";
 
+//özet 
+var kslk_ozl_eng_ozet_1_1 = "You Are Realistic and Entrepreneurial";
+var kslk_ozl_eng_ozet_1_2 = "You are a practical and solution-oriented person. To achieve your goals, you prefer to take direct action, take risks, and achieve tangible results.";
+
+var kslk_ozl_eng_ozet_2_1 = "You Are Realistic and Traditional";
+var kslk_ozl_eng_ozet_2_2 = "You adopt an organized, systematic and practical approach. You like work in structured environments that produce tangible results and are based on clear rules.";
+
+var kslk_ozl_eng_ozet_3_1 = "You Are Realistic and Social";
+var kslk_ozl_eng_ozet_3_2 = "You are a person who is both practical and people-oriented. You like to help people directly and come up with solutions for real need.";
+
+var kslk_ozl_eng_ozet_4_1 = "You Are Realistic and Artistic";
+var kslk_ozl_eng_ozet_4_2 = "For you, creativity and functionality are important together. Just as you like to work with tangible materials, you also prefer to reflect aesthetic and design elements to your work.";
+
+var kslk_ozl_eng_ozet_5_1 = "You Are Realistic and Investigative";
+var kslk_ozl_eng_ozet_5_2 = "You have an observant and analytical nature. By generating concrete data and logical solutions, you prefer to solve real-world problems.";
+
+var kslk_ozl_eng_ozet_6_1 = "You Are Entrepreneurial and Traditional";
+var kslk_ozl_eng_ozet_6_2 = "You are both a tidy and leader-spirited person. You effectively manage structured systems and use them to achieve your goals.";
+
+var kslk_ozl_eng_ozet_7_1 = "You Are Entrepreneurial and Social";
+var kslk_ozl_eng_ozet_7_2 = "You like to communicate with people and motivate them. You prefer to lead, persuade, and bring big ideas to life.";
+
+var kslk_ozl_eng_ozet_8_1 = "You Are Entrepreneurial and Artistic";
+var kslk_ozl_eng_ozet_8_2 = "You like to produce new projects by combining your creativity and energy. You enjoy bringing your original ideas to life with bold steps.";
+
+var kslk_ozl_eng_ozet_9_1 = "You Are An Entrepreneur & Researcher";
+var kslk_ozl_eng_ozet_9_2 = "You have the ability to think analytically and act strategically. You like to develop new ideas and apply them in the real world.";
+
+var kslk_ozl_eng_ozet_10_1 = "You Are Traditional & Social";
+var kslk_ozl_eng_ozet_10_2 = "You like to manage order and human relations in a balanced way. When helping people, you prefer to take a methodical and reliable approach.";
+
+var kslk_ozl_eng_ozet_11_1 = "You Are Traditional & Artistic";
+var kslk_ozl_eng_ozet_11_2 = "You are both an organized and creative person. While adhering to the rules, you like to make things more effective with aesthetic and artistic touches.";
+
+var kslk_ozl_eng_ozet_12_1 = "You Are Traditional and Inquisitive";
+var kslk_ozl_eng_ozet_12_2 = "You have a disciplined and analytical nature. By focusing on details, you produce systematic solutions and use information effectively.";
+
+var kslk_ozl_eng_ozet_13_1 = "You Are Social and Artistic";
+var kslk_ozl_eng_ozet_13_2 = "You like to connect deeply with people and get creative. You enjoy expressing yourself by combining art, emotions, and social interaction.";
+
+var kslk_ozl_eng_ozet_14_1 = "You Are Social and Inquisitive";
+var kslk_ozl_eng_ozet_14_2 = "You like to use your knowledge and analytical ability to help people. You can be successful in areas such as training, guidance and counseling.";
+
+var kslk_ozl_eng_ozet_15_1 = "You Are Artistic and Investigative";
+var kslk_ozl_eng_ozet_15_2 = "You have a curious and creative nature. You like to come up with original ideas by combining aesthetic and intellectual exploration.";
+
 // İş Yaşamında Rolün
 var is_y_r_1_s2_0 = "Otorite/Öncü";
 var is_y_r_1_s2_1 = "Keşfeden Uzman (1/3)";
@@ -4936,77 +4982,150 @@ var decision_strategy_eng_ozet_11_2 = "";
   }
   };
 
+  
   let kslk_ozl_ozet = (hollandName_1, hollandName_2, age, type) => {
-    if (type == "ozet_1") {
-      let pair = [hollandName_1, hollandName_2].sort().join("-");
-  
-      if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
-        return kslk_ozl_ozet_1_1;
-      } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
-        return kslk_ozl_ozet_2_1;
-      } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_3_1;
-      } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_4_1;
-      } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_5_1;
-      } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
-        return kslk_ozl_ozet_6_1;
-      } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_7_1;
-      } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_8_1;
-      } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_9_1;
-      } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_10_1;
-      } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_11_1;
-      } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_12_1;
-      } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_13_1;
-      } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_14_1;
-      } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_15_1;
+    if (lang == "Tr") {
+      if (type == "ozet_1") {
+        let pair = [hollandName_1, hollandName_2].sort().join("-");
+
+        if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
+          return kslk_ozl_ozet_1_1;
+        } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_ozet_2_1;
+        } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_3_1;
+        } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_4_1;
+        } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_5_1;
+        } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_ozet_6_1;
+        } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_7_1;
+        } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_8_1;
+        } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_9_1;
+        } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_10_1;
+        } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_11_1;
+        } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_12_1;
+        } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_13_1;
+        } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_14_1;
+        } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_15_1;
+        }
+      } else if (type == "ozet_2") {
+        let pair = [hollandName_1, hollandName_2].sort().join("-");
+
+        if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
+          return kslk_ozl_ozet_1_2;
+        } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_ozet_2_2;
+        } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_3_2;
+        } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_4_2;
+        } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_5_2;
+        } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_ozet_6_2;
+        } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_7_2;
+        } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_8_2;
+        } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_9_2;
+        } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_ozet_10_2;
+        } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_11_2;
+        } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_12_2;
+        } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_ozet_13_2;
+        } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_14_2;
+        } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_ozet_15_2;
+        }
       }
-    } else if (type == "ozet_2") {
-      let pair = [hollandName_1, hollandName_2].sort().join("-");
-  
-      if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
-        return kslk_ozl_ozet_1_2;
-      } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
-        return kslk_ozl_ozet_2_2;
-      } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_3_2;
-      } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_4_2;
-      } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_5_2;
-      } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
-        return kslk_ozl_ozet_6_2;
-      } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_7_2;
-      } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_8_2;
-      } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_9_2;
-      } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
-        return kslk_ozl_ozet_10_2;
-      } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_11_2;
-      } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_12_2;
-      } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
-        return kslk_ozl_ozet_13_2;
-      } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_14_2;
-      } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
-        return kslk_ozl_ozet_15_2;
+}   else if (lang == "En") {
+      if (type == "ozet_1") {
+        let pair = [hollandName_1, hollandName_2].sort().join("-");
+
+        if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_1_1;
+        } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_2_1;
+        } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_3_1;
+        } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_4_1;
+        } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_5_1;
+        } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_6_1;
+        } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_7_1;
+        } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_8_1;
+        } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_9_1;
+        } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_10_1;
+        } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_11_1;
+        } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_12_1;
+        } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_13_1;
+        } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_14_1;
+        } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_15_1;
+        }
+      } else if (type == "ozet_2") {
+        let pair = [hollandName_1, hollandName_2].sort().join("-");
+
+        if (pair == ["Gerçekçi", "Girişimci"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_1_2;
+        } else if (pair == ["Gerçekçi", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_2_2;
+        } else if (pair == ["Gerçekçi", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_3_2;
+        } else if (pair == ["Gerçekçi", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_4_2;
+        } else if (pair == ["Gerçekçi", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_5_2;
+        } else if (pair == ["Girişimci", "Geleneksel"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_6_2;
+        } else if (pair == ["Girişimci", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_7_2;
+        } else if (pair == ["Girişimci", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_8_2;
+        } else if (pair == ["Girişimci", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_9_2;
+        } else if (pair == ["Geleneksel", "Sosyal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_10_2;
+        } else if (pair == ["Geleneksel", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_11_2;
+        } else if (pair == ["Geleneksel", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_12_2;
+        } else if (pair == ["Sosyal", "Artistik Sanatsal"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_13_2;
+        } else if (pair == ["Sosyal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_14_2;
+        } else if (pair == ["Artistik Sanatsal", "Araştırıcı"].sort().join("-")) {
+          return kslk_ozl_eng_ozet_15_2;
+        }
       }
     }
-  }
+} 
 
   let krktr_ozl = (big5Name, age, type, lang) => {
     if(lang == "Tr") {
@@ -19506,4 +19625,4 @@ var decision_strategy_eng_ozet_11_2 = "";
   const jsonString = JSON.stringify(inputs_25_plus)
 
   return inputs_25_plus;
-};
+}
