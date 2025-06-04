@@ -1074,22 +1074,32 @@ var c_o_s_objective_ozet_2 = "Tarafsızlık ve çevresel farkındalık senin gü
 var c_o_s_individual_eng_title = "Individual"
 var c_o_s_individual_eng = "With Independent Assimilation, you carry the unique capability to process information and work autonomously. Your demeanor is marked by an innate sense of completeness, needing no external confirmation to feel secure in your understanding and actions. Your focus allows you to digest and assimilate information swiftly, giving you the edge in rapidly evolving situations. This fast-paced cognitive approach enables you to act decisively, making you a valuable asset in high-stakes environments where time is of the essence.\n\nWith your consistent and independent way of processing, you could move fast. While your ability to process rapidly is a strength, it's vital to temper it with patience. The world often operates on collective rhythms that require synchronization. Slowing down allows others to catch up to your pace, ensuring that when you act on your insights, the timing is aligned with both individual and organizational readiness.";
 var c_o_s_individual_eng_s3 = "• How confident are you in making decisions, and how much do you rely on external approval?\n\n• When making quick decisions, how can you be patient to allow others to keep up with your pace?\n\n• Processing information quickly is your natural talent, but in which situations do you recognize the need to slow down and think more deeply?\n\n• How can you make more room for different perspectives when collaborating with your team?\n\n• When working independently, how can you maintain a balanced approach without overlooking potential contributions from others?";
+var c_o_s_individual_eng_ozet_1 = "Your Work Style: Independent";
+var c_o_s_individual_eng_ozet_2 = "You have a structure that can process information quickly and on your own. While your ability to think and act quickly is strong, adapting to the rhythm of others from time to time can be important for long-term success. While maintaining your independence, incorporating different perspectives within the team can bring you deeper and more impactful results.";
 
 var c_o_s_collaborative_eng_title = "Collaborative";
 var c_o_s_collaborative_eng = "With your Collaborative Assimilation, being around others is when you really shine. It's about the energy and ideas that start flowing when you're working together with others, your natural energy is amplified in partnership. You are not just sharing thoughts; working with another person or the group setting itself helps to bring out the best in you. It's like being in collaboration or part of a team gives you a power-up, boosting your own natural abilities and thoughts. This makes you good at working with others because when everyone's together, your ability to understand and work through information really takes off.\n\nYou might sometimes feel a sense of not being able to get through things when working alone. This isn’t a deficiency but a signal that your full potential is unlocked through collaboration. The presence of others completes the circuit of your processing power, catalyzing your ability to assimilate and synthesize information.\n\nIn learning or business settings, forming partnerships can be particularly beneficial for you. It's not about dependency but about the vibrant exchange that occurs when you share a creative space with others. The depth of your insight is expanded as you naturally attract partners whose skills and strengths complement your own.\n\nYour style may require more time to digest and process information thoroughly. This allows you to explore subjects deeply and consider various facets of a problem or opportunity. Here is the big advantage to your approach: when you do fully understand something, it's because you've looked at it from different angles. This doesn't just mean you 'get it'—it means you really know it inside and out, often better than most. This deep understanding you develop is a superpower in the world. It means that when you're ready to move forward with a decision or a project, you're doing so with a solid foundation and a thorough grasp of the details.\n\nSimply being in a dynamic environment — whether it's a learning environment, a bustling office or a public meeting place — can serve as a catalyst for your assimilation process. The ambient energy of these spaces acts as a stimulant for your cognitive faculties, enabling you to process information with heightened acuity. By harnessing the energy of collaborative spaces and the natural inclination to work with others, you can thrive in business.";
 var c_o_s_collaborative_eng_s3 = "• When gathering information from multiple sources, how can you process it more patiently?\n\n• How does your energy increase when interacting with different people?\n\n• What can you do to use this energy more effectively in your work life?\n\n• Instead of rushing your decisions, do you give yourself enough time to reflect and consider different perspectives?\n\n• How do you balance and integrate your strengths in various roles? How can you further develop yourself to better understand and leverage the contributions of diversity in your work processes?";
+var c_o_s_collaborative_eng_ozet_1 = "Your Work Style: Collaborative";
+var c_o_s_collaborative_eng_ozet_2 = "When you work with others, your energy increases and your thinking power deepens. As you shine in team environments, sharing ideas and co-producing enriches your learning process. The vibrancy of your environment increases the speed of learning and provides a solid foundation for your decisions.";
 
 var c_o_s_synthesizing_eng_title = "Synthesizing";
 var c_o_s_synthesizing_eng = "With your Synthesizing Assimilation, your ability to integrate and make sense of diverse information sources is exceptional. You're at your best when you have the freedom to move and interact with various people, gathering bits of knowledge and perspectives like pieces of a puzzle that you're uniquely equipped to put together.\n\nYou thrive on change and variety, feeling most energized and healthy when your day includes interactions with a range of individuals across different settings. Being tied to the same environment or the same group can feel limiting, so it's important for you to seek out diverse experiences that keep you engaged and mentally stimulated. In learning, hearing from different sources will be helpful to yo.\n\nYour natural inclination might be to move quickly and make decisions impulsively due to your drive and ambition. However, the real magic of your assimilation style comes from synthesizing the information at hand—this requires patience. Allowing yourself time to fully integrate and understand the various inputs before acting will result in more well-rounded and effective outcomes.\n\nIt may often feel like you're playing three roles at once, each with its own desires and perspectives. While collaboration is beneficial for synthesizing diverse viewpoints, don't forget that you are also adept at working solo. Your ability to get through things on your own is an asset, providing you the flexibility to work in a variety of settings—whether it's in a buzzing office, library or the quiet of a private space.\n\nRemember, your Synthesizing Assimilation style is a potent combination of self-reliance and the ability to merge insights from various sources, making you a dynamic and versatile asset in any context.";
 var c_o_s_synthesizing_eng_s3 = "• How much do you notice your energy rising when working with others, and how can you channel this into your projects?\n\n• What challenges do you face when working alone, and how can you better motivate yourself in these situations?\n\n• How do you make room for others’ perspectives in collaborative environments, and how can this process lead to richer insights?\n\n• When processing information, do you notice how interacting with others can accelerate your thinking process?\n\n• How can you make more effective use of others’ energy and ideas during your decision-making process?";
+var c_o_s_synthesizing_eng_ozet_1 = "Your Working Style: Synthesizing";
+var c_o_s_synthesizing_eng_ozet_2 = "You have an innate ability to take information from different sources and combine it. You perform best in variable and dynamic environments. Giving yourself time before synthesizing information allows you to present your multifaceted perspective in a more balanced and effective way.";
 
 var c_o_s_subjective_eng_title = "Subjective";
 var c_o_s_subjective_eng = "With Subjective Assimilation, you have a particular and fixed way of processing information. It's a deeply personal and subjective method, rooted in your own experiences. You might seem less flexible to others, but that’s because your assimilation process is uniquely yours. You naturally interpret information through the lens of your personal viewpoint, leading to a distinct way of understanding the world around you.\n\nYour approach may seem selective, and that’s because you know the importance of boundaries and the value of deep connections. You might find yourself naturally gravitating towards certain individuals, forming close and trusted circles. This preference for depth over breadth in your relationships can sometimes be mistaken for playing 'favorites,' but it's a reflection of your need for genuine connections.\n\nYou might feel out of place in small group settings that require frequent adaptation, as your best work often comes from the freedom to interact with a diverse range of people and situations. This need for diversity isn’t about quantity; it's about giving you varied perspectives that enrich your subjective analysis.\n\nRushed decisions are not your forte because you require the space to process information at your own rhythm. This time allows you to fully incorporate new knowledge into your existing framework, ensuring that any decisions you make are grounded in a thorough personal understanding.\n\nIt's essential for your wellbeing to move at your own pace, not to feel pressured to meet others' expectations or timelines. Forcing yourself to adapt to external pressures can be detrimental to your mental, physical, and emotional health. Instead, embracing your natural pace ensures that you remain true to your process, which is essential for your effectiveness and fulfillment in work and life.\n\nIn business or learning environments, your Subjective Assimilation is a strength that can lead to innovative and deeply thought-out solutions. You provide a unique voice and perspective that can add significant value to discussions and projects. By honoring your personal processing style, you contribute to a more diverse and rich tapestry of insights in any endeavor.";
 var c_o_s_subjective_eng_s3 = "• How can you incorporate different perspectives while basing your decisions on your personal experiences?\n\n• How does your tendency to form deep and meaningful relationships benefit you in your work life?\n\n• What strategies do you use to give yourself time to absorb information and reflect on it?\n\n• How do you combine insights from different people with your own experiences, and how do you benefit from this integration?\n\n• How can you stay true to your natural rhythm while working under external pressures?";
+var c_o_s_subjective_eng_ozet_1 = "Your Work Style: Subjective";
+var c_o_s_subjective_eng_ozet_2 = "You make sense of information through the filter of personal experiences. You learn and make decisions best in environments where you establish deep bonds. Moving at your own pace brings you both a unique perspective and sustainable success.";
 
 var c_o_s_objective_eng_title = "Objective";
 var c_o_s_objective_eng = "With your Objective Assimilation, you have a gift for taking in information without bias, allowing you to share your findings in a way that's truly objective. Your approach to assimilating information involves sampling the environment, reflecting on what you encounter, and evaluating what you perceive with a clear and impartial view.\n\nYour unique capability to sense the overall health of an environment or the emotional climate of your team is valuable. You naturally pick up on subtle cues, giving you an objective sense of whether a situation is thriving or if there are underlying issues that need addressing.\n\nWith a keen sense for authenticity, you can intuitively sense when people around you are being genuine or if they’re not aligned with their true selves. This skill enables you to navigate any landscape with an understanding of who you can trust.\n\nYour openness allows you to act almost like a mirror, reflecting to people and groups the reality of their actions and choices, especially when they might be causing harm or injustice. This can make you a powerful agent for change, as you help those around you to see things more clearly and make adjustments that benefit everyone. As an Evaluator with Objective Assimilation, everything you experience is processed with the aim of understanding and evaluating it without personal filters. This wide-open approach doesn't mean you're affected by everything; rather, you can let information pass through you, giving you a clear perspective that others might miss.\n\nIn learning environments or professional settings, your capacity for objective evaluation means you can offer unbiased insights and guidance. Whether it's assessing the viability of a new project or gauging the mood of a potential partnership, your evaluations are based on clear, unclouded observations. Your role is crucial in helping groups stay true to their missions and operate in healthy, authentic ways.\n\nBy leveraging your Objective Assimilation style, you contribute a much-needed perspective in the world, ensuring decisions are made based on a true and fair assessment of the available information.";
 var c_o_s_objective_eng_s3 = "• How do you reflect your impartial observations of what’s happening around you into your work life?\n\n• How do you respond when you sense people's sincerity or lack of alignment, and how do you use this insight?\n\n• How can you make work processes more efficient by leveraging your ability to sense the emotional and physical health of your environment?\n\n• Acting like a mirror at work, what kind of awareness do you bring to others, and how do you think you create change through this process?\n\n• How does your impartial assessment help ensure that your organization stays true to its mission?";
+var c_o_s_objective_eng_ozet_1 = "Your Work Style: Objective";
+var c_o_s_objective_eng_ozet_2 = "Neutrality and environmental awareness are among your strengths. You can evaluate the information without prejudice and easily sense the emotional and structural balance of the environment you are in. This objective approach allows you to make clear decisions in the business world and see things that others don't.";
 
 //Kariyer Seçim
 //12-25
@@ -3947,6 +3957,37 @@ var krktr_ozl_eng_other_attributes_emotional_stability_s2 = "Composure (calm)\nA
 var krktr_ozl_eng_12_25_emotional_stability_questions = "• When I manage to stay calm during challenging moments, how do I progress in my classes? How can I use this emotional resilience more during exam stress?\n\n• When I make mistakes, what approach do I take to learn from them? How can I make this learning process more effective in my school life?\n\n• After overcoming a difficult situation, how do I feel stronger? How can I use this resilience more in my everyday school life?";
 var krktr_ozl_eng_25_plus_emotional_stability_questions = "• What results do I achieve when I manage to stay calm in stressful situations at work? How can I use this emotional resilience more effectively during busy work periods?\n\n• When I make mistakes, how do I learn from them? What can I do to make my learning process more efficient in my professional life?\n\n• After completing a challenging project, how do I feel stronger? How can I use this resilience more to ensure continuous success in my work?";
 
+//özet
+var krktr_ozl_eng_ozet_1_1 = "You Are Extroverted and Adaptable";
+var krktr_ozl_eng_ozet_1_2 = "You have a social, friendly nature that attaches importance to human relations. Just as you love to communicate with people, you also care about being adaptable and supportive.";
+
+var krktr_ozl_eng_ozet_2_1 = "You Are Extroverted and Responsible";
+var krktr_ozl_eng_ozet_2_2 = "You have a personality that is both energetic and disciplined. While you work diligently to achieve your goals, you also find social situations motivating.";
+
+var krktr_ozl_eng_ozet_3_1 = "You Are Open to Extraversion and Experience";
+var krktr_ozl_eng_ozet_3_2 = "You like to explore, have new experiences, and interact with people. Your curiosity and energy encourage you to constantly improve.";
+
+var krktr_ozl_eng_ozet_4_1 = "You Are Extroverted and Emotionally Balanced";
+var krktr_ozl_eng_ozet_4_2 = "You are positive, energetic and emotionally balanced. When faced with challenges, you stay optimistic and use social support effectively.";
+
+var krktr_ozl_eng_ozet_5_1 = "You Are Compliant and Responsible";
+var krktr_ozl_eng_ozet_5_2 = "You have a personality that is both reliable and cooperative. Just as you like to help people, you act in an orderly and responsible manner.";
+
+var krktr_ozl_eng_ozet_6_1 = "You Are Adaptable and Open to Experience";
+var krktr_ozl_eng_ozet_6_2 = "While you have good relationships with people, you are open to new ideas and different perspectives. You have a perspective that is both harmonious and innovative.";
+
+var krktr_ozl_eng_ozet_7_1 = "You Are Harmonious and Emotionally Balanced";
+var krktr_ozl_eng_ozet_7_2 = "You have a structure that cares about being calm, peaceful and in harmony with people. Not only are you emotionally balanced, but you are also someone who reassures others.";
+
+var krktr_ozl_eng_ozet_8_1 = "You Are Responsible and Open to Experience";
+var krktr_ozl_eng_ozet_8_2 = "You are a person who is both planned and willing to learn. As you like to work in a disciplined manner, you constantly improve yourself thanks to your openness to new ideas.";
+
+var krktr_ozl_eng_ozet_9_1 = "You Are Responsible and Emotionally Balanced";
+var krktr_ozl_eng_ozet_9_2 = "You are disciplined, determined, and emotionally stable. You meticulously fulfill your responsibilities while remaining calm in the face of difficulties.";
+
+var krktr_ozl_eng_ozet_10_1 = "You Are Open to Experience and Emotionally Balanced";
+var krktr_ozl_eng_ozet_10_2 = "You have a flexible and emotionally balanced personality that is open to innovations. As you adapt to change, you act while maintaining your peace of mind.";
+
 
 //Yapay Zeka Çağı Yetkinliklerin
 //12-25
@@ -4308,30 +4349,40 @@ var lifestyle_12_25_eng_manifesting_generator_1 = "In everything you do, both at
 var lifestyle_12_25_eng_manifesting_generator_2 = "The more you trust your instincts and wait for the right moment, the more satisfying and enjoyable life becomes. You can think of yourself like a magnet, noticing how your energy naturally attracts opportunities to you.";
 var lifestyle_12_25_eng_manifesting_generator_3 = "When you respond to what life offers you, you’ll see that everything flows naturally and easily. The energy within you is a force that guides you in the right direction and helps you get better at what you want to do. You can tell you're on the right path when things are going smoothly and you feel satisfied inside.\n\nBecause you’re such an energetic person, you should avoid saying ‘yes’ to things that don’t really interest or make you happy. Your gut feeling will guide you in the right direction. The secret to success in life is to wait for the right moment without rushing and respond to the opportunities that come your way. Before letting others tell you what to do, listen to your own inner gut feeling first.\n\nYou weren’t born to be boring or just do the same old things. Keep creating, keep doing, and always trust the strong energy inside you.";
 var lifestyle_12_25_eng_manifesting_generator_motto = "Your motto for life satisfaction: Love what you do and do what you love!";
+var lifestyle_manifesting_generator_eng_ozet_1 = "Your Lifestyle: Energetic";
+var lifestyle_manifesting_generator_eng_ozet_2 = "Your energy is strong, versatile, and productive. You have an innate ability to act quickly when life offers you something, and to turn to the right job at the right time. When you listen to your instincts and focus on work that truly satisfies you, both productivity and inner fulfillment become possible for you.";
 
 var lifestyle_12_25_eng_generator_name = "Energetic";
 var lifestyle_12_25_eng_generator_1 = "You have a unique, special energy in everything you do, whether at school or in your activities. You’re great at getting things done, building things, and making improvements. When you focus your energy on the things you love, you can enjoy a great night’s sleep and wake up ready to start the next day with awesome energy.\n\nThe key to feeling good in life isn’t just working hard or putting in lots of effort; it’s about using your energy smartly and effectively. What you do is important for your happiness and well-being. Inside you is a powerful source of energy that helps you take action and create things. The more you do what you love, the more your energy will grow.";
 var lifestyle_12_25_eng_generator_2 = "The more you trust your instincts and wait for the right moment, the more satisfying and enjoyable life becomes. You can think of yourself like a magnet, noticing how your energy naturally attracts opportunities to you.";
 var lifestyle_12_25_eng_generator_3 = "When you respond to what life offers you, you’ll see that everything flows naturally and easily. The energy inside you is a force that guides you in the right direction and helps you get better at what you want to do. You can tell you're on the right path when things are going smoothly and you feel satisfied inside.\n\nBecause you’re so energetic, you should avoid saying ‘yes’ to things that don’t really interest or make you happy. Your gut feeling will guide you in the right direction. The secret to success in life is to wait for the right moment without rushing and respond to the opportunities that come your way. Before letting others tell you what to do, listen to your own inner gut feeling first.\n\nYou weren’t born to be boring or just do the same old things. Keep creating, keep doing, and always trust the strong energy inside you.";
 var lifestyle_12_25_eng_generator_motto = "Your motto for life satisfaction: Love what you do and do what you love!";
+var lifestyle_generator_eng_ozet_1 = "Your Lifestyle: Energetic";
+var lifestyle_generator_eng_ozet_2 = "Your inner energy is based on continuous production and contribution. When you focus on the work that really satisfies you, you can move forward with sustainable power in long-term projects. Moving forward by responding to what life throws at you promotes inner peace and a sense of accomplishment.";
 
 var lifestyle_12_25_eng_projektor_name = "Guide";
 var lifestyle_12_25_eng_projektor_1 = "When people around you notice your talents, you shine at bringing others together, organizing, and leading them. Just like a conductor of an orchestra, you can make sure everyone moves in harmony.\n\nYou have the potential to be an excellent organizer, manager, connector, or problem solver. Using your energy efficiently and guiding others is something you’re capable of.\n\nYou can get inspired by the energy of those around you and make it even stronger. But if you don’t manage your energy well, you might feel really tired and worn out later on. So remember to take breaks and rest because your health is more important than anything else.";
 var lifestyle_12_25_eng_projektor_2 = "Waiting for the right time and for invitations that match your talents is the key to success. This helps you use your energy and abilities in the best way possible. You should be careful when accepting opportunities that come your way. During this process, trust your inner voice and instincts.";
 var lifestyle_12_25_eng_projektor_3 = "You have a special energy that attracts people and opportunities to you. Being able to focus on one person at a time allows you to build very personal and meaningful relationships. You might be more mature and wise compared to your peers, seeing the bigger picture. When you share your thoughts without being asked, others might see it as being a know-it-all or misunderstand you. It’s important to share your wisdom when you’re invited to do so, as this helps with clear communication.\n\nWhen your talents, skills, and unique way of seeing the world are recognized, and you receive invitations for the right opportunities, it means you’re on the path to reaching your true potential. For you, success is about choosing people and opportunities that truly understand and value your knowledge and intelligence.";
 var lifestyle_12_25_eng_projektor_motto = "You can be a wise and intelligent guide for those around you. Share your wisdom only with those who invite you to do so.";
+var lifestyle_projektor_eng_ozet_1 = "Your Lifestyle: Initiator";
+var lifestyle_projektor_eng_ozet_1 = "It's in your nature to take action and not be afraid to take the first step. By having the courage and independence to bring your own vision to life, you inspire those around you. You can build strong and healthy relationships with the practice of informing before taking action.";
 
 var lifestyle_12_25_eng_manifestor_name = "Initator";
 var lifestyle_12_25_eng_manifestor_1 = "When people around you notice your talents, you shine at bringing others together, organizing, and leading them. Just like a conductor of an orchestra, you can make sure everyone moves in harmony.\n\nYou have the potential to be an excellent organizer, manager, connector, or problem solver. Using your energy efficiently and guiding others is something you’re capable of.\n\nYou can get inspired by the energy of those around you and make it even stronger. But if you don’t manage your energy well, you might feel really tired and worn out later on. So remember to take breaks and rest because your health is more important than anything else.";
 var lifestyle_12_25_eng_manifestor_2 = "Waiting for the right time and for invitations that match your talents is the key to success. This helps you use your energy and abilities in the best way possible. You should be careful when accepting opportunities that come your way. During this process, trust your inner voice and instincts.";
 var lifestyle_12_25_eng_manifestor_3 = "You have a special energy that attracts people and opportunities to you. Being able to focus on one person at a time allows you to build very personal and meaningful relationships. You might be more mature and wise compared to your peers, seeing the bigger picture. When you share your thoughts without being asked, others might see it as being a know-it-all or misunderstand you. It’s important to share your wisdom when you’re invited to do so, as this helps with clear communication.\n\nWhen your talents, skills, and unique way of seeing the world are recognized, and you receive invitations for the right opportunities, it means you’re on the path to reaching your true potential. For you, success is about choosing people and opportunities that truly understand and value your knowledge and intelligence.";
 var lifestyle_12_25_eng_manifestor_motto = "You can be a wise and intelligent guide for those around you. Share your wisdom only with those who invite you to do so.";
+var lifestyle_manifestor_eng_ozet_1 = "Your Lifestyle: Guide";
+var lifestyle_manifestor_eng_ozet_2 = "Your natural ability is to see the potential of others and guide them in the right way. When you are recognized by the right people in the right environment, you demonstrate impressive leadership. The key to success is to wait for invitations and use your energy wisely.";
 
 var lifestyle_12_25_eng_reflektor_name = "Evaluator";
 var lifestyle_12_25_eng_reflektor_1 = "In the right environment, your ability to evaluate people, groups, and events in an impartial way can make you stand out. Your perspective is very special, giving you the chance to analyze things correctly and gain a broad perspective.\n\nYou have a great talent for accepting others and noticing what’s not going well, guiding them towards cooperation, peace and fairness. When you are at the center of a group or community, it’s the perfect time to move freely and show how everything works.\n\nYou can be very effective in teaching those around you the value of differences and showing the importance of embracing diversity.";
 var lifestyle_12_25_eng_reflektor_2 = "You have the ability to reflect everything and everyone around you by offering an objective perspective. Your presence can be described by silence, kindness, and not being intrusive. You reflect the environment as a whole, and others might find it hard to fully understand who you are.";
 var lifestyle_12_25_eng_reflektor_3 = "You shouldn't rush when making decisions. Focus on important matters and talk to people you trust. When spending time with friends, avoid being in the wrong environments or trying to fit in with everyone. Be careful not to become too dependent on others or ignore your own feelings.\n\nYou might want to start things or push through, but sometimes this can lead to resistance or disappointment from others. Try not to get caught up in other people’s fears, worries, or stress. Maintain a healthy distance with your friends, and stay away from making hasty decisions or feeling pressured.\n\nIt’s very important for you to be in environments that are right for you in order to make the right choices and be happy. This is because you are someone who can sense and reflect the energy of your surroundings. The environment, both in your social circle and personal space, always matters to you.";
 var lifestyle_12_25_eng_reflektor_motto = "You’re here to bring a unique perspective to the world. Make sure that the environment you’re in is right for you!";
+var lifestyle_reflektor_eng_ozet_1 = "Your Lifestyle: Reflective";
+var lifestyle_reflektor_eng_ozet_2 = "You have a rare perspective that deeply feels and reflects the energy of the environment. When you're in the right environment, you can provide unbiased and wise insights to communities. Making decisions in accordance with your own rhythm without rushing is the healthiest way for you to progress.";
 
 //gücünü kullan 12-25
 var lifestyle_12_25_eng_manifesting_generator_question_name = "Energetic";
@@ -4982,7 +5033,6 @@ var decision_strategy_eng_ozet_11_2 = "";
   }
   };
 
-  
   let kslk_ozl_ozet = (hollandName_1, hollandName_2, age, type) => {
     if (lang == "Tr") {
       if (type == "ozet_1") {
@@ -5308,6 +5358,7 @@ var decision_strategy_eng_ozet_11_2 = "";
   };
 
   let krktr_ozl_ozet = (big5Name_1, big5Name_2, age, type) => {
+    if (lang == "Tr") {
     if (type == "ozet_1") {
       let pair = [big5Name_1, big5Name_2].sort().join("-");
   
@@ -5357,7 +5408,58 @@ var decision_strategy_eng_ozet_11_2 = "";
         return krktr_ozl_ozet_10_2;
       }
     }
+  } else if (lang == "En") {
+    if (type == "ozet_1") {
+      let pair = [big5Name_1, big5Name_2].sort().join("-");
+  
+      if (pair == ["Dışa Dönüklük", "Uyumluluk"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_1_1;
+      } else if (pair == ["Dışa Dönüklük", "Öz Disiplin"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_2_1;
+      } else if (pair == ["Dışa Dönüklük", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_3_1;
+      } else if (pair == ["Dışa Dönüklük", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_4_1;
+      } else if (pair == ["Uyumluluk", "Öz Disiplin"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_5_1;
+      } else if (pair == ["Uyumluluk", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_6_1;
+      } else if (pair == ["Uyumluluk", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_7_1;
+      } else if (pair == ["Öz Disiplin", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_8_1;
+      } else if (pair == ["Öz Disiplin", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_9_1;
+      } else if (pair == ["Deneyime Açıklık", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_10_1;
+      }
+    } else if (type == "ozet_2") {
+      let pair = [big5Name_1, big5Name_2].sort().join("-");
+  
+      if (pair == ["Dışa Dönüklük", "Uyumluluk"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_1_2;
+      } else if (pair == ["Dışa Dönüklük", "Öz Disiplin"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_2_2;
+      } else if (pair == ["Dışa Dönüklük", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_3_2;
+      } else if (pair == ["Dışa Dönüklük", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_4_2;
+      } else if (pair == ["Uyumluluk", "Öz Disiplin"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_5_2;
+      } else if (pair == ["Uyumluluk", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_6_2;
+      } else if (pair == ["Uyumluluk", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_7_2;
+      } else if (pair == ["Öz Disiplin", "Deneyime Açıklık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_8_2;
+      } else if (pair == ["Öz Disiplin", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_9_2;
+      } else if (pair == ["Deneyime Açıklık", "Duygusal Dayanıklılık"].sort().join("-")) {
+        return krktr_ozl_eng_ozet_10_2;
+      }
+    }
   }
+}
   
   let ai = (aiName, age, type, lang) => {
     if (lang == "Tr") {
@@ -6155,27 +6257,27 @@ var decision_strategy_eng_ozet_11_2 = "";
         }
       } else if (type == "ozet_1") {
         if (lifestyleData == "Manifesting Generator") {
-          return lifestyle_manifesting_generator_ozet_1;
+          return lifestyle_manifesting_generator_eng_ozet_1;
         } else if (lifestyleData == "Generator") {
-          return lifestyle_generator_ozet_1;;
+          return lifestyle_generator_eng_ozet_1;;
         } else if (lifestyleData == "Projector") {
-          return lifestyle_projektor_ozet_1;
+          return lifestyle_projektor_eng_ozet_1;
         } else if (lifestyleData == "Manifestor") {
-          return lifestyle_manifestor_ozet_1;
+          return lifestyle_manifestor_eng_ozet_1;
         } else if (lifestyleData == "Reflector") {
-          return lifestyle_reflektor_ozet_1; 
+          return lifestyle_reflektor_eng_ozet_1; 
         }
       } else if (type == "ozet_2") {
         if (lifestyleData == "Manifesting Generator") {
-          return lifestyle_manifesting_generator_ozet_2;
+          return lifestyle_manifesting_generator_eng_ozet_2;
         } else if (lifestyleData == "Generator") {
-          return lifestyle_generator_ozet_2;;
+          return lifestyle_generator_eng_ozet_2;;
         } else if (lifestyleData == "Projector") {
-          return lifestyle_projektor_ozet_2;
+          return lifestyle_projektor_eng_ozet_2;
         } else if (lifestyleData == "Manifestor") {
-          return lifestyle_manifestor_ozet_2;
+          return lifestyle_manifestor_eng_ozet_2;
         } else if (lifestyleData == "Reflector") {
-          return lifestyle_reflektor_ozet_2; 
+          return lifestyle_reflektor_eng_ozet_2; 
         }
       } 
     }
@@ -6560,27 +6662,27 @@ var decision_strategy_eng_ozet_11_2 = "";
         }
       } else if (type == "ozet_1") {
         if (worklearnData == "No Definition") {
-          return c_o_s_objective_ozet_1;
+          return c_o_s_objective_eng_ozet_1;
         } else if (worklearnData == "Single Definition") {
-          return c_o_s_individual_ozet_1;
+          return c_o_s_individual_eng_ozet_1;
         } else if (worklearnData == "Split Definition") {
-          return c_o_s_collaborative_ozet_1;
+          return c_o_s_collaborative_eng_ozet_1;
         } else if (worklearnData == "Triple Split Definition") {
-          return c_o_s_synthesizing_ozet_1;
+          return c_o_s_synthesizing_eng_ozet_1;
         } else if (worklearnData == "Quadruple Split Definition") {
-          return c_o_s_subjective_ozet_1;
+          return c_o_s_subjective_eng_ozet_1;
         }
       } else if (type == "ozet_2") {
         if (worklearnData == "No Definition") {
-          return c_o_s_objective_ozet_2;
+          return c_o_s_objective_eng_ozet_2;
         } else if (worklearnData == "Single Definition") {
-          return c_o_s_individual_ozet_2;
+          return c_o_s_individual_eng_ozet_2;
         } else if (worklearnData == "Split Definition") {
-          return c_o_s_collaborative_ozet_2;
+          return c_o_s_collaborative_eng_ozet_2;
         } else if (worklearnData == "Triple Split Definition") {
-          return c_o_s_synthesizing_ozet_2;
+          return c_o_s_synthesizing_eng_ozet_2;
         } else if (worklearnData == "Quadruple Split Definition") {
-          return c_o_s_subjective_ozet_2;
+          return c_o_s_subjective_eng_ozet_2;
         }
       }
     }
